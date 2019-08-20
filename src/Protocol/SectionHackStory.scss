@@ -1,5 +1,26 @@
-
 @charset "utf-8";
 
 @import "../Variables.scss";
 
+.section-hack-stories {
+
+    h2 {
+        font-size: $body-size !important;
+        font-weight: 400 !important;
+        text-decoration: underline;
+        text-underline-position: under;
+        color: $body-color;
+        padding-bottom: $body-size !important;
+    }
+
+    a {
+        text-decoration: underline;
+        text-underline-position: under;
+    }
+
+
+    .content {
+        text-align: justify;
+    }
+
+}

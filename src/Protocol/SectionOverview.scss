@@ -1,24 +1,16 @@
-
-
 @charset "utf-8";
-
 @import "../Variables.scss";
 
+.section-overview {
+    h2 {
+        font-size: $body-size !important;
+        font-weight: 400 !important;
+        text-decoration: underline;
+        text-underline-position: under;
+        color: $body-color;
+        padding-bottom: $body-size !important;
+    }
 
-
-h1,
-h2 {
-    font-size: $body-size !important;
-    font-weight: 400 !important;
-    text-decoration: underline;
-    text-underline-position: under;
-    color: $body-color;
-    padding-bottom: $body-size !important;
-}
-
-
-
-.content {
     a {
         text-decoration: underline;
         text-underline-position: under;
@@ -27,26 +19,15 @@ h2 {
     a:hover {
         background-image: url("https://ethereum.org/assets/img/highlight.22a66491.svg") !important;
         background-repeat: no-repeat;
+    }
+
+    .content {
+        text-align: justify;
 
     }
-}
-
-.column>.content {
-    text-align: justify;
-}
-
-img {
-    user-select: none;
-    // filter:sepia(100%),grayscale(50%), hue-rotate(10deg);
-    // filter:
-}
 
 
-.has-code-background {
-    background-image: url("$PUBLIC$/images/codebg.png") !important;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 100%;
-    // background-origin: content-box;
-    // height:1024px;
+    img {
+        user-select: none;
+    }
 }

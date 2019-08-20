@@ -4,11 +4,11 @@ import './SectionOverview.scss';
 class SectionOverview extends React.Component {
   render() {
     return (
-      <section className="section is-large">
+      <section className="section is-large section-overview">
         <div className="container">
           <div className="columns is-multiline">
             <div className="column is-4">
-              <h1>Design Objectives</h1>
+              <h2>Design Objectives</h2>
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                 commodo ligula eget dolor. Aenean massa. Cum sociis natoque
@@ -50,7 +50,7 @@ class SectionOverview extends React.Component {
               </figure>
             </div>
             <div className="column is-4">
-              <h1>Security</h1>
+              <h2>Security</h2>
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                 commodo ligula eget dolor. Aenean massa. Cum sociis natoque
@@ -82,7 +82,7 @@ class SectionOverview extends React.Component {
               </div>
             </div>
             <div className="column is-4">
-              <h1>Performance</h1>
+              <h2>Performance</h2>
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                 commodo ligula eget dolor. Aenean massa. Cum sociis natoque
