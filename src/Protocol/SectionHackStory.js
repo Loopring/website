@@ -4,21 +4,25 @@ import './SectionHackStory.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faUserSecret} from '@fortawesome/free-solid-svg-icons';
 
-const API = 'https://hn.algolia.com/api/v1/s';
+const API =
+  'https://raw.githubusercontent.com/dong77/website/master/public/hacks_en.json?token=AANBQB75SJEGNIPMDHEIHBK5LQPWA';
 
 class SectionHackStory extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      stories: [{title: 'afdf', detail: 'fdafaf', date: 'aaaa'}],
+      title: '...',
+      stories: [],
     };
   }
 
   componentDidMount() {
     fetch(API)
         .then((response) => response.json())
-        .then((data) => this.setState({stories: data.stories}));
+        .then((data) =>
+          this.setState({title: data.title, stories: data.stories})
+        );
   }
 
   render() {
@@ -29,9 +33,7 @@ class SectionHackStory extends React.Component {
             <div className="column is-12 has-text-centered">
               <FontAwesomeIcon icon={faUserSecret} size="3x" />
 
-              <h2 className="title">
-                $10000000000 hack reportedly, and counting...
-              </h2>
+              <h2 className="title">{this.state.title}</h2>
             </div>
           </div>
           <div className="columns is-multiline">
