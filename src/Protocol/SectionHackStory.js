@@ -12,7 +12,7 @@ class SectionHackStory extends React.Component {
     super(props);
 
     this.state = {
-      title: 'loading...',
+      title: '...',
       stories: [],
     };
   }
@@ -33,7 +33,7 @@ class SectionHackStory extends React.Component {
             <div className="column is-12 has-text-centered">
               <FontAwesomeIcon icon={faUserSecret} size="3x" />
 
-              <h2 className="title">{title}</h2>
+              <h2 className="title">{this.state.title}</h2>
             </div>
           </div>
           <div className="columns is-multiline">
