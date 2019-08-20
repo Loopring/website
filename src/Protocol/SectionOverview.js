@@ -1,7 +1,7 @@
 import React from 'react';
-import './Section1.scss';
+import './SectionOverview.scss';
 
-class Section1 extends React.Component {
+class SectionOverview extends React.Component {
   render() {
     return (
       <section className="section is-large">
@@ -117,4 +117,4 @@ class Section1 extends React.Component {
   }
 }
 
-export default Section1;
+export default SectionOverview;
