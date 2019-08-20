@@ -37,7 +37,7 @@ class SectionHackStory extends React.Component {
           </div>
           <div className="columns is-multiline">
             {this.state.stories.map((story) => (
-              <div className="column is-one-fifth">
+              <div className="column is-3">
                 <div className="content">
                   <h2>{story.title}</h2>
                   <i>{story.date}</i>

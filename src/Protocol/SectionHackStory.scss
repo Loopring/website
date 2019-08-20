@@ -4,7 +4,7 @@
 
 .section-hack-stories {
 
-    background-color: $black;//darken($primary, 15);
+    background-color: $black; //darken($primary, 15);
     color: $grey-lighter !important;
 
     h2 {
@@ -21,7 +21,7 @@
 
     a {
         text-decoration: underline;
-        text-underline-position: under;
+        // text-underline-position: under;
     }
 
 
@@ -29,7 +29,9 @@
         // border-left: solid 1px white;
         // padding-left: 20px;
         margin-top: 40px;
-         // text-align: justify;
+        // text-align: justify;
+        font-family: $family-content;
     }
+
 
 }

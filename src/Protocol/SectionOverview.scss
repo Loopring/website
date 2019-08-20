@@ -11,6 +11,10 @@
         padding-bottom: $body-size !important;
     }
 
+    .content {
+        font-family: $family-content;
+    }
+
     a {
         text-decoration: underline;
         text-underline-position: under;
