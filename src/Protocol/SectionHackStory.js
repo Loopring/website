@@ -4,8 +4,7 @@ import './SectionHackStory.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faUserSecret} from '@fortawesome/free-solid-svg-icons';
 
-const API =
-  'https://raw.githubusercontent.com/dong77/website/master/public/hacks_en.json?token=AANBQB75SJEGNIPMDHEIHBK5LQPWA';
+const API = './hacks_en.json';
 
 class SectionHackStory extends React.Component {
   constructor(props) {
@@ -38,11 +37,11 @@ class SectionHackStory extends React.Component {
           </div>
           <div className="columns is-multiline">
             {this.state.stories.map((story) => (
-              <div className="column is-2">
+              <div className="column is-one-fifth">
                 <div className="content">
                   <h2>{story.title}</h2>
                   <i>{story.date}</i>
-                  <p>{story.detail}}</p>
+                  <p>{story.detail}</p>
                 </div>
               </div>
             ))}

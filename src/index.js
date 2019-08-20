@@ -7,7 +7,7 @@ import Protocol from './Protocol';
 import CodeBase from './CodeBase';
 import LRC from './LRC';
 import Team from './Team';
-import Blog from './BLog';
+import Blog from './Blog';
 import NotFound from './NotFound';
 import * as serviceWorker from './serviceWorker';
 

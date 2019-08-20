@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './CodeBase.scss';
 
 import Header from './Header.js';

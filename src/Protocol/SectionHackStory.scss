@@ -4,7 +4,7 @@
 
 .section-hack-stories {
 
-    background-color: $black-ter;
+    background-color: $black;//darken($primary, 15);
     color: $grey-lighter !important;
 
     h2 {
@@ -29,6 +29,7 @@
         // border-left: solid 1px white;
         // padding-left: 20px;
         margin-top: 40px;
+         // text-align: justify;
     }
 
 }

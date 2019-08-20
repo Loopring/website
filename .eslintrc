@@ -27,6 +27,7 @@
         "require-jsdoc": 0,
         "no-undef": 0,
         "anchor-is-valid": 0,
+        "jsx-a11y/alt-text": 0,
         "no-restricted-globals": 1,
         "no-unused-expressions": 1,
         "max-len": 1
