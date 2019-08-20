@@ -5,6 +5,9 @@ import './index.scss';
 import Header from './Header.js';
 import Protocol from './Protocol';
 import CodeBase from './CodeBase';
+import LRC from './LRC';
+import Team from './Team';
+import Blog from './BLog';
 import NotFound from './NotFound';
 import * as serviceWorker from './serviceWorker';
 
@@ -14,7 +17,9 @@ const routing = (
       <Header />
       <Route path="/" exact component={Protocol} />
       <Route path="/codebase" component={CodeBase} />
-      <Route path="/contact" component={Protocol} />
+      <Route path="/lrc" component={LRC} />
+      <Route path="/team" component={Team} />
+      <Route path="/blog" component={Blog} />
       <Route component={NotFound} />
     </div>
   </Router>

@@ -3,6 +3,9 @@ import './Header.scss';
 
 import {Link} from 'react-router-dom';
 
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faEnvelope, faSquare} from '@fortawesome/free-solid-svg-icons';
+
 class Header extends React.Component {
   render() {
     return (
@@ -28,31 +31,24 @@ class Header extends React.Component {
           <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-start">
               <Link className="navbar-item" to="/">
-                Home
+                Protocol
               </Link>
               <Link className="navbar-item" to="/codebase">
-                Code
+                Codebase
               </Link>
-              <Link className="navbar-item" to="/">
-                Home
+              <Link className="navbar-item" to="/lrc">
+                LRC
               </Link>
-              <Link className="navbar-item" to="/">
-                Home
+              <Link className="navbar-item" to="/team">
+                Team
               </Link>
-              <Link className="navbar-item" to="/">
-                Home
-              </Link>
-              <Link className="navbar-item" to="/">
-                Home
+
+              <Link className="navbar-item" to="/blog">
+                Blog
               </Link>
             </div>
             <div className="navbar-end">
-              <span className="icon is-medium">
-                <span className="fa-stack">
-                  <i className="fas fa-square fa-stack-2x"></i>
-                  <i className="fas fa-paper-plane fa-stack-1x fa-inverse"></i>
-                </span>
-              </span>
+              <FontAwesomeIcon icon={faEnvelope} />
             </div>
           </div>
         </div>

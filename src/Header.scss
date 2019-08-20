@@ -1,17 +1,19 @@
 @import "./Variables.scss";
 
-* {
-    user-select: none;
-}
+.navbar {
+    * {
+        user-select: none;
+    }
 
-a:hover {
-    text-decoration: underline;
-}
+    a:hover {
+        text-decoration: underline;
+    }
 
-a:active {
-    text-underline-position: under;
-}
+    a:active {
+        text-underline-position: under;
+    }
 
-.navbar-start>.navbar-item:first-child {
-    padding-left: 0 !important;
+    .navbar-start>.navbar-item:first-child {
+        padding-left: 0 !important;
+    }
 }

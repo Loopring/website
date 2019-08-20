@@ -1,17 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
-import './NotFound.scss';
+import './LRC.scss';
 
 import Header from './Header.js';
 
-class NotFound extends React.Component {
+class LRC extends React.Component {
   render() {
     return (
       <div>
         <Header />
+        <div>CODE</div>
       </div>
     );
   }
 }
 
-export default NotFound;
+export default LRC;
