@@ -4,13 +4,16 @@
 
 .section-hack-stories {
 
+    background-color: $black-ter;
+    color: $grey-lighter !important;
+
     h2 {
+        color: $grey-lighter !important;
         font-size: $body-size !important;
         font-weight: 400 !important;
         text-decoration: underline;
         text-underline-position: under;
-        color: $body-color;
-        padding-bottom: $body-size !important;
+        // padding-bottom: $body-size !important;
     }
 
     a {
@@ -19,8 +22,13 @@
     }
 
 
+
+
+
     .content {
-        text-align: justify;
+        // border-left: solid 1px white;
+        // padding-left: 20px;
+        margin-top: 60px;
     }
 
 }

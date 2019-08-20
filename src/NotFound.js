@@ -9,7 +9,6 @@ class NotFound extends React.Component {
     return (
       <div>
         <Header />
-        <div>protocol</div>
       </div>
     );
   }
