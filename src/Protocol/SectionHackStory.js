@@ -4,14 +4,15 @@ import './SectionHackStory.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faUserSecret} from '@fortawesome/free-solid-svg-icons';
 
-const API = 'https://hn.algolia.com/api/v1/s';
+const API =
+  'https://raw.githubusercontent.com/dong77/website/master/public/hacks_en.json?token=AANBQB75SJEGNIPMDHEIHBK5LQPWA';
 
 class SectionHackStory extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      stories: [{title: 'afdf', detail: 'fdafaf', date: 'aaaa'}],
+      stories: [],
     };
   }
 
