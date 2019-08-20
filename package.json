@@ -10,7 +10,9 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "react-waterfall": "^4.0.4",
+    "waterfall": "^1.0.0"
   },
   "scripts": {
     "lint": "eslint 'src/**/*.{js,jsx}' --fix",

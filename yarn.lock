@@ -1838,6 +1838,11 @@ async-limiter@~1.0.0:
   resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
   integrity sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
 
+async@*:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/async/-/async-3.1.0.tgz#42b3b12ae1b74927b5217d8c0016baaf62463772"
+  integrity sha512-4vx/aaY6j/j3Lw3fbCHNWP0pPaTCew3F6F3hYyl/tHs/ndmV1q7NW9T5yuJ2XAGwdQrP+6Wu20x06U4APo/iQQ==
+
 async@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
@@ -9692,6 +9697,11 @@ react-scripts@3.1.1:
   optionalDependencies:
     fsevents "2.0.7"
 
+react-waterfall@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/react-waterfall/-/react-waterfall-4.0.4.tgz#85ff084624f1a50698beb099a252220e25f57f08"
+  integrity sha512-UIuR9Fmuv7sXupKOYhplRc6Hy8aC/TTQiibqY01dgG/UFHhi1X3+QPSL+9/4mi9CTEitAqkCgiPkpDT+lzqSUQ==
+
 react@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.9.0.tgz#40ba2f9af13bc1a38d75dbf2f4359a5185c4f7aa"
@@ -11539,6 +11549,13 @@ watchpack@^1.6.0:
     chokidar "^2.0.2"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
+
+waterfall@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/waterfall/-/waterfall-1.0.0.tgz#2ea30c745e81097a9016242d7f0c4c6caf86bae0"
+  integrity sha1-LqMMdF6BCXqQFiQtfwxMbK+GuuA=
+  dependencies:
+    async "*"
 
 wbuf@^1.1.0, wbuf@^1.7.3:
   version "1.7.3"
