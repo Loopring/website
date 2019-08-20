@@ -12,6 +12,7 @@ class SectionHackStory extends React.Component {
     super(props);
 
     this.state = {
+      title: 'loading...',
       stories: [],
     };
   }
@@ -19,7 +20,9 @@ class SectionHackStory extends React.Component {
   componentDidMount() {
     fetch(API)
         .then((response) => response.json())
-        .then((data) => this.setState({stories: data.stories}));
+        .then((data) =>
+          this.setState({title: data.title, stories: data.stories})
+        );
   }
 
   render() {
@@ -30,9 +33,7 @@ class SectionHackStory extends React.Component {
             <div className="column is-12 has-text-centered">
               <FontAwesomeIcon icon={faUserSecret} size="3x" />
 
-              <h2 className="title">
-                $10000000000 hack reportedly, and counting...
-              </h2>
+              <h2 className="title">{title}</h2>
             </div>
           </div>
           <div className="columns is-multiline">
