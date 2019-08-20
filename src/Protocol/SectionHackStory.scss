@@ -13,7 +13,10 @@
         font-weight: 400 !important;
         text-decoration: underline;
         text-underline-position: under;
-        // padding-bottom: $body-size !important;
+    }
+
+    .title {
+        padding: 20px;
     }
 
     a {
@@ -22,13 +25,10 @@
     }
 
 
-
-
-
     .content {
         // border-left: solid 1px white;
         // padding-left: 20px;
-        margin-top: 60px;
+        margin-top: 40px;
     }
 
 }

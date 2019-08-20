@@ -13,7 +13,7 @@ class SectionHackStory extends React.Component {
             <div className="column is-12 has-text-centered">
               <FontAwesomeIcon icon={faUserSecret} size="3x" />
 
-              <h2 className="has-text-white">
+              <h2 className="title">
                 $10000000000 hack reportedly, and counting...
               </h2>
             </div>
