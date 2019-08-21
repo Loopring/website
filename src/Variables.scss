@@ -2,7 +2,7 @@
 
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
-
+// @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
 
 @import "../node_modules/bulma/sass/utilities/initial-variables.sass";
 
@@ -26,7 +26,7 @@ $body-background-color: $white-bis;
 $family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $link: $black;
 
-$family-content: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$family-content:  "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // Navbar
 $navbar-item-color: $black;

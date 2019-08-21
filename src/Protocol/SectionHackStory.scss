@@ -4,34 +4,33 @@
 
 .section-hack-stories {
 
-    background-color: $black; //darken($primary, 15);
-    color: $grey-lighter !important;
+    &.active {
+        background-color: red!important;
+        color: $white!important;
+    }
 
     h2 {
-        color: $grey-lighter !important;
         font-size: $body-size !important;
         font-weight: 400 !important;
         text-decoration: underline;
         text-underline-position: under;
     }
 
-    .title {
-        padding: 20px;
+    .stories {
+        // padding-top: 80px;÷
+    }
+
+    .total-figure {
+        margin-top: 40px;
+        font-weitht: 700;
+    }
+
+    .total-figure-label {
+        color: $grey;
     }
 
     a {
         text-decoration: underline;
         // text-underline-position: under;
     }
-
-
-    .content {
-        // border-left: solid 1px white;
-        // padding-left: 20px;
-        margin-top: 40px;
-        // text-align: justify;
-        font-family: $family-content;
-    }
-
-
 }

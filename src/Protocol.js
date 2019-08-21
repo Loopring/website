@@ -13,7 +13,7 @@ class Protocol extends React.Component {
       <div>
         <Header />
         <SectionOverview />
-        <SectionMedia />
+        {/* <SectionMedia />*/}
         <SectionHackStory />
       </div>
     );

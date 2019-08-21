@@ -6,7 +6,7 @@ class Post extends React.Component {
   render() {
     return (
       <div className="tile is-child">
-        <div className="post">POST</div>
+        <div className="blog-post">POST</div>
       </div>
     );
   }
