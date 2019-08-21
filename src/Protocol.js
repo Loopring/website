@@ -3,19 +3,23 @@ import React from 'react';
 import './Protocol.scss';
 
 import Header from './Header.js';
-import SectionOverview from './Protocol/SectionOverview.js';
-import SectionHackStory from './Protocol/SectionHackStory.js';
-import SectionMedia from './Protocol/SectionMedia.js';
-import SectionOpensource from './Protocol/SectionOpensource.js';
+import Section1 from './Protocol/Section1.js';
+import Section2 from './Protocol/Section2.js';
+import Section3 from './Protocol/Section3.js';
+import Section4 from './Protocol/Section4.js';
+
+import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 
 class Protocol extends React.Component {
   render() {
     return (
       <div>
         <Header />
-        <SectionOverview />
-        <SectionOpensource />
-        <SectionHackStory />
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <Section4 />
       </div>
     );
   }

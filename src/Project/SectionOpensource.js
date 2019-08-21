@@ -4,7 +4,7 @@ import './SectionOpensource.scss';
 class SectionOpensource extends React.Component {
   render() {
     return (
-      <section className="section is-large section-opensource">
+      <section className="section is-large section-opensource has-background-blue">
         <div class="fixed-label is-hidden-mobile">100% open-source</div>
         <div className="container">
           <div className="columns is-centered">

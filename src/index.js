@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import {Route, BrowserRouter as Router} from 'react-router-dom';
 import './index.scss';
 import Header from './Header.js';
+import Project from './Project';
 import Protocol from './Protocol';
-import CodeBase from './CodeBase';
 import LRC from './LRC';
 import Team from './Team';
 import Blog from './Blog';
@@ -15,8 +15,8 @@ const routing = (
   <Router>
     <div>
       <Header />
-      <Route path="/" exact component={Protocol} />
-      <Route path="/codebase" component={CodeBase} />
+      <Route path="/" exact component={Project} />
+      <Route path="/protocol" component={Protocol} />
       <Route path="/lrc" component={LRC} />
       <Route path="/team" component={Team} />
       <Route path="/blog" component={Blog} />

@@ -39,10 +39,14 @@ $navbar-item-color: $black;
 $navbar-item-hover-color: $black;
 $navbar-item-hover-background-color: transparent;
 
-$very-light-background: transparentize($grayish-blue, 0.96);
+$very-light-background: transparentize($grayish-blue, 0.97);
 $image-overlay-background: $white;
 $image-overlay-foreground: $grayish-blue;
 
+
+.has-background-blue {
+    background-color: $very-light-background !important;
+}
 
 
 h1,
