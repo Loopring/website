@@ -2,7 +2,7 @@ import React from 'react';
 import './SectionHackStory.scss';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faUserSecret} from '@fortawesome/free-solid-svg-icons';
+import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
 
 const API = './hacks_en.json';
 
@@ -33,7 +33,7 @@ class SectionHackStory extends React.Component {
         <div className="container">
           <div className="columns">
             <div className="column is-3 has-text-left">
-              <FontAwesomeIcon icon={faUserSecret} size="3x" />
+              <FontAwesomeIcon icon={faRadiationAlt} size="5x" />
 
               <div className="total-figure">{this.state.title}</div>
               <div className="total-figure-label">
