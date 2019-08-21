@@ -23,14 +23,43 @@ $primary: $blue;
 $body-size: 14px;
 $body-color: $black;
 $body-background-color: $white-bis;
-$family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$family-sans-serif: "Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
 $link: $black;
 
-$family-content:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+$family-content: "Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
 
 // Navbar
 $navbar-item-color: $black;
 $navbar-item-hover-color: $black;
 $navbar-item-hover-background-color: transparent;
 
+$image-overlay-background: $white;
+$image-overlay-foreground: $light-blue;
 
+
+
+h1,
+h2 {
+    font-size: $body-size !important;
+    font-weight: 400 !important;
+    text-decoration-line: underline;
+
+    text-underline-position: under;
+    color: $body-color;
+    padding-bottom: $body-size !important;
+}
+
+h1 {
+    text-decoration-style: double;
+}
+
+h2 {
+
+    text-decoration-style: solid;
+}

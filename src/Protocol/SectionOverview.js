@@ -8,7 +8,7 @@ class SectionOverview extends React.Component {
         <div className="container">
           <div className="columns is-multiline">
             <div className="column is-4">
-              <h2>Design Objectives</h2>
+              <h1>Loopring's Vision & Objectives</h1>
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                 commodo ligula eget dolor. Aenean massa. Cum sociis natoque
@@ -37,12 +37,12 @@ class SectionOverview extends React.Component {
               </div>
             </div>
             <div className="column is-8">
-              <figure className="image is-8by6">
+              <figure className="image covered is-8by6">
                 <img src="https://images.unsplash.com/photo-1559526324-593bc073d938?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80" />
               </figure>
             </div>
             <div className="column is-4">
-              <figure className="image is-1by1">
+              <figure className="image covered is-1by1">
                 <img
                   className="is-rounded"
                   src="https://images.unsplash.com/photo-1529465230221-a0d10e46fcbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
@@ -50,7 +50,7 @@ class SectionOverview extends React.Component {
               </figure>
             </div>
             <div className="column is-4">
-              <h2>Security</h2>
+              <h1>Loopring's Security Guarantees</h1>
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                 commodo ligula eget dolor. Aenean massa. Cum sociis natoque
@@ -82,7 +82,7 @@ class SectionOverview extends React.Component {
               </div>
             </div>
             <div className="column is-4">
-              <h2>Performance</h2>
+              <h1>Loopring's Performance</h1>
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                 commodo ligula eget dolor. Aenean massa. Cum sociis natoque

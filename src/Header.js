@@ -31,10 +31,10 @@ class Header extends React.Component {
           <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-start">
               <Link className="navbar-item" to="/">
-                Protocol
+                Project
               </Link>
-              <Link className="navbar-item" to="/codebase">
-                Codebase
+              <Link className="navbar-item" to="/protocol">
+                Protocol
               </Link>
               <Link className="navbar-item" to="/lrc">
                 LRC
