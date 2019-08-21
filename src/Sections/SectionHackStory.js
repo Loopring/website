@@ -1,27 +1,27 @@
-import React from 'react';
-import './SectionHackStory.scss';
+import React from "react";
+import "./SectionHackStory.scss";
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRadiationAlt } from "@fortawesome/free-solid-svg-icons";
 
-const API = './hacks_en.json';
+const API = "./hacks_en.json";
 
 class SectionHackStory extends React.Component {
   constructor(props) {
     super(props);
     this.hackStories = React.createRef();
     this.state = {
-      title: '...',
-      stories: [],
+      title: "...",
+      stories: []
     };
   }
 
   componentDidMount() {
     fetch(API)
-        .then((response) => response.json())
-        .then((data) =>
-          this.setState({title: data.title, stories: data.stories})
-        );
+      .then(response => response.json())
+      .then(data =>
+        this.setState({ title: data.title, stories: data.stories })
+      );
   }
 
   render() {
@@ -31,8 +31,18 @@ class SectionHackStory extends React.Component {
         className="section section-hack-stories is-large has-text-black"
       >
         <div className="container">
+         <div className="columns is-centered">
+         <div className="column is-12 has-text-centered">
+
+          <h1>A history of hacking</h1>
+         </div>
+         </div>
+
+
           <div className="columns">
-            <div className="column is-3 has-text-left">
+            <div className="column is-3 has-text-centered">
+
+
               <FontAwesomeIcon icon={faRadiationAlt} size="5x" />
 
               <div className="total-figure">{this.state.title}</div>
@@ -41,8 +51,9 @@ class SectionHackStory extends React.Component {
                 hacked from centralized exchanges, and counting...
               </div>
             </div>
-            <div className="column stories has-text-centered">
-              {this.state.stories.map((story) => (
+            <div className="column stories">
+
+              {this.state.stories.map(story => (
                 <div className="columns is-mobile">
                   <div className="column is-3 has-text-right">
                     <span>{story.date} ⟶ </span>

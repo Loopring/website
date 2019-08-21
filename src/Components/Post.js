@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import './Post.scss';
+import "./Post.scss";
 
 class Post extends React.Component {
   render() {

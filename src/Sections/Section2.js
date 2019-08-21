@@ -1,10 +1,10 @@
-import React from 'react';
-import './Section2.scss';
+import React from "react";
+import "./Section2.scss";
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRadiationAlt } from "@fortawesome/free-solid-svg-icons";
 
-const API = './hacks_en.json';
+const API = "./hacks_en.json";
 
 class Section2 extends React.Component {
   constructor(props) {

@@ -14,9 +14,6 @@ code {
 
 @import "./Variables.scss";
 
-
-
-
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
 @import "../node_modules/bulma/sass/components/_all.sass";
@@ -24,3 +21,34 @@ code {
 @import "../node_modules/bulma/sass/grid/_all.sass";
 @import "../node_modules/bulma/sass/form/_all.sass";
 @import "../node_modules/bulma/sass/layout/_all.sass";
+
+
+h2,
+h3 {
+  font-size: $body-size !important;
+  font-weight: 400 !important;
+  text-decoration-line: underline!important;
+
+  text-underline-position: under!important;
+  color: $body-color!important;
+  padding-bottom: $body-size !important;
+}
+
+h2 {
+  text-decoration-style: double;
+  font-weight: 500 !important;
+  // font-size: 1.2rem !important;
+}
+
+h3 {
+  text-decoration-style: solid!important;
+}
+
+h1 {
+  text-transform: uppercase!important;
+  font-weight: 700!important;
+  padding-bottom: 40px!important;
+  letter-spacing: 0.08rem!important;
+  font-size: 1.25rem!important;
+  // color: $grey-light!important;
+}

@@ -1,0 +1,71 @@
+@charset "utf-8";
+@import "../Variables.scss";
+
+.section-overview {
+  .content {
+    font-family: $family-content;
+  }
+
+  a {
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+
+  a:hover {
+    background-image: url("https://ethereum.org/assets/img/highlight.22a66491.svg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .content {
+    text-align: justify;
+  }
+
+  img {
+    user-select: none;
+  }
+
+  .covered:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba($image-overlay-background, 0.1);
+    background-image: linear-gradient(
+        45deg,
+        $image-overlay-foreground 5%,
+        transparent 15%,
+        transparent 85%,
+        $image-overlay-foreground 45%,
+        $image-overlay-foreground
+      ),
+      linear-gradient(
+        45deg,
+        $image-overlay-foreground 5%,
+        transparent 15%,
+        transparent 85%,
+        $image-overlay-foreground 45%,
+        $image-overlay-foreground
+      ),
+      linear-gradient(
+        -45deg,
+        $image-overlay-foreground 5%,
+        transparent 15%,
+        transparent 85%,
+        $image-overlay-foreground 45%,
+        $image-overlay-foreground
+      ),
+      linear-gradient(
+        -45deg,
+        $image-overlay-foreground 5%,
+        transparent 15%,
+        transparent 85%,
+        $image-overlay-foreground 45%,
+        $image-overlay-foreground
+      );
+    background-size: 3px 3px;
+  }
+}

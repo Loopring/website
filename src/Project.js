@@ -3,10 +3,10 @@ import React from 'react';
 import './Project.scss';
 
 import Header from './Header.js';
-import SectionOverview from './Project/SectionOverview.js';
-import SectionHackStory from './Project/SectionHackStory.js';
-import SectionMedia from './Project/SectionMedia.js';
-import SectionOpensource from './Project/SectionOpensource.js';
+import SectionOverview from './Sections/SectionOverview.js';
+import SectionHackStory from './Sections/SectionHackStory.js';
+import SectionMedia from './Sections/SectionMedia.js';
+import SectionLoopringHistory from './Sections/SectionLoopringHistory.js';
 
 class Project extends React.Component {
   render() {
@@ -14,7 +14,7 @@ class Project extends React.Component {
       <div>
         <Header />
         <SectionOverview />
-        <SectionOpensource />
+        <SectionLoopringHistory />
         <SectionHackStory />
       </div>
     );

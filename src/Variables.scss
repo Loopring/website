@@ -1,21 +1,19 @@
 @charset "utf-8";
 
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 // @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
 
 @import "../node_modules/bulma/sass/utilities/initial-variables.sass";
 
-
 // Loopring theme colors
 $black: #000000;
-$blue: #1C60FF;
-$light-blue: #1C71FF;
-$purple: #8DAFFF;
-$mint: #3FAFFF;
-$grayish-blue: #67759A;
-$white: #FFFFFF;
-
+$blue: #1c60ff;
+$light-blue: #1c71ff;
+$purple: #8dafff;
+$mint: #3fafff;
+$grayish-blue: #67759a;
+$white: #ffffff;
 
 $primary: $blue;
 
@@ -23,16 +21,10 @@ $primary: $blue;
 $body-size: 14px;
 $body-color: $black;
 $body-background-color: $white-bis;
-$family-sans-serif: "Helvetica Neue",
-Helvetica,
-Arial,
-sans-serif;
+$family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $link: $black;
 
-$family-content: "Helvetica Neue",
-Helvetica,
-Arial,
-sans-serif;
+$family-content: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // Navbar
 $navbar-item-color: $black;
@@ -43,30 +35,11 @@ $very-light-background: transparentize($grayish-blue, 0.97);
 $image-overlay-background: $white;
 $image-overlay-foreground: $grayish-blue;
 
-
 .has-background-blue {
-    background-color: $very-light-background !important;
+  background-color: $very-light-background !important;
 }
 
 
-h1,
-h2 {
-    font-size: $body-size !important;
-    font-weight: 400 !important;
-    text-decoration-line: underline;
 
-    text-underline-position: under;
-    color: $body-color;
-    padding-bottom: $body-size !important;
-}
 
-h1 {
-    text-decoration-style: double;
-    font-weight: 500 !important;
-    // font-size: 1.2rem !important;
-}
 
-h2 {
-
-    text-decoration-style: solid;
-}
