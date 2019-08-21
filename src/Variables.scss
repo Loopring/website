@@ -39,8 +39,9 @@ $navbar-item-color: $black;
 $navbar-item-hover-color: $black;
 $navbar-item-hover-background-color: transparent;
 
+$very-light-background: transparentize($grayish-blue, 0.96);
 $image-overlay-background: $white;
-$image-overlay-foreground: $light-blue;
+$image-overlay-foreground: $grayish-blue;
 
 
 
@@ -57,6 +58,8 @@ h2 {
 
 h1 {
     text-decoration-style: double;
+    font-weight: 500 !important;
+    // font-size: 1.2rem !important;
 }
 
 h2 {
