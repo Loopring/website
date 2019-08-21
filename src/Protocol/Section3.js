@@ -13,7 +13,7 @@ class Section3 extends React.Component {
 
   render() {
     return (
-      <section className="section protocol-section-3 is-large has-text-black has-background-white">
+      <section className="section protocol-section-3 is-large has-text-black has-background-blue">
         <div className="container">
           <div className="columns"></div>
         </div>
