@@ -31,10 +31,14 @@ $navbar-item-color: $black;
 $navbar-item-hover-color: $black;
 $navbar-item-hover-background-color: transparent;
 
-$very-light-background: transparentize($grayish-blue, 0.97);
+$very-light-background: #f5f6f7;
 $image-overlay-background: $white;
 $image-overlay-foreground: $blue;
 
 .has-background-blue {
   background-color: $very-light-background !important;
+}
+
+.has-background-grey {
+    background-color: #fafafa!important;
 }

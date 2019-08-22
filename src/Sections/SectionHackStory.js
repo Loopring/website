@@ -28,7 +28,7 @@ class SectionHackStory extends React.Component {
     return (
       <section
         ref={this.hackStories}
-        className="section section-hack-stories is-large has-text-black"
+        className="section section-hack-stories is-large has-text-black has-background-grey"
       >
         <div className="container">
           <div className="columns is-centered">

@@ -4,7 +4,7 @@ import './SectionOverview.scss';
 class SectionOverview extends React.Component {
   render() {
     return (
-      <section className="section is-large section-overview">
+      <section className="section is-large section-overview has-background-grey">
         <div className="container">
           <div className="columns is-multiline">
             <div className="column is-4">

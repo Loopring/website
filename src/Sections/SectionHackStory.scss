@@ -3,14 +3,6 @@
 @import "../Variables.scss";
 
 .section-hack-stories {
-  &.active {
-    background-color: red !important;
-    color: $white !important;
-  }
-
-  .stories {
-    // padding-top: 80px;÷
-  }
 
   .total-figure {
     margin-top: 40px;
