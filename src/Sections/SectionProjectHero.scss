@@ -20,6 +20,7 @@ $color-base: rgb(255, 255, 255);
 
 .section-project-hero {
     position: relative;
+    min-height: 63vh;
 
     .backdrop {
         position: fixed;
