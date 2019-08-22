@@ -3,6 +3,7 @@ import React from 'react';
 import './Project.scss';
 
 import Header from './Header.js';
+import Footer from './Sections/Footer.js';
 import SectionOverview from './Sections/SectionOverview.js';
 import SectionHackStory from './Sections/SectionHackStory.js';
 import SectionMedia from './Sections/SectionMedia.js';
@@ -16,6 +17,7 @@ class Project extends React.Component {
         <SectionOverview />
         <SectionLoopringHistory />
         <SectionHackStory />
+        <Footer />
       </div>
     );
   }

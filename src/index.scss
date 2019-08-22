@@ -22,15 +22,14 @@ code {
 @import "../node_modules/bulma/sass/form/_all.sass";
 @import "../node_modules/bulma/sass/layout/_all.sass";
 
-
 h2,
 h3 {
   font-size: $body-size !important;
   font-weight: 400 !important;
-  text-decoration-line: underline!important;
+  text-decoration-line: underline !important;
 
-  text-underline-position: under!important;
-  color: $body-color!important;
+  text-underline-position: under !important;
+  color: $body-color !important;
   padding-bottom: $body-size !important;
 }
 
@@ -41,14 +40,14 @@ h2 {
 }
 
 h3 {
-  text-decoration-style: solid!important;
+  text-decoration-style: solid !important;
 }
 
 h1 {
-  text-transform: uppercase!important;
-  font-weight: 700!important;
-  padding-bottom: 40px!important;
-  letter-spacing: 0.08rem!important;
-  font-size: 1.25rem!important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  padding-bottom: 40px !important;
+  letter-spacing: 0.08rem !important;
+  font-size: 1.25rem !important;
   // color: $grey-light!important;
 }

@@ -1,5 +1,5 @@
-import React from "react";
-import "./SectionOverview.scss";
+import React from 'react';
+import './SectionOverview.scss';
 
 class SectionOverview extends React.Component {
   render() {
@@ -8,7 +8,7 @@ class SectionOverview extends React.Component {
         <div className="container">
           <div className="columns is-multiline">
             <div className="column is-4">
-             <h1>Overview</h1>
+              <h1>Overview</h1>
               <h2>Loopring's Vision & Objectives</h2>
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean

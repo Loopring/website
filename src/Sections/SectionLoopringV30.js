@@ -1,5 +1,5 @@
-import React from "react";
-import "./SectionLoopringV30.scss";
+import React from 'react';
+import './SectionLoopringV30.scss';
 
 class SectionLoopringV30 extends React.Component {
   render() {
@@ -8,9 +8,9 @@ class SectionLoopringV30 extends React.Component {
         <div class="fixed-label is-hidden-mobile">100% open-source</div>
         <div className="container">
           <div className="columns is-centered is-multiline">
-          <div className="column is-12  has-text-centered">
-          <h1> Loopring 3.0</h1>
-          </div>
+            <div className="column is-12  has-text-centered">
+              <h1> Loopring 3.0</h1>
+            </div>
             <div className="column is-5">
               <h2>Fully Open-Sourced</h2>
               <div className="content">
@@ -43,16 +43,16 @@ class SectionLoopringV30 extends React.Component {
               <div className="content">Check out our code on GitHub:</div>
               <ul className="links">
                 <li>
-                  {" "}
-                  ➜{" "}
+                  {' '}
+                  ➜{' '}
                   <a href="">
-                    Loopring 3.0 smart contracts··············the on-chain part{" "}
+                    Loopring 3.0 smart contracts··············the on-chain part{' '}
                     <span className="symboled">⟁</span>
                   </a>
                 </li>
                 <li>
-                  {" "}
-                  ➜{" "}
+                  {' '}
+                  ➜{' '}
                   <a href="">
                     Loopring 3.0 ZKP circuits····················the off-chain
                     part <span className="symboled"> ⧉</span>

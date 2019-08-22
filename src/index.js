@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Route, BrowserRouter as Router} from 'react-router-dom';
 import './index.scss';
-import Header from './Header.js';
 import Project from './Project';
 import Protocol from './Protocol';
 import LRC from './LRC';
@@ -14,12 +13,11 @@ import * as serviceWorker from './serviceWorker';
 const routing = (
   <Router>
     <div>
-      <Header />
       <Route path="/" exact component={Project} />
       <Route path="/protocol" component={Protocol} />
       <Route path="/lrc" component={LRC} />
       <Route path="/team" component={Team} />
-      <Route path="/blog" component={Blog} />
+      {<Route path="/blog" component={Blog} />}
       <Route component={NotFound} />
     </div>
   </Router>
