@@ -13,8 +13,8 @@ class SectionProjectHero extends React.Component {
 
   render() {
     return (
-      <section className="section is-large parallax">
-        <div className="under"></div>
+      <section className="section  section-project-hero is-large">
+        <div class="backdrop"></div>
       </section>
     );
   }
