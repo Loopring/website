@@ -20,7 +20,7 @@ $color-base: rgb(255, 255, 255);
 
 .section-project-hero {
     position: relative;
-    min-height: 63vh;
+    min-height: 74vh;
 
     .backdrop {
         position: fixed;
@@ -67,9 +67,9 @@ $color-base: rgb(255, 255, 255);
         }
 
         #subtitle {
-            letter-spacing: 3px;
-            font-size: 1em;
-            font-weight: 300;
+            // letter-spacing: 3px;
+            // font-size: 1em;
+            font-weight: 500;
         }
 
         #base {

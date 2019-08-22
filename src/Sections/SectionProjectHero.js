@@ -25,7 +25,7 @@ class SectionProjectHero extends React.Component {
                   LOOPRING
                 </text>
                 <text id="subtitle" x="50%" y="35%" dy="9.8em">
-                  A High-Performance Ethereum DEX Protocol
+                  High-Performance Ethereum DEX Protocol with zkRollup
                 </text>
               </mask>
             </defs>
