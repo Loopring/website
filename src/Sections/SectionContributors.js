@@ -71,10 +71,31 @@ class SectionContributors extends React.Component {
                     / Translation
                   </li>
                   <li> ⟶ Jinchen Hou / Community Manager</li>
-                  <li> ⟶ HarryR / ethSnarks</li>
-                  <li> ⟶ BarryWhitehat / zkRollup</li>
-                  <li> ⟶ Dmitry Khovratovich / Poseidon Hash Function</li>
-                  <li> ⟶ Matter Labs / SNARK Batch Proof Verification</li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="https://github.com/HarryR">HarryR</a> / ethSnarks
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶{' '}
+                    <a href="https://github.com/barryWhiteHat">
+                      BarryWhitehat
+                    </a>{' '}
+                    / zkRollup
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶{' '}
+                    <a href="https://github.com/khovratovich">
+                      Dmitry Khovratovich
+                    </a>{' '}
+                    / Poseidon Hash Function
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="https://matter-labs.io/">Matter Labs</a> / SNARK
+                    Batch Proof Verification
+                  </li>
                 </ul>
               </div>
             </div>
