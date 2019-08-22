@@ -14,7 +14,7 @@ class SectionContributors extends React.Component {
   render() {
     return (
       <div>
-        <section className="section protocol-section-contributors is-medium has-text-black has-background-blue">
+        <section className="section section-contributors is-medium has-text-black has-background-blue">
           <div className="container">
             <div className="columns ">
               <div className="column is-6 has-text-centered has-text-right-tablet">
@@ -63,6 +63,13 @@ class SectionContributors extends React.Component {
                   <li> ⟶ Tao Li / Developer</li>
                   <li> ⟶ Weichao Li / Developer</li>
                   <li> ⟶ Shuhong Chang / Designer</li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:nataligonina@gmail.com">
+                      Натали Игонина
+                    </a>{' '}
+                    / Translation
+                  </li>
                   <li> ⟶ Jinchen Hou / Community Manager</li>
                   <li> ⟶ HarryR / ethSnarks</li>
                   <li> ⟶ BarryWhitehat / zkRollup</li>

@@ -14,7 +14,7 @@ class SectionCoreTeam extends React.Component {
   render() {
     return (
       <div>
-        <section className="section protocol-section-3 is-large has-text-black">
+        <section className="section section-coreteam is-large has-text-black">
           <div className="container">
             <div className="columns ">
               <div className="column is-5 has-text-centered has-text-right-tablet">
@@ -23,14 +23,49 @@ class SectionCoreTeam extends React.Component {
               </div>
               <div className="column is-7">
                 <ul>
-                  <li> ⟶ Daniel Wang / Founder & CEO</li>
-                  <li> ⟶ Jay Zhou / CMO</li>
-                  <li> ⟶ Johnston Chen / COO</li>
-                  <li> ⟶ Steve Guo / CTO</li>
-                  <li> ⟶ Hoss Ma / Chief Scientist</li>
-                  <li> ⟶ Matthew Finestone /BD Director</li>
-                  <li> ⟶ Freeman Zhong / Developer</li>
-                  <li> ⟶ Brecht Devos / Developer</li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:daniel@loopring.org">Daniel Wang</a> /
+                    Founder & CEO
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:jay@loopring.org">Jay Zhou</a> / CMO
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:johnston@loopring.org">Johnston Chen</a> /
+                    COO
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:steve@loopring.org">Steve Guo</a> / CTO
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:hoss@loopring.org">Hoss Ma</a> / Chief
+                    Scientist
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶{' '}
+                    <a href="mailto:matthew@loopring.org">
+                      Matthew Finestone
+                    </a>{' '}
+                    /BD Director
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:kongliang@loopring.org">
+                      Freeman Zhong
+                    </a>{' '}
+                    / Developer
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:brecht@loopring.org">Brecht Devos</a> /
+                    Developer
+                  </li>
                   <li> ⟶ Hongyu Yu / Developer</li>
                   <li> ⟶ Xiaolu Wu / Developer</li>
                   <li> ⟶ Eric Yang / Developer</li>

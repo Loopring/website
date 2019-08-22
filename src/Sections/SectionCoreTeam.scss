@@ -2,6 +2,7 @@
 
 @import "../Variables.scss";
 
+
 .covered:after {
     content: "";
     display: block;
@@ -11,42 +12,53 @@
     top: 0;
     bottom: 0;
     background: rgba($image-overlay-background, 0.1);
-    background-image: linear-gradient(
-        45deg,
+    background-image: linear-gradient(45deg,
         $image-overlay-foreground 5%,
         transparent 15%,
         transparent 85%,
         $image-overlay-foreground 45%,
-        $image-overlay-foreground
-      ),
-      linear-gradient(
-        45deg,
+        $image-overlay-foreground),
+        linear-gradient(45deg,
         $image-overlay-foreground 5%,
         transparent 15%,
         transparent 85%,
         $image-overlay-foreground 45%,
-        $image-overlay-foreground
-      ),
-      linear-gradient(
-        -45deg,
+        $image-overlay-foreground),
+        linear-gradient(-45deg,
         $image-overlay-foreground 5%,
         transparent 15%,
         transparent 85%,
         $image-overlay-foreground 45%,
-        $image-overlay-foreground
-      ),
-      linear-gradient(
-        -45deg,
+        $image-overlay-foreground),
+        linear-gradient(-45deg,
         $image-overlay-foreground 5%,
         transparent 15%,
         transparent 85%,
         $image-overlay-foreground 45%,
-        $image-overlay-foreground
-      );
+        $image-overlay-foreground);
     background-size: 3px 3px;
-  }
+}
 
 .team-picture {
-filter: grayscale(100%) contrast(150%);
+    filter: grayscale(100%) contrast(150%);
+
+}
+
+.section-coreteam {
+    .content {
+        font-family: $family-content;
+    }
+
+    a {
+        text-decoration: underline;
+        // text-underline-position: under;
+    }
+
+    a:hover {
+        background-image: url("https://ethereum.org/assets/img/highlight.22a66491.svg") !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
 
 }
