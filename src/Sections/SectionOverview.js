@@ -11,7 +11,7 @@ class SectionOverview extends React.Component {
               <h1>Overview</h1>
               <h2>Loopring's Vision & Objectives</h2>
               <div className="content">
-                The blockchain technology empowers definite ownership -- the
+                The blockchain technology empowers definite ownership — the
                 ownership of digital assets, and soon the ownership of physical
                 assets as well. It is believed to be the disruptor to the
                 traditional notions of currency and will establish the very
@@ -52,35 +52,29 @@ class SectionOverview extends React.Component {
               </figure>
             </div>
             <div className="column is-4">
-              <h2>Loopring's Security Guarantees</h2>
+              <h2>Loopring is Secure</h2>
               <div className="content">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-                rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
-                felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
-                Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-                Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
-                enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                The security of user assets is and will remain to be Loopring's
+                first priority. Here at Loopring, we believe it's absurd to talk
+                about other aspects of a protocol without evaluating its
+                security guarantees.
               </div>
               <div className="content">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-                rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
-                felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
-                Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-                Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
-                enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                The first three versions of the Loopring protocol do not take
+                any custody of user assets at all — traders are always in
+                possession of their asset. The latest version, Loopring 3.0,
+                relies on smart contract to hold assets to be traded. We
+                designed the protocol in a way such that users can always claim
+                their assets in all circumstances, even when DEX operators are
+                anonymously evil.
               </div>
               <div className="content">
-                <a href="afdaf">Security Audit Report from SECBIT LABs↗</a>
+                We claim that Loopring offers users the same level of security
+                as the underlying Ethereum blockchain — if a feature called
+                On-Chain Data Availability, aka OCDA, is turned on. Trading on
+                Loopring-based DEXes demands traders no trust in the DEX owners
+                or operators, nor the Loopring team. In terms of crypto-trading,
+                being trustless will become the new standard of trustworthiness.
               </div>
             </div>
             <div className="column is-4">
