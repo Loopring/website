@@ -76,6 +76,14 @@ class SectionOverview extends React.Component {
                 or operators, nor the Loopring team. In terms of crypto-trading,
                 being trustless will become the new standard of trustworthiness.
               </div>
+              <h2>Much Less Risks for Exchange Owners</h2>
+              <div className="content">
+                If you have ever run centralized exchanges, you know the stress
+                and fear of being hacked. Loopring ensures that even all your
+                servers were compromised, you will only lose a couple of Ether
+                that you use as transaction fees (gas). You can always recover
+                from such incidences and resume your business.
+              </div>
             </div>
             <div className="column is-4">
               <h2>Loopring's Performance</h2>
