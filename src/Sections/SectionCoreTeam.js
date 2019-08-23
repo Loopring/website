@@ -66,17 +66,59 @@ class SectionCoreTeam extends React.Component {
                     ⟶ <a href="mailto:brecht@loopring.org">Brecht Devos</a> /
                     Developer
                   </li>
-                  <li> ⟶ Hongyu Yu / Developer</li>
-                  <li> ⟶ Xiaolu Wu / Developer</li>
-                  <li> ⟶ Eric Yang / Developer</li>
-                  <li> ⟶ Yadong Li / Developer</li>
-                  <li> ⟶ Yongfeng Du / Developer</li>
-                  <li> ⟶ Chen Wang / Developer</li>
-                  <li> ⟶ Yanyan Lai / Developer</li>
-                  <li> ⟶ Yue Wang / Developer</li>
-                  <li> ⟶ Sheng Chen / Developer</li>
-                  <li> ⟶ Ruby Qi / Developer</li>
-                  <li> ⟶ Leila Lin / Facility</li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:hongyu@loopring.org">Hongyu Yu</a> /
+                    Developer
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:xiaolu@loopring.org">Xiaolu Wu</a> /
+                    Developer
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:eric@loopring.org">Eric Yang</a> /
+                    Developer
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:yadong@loopring.org">Yadong Li</a> /
+                    Developer
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:yongfeng@loopring.org">Yongfeng Du</a> /
+                    Developer
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:chen@loopring.org">Chen Wang</a> /
+                    Developer
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:yanyan@loopring.org">Yanyan Lai</a> /
+                    Developer
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:yue@loopring.org">Yue Wang</a> / Developer
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:sheng@loopring.org">Sheng Chen</a> /
+                    Developer
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:ruby@loopring.org">Ruby Qi</a> / Developer
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="mailto:leila@loopring.org">Leila Lin</a> /
+                    Facility
+                  </li>
                 </ul>
               </div>
             </div>

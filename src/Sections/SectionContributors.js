@@ -24,11 +24,11 @@ class SectionContributors extends React.Component {
               <div className="column is-6">
                 <ul>
                   <li> ⟶ Xuefeng Li / CTO of Zhongan Technology</li>
-                  <li> ⟶ Hongfei DA / Founder of NEO and Ontology</li>
+                  <li> ⟶ Hongfei Da / Founder of NEO and Ontology</li>
                   <li> ⟶ Hitters Xu / Founder of Nebulas</li>
                   <li>
                     {' '}
-                    ⟶ Yuhuang Guo / Council, Chain Blockchain Application
+                    ⟶ Yuhang Guo / Council, Chain Blockchain Application
                     Research Center
                   </li>
                   <li> ⟶ Terence Lam / CEO, Loopnest Blockchain Accelerator</li>
@@ -63,6 +63,7 @@ class SectionContributors extends React.Component {
                   <li> ⟶ Tao Li / Developer</li>
                   <li> ⟶ Weichao Li / Developer</li>
                   <li> ⟶ Shuhong Chang / Designer</li>
+                  <li> ⟶ Jinchen Hou / Community Manager</li>
                   <li>
                     {' '}
                     ⟶ <a href="mailto:nataligonina@gmail.com">
@@ -70,7 +71,7 @@ class SectionContributors extends React.Component {
                     </a>{' '}
                     / Translation
                   </li>
-                  <li> ⟶ Jinchen Hou / Community Manager</li>
+
                   <li>
                     {' '}
                     ⟶ <a href="https://github.com/HarryR">HarryR</a> / ethSnarks
@@ -95,6 +96,11 @@ class SectionContributors extends React.Component {
                     {' '}
                     ⟶ <a href="https://matter-labs.io/">Matter Labs</a> / SNARK
                     Batch Proof Verification
+                  </li>
+                  <li>
+                    {' '}
+                    ⟶ <a href="https://secbit.io/">SECBIT Labs</a> / Formal
+                    Verification & Auditing
                   </li>
                 </ul>
               </div>

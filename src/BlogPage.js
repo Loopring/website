@@ -39,7 +39,7 @@ class BlogPage extends React.Component {
         <section className="section section-blog-hero is-medium has-background-grey has-text-black">
           <div className="columns is-centered">
             <div className="column is-6">
-              <div className="content" id="markdown" />
+              <div className="content markdown" id="markdown" />
             </div>
           </div>
         </section>
