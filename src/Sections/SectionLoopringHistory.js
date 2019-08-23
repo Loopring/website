@@ -19,25 +19,30 @@ class SectionLoopringHistory extends React.Component {
             <div className="column version-heading is-5 is-offset-2 has-text-left">
               <div className="content">
                 <h1>A brief history of Loopring</h1>
-                <h2> Loopring 1.0</h2>
                 <p>
                   We have released 4 major versions of the Loopring protocol.
                 </p>
+                <h2> Loopring 1.0</h2>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                  eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
-                  pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                  In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
-                  justo. Nullam dictum felis eu pede mollis pretium. Integer
-                  tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
-                  vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
-                  consequat vitae, eleifend ac, enim. Aliquam lorem ante,
-                  dapibus in, viverra quis, feugiat a,
+                  Loopring 1.0 introduced the <i>Ring-Matching</i> concept — in
+                  one trade, up to 12 orders can circularly swap crypto-assets
+                  in the form of <i>ring</i>s. This feature is unique and brings
+                  the potential for better trading prices and higher volumes.
+                  Our project name "Loopring" actually comes after this feature.
                 </p>
+                <p>
+                  With 1.0, orders are managed and matched off-chain. The
+                  protocol's smart contracts verify order signatures, trading
+                  prices, and settlement amounts on-chain and perform token
+                  transfers for each trade. Because of off-chain order
+                  management and matching, the performance of Loopring 1.0 is
+                  better than that of EtherDelta and the like.
+                </p>
+
+                <h2> Loopring 1.5</h2>
+
+                <p></p>
               </div>
             </div>
           </div>
