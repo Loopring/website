@@ -61,9 +61,21 @@ class SectionContributors extends React.Component {
                   <li> ⟶ Zongbao Hou / Developer</li>
                   <li> ⟶ Kun Fu / Developer</li>
                   <li> ⟶ Tao Li / Developer</li>
+                  <li> ⟶ Hui Shao / Developer</li>
                   <li> ⟶ Weichao Li / Developer</li>
+                  <li>
+                    {' '}
+                    ⟶{' '}
+                    <a href="https://github.com/BenjaminPrice">
+                      Benjamin Price
+                    </a>{' '}
+                    / Developer
+                  </li>
                   <li> ⟶ Shuhong Chang / Designer</li>
-                  <li> ⟶ Jinchen Hou / Community Manager</li>
+                  <li> ⟶ Jinchen Hou / Community</li>
+                  <li> ⟶ Kai Zeng / Community, Marketing, Operation</li>
+                  <li> ⟶ Dawei Li / Community</li>
+                  <li> ⟶ Jie Liu / Operation</li>
                   <li>
                     {' '}
                     ⟶ <a href="mailto:nataligonina@gmail.com">
