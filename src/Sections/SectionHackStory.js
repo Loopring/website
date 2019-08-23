@@ -20,7 +20,7 @@ class SectionHackStory extends React.Component {
     fetch(API)
         .then((response) => response.json())
         .then((data) =>
-          this.setState({title: data.title, stories: data.stories})
+          this.setState({total: data.total, stories: data.stories})
         );
   }
 
@@ -38,13 +38,15 @@ class SectionHackStory extends React.Component {
           </div>
 
           <div className="columns">
-            <div className="column is-3 has-text-centered">
+            <div className="column is-3 has-text-left">
               <FontAwesomeIcon icon={faRadiationAlt} size="5x" />
 
-              <div className="total-figure">{this.state.title}</div>
-              <div className="total-figure-label">
-                crypto-assets that belongs to the users have been reportedly
-                hacked from centralized exchanges, and counting...
+              <div className="total-figure">
+                {this.state.total}{' '}
+                <span className="total-figure-label">
+                  - the crypto-assets hacked from centralized exchanges that
+                  belongs to the users, and counting...
+                </span>
               </div>
             </div>
             <div className="column stories">
