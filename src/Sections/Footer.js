@@ -25,7 +25,7 @@ class Footer extends React.Component {
             <a href="https://github.com/Loopring">GitHub</a>⭑
             <a href="https://open.kakao.com/o/gJbSZdF">Kakao</a>
           </p>
-          <p className="has-text-grey">Loopring Foundation</p>
+          <p className="has-text-grey">Loopring Project Ltd</p>
         </div>
       </footer>
     );

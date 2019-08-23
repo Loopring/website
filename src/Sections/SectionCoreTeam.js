@@ -30,12 +30,13 @@ class SectionCoreTeam extends React.Component {
                   </li>
                   <li>
                     {' '}
-                    ⟶ <a href="mailto:jay@loopring.org">Jay Zhou</a> / CMO
+                    ⟶ <a href="mailto:jay@loopring.org">Jay Zhou</a> /
+                    Co-founder & CMO
                   </li>
                   <li>
                     {' '}
                     ⟶ <a href="mailto:johnston@loopring.org">Johnston Chen</a> /
-                    COO
+                    Co-founder & COO
                   </li>
                   <li>
                     {' '}
