@@ -43,6 +43,10 @@ class Header extends React.Component {
                 Team
               </Link>
 
+              <Link className="navbar-item" to="/blogs">
+                Blogs
+              </Link>
+
               <Link className="navbar-item" to="/blog">
                 Blog
               </Link>

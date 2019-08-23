@@ -7,6 +7,7 @@ import Protocol from './Protocol';
 import LRC from './LRC';
 import Team from './Team';
 import Blog from './Blog';
+import BlogPage from './BlogPage';
 import NotFound from './NotFound';
 import * as serviceWorker from './serviceWorker';
 
@@ -17,7 +18,8 @@ const routing = (
       <Route path="/protocol" component={Protocol} />
       <Route path="/lrc" component={LRC} />
       <Route path="/team" component={Team} />
-      {<Route path="/blog" component={Blog} />}
+      <Route path="/blogs" component={Blog} />
+      <Route path="/blog" component={BlogPage} />
       <Route component={NotFound} />
     </div>
   </Router>
