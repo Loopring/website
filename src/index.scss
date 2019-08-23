@@ -23,7 +23,8 @@ code {
 @import "../node_modules/bulma/sass/layout/_all.sass";
 
 h2,
-h3 {
+h3,
+h4 {
   font-size: $body-size !important;
   font-weight: 400 !important;
   text-decoration-line: underline !important;
@@ -43,6 +44,11 @@ h3 {
   text-decoration-style: solid !important;
 }
 
+h4 {
+  text-decoration-style: dotted !important;
+}
+
+
 h1 {
   text-transform: uppercase !important;
   font-weight: 700 !important;
@@ -51,3 +57,5 @@ h1 {
   font-size: 1.25rem !important;
   // color: $grey-light!important;
 }
+
+
