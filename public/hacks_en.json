@@ -1,94 +1,161 @@
 {
     "title": "$10000000000",
     "stories": [
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "In June two separate South Korean exchanges suffered attacks. Coinrail lost about 5300 BTC or $40 million, apparently taken from hot wallets. Weeks later, Bithumb — one of the ten largest crypto exchanges — lost $31 million in another hot wallet raid."
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    },
-    {
-        "title": "Some one just got hacked",
-        "date": "2019-9-01",
-        "detail": "fdjfljf dlajf jdklaf dklajf la fdkljf ajfkld sjakfl dskljaf lsdajf lafjl sj"
-    }]
+        {
+            "title": "$34,000,000 / Remixpoint",
+            "date": "07-14-2019",
+            "source": "https://www.pymnts.com/cryptocurrency/2019/major-crypto-hacks/",
+            "detail": "Days after admitting to a hack that caused the loss of $32 million in cryptocurrency, Bitpoint Japan, a cryptocurrency exchange operator run by Remixpoint, said on Sunday (July 14) it has discovered an additional $2.3 million was stolen."
+        },
+        {
+            "title": "$5,000,000 / Bitrue",
+            "date": "06-26-2019",
+            "source": "https://cointelegraph.com/news/round-up-of-crypto-exchanges-hack-so-far-in-2019-how-can-it-be-stopped",
+            "detail": "Singapore-based cryptocurrency exchange Bitrue has acknowledged the fact that it suffered a major attack in which 9.3 million XRP and 2.5 million ADA worth around $5 million at the time were stolen from the exchange’s hot wallets."
+        },
+        {
+            "title": "$10,000,000 / GateHub",
+            "date": "06-06-2019",
+            "source": "https://cointelegraph.com/news/round-up-of-crypto-exchanges-hack-so-far-in-2019-how-can-it-be-stopped",
+            "detail": "the United Kingdom and Slovenia-based crypto exchange GateHub reported the loss of nearly $10 million worth of XRP. 18,473 accounts affected."
+        },
+
+        {
+            "title": "$60,000,000 / Zaif Exchange",
+            "date": "09-19-2018",
+            "source": "https://www.zdnet.com/article/zaif-cryptocurrency-exchange-loses-60-million-in-july-hack/",
+            "detail": "Japanese cryptocurrency exchange Zaif announced that it lost $60 million worth of company and user funds during a security incident that took place last week."
+        },
+        {
+            "title": "$31,500,000 / bithumb",
+            "date": "06-20-2018",
+            "source": "https://www.fliptopay.com/blogs/blog-1/bithumb-hacked-with-30-million-stolen-uk-exchange-launching-litecoin-futures-and-japan-to-vote-on-banning-insider-trading-and-privacy-coins",
+            "detail": "Bithumb, the world's sixth-largest crypto exchange by trading volume, was hacked. According to a company announcement, the South Korean exchange had 35,000,000,000 KRW, or $31,500,000 USD worth of cryptocurrency stolen in the hack. "
+        },
+        {
+            "title": "$40,000,000 / Coinrail",
+            "date": "06-18-2018",
+            "source": "https://www.coindesk.com/coinrail-exchange-hacked-loses-possibly-40-million-in-cryptos",
+            "detail": "Coinrail, a cryptocurrency exchange based in South Korea, said its platform has been hacked, with other sources suggesting it lost cryptocurrencies totaling as much as $40 million in the attack."
+        },
+        {
+            "title": "$3,300,000 / coinsecure",
+            "date": "04-13-2018",
+            "source": "https://www.zdnet.com/article/coinsecure-not-so-secure-millions-in-cryptocurrency-stolen-cso-branded-as-thief/",
+            "detail": "The Indian cryptocurrency exchange has accused Dr. Amitabh Saxena, the firm's Chief Strategy Officer (CSO), of being involved in the loss of 438 Bitcoins (BTC), worth roughly $3.3 million at the time of writing."
+        },
+        {
+            "title": "$195,000,000 / BitGrail",
+            "date": "02-11-2018",
+            "source": "https://fortune.com/2018/02/11/bitgrail-cryptocurrency-claims-hack/",
+            "detail": "An obscure Italian cryptocurrency exchange called BitGrail claims that it was hacked late last week and lost roughly $195 million worth of customers’ cryptocurrency. But others — including the developers who created the stolen cryptocurrency — have suggested not all may be as it appears."
+        },
+        {
+            "title": "$534,800,000 / Coincheck",
+            "date": "01-26-2018",
+            "source": "https://www.btcnn.com/the-best-bitcoin-hacks/",
+            "detail": "Coincheck, an exchange service, adopted cold wallets for their Bitcoin transactions but forgot to give adequate attention to security for NEM, a promising Asian cryptocurrency. They kept all deposits associated with NEM in a single wallet, and that was a costly error. No one can categorically explain how the loss occurred, but the aftermath was a devastating experience for their customers."
+        },
+        {
+            "title": "$60,000,000 / NiceHash ",
+            "date": "12-06-2017",
+            "source": "https://www.coindesk.com/62-million-gone-cryptocurrency-mining-market-nicehash-hacked",
+            "detail": "A wallet address circulated by NiceHash users suggest that as many as 4,736.42 BTC – an amount worth more than $62 million at current prices – has been stolen."
+        },
+        {
+            "title": "$5,300,000 / YAPIZON",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$72,000,000 / BITFINEX",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$1,750,000 / BTER.com",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$5,100,000 / Bitstamp",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$230,000 / 796Exchange",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$1,500,000 / mintpal",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$1,800,000 / bitpay",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$2,000,000 / mintpal",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$9,500,000 / Cryptsy",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$50,000 / POLONIEX",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$460.000,000 / MT.GOX",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$6,000,000 / PicoStocks",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$1,000,000 / BIPS",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$1,200,000 / Inputs.io",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$50,000,000 / Vircurex",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$260,000 / BitMarket",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$250,000 / bitfloor",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$50,000 / Bitcoin7",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        },
+        {
+            "title": "$30,000 / MT.GOX",
+            "date": "2019-9-01",
+            "detail": "ZAAAAA"
+        }
+    ]
 }

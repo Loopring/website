@@ -33,7 +33,7 @@ class SectionHackStory extends React.Component {
         <div className="container">
           <div className="columns is-centered">
             <div className="column is-12 has-text-centered">
-              <h1>A history of hacking</h1>
+              <h1>Crypto Exchange Hacks</h1>
             </div>
           </div>
 
@@ -54,7 +54,9 @@ class SectionHackStory extends React.Component {
                     <span>{story.date} ⟶ </span>
                   </div>
                   <div className="column is-5 has-text-left">
-                    <h2>{story.title}</h2>
+                    <a target="_blank" href={story.source}>
+                      <h2>{story.title}</h2>
+                    </a>
                     <p>{story.detail}</p>
                   </div>
                 </div>
