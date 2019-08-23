@@ -52,7 +52,7 @@ class Header extends React.Component {
               </Link>
             </div>
             <div className="navbar-end">
-              <FontAwesomeIcon icon={faEnvelope} />
+              <img className="logo" draggable="false" src="images/logo.svg" />
             </div>
           </div>
         </div>
