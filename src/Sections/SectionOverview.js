@@ -11,30 +11,31 @@ class SectionOverview extends React.Component {
               <h1>Overview</h1>
               <h2>Loopring's Vision & Objectives</h2>
               <div className="content">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-                rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
-                felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
-                Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-                Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
-                enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                The blockchain technology empowers definite ownership -- the
+                ownership of digital assets, and soon the ownership of physical
+                assets as well. It is believed to be the disruptor to the
+                traditional notions of currency and will establish the very
+                foundation of the next generation of finance. It is, however,
+                ironic that most crypto-holders are still trading their assets
+                on Centralized Exchanges, or CEXes, by giving up their ownership
+                temporarily. Over the years, more than two billion US dollars
+                crypto-assets that belong to the users got hacked on those
+                platforms.
               </div>
               <div className="content">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-                rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
-                felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
-                Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-                Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
-                enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                We believe that crypto-trading shall be and can be made
+                risk-free on Decentralized Exchanges, or DEXes, that are powered
+                by blockchain and Smart Contract technology. We also envision
+                that trading crypto-assets on DEXes will be less expensive
+                compared to CEXes, and the liquidity will be aggregated at a
+                much larger scale, if not globally.
+              </div>
+              <div className="content">
+                Loopring's objective is to design and engineer the best-in-class
+                order-based DEX protocol and make it available for the whole
+                industry to improve crypto-holders' overall trading experience.
+                We expect our effort will accelerate the adoption of the
+                blockchain technology and crypto-currencies.
               </div>
             </div>
             <div className="column is-8">
