@@ -55,7 +55,7 @@ class SectionHackStory extends React.Component {
                   <div className="column is-3 has-text-right">
                     <span>{story.date} ⟶ </span>
                   </div>
-                  <div className="column is-5 has-text-left">
+                  <div className="column is-5 has-text-justified ">
                     <a target="_blank" href={story.source}>
                       <h2>{story.title}</h2>
                     </a>
