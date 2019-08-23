@@ -4,17 +4,38 @@
 
 .section-hack-stories {
 
-  .total-figure {
-    margin-top: 40px;
-    font-weitht: 700;
-  }
+    .total-figure {
+        margin-top: 40px;
+        font-weitht: 700;
+    }
 
-  .total-figure-label {
-    color: $grey;
-  }
+    .total-figure-label {
+        color: $grey;
+    }
 
-  a {
-    text-decoration: underline;
-    // text-underline-position: under;
-  }
+    a {
+        text-decoration: underline;
+        // text-underline-position: under
+    }
+
+    .call-for-action>a {
+        margin-top: 40px;
+        background-color: $very-light-background;
+        padding: 10px 20px;
+        margin-top: 100px;
+        display: inline-block;
+        border-radius: 4px;
+        min-width: 50%;
+        text-decoration: none;
+        border: 1px solid $grey-lighter;
+        transition-duration: 0.5s;
+        transition-delay: 2s;
+        // transition-property: background;
+        transition-timing-function: ease-in-ou;
+
+        &:hover {
+            background: $blue;
+            color: $white;
+        }
+    }
 }
