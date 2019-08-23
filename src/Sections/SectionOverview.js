@@ -102,17 +102,19 @@ class SectionOverview extends React.Component {
                   href="https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477"
                   target="_blank"
                 >
-                  ZK-Rollup (by Vitalik)
+                  zkRollup (by Vitalik)
                 </a>
                 , by migrating most computations off the blockchain and only
                 broadcast exchanges' new state roots and their corresponding
                 proofs onto the blockchain. In other words, the Loopring
-                protocol users the underlying Ethereum blockchain mainly as the
-                data layer. As a result, Loopring's throughput is as high as 350
-                trades per second when On-Chain Data-Availability is on, and
-                6,900 trades per second when On-Chain Data-Availability is off.
-                The cost per trade settlement is as small as one-third of a US
-                cent, which can be further optimized.
+                protocol users the underlying Ethereum blockchain mainly as a
+                data layer and a Zero-Knowledge Proof verification layer. As a
+                result, Loopring's throughput is as high as 350 trades per
+                second when On-Chain Data-Availability is on, and 6,900 trades
+                per second when On-Chain Data-Availability is off. The cost per
+                trade settlement is as small as one-third of a US cent, which
+                can be further optimized with different approaches such as
+                GPU-based proof generation and recursive SNARKs.
               </div>
               <div className="content">
                 We believe Loopring's performance is sufficient for professional
