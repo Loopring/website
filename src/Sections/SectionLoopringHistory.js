@@ -15,34 +15,97 @@ class SectionLoopringHistory extends React.Component {
     return (
       <section className="section protocol-section-1 is-large has-text-black has-background-blue">
         <div className="container">
+          <div className="columns is-centered">
+            <div className="column is-8 has-text-left">
+              <h1>A brief history of Loopring</h1>
+              <p>We have released 4 major versions of the Loopring protocol.</p>
+            </div>
+          </div>
           <div className="columns">
-            <div className="column version-heading is-5 is-offset-2 has-text-left">
+            <div className="column version-heading is-4 is-offset-2 has-text-left">
               <div className="content">
-                <h1>A brief history of Loopring</h1>
-                <p>
-                  We have released 4 major versions of the Loopring protocol.
-                </p>
                 <h2> Loopring 1.0</h2>
 
                 <p>
                   Loopring 1.0 introduced the <i>Ring-Matching</i> concept — in
                   one trade, up to 12 orders can circularly swap crypto-assets
                   in the form of <i>ring</i>s. This feature is unique and brings
-                  the potential for better trading prices and higher volumes.
-                  Our project name "Loopring" actually comes after this feature.
+                  the potential for improved price discovery and higher trading
+                  volume. Our project name "Loopring" actually comes after this
+                  feature.
                 </p>
                 <p>
                   With 1.0, orders are managed and matched off-chain. The
                   protocol's smart contracts verify order signatures, trading
                   prices, and settlement amounts on-chain and perform token
-                  transfers for each trade. Because of off-chain order
-                  management and matching, the performance of Loopring 1.0 is
-                  better than that of EtherDelta and the like.
+                  transfers for each order accordingly. Because of the off-chain
+                  order management and matching, the performance of Loopring 1.0
+                  is better than that of EtherDelta and the like.
                 </p>
 
                 <h2> Loopring 1.5</h2>
 
-                <p></p>
+                <p>
+                  Loopring 1.5 introduced another unique feature called{' '}
+                  <i>Dual Authoring</i> to prevent front-running. Each order has
+                  a randomly generated DA key-pair — the public key is part of
+                  the order; the private key is not part of the order but is
+                  sent to the relayer so that the relayer can and must use it to
+                  sign rings that include the order.
+                </p>
+                <p>
+                  Dual Authoring effectively prevents pending settlements and
+                  their orders from being stolen by middlemen in the Ethereum
+                  network, as those middlemen have no access to the orders' DA
+                  private keys.
+                </p>
+                <p>
+                  Dual Authoring comes very handy for scenarios where orders can
+                  be matched by more than one exchanges/relayers.
+                </p>
+              </div>
+            </div>
+            <div className="column version-heading is-4  has-text-left">
+              <div className="content">
+                <h2> Loopring 2.0</h2>
+
+                <p>
+                  Loopring 1.0 introduced the <i>Ring-Matching</i> concept — in
+                  one trade, up to 12 orders can circularly swap crypto-assets
+                  in the form of <i>ring</i>s. This feature is unique and brings
+                  the potential for improved price discovery and higher trading
+                  volume. Our project name "Loopring" actually comes after this
+                  feature.
+                </p>
+                <p>
+                  With 1.0, orders are managed and matched off-chain. The
+                  protocol's smart contracts verify order signatures, trading
+                  prices, and settlement amounts on-chain and perform token
+                  transfers for each order accordingly. Because of the off-chain
+                  order management and matching, the performance of Loopring 1.0
+                  is better than that of EtherDelta and the like.
+                </p>
+
+                <h2> The Most Promising Loopring 3.0-beta3</h2>
+
+                <p>
+                  Loopring 1.5 introduced another unique feature called{' '}
+                  <i>Dual Authoring</i> to prevent front-running. Each order has
+                  a randomly generated DA key-pair — the public key is part of
+                  the order; the private key is not part of the order but is
+                  sent to the relayer so that the relayer can and must use it to
+                  sign rings that include the order.
+                </p>
+                <p>
+                  Dual Authoring effectively prevents pending settlements and
+                  their orders from being stolen by middlemen in the Ethereum
+                  network, as those middlemen have no access to the orders' DA
+                  private keys.
+                </p>
+                <p>
+                  Dual Authoring comes very handy for scenarios where orders can
+                  be matched by more than one exchanges/relayers.
+                </p>
               </div>
             </div>
           </div>
