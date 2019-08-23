@@ -116,8 +116,8 @@ class SectionCoreTeam extends React.Component {
                   </li>
                   <li>
                     {' '}
-                    ⟶ <a href="mailto:leila@loopring.org">Leila Lin</a> /
-                    Facility
+                    ⟶ <a href="mailto:leila@loopring.org">Leila Lin</a> / HR &
+                    Administration
                   </li>
                 </ul>
               </div>
