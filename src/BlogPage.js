@@ -43,6 +43,7 @@ class BlogPage extends React.Component {
             </div>
           </div>
         </section>
+        <Footer />
       </div>
     );
   }

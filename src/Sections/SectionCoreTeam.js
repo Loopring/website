@@ -126,7 +126,10 @@ class SectionCoreTeam extends React.Component {
         </section>
         <section className="is-medium">
           <figure className="image covered">
-            <img className="team-picture" src="images/team.jpeg" />
+            <img
+              className="team-picture is-unselectable"
+              src="images/team.jpeg"
+            />
           </figure>
         </section>
       </div>
