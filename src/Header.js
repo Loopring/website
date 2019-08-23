@@ -31,10 +31,10 @@ class Header extends React.Component {
           <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-start">
               <Link className="navbar-item" to="/">
-                Project
+                About
               </Link>
               <Link className="navbar-item" to="/protocol">
-                Protocol
+                Loopring 3.0
               </Link>
               <Link className="navbar-item" to="/lrc">
                 LRC
@@ -44,7 +44,7 @@ class Header extends React.Component {
               </Link>
 
               <Link className="navbar-item" to="/blogs">
-                Blogs
+                Updates
               </Link>
 
               <Link className="navbar-item" to="/blog">

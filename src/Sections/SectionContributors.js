@@ -53,7 +53,7 @@ class SectionContributors extends React.Component {
             <div className="columns ">
               <div className="column is-3 has-text-centered has-text-right-tablet">
                 {' '}
-                <h1>Exctra Hands</h1>
+                <h1>Contributors</h1>
               </div>
               <div className="column is-9">
                 <ul>
