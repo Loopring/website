@@ -58,4 +58,53 @@ h1 {
   // color: $grey-light!important;
 }
 
+.covered {
+    img {
+        user-select: none;
+        filter: grayscale(100%);
+        transition-duration: 3s;
+    }
+
+    &:hover {
+        img {
+            filter: grayscale(0%);
+        }
+    }
+
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba($image-overlay-background, 0.1);
+        background-image: linear-gradient(45deg,
+            $image-overlay-foreground 5%,
+            transparent 15%,
+            transparent 85%,
+            $image-overlay-foreground 45%,
+            $image-overlay-foreground),
+            linear-gradient(45deg,
+            $image-overlay-foreground 5%,
+            transparent 15%,
+            transparent 85%,
+            $image-overlay-foreground 45%,
+            $image-overlay-foreground),
+            linear-gradient(-45deg,
+            $image-overlay-foreground 5%,
+            transparent 15%,
+            transparent 85%,
+            $image-overlay-foreground 45%,
+            $image-overlay-foreground),
+            linear-gradient(-45deg,
+            $image-overlay-foreground 5%,
+            transparent 15%,
+            transparent 85%,
+            $image-overlay-foreground 45%,
+            $image-overlay-foreground);
+        background-size: 3px 3px;
+    }
+}
 

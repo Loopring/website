@@ -16,23 +16,28 @@ class SectionLoopringHistory extends React.Component {
       <section className="section protocol-section-1 is-large has-text-black has-background-blue">
         <div className="container">
           <div className="columns is-centered">
-            <div className="column is-8 has-text-left">
+            <div className="column is-10 has-text-left">
               <h1>A brief history of Loopring</h1>
-              <p>We have released 4 major versions of the Loopring protocol.</p>
             </div>
           </div>
-          <div className="columns">
-            <div className="column version-heading is-4 is-offset-2 has-text-left">
+          <div className="columns is-centered is-multiline">
+            <div className="column version-heading is-5 has-text-left">
               <div className="content">
+                <p>
+                  We started the project in July of 2017, until this date we
+                  have released 4 major versions of the Loopring protocol.
+                </p>
+                <h2> </h2>
                 <h2> Loopring 1.0</h2>
-
                 <p>
                   Loopring 1.0 introduced the <i>Ring-Matching</i> concept — in
                   one trade, up to 12 orders can circularly swap crypto-assets
                   in the form of <i>ring</i>s. This feature is unique and brings
                   the potential for improved price discovery and higher trading
-                  volume. Our project name "Loopring" actually comes after this
-                  feature.
+                  volume.
+                </p>
+                <p>
+                  Our project name "Loopring" actually comes after this feature.
                 </p>
                 <p>
                   With 1.0, orders are managed and matched off-chain. The
@@ -42,7 +47,15 @@ class SectionLoopringHistory extends React.Component {
                   order management and matching, the performance of Loopring 1.0
                   is better than that of EtherDelta and the like.
                 </p>
-
+              </div>
+            </div>
+            <div className="column version-heading is-5 has-text-left">
+              <figure className="image covered is-8by6">
+                <img src="https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+              </figure>
+            </div>
+            <div className="column version-heading is-5 has-text-left">
+              <div className="content">
                 <h2> Loopring 1.5</h2>
 
                 <p>
@@ -61,11 +74,12 @@ class SectionLoopringHistory extends React.Component {
                 </p>
                 <p>
                   Dual Authoring comes very handy for scenarios where orders can
-                  be matched by more than one exchanges/relayers.
+                  be matched by more than one exchange/relayer.
                 </p>
               </div>
             </div>
-            <div className="column version-heading is-4  has-text-left">
+
+            <div className="column version-heading is-5  has-text-left">
               <div className="content">
                 <h2> Loopring 2.0</h2>
 
@@ -85,8 +99,11 @@ class SectionLoopringHistory extends React.Component {
                   order management and matching, the performance of Loopring 1.0
                   is better than that of EtherDelta and the like.
                 </p>
-
-                <h2> The Most Promising Loopring 3.0-beta3</h2>
+              </div>
+            </div>
+            <div className="column version-heading is-5  has-text-left">
+              <div className="content">
+                <h2> The Most Up-to-date Loopring 3.0</h2>
 
                 <p>
                   Loopring 1.5 introduced another unique feature called{' '}
