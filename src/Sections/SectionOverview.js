@@ -88,30 +88,37 @@ class SectionOverview extends React.Component {
             <div className="column is-4">
               <h2>Loopring's Performance</h2>
               <div className="content">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-                rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
-                felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
-                Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-                Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
-                enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                Most DEX protocols suffer terrible performance issues — the
+                throughput is too low while the cost is too high. The
+                performance issues prevent those protocol from being massively
+                adopted as no professional market makers or traders will use
+                these protocols as their primary methods of trading.
               </div>
               <div className="content">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-                rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
-                felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
-                Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-                Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
-                enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                We believe the way most other trading protocols use the
+                underlying blockchain is fundamentally wrong. Loopring take s a
+                different approach known as{' '}
+                <a
+                  href="https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477"
+                  target="_blank"
+                >
+                  ZK-Rollup (by Vitalik)
+                </a>
+                , by migrating most computations off the blockchain and only
+                broadcast exchanges' new state roots and their corresponding
+                proofs onto the blockchain. In other words, the Loopring
+                protocol users the underlying Ethereum blockchain mainly as the
+                data layer. As a result, Loopring's throughput is as high as 350
+                trades per second when On-Chain Data-Availability is on, and
+                6,900 trades per second when On-Chain Data-Availability is off.
+                The cost per trade settlement is as small as one-third of a US
+                cent, which can be further optimized.
+              </div>
+              <div className="content">
+                We believe Loopring's performance is sufficient for professional
+                traders and market makers to take advantage of bots for trading
+                automation. Decentralized exchanges built on top of Loopring 3.0
+                will soon beat many centralized exchanges.
               </div>
             </div>
           </div>
