@@ -15,6 +15,12 @@
             "detail": "In a statement, one of BitMarket's directors said that the exchange was hacked in 2017 as a result of which \"several users and technical accounts of the stock exchange lost more than 600 BTC.\""
         },
         {
+            "title": "$8,000,000 / Binance",
+            "date": "07-2019",
+            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
+            "detail": "Binance experienced a major breach on May 7 and the hackers were able to withdraw 7,000 bitcoins (currently over USD $40 million). Essentially the hackers were able to steal funds from Binance's hot wallet and seemingly was done in a way to bypass all of Binance's security checks."
+        },
+        {
             "title": "$5,000,000 / Bitrue",
             "date": "06-2019",
             "source": "https://cointelegraph.com/news/round-up-of-crypto-exchanges-hack-so-far-in-2019-how-can-it-be-stopped",
@@ -25,12 +31,6 @@
             "date": "06-2019",
             "source": "https://cointelegraph.com/news/round-up-of-crypto-exchanges-hack-so-far-in-2019-how-can-it-be-stopped",
             "detail": "the United Kingdom and Slovenia-based crypto exchange GateHub reported the loss of nearly $10 million worth of XRP. 18,473 accounts affected."
-        },
-        {
-            "title": "$8,000,000 / Binance",
-            "date": "07-2019",
-            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
-            "detail": "Binance experienced a major breach on May 7 and the hackers were able to withdraw 7,000 bitcoins (currently over USD $40 million). Essentially the hackers were able to steal funds from Binance's hot wallet and seemingly was done in a way to bypass all of Binance's security checks."
         },
         {
             "title": "$7,000,000 / DragonEX",
@@ -180,12 +180,7 @@
             "detail": "It is no surprise that by far the biggest hack in the history of cryptocurrencies happened to Bitcoin in the days of its infancy. The world's most popular exchange, MtGox, finally admitted its insolvency due to ongoing hacks. MtGox employees failed to protect the private keys of its wallet where it stored all the customer's deposits, and hackers would routinely drain this wallet into their own pockets. Everybody who had money stored on the exchange lost it. This amount of Bitcoin is currently worth more than 6 billion USD."
         },
 
-        {
-            "title": "$1,000,000 / BIPS",
-            "date": "11-2013",
-            "source": "https://thehackernews.com/2013/11/danish-bitcoin-exchange-bips-hacked-and_25.html",
-            "detail": "A bunch of cyber criminals just broke into BIPs -Bitcoin payment processor servers and wiped out around 1,295 Bitcoin from people’s wallets, currently worth $1 Million. More than 22,000 consumer wallets have been compromised and BIPS will be contacting the affected users."
-        },
+
         {
             "title": "$50,000,000 / Vircurex",
             "source": "https://www.coindesk.com/exchange-vircurex-freezes-withdrawals-claims-lack-reserves",
@@ -198,6 +193,11 @@
             "date": "11-2013",
             "source": "https://www.coindesk.com/hackers-steal-bitcoins-inputs-io-wallet-service",
             "detail": "Two hacks totalling about 4100 BTC have left Inputs.io unable to pay all user balances. The attacker compromised the hosting account through compromising email accounts (some very old, and without phone numbers attached, so it was easy to reset). The attacker was able to bypass 2FA due to a flaw on the server host side."
+        },        {
+            "title": "$1,000,000 / BIPS",
+            "date": "11-2013",
+            "source": "https://thehackernews.com/2013/11/danish-bitcoin-exchange-bips-hacked-and_25.html",
+            "detail": "A bunch of cyber criminals just broke into BIPs -Bitcoin payment processor servers and wiped out around 1,295 Bitcoin from people’s wallets, currently worth $1 Million. More than 22,000 consumer wallets have been compromised and BIPS will be contacting the affected users."
         },
           {
             "title": "$3,000,000 / PicoStocks",
