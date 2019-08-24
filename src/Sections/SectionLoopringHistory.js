@@ -24,8 +24,8 @@ class SectionLoopringHistory extends React.Component {
             <div className="column version-heading is-5 has-text-left">
               <div className="content">
                 <p>
-                  We started the project in July of 2017, until this date we
-                  have released 4 major versions of the Loopring protocol.
+                  We started the project in June, 2017, until this date we have
+                  released 4 major versions of the Loopring protocol.
                 </p>
                 <h2> </h2>
                 <h2> Loopring 1.0</h2>
@@ -104,25 +104,26 @@ class SectionLoopringHistory extends React.Component {
             </div>
             <div className="column version-heading is-5  has-text-left">
               <div className="content">
-                <h2> The Most Up-to-date Loopring 3.0</h2>
+                <h2>Loopring 3.0 / Reimagined</h2>
 
                 <p>
-                  Loopring 1.5 introduced another unique feature called{' '}
-                  <i>Dual Authoring</i> to prevent front-running. Each order has
-                  a randomly generated DA key-pair — the public key is part of
-                  the order; the private key is not part of the order but is
-                  sent to the relayer so that the relayer can and must use it to
-                  sign rings that include the order.
+                  Loopring 3.0 is our newest, fastest, and most forward-looking
+                  protocol. It provides a solution for the most outstanding
+                  challenge of all decentralized protocols — performance, or
+                  more precisely, performance without the tradeoff in security.
                 </p>
                 <p>
-                  Dual Authoring effectively prevents pending settlements and
-                  their orders from being stolen by middlemen in the Ethereum
-                  network, as those middlemen have no access to the orders' DA
-                  private keys.
+                  There are, however, some tradeoffs in other aspects. For
+                  example, orders are no longer sharable among multiple
+                  exchanges and have to be matched by a dedicated relayer.
+                  Crypto assets have to be deposited into a smart contract
+                  before orders can use them. One benefit of these tradeoffs is
+                  that the new user experience is more comparable to centralized
+                  exchanges.
                 </p>
                 <p>
-                  Dual Authoring comes very handy for scenarios where orders can
-                  be matched by more than one exchanges/relayers.
+                  Below please find a list of new and deprecated features in
+                  each release.
                 </p>
               </div>
             </div>
@@ -135,8 +136,8 @@ class SectionLoopringHistory extends React.Component {
             </div>
             <div className="column is-6 has-text-left">
               <span className="tag highlight">Ring-Matching</span>
-              <span className="tag">Order-Sharing</span>
-              <span className="tag">Noncustodial</span>
+              <span className="tag highlight">Order-Sharing</span>
+              <span className="tag highlight">Non-Custodial</span>
             </div>
 
             <div className="column is-2 is-offset-2 has-text-left">
@@ -146,7 +147,7 @@ class SectionLoopringHistory extends React.Component {
             <div className="column is-6 has-text-left">
               <span className="tag">Ring-Matching</span>
               <span className="tag ">Order-Sharing</span>
-              <span className="tag">Noncustodial</span>
+              <span className="tag">Non-Custodial</span>
               <span className="tag highlight">Dual-Authoring</span>
             </div>
 
@@ -157,7 +158,7 @@ class SectionLoopringHistory extends React.Component {
             <div className="column is-6 has-text-left">
               <span className="tag">Ring-Matching</span>
               <span className="tag">Order-Sharing</span>
-              <span className="tag">Noncustodial</span>
+              <span className="tag">Non-Custodial</span>
               <span className="tag">Dual-Authoring</span>
               <span className="tag highlight">Any-Token-As-Fee</span>
               <span className="tag highlight">LRC-Burning</span>
@@ -170,14 +171,17 @@ class SectionLoopringHistory extends React.Component {
             <div className="column is-6 has-text-left">
               <span className="tag obsoleted">Ring-Matching</span>
               <span className="tag obsoleted">Order-Sharing</span>
-              <span className="tag">Noncustodial</span>
+              <span className="tag obsoleted">Non-Custodial</span>
               <span className="tag obsoleted">Dual-Authoring</span>
               <span className="tag obsoleted">Any-Token-as-Fee</span>
               <span className="tag">LRC-Burning</span>
-              <span className="tag highlight">Trade-Token-As-Fee</span>
+              <span className="tag highlight">Custodial-in-Contract</span>
+              <span className="tag highlight">Trade-Token-as-Fee</span>
               <span className="tag highlight">zkRollup</span>
               <span className="tag highlight">LRC-Staking</span>
-              <span className="tag highlight">High-Performance</span>
+              <span className="tag highlight">High-Throughtput</span>
+              <span className="tag highlight">Low-Cost</span>
+              <span className="tag highlight">Upgradability</span>
             </div>
           </div>
         </div>
