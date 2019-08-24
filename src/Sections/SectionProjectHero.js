@@ -7,10 +7,6 @@ import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
 const API = './hacks_en.json';
 
 class SectionProjectHero extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <section className="section section-project-hero is-large">

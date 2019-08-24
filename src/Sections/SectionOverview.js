@@ -1,16 +1,25 @@
 import React from 'react';
 import './SectionOverview.scss';
+import '../../node_modules/aos/dist/aos.css';
+import AOS from 'aos';
 
 class SectionOverview extends React.Component {
+  constructor(props, context) {
+    super(props, context);
+    AOS.init();
+  }
+  componentWillReceiveProps() {
+    AOS.refresh();
+  }
   render() {
     return (
       <section className="section is-large section-overview has-background-grey">
         <div className="container">
           <div className="columns is-multiline">
-            <div className="column is-12 has-text-centered">
-              <h1>Overview</h1>
+            <div data-aos="fade-up" className="column is-12 has-text-centered">
+              <h1 className="">Overview</h1>
             </div>
-            <div className="column is-4">
+            <div data-aos="fade-up" className="column is-4">
               <h2>Loopring's Vision & Objectives</h2>
               <div className="content">
                 <p>
@@ -42,12 +51,12 @@ class SectionOverview extends React.Component {
                 </p>
               </div>
             </div>
-            <div className="column is-8">
+            <div data-aos="fade-up" className="column is-8">
               <figure className="image covered is-8by6">
                 <img src="https://images.unsplash.com/photo-1559526324-593bc073d938?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80" />
               </figure>
             </div>
-            <div className="column is-4">
+            <div data-aos="fade-up" className="column is-4">
               <figure className="image covered is-1by1">
                 <img
                   className="is-rounded"
@@ -55,7 +64,7 @@ class SectionOverview extends React.Component {
                 />
               </figure>
             </div>
-            <div className="column is-4">
+            <div data-aos="fade-up" className="column is-4">
               <h2>Loopring is Secure</h2>
               <div className="content">
                 <p>
@@ -94,7 +103,7 @@ class SectionOverview extends React.Component {
                 </p>
               </div>
             </div>
-            <div className="column is-4">
+            <div data-aos="fade-up" className="column is-4">
               <h2>Loopring's Performance</h2>
               <div className="content">
                 <p>

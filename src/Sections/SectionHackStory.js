@@ -1,5 +1,7 @@
 import React from 'react';
 import './SectionHackStory.scss';
+import '../../node_modules/aos/dist/aos.css';
+import AOS from 'aos';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
@@ -14,6 +16,7 @@ class SectionHackStory extends React.Component {
       title: '...',
       stories: [],
     };
+    AOS.init();
   }
 
   componentDidMount() {
@@ -24,6 +27,10 @@ class SectionHackStory extends React.Component {
         );
   }
 
+  componentWillReceiveProps() {
+    AOS.refresh();
+  }
+
   render() {
     return (
       <section
@@ -32,13 +39,13 @@ class SectionHackStory extends React.Component {
       >
         <div className="container">
           <div className="columns is-centered">
-            <div className="column is-12 has-text-centered">
+            <div data-aos="fade-up" className="column is-12 has-text-centered">
               <h1>Crypto Exchange Hacks</h1>
             </div>
           </div>
 
           <div className="columns">
-            <div className="column is-3 has-text-left">
+            <div data-aos="fade-up" className="column is-3 has-text-left">
               <FontAwesomeIcon icon={faRadiationAlt} size="5x" />
 
               <div className="total-figure">
@@ -49,13 +56,19 @@ class SectionHackStory extends React.Component {
                 </span>
               </div>
             </div>
-            <div className="column stories">
+            <div data-aos="fade-up" className="column stories">
               {this.state.stories.map((story) => (
                 <div className="columns is-mobile">
-                  <div className="column is-3 has-text-right">
+                  <div
+                    data-aos="fade-up"
+                    className="column is-3 has-text-right"
+                  >
                     <span>{story.date} ⟶ </span>
                   </div>
-                  <div className="column is-5 has-text-justified ">
+                  <div
+                    data-aos="fade-up"
+                    className="column is-5 has-text-justified "
+                  >
                     <a target="_blank" href={story.source}>
                       <h2>{story.title}</h2>
                     </a>
@@ -66,7 +79,10 @@ class SectionHackStory extends React.Component {
             </div>
           </div>
           <div className="columns is-centered">
-            <div className="column has-text-centered  is-12 call-for-action">
+            <div
+              data-aos="fade-up"
+              className="column has-text-centered  is-12 call-for-action"
+            >
               <a className="is-rounded is-unselectable" href="/protocol">
                 Learn how Loopring 3.0 achieves high level of security ↗
               </a>

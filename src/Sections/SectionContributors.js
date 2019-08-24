@@ -1,5 +1,7 @@
 import React from 'react';
 import './SectionContributors.scss';
+import '../../node_modules/aos/dist/aos.css';
+import AOS from 'aos';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
@@ -7,8 +9,12 @@ import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
 const API = './hacks_en.json';
 
 class SectionContributors extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor(props, context) {
+    super(props, context);
+    AOS.init();
+  }
+  componentWillReceiveProps() {
+    AOS.refresh();
   }
 
   render() {
@@ -17,11 +23,14 @@ class SectionContributors extends React.Component {
         <section className="section section-contributors is-medium has-text-black has-background-blue">
           <div className="container">
             <div className="columns ">
-              <div className="column is-6 has-text-centered has-text-right-tablet">
+              <div
+                data-aos="fade-up"
+                className="column is-6 has-text-centered has-text-right-tablet"
+              >
                 {' '}
                 <h1>Advisors</h1>
               </div>
-              <div className="column is-6">
+              <div data-aos="fade-up" className="column is-6">
                 <ul>
                   <li> ⟶ Xuefeng Li / CTO of Zhongan Technology</li>
                   <li> ⟶ Hongfei Da / Founder of NEO and Ontology</li>
@@ -51,11 +60,14 @@ class SectionContributors extends React.Component {
           </div>
           <div className="container">
             <div className="columns ">
-              <div className="column is-3 has-text-centered has-text-right-tablet">
+              <div
+                data-aos="fade-up"
+                className="column is-3 has-text-centered has-text-right-tablet"
+              >
                 {' '}
                 <h1>Contributors</h1>
               </div>
-              <div className="column is-9">
+              <div data-aos="fade-up" className="column is-9">
                 <ul>
                   <li> ⟶ Bella Long / PR Director</li>
                   <li> ⟶ Zongbao Hou / Developer</li>

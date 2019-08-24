@@ -13,7 +13,7 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <footer class="footer" has-background-white>
+      <footer className="footer has-background-white">
         <div className="content has-text-centered">
           <p>
             <a href="mailto:foundation@loopring.org">Email</a>⭑

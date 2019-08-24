@@ -5,7 +5,7 @@ class SectionLoopringV30 extends React.Component {
   render() {
     return (
       <section className="section is-large section-opensource">
-        <div class="fixed-label is-hidden-mobile">100% open-source</div>
+        <div className="fixed-label is-hidden-mobile">100% open-source</div>
         <div className="container">
           <div className="columns is-centered is-multiline">
             <div className="column is-12  has-text-centered">

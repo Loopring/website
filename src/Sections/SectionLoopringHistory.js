@@ -1,5 +1,7 @@
 import React from 'react';
 import './SectionLoopringHistory.scss';
+import '../../node_modules/aos/dist/aos.css';
+import AOS from 'aos';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
@@ -7,8 +9,12 @@ import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
 const API = './hacks_en.json';
 
 class SectionLoopringHistory extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor(props, context) {
+    super(props, context);
+    AOS.init();
+  }
+  componentWillReceiveProps() {
+    AOS.refresh();
   }
 
   render() {
@@ -17,12 +23,12 @@ class SectionLoopringHistory extends React.Component {
         <section className="section section-history is-large has-text-black has-background-blue">
           <div className="container">
             <div className="columns is-centered">
-              <div className="column is-10 has-text-left">
+              <div data-aos="fade-up" className="column is-10 has-text-left">
                 <h1>A brief history of Loopring</h1>
               </div>
             </div>
             <div className="columns is-centered is-multiline">
-              <div className="column  is-5 has-text-left">
+              <div data-aos="fade-up" className="column  is-5 has-text-left">
                 <div className="content">
                   <p>
                     We started the project in June, 2017, until this date we
@@ -51,12 +57,12 @@ class SectionLoopringHistory extends React.Component {
                   </p>
                 </div>
               </div>
-              <div className="column  is-5 has-text-left">
+              <div data-aos="fade-up" className="column  is-5 has-text-left">
                 <figure className="image covered is-3by2">
                   <img src="https://images.pexels.com/photos/461049/pexels-photo-461049.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" />
                 </figure>
               </div>
-              <div className="column  is-5 has-text-left">
+              <div data-aos="fade-up" className="column  is-5 has-text-left">
                 <div className="content">
                   <h2> Loopring 1.5</h2>
 
@@ -81,7 +87,7 @@ class SectionLoopringHistory extends React.Component {
                 </div>
               </div>
 
-              <div className="column  is-5  has-text-left">
+              <div data-aos="fade-up" className="column  is-5  has-text-left">
                 <div className="content">
                   <h2> Loopring 2.0</h2>
 
@@ -104,7 +110,10 @@ class SectionLoopringHistory extends React.Component {
                   </p>
                 </div>
               </div>
-              <div className="column version30 is-5  has-text-left">
+              <div
+                data-aos="fade-up"
+                className="column version30 is-5  has-text-left"
+              >
                 <div className="content">
                   <h2>Loopring 3.0 / Reimagined</h2>
 
@@ -139,37 +148,49 @@ class SectionLoopringHistory extends React.Component {
         <section className="section section-features is-large has-text-black has-background-white">
           <div className="container">
             <div className="columns is-centered">
-              <div className="column is-10 has-text-centered">
+              <div
+                data-aos="fade-up"
+                className="column is-10 has-text-centered"
+              >
                 <h1>Features</h1>
               </div>
             </div>
             <div className="columns is-multiline">
-              <div className="column is-2 is-offset-2 has-text-left">
+              <div
+                data-aos="fade-up"
+                className="column is-2 is-offset-2 has-text-left"
+              >
                 ➜ <span className="deprecated">Loopring 1.0 (deprecated)</span>{' '}
                 ······
               </div>
-              <div className="column is-6 has-text-left">
+              <div data-aos="fade-up" className="column is-6 has-text-left">
                 <span className="tag highlight">Ring-Matching</span>
                 <span className="tag highlight">Order-Sharing</span>
                 <span className="tag highlight">Non-Custodial</span>
               </div>
 
-              <div className="column is-2 is-offset-2 has-text-left">
+              <div
+                data-aos="fade-up"
+                className="column is-2 is-offset-2 has-text-left"
+              >
                 ➜ <span className="deprecated">Loopring 1.5 (deprecated)</span>{' '}
                 ······
               </div>
-              <div className="column is-6 has-text-left">
+              <div data-aos="fade-up" className="column is-6 has-text-left">
                 <span className="tag">Ring-Matching</span>
                 <span className="tag ">Order-Sharing</span>
                 <span className="tag">Non-Custodial</span>
                 <span className="tag highlight">Dual-Authoring</span>
               </div>
 
-              <div className="column is-2 is-offset-2 has-text-left">
+              <div
+                data-aos="fade-up"
+                className="column is-2 is-offset-2 has-text-left"
+              >
                 ➜ <span className="deprecated">Loopring 2.0 (deprecated)</span>{' '}
                 ······
               </div>
-              <div className="column is-6 has-text-left">
+              <div data-aos="fade-up" className="column is-6 has-text-left">
                 <span className="tag">Ring-Matching</span>
                 <span className="tag">Order-Sharing</span>
                 <span className="tag">Non-Custodial</span>
@@ -178,11 +199,14 @@ class SectionLoopringHistory extends React.Component {
                 <span className="tag highlight">LRC-Burning</span>
               </div>
 
-              <div className="column is-2 is-offset-2 has-text-left">
+              <div
+                data-aos="fade-up"
+                className="column is-2 is-offset-2 has-text-left"
+              >
                 ➜ <span className="">Loopring 3.0</span>{' '}
                 ···························
               </div>
-              <div className="column is-6 has-text-left">
+              <div data-aos="fade-up" className="column is-6 has-text-left">
                 <span className="tag deprecated">Ring-Matching</span>
                 <span className="tag deprecated">Order-Sharing</span>
                 <span className="tag deprecated">Non-Custodial</span>

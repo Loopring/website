@@ -1,5 +1,7 @@
 import React from 'react';
 import './SectionCoreTeam.scss';
+import '../../node_modules/aos/dist/aos.css';
+import AOS from 'aos';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
@@ -7,21 +9,27 @@ import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
 const API = './hacks_en.json';
 
 class SectionCoreTeam extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor(props, context) {
+    super(props, context);
+    AOS.init();
   }
-
+  componentWillReceiveProps() {
+    AOS.refresh();
+  }
   render() {
     return (
       <div>
         <section className="section section-coreteam is-large has-text-black">
           <div className="container">
             <div className="columns ">
-              <div className="column is-5 has-text-centered has-text-right-tablet">
+              <div
+                data-aos="fade-up"
+                className="column is-5 has-text-centered has-text-right-tablet"
+              >
                 {' '}
                 <h1>Core Team</h1>
               </div>
-              <div className="column is-7">
+              <div data-aos="fade-up" className="column is-7">
                 <ul>
                   <li>
                     {' '}
