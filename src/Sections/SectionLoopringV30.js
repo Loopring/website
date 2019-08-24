@@ -1,17 +1,27 @@
 import React from 'react';
 import './SectionLoopringV30.scss';
+import '../../node_modules/aos/dist/aos.css';
+import AOS from 'aos';
 
 class SectionLoopringV30 extends React.Component {
+  constructor(props, context) {
+    super(props, context);
+    AOS.init();
+  }
+  componentWillReceiveProps() {
+    AOS.refresh();
+  }
+
   render() {
     return (
-      <section className="section is-large section-opensource">
+      <section className="section is-large section-opensource  has-background-grey">
         <div className="fixed-label is-hidden-mobile">100% open-source</div>
         <div className="container">
           <div className="columns is-centered is-multiline">
-            <div className="column is-12  has-text-centered">
+            <div data-aos="fade-up" className="column is-12  has-text-centered">
               <h1> Loopring 3.0</h1>
             </div>
-            <div className="column is-5">
+            <div data-aos="fade-up" className="column is-5">
               <h2>Fully Open-Sourced</h2>
               <div className="content">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -61,7 +71,7 @@ class SectionLoopringV30 extends React.Component {
               </ul>
             </div>
 
-            <div className="column is-5">
+            <div data-aos="fade-up" className="column is-5">
               <h2>Zero-Knowledge Proofs Setup</h2>
               <div className="content">
                 <p>

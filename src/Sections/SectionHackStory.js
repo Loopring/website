@@ -40,12 +40,15 @@ class SectionHackStory extends React.Component {
         <div className="container">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-12 has-text-centered">
-              <h1>Crypto Exchange Hacks</h1>
+              <h1>Crypto Hacks</h1>
             </div>
           </div>
 
           <div className="columns">
-            <div data-aos="fade-up" className="column is-3 has-text-left">
+            <div
+              data-aos="fade-up"
+              className="column is-3 is-12-mobile has-text-left"
+            >
               <FontAwesomeIcon icon={faRadiationAlt} size="5x" />
 
               <div className="total-figure">
@@ -56,18 +59,21 @@ class SectionHackStory extends React.Component {
                 </span>
               </div>
             </div>
-            <div data-aos="fade-up" className="column stories">
+            <div
+              data-aos="fade-up"
+              className="column is-9 is-12-mobile stories"
+            >
               {this.state.stories.map((story) => (
-                <div className="columns is-mobile">
+                <div className="columns">
                   <div
                     data-aos="fade-up"
-                    className="column is-3 has-text-right"
+                    className="column is-3 is-12-mobile has-text-right has-text-left-mobile"
                   >
                     <span>{story.date} ⟶ </span>
                   </div>
                   <div
                     data-aos="fade-up"
-                    className="column is-5 has-text-justified "
+                    className="column is-5 is-12-mobile has-text-justified "
                   >
                     <a target="_blank" href={story.source}>
                       <h2>{story.title}</h2>

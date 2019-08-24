@@ -19,8 +19,8 @@ class Protocol extends React.Component {
         <Header />
         <SectionLoopringV30 />
         <SectionThroughput />
-        <Section3 />
-        <Section4 />
+        {/* <Section3 />*/}
+        {/* <Section4 />*/}
         <Footer />
       </div>
     );

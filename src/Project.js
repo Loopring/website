@@ -19,6 +19,7 @@ class Project extends React.Component {
         <SectionOverview />
         <SectionLoopringHistory />
         <SectionHackStory />
+
         <Footer />
       </div>
     );

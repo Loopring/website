@@ -45,6 +45,7 @@ h4 {
     text-underline-position: under !important;
     color: $body-color !important;
     padding-bottom: $body-size !important;
+    // text-decoration-color: $grey;
 }
 
 h2 {
@@ -75,8 +76,7 @@ h1 {
     img {
         user-select: none;
         filter: grayscale(100%);
-        transition-duration: 3s;
-        transition-delay: 3s;
+        transition-duration: 1s;
     }
 
     &:hover {
@@ -86,7 +86,7 @@ h1 {
     }
 
     &:after {
-        transition-duration: 3s;
+        transition-duration: 1s;
         content: "";
         display: block;
         position: absolute;

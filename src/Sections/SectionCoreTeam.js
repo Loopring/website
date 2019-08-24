@@ -19,7 +19,7 @@ class SectionCoreTeam extends React.Component {
   render() {
     return (
       <div>
-        <section className="section section-coreteam is-large has-text-black">
+        <section className="section section-coreteam is-large has-text-black  has-background-grey">
           <div className="container">
             <div className="columns ">
               <div
@@ -134,7 +134,7 @@ class SectionCoreTeam extends React.Component {
           </div>
         </section>
         <section className="is-medium">
-          <figure className="image covered">
+          <figure data-aos="fade-up" className="image covered">
             <img
               className="team-picture is-unselectable"
               src="images/team.jpeg"

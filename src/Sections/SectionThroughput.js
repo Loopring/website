@@ -1,14 +1,21 @@
 import React from 'react';
 import './SectionThroughput.scss';
 
+import '../../node_modules/aos/dist/aos.css';
+import AOS from 'aos';
+
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
 
 const API = './hacks_en.json';
 
 class SectionThroughput extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor(props, context) {
+    super(props, context);
+    AOS.init();
+  }
+  componentWillReceiveProps() {
+    AOS.refresh();
   }
 
   render() {
@@ -16,10 +23,16 @@ class SectionThroughput extends React.Component {
       <section className="section section-throughput is-large has-text-black has-background-blue">
         <div className="container">
           <div className="columns is-centered is-multiline">
-            <div className="column is-12 is-centered has-text-centered">
+            <div
+              data-aos="fade-up"
+              className="column is-12 is-centered has-text-centered"
+            >
               <h1>3.0 Throughput</h1>
             </div>
-            <div className="column is-12 is-centered has-text-centered">
+            <div
+              data-aos="fade-up"
+              className="column is-12 is-centered has-text-centered"
+            >
               <table className="table">
                 <thead>
                   <tr>
@@ -62,8 +75,18 @@ class SectionThroughput extends React.Component {
           </div>
 
           <div className="columns is-centered is-multiline">
-            <div className="column bordered is-4 has-text-centered">afaa</div>
-            <div className="column bordered is-4 has-text-centered">aaa</div>
+            <div
+              data-aos="fade-up"
+              className="column bordered is-4 has-text-centered"
+            >
+              afaa
+            </div>
+            <div
+              data-aos="fade-up"
+              className="column bordered is-4 has-text-centered"
+            >
+              aaa
+            </div>
           </div>
         </div>
       </section>

@@ -17,7 +17,6 @@
 
     .deprecated {
         text-decoration: line-through;
-        // color: $grey;
     }
 
     .tag {
@@ -35,7 +34,7 @@
 
         &.deprecated {
             text-decoration: line-through;
-            background-color: $white-ter;
+            background-color: $grey-lighter;
             color: $grey-darker;
         }
     }
