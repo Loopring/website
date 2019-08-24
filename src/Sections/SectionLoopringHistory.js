@@ -110,7 +110,7 @@ class SectionLoopringHistory extends React.Component {
                   Loopring 3.0 is our newest, fastest, and most forward-looking
                   protocol. It provides a solution for the most outstanding
                   challenge of all decentralized protocols — performance, or
-                  more precisely, performance without the tradeoff in security.
+                  more precisely, performance without tradeoff in security.
                 </p>
                 <p>
                   There are, however, some tradeoffs in other aspects. For
@@ -121,9 +121,14 @@ class SectionLoopringHistory extends React.Component {
                   that the new user experience is more comparable to centralized
                   exchanges.
                 </p>
+
                 <p>
-                  Below please find a list of new and deprecated features in
-                  each release.
+                  <a className="highlight" href="/protocol">
+                    Click here↗
+                  </a>{' '}
+                  to learn about the technical details of Loopring 3.0. And
+                  below please find a list of new and deprecated features in
+                  each Loopring release.
                 </p>
               </div>
             </div>
@@ -131,7 +136,7 @@ class SectionLoopringHistory extends React.Component {
 
           <div className="columns is-multiline">
             <div className="column is-2 is-offset-2 has-text-left">
-              ➜ <span className="obsoleted">Loopring 1.0 (obsoleted)</span>{' '}
+              ➜ <span className="deprecated">Loopring 1.0 (deprecated)</span>{' '}
               ········
             </div>
             <div className="column is-6 has-text-left">
@@ -141,7 +146,7 @@ class SectionLoopringHistory extends React.Component {
             </div>
 
             <div className="column is-2 is-offset-2 has-text-left">
-              ➜ <span className="obsoleted">Loopring 1.5 (obsoleted)</span>{' '}
+              ➜ <span className="deprecated">Loopring 1.5 (deprecated)</span>{' '}
               ········
             </div>
             <div className="column is-6 has-text-left">
@@ -152,7 +157,7 @@ class SectionLoopringHistory extends React.Component {
             </div>
 
             <div className="column is-2 is-offset-2 has-text-left">
-              ➜ <span className="obsoleted">Loopring 2.0 (obsoleted)</span>{' '}
+              ➜ <span className="deprecated">Loopring 2.0 (deprecated)</span>{' '}
               ········
             </div>
             <div className="column is-6 has-text-left">
@@ -169,11 +174,11 @@ class SectionLoopringHistory extends React.Component {
               ···························
             </div>
             <div className="column is-6 has-text-left">
-              <span className="tag obsoleted">Ring-Matching</span>
-              <span className="tag obsoleted">Order-Sharing</span>
-              <span className="tag obsoleted">Non-Custodial</span>
-              <span className="tag obsoleted">Dual-Authoring</span>
-              <span className="tag obsoleted">Any-Token-as-Fee</span>
+              <span className="tag deprecated">Ring-Matching</span>
+              <span className="tag deprecated">Order-Sharing</span>
+              <span className="tag deprecated">Non-Custodial</span>
+              <span className="tag deprecated">Dual-Authoring</span>
+              <span className="tag deprecated">Any-Token-as-Fee</span>
               <span className="tag">LRC-Burning</span>
               <span className="tag highlight">Custodial-in-Contract</span>
               <span className="tag highlight">Trade-Token-as-Fee</span>

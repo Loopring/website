@@ -10,7 +10,7 @@
     }
   }
 
-  .obsoleted {
+  .deprecated {
     text-decoration: line-through;
     // color: $grey;
   }
@@ -32,7 +32,7 @@
       background-color: $black;
     }
 
-    &.obsoleted {
+    &.deprecated {
       text-decoration: line-through;
       background-color: $white-ter;
       color: $grey-darker;
