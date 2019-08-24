@@ -7,8 +7,10 @@ class SectionOverview extends React.Component {
       <section className="section is-large section-overview has-background-grey">
         <div className="container">
           <div className="columns is-multiline">
-            <div className="column is-4">
+            <div className="column is-12 has-text-centered">
               <h1>Overview</h1>
+            </div>
+            <div className="column is-4">
               <h2>Loopring's Vision & Objectives</h2>
               <div className="content">
                 <p>

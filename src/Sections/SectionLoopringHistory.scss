@@ -1,41 +1,42 @@
 @charset "utf-8";
 @import "../Variables.scss";
 
-.protocol-section-1 {
-  .version-heading {
-    padding-bottom: 60px;
-
+.section-history {
     .content {
-      text-align: justify;
-    }
-  }
-
-  .deprecated {
-    text-decoration: line-through;
-    // color: $grey;
-  }
-
-  .symboled {
-    font-size: 20px;
-    font-weight: 700;
-  }
-
-  .tag {
-    // padding:1rem;
-    margin-right: 0.25rem;
-    margin-left: 0.25rem;
-    margin-bottom: 0.5rem;
-    background-color: $grey;
-    color: $white;
-
-    &.highlight {
-      background-color: $black;
+        text-align: justify;
     }
 
-    &.deprecated {
-      text-decoration: line-through;
-      background-color: $white-ter;
-      color: $grey-darker;
+    .version30 {
+      padding-top:100px;
     }
-  }
+}
+
+
+
+.section-features {
+
+    .deprecated {
+        text-decoration: line-through;
+        // color: $grey;
+    }
+
+    .tag {
+        // padding:1rem;
+        margin-right: 0.25rem;
+        margin-left: 0.25rem;
+        margin-bottom: 0.5rem;
+        background-color: $grey;
+        color: $white;
+        font-weight: 700;
+
+        &.highlight {
+            background-color: $black;
+        }
+
+        &.deprecated {
+            text-decoration: line-through;
+            background-color: $white-ter;
+            color: $grey-darker;
+        }
+    }
 }
