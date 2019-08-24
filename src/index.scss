@@ -63,6 +63,7 @@ h1 {
         user-select: none;
         filter: grayscale(100%);
         transition-duration: 3s;
+        transition-delay: 3s;
     }
 
     &:hover {
@@ -72,6 +73,7 @@ h1 {
     }
 
     &:after {
+       transition-duration: 3s;
         content: "";
         display: block;
         position: absolute;
@@ -79,7 +81,7 @@ h1 {
         right: 0;
         top: 0;
         bottom: 0;
-        background: rgba($image-overlay-background, 0.1);
+        // background: rgba($image-overlay-background, 0.1);
         background-image: linear-gradient(45deg,
             $image-overlay-foreground 5%,
             transparent 15%,
@@ -105,6 +107,8 @@ h1 {
             $image-overlay-foreground 45%,
             $image-overlay-foreground);
         background-size: 3px 3px;
+
+
     }
 }
 

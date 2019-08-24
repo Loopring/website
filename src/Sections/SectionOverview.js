@@ -81,7 +81,7 @@ class SectionOverview extends React.Component {
                   of trustworthiness.
                 </p>
               </div>
-              <h2>Fewer Risks for Exchange Owners</h2>
+              <h2>The Redemption of Centralized Exchanges</h2>
               <div className="content">
                 <p>
                   If you have ever run centralized exchanges, you know the
@@ -104,27 +104,26 @@ class SectionOverview extends React.Component {
                 </p>
                 <p>
                   We believe the way most other trading protocols use the
-                  underlying blockchain is fundamentally wrong. Loopring take s
-                  a different approach known as{' '}
+                  underlying blockchain is fundamentally wrong. Loopring takes a
+                  different approach known as{' '}
                   <a
                     href="https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477"
                     target="_blank"
                   >
-                    zkRollup (by Vitalik)
+                    zkRollup proposed by Vitalik Buterin
                   </a>
-                  , by migrating most computations off the blockchain and only
+                  , and migrates most computations off the blockchain and only
                   broadcast exchanges' new state roots and their corresponding
                   proofs onto the blockchain. In other words, the Loopring
-                  protocol users the underlying Ethereum blockchain mainly as a
-                  data layer and a Zero-Knowledge Proof verification layer. As a
-                  result, Loopring's throughput is as high as 350 trades per
-                  second when On-Chain Data-Availability is on, and 6,900 trades
-                  per second when On-Chain Data-Availability is off. The
-                  post-Istanbul throughtput will become 1,400 and 10,500
-                  respectively. The cost per trade settlement is as small as
-                  one-third of a US cent, which can be further optimized with
-                  different approaches such as GPU-based proof generation and
-                  recursive SNARKs.
+                  protocol uses the underlying Ethereum blockchain mainly as a
+                  data layer and a Zero-Knowledge Proof verification thin-logic
+                  layer. As a result, Loopring's throughput is as high as 350
+                  trades per second with on-chain data-availability is on, and
+                  6,900 trades per second without. The post-Istanbul throughtput
+                  will become 1,400 and 10,500 respectively. The cost per trade
+                  settlement is as small as one-third of a US cent, which can be
+                  further optimized with different approaches such as GPU-based
+                  proof generation and recursive SNARKs.
                 </p>
                 <p>
                   We believe Loopring's performance is sufficient for

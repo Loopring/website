@@ -50,8 +50,8 @@ class SectionLoopringHistory extends React.Component {
               </div>
             </div>
             <div className="column version-heading is-5 has-text-left">
-              <figure className="image covered is-8by6">
-                <img src="https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+              <figure className="image covered is-3by2">
+                <img src="https://images.pexels.com/photos/461049/pexels-photo-461049.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" />
               </figure>
             </div>
             <div className="column version-heading is-5 has-text-left">
@@ -84,20 +84,21 @@ class SectionLoopringHistory extends React.Component {
                 <h2> Loopring 2.0</h2>
 
                 <p>
-                  Loopring 1.0 introduced the <i>Ring-Matching</i> concept — in
-                  one trade, up to 12 orders can circularly swap crypto-assets
-                  in the form of <i>ring</i>s. This feature is unique and brings
-                  the potential for improved price discovery and higher trading
-                  volume. Our project name "Loopring" actually comes after this
-                  feature.
+                  With the 2.0 release, Loopring no longer requires traders to
+                  pay relayers LRC, Loopring's utility token, as the trading
+                  fee. The trading fees can be paid using any ERC-20 tokens that
+                  relayers specify. Relayers only have to use a percentage,
+                  known as the burn-rate, of their fee income to buy LRC to burn
+                  (so LRC's total supply is ever decreasing). Different tokens
+                  have varying burn-rates, and the burn rates for LRC and WETH
+                  are the lowest, which makes paying in LRC and Ether the most
+                  cost-efficient.
                 </p>
                 <p>
-                  With 1.0, orders are managed and matched off-chain. The
-                  protocol's smart contracts verify order signatures, trading
-                  prices, and settlement amounts on-chain and perform token
-                  transfers for each order accordingly. Because of the off-chain
-                  order management and matching, the performance of Loopring 1.0
-                  is better than that of EtherDelta and the like.
+                  This <i>Any-Token-As-Fee</i> feature not only significantly
+                  reduces frictions in user experience, but also enables
+                  decentralized exchanges to use own their platform token as the
+                  fee token.
                 </p>
               </div>
             </div>
@@ -170,7 +171,7 @@ class SectionLoopringHistory extends React.Component {
               <span className="tag obsoleted">Ring-Matching</span>
               <span className="tag obsoleted">Order-Sharing</span>
               <span className="tag">Noncustodial</span>
-              <span className="tag">Dual-Authoring</span>
+              <span className="tag obsoleted">Dual-Authoring</span>
               <span className="tag obsoleted">Any-Token-as-Fee</span>
               <span className="tag">LRC-Burning</span>
               <span className="tag highlight">Trade-Token-As-Fee</span>
