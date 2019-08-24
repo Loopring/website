@@ -67,8 +67,8 @@ class SectionHackStory extends React.Component {
           </div>
           <div className="columns is-centered">
             <div className="column has-text-centered  is-12 call-for-action">
-              <a className="is-rounded" href="/protocol">
-                Learn how Loopring achieves high level of security ↗
+              <a className="is-rounded is-unselectable" href="/protocol">
+                Learn how Loopring 3.0 achieves high level of security ↗
               </a>
             </div>
           </div>

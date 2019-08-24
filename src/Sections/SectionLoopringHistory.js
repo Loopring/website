@@ -110,7 +110,8 @@ class SectionLoopringHistory extends React.Component {
                   Loopring 3.0 is our newest, fastest, and most forward-looking
                   protocol. It provides a solution for the most outstanding
                   challenge of all decentralized protocols — performance, or
-                  more precisely, performance without tradeoff in security.
+                  more precisely, much higher performance without tradeoff in
+                  security.
                 </p>
                 <p>
                   There are, however, some tradeoffs in other aspects. For
