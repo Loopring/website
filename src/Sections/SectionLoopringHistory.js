@@ -24,7 +24,7 @@ class SectionLoopringHistory extends React.Component {
           <div className="container">
             <div className="columns is-centered">
               <div data-aos="fade-up" className="column is-10 has-text-left">
-                <h1>A brief history of Loopring</h1>
+                <h1>Version History</h1>
               </div>
             </div>
             <div className="columns is-centered is-multiline">
@@ -112,17 +112,17 @@ class SectionLoopringHistory extends React.Component {
               </div>
               <div
                 data-aos="fade-up"
-                className="column version30 is-5  has-text-left"
+                className="column version30 has-shaddow is-6 has-background-black has-text-white  has-text-left"
               >
                 <div className="content">
-                  <h2>Loopring 3.0 / Reimagined</h2>
+                  <h2>Loopring 3.0, Reimagined.</h2>
 
                   <p>
                     Loopring 3.0 is our newest, fastest, and most
                     forward-looking protocol. It provides a solution for the
                     most outstanding challenge of all decentralized protocols —
-                    performance, or more precisely, much higher performance
-                    without tradeoff in security.
+                    performance, or more precisely,{' '}
+                    <b>much higher performance without tradeoff in security</b>.
                   </p>
                   <p>
                     There are, however, some tradeoffs in other aspects. For
@@ -148,10 +148,7 @@ class SectionLoopringHistory extends React.Component {
         <section className="section section-features is-large has-text-black has-background-white">
           <div className="container">
             <div className="columns is-centered">
-              <div
-                data-aos="fade-up"
-                className="column is-10 has-text-centered"
-              >
+              <div data-aos="fade-up" className="column is-10 has-text-right">
                 <h1>Features</h1>
               </div>
             </div>
