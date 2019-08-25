@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Route, BrowserRouter as Router} from 'react-router-dom';
 import './index.scss';
+import ScrollToTop from './Components/ScrollToTop';
 import Project from './Project';
 import Protocol from './Protocol';
 import LRC from './LRC';
@@ -13,7 +14,7 @@ import * as serviceWorker from './serviceWorker';
 
 const routing = (
   <Router>
-    <div>
+    <ScrollToTop>
       <Route path="/" exact component={Project} />
       <Route path="/protocol" component={Protocol} />
       <Route path="/lrc" component={LRC} />
@@ -21,7 +22,7 @@ const routing = (
       <Route path="/blogs" component={Blog} />
       <Route path="/blog" component={BlogPage} />
       <Route component={NotFound} />
-    </div>
+    </ScrollToTop>
   </Router>
 );
 ReactDOM.render(routing, document.getElementById('root'));
