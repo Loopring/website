@@ -65,117 +65,75 @@ class LRC extends React.Component {
             </div>
 
             <div className="columns is-centered is-multiline">
-              <div data-aos="fade-up" className="column  is-4 has-text-right">
+              <div data-aos="fade-up" className="column  is-2 has-text-right">
                 <div className="content">
-                  <div className="category is-unselectable">#1</div>
+                  <div className="category is-unselectable">☉</div>
                 </div>
               </div>
 
               <div data-aos="fade-up" className="column  is-4 has-text-left">
                 <div className="content">
-                  {' '}
-                  <h2>fdfda fldja fdaf </h2>
+                  <h2>1 / Stake LRC to Earn Protocol Fees, by Holders</h2>
                   <p>
-                    Loopring 1.5 introduced another unique feature called{' '}
-                    <i>Dual Authoring</i> to prevent front-running. Each order
-                    has a randomly generated DA key-pair — the public key is
-                    part of the order; the private key is not part of the order
-                    but is sent to the relayer so that the relayer can and must
-                    use it to sign rings that include the order.
-                  </p>
-                  <p>
-                    Dual Authoring comes very handy for scenarios where orders
-                    can be matched by more than one exchange/relayer.
+                    Every LRC holder can stake LRC to earn part of 70% of the
+                    protocol fees of all exchanges built on top of Loopring —
+                    20% will fund the Loopring DAO and the remaining 10% will be
+                    burned.
                   </p>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-        <section className="section section-lrc-utilities is-large has-text-white has-background-black">
-          <div className="container is-centered has-text-centered">
             <div className="columns is-centered">
-              <div data-aos="fade-up" className="column  is-4 has-text-right">
+              <div data-aos="fade-up" className="column  is-2 has-text-right">
                 <div className="content">
-                  <div className="category is-unselectable">#2</div>
+                  <div className="category is-unselectable">☐</div>
                 </div>
               </div>
 
               <div data-aos="fade-up" className="column  is-4 has-text-left">
                 <div className="content">
-                  {' '}
-                  <h2>fdfda fldja fdaf </h2>
+                  <h2>
+                    2 / Stake LRC to build up DEX Reputation, by DEX Owners
+                  </h2>
                   <p>
-                    Loopring 1.5 introduced another unique feature called{' '}
-                    <i>Dual Authoring</i> to prevent front-running. Each order
-                    has a randomly generated DA key-pair — the public key is
-                    part of the order; the private key is not part of the order
-                    but is sent to the relayer so that the relayer can and must
-                    use it to sign rings that include the order.
-                  </p>
-                  <p>
-                    Dual Authoring comes very handy for scenarios where orders
-                    can be matched by more than one exchange/relayer.
+                    An exchange owner needs to stake LRC for economic security
+                    and builing up its reputation.
                   </p>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-        <section className="section section-lrc-utilities is-large has-text-white has-background-black">
-          <div className="container is-centered has-text-centered">
             <div className="columns is-centered">
-              <div data-aos="fade-up" className="column  is-4 has-text-right">
+              <div data-aos="fade-up" className="column  is-2 has-text-right">
                 <div className="content">
-                  <div className="category is-unselectable">#3</div>
+                  <div className="category is-unselectable">⟁</div>
                 </div>
               </div>
 
               <div data-aos="fade-up" className="column  is-4 has-text-left">
                 <div className="content">
-                  {' '}
-                  <h2>fdfda fldja fdaf </h2>
+                  <h2>3 / LRC to Lower Protocol Fees, by DEX Owners</h2>
                   <p>
-                    Loopring 1.5 introduced another unique feature called{' '}
-                    <i>Dual Authoring</i> to prevent front-running. Each order
-                    has a randomly generated DA key-pair — the public key is
-                    part of the order; the private key is not part of the order
-                    but is sent to the relayer so that the relayer can and must
-                    use it to sign rings that include the order.
-                  </p>
-                  <p>
-                    Dual Authoring comes very handy for scenarios where orders
-                    can be matched by more than one exchange/relayer.
+                    LRC can be staked to lower the protocol fees on a specific
+                    exchange by an exchange owner, market makers and
+                    high-frequency traders.
                   </p>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-        <section className="section section-lrc-utilities is-large has-text-white has-background-black">
-          <div className="container is-centered has-text-centered">
             <div className="columns is-centered">
-              <div data-aos="fade-up" className="column  is-4 has-text-right">
+              <div data-aos="fade-up" className="column  is-2 has-text-right">
                 <div className="content">
-                  <div className="category is-unselectable">#4</div>
+                  <div className="category is-unselectable">∖</div>
                 </div>
               </div>
 
               <div data-aos="fade-up" className="column  is-4 has-text-left">
                 <div className="content">
-                  {' '}
-                  <h2>fdfda fldja fdaf </h2>
+                  <h2>4 / LRC to Lower Protocol Fees, by Traders</h2>
                   <p>
-                    Loopring 1.5 introduced another unique feature called{' '}
-                    <i>Dual Authoring</i> to prevent front-running. Each order
-                    has a randomly generated DA key-pair — the public key is
-                    part of the order; the private key is not part of the order
-                    but is sent to the relayer so that the relayer can and must
-                    use it to sign rings that include the order.
-                  </p>
-                  <p>
-                    Dual Authoring comes very handy for scenarios where orders
-                    can be matched by more than one exchange/relayer.
+                    LRC can be staked to lower the protocol fees on a specific
+                    exchange by an exchange owner, market makers and
+                    high-frequency traders.
                   </p>
                 </div>
               </div>
