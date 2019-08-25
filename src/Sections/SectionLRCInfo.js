@@ -35,7 +35,7 @@ class SectionLRCInfo extends React.Component {
         <div className="container is-centered has-text-centered">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-10 has-text-centered">
-              <h1>Learn & Buy</h1>
+              <h1>BUY TO Invest</h1>
             </div>
           </div>
 
@@ -57,12 +57,26 @@ class SectionLRCInfo extends React.Component {
 
                 <h2>Regarding LRC Token Migration</h2>
                 <p>
-                  On May 07 2019, we migrated LRC from v1 to v2. The new LRC
-                  token remains ERC20 compliant and now supports a “burn”
-                  function that will be used by the Loopring Protocol and the
-                  new Oedax auction protocol to burn LRC as the protocols are
-                  being used. The total LRC supply will decrease to reflect
-                  these burns.
+                  On May 07 2019, we migrated LRC from{' '}
+                  <a
+                    className="highlight"
+                    href="https://etherscan.io/token/0xef68e7c694f40c8202821edf525de3782458639f"
+                    target="_blank"
+                  >
+                    v1↗
+                  </a>{' '}
+                  to v2. The new LRC token remains ERC20 compliant and now
+                  supports a “burn” function that will be used by the Loopring
+                  Protocol and the new{' '}
+                  <a
+                    href="https://medium.com/loopring-protocol/oedax-looprings-open-ended-dutch-auction-exchange-model-d92cebbd3667"
+                    target="_blank"
+                    className="highlight"
+                  >
+                    Oedax↗
+                  </a>{' '}
+                  auction protocol to burn LRC as the protocols are being used.
+                  The total LRC supply will decrease to reflect these burns.
                 </p>
 
                 <p>
