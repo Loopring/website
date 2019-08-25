@@ -51,12 +51,13 @@
 
     .column-exchange {
 
+
         .coming-soon {
             .tag {
                 background-color: $primary;
             }
 
-            text-decoration: none;
+            // text-decoration: none;
             // padding-top: 20px;
             padding-bottom: 20px;
 
@@ -70,6 +71,10 @@
         .exchange-name {
             min-width: 120px;
             display: inline-block;
+
+            &:hover {
+                 text-decoration: underline;
+            }
         }
 
         .tag {
