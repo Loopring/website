@@ -43,19 +43,19 @@ class SectionThroughput extends React.Component {
                   <tr>
                     <td className="first">Currently</td>
                     <td>
-                      <span className="h">350</span>
+                      <span className="highlighted">350</span>
                     </td>
                     <td>
-                      <span className="h">6,900</span>
+                      <span className="highlighted">6,900</span>
                     </td>
                   </tr>
                   <tr>
                     <td className="first">Post Istanbul Fork</td>
                     <td>
-                      <span className="h">1,400</span>
+                      <span className="highlighted">1,400</span>
                     </td>
                     <td>
-                      <span className="h">10,500</span>
+                      <span className="highlighted">10,500</span>
                     </td>
                   </tr>
                 </tbody>
