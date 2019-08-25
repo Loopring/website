@@ -26,7 +26,10 @@ class SectionLRCStaking extends React.Component {
           </div>
 
           <div className="columns is-centered is-multiline">
-            <div data-aos="fade-up" className="column  is-2 has-text-right">
+            <div
+              data-aos="fade-up"
+              className="column  is-2 has-text-right has-text-centered-mobile"
+            >
               <div className="content">
                 <div className="category is-unselectable">☉</div>
               </div>
@@ -45,7 +48,10 @@ class SectionLRCStaking extends React.Component {
             </div>
           </div>
           <div className="columns is-centered">
-            <div data-aos="fade-up" className="column  is-2 has-text-right">
+            <div
+              data-aos="fade-up"
+              className="column  is-2 has-text-right has-text-centered-mobile"
+            >
               <div className="content">
                 <div className="category is-unselectable">☐</div>
               </div>
@@ -62,7 +68,10 @@ class SectionLRCStaking extends React.Component {
             </div>
           </div>
           <div className="columns is-centered">
-            <div data-aos="fade-up" className="column  is-2 has-text-right">
+            <div
+              data-aos="fade-up"
+              className="column  is-2 has-text-right has-text-centered-mobile"
+            >
               <div className="content">
                 <div className="category is-unselectable">⟁</div>
               </div>
@@ -80,7 +89,10 @@ class SectionLRCStaking extends React.Component {
             </div>
           </div>
           <div className="columns is-centered">
-            <div data-aos="fade-up" className="column  is-2 has-text-right">
+            <div
+              data-aos="fade-up"
+              className="column  is-2 has-text-right has-text-centered-mobile"
+            >
               <div className="content">
                 <div className="category is-unselectable">∖</div>
               </div>
