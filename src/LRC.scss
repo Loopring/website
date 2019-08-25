@@ -24,21 +24,30 @@
 }
 
 
-.section-lrc-icon  {
+.section-lrc-icon {
 
     .lrc-logo {
-       img { width: 100px;
-        height: 100px;
-        display: inline-block;
-        margin-bottom: -100px;
+        img {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            margin-bottom: -100px;
+        }
+
+
     }
-
-
 }
 
 .section-lrc-utilities {
+    .category {
+        font-size:100px;
+        padding: 0 40px;
     }
+    .category-title {
+        font-size:20px;
+    }
+
     h2 {
-        color: $white!important;
+        color: $white !important;
     }
 }
