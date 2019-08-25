@@ -29,6 +29,26 @@
         list-style-type: none;
     }
 
+    .column-info {
+        .key {
+            min-width: 120px;
+            display: inline-block;
+        }
+
+        .tag {
+            // padding:1rem;
+            margin-right: 0.25rem;
+            margin-left: 0.25rem;
+            margin-bottom: 0.5rem;
+            color: $black;
+            font-weight: 700;
+
+            background-color: $grey-lighter;
+             font-size: 0.95em;
+
+        }
+    }
+
     .column-exchange {
 
         .coming-soon {
@@ -36,8 +56,6 @@
                 background-color: $primary;
             }
 
-            padding-top: 20px;
-            padding-bottom: 20px;
             text-decoration: none;
 
             .footnote {
