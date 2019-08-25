@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dong77/website/static/css/main.4cbb1d21.chunk.css",
+    "main.js": "/dong77/website/static/js/main.67a88f7c.chunk.js",
+    "main.js.map": "/dong77/website/static/js/main.67a88f7c.chunk.js.map",
+    "runtime~main.js": "/dong77/website/static/js/runtime~main.92e656ca.js",
+    "runtime~main.js.map": "/dong77/website/static/js/runtime~main.92e656ca.js.map",
+    "static/css/2.ef420f18.chunk.css": "/dong77/website/static/css/2.ef420f18.chunk.css",
+    "static/js/2.ea17497f.chunk.js": "/dong77/website/static/js/2.ea17497f.chunk.js",
+    "static/js/2.ea17497f.chunk.js.map": "/dong77/website/static/js/2.ea17497f.chunk.js.map",
+    "index.html": "/dong77/website/index.html",
+    "precache-manifest.0daf1c12a5a661837f0c3e4d2a47a44e.js": "/dong77/website/precache-manifest.0daf1c12a5a661837f0c3e4d2a47a44e.js",
+    "service-worker.js": "/dong77/website/service-worker.js",
+    "static/css/2.ef420f18.chunk.css.map": "/dong77/website/static/css/2.ef420f18.chunk.css.map",
+    "static/css/main.4cbb1d21.chunk.css.map": "/dong77/website/static/css/main.4cbb1d21.chunk.css.map"
+  }
+}
