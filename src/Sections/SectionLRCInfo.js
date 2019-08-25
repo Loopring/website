@@ -111,7 +111,7 @@ class SectionLRCInfo extends React.Component {
                     </li>
                   ))}
                 </ul>
-                <h2>Coming soon...</h2>
+                <h2>Coming Soon...</h2>
                 <ul>
                   <li className="coming-soon highlighted">
                     ⟶{' '}
