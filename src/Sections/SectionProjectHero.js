@@ -4,8 +4,6 @@ import './SectionProjectHero.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
 
-const API = './hacks_en.json';
-
 class SectionProjectHero extends React.Component {
   render() {
     return (

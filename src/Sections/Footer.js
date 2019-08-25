@@ -4,8 +4,6 @@ import './Footer.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
 
-const API = './hacks_en.json';
-
 class Footer extends React.Component {
   constructor(props) {
     super(props);

@@ -1,0 +1,9 @@
+{
+    "exchanges": [
+        {
+            "name": "Binance",
+            "url": "https://www.binance.com",
+            "pairs": ["BTC", "ETH"]
+        }
+    ]
+}

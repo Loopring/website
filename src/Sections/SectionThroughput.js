@@ -7,8 +7,6 @@ import AOS from 'aos';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
 
-const API = './hacks_en.json';
-
 class SectionThroughput extends React.Component {
   constructor(props, context) {
     super(props, context);

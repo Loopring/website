@@ -2,26 +2,6 @@
 
 @import "./Variables.scss";
 
-.section-lrc-hero {
-
-    .hero {
-
-        color: $black !important;
-        letter-spacing: -3px;
-        font-size: 4.5em;
-        font-weight: 700;
-        // font-stretch: ultra-condensed;
-        font-family: 'Roboto Condensed', sans-serif;
-
-        .symbol {
-            color: $primary;
-        }
-
-        .smaller {
-            font-size: 0.7em;
-        }
-    }
-}
 
 
 .section-lrc-icon {
@@ -38,21 +18,3 @@
     }
 }
 
-.section-lrc-utilities {
-    .columns {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    .category {
-        font-size:100px;
-        padding: 0 40px;
-        margin-top: -40px;
-    }
-    .category-title {
-        font-size:20px;
-    }
-
-    h2 {
-        color: $white !important;
-    }
-}
