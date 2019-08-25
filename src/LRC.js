@@ -25,10 +25,10 @@ class LRC extends React.Component {
             <div className="column is-12 is-unselectable hero">
               <div className="container">
                 <div data-aos="fade-up" className="text">
-                  Buy and hold <span className="symbol">$LRC</span>
+                  Buy and stake <span className="symbol">LRC</span>
                 </div>
                 <div data-aos="fade-up" className="text smaller">
-                  to capture the value of Looopring's DEX ecosystem.
+                  to capture the growing value of Loopring's ecosystem.
                 </div>
               </div>
             </div>
