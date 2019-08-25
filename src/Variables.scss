@@ -7,7 +7,7 @@
 @import "../node_modules/bulma/sass/utilities/initial-variables.sass";
 
 // Loopring theme colors
-$black: #000000;
+$black: hsl(0, 0%, 6%);
 $blue: #1c60ff;
 $light-blue: #1c71ff;
 $purple: #8dafff;
@@ -41,4 +41,8 @@ $image-overlay-foreground: $black;
 
 .has-background-grey {
     background-color: #fafafa!important;
+}
+
+.has-background-black {
+    background-color: $black !important;
 }
