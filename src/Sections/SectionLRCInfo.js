@@ -57,13 +57,28 @@ class SectionLRCInfo extends React.Component {
                     <li>
                       ⟶{' '}
                       <a target="_blank" href={exchange.url}>
-                        {exchange.name} /
+                        <span className="exchange-name">{exchange.name}</span>
                         {exchange.pairs.map((token) => (
                           <span className="tag">LRC/{token}</span>
                         ))}
                       </a>
                     </li>
                   ))}
+                </ul>
+                <h2>Coming soon...</h2>
+                <ul>
+                  <li className="coming-soon highlight">
+                    ⟶{' '}
+                    <a target="_blank" href="https://wedex.io">
+                      <span className="exchange-name">WeDEX </span>
+                      <span className="tag">LRC/ETH</span>
+                      <span className="tag">LRC/USDT</span>
+                    </a>
+                    <div className="footnote">
+                      WeDEX will be the first DEX built on top of Loopring 3.0.
+                      It will be run by an independent third-party.
+                    </div>
+                  </li>
                 </ul>
               </div>
             </div>

@@ -1,9 +1,105 @@
 {
     "exchanges": [
+            {
+            "name": "CoinMex",
+            "url": "https://www.coinmex.com/",
+            "pairs": ["USDT", "ETH"]
+        },
+                {
+            "name": "OKEX",
+            "url": "https://www.okex.com",
+            "pairs": ["USDT","BTC", "ETH"]
+        },
         {
             "name": "Binance",
             "url": "https://www.binance.com",
             "pairs": ["BTC", "ETH"]
+        },
+        {
+            "name": "BITKER",
+            "url": "https://www.bitker.com/",
+            "pairs": [ "ETH"]
+        },
+        {
+            "name": "DragonEX",
+            "url": "https://dragonex.io",
+            "pairs": [ "USDT"]
+        },
+        {
+            "name": "Dcoin",
+            "url": "https://www.dcoin.com/",
+            "pairs": [ "USDT"]
+        },
+        {
+            "name": "Bitrue",
+            "url": "https://www.bitrue.com/",
+            "pairs": [ "BTC",  "ETH"]
+        },
+        {
+            "name": "Gate.io",
+            "url": "https://gate.io/",
+           "pairs": ["USDT","BTC", "ETH"]
         }
+        ,
+        {
+            "name": "Bittrex",
+            "url": "https://bittrex.com/",
+           "pairs": ["BTC"]
+        }
+
+         ,
+        {
+            "name": "Alterdice",
+            "url": "https://alterdice.com/",
+           "pairs": ["BTC", "ETH"]
+        }
+
+          ,
+        {
+            "name": "Ethfinex",
+            "url": "https://www.ethfinex.com/",
+           "pairs": ["USD", "BTC", "ETH"]
+        }
+
+
+                   ,
+        {
+            "name": "Kyber Network",
+            "url": "https://kyber.network/",
+           "pairs": ["ETH"]
+        }
+           ,
+        {
+            "name": "HitBTC",
+            "url": "https://www.hitbtc.com/",
+           "pairs": ["BTC", "ETH"]
+        }
+
+               ,
+        {
+            "name": "Upbit",
+            "url": "https://upbit.com/",
+           "pairs": ["BTC"]
+        }
+
+             ,
+        {
+            "name": "Livecoin",
+            "url": "https://www.livecoin.net/",
+           "pairs": ["BTC"]
+        }
+          ,
+        {
+            "name": "YoBit",
+            "url": "https://yobit.net",
+           "pairs": ["BTC"]
+        }
+                   ,
+        {
+            "name": "CoinExchange",
+            "url": " https://www.coinexchange.io/",
+           "pairs": ["BTC", "ETH"]
+        }
+
     ]
 }

@@ -23,14 +23,34 @@
     }
 
 
-   li {
-            // padding-top: 18px;
-            // border-bottom: 1px solid $black;
-            list-style-type: none;
-        }
+    li {
+        // padding-top: 18px;
+        // border-bottom: 1px solid $black;
+        list-style-type: none;
+    }
 
     .column-exchange {
 
+        .coming-soon {
+            .tag {
+                background-color: $primary;
+            }
+
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-decoration: none;
+
+            .footnote {
+                // padding-left: 120px;
+                color: $grey;
+                font-size: 0.8em;
+            }
+        }
+
+        .exchange-name {
+            min-width: 120px;
+            display: inline-block;
+        }
 
         .tag {
             // padding:1rem;
