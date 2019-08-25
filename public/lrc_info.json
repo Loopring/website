@@ -115,6 +115,11 @@
             "name": "CoinExchange",
             "url": " https://www.coinexchange.io/",
            "pairs": ["BTC", "ETH"]
+        },
+        {
+             "name": "Dolomite",
+            "url": "https://beta.dolomite.io/exchange/LRC-DAI",
+            "pairs": ["DAI"]
         }
 
     ]

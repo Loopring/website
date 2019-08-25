@@ -116,14 +116,26 @@ class SectionLRCInfo extends React.Component {
                   <li className="coming-soon highlighted">
                     ⟶{' '}
                     <a target="_blank" href="https://wedex.io">
-                      <span className="exchange-name">WeDEX.io</span>
+                      <span className="exchange-name">WeDEX</span>
+                      <span className="tag">LRC/ETH</span>
+                      <span className="tag">LRC/USDT</span>
+                    </a>
+                    <div className="footnote">
+                      WeDEX will be the first DEX built on top of Loopring 3.0.
+                      It is owned and will be run by an independent third-party.
+                    </div>
+                  </li>
+                  <li className="coming-soon ">
+                    ⟶{' '}
+                    <a target="_blank" href="https://UpDEX.io">
+                      <span className="exchange-name">UpDEX</span>
                       <span className="tag">LRC/ETH</span>
                       <span className="tag">LRC/USDT</span>
                       <span className="tag">LRC/WBTC</span>
                     </a>
                     <div className="footnote">
-                      WeDEX will be the first DEX built on top of Loopring 3.0.
-                      It is owned and will be run by an independent third-party.
+                      UpDEX will be a fully compliant Loopring DEX based in Hong
+                      Kong, China.
                     </div>
                   </li>
                 </ul>
