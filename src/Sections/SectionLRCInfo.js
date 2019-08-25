@@ -116,7 +116,7 @@ class SectionLRCInfo extends React.Component {
                   <li className="coming-soon highlighted">
                     ⟶{' '}
                     <a target="_blank" href="https://wedex.io">
-                      <span className="exchange-name">WeDEX </span>
+                      <span className="exchange-name">WeDEX.io</span>
                       <span className="tag">LRC/ETH</span>
                       <span className="tag">LRC/USDT</span>
                       <span className="tag">LRC/WBTC</span>

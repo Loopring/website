@@ -11,7 +11,9 @@
     {"key": "Circulating Supply", "value": "898,305,000 (~65%)"},
     {"key": "ICO Start Date", "value": "Aug 01, 2017"},
     {"key": "ICO End Date", "value": "Aug 16, 2017"},
-    {"key": "ICO Price", "value": "0.0002 ETH"}
+    {"key": "ICO Price", "value": "0.0002 ETH"},
+    {"key": "All Time High", "value": "$2.59 USD (Jan 09, 2018)"},
+    {"key": "All Time Low", "value": "$0.027952 USD (Sep 05, 2017)"}
     ],
     "exchanges": [
             {
