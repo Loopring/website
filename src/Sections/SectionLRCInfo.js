@@ -63,11 +63,11 @@ class SectionLRCInfo extends React.Component {
                     href="https://etherscan.io/token/0xef68e7c694f40c8202821edf525de3782458639f"
                     target="_blank"
                   >
-                    v1↗
+                    version 1.0↗
                   </a>{' '}
-                  to v2. The new LRC token remains ERC20 compliant and now
-                  supports a “burn” function that will be used by the Loopring
-                  Protocol and the new{' '}
+                  to version 2.0. The new LRC token remains ERC20 compliant and
+                  now supports a “burn” function that will be used by the
+                  Loopring Protocol and the new{' '}
                   <a
                     href="https://medium.com/loopring-protocol/oedax-looprings-open-ended-dutch-auction-exchange-model-d92cebbd3667"
                     target="_blank"
@@ -76,7 +76,8 @@ class SectionLRCInfo extends React.Component {
                     Oedax↗
                   </a>{' '}
                   auction protocol to burn LRC as the protocols are being used.
-                  The total LRC supply will decrease to reflect these burns.
+                  The total LRC supply will decrease over time to reflect these
+                  burns.
                 </p>
 
                 <p>
