@@ -184,14 +184,13 @@
     color: $white;
   }
 
-    .links {
-
-      a {
-        text-decoration: none;
-        &:hover {
-          text-decoration: underline;
-        }
+  .links {
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
       }
+    }
     // border-left: solid 2px $grey-darker;
     padding-top: 40px;
     // padding-left: 60px;
@@ -203,7 +202,6 @@
       font-weight: 700;
     }
   }
-
 }
 
 .section-cost {
@@ -222,10 +220,10 @@
   }
 
   a {
-    color: $white!important;
+    color: $white !important;
 
     &:hover {
-      background-image: none!important;
+      background-image: none !important;
     }
   }
 }

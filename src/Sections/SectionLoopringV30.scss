@@ -4,11 +4,22 @@
 
 .section-opensource {
   .links {
-    border-left: solid 2px $grey-darker;
-    padding: 20px;
-    margin-left: -20px;
+    // border-left: solid 2px $grey-darker;
+    // margin-left: -20px;
     position: relative;
 
+    li {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
     .symboled {
       font-size: 20px;
       font-weight: 700;
