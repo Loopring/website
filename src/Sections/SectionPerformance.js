@@ -11,7 +11,7 @@ class SectionPerformance extends React.Component {
     super(props, context);
     this.state = {
       throughput: 100,
-      cost: '0.123',
+      cost: '0.004',
     };
     AOS.init();
   }
@@ -35,7 +35,7 @@ class SectionPerformance extends React.Component {
                 className="column is-5  has-text-centered"
               >
                 <h1>Remarkable Throughput</h1>
-                <Odometer value={this.state.throughput} />
+                <Odometer value={this.state.throughput} format="(,ddd)" />
               </div>
             </div>
             <div className="columns is-centered">
@@ -101,7 +101,11 @@ class SectionPerformance extends React.Component {
                 className="column is-5  has-text-centered"
               >
                 <h1>Affordable Settlement Cost</h1>
-                <Odometer theme="white" value={this.state.cost} />
+                <Odometer
+                  theme="white"
+                  format="(,ddd).ddd"
+                  value={this.state.cost}
+                />
               </div>
             </div>
             <div className="columns is-centered">
