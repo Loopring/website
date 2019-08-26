@@ -132,7 +132,7 @@ class SectionOverview extends React.Component {
                   data layer and a Zero-Knowledge Proof verification thin-logic
                   layer. As a result, Loopring's throughput is as high as 350
                   trades per second with on-chain data-availability is on, and
-                  6,900 trades per second without. The post-Istanbul throughtput
+                  6,900 trades per second without. The post-Istanbul throughput
                   will become 1,400 and 10,500 respectively. The cost per trade
                   settlement is as small as one-third of a US cent, which can be
                   further optimized with different approaches such as GPU-based

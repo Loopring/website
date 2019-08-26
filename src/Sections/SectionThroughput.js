@@ -10,7 +10,7 @@ class SectionThroughput extends React.Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
-      throughtput: 100,
+      throughput: '100',
     };
     AOS.init();
   }
@@ -19,7 +19,10 @@ class SectionThroughput extends React.Component {
   }
 
   componentDidMount() {
-    this.timer = setTimeout((data) => this.setState({throughtput: 350}), 50);
+    this.timer = setTimeout(
+        (data) => this.setState({throughput: '350'}),
+        1000
+    );
   }
 
   render() {
@@ -32,7 +35,7 @@ class SectionThroughput extends React.Component {
               className="column is-12 is-centered has-text-centered"
             >
               <h1>High Throughput</h1>
-              <Odometer value={this.state.throughtput} />
+              <Odometer value={this.state.throughput} />
             </div>
             <div
               data-aos="fade-up"
