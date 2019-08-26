@@ -63,8 +63,8 @@ class SectionPerformance extends React.Component {
                   <thead>
                     <tr>
                       <th className="first"></th>
-                      <th>Throughput with OCDA On</th>
-                      <th>Throughput with OCDA Off</th>
+                      <th>Throughput with OCDA</th>
+                      <th>Throughput without OCDA</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -100,7 +100,7 @@ class SectionPerformance extends React.Component {
                 data-aos="fade-up"
                 className="column is-5  has-text-centered"
               >
-                <h1>Affordable Settlement Cost</h1>
+                <h1>Cost per Trade</h1>
                 <Odometer
                   theme="white"
                   format="(,ddd).ddd"
@@ -114,13 +114,13 @@ class SectionPerformance extends React.Component {
                 className="column column-explain is-5 is-centered has-text-left"
               >
                 <p>
-                  Loopring 3.0 can settle up to 350 trades per second while
-                  guarantees the same level of security as the underlying
-                  Ethereum blockchain. This is powered by a zkRollup feature
-                  called <b>On-Chain Data Availability</b>, or <b>OCDA</b>. If
-                  OCDA is disabled, Loopring provides consortium-level security,
-                  and its throughput will be much higher, as shown in the
-                  following table.
+                  The average settlement cost for each trade is as low as 0.004
+                  USD, which covers the gas for Ethereum transactions and the
+                  cost of proof generation on cloud computing platforms. DEXes
+                  can further reduce the settlement cost by using cheaper
+                  servers in the cloud and GPU-based algorithms. To put things
+                  into perspective, most brokers' stock trading fees in the US
+                  are in the range of 2 to 7 USD per trade.
                 </p>
               </div>
             </div>
@@ -133,27 +133,20 @@ class SectionPerformance extends React.Component {
                   <thead>
                     <tr>
                       <th className="first"></th>
-                      <th>Cost/trade with OCDA On</th>
-                      <th>Cost/trade with OCDA Off</th>
+                      <th>Cost per Trade</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td className="first">Currently</td>
                       <td>
-                        <span className="">$0.12</span>
-                      </td>
-                      <td>
-                        <span className="">6,900</span>
+                        <span className="">$0.004</span>
                       </td>
                     </tr>
                     <tr>
                       <td className="first">Post-Istanbul Fork</td>
                       <td>
-                        <span className="">1,400</span>
-                      </td>
-                      <td>
-                        <span className="">10,500</span>
+                        <span className="">$0.003</span>
                       </td>
                     </tr>
                   </tbody>
