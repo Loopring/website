@@ -11,7 +11,7 @@ class SectionContributors extends React.Component {
     super(props, context);
     AOS.init();
   }
-  componentWillReceiveProps() {
+  componentDidUpdate() {
     AOS.refresh();
   }
 

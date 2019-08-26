@@ -1,9 +1,6 @@
 import React from 'react';
 import './SectionProjectHero.scss';
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
-
 class SectionProjectHero extends React.Component {
   render() {
     return (

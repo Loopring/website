@@ -10,7 +10,7 @@ class SectionLRCStaking extends React.Component {
     super(props, context);
     AOS.init();
   }
-  componentWillReceiveProps() {
+  componentDidUpdate() {
     AOS.refresh();
   }
 
@@ -37,7 +37,7 @@ class SectionLRCStaking extends React.Component {
 
             <div data-aos="fade-up" className="column  is-4 has-text-left">
               <div className="content">
-                <h2>1/4 Stake LRC to Earn Protocol Fees, by Holders</h2>
+                <h2>1/ Earn Protocol Fees, by Holders</h2>
                 <p>
                   Every LRC holder can stake LRC to earn part of 70% of the
                   protocol fees of all exchanges built on top of Loopring — 20%
@@ -59,7 +59,7 @@ class SectionLRCStaking extends React.Component {
 
             <div data-aos="fade-up" className="column  is-4 has-text-left">
               <div className="content">
-                <h2>2/4 Stake LRC to Build p DEX Reputation, by DEX Owners</h2>
+                <h2>2/ Build up DEX Reputation, by DEX Owners</h2>
                 <p>
                   An exchange owner needs to stake LRC for economic security and
                   builing up its reputation.
@@ -79,7 +79,7 @@ class SectionLRCStaking extends React.Component {
 
             <div data-aos="fade-up" className="column  is-4 has-text-left">
               <div className="content">
-                <h2>3/4 Stake LRC to Lower Protocol Fees, by DEX Owners</h2>
+                <h2>3/ Lower Protocol Fees, by DEX Owners</h2>
                 <p>
                   LRC can be staked to lower the protocol fees on a specific
                   exchange by an exchange owner, market makers and
@@ -100,7 +100,7 @@ class SectionLRCStaking extends React.Component {
 
             <div data-aos="fade-up" className="column  is-4 has-text-left">
               <div className="content">
-                <h2>4/4 Stake LRC to Lower Protocol Fees, by Traders</h2>
+                <h2>4/ Lower Protocol Fees, by Traders</h2>
                 <p>
                   LRC can be staked to lower the protocol fees on a specific
                   exchange by an exchange owner, market makers and

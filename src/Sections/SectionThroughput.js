@@ -2,18 +2,24 @@ import React from 'react';
 import './SectionThroughput.scss';
 
 import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
+import Odometer from 'react-odometerjs';
+import AOS from 'aos';
 
 class SectionThroughput extends React.Component {
   constructor(props, context) {
     super(props, context);
+    this.state = {
+      throughtput: 100,
+    };
     AOS.init();
   }
-  componentWillReceiveProps() {
+  componentDidUpdate() {
     AOS.refresh();
+  }
+
+  componentDidMount() {
+    this.timer = setTimeout((data) => this.setState({throughtput: 350}), 50);
   }
 
   render() {
@@ -25,7 +31,8 @@ class SectionThroughput extends React.Component {
               data-aos="fade-up"
               className="column is-12 is-centered has-text-centered"
             >
-              <h1>3.0 Throughput</h1>
+              <h1>Throughput</h1>
+              <Odometer value={this.state.throughtput} />
             </div>
             <div
               data-aos="fade-up"

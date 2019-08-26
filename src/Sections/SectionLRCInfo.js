@@ -25,7 +25,7 @@ class SectionLRCInfo extends React.Component {
         );
   }
 
-  componentWillReceiveProps() {
+  componentDidUpdate() {
     AOS.refresh();
   }
 
@@ -47,8 +47,8 @@ class SectionLRCInfo extends React.Component {
               <div className="content">
                 <h2>Token Information</h2>
                 <ul>
-                  {this.state.facts.map((item) => (
-                    <li>
+                  {this.state.facts.map((item, idx) => (
+                    <li key={idx}>
                       ⟶ <span className="key">{item.key}: </span>
                       <span className="tag value">{item.value}</span>
                     </li>
@@ -62,6 +62,7 @@ class SectionLRCInfo extends React.Component {
                     className="highlight"
                     href="https://etherscan.io/token/0xef68e7c694f40c8202821edf525de3782458639f"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     version 1.0↗
                   </a>{' '}
@@ -71,6 +72,7 @@ class SectionLRCInfo extends React.Component {
                   <a
                     href="https://medium.com/loopring-protocol/oedax-looprings-open-ended-dutch-auction-exchange-model-d92cebbd3667"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="highlight"
                   >
                     Oedax↗
@@ -100,13 +102,19 @@ class SectionLRCInfo extends React.Component {
               <div className="content">
                 <h2>Exchanges</h2>
                 <ul>
-                  {this.state.exchanges.map((exchange) => (
-                    <li>
+                  {this.state.exchanges.map((exchange, idx) => (
+                    <li key={idx}>
                       ⟶{' '}
-                      <a target="_blank" href={exchange.url}>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={exchange.url}
+                      >
                         <span className="exchange-name">{exchange.name}</span>
-                        {exchange.pairs.map((token) => (
-                          <span className="tag">LRC/{token}</span>
+                        {exchange.pairs.map((token, idx) => (
+                          <span key={idx} className="tag">
+                            LRC/{token}
+                          </span>
                         ))}
                       </a>
                     </li>
@@ -116,7 +124,11 @@ class SectionLRCInfo extends React.Component {
                 <ul>
                   <li className="coming-soon highlighted">
                     ⟶{' '}
-                    <a target="_blank" href="https://wedex.io">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://wedex.io"
+                    >
                       <span className="exchange-name">WeDEX</span>
                       <span className="tag">LRC/ETH</span>
                       <span className="tag">LRC/USDT</span>
@@ -128,7 +140,11 @@ class SectionLRCInfo extends React.Component {
                   </li>
                   <li className="coming-soon ">
                     ⟶{' '}
-                    <a target="_blank" href="https://UpDEX.io">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://UpDEX.io"
+                    >
                       <span className="exchange-name">UpDEX</span>
                       <span className="tag">LRC/ETH</span>
                       <span className="tag">LRC/USDT</span>

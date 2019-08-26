@@ -8,7 +8,7 @@ class SectionOverview extends React.Component {
     super(props, context);
     AOS.init();
   }
-  componentWillReceiveProps() {
+  componentDidUpdate() {
     AOS.refresh();
   }
   render() {
@@ -121,6 +121,7 @@ class SectionOverview extends React.Component {
                     className="highlight"
                     href="https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     zkRollup proposed by Vitalik Buterin↗
                   </a>

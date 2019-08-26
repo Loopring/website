@@ -11,7 +11,7 @@ class SectionCoreTeam extends React.Component {
     super(props, context);
     AOS.init();
   }
-  componentWillReceiveProps() {
+  componentDidUpdate() {
     AOS.refresh();
   }
   render() {
@@ -36,13 +36,12 @@ class SectionCoreTeam extends React.Component {
                   </li>
                   <li>
                     {' '}
-                    ⟶ <a href="mailto:jay@loopring.org">Jay Zhou</a> /
-                    Co-founder & CMO
+                    ⟶ <a href="mailto:jay@loopring.org">Jay Zhou</a> / CMO
                   </li>
                   <li>
                     {' '}
                     ⟶ <a href="mailto:johnston@loopring.org">Johnston Chen</a> /
-                    Co-founder & COO
+                    COO
                   </li>
                   <li>
                     {' '}

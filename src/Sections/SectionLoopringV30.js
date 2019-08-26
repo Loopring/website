@@ -8,7 +8,7 @@ class SectionLoopringV30 extends React.Component {
     super(props, context);
     AOS.init();
   }
-  componentWillReceiveProps() {
+  componentDidUpdate() {
     AOS.refresh();
   }
 

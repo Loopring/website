@@ -27,7 +27,7 @@ class SectionHackStory extends React.Component {
         );
   }
 
-  componentWillReceiveProps() {
+  componentDidUpdate() {
     AOS.refresh();
   }
 
@@ -63,8 +63,8 @@ class SectionHackStory extends React.Component {
               data-aos="fade-up"
               className="column is-9 is-12-mobile stories"
             >
-              {this.state.stories.map((story) => (
-                <div className="columns">
+              {this.state.stories.map((story, idx) => (
+                <div className="columns" key={idx}>
                   <div
                     data-aos="fade-up"
                     className="column is-3 is-12-mobile has-text-right has-text-left-mobile"
@@ -75,7 +75,11 @@ class SectionHackStory extends React.Component {
                     data-aos="fade-up"
                     className="column is-5 is-12-mobile has-text-justified "
                   >
-                    <a target="_blank" href={story.source}>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={story.source}
+                    >
                       <h2>{story.title}</h2>
                     </a>
                     <p>{story.detail}</p>
