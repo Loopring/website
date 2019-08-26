@@ -19,10 +19,7 @@ class SectionThroughput extends React.Component {
   }
 
   componentDidMount() {
-    this.timer = setTimeout(
-        (data) => this.setState({throughput: '350'}),
-        1000
-    );
+    this.timer = setTimeout((data) => this.setState({throughput: '350'}), 50);
   }
 
   render() {
