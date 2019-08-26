@@ -31,7 +31,7 @@ class SectionThroughput extends React.Component {
               data-aos="fade-up"
               className="column is-12 is-centered has-text-centered"
             >
-              <h1>Throughput</h1>
+              <h1>High Throughput</h1>
               <Odometer value={this.state.throughtput} />
             </div>
             <div

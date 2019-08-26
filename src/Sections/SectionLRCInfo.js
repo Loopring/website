@@ -35,7 +35,7 @@ class SectionLRCInfo extends React.Component {
         <div className="container is-centered has-text-centered">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-10 has-text-centered">
-              <h1>BUY TO Invest</h1>
+              <h1>Buy to Invest</h1>
             </div>
           </div>
 
