@@ -54,7 +54,7 @@ class SectionPerformance extends React.Component {
                 </p>
               </div>
             </div>
-            <div className="columns is-centered is-multiline">
+            <div className="columns is-centered">
               <div
                 data-aos="fade-up"
                 className="column is-5 is-centered has-text-centered"
@@ -90,6 +90,31 @@ class SectionPerformance extends React.Component {
                 </table>
               </div>
             </div>
+            <div className="columns is-centered">
+              <div
+                data-aos="fade-up"
+                className="column is-5 is-centered has-text-centered"
+              >
+                <ul className="links">
+                  <li>
+                    {' '}
+                    ➜{' '}
+                    <a className="highlight" href="">
+                      Loopring 3.0 Smart Contracts·············the on-chain part{' '}
+                      <span className="symboled">⟁</span>
+                    </a>
+                  </li>
+                  <li>
+                    {' '}
+                    ➜{' '}
+                    <a className="highlight" href="">
+                      Loopring 3.0 ZKP circuits·····················the
+                      off-chain part <span className="symboled"> ⧉</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -117,14 +142,14 @@ class SectionPerformance extends React.Component {
                   The average settlement cost for each trade is as low as 0.004
                   USD, which covers the gas for Ethereum transactions and the
                   cost of proof generation on cloud computing platforms. DEXes
-                  can further reduce the settlement cost by using cheaper
-                  servers in the cloud and GPU-based algorithms. To put things
-                  into perspective, most brokers' stock trading fees in the US
-                  are in the range of 2 to 7 USD per trade.
+                  can further lower the settlement cost by using cheaper servers
+                  in the cloud and GPU-based algorithms. To put things into
+                  perspective, most brokers' stock trading fees in the US are in
+                  the range of 2 to 7 USD per trade.
                 </p>
               </div>
             </div>
-            <div className="columns is-centered is-multiline">
+            <div className="columns is-centered">
               <div
                 data-aos="fade-up"
                 className="column is-5 is-centered has-text-centered"
@@ -151,6 +176,32 @@ class SectionPerformance extends React.Component {
                     </tr>
                   </tbody>
                 </table>
+              </div>
+            </div>
+
+            <div className="columns is-centered">
+              <div
+                data-aos="fade-up"
+                className="column is-5 is-centered has-text-centered"
+              >
+                <ul className="links">
+                  <li>
+                    {' '}
+                    ➜{' '}
+                    <a className="highlight" href="">
+                      Loopring 3.0 Smart Contracts·············the on-chain part{' '}
+                      <span className="symboled">⟁</span>
+                    </a>
+                  </li>
+                  <li>
+                    {' '}
+                    ➜{' '}
+                    <a className="highlight" href="">
+                      Loopring 3.0 ZKP circuits·····················the
+                      off-chain part <span className="symboled"> ⧉</span>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
