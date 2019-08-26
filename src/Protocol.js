@@ -5,7 +5,7 @@ import './Protocol.scss';
 import Header from './Header.js';
 import Footer from './Sections/Footer.js';
 import SectionLoopringV30 from './Sections/SectionLoopringV30.js';
-import SectionThroughput from './Sections/SectionThroughput.js';
+import SectionPerformance from './Sections/SectionPerformance.js';
 import Section3 from './Sections/Section3.js';
 import Section4 from './Sections/Section4.js';
 
@@ -17,7 +17,7 @@ class Protocol extends React.Component {
     return (
       <div>
         <Header />
-        <SectionThroughput />
+        <SectionPerformance />
         <SectionLoopringV30 />
         {/* <Section3 />*/}
         {/* <Section4 />*/}

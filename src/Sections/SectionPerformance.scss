@@ -1,23 +1,26 @@
 @charset "utf-8";
 @import "../Variables.scss";
 
-.section-throughput {
+.section-throughput,
+.section-cost {
+  .column-explain p {
+    text-align: justify;
+  }
+
   table {
+    margin-top: 20px;
+    width: 100%;
     display: inline-block;
     background-color: transparent;
     color: $black;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid $grey-darker;
-  }
-
-  .odometer {
-    font-size: 100px;
+    border-bottom: 2px solid $grey-darker;
   }
 
   td {
     // border: none;
     font-size: $body-size !important;
+    white-space: nowrap;
+    // color: $black;
   }
 
   tbody td {
@@ -28,28 +31,28 @@
     border: 0;
     font-weight: 500;
     border-top: none;
+    white-space: nowrap;
     border-bottom: 1px solid $grey-darker;
   }
 
   .first {
     text-align: left;
-  }
-
-  .footnote {
-  }
-
-  .bordered {
-    border: 1px dashed $grey;
-    margin: 10px;
+    width: 100%;
   }
 
   .odometer {
+    font-size: 100px;
+    margin-bottom: 40px;
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
     *zoom: 1;
     *display: inline;
     position: relative;
+  }
+
+  .odometer-formatting-mark.odometer-radix-mark {
+    color: $black;
   }
 
   .odometer .odometer-digit {
@@ -150,44 +153,8 @@
     -moz-border-radius: 0.1em;
     -webkit-border-radius: 0.1em;
     border-radius: 0.1em;
-    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzExMTExMSIvPjxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjMTExMTExIi8+PHN0b3Agb2Zmc2V0PSI1NSUiIHN0b3AtY29sb3I9IiMzMzMzMzMiLz48c3RvcCBvZmZzZXQ9IjU1JSIgc3RvcC1jb2xvcj0iIzExMTExMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzExMTExMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==");
-    background-size: 100%;
-    background-image: -webkit-gradient(
-      linear,
-      50% 0%,
-      50% 100%,
-      color-stop(0%, #111111),
-      color-stop(35%, #111111),
-      color-stop(55%, #333333),
-      color-stop(55%, #111111),
-      color-stop(100%, #111111)
-    );
-    background-image: -moz-linear-gradient(
-      top,
-      #111111 0%,
-      #111111 35%,
-      #333333 55%,
-      #111111 55%,
-      #111111 100%
-    );
-    background-image: -webkit-linear-gradient(
-      top,
-      #111111 0%,
-      #111111 35%,
-      #333333 55%,
-      #111111 55%,
-      #111111 100%
-    );
-    background-image: linear-gradient(
-      to bottom,
-      #111111 0%,
-      #111111 35%,
-      #333333 55%,
-      #111111 55%,
-      #111111 100%
-    );
-    background-color: #272727;
     padding: 0 0.15em;
+    background-color: $black;
     color: $white;
   }
 
@@ -197,5 +164,30 @@
 
   .odometer .odometer-digit .odometer-digit-inner {
     left: 0.15em;
+  }
+
+  .odometer.odometer-theme-white .odometer-digit {
+    background-color: $white;
+    color: $black;
+  }
+
+  .odometer.odometer-theme-white .odometer-formatting-mark.odometer-radix-mark {
+    color: $white;
+  }
+}
+
+.section-cost {
+  table {
+    color: $white !important;
+    border-bottom: 2px solid $white;
+  }
+
+  .table thead td,
+  .table thead th {
+    color: $white !important;
+  }
+
+  th {
+    border-bottom: 1px solid $white;
   }
 }
