@@ -159,9 +159,9 @@
         background-image: -moz-linear-gradient(top, #111111 0%, #111111 35%, #333333 55%, #111111 55%, #111111 100%);
         background-image: -webkit-linear-gradient(top, #111111 0%, #111111 35%, #333333 55%, #111111 55%, #111111 100%);
         background-image: linear-gradient(to bottom, #111111 0%, #111111 35%, #333333 55%, #111111 55%, #111111 100%);
-        background-color: #222;
+        background-color: #272727;
         padding: 0 0.15em;
-        color: #fff;
+        color: $white;
     }
 
     .odometer .odometer-digit+.odometer-digit {
