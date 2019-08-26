@@ -2,51 +2,48 @@
 @import "../Variables.scss";
 
 .section-history {
-    .content {
-        text-align: justify;
+  .content {
+    text-align: justify;
+  }
+
+  .version30 {
+    box-shadow: 10px 10px $grey;
+    margin-top: 100px;
+    padding: 60px;
+    // border: double 3px black;
+    a,
+    h2 {
+      color: $white !important;
     }
 
-    .version30 {
-      box-shadow: 10px 10px $grey;
-      margin-top: 100px;
-     padding: 60px;
-      // border: double 3px black;
-      a, h2 {
-        color: $white!important;
-      }
-
-      a:hover {
-        color: $black!important;
-      }
-
+    a:hover {
+      color: $black !important;
     }
+  }
 }
 
-
-
 .section-features {
+  .deprecated {
+    text-decoration: line-through;
+  }
 
-    .deprecated {
-        text-decoration: line-through;
+  .tag {
+    // padding:1rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+    margin-bottom: 0.5rem;
+    background-color: $grey;
+    color: $white;
+    font-weight: 700;
+
+    &.highlight {
+      background-color: $black;
     }
 
-    .tag {
-        // padding:1rem;
-        margin-right: 0.25rem;
-        margin-left: 0.25rem;
-        margin-bottom: 0.5rem;
-        background-color: $grey;
-        color: $white;
-        font-weight: 700;
-
-        &.highlight {
-            background-color: $black;
-        }
-
-        &.deprecated {
-            text-decoration: line-through;
-            background-color: $grey-lighter;
-            color: $grey-darker;
-        }
+    &.deprecated {
+      text-decoration: line-through;
+      background-color: $grey-lighter;
+      color: $grey-darker;
     }
+  }
 }

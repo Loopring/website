@@ -2,17 +2,11 @@
 @import "../Variables.scss";
 
 .section-overview {
+  .content {
+    font-family: $family-content;
+  }
 
-    .content {
-        font-family: $family-content;
-    }
-
-
-
-    .content {
-        text-align: justify;
-    }
-
-
+  .content {
+    text-align: justify;
+  }
 }
-

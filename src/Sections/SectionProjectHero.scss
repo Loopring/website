@@ -1,7 +1,7 @@
 @charset "utf-8";
 @import "../Variables.scss";
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700&display=swap");
 
 $height-mask: 800px;
 
@@ -17,65 +17,63 @@ $color-alpha: darken($color, $darken);
 // Todo el color que quieras!
 $color-base: rgb(255, 255, 255);
 
-
 .section-project-hero {
+  position: relative;
+  min-height: 74vh;
+
+  .backdrop {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-size: 100%;
+    z-index: -2;
+    background-image: url(https://images.unsplash.com/photo-1507878866276-a947ef722fee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2251&q=80);
+  }
+
+  .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 10;
+    overflow: hidden;
+  }
+
+  svg {
     position: relative;
-    min-height: 74vh;
+    width: 100%;
+    height: $height-mask;
 
-    .backdrop {
-        position: fixed;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        top: 0;
-        background-size: 100%;
-        z-index: -2;
-        background-image: url(https://images.unsplash.com/photo-1507878866276-a947ef722fee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2251&q=80);
+    text {
+      padding: 120px;
+      text-anchor: middle;
     }
 
-
-    .text {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-
-        z-index: 10;
-        overflow: hidden;
+    #alpha {
+      fill: $color-alpha;
     }
 
-    svg {
-        position: relative;
-        width: 100%;
-        height: $height-mask;
-
-        text {
-            padding: 120px;
-            text-anchor: middle;
-        }
-
-        #alpha {
-            fill: $color-alpha;
-        }
-
-        #title {
-            letter-spacing: -4px;
-            font-size: 6em;
-            font-weight: 700;
-            // font-stretch: ultra-condensed;
-            font-family: 'Roboto Condensed', sans-serif;
-        }
-
-        #subtitle {
-            // letter-spacing: 3px;
-            // font-size: 1em;
-            font-weight: 500;
-        }
-
-        #base {
-            fill: $color-base;
-            mask: url(#mask);
-        }
+    #title {
+      letter-spacing: -4px;
+      font-size: 6em;
+      font-weight: 700;
+      // font-stretch: ultra-condensed;
+      font-family: "Roboto Condensed", sans-serif;
     }
+
+    #subtitle {
+      // letter-spacing: 3px;
+      // font-size: 1em;
+      font-weight: 500;
+    }
+
+    #base {
+      fill: $color-base;
+      mask: url(#mask);
+    }
+  }
 }

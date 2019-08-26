@@ -1,15 +1,15 @@
 body {
-    margin: 0;
-    // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    //   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    //   sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  //   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  //   sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 @import "./Variables.scss";
@@ -22,111 +22,113 @@ code {
 @import "../node_modules/bulma/sass/form/_all.sass";
 @import "../node_modules/bulma/sass/layout/_all.sass";
 
-
 .highlighted {
-
-        background-image: url("https://ethereum.org/assets/img/highlight.22a66491.svg") !important;
-        background-repeat: no-repeat;
-        background-size: cover;
+  background-image: url("https://ethereum.org/assets/img/highlight.22a66491.svg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a.highlight {
-    text-decoration: underline;
-    text-underline-position: under;
-    &:hover {
-        background-image: url("https://ethereum.org/assets/img/highlight.22a66491.svg") !important;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
+  text-decoration: underline;
+  text-underline-position: under;
+  &:hover {
+    background-image: url("https://ethereum.org/assets/img/highlight.22a66491.svg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 h2,
 h3,
 h4 {
-    font-size: $body-size !important;
-    font-weight: 400 !important;
-    text-decoration-line: underline !important;
+  font-size: $body-size !important;
+  font-weight: 400 !important;
+  text-decoration-line: underline !important;
 
-    text-underline-position: under !important;
-    color: $body-color !important;
-    padding-bottom: $body-size !important;
-    // text-decoration-color: $grey;
+  text-underline-position: under !important;
+  color: $body-color !important;
+  padding-bottom: $body-size !important;
+  // text-decoration-color: $grey;
 }
 
 h2 {
-    text-decoration-style: double;
-    font-weight: 500 !important;
-    // font-size: 1.2rem !important;
+  text-decoration-style: double;
+  font-weight: 500 !important;
+  // font-size: 1.2rem !important;
 }
 
 h3 {
-    text-decoration-style: solid !important;
+  text-decoration-style: solid !important;
 }
 
 h4 {
-    text-decoration-style: dotted !important;
+  text-decoration-style: dotted !important;
 }
 
-
 h1 {
-    // text-transform: uppercase !important;
-    font-weight: 700 !important;
-    padding-bottom: 40px !important;
-    // letter-spacing: 0.08rem !important;
-    font-size: 2.5rem !important;
-    // color: $grey-light!important;
+  // text-transform: uppercase !important;
+  font-weight: 700 !important;
+  padding-bottom: 40px !important;
+  // letter-spacing: 0.08rem !important;
+  font-size: 2.5rem !important;
+  // color: $grey-light!important;
 }
 
 .covered {
+  img {
+    user-select: none;
+    filter: grayscale(100%);
+    transition-duration: 1s;
+  }
+
+  &:hover {
     img {
-        user-select: none;
-        filter: grayscale(100%);
-        transition-duration: 1s;
+      filter: grayscale(0%);
     }
+  }
 
-    &:hover {
-        img {
-            filter: grayscale(0%);
-        }
-    }
-
-    &:after {
-        transition-duration: 1s;
-        content: "";
-        display: block;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        // background: rgba($image-overlay-background, 0.1);
-        background-image: linear-gradient(45deg,
-            $image-overlay-foreground 5%,
-            transparent 15%,
-            transparent 85%,
-            $image-overlay-foreground 45%,
-            $image-overlay-foreground),
-            linear-gradient(45deg,
-            $image-overlay-foreground 5%,
-            transparent 15%,
-            transparent 85%,
-            $image-overlay-foreground 45%,
-            $image-overlay-foreground),
-            linear-gradient(-45deg,
-            $image-overlay-foreground 5%,
-            transparent 15%,
-            transparent 85%,
-            $image-overlay-foreground 45%,
-            $image-overlay-foreground),
-            linear-gradient(-45deg,
-            $image-overlay-foreground 5%,
-            transparent 15%,
-            transparent 85%,
-            $image-overlay-foreground 45%,
-            $image-overlay-foreground);
-        background-size: 3px 3px;
-
-
-    }
+  &:after {
+    transition-duration: 1s;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    // background: rgba($image-overlay-background, 0.1);
+    background-image: linear-gradient(
+        45deg,
+        $image-overlay-foreground 5%,
+        transparent 15%,
+        transparent 85%,
+        $image-overlay-foreground 45%,
+        $image-overlay-foreground
+      ),
+      linear-gradient(
+        45deg,
+        $image-overlay-foreground 5%,
+        transparent 15%,
+        transparent 85%,
+        $image-overlay-foreground 45%,
+        $image-overlay-foreground
+      ),
+      linear-gradient(
+        -45deg,
+        $image-overlay-foreground 5%,
+        transparent 15%,
+        transparent 85%,
+        $image-overlay-foreground 45%,
+        $image-overlay-foreground
+      ),
+      linear-gradient(
+        -45deg,
+        $image-overlay-foreground 5%,
+        transparent 15%,
+        transparent 85%,
+        $image-overlay-foreground 45%,
+        $image-overlay-foreground
+      );
+    background-size: 3px 3px;
+  }
 }

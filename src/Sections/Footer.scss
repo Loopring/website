@@ -1,21 +1,20 @@
 @charset "utf-8";
 @import "../Variables.scss";
 
-
 .footer {
-    * {
-        user-select: none;
-    }
-    // border-top: 1px solid $grey-lighter;
-    background-color: white;
+  * {
+    user-select: none;
+  }
+  // border-top: 1px solid $grey-lighter;
+  background-color: white;
 
-    a {
-        display: inline-block;
-        padding: 10px;
+  a {
+    display: inline-block;
+    padding: 10px;
 
-        &:hover {
-            text-decoration: underline;
-            color: $black;
-        }
+    &:hover {
+      text-decoration: underline;
+      color: $black;
     }
+  }
 }

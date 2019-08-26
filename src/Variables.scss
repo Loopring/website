@@ -1,9 +1,6 @@
 @charset "utf-8";
 
-// Import a Google Font
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
-// @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
-
 @import "../node_modules/bulma/sass/utilities/initial-variables.sass";
 
 // Loopring theme colors
@@ -19,6 +16,7 @@ $primary: $blue;
 
 // Body  & Global
 $body-size: 14px;
+
 $body-color: $black;
 $body-background-color: $white-bis;
 $family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -40,9 +38,9 @@ $image-overlay-foreground: $black;
 }
 
 .has-background-grey {
-    background-color: #fafafa!important;
+  background-color: #fafafa !important;
 }
 
 .has-background-black {
-    background-color: $black !important;
+  background-color: $black !important;
 }
