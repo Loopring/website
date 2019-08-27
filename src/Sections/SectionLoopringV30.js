@@ -69,7 +69,7 @@ class SectionLoopringV30 extends React.Component {
                     className="highlight"
                     href="https://www.youtube.com/watch?v=mOm47gBMfg8"
                   >
-                    Vitalik's TechTalk on
+                    Vitalik's tech-talk on
                     zkRollup··································
                     <span className="symboled"> ◎</span>
                   </a>
@@ -81,9 +81,9 @@ class SectionLoopringV30 extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="highlight"
-                    href="https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477"
+                    href="https://github.com/scipr-lab/libsnark"
                   >
-                    LibSNARK
+                    libsnark
                     ································································
                     <span className="symboled"> ◱</span>
                   </a>
@@ -96,9 +96,9 @@ class SectionLoopringV30 extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="highlight"
-                    href="https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477"
+                    href="https://github.com/HarryR/ethsnarks"
                   >
-                    EthSNARK ··················································
+                    ethsnarks ··················································
                     <span className="symboled"> ◱</span>
                   </a>
                 </li>
@@ -110,9 +110,9 @@ class SectionLoopringV30 extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="highlight"
-                    href="https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477"
+                    href="https://dusk.network/news/poseidon-the-most-efficient-zero-knowledge-friendly-implementation"
                   >
-                    Poseidon Hashing
+                    Poseidon hash function
                     ·················································
                     <span className="symboled"> ◱</span>
                   </a>
@@ -124,7 +124,7 @@ class SectionLoopringV30 extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="highlight"
-                    href="https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477"
+                    href="https://en.wikipedia.org/wiki/Merkle_tree"
                   >
                     Quad-Merkle Tree
                     ···························································
@@ -156,6 +156,20 @@ class SectionLoopringV30 extends React.Component {
                   >
                     Loopring 3.0 ZKP circuits····················the off-chain
                     part <span className="symboled"> ⧉</span>
+                  </a>
+                </li>
+                <li>
+                  {' '}
+                  ➜{' '}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="highlight"
+                    href=""
+                  >
+                    SECBIT Security Audit Report
+                    ·································
+                    <span className="symboled"> ◒</span>
                   </a>
                 </li>
               </ul>
