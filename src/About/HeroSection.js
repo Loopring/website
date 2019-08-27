@@ -1,7 +1,7 @@
 import React from 'react';
-import './SectionProjectHero.scss';
+import './HeroSection.scss';
 
-class SectionProjectHero extends React.Component {
+class HeroSection extends React.Component {
   render() {
     return (
       <section className="section section-project-hero is-large">
@@ -34,4 +34,4 @@ class SectionProjectHero extends React.Component {
   }
 }
 
-export default SectionProjectHero;
+export default HeroSection;

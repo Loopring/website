@@ -1,5 +1,5 @@
-import React from 'react';
-import './SectionMedia.scss';
+import React from "react";
+import "./SectionMedia.scss";
 
 class SectionMedia extends React.Component {
   render() {

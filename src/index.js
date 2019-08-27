@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import {Route, BrowserRouter as Router} from 'react-router-dom';
 import './index.scss';
 import ScrollToTop from './Components/ScrollToTop';
-import Project from './Project';
+
+import About from './About';
 import Protocol from './Protocol';
 import LRC from './LRC';
 import Team from './Team';
@@ -15,7 +16,7 @@ import * as serviceWorker from './serviceWorker';
 const routing = (
   <Router>
     <ScrollToTop>
-      <Route path="/" exact component={Project} />
+      <Route path="/" exact component={About} />
       <Route path="/protocol" component={Protocol} />
       <Route path="/lrc" component={LRC} />
       <Route path="/team" component={Team} />
