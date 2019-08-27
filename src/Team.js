@@ -2,10 +2,10 @@ import React from 'react';
 
 import './Team.scss';
 
-import Header from './Header.js';
-import Footer from './Sections/Footer.js';
-import SectionContributors from './Sections/SectionContributors.js';
-import SectionCoreTeam from './Sections/SectionCoreTeam.js';
+import Header from './Components/Header.js';
+import Footer from './Components/Footer.js';
+import CoreTeamSection from './Team/CoreTeamSection.js';
+import ContributorsSection from './Team/ContributorsSection.js';
 
 class Team extends React.Component {
   render() {
@@ -13,8 +13,8 @@ class Team extends React.Component {
       <div>
         <Header />
         <div>CODE</div>
-        <SectionCoreTeam />
-        <SectionContributors />
+        <CoreTeamSection />
+        <ContributorsSection />
         <Footer />
       </div>
     );

@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./SectionBlogHero.scss";
+import "./HeroSection.scss";
 
-class SectionBlogHero extends React.Component {
+class HeroSection extends React.Component {
   render() {
     return (
       <section className="section section-blog-hero is-large has-background-white has-text-black">
@@ -12,4 +12,4 @@ class SectionBlogHero extends React.Component {
   }
 }
 
-export default SectionBlogHero;
+export default HeroSection;

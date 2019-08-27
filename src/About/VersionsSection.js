@@ -1,12 +1,12 @@
-import React from 'react';
-import './SectionLoopringHistory.scss';
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
+import React from "react";
+import "./VersionsSection.scss";
+import "../../node_modules/aos/dist/aos.css";
+import AOS from "aos";
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRadiationAlt } from "@fortawesome/free-solid-svg-icons";
 
-class SectionLoopringHistory extends React.Component {
+class VersionsSection extends React.Component {
   constructor(props, context) {
     super(props, context);
     AOS.init();
@@ -65,7 +65,7 @@ class SectionLoopringHistory extends React.Component {
                   <h2> Loopring 1.5</h2>
 
                   <p>
-                    Loopring 1.5 introduced another unique feature called{' '}
+                    Loopring 1.5 introduced another unique feature called{" "}
                     <i>Dual Authoring</i> to prevent front-running. Each order
                     has a randomly generated DA key-pair — the public key is
                     part of the order; the private key is not part of the order
@@ -119,7 +119,7 @@ class SectionLoopringHistory extends React.Component {
                     Loopring 3.0 is our newest, fastest, and most
                     forward-looking protocol. It provides a solution for the
                     most outstanding challenge of all decentralized protocols —
-                    performance, or more precisely,{' '}
+                    performance, or more precisely,{" "}
                     <b>much higher performance without tradeoff in security</b>.
                   </p>
                   <p>
@@ -138,7 +138,7 @@ class SectionLoopringHistory extends React.Component {
                       href="/protocol"
                     >
                       Click here
-                    </a>{' '}
+                    </a>{" "}
                     to learn about the technical details of Loopring 3.0.
                   </p>
                 </div>
@@ -160,7 +160,7 @@ class SectionLoopringHistory extends React.Component {
               >
                 <span className="has-leading-thick-arrow deprecated">
                   Loopring 1.0 (deprecated)
-                </span>{' '}
+                </span>{" "}
                 ······
               </div>
               <div data-aos="fade-up" className="column is-6 has-text-left">
@@ -175,7 +175,7 @@ class SectionLoopringHistory extends React.Component {
               >
                 <span className="has-leading-thick-arrow deprecated">
                   Loopring 1.5 (deprecated)
-                </span>{' '}
+                </span>{" "}
                 ······
               </div>
               <div data-aos="fade-up" className="column is-6 has-text-left">
@@ -191,7 +191,7 @@ class SectionLoopringHistory extends React.Component {
               >
                 <span className="has-leading-thick-arrow deprecated">
                   Loopring 2.0 (deprecated)
-                </span>{' '}
+                </span>{" "}
                 ······
               </div>
               <div data-aos="fade-up" className="column is-6 has-text-left">
@@ -207,7 +207,7 @@ class SectionLoopringHistory extends React.Component {
                 data-aos="fade-up"
                 className="column is-2 is-offset-2 has-text-left"
               >
-                <span className="has-leading-thick-arrow">Loopring 3.0</span>{' '}
+                <span className="has-leading-thick-arrow">Loopring 3.0</span>{" "}
                 ···························
               </div>
               <div data-aos="fade-up" className="column is-6 has-text-left">
@@ -233,4 +233,4 @@ class SectionLoopringHistory extends React.Component {
   }
 }
 
-export default SectionLoopringHistory;
+export default VersionsSection;

@@ -1,12 +1,12 @@
 import React from 'react';
-import './SectionContributors.scss';
+import './ContributorsSection.scss';
 import '../../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
 
-class SectionContributors extends React.Component {
+class ContributorsSection extends React.Component {
   constructor(props, context) {
     super(props, context);
     AOS.init();
@@ -267,4 +267,4 @@ class SectionContributors extends React.Component {
   }
 }
 
-export default SectionContributors;
+export default ContributorsSection;

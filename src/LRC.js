@@ -2,13 +2,15 @@ import React from 'react';
 
 import './LRC.scss';
 
-import Header from './Header.js';
-import SectionLRCHero from './Sections/SectionLRCHero.js';
-import SectionLRCStaking from './Sections/SectionLRCStaking.js';
-import SectionLRCInfo from './Sections/SectionLRCInfo.js';
-import Footer from './Sections/Footer.js';
 import '../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
+
+import Header from './Components/Header.js';
+import Footer from './Components/Footer.js';
+
+import HeroSection from './LRC/HeroSection.js';
+import StakingSection from './LRC/StakingSection.js';
+import TokenInfoSection from './LRC/TokenInfoSection.js';
 
 class LRC extends React.Component {
   constructor(props, context) {
@@ -23,7 +25,7 @@ class LRC extends React.Component {
     return (
       <div>
         <Header />
-        <SectionLRCHero />
+        <HeroSection />
 
         <section className="section section-lrc-icon   has-text-black has-background-white">
           <div className="container is-centered has-text-centered">
@@ -44,8 +46,8 @@ class LRC extends React.Component {
           </div>
         </section>
 
-        <SectionLRCStaking />
-        <SectionLRCInfo />
+        <StakingSection />
+        <TokenInfoSection />
         <Footer />
       </div>
     );

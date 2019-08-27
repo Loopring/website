@@ -1,12 +1,12 @@
 import React from 'react';
-import './SectionCoreTeam.scss';
+import './CoreTeamSection.scss';
 import '../../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
 
-class SectionCoreTeam extends React.Component {
+class CoreTeamSection extends React.Component {
   constructor(props, context) {
     super(props, context);
     AOS.init();
@@ -218,4 +218,4 @@ class SectionCoreTeam extends React.Component {
   }
 }
 
-export default SectionCoreTeam;
+export default CoreTeamSection;

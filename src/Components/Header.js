@@ -47,13 +47,13 @@ class Header extends React.Component {
                 Team
               </Link>
 
-              <Link className="navbar-item" to="/blogs">
+              <Link className="navbar-item" to="/updates">
                 Updates
               </Link>
 
-              <Link className="navbar-item" to="/blog">
+              {/*   <Link className="navbar-item" to="/blog">
                 Blog
-              </Link>
+              </Link>*/}
             </div>
             <div className="navbar-end">
               <img className="logo" draggable="false" src="images/logo.svg" />

@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import './SectionLRCStaking.scss';
+import "./StakingSection.scss";
 
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
+import "../../node_modules/aos/dist/aos.css";
+import AOS from "aos";
 
-class SectionLRCStaking extends React.Component {
+class StakingSection extends React.Component {
   constructor(props, context) {
     super(props, context);
     AOS.init();
@@ -115,4 +115,4 @@ class SectionLRCStaking extends React.Component {
   }
 }
 
-export default SectionLRCStaking;
+export default StakingSection;

@@ -1,12 +1,12 @@
 import React from 'react';
-import './SectionPerformance.scss';
+import './PerformanceSection.scss';
 
 import '../../node_modules/aos/dist/aos.css';
 
 import Odometer from 'react-odometerjs';
 import AOS from 'aos';
 
-class SectionPerformance extends React.Component {
+class PerformanceSection extends React.Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
@@ -203,4 +203,4 @@ class SectionPerformance extends React.Component {
   }
 }
 
-export default SectionPerformance;
+export default PerformanceSection;

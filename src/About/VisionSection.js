@@ -1,9 +1,9 @@
-import React from 'react';
-import './SectionOverview.scss';
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
+import React from "react";
+import "./VisionSection.scss";
+import "../../node_modules/aos/dist/aos.css";
+import AOS from "aos";
 
-class SectionOverview extends React.Component {
+class VisionSection extends React.Component {
   constructor(props, context) {
     super(props, context);
     AOS.init();
@@ -116,7 +116,7 @@ class SectionOverview extends React.Component {
                 <p>
                   We believe the way most other trading protocols use the
                   underlying blockchain is fundamentally wrong. Loopring takes a
-                  different approach known as{' '}
+                  different approach known as{" "}
                   <a
                     className="highlight underline has-trailing-arrow"
                     href="https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477"
@@ -153,4 +153,4 @@ class SectionOverview extends React.Component {
   }
 }
 
-export default SectionOverview;
+export default VisionSection;

@@ -1,7 +1,7 @@
-import React from 'react';
-import './SectionMedia.scss';
+import React from "react";
+import "./MediaSection.scss";
 
-class SectionMedia extends React.Component {
+class MediaSection extends React.Component {
   render() {
     return (
       <section className="section section-media is-large has-text-black">
@@ -79,4 +79,4 @@ class SectionMedia extends React.Component {
   }
 }
 
-export default SectionMedia;
+export default MediaSection;
