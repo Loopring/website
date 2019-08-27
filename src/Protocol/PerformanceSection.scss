@@ -73,7 +73,7 @@
     text-align: left;
     display: block;
     position: absolute;
-    top: 0;
+    top: 0.08em;
     left: 0;
     right: 0;
     bottom: 0;
@@ -177,6 +177,8 @@
 
     display: inline-block;
     vertical-align: sup;
+    // padding-top:20px;
+    // margin-top:40px;
     font-size: 0.85em;
     margin-right: 0.2em;
     color: $white;

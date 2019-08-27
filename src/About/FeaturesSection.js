@@ -20,7 +20,7 @@ class FeaturesSection extends React.Component {
       <section className="section section-about-features is-large has-background-white">
         <div className="container">
           <div className="columns is-centered">
-            <div data-aos="fade-up" className="column is-10">
+            <div data-aos="fade-up" className="column is-10 has-text-centered">
               <h1>Features</h1>
             </div>
           </div>
