@@ -44,7 +44,7 @@ class TokenInfoSection extends React.Component {
           <div className="columns is-centered is-multiline">
             <div
               data-aos="fade-up"
-              className="column column-info is-6 has-text-left"
+              className="column column-info is-5 has-text-left"
             >
               <div className="content">
                 <h2>Token Information</h2>
@@ -60,7 +60,7 @@ class TokenInfoSection extends React.Component {
                 </ul>
 
                 <h2>Regarding LRC Token Migration</h2>
-                <p>
+                <p className="has-text-justify">
                   On May 07 2019, we migrated LRC from{' '}
                   <a
                     className="highlight has-trailing-arrow"
@@ -101,7 +101,7 @@ class TokenInfoSection extends React.Component {
 
             <div
               data-aos="fade-up"
-              className="column column-exchange  is-6 has-text-left"
+              className="column column-exchange  is-5 has-text-left"
             >
               <div className="content">
                 <h2>Exchanges</h2>
