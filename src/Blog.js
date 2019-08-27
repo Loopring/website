@@ -2,8 +2,8 @@ import React from 'react';
 
 import './Blog.scss';
 
-import Header from './Header.js';
-import Footer from './Sections/Footer.js';
+import Header from './Components/Header.js';
+import Footer from './Components/Footer.js';
 
 import SectionBlogHero from './Sections/SectionBlogHero.js';
 import SectionArticles from './Sections/SectionArticles.js';

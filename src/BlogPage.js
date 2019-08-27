@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import ReactMarkdown from 'react-markdown';
 
 import './BlogPage.scss';
-import Header from './Header.js';
-import Footer from './Sections/Footer.js';
+import Header from './Components/Header.js';
+import Footer from './Components/Footer.js';
 
 // const API = './markdown/test.md';
 const API =

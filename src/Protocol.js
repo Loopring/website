@@ -2,8 +2,8 @@ import React from 'react';
 
 import './Protocol.scss';
 
-import Header from './Header.js';
-import Footer from './Sections/Footer.js';
+import Header from './Components/Header.js';
+import Footer from './Components/Footer.js';
 import SectionLoopringV30 from './Sections/SectionLoopringV30.js';
 import SectionPerformance from './Sections/SectionPerformance.js';
 import SectionProtocolParams from './Sections/SectionProtocolParams.js';

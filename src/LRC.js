@@ -2,11 +2,11 @@ import React from 'react';
 
 import './LRC.scss';
 
-import Header from './Header.js';
+import Header from './Components/Header.js';
 import SectionLRCHero from './Sections/SectionLRCHero.js';
 import SectionLRCStaking from './Sections/SectionLRCStaking.js';
 import SectionLRCInfo from './Sections/SectionLRCInfo.js';
-import Footer from './Sections/Footer.js';
+import Footer from './Components/Footer.js';
 import '../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 
