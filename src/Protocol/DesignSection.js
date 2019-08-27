@@ -21,7 +21,7 @@ class DesignSection extends React.Component {
         <div className="container">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-10">
-              <h1>Design and Building Blocks</h1>
+              <h1>Design</h1>
             </div>
           </div>
 
@@ -29,6 +29,13 @@ class DesignSection extends React.Component {
           <div className="columns is-centered is-multiline">
             <div data-aos="fade-up" className="column is-5 has-text-justify">
               <div className="content">
+                <h2>
+                  Whitepaper <span className="deprecate">(Deprecated)</span>
+                </h2>
+                <p>
+                  There is no better source than our Design Doc for you to learn
+                  about all the ideas behind Loopring 3.0.
+                </p>
                 <h2>Design Doc</h2>
                 <p>
                   There is no better source than our Design Doc for you to learn
@@ -53,7 +60,7 @@ class DesignSection extends React.Component {
 
             <div data-aos="fade-up" className="column is-5">
               <div className="content">
-                <h2>Resources</h2>
+                <h2>Building Blocks</h2>
                 <ul className="links">
                   <li>
                     <a
@@ -76,10 +83,24 @@ class DesignSection extends React.Component {
                       href="https://www.youtube.com/watch?v=mOm47gBMfg8"
                     >
                       Vitalik's tech-talk on
-                      zkRollup··································
+                      zkRollup······························
                       <span className="symboled"> ◎</span>
                     </a>
                   </li>
+
+                  <li>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="highlight has-leading-thick-arrow highlight"
+                      href="https://en.wikipedia.org/wiki/Zero-knowledge_proof"
+                    >
+                      Zero Knowledge Proof /
+                      ZKP····································
+                      <span className="symboled"> ◎</span>
+                    </a>
+                  </li>
+
                   <li>
                     <a
                       target="_blank"
