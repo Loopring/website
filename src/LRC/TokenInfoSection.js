@@ -1,28 +1,28 @@
-import React from "react";
+import React from 'react';
 
-import "./TokenInfoSection.scss";
+import './TokenInfoSection.scss';
 
-import "../../node_modules/aos/dist/aos.css";
-import AOS from "aos";
+import '../../node_modules/aos/dist/aos.css';
+import AOS from 'aos';
 
-const API = "./lrc_info.json";
+const API = './lrc_info.json';
 
 class TokenInfoSection extends React.Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
       exchanges: [],
-      facts: []
+      facts: [],
     };
     AOS.init();
   }
 
   componentDidMount() {
     fetch(API)
-      .then(response => response.json())
-      .then(data =>
-        this.setState({ facts: data.facts, exchanges: data.exchanges })
-      );
+        .then((response) => response.json())
+        .then((data) =>
+          this.setState({facts: data.facts, exchanges: data.exchanges})
+        );
   }
 
   componentDidUpdate() {
@@ -39,10 +39,12 @@ class TokenInfoSection extends React.Component {
             </div>
           </div>
 
+          {/* ---*/}
+
           <div className="columns is-centered is-multiline">
             <div
               data-aos="fade-up"
-              className="column column-info  is-6 has-text-left"
+              className="column column-info is-5 has-text-left"
             >
               <div className="content">
                 <h2>Token Information</h2>
@@ -50,7 +52,7 @@ class TokenInfoSection extends React.Component {
                   {this.state.facts.map((item, idx) => (
                     <li key={idx}>
                       <span className="has-leading-thin-arrow key">
-                        {item.key}:{" "}
+                        {item.key}:{' '}
                       </span>
                       <span className="tag value">{item.value}</span>
                     </li>
@@ -58,8 +60,8 @@ class TokenInfoSection extends React.Component {
                 </ul>
 
                 <h2>Regarding LRC Token Migration</h2>
-                <p>
-                  On May 07 2019, we migrated LRC from{" "}
+                <p className="has-text-justify">
+                  On May 07 2019, we migrated LRC from{' '}
                   <a
                     className="highlight has-trailing-arrow"
                     href="https://etherscan.io/token/0xef68e7c694f40c8202821edf525de3782458639f"
@@ -67,10 +69,10 @@ class TokenInfoSection extends React.Component {
                     rel="noopener noreferrer"
                   >
                     version 1.0
-                  </a>{" "}
+                  </a>{' '}
                   to version 2.0. The new LRC token remains ERC20 compliant and
                   now supports a “burn” function that will be used by the
-                  Loopring Protocol and the new{" "}
+                  Loopring Protocol and the new{' '}
                   <a
                     href="https://medium.com/loopring-protocol/oedax-looprings-open-ended-dutch-auction-exchange-model-d92cebbd3667"
                     target="_blank"
@@ -78,14 +80,14 @@ class TokenInfoSection extends React.Component {
                     className="highlight has-trailing-arrow"
                   >
                     Oedax
-                  </a>{" "}
+                  </a>{' '}
                   auction protocol to burn LRC as the protocols are being used.
                   The total LRC supply will decrease over time to reflect these
                   burns.
                 </p>
 
                 <p>
-                  To learn more about the migration, please check out our{" "}
+                  To learn more about the migration, please check out our{' '}
                   <a
                     className="highlight has-trailing-arrow"
                     href="https://medium.com/loopring-protocol/lrc-token-upgraded-a26ee6f87b84"
@@ -99,7 +101,7 @@ class TokenInfoSection extends React.Component {
 
             <div
               data-aos="fade-up"
-              className="column column-exchange  is-6 has-text-left"
+              className="column column-exchange  is-5 has-text-left"
             >
               <div className="content">
                 <h2>Exchanges</h2>

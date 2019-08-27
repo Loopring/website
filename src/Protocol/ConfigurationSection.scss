@@ -1,9 +1,13 @@
 @charset "utf-8";
 @import "../Variables.scss";
 
-.protocol-section-params {
+.section-protocol-configuration {
   li {
     padding-bottom: 20px;
+  }
+
+  .remark {
+    margin-bottom: 20px;
   }
 
   .name {
@@ -18,6 +22,7 @@
     margin-left: 20px;
   }
   .meaning {
+    text-align: justify;
     padding: 4px 26px;
   }
 }

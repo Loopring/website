@@ -11,7 +11,7 @@ class PerformanceSection extends React.Component {
     super(props, context);
     this.state = {
       throughput: 100,
-      cost: '0.004',
+      cost: '0.003',
     };
     AOS.init();
   }
@@ -21,27 +21,30 @@ class PerformanceSection extends React.Component {
 
   componentDidMount() {
     this.timer = setTimeout((data) => this.setState({throughput: 350}), 50);
-    // this.timer = setTimeout(data => this.setState({ cost: 0.123 }), 1000);
+    // this.timer = setTimeout(data => this.setState({ cost: 0.002 }), 1000);
   }
 
   render() {
     return (
       <div>
-        <section className="section section-throughput is-large  has-background-grey">
+        <section className="section section-protocol-throughput is-large has-background-grey">
           <div className="container">
             <div className="columns is-centered">
               <div
                 data-aos="fade-up"
-                className="column is-5  has-text-centered"
+                className="column is-10  has-text-centered"
               >
                 <h1>Remarkable Throughput</h1>
                 <Odometer value={this.state.throughput} format="(,ddd)" />
               </div>
             </div>
+
+            {/* ---*/}
+
             <div className="columns is-centered">
               <div
                 data-aos="fade-up"
-                className="column column-explain is-5 is-centered has-text-left"
+                className="column column-explain is-5 is-centered has-text-justify"
               >
                 <p>
                   Loopring 3.0 can settle up to 350 trades per second while
@@ -54,6 +57,8 @@ class PerformanceSection extends React.Component {
                 </p>
               </div>
             </div>
+
+            {/* ---*/}
             <div className="columns is-centered">
               <div
                 data-aos="fade-up"
@@ -90,6 +95,8 @@ class PerformanceSection extends React.Component {
                 </table>
               </div>
             </div>
+
+            {/* ---*/}
             <div className="columns is-centered">
               <div
                 data-aos="fade-up"
@@ -114,28 +121,32 @@ class PerformanceSection extends React.Component {
           </div>
         </section>
 
-        <section className="section section-cost is-large has-background-black">
+        {/* ====*/}
+
+        <section className="section section-protocol-cost is-large has-background-black">
           <div className="container">
             <div className="columns is-centered">
               <div
                 data-aos="fade-up"
-                className="column is-5  has-text-centered"
+                className="column is-10  has-text-centered"
               >
-                <h1>Cost per Trade</h1>
+                <h1>Low Settlement Cost</h1>
                 <Odometer
                   theme="white"
-                  format="(,ddd).ddd"
+                  format="(ddd).dddd"
                   value={this.state.cost}
                 />
               </div>
             </div>
+            {/* ---*/}
             <div className="columns is-centered">
               <div
                 data-aos="fade-up"
-                className="column column-explain is-5 is-centered has-text-left"
+                className="column column-explain is-5 is-centered has-text-justify"
               >
                 <p>
-                  The average settlement cost for each trade is as low as 0.004
+                  The average settlement cost for each trade is as low as{' '}
+                  {this.state.cost}
                   USD, which covers the gas for Ethereum transactions and the
                   cost of proof generation on cloud computing platforms. DEXes
                   can further lower the settlement cost by using cheaper servers
@@ -145,6 +156,8 @@ class PerformanceSection extends React.Component {
                 </p>
               </div>
             </div>
+
+            {/* ---*/}
             <div className="columns is-centered">
               <div
                 data-aos="fade-up"
@@ -161,19 +174,21 @@ class PerformanceSection extends React.Component {
                     <tr>
                       <td className="first">Currently</td>
                       <td>
-                        <span className="">$0.004</span>
+                        <span className="">${this.state.cost}</span>
                       </td>
                     </tr>
                     <tr>
                       <td className="first">Post-Istanbul Fork</td>
                       <td>
-                        <span className="">$0.003</span>
+                        <span className="">${this.state.cost - 0.0005}</span>
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
             </div>
+
+            {/* ---*/}
 
             <div className="columns is-centered">
               <div

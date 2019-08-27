@@ -1,30 +1,30 @@
-import React from "react";
-import "./HacksSection.scss";
-import "../../node_modules/aos/dist/aos.css";
-import AOS from "aos";
+import React from 'react';
+import './HacksSection.scss';
+import '../../node_modules/aos/dist/aos.css';
+import AOS from 'aos';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRadiationAlt } from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
 
-const API = "./hacks_en.json";
+const API = './hacks_en.json';
 
 class HacksSection extends React.Component {
   constructor(props) {
     super(props);
     this.hackStories = React.createRef();
     this.state = {
-      title: "...",
-      stories: []
+      title: '...',
+      stories: [],
     };
     AOS.init();
   }
 
   componentDidMount() {
     fetch(API)
-      .then(response => response.json())
-      .then(data =>
-        this.setState({ total: data.total, stories: data.stories })
-      );
+        .then((response) => response.json())
+        .then((data) =>
+          this.setState({total: data.total, stories: data.stories})
+        );
   }
 
   componentDidUpdate() {
@@ -35,7 +35,7 @@ class HacksSection extends React.Component {
     return (
       <section
         ref={this.hackStories}
-        className="section section-hack-stories is-large has-background-grey"
+        className="section section-about-hacks is-large has-background-grey"
       >
         <div className="container">
           <div className="columns is-centered">
@@ -43,7 +43,7 @@ class HacksSection extends React.Component {
               <h1>Crypto Hacks</h1>
             </div>
           </div>
-
+          {/* ---*/}
           <div className="columns">
             <div
               data-aos="fade-up"
@@ -52,9 +52,9 @@ class HacksSection extends React.Component {
               <FontAwesomeIcon icon={faRadiationAlt} size="5x" />
 
               <div className="total-figure">
-                {this.state.total}{" "}
+                {this.state.total}{' '}
                 <span className="total-figure-label">
-                  - the crypto-assets hacked from centralized exchanges that
+                  — the crypto-assets hacked from centralized exchanges that
                   belongs to the users, and counting...
                 </span>
               </div>

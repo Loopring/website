@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
-import "./ArticlesSection.scss";
-import Post from "../Components/Post.js";
+import './ArticlesSection.scss';
+import Post from '../Components/Post.js';
 
 class ArticlesSection extends React.Component {
   render() {
     return (
-      <section className="section section-articles  has-text-black">
+      <section className="section section-updates-articles  has-text-black">
         <div className="tile is-ancestor">
           <div className="tile is-2 is-vertical is-parent">
             <Post />

@@ -32,14 +32,19 @@ class ConfigurationSection extends React.Component {
 
   render() {
     return (
-      <section className="section protocol-section-params is-large has-background-grey">
-        <div className="container has-text-centered">
-          <h1>DEX Configuration</h1>
-
+      <section className="section section-protocol-configuration is-large has-background-grey">
+        <div className="container">
           <div className="columns is-centered">
-            <div className="column is-5 has-text-left">
+            <div data-aos="fade-up" className="column is-10 has-text-centered">
+              <h1>DEX Configuration</h1>
+            </div>{' '}
+          </div>
+
+          {/* ---*/}
+          <div className="columns is-centered">
+            <div className="column is-5">
               <h2>Global Constants</h2>
-              <div>
+              <div className="remark">
                 <i>
                   A list of protocol-wise constants that will never be changed.
                 </i>
@@ -59,9 +64,9 @@ class ConfigurationSection extends React.Component {
               </ul>
             </div>
 
-            <div className="column is-5 has-text-left">
+            <div className="column is-5">
               <h2>DEX Settings</h2>
-              <div>
+              <div className="remark">
                 <i>
                   A list of DEX-wise constants whose values are fixed once the
                   DEX is forged.
@@ -81,7 +86,7 @@ class ConfigurationSection extends React.Component {
                 ))}
               </ul>
               <h2>DEX On-Chain Parameters</h2>
-              <div>
+              <div className="remark">
                 <i>
                   A list of DEX-wise smart contract parameters whose values can
                   only be changed by DEX owners.
@@ -101,7 +106,7 @@ class ConfigurationSection extends React.Component {
                 ))}
               </ul>
               <h2>DEX off-Chain Parameters</h2>
-              <div>
+              <div className="remark">
                 <i>
                   A list of DEX-wise circuit parameters whose values can only be
                   changed by DEX operators very frequently, e.g. per order

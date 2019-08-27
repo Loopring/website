@@ -69,6 +69,7 @@ h3,
 h4 {
   font-size: $body-size !important;
   font-weight: 400 !important;
+  // text-decoration-line: underline !important;
   text-decoration-line: underline !important;
   text-underline-position: under !important;
   padding-bottom: $body-size !important;
@@ -78,8 +79,8 @@ h4 {
 h2 {
   font-family: $theme-font;
   font-size: 20px !important;
-  text-decoration-style: double;
   font-weight: 500 !important;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -98,7 +99,7 @@ h1 {
   // letter-spacing: 0.1em;
   font-weight: 700 !important;
   padding-bottom: 40px !important;
-  font-size: 2.5rem !important;
+  font-size: 3rem !important;
 }
 
 .has-text-din {

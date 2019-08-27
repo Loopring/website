@@ -4,11 +4,11 @@ import {Route, BrowserRouter as Router} from 'react-router-dom';
 import './index.scss';
 import ScrollToTop from './Components/ScrollToTop';
 
-import About from './About';
-import Protocol from './Protocol';
-import LRC from './LRC';
-import Team from './Team';
-import Updates from './Updates';
+import About from './About/About';
+import Protocol from './Protocol/Protocol';
+import LRC from './LRC/LRC';
+import Team from './Team/Team';
+import Updates from './Updates/Updates';
 // import BlogPage from "./BlogPage";
 import NotFound from './NotFound';
 import * as serviceWorker from './serviceWorker';

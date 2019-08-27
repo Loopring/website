@@ -1,7 +1,7 @@
-import React from "react";
-import "./DesignSection.scss";
-import "../../node_modules/aos/dist/aos.css";
-import AOS from "aos";
+import React from 'react';
+import './DesignSection.scss';
+import '../../node_modules/aos/dist/aos.css';
+import AOS from 'aos';
 
 class DesignSection extends React.Component {
   constructor(props, context) {
@@ -14,20 +14,26 @@ class DesignSection extends React.Component {
 
   render() {
     return (
-      <section className="section is-large section-opensource  has-background-blue">
+      <section className="section is-large section-protocol-design  has-background-blue">
         <div className="fixed-label is-hidden-mobile">100% open-source</div>
+
+        {/* ---*/}
         <div className="container">
-          <div className="columns is-centered is-multiline">
-            <div data-aos="fade-up" className="column is-12  has-text-left">
+          <div className="columns is-centered">
+            <div data-aos="fade-up" className="column is-10">
               <h1>Design and Building Blocks</h1>
             </div>
-            <div data-aos="fade-up" className="column is-5">
+          </div>
+
+          {/* ---*/}
+          <div className="columns is-centered is-multiline">
+            <div data-aos="fade-up" className="column is-5 has-text-justify">
               <h2>Design Doc</h2>
-              <div className="content">
+              <p>
                 There is no better source than our Design Doc for you to learn
                 about all the ideas behind Loopring 3.0.
-              </div>
-              <div className="content">
+              </p>
+              <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                 commodo ligula eget dolor. Aenean massa. Cum sociis natoque
                 penatibus et magnis dis parturient montes, nascetur ridiculus
@@ -39,7 +45,7 @@ class DesignSection extends React.Component {
                 Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
                 Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
                 enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
-              </div>
+              </p>
             </div>
 
             <div data-aos="fade-up" className="column is-5">
@@ -127,7 +133,7 @@ class DesignSection extends React.Component {
                     className="highlight has-leading-thick-arrow highlight"
                     href=""
                   >
-                    Loopring 3.0 smart contracts··············the on-chain part{" "}
+                    Loopring 3.0 smart contracts··············the on-chain part{' '}
                     <span className="symboled">⟁</span>
                   </a>
                 </li>

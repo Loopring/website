@@ -16,7 +16,7 @@ class HeroSection extends React.Component {
 
   render() {
     return (
-      <section className="section is-large has-background-white section-lrc-hero">
+      <section className="section section-lrc-hero is-large has-background-white">
         <div className="columns is-multiline">
           <div className="column is-12 is-unselectable hero has-text-din">
             <div className="container">

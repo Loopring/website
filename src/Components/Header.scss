@@ -6,15 +6,26 @@
   }
 
   a {
+    text-decoration: none !important;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 20px !important;
+    display: inline-block;
   }
-  a:hover {
-    text-decoration: underline;
+  a.hover {
+    text-decoration: none !important;
   }
 
-  a:active {
-    text-underline-position: under;
+  .pageLink {
+    box-shadow: inset 0 -2px transparent;
+    transition-duration: 0.5s;
+  }
+
+  .pageLink:hover {
+    box-shadow: inset 0 -2px $black;
+  }
+
+  .pageLink:active {
+    // text-underline-position: under;
   }
 
   .navbar-start > .navbar-item:first-child {
