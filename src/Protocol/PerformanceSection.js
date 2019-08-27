@@ -11,7 +11,7 @@ class PerformanceSection extends React.Component {
     super(props, context);
     this.state = {
       throughput: 100,
-      cost: '0.002',
+      cost: '0.003',
     };
     AOS.init();
   }
@@ -145,7 +145,8 @@ class PerformanceSection extends React.Component {
                 className="column column-explain is-5 is-centered has-text-justify"
               >
                 <p>
-                  The average settlement cost for each trade is as low as 0.004
+                  The average settlement cost for each trade is as low as{' '}
+                  {this.state.cost}
                   USD, which covers the gas for Ethereum transactions and the
                   cost of proof generation on cloud computing platforms. DEXes
                   can further lower the settlement cost by using cheaper servers
@@ -173,13 +174,13 @@ class PerformanceSection extends React.Component {
                     <tr>
                       <td className="first">Currently</td>
                       <td>
-                        <span className="">$0.004</span>
+                        <span className="">${this.state.cost}</span>
                       </td>
                     </tr>
                     <tr>
                       <td className="first">Post-Istanbul Fork</td>
                       <td>
-                        <span className="">$0.003</span>
+                        <span className="">${this.state.cost - 0.0005}</span>
                       </td>
                     </tr>
                   </tbody>
