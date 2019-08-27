@@ -6,6 +6,7 @@ import Header from './Header.js';
 import Footer from './Sections/Footer.js';
 import SectionLoopringV30 from './Sections/SectionLoopringV30.js';
 import SectionPerformance from './Sections/SectionPerformance.js';
+import SectionProtocolParams from './Sections/SectionProtocolParams.js';
 import Section3 from './Sections/Section3.js';
 import Section4 from './Sections/Section4.js';
 
@@ -19,6 +20,7 @@ class Protocol extends React.Component {
         <Header />
         <SectionPerformance />
         <SectionLoopringV30 />
+        <SectionProtocolParams />
         {/* <Section3 />*/}
         {/* <Section4 />*/}
         <Footer />

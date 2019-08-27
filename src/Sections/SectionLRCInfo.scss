@@ -3,85 +3,88 @@
 @import "../Variables.scss";
 
 .section-lrc-info {
-  .columns {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
-  .category {
-    font-size: 100px;
-    padding: 0 40px;
-    margin-top: -40px;
-  }
-
-  .category-title {
-    font-size: 20px;
-  }
-
-  h2 {
-    display: inline-block;
-  }
-
-  li {
-    // padding-top: 18px;
-    // border-bottom: 1px solid $black;
-    list-style-type: none;
-  }
-
-  .column-info {
-    .key {
-      min-width: 120px;
-      display: inline-block;
+    .columns {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
-    .tag {
-      // padding:1rem;
-      margin-right: 0.25rem;
-      margin-left: 0.25rem;
-      margin-bottom: 0.5rem;
-      color: $black;
-      font-weight: 700;
-
-      background-color: $grey-lighter;
-      font-size: $body-size !important;
-    }
-  }
-
-  .column-exchange {
-    .coming-soon {
-      .tag {
-        background-color: $primary;
-      }
-
-      // text-decoration: none;
-      // padding-top: 20px;
-      padding-bottom: 20px;
-
-      .footnote {
-        // padding-left: 120px;
-        color: $grey;
-        font-size: 0.8em;
-      }
+    .category {
+        font-size: 100px;
+        padding: 0 40px;
+        margin-top: -40px;
     }
 
-    .exchange-name {
-      min-width: 120px;
-      display: inline-block;
-
-      &:hover {
-        text-decoration: underline;
-      }
+    .category-title {
+        font-size: 20px;
     }
 
-    .tag {
-      // padding:1rem;
-      margin-right: 0.25rem;
-      margin-left: 0.25rem;
-      margin-bottom: 0.5rem;
-      color: $white;
-      font-weight: 700;
-
-      background-color: $black;
+    h2 {
+        display: inline-block;
     }
-  }
+
+    li {
+        // padding-top: 18px;
+        // border-bottom: 1px solid $black;
+        list-style-type: none;
+    }
+
+    .column-info {
+        .key {
+            min-width: 120px;
+            display: inline-block;
+        }
+
+        .tag {
+            // padding:1rem;
+            margin-right: 0.25rem;
+            margin-left: 0.25rem;
+            margin-bottom: 0.5rem;
+            color: $black;
+            font-weight: 700;
+
+            background-color: $grey-lighter;
+            font-size: $body-size !important;
+        }
+    }
+
+    .column-exchange {
+        .coming-soon {
+            .tag {
+                background-color: $primary;
+            }
+
+            // text-decoration: none;
+            // padding-top: 20px;
+            padding-bottom: 20px;
+
+            .footnote {
+                // padding-left: 120px;
+                color: $grey;
+                font-size: 0.8em;
+            }
+        }
+
+        .exchange-name {
+            min-width: 120px;
+            display: inline-block;
+
+
+
+            &:hover {
+                text-decoration: underline;
+
+            }
+        }
+
+        .tag {
+            // padding:1rem;
+            margin-right: 0.25rem;
+            margin-left: 0.25rem;
+            margin-bottom: 0.5rem;
+            color: $white;
+            font-weight: 700;
+
+            background-color: $black;
+        }
+    }
 }

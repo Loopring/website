@@ -18,7 +18,7 @@ class SectionLoopringHistory extends React.Component {
   render() {
     return (
       <div>
-        <section className="section section-history is-large has-text-black has-background-blue">
+        <section className="section section-history is-large has-background-blue">
           <div className="container">
             <div className="columns is-centered">
               <div data-aos="fade-up" className="column is-10 has-text-left">
@@ -110,7 +110,7 @@ class SectionLoopringHistory extends React.Component {
               </div>
               <div
                 data-aos="fade-up"
-                className="column version30 has-shaddow is-6 has-background-black has-text-white  has-text-left"
+                className="column version30 has-shaddow is-6 has-background-black   has-text-left"
               >
                 <div className="content">
                   <h2>Loopring 3.0, Reimagined.</h2>
@@ -133,8 +133,11 @@ class SectionLoopringHistory extends React.Component {
                   </p>
 
                   <p>
-                    <a className="highlight" href="/protocol">
-                      Click here↗
+                    <a
+                      className=" underline has-trailing-arrow"
+                      href="/protocol"
+                    >
+                      Click here
                     </a>{' '}
                     to learn about the technical details of Loopring 3.0.
                   </p>
@@ -143,7 +146,7 @@ class SectionLoopringHistory extends React.Component {
             </div>
           </div>
         </section>
-        <section className="section section-features is-large has-text-black has-background-white">
+        <section className="section section-features is-large has-background-white">
           <div className="container">
             <div className="columns is-centered">
               <div data-aos="fade-up" className="column is-10 has-text-right">
@@ -155,7 +158,9 @@ class SectionLoopringHistory extends React.Component {
                 data-aos="fade-up"
                 className="column is-2 is-offset-2 has-text-left"
               >
-                ➜ <span className="deprecated">Loopring 1.0 (deprecated)</span>{' '}
+                <span className="has-leading-thick-arrow deprecated">
+                  Loopring 1.0 (deprecated)
+                </span>{' '}
                 ······
               </div>
               <div data-aos="fade-up" className="column is-6 has-text-left">
@@ -168,7 +173,9 @@ class SectionLoopringHistory extends React.Component {
                 data-aos="fade-up"
                 className="column is-2 is-offset-2 has-text-left"
               >
-                ➜ <span className="deprecated">Loopring 1.5 (deprecated)</span>{' '}
+                <span className="has-leading-thick-arrow deprecated">
+                  Loopring 1.5 (deprecated)
+                </span>{' '}
                 ······
               </div>
               <div data-aos="fade-up" className="column is-6 has-text-left">
@@ -182,7 +189,9 @@ class SectionLoopringHistory extends React.Component {
                 data-aos="fade-up"
                 className="column is-2 is-offset-2 has-text-left"
               >
-                ➜ <span className="deprecated">Loopring 2.0 (deprecated)</span>{' '}
+                <span className="has-leading-thick-arrow deprecated">
+                  Loopring 2.0 (deprecated)
+                </span>{' '}
                 ······
               </div>
               <div data-aos="fade-up" className="column is-6 has-text-left">
@@ -198,7 +207,7 @@ class SectionLoopringHistory extends React.Component {
                 data-aos="fade-up"
                 className="column is-2 is-offset-2 has-text-left"
               >
-                ➜ <span className="">Loopring 3.0</span>{' '}
+                <span className="has-leading-thick-arrow">Loopring 3.0</span>{' '}
                 ···························
               </div>
               <div data-aos="fade-up" className="column is-6 has-text-left">

@@ -19,10 +19,16 @@ $body-size: 14px;
 
 $body-color: $black;
 $body-background-color: $white-bis;
-$family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$family-sans-serif: "Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
 $link: $black;
 
-$family-content: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$family-content: "Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
 
 // Navbar
 $navbar-item-color: $black;
@@ -33,14 +39,3 @@ $very-light-background: #f5f6f7;
 $image-overlay-background: $white;
 $image-overlay-foreground: $black;
 
-.has-background-blue {
-  background-color: $very-light-background !important;
-}
-
-.has-background-grey {
-  background-color: #fafafa !important;
-}
-
-.has-background-black {
-  background-color: $black !important;
-}

@@ -14,11 +14,11 @@ class SectionLoopringV30 extends React.Component {
 
   render() {
     return (
-      <section className="section is-large section-opensource  has-background-grey">
+      <section className="section is-large section-opensource  has-background-blue">
         <div className="fixed-label is-hidden-mobile">100% open-source</div>
         <div className="container">
           <div className="columns is-centered is-multiline">
-            <div data-aos="fade-up" className="column is-12  has-text-centered">
+            <div data-aos="fade-up" className="column is-12  has-text-left">
               <h1>Design and Building Blocks</h1>
             </div>
             <div data-aos="fade-up" className="column is-5">
@@ -46,12 +46,10 @@ class SectionLoopringV30 extends React.Component {
               <h2>Resources</h2>
               <ul className="links">
                 <li>
-                  {' '}
-                  ➜{' '}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="highlight"
+                    className="highlight has-leading-thick-arrow highlight"
                     href="https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477"
                   >
                     Vitalik's post on zkRollup
@@ -61,12 +59,10 @@ class SectionLoopringV30 extends React.Component {
                 </li>
 
                 <li>
-                  {' '}
-                  ➜{' '}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="highlight"
+                    className="highlight has-leading-thick-arrow highlight"
                     href="https://www.youtube.com/watch?v=mOm47gBMfg8"
                   >
                     Vitalik's tech-talk on
@@ -75,12 +71,10 @@ class SectionLoopringV30 extends React.Component {
                   </a>
                 </li>
                 <li>
-                  {' '}
-                  ➜{' '}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="highlight"
+                    className="highlight has-leading-thick-arrow highlight"
                     href="https://github.com/scipr-lab/libsnark"
                   >
                     libsnark
@@ -90,12 +84,10 @@ class SectionLoopringV30 extends React.Component {
                 </li>
 
                 <li>
-                  {' '}
-                  ➜{' '}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="highlight"
+                    className="highlight has-leading-thick-arrow highlight"
                     href="https://github.com/HarryR/ethsnarks"
                   >
                     ethsnarks ··················································
@@ -104,12 +96,10 @@ class SectionLoopringV30 extends React.Component {
                 </li>
 
                 <li>
-                  {' '}
-                  ➜{' '}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="highlight"
+                    className="highlight has-leading-thick-arrow highlight"
                     href="https://dusk.network/news/poseidon-the-most-efficient-zero-knowledge-friendly-implementation"
                   >
                     Poseidon hash function
@@ -118,12 +108,10 @@ class SectionLoopringV30 extends React.Component {
                   </a>
                 </li>
                 <li>
-                  {' '}
-                  ➜{' '}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="highlight"
+                    className="highlight has-leading-thick-arrow highlight"
                     href="https://en.wikipedia.org/wiki/Merkle_tree"
                   >
                     Quad-Merkle Tree
@@ -133,12 +121,10 @@ class SectionLoopringV30 extends React.Component {
                 </li>
 
                 <li>
-                  {' '}
-                  ➜{' '}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="highlight"
+                    className="highlight has-leading-thick-arrow highlight"
                     href=""
                   >
                     Loopring 3.0 smart contracts··············the on-chain part{' '}
@@ -146,12 +132,10 @@ class SectionLoopringV30 extends React.Component {
                   </a>
                 </li>
                 <li>
-                  {' '}
-                  ➜{' '}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="highlight"
+                    className="highlight has-leading-thick-arrow highlight"
                     href=""
                   >
                     Loopring 3.0 ZKP circuits····················the off-chain
@@ -159,12 +143,10 @@ class SectionLoopringV30 extends React.Component {
                   </a>
                 </li>
                 <li>
-                  {' '}
-                  ➜{' '}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="highlight"
+                    className="highlight has-leading-thick-arrow highlight"
                     href=""
                   >
                     SECBIT Security Audit Report

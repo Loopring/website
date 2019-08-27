@@ -27,7 +27,7 @@ class SectionPerformance extends React.Component {
   render() {
     return (
       <div>
-        <section className="section section-throughput is-large has-text-black has-background-grey">
+        <section className="section section-throughput is-large  has-background-grey">
           <div className="container">
             <div className="columns is-centered">
               <div
@@ -97,17 +97,13 @@ class SectionPerformance extends React.Component {
               >
                 <ul className="links">
                   <li>
-                    {' '}
-                    ➜{' '}
-                    <a className="highlight" href="">
+                    <a disabled className="has-leading-thick-arrow highlight">
                       Loopring 3.0 Smart Contracts·············the on-chain part{' '}
                       <span className="symboled">⟁</span>
                     </a>
                   </li>
                   <li>
-                    {' '}
-                    ➜{' '}
-                    <a className="highlight" href="">
+                    <a disabled className="has-leading-thick-arrow highlight">
                       Loopring 3.0 ZKP circuits·····················the
                       off-chain part <span className="symboled"> ⧉</span>
                     </a>
@@ -118,7 +114,7 @@ class SectionPerformance extends React.Component {
           </div>
         </section>
 
-        <section className="section section-cost is-large has-text-white has-background-black">
+        <section className="section section-cost is-large has-background-black">
           <div className="container">
             <div className="columns is-centered">
               <div
@@ -154,7 +150,7 @@ class SectionPerformance extends React.Component {
                 data-aos="fade-up"
                 className="column is-5 is-centered has-text-centered"
               >
-                <table className="table has-text-white">
+                <table className="table">
                   <thead>
                     <tr>
                       <th className="first"></th>
@@ -186,17 +182,13 @@ class SectionPerformance extends React.Component {
               >
                 <ul className="links">
                   <li>
-                    {' '}
-                    ➜{' '}
-                    <a className="highlight" href="">
+                    <a disabled className="has-leading-thick-arrow">
                       Loopring 3.0 Smart Contracts·············the on-chain part{' '}
                       <span className="symboled">⟁</span>
                     </a>
                   </li>
                   <li>
-                    {' '}
-                    ➜{' '}
-                    <a className="highlight" href="">
+                    <a disabled className="has-leading-thick-arrow">
                       Loopring 3.0 ZKP circuits·····················the
                       off-chain part <span className="symboled"> ⧉</span>
                     </a>

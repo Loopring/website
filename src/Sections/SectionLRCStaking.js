@@ -16,7 +16,7 @@ class SectionLRCStaking extends React.Component {
 
   render() {
     return (
-      <section className="section section-lrc-staking is-large has-text-white has-background-black">
+      <section className="section section-lrc-staking is-large  has-background-black">
         <div className="container is-centered has-text-centered">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-10 has-text-centered">

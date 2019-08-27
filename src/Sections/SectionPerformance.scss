@@ -41,7 +41,7 @@
   }
 
   .odometer {
-    font-size: 100px;
+    font-size: 8rem;
     margin-bottom: 40px;
     display: inline-block;
     vertical-align: middle;
@@ -185,12 +185,7 @@
   }
 
   .links {
-    a {
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
+
     // border-left: solid 2px $grey-darker;
     padding-top: 40px;
     // padding-left: 60px;
@@ -205,6 +200,10 @@
 }
 
 .section-cost {
+
+  .odometer {
+     font-size: 6rem;
+  }
   table {
     color: $white !important;
     border-bottom: 2px solid $white;
@@ -217,13 +216,5 @@
 
   th {
     border-bottom: 1px solid $white;
-  }
-
-  a {
-    color: $white !important;
-
-    &:hover {
-      background-image: none !important;
-    }
   }
 }

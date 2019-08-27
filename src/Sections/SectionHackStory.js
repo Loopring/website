@@ -35,7 +35,7 @@ class SectionHackStory extends React.Component {
     return (
       <section
         ref={this.hackStories}
-        className="section section-hack-stories is-large has-text-black has-background-grey"
+        className="section section-hack-stories is-large has-background-grey"
       >
         <div className="container">
           <div className="columns is-centered">
@@ -93,8 +93,11 @@ class SectionHackStory extends React.Component {
               data-aos="fade-up"
               className="column has-text-centered  is-12 call-for-action"
             >
-              <a className="is-rounded is-unselectable" href="/protocol">
-                Learn how Loopring 3.0 achieves high level of security ↗
+              <a
+                className="is-rounded is-unselectable has-trailing-arrow"
+                href="/protocol"
+              >
+                Learn how Loopring 3.0 achieves high level of security
               </a>
             </div>
           </div>

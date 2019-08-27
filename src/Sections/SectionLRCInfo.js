@@ -49,7 +49,9 @@ class SectionLRCInfo extends React.Component {
                 <ul>
                   {this.state.facts.map((item, idx) => (
                     <li key={idx}>
-                      ⟶ <span className="key">{item.key}: </span>
+                      <span className="has-leading-thin-arrow key">
+                        {item.key}:{' '}
+                      </span>
                       <span className="tag value">{item.value}</span>
                     </li>
                   ))}
@@ -59,12 +61,12 @@ class SectionLRCInfo extends React.Component {
                 <p>
                   On May 07 2019, we migrated LRC from{' '}
                   <a
-                    className="highlight"
+                    className="highlight has-trailing-arrow"
                     href="https://etherscan.io/token/0xef68e7c694f40c8202821edf525de3782458639f"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    version 1.0↗
+                    version 1.0
                   </a>{' '}
                   to version 2.0. The new LRC token remains ERC20 compliant and
                   now supports a “burn” function that will be used by the
@@ -73,9 +75,9 @@ class SectionLRCInfo extends React.Component {
                     href="https://medium.com/loopring-protocol/oedax-looprings-open-ended-dutch-auction-exchange-model-d92cebbd3667"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="highlight"
+                    className="highlight has-trailing-arrow"
                   >
-                    Oedax↗
+                    Oedax
                   </a>{' '}
                   auction protocol to burn LRC as the protocols are being used.
                   The total LRC supply will decrease over time to reflect these
@@ -85,10 +87,10 @@ class SectionLRCInfo extends React.Component {
                 <p>
                   To learn more about the migration, please check out our{' '}
                   <a
-                    className="highlight"
+                    className="highlight has-trailing-arrow"
                     href="https://medium.com/loopring-protocol/lrc-token-upgraded-a26ee6f87b84"
                   >
-                    blog post↗
+                    blog post
                   </a>
                   .
                 </p>
@@ -104,13 +106,14 @@ class SectionLRCInfo extends React.Component {
                 <ul>
                   {this.state.exchanges.map((exchange, idx) => (
                     <li key={idx}>
-                      ⟶{' '}
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href={exchange.url}
                       >
-                        <span className="exchange-name">{exchange.name}</span>
+                        <span className="has-leading-thin-arrow exchange-name">
+                          {exchange.name}
+                        </span>
                         {exchange.pairs.map((token, idx) => (
                           <span key={idx} className="tag">
                             LRC/{token}
@@ -123,13 +126,14 @@ class SectionLRCInfo extends React.Component {
                 <h2>Coming Soon...</h2>
                 <ul>
                   <li className="coming-soon highlighted">
-                    ⟶{' '}
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://wedex.io"
                     >
-                      <span className="exchange-name">WeDEX</span>
+                      <span className="has-leading-thin-arrow exchange-name">
+                        WeDEX
+                      </span>
                       <span className="tag">LRC/ETH</span>
                       <span className="tag">LRC/USDT</span>
                     </a>
@@ -139,13 +143,14 @@ class SectionLRCInfo extends React.Component {
                     </div>
                   </li>
                   <li className="coming-soon ">
-                    ⟶{' '}
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://UpDEX.io"
                     >
-                      <span className="exchange-name">UpDEX</span>
+                      <span className="has-leading-thin-arrow exchange-name">
+                        UpDEX
+                      </span>
                       <span className="tag">LRC/ETH</span>
                       <span className="tag">LRC/USDT</span>
                       <span className="tag">LRC/WBTC</span>

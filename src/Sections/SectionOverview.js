@@ -118,12 +118,12 @@ class SectionOverview extends React.Component {
                   underlying blockchain is fundamentally wrong. Loopring takes a
                   different approach known as{' '}
                   <a
-                    className="highlight"
+                    className="highlight underline has-trailing-arrow"
                     href="https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    zkRollup proposed by Vitalik Buterin↗
+                    zkRollup proposed by Vitalik Buterin
                   </a>
                   , and migrates most computations off the blockchain and only
                   broadcast exchanges' new state roots and their corresponding

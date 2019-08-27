@@ -12,10 +12,6 @@
     color: $grey;
   }
 
-  a {
-    text-decoration: underline;
-    // text-underline-position: under
-  }
 
   .call-for-action > a {
     margin-top: 40px;
@@ -29,7 +25,7 @@
     border: 1px solid $grey-lighter;
     transition-duration: 0.5s;
     // transition-property: background;
-    transition-timing-function: ease-in-ou;
+    transition-timing-function: ease-in-out;
 
     &:hover {
       background: $blue;
