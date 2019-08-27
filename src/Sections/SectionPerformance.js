@@ -114,7 +114,7 @@ class SectionPerformance extends React.Component {
           </div>
         </section>
 
-        <section className="section section-cost is-large has-background-primary">
+        <section className="section section-cost is-large has-background-black">
           <div className="container">
             <div className="columns is-centered">
               <div

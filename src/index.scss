@@ -12,6 +12,13 @@ code {
         monospace;
 }
 
+@font-face {
+    font-weight: normal;
+    font-family: 'DINCondensed-Regular';
+    src: url('./fonts/363123_2_0.eot');
+    src: url('./fonts/363123_2_0.eot?#iefix') format('embedded-opentype'), url('./fonts/363123_2_0.woff2') format('woff2'), url('./fonts/363123_2_0.woff') format('woff'), url('./fonts/363123_2_0.ttf') format('truetype'), url('./fonts/363123_2_0.svg#wf') format('svg');
+}
+
 @import "./Variables.scss";
 
 @import "../node_modules/bulma/sass/utilities/_all.sass";
@@ -21,6 +28,7 @@ code {
 @import "../node_modules/bulma/sass/grid/_all.sass";
 @import "../node_modules/bulma/sass/form/_all.sass";
 @import "../node_modules/bulma/sass/layout/_all.sass";
+
 
 .highlighted {
     background-image: url("https://ethereum.org/assets/img/highlight.22a66491.svg") !important;
@@ -64,6 +72,8 @@ h4 {
 }
 
 h2 {
+     font-family: $theme-font;
+     font-size: 20px!important;
     text-decoration-style: double;
     font-weight: 500 !important;
 }
@@ -78,6 +88,10 @@ h4 {
 
 h1 {
     color: $black;
+    // letter-spacing: 0.08em;
+    font-family: $theme-font;
+    text-transform: uppercase;
+    // letter-spacing: 0.1em;
     font-weight: 700 !important;
     padding-bottom: 40px !important;
     font-size: 2.5rem !important;
@@ -115,7 +129,6 @@ h1 {
 
 .has-background-black,
 .has-background-primary {
-
     color: $white;
 
     h1,

@@ -177,6 +177,8 @@
 
   .odometer.odometer-theme-white .odometer-inside:before {
     content: "$";
+    font-family: $theme-font;
+
     display: inline-block;
     vertical-align: sup;
     font-size: 0.85em;
@@ -199,9 +201,7 @@
 }
 
 .section-cost {
-  .odometer {
-    font-size: 6rem;
-  }
+
   table {
     color: $white !important;
     border-bottom: 2px solid $white;

@@ -29,7 +29,7 @@ class Header extends React.Component {
         </div>
         <div className="container">
           <div id="navbarBasicExample" className="navbar-menu">
-            <div className="navbar-start">
+            <div className="navbar-start has-text-din">
               <Link className="navbar-item" to="/">
                 About
               </Link>
