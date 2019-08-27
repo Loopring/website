@@ -24,7 +24,7 @@ class IconSection extends React.Component {
                 <img
                   draggable="false"
                   className="is-rounded"
-                  src="images/lrc.svg"
+                  src="/images/lrc.svg"
                 />
               </figure>{' '}
             </div>
