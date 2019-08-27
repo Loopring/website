@@ -7,6 +7,9 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 class Header extends React.Component {
+  onClick() {
+    console.log('clicked');
+  }
   render() {
     return (
       <nav
@@ -20,7 +23,8 @@ class Header extends React.Component {
             className="navbar-burger burger"
             aria-label="menu"
             aria-expanded="false"
-            data-target="navbarBasicExample"
+            data-target="navbarMenu"
+            onClick={this.onClick()}
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -28,7 +32,7 @@ class Header extends React.Component {
           </a>
         </div>
         <div className="container">
-          <div id="navbarBasicExample" className="navbar-menu">
+          <div id="navbarMenu" className="navbar-menu">
             <div className="navbar-start has-text-din">
               <Link className="navbar-item" to="/">
                 About
