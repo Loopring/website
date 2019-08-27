@@ -3,36 +3,44 @@
     {
         "name": "MAX_PROOF_GENERATION_TIME_IN_SECONDS",
         "value": "3600 SECOND",
-        "meaning": ""
+        "type": "unit",
+
+        "meaning": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "name": "MAX_GAP_BETWEEN_FINALIZED_AND_VERIFIED_BLOCKS",
         "value": "2500",
-        "meaning": ""
+         "type": "unit",
+        "meaning": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "name": "MAX_OPEN_DEPOSIT_REQUESTS",
         "value": "1024",
-        "meaning": ""
+         "type": "unit",
+        "meaning": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "name": "MAX_OPEN_WITHDRAWAL_REQUESTS",
         "value": "1024",
+         "type": "unit",
         "meaning": ""
     },
     {
         "name": "MAX_AGE_UNFINALIZED_BLOCK_UNTIL_WITHDRAW_MODE",
         "value": "1 DAY",
+         "type": "unit",
         "meaning": ""
     },
     {
         "name": "MAX_AGE_REQUEST_UNTIL_FORCED",
         "value": "15 MINUTES",
+         "type": "unit",
         "meaning": ""
     },
     {
         "name": "MAX_AGE_REQUEST_UNTIL_WITHDRAW_MODE",
         "value": "1 DAY",
+         "type": "unit",
         "meaning": ""
     },
     {
@@ -95,7 +103,7 @@
         "value": "0x2b4827daf74c0ab30deb68b1c337dec40579bb3ff45ce9478288e1a2b83a3a01",
         "meaning": ""
     }],
-    "Parameters": [
+    "dexParams": [
     {
         "name": "onchainDataAvailability",
         "value": "",
@@ -106,7 +114,7 @@
         "value": "",
         "meaning": ""
     }],
-    "On-chain Parameters": [
+    "onchainParams": [
     {
         "name": "owner",
         "value": "",
@@ -142,7 +150,7 @@
         "value": "",
         "meaning": ""
     }],
-    "Off-chain Parameters": [
+    "offchainParams": [
     {
         "name": "",
         "value": "",
