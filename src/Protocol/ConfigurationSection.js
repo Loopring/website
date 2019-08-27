@@ -42,7 +42,7 @@ class ConfigurationSection extends React.Component {
 
           {/* ---*/}
           <div className="columns is-centered">
-            <div className="column is-5">
+            <div data-aos="fade-up" className="column is-5">
               <div className="content">
                 <h2>Global Constants</h2>
                 <div className="remark">
@@ -67,7 +67,7 @@ class ConfigurationSection extends React.Component {
               </div>
             </div>
 
-            <div className="column is-5">
+            <div data-aos="fade-up" className="column is-5">
               <div className="content">
                 <h2>DEX Settings</h2>
                 <div className="remark">

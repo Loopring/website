@@ -3,9 +3,6 @@ import './ContributorsSection.scss';
 import '../../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
-
 class ContributorsSection extends React.Component {
   constructor(props, context) {
     super(props, context);
@@ -18,14 +15,13 @@ class ContributorsSection extends React.Component {
   render() {
     return (
       <div>
-        <section className="section section-contributors is-medium  has-background-blue">
+        <section className="section section-contributors is-large  has-background-blue">
           <div className="container">
-            <div className="columns ">
+            <div className="columns">
               <div
                 data-aos="fade-up"
                 className="column is-6 has-text-centered has-text-right-tablet"
               >
-                {' '}
                 <h1>Advisors</h1>
               </div>
               <div data-aos="fade-up" className="column is-6">
@@ -115,14 +111,11 @@ class ContributorsSection extends React.Component {
                 </ul>
               </div>
             </div>
-          </div>
-          <div className="container">
-            <div className="columns ">
+            <div className="columns">
               <div
                 data-aos="fade-up"
                 className="column is-3 has-text-centered has-text-right-tablet"
               >
-                {' '}
                 <h1>Contributors</h1>
               </div>
               <div data-aos="fade-up" className="column is-9">

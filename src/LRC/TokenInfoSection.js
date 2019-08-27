@@ -42,11 +42,8 @@ class TokenInfoSection extends React.Component {
           {/* ---*/}
 
           <div className="columns is-centered is-multiline">
-            <div
-              data-aos="fade-up"
-              className="column column-info is-5 has-text-left"
-            >
-              <div className="content">
+            <div className="column column-info is-5 has-text-left">
+              <div data-aos="fade-up" className="content">
                 <h2>Token Information</h2>
                 <ul>
                   {this.state.facts.map((item, idx) => (
@@ -58,7 +55,8 @@ class TokenInfoSection extends React.Component {
                     </li>
                   ))}
                 </ul>
-
+              </div>
+              <div data-aos="fade-up" className="content">
                 <h2>Regarding LRC Token Migration</h2>
                 <p className="has-text-justify">
                   On May 07 2019, we migrated LRC from{' '}
@@ -99,11 +97,8 @@ class TokenInfoSection extends React.Component {
               </div>
             </div>
 
-            <div
-              data-aos="fade-up"
-              className="column column-exchange  is-5 has-text-left"
-            >
-              <div className="content">
+            <div className="column column-exchange  is-5 has-text-left">
+              <div data-aos="fade-up" className="content">
                 <h2>Exchanges</h2>
                 <ul>
                   {this.state.exchanges.map((exchange, idx) => (
@@ -125,6 +120,8 @@ class TokenInfoSection extends React.Component {
                     </li>
                   ))}
                 </ul>
+              </div>
+              <div data-aos="fade-up" className="content">
                 <h2>Coming Soon...</h2>
                 <ul>
                   <li className="coming-soon highlighted">
