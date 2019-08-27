@@ -1,24 +1,23 @@
 @charset "utf-8";
 @import "../Variables.scss";
 
-
 .protocol-section-params {
-    li {
-        padding-bottom: 20px;
-    }
+  li {
+    padding-bottom: 20px;
+  }
 
-    .name {
-        font-size: 0.8em;
-        font-weight: 700;
-    }
+  .name {
+    font-size: 0.8em;
+    font-weight: 700;
+  }
 
-    .tag {
-        background-color: $grey;
-        color: $white;
-        font-weight: 700;
-        margin-left: 20px;
-    }
-    .meaning {
-        padding: 4px 26px;
-    }
+  .tag {
+    background-color: $grey;
+    color: $white;
+    font-weight: 700;
+    margin-left: 20px;
+  }
+  .meaning {
+    padding: 4px 26px;
+  }
 }
