@@ -47,9 +47,9 @@ class Header extends React.Component {
                 Team
               </Link>
 
-              <Link className="navbar-item" to="/updates">
+              {/*        <Link className="navbar-item" to="/updates">
                 Updates
-              </Link>
+              </Link>*/}
 
               {/*   <Link className="navbar-item" to="/blog">
                 Blog
