@@ -18,7 +18,7 @@ class SectionLRCHero extends React.Component {
     return (
       <section className="section is-large has-background-white section-lrc-hero">
         <div className="columns is-multiline">
-          <div className="column is-12 is-unselectable hero">
+          <div className="column is-12 is-unselectable hero has-text-din">
             <div className="container">
               <div data-aos="fade-up" className="text">
                 Buy and stake <span className="symbol">LRC</span>

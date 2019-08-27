@@ -19,17 +19,12 @@ $body-size: 14px;
 
 $body-color: $black;
 $body-background-color: $white-bis;
-$family-sans-serif: "Helvetica Neue",
-Helvetica,
-Arial,
-sans-serif;
+$family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $link: $black;
 
-$family-content: "Helvetica Neue",
-Helvetica,
-Arial,
-sans-serif;
+$family-content: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+$theme-font: "Roboto Condensed", sans-serif;
 // Navbar
 $navbar-item-color: $black;
 $navbar-item-hover-color: $black;
@@ -38,4 +33,3 @@ $navbar-item-hover-background-color: transparent;
 $very-light-background: #f5f6f7;
 $image-overlay-background: $white;
 $image-overlay-foreground: $black;
-

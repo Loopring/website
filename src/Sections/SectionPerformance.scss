@@ -140,7 +140,7 @@
   }
 
   .odometer {
-    font-family: "Roboto Mono", monospace;
+    font-family: $theme-font;
     user-select: none;
   }
 
@@ -185,7 +185,6 @@
   }
 
   .links {
-
     // border-left: solid 2px $grey-darker;
     padding-top: 40px;
     // padding-left: 60px;
@@ -200,9 +199,8 @@
 }
 
 .section-cost {
-
   .odometer {
-     font-size: 6rem;
+    font-size: 6rem;
   }
   table {
     color: $white !important;
