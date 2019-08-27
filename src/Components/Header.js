@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.scss';
 
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
@@ -34,18 +34,35 @@ class Header extends React.Component {
         <div className="container">
           <div id="navbarMenu" className="navbar-menu">
             <div className="navbar-start has-text-din">
-              <Link className="navbar-item" to="/">
+              <NavLink
+                exact
+                activeClassName="active"
+                className="navbar-item"
+                to="/"
+              >
                 <div className="pageLink">About</div>
-              </Link>
-              <Link className="navbar-item" to="/protocol">
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                className="navbar-item"
+                to="/protocol"
+              >
                 <div className="pageLink">Loopring 3.0</div>
-              </Link>
-              <Link className="navbar-item" to="/lrc">
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                className="navbar-item"
+                to="/lrc"
+              >
                 <div className="pageLink">LRC</div>
-              </Link>
-              <Link className="navbar-item" to="/team">
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                className="navbar-item"
+                to="/team"
+              >
                 <div className="pageLink">Team</div>
-              </Link>
+              </NavLink>
 
               {/*        <Link className="navbar-item" to="/updates">
                 Updates
