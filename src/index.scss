@@ -103,6 +103,19 @@ h1 {
 
 .has-background-black {
     background-color: $black !important;
+}
+
+.has-background-primary {
+    background-color: $primary !important;
+}
+
+.has-text-primary {
+    color: $primary !important;
+}
+
+.has-background-black,
+.has-background-primary {
+
     color: $white;
 
     h1,
