@@ -163,26 +163,26 @@
   }
 
   .odometer.odometer-theme-white .odometer-digit {
-    background-color: $white;
+    background-color: $white-bis;
     color: $black;
   }
 
   .odometer.odometer-theme-white .odometer-formatting-mark.odometer-radix-mark {
-    color: $white;
+    color: $white-bis;
   }
 
-  .odometer.odometer-theme-white .odometer-inside:before {
-    content: "$";
-    font-family: $theme-font;
+  // .odometer.odometer-theme-white .odometer-inside:before {
+  //   content: "$";
+  //   font-family: $theme-font;
 
-    display: inline-block;
-    vertical-align: sup;
-    // padding-top:20px;
-    // margin-top:40px;
-    font-size: 0.85em;
-    margin-right: 0.2em;
-    color: $white;
-  }
+  //   display: inline-block;
+  //   vertical-align: sup;
+  //   // padding-top:20px;
+  //   // margin-top:40px;
+  //   font-size: 0.85em;
+  //   margin-right: 0.2em;
+  //   color: $white;
+  // }
 
   .links {
     // border-left: solid 2px $grey-darker;

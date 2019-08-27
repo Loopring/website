@@ -2,8 +2,13 @@
 @import "../Variables.scss";
 
 .section-protocol-configuration {
+  ul {
+        margin-left: 0;
+        margin-top: 0;
+  }
   li {
     padding-bottom: 20px;
+    list-style-type: none;
   }
 
   .remark {

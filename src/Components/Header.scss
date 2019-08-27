@@ -1,46 +1,42 @@
 @import "../Variables.scss";
 
-
 .navbar {
-    * {
-        user-select: none;
-    }
+  * {
+    user-select: none;
+  }
 
-    a {
-        text-decoration: none !important;
-        text-transform: uppercase;
-        font-size: 20px !important;
-        display: inline-block;
-    }
+  a {
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-size: 20px !important;
+    display: inline-block;
+  }
 
-    a.hover {
-        text-decoration: none !important;
-    }
+  a.hover {
+    text-decoration: none !important;
+  }
 
-    .pageLink {
-        box-shadow: inset 0 -2px transparent;
-        transition-duration: 0.5s;
-    }
+  .pageLink {
+    box-shadow: inset 0 -2px transparent;
+    transition-duration: 0.5s;
+  }
 
-    .pageLink:hover {
-        box-shadow: inset 0 -2px $black;
-    }
+  .pageLink:hover {
+    box-shadow: inset 0 -2px $black;
+  }
 
+  .navbar-start > .navbar-item:first-child {
+    padding-left: 0 !important;
+  }
 
-    .navbar-start>.navbar-item:first-child {
-        padding-left: 0 !important;
-    }
+  a.navbar-item.active > div.pageLink {
+    box-shadow: inset 0 -2px $black;
+  }
 
-    a.navbar-item.active > div.pageLink {
-      box-shadow: inset 0 -2px $black;
-        }
-
-
-
-    img.logo {
-        height: 28px;
-        padding-right: 10px;
-        opacity: 0.96 !important;
-        margin-top: -5px;
-    }
+  img.logo {
+    height: 28px;
+    padding-right: 10px;
+    opacity: 0.96 !important;
+    margin-top: -5px;
+  }
 }

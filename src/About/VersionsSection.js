@@ -27,30 +27,32 @@ class VersionsSection extends React.Component {
           {/* ---*/}
           <div className="columns is-centered is-multiline">
             <div data-aos="fade-up" className="column is-5 has-text-justify">
-              <p>
-                We started the project in June, 2017, until this date we have
-                released 4 major versions of the Loopring protocol.
-              </p>
-              <h2> </h2>
-              <h2> Loopring 1.0</h2>
-              <p>
-                Loopring 1.0 introduced the <i>Ring-Matching</i> concept — in
-                one trade, up to 12 orders can circularly swap crypto-assets in
-                the form of <i>ring</i>s. This feature is unique and brings the
-                potential for improved price discovery and higher trading
-                volume.
-              </p>
-              <p>
-                Our project name "Loopring" actually comes after this feature.
-              </p>
-              <p>
-                With 1.0, orders are managed and matched off-chain. The
-                protocol's smart contracts verify order signatures, trading
-                prices, and settlement amounts on-chain and perform token
-                transfers for each order accordingly. Because of the off-chain
-                order management and matching, the performance of Loopring 1.0
-                is better than that of EtherDelta and the like.
-              </p>
+              <div className="content">
+                <p>
+                  We started the project in June, 2017, until this date we have
+                  released 4 major versions of the Loopring protocol.
+                </p>
+
+                <h2> Loopring 1.0</h2>
+                <p>
+                  Loopring 1.0 introduced the <i>Ring-Matching</i> concept — in
+                  one trade, up to 12 orders can circularly swap crypto-assets
+                  in the form of <i>ring</i>s. This feature is unique and brings
+                  the potential for improved price discovery and higher trading
+                  volume.
+                </p>
+                <p>
+                  Our project name "Loopring" actually comes after this feature.
+                </p>
+                <p>
+                  With 1.0, orders are managed and matched off-chain. The
+                  protocol's smart contracts verify order signatures, trading
+                  prices, and settlement amounts on-chain and perform token
+                  transfers for each order accordingly. Because of the off-chain
+                  order management and matching, the performance of Loopring 1.0
+                  is better than that of EtherDelta and the like.
+                </p>
+              </div>
             </div>
             <div data-aos="fade-up" className="column is-5 has-text-justify">
               <figure className="image covered is-3by2">

@@ -43,90 +43,101 @@ class ConfigurationSection extends React.Component {
           {/* ---*/}
           <div className="columns is-centered">
             <div className="column is-5">
-              <h2>Global Constants</h2>
-              <div className="remark">
-                <i>
-                  A list of protocol-wise constants that will never be changed.
-                </i>
+              <div className="content">
+                <h2>Global Constants</h2>
+                <div className="remark">
+                  <i>
+                    A list of protocol-wise constants that will never be
+                    changed.
+                  </i>
+                </div>
+                <ul>
+                  {this.state.constants.map((item, idx) => (
+                    <li key={idx}>
+                      <div className="has-leading-thin-arrow">
+                        <span className="name">{item.name}</span>{' '}
+                        <span className="tag">
+                          {item.type}: {item.value}
+                        </span>
+                      </div>
+                      <div className="meaning">{item.meaning}</div>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul>
-                {this.state.constants.map((item, idx) => (
-                  <li key={idx}>
-                    <div className="has-leading-thin-arrow">
-                      <span className="name">{item.name}</span>{' '}
-                      <span className="tag">
-                        {item.type}: {item.value}
-                      </span>
-                    </div>
-                    <div className="meaning">{item.meaning}</div>
-                  </li>
-                ))}
-              </ul>
             </div>
 
             <div className="column is-5">
-              <h2>DEX Settings</h2>
-              <div className="remark">
-                <i>
-                  A list of DEX-wise constants whose values are fixed once the
-                  DEX is forged.
-                </i>
+              <div className="content">
+                <h2>DEX Settings</h2>
+                <div className="remark">
+                  <i>
+                    A list of DEX-wise constants whose values are fixed once the
+                    DEX is forged.
+                  </i>
+                </div>
+                <ul>
+                  {this.state.dexParams.map((item, idx) => (
+                    <li key={idx}>
+                      <div className="has-leading-thin-arrow">
+                        <span className="name">{item.name}</span>{' '}
+                        <span className="tag">
+                          {item.type}: {item.value}
+                        </span>
+                      </div>
+                      <div className="meaning">{item.meaning}</div>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul>
-                {this.state.dexParams.map((item, idx) => (
-                  <li key={idx}>
-                    <div className="has-leading-thin-arrow">
-                      <span className="name">{item.name}</span>{' '}
-                      <span className="tag">
-                        {item.type}: {item.value}
-                      </span>
-                    </div>
-                    <div className="meaning">{item.meaning}</div>
-                  </li>
-                ))}
-              </ul>
-              <h2>DEX On-Chain Parameters</h2>
-              <div className="remark">
-                <i>
-                  A list of DEX-wise smart contract parameters whose values can
-                  only be changed by DEX owners.
-                </i>
+
+              <div className="content">
+                <h2>DEX On-Chain Parameters</h2>
+                <div className="remark">
+                  <i>
+                    A list of DEX-wise smart contract parameters whose values
+                    can only be changed by DEX owners.
+                  </i>
+                </div>
+                <ul>
+                  {this.state.onchainParams.map((item, idx) => (
+                    <li key={idx}>
+                      <div className="has-leading-thin-arrow">
+                        <span className="name">{item.name}</span>{' '}
+                        <span className="tag">
+                          {item.type}: {item.value}
+                        </span>
+                      </div>
+                      <div className="meaning">{item.meaning}</div>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul>
-                {this.state.onchainParams.map((item, idx) => (
-                  <li key={idx}>
-                    <div className="has-leading-thin-arrow">
-                      <span className="name">{item.name}</span>{' '}
-                      <span className="tag">
-                        {item.type}: {item.value}
-                      </span>
-                    </div>
-                    <div className="meaning">{item.meaning}</div>
-                  </li>
-                ))}
-              </ul>
-              <h2>DEX off-Chain Parameters</h2>
-              <div className="remark">
-                <i>
-                  A list of DEX-wise circuit parameters whose values can only be
-                  changed by DEX operators very frequently, e.g. per order
-                  and/or user request.
-                </i>
+
+              <div className="content">
+                <h2>DEX off-Chain Parameters</h2>
+                <div className="remark">
+                  <i>
+                    A list of DEX-wise circuit parameters whose values can only
+                    be changed by DEX operators very frequently, e.g. per order
+                    and/or user request.
+                  </i>
+                </div>
+                .
+                <ul>
+                  {this.state.offchainParams.map((item, idx) => (
+                    <li key={idx}>
+                      <div className="has-leading-thin-arrow">
+                        <span className="name">{item.name}</span>{' '}
+                        <span className="tag">
+                          {item.type}: {item.value}
+                        </span>
+                      </div>
+                      <div className="meaning">{item.meaning}</div>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              .
-              <ul>
-                {this.state.offchainParams.map((item, idx) => (
-                  <li key={idx}>
-                    <div className="has-leading-thin-arrow">
-                      <span className="name">{item.name}</span>{' '}
-                      <span className="tag">
-                        {item.type}: {item.value}
-                      </span>
-                    </div>
-                    <div className="meaning">{item.meaning}</div>
-                  </li>
-                ))}
-              </ul>
             </div>
           </div>
         </div>

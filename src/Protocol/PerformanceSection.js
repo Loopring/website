@@ -46,15 +46,17 @@ class PerformanceSection extends React.Component {
                 data-aos="fade-up"
                 className="column column-explain is-5 is-centered has-text-justify"
               >
-                <p>
-                  Loopring 3.0 can settle up to 350 trades per second while
-                  guarantees the same level of security as the underlying
-                  Ethereum blockchain. This is powered by a zkRollup feature
-                  called <b>On-Chain Data Availability</b>, or <b>OCDA</b>. If
-                  OCDA is disabled, Loopring provides consortium-level security,
-                  and its throughput will be much higher, as shown in the
-                  following table.
-                </p>
+                <div className="content">
+                  <p>
+                    Loopring 3.0 can settle up to 350 trades per second while
+                    guarantees the same level of security as the underlying
+                    Ethereum blockchain. This is powered by a zkRollup feature
+                    called <b>On-Chain Data Availability</b>, or <b>OCDA</b>. If
+                    OCDA is disabled, Loopring provides consortium-level
+                    security, and its throughput will be much higher, as shown
+                    in the following table.
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -144,16 +146,18 @@ class PerformanceSection extends React.Component {
                 data-aos="fade-up"
                 className="column column-explain is-5 is-centered has-text-justify"
               >
-                <p>
-                  The average settlement cost for each trade is as low as{' '}
-                  {this.state.cost}
-                  USD, which covers the gas for Ethereum transactions and the
-                  cost of proof generation on cloud computing platforms. DEXes
-                  can further lower the settlement cost by using cheaper servers
-                  in the cloud and GPU-based algorithms. To put things into
-                  perspective, most brokers' stock trading fees in the US are in
-                  the range of 2 to 7 USD per trade.
-                </p>
+                <div className="content">
+                  <p>
+                    The average settlement cost for each trade is as low as{' '}
+                    {this.state.cost}
+                    USD, which covers the gas for Ethereum transactions and the
+                    cost of proof generation on cloud computing platforms. DEXes
+                    can further lower the settlement cost by using cheaper
+                    servers in the cloud and GPU-based algorithms. To put things
+                    into perspective, most brokers' stock trading fees in the US
+                    are in the range of 2 to 7 USD per trade.
+                  </p>
+                </div>
               </div>
             </div>
 
