@@ -11,7 +11,7 @@ class PerformanceSection extends React.Component {
     super(props, context);
     this.state = {
       throughput: 100,
-      cost: '0.004',
+      cost: '0.002',
     };
     AOS.init();
   }
@@ -21,7 +21,7 @@ class PerformanceSection extends React.Component {
 
   componentDidMount() {
     this.timer = setTimeout((data) => this.setState({throughput: 350}), 50);
-    // this.timer = setTimeout(data => this.setState({ cost: 0.123 }), 1000);
+    // this.timer = setTimeout(data => this.setState({ cost: 0.002 }), 1000);
   }
 
   render() {
@@ -124,7 +124,7 @@ class PerformanceSection extends React.Component {
                 <h1>Cost per Trade</h1>
                 <Odometer
                   theme="white"
-                  format="(,ddd).ddd"
+                  format="(ddd).dddd"
                   value={this.state.cost}
                 />
               </div>
