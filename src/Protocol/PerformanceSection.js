@@ -20,8 +20,8 @@ class PerformanceSection extends React.Component {
   }
 
   componentDidMount() {
-    this.timer = setTimeout((data) => this.setState({throughput: 350}), 50);
-    // this.timer = setTimeout(data => this.setState({ cost: 0.002 }), 1000);
+    setTimeout(() => this.setState({throughput: 350}), 50);
+    // setTimeout(data => this.setState({ cost: 0.002 }), 1000);
   }
 
   render() {

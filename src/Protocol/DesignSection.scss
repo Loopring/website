@@ -3,38 +3,38 @@
 @import "../Variables.scss";
 
 .section-protocol-design {
-    .links {
-        // border-left: solid 2px $grey-darker;
-        // margin-left: -20px;
-        position: relative;
+  .links {
+    // border-left: solid 2px $grey-darker;
+    // margin-left: -20px;
+    position: relative;
 
-        margin-left: 0;
-        margin-top: -8px;
+    margin-left: 0;
+    margin-top: -8px;
 
-        li {
-            list-style-type: none;
-            padding-bottom: 5px;
-        }
-
-        .symboled {
-            font-size: 20px;
-            font-weight: 700;
-        }
+    li {
+      list-style-type: none;
+      padding-bottom: 5px;
     }
 
-    .fixed-label {
-        transform: rotate(-90deg);
-        transform-origin: top right;
-        position: absolute;
-        // min-width: 10rem;
-        right: 3rem;
-        // margin-left:-100px;
-        color: $white;
-        background-color: $black;
-        padding: 0.5rem 2rem;
-        display: inline-block;
-        text-transform: uppercase;
-        font-size: 8px;
-        font-weight: 700;
+    .symboled {
+      font-size: 20px;
+      font-weight: 700;
     }
+  }
+
+  .fixed-label {
+    transform: rotate(-90deg);
+    transform-origin: top right;
+    position: absolute;
+    // min-width: 10rem;
+    right: 3rem;
+    // margin-left:-100px;
+    color: $white;
+    background-color: $black;
+    padding: 0.5rem 2rem;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 700;
+  }
 }
