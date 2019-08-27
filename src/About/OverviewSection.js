@@ -1,27 +1,29 @@
-import React from 'react';
-import './VisionSection.scss';
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
+import React from "react";
+import "./OverviewSection.scss";
+import "../../node_modules/aos/dist/aos.css";
+import AOS from "aos";
 
-class VisionSection extends React.Component {
-  constructor(props, context) {
-    super(props, context);
-    AOS.init();
-  }
-  componentDidUpdate() {
-    AOS.refresh();
-  }
-  render() {
-    return (
-      <section className="section is-large section-about-vision has-background-grey">
+class OverviewSection extends React.Component {
+    constructor(props, context) {
+        super(props, context);
+        AOS.init();
+    }
+    componentDidUpdate() {
+        AOS.refresh();
+    }
+    render() {
+        return (
+            <section className="section is-large section-about-overview has-background-grey">
         <div className="container">
-          <div className="columns is-multiline">
+          <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-12 has-text-centered">
               <h1 className="">Overview</h1>
             </div>
-            <div data-aos="fade-up" className="column is-4">
+            </div>
+            {/*---*/}
+             <div className="columns is-centered is-multiline">
+            <div data-aos="fade-up" className="column is-4 has-text-justify">
               <h2>Loopring's Vision & Objectives</h2>
-              <div className="content">
                 <p>
                   The blockchain technology empowers definite ownership — the
                   ownership of digital assets, and soon the ownership of
@@ -49,7 +51,6 @@ class VisionSection extends React.Component {
                   trading experience. We expect our effort will accelerate the
                   adoption of the blockchain technology and crypto-currencies.
                 </p>
-              </div>
             </div>
             <div data-aos="fade-up" className="column is-8">
               <figure className="image covered is-8by6">
@@ -64,9 +65,8 @@ class VisionSection extends React.Component {
                 />
               </figure>
             </div>
-            <div data-aos="fade-up" className="column is-4">
+            <div data-aos="fade-up" className="column is-4 has-text-justify">
               <h2>Loopring is Secure</h2>
-              <div className="content">
                 <p>
                   The security of user assets is and will remain to be
                   Loopring's first priority. Here at Loopring, we believe it's
@@ -91,9 +91,7 @@ class VisionSection extends React.Component {
                   crypto-trading, being trustless will become the new standard
                   of trustworthiness.
                 </p>
-              </div>
               <h2>The Redemption of Centralized Exchanges</h2>
-              <div className="content">
                 <p>
                   If you have ever run centralized exchanges, you know the
                   stress and fear of being hacked. Loopring ensures that even
@@ -101,11 +99,9 @@ class VisionSection extends React.Component {
                   of Ether that you use as transaction fees (gas). You can
                   always recover from such incidences and resume your business.
                 </p>
-              </div>
             </div>
-            <div data-aos="fade-up" className="column is-4">
+            <div data-aos="fade-up" className="column is-4 has-text-justify">
               <h2>Loopring's Performance</h2>
-              <div className="content">
                 <p>
                   Most DEX protocols suffer terrible performance issues — the
                   throughput is too low while the cost is too high. The
@@ -116,7 +112,7 @@ class VisionSection extends React.Component {
                 <p>
                   We believe the way most other trading protocols use the
                   underlying blockchain is fundamentally wrong. Loopring takes a
-                  different approach known as{' '}
+                  different approach known as{" "}
                   <a
                     className="highlight underline has-trailing-arrow"
                     href="https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477"
@@ -144,13 +140,12 @@ class VisionSection extends React.Component {
                   bots for trading automation. Decentralized exchanges built on
                   top of Loopring 3.0 will soon beat many centralized ones.
                 </p>
-              </div>
             </div>
           </div>
         </div>
       </section>
-    );
-  }
+        );
+    }
 }
 
-export default VisionSection;
+export default OverviewSection;

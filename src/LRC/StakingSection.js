@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import "./StakingSection.scss";
+import './StakingSection.scss';
 
-import "../../node_modules/aos/dist/aos.css";
-import AOS from "aos";
+import '../../node_modules/aos/dist/aos.css';
+import AOS from 'aos';
 
 class StakingSection extends React.Component {
   constructor(props, context) {
@@ -24,7 +24,7 @@ class StakingSection extends React.Component {
               {/* Unlike many other projects, Loopring's utility token LRC is no longer a fee token.*/}
             </div>
           </div>
-
+          {/* ---*/}
           <div className="columns is-centered is-multiline">
             <div
               data-aos="fade-up"
@@ -35,16 +35,13 @@ class StakingSection extends React.Component {
               </div>
             </div>
 
-            <div data-aos="fade-up" className="column  is-4 has-text-left">
-              <div className="content">
-                <h2>1/ Earn Protocol Fees, by Holders</h2>
-                <p>
-                  Every LRC holder can stake LRC to earn part of 70% of the
-                  protocol fees of all exchanges built on top of Loopring — 20%
-                  will fund the Loopring DAO and the remaining 10% will be
-                  burned.
-                </p>
-              </div>
+            <div data-aos="fade-up" className="column is-4  has-text-left">
+              <h2>1/ Earn Protocol Fees, by Holders</h2>
+              <p>
+                Every LRC holder can stake LRC to earn part of 70% of the
+                protocol fees of all exchanges built on top of Loopring — 20%
+                will fund the Loopring DAO and the remaining 10% will be burned.
+              </p>
             </div>
           </div>
           <div className="columns is-centered">
@@ -52,19 +49,15 @@ class StakingSection extends React.Component {
               data-aos="fade-up"
               className="column  is-2 has-text-right has-text-centered-mobile"
             >
-              <div className="content">
-                <div className="category is-unselectable">☐</div>
-              </div>
+              <div className="category is-unselectable">☐</div>
             </div>
 
-            <div data-aos="fade-up" className="column  is-4 has-text-left">
-              <div className="content">
-                <h2>2/ Build up DEX Reputation, by DEX Owners</h2>
-                <p>
-                  An exchange owner needs to stake LRC for economic security and
-                  builing up its reputation.
-                </p>
-              </div>
+            <div data-aos="fade-up" className="column is-4  has-text-left">
+              <h2>2/ Build up DEX Reputation, by DEX Owners</h2>
+              <p>
+                An exchange owner needs to stake LRC for economic security and
+                builing up its reputation.
+              </p>
             </div>
           </div>
           <div className="columns is-centered">
@@ -72,12 +65,10 @@ class StakingSection extends React.Component {
               data-aos="fade-up"
               className="column  is-2 has-text-right has-text-centered-mobile"
             >
-              <div className="content">
-                <div className="category is-unselectable">⟁</div>
-              </div>
+              <div className="category is-unselectable">⟁</div>
             </div>
 
-            <div data-aos="fade-up" className="column  is-4 has-text-left">
+            <div data-aos="fade-up" className="column is-4  has-text-left">
               <div className="content">
                 <h2>3/ Lower Protocol Fees, by DEX Owners</h2>
                 <p>
@@ -93,20 +84,16 @@ class StakingSection extends React.Component {
               data-aos="fade-up"
               className="column  is-2 has-text-right has-text-centered-mobile"
             >
-              <div className="content">
-                <div className="category is-unselectable">∖</div>
-              </div>
+              <div className="category is-unselectable">∖</div>
             </div>
 
-            <div data-aos="fade-up" className="column  is-4 has-text-left">
-              <div className="content">
-                <h2>4/ Lower Protocol Fees, by Traders</h2>
-                <p>
-                  LRC can be staked to lower the protocol fees on a specific
-                  exchange by an exchange owner, market makers and
-                  high-frequency traders.
-                </p>
-              </div>
+            <div data-aos="fade-up" className="column is-4  has-text-left">
+              <h2>4/ Lower Protocol Fees, by Traders</h2>
+              <p>
+                LRC can be staked to lower the protocol fees on a specific
+                exchange by an exchange owner, market makers and high-frequency
+                traders.
+              </p>
             </div>
           </div>
         </div>

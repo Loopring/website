@@ -6,10 +6,11 @@ import Header from '../Components/Header.js';
 import Footer from '../Components/Footer.js';
 
 import HeroSection from './HeroSection.js';
-import VisionSection from './VisionSection.js';
-import HacksSection from './HacksSection.js';
-import MediaSection from './MediaSection.js';
+import OverviewSection from './OverviewSection.js';
 import VersionsSection from './VersionsSection.js';
+import FeaturesSection from './FeaturesSection.js';
+import MediaSection from './MediaSection.js';
+import HacksSection from './HacksSection.js';
 
 class About extends React.Component {
   render() {
@@ -17,8 +18,10 @@ class About extends React.Component {
       <div className="page-about">
         <Header />
         <HeroSection />
-        <VisionSection />
+        <OverviewSection />
         <VersionsSection />
+        <FeaturesSection />
+        {/* <MediaSection />*/}
         <HacksSection />
         <Footer />
       </div>

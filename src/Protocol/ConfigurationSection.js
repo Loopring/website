@@ -33,11 +33,16 @@ class ConfigurationSection extends React.Component {
   render() {
     return (
       <section className="section section-protocol-configuration is-large has-background-grey">
-        <div className="container has-text-centered">
-          <h1>DEX Configuration</h1>
-
+        <div className="container">
           <div className="columns is-centered">
-            <div className="column is-5 has-text-left">
+            <div data-aos="fade-up" className="column is-10 has-text-centered">
+              <h1>DEX Configuration</h1>
+            </div>{' '}
+          </div>
+
+          {/* ---*/}
+          <div className="columns is-centered">
+            <div className="column is-5">
               <h2>Global Constants</h2>
               <div>
                 <i>
@@ -59,7 +64,7 @@ class ConfigurationSection extends React.Component {
               </ul>
             </div>
 
-            <div className="column is-5 has-text-left">
+            <div className="column is-5">
               <h2>DEX Settings</h2>
               <div>
                 <i>

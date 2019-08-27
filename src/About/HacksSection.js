@@ -43,7 +43,7 @@ class HacksSection extends React.Component {
               <h1>Crypto Hacks</h1>
             </div>
           </div>
-
+          {/* ---*/}
           <div className="columns">
             <div
               data-aos="fade-up"
@@ -54,7 +54,7 @@ class HacksSection extends React.Component {
               <div className="total-figure">
                 {this.state.total}{' '}
                 <span className="total-figure-label">
-                  - the crypto-assets hacked from centralized exchanges that
+                  — the crypto-assets hacked from centralized exchanges that
                   belongs to the users, and counting...
                 </span>
               </div>

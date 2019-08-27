@@ -1,0 +1,27 @@
+@charset "utf-8";
+@import "../Variables.scss";
+
+.section-about-features {
+  .deprecated {
+    text-decoration: line-through;
+  }
+
+  .tag {
+    // padding:1rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+    margin-bottom: 0.5rem;
+    background-color: $grey;
+    color: $white;
+    font-weight: 700;
+
+    &.highlight {
+      background-color: $black;
+    }
+
+    &.deprecated {
+      background-color: $grey-lighter;
+      color: $grey-darker;
+    }
+  }
+}
