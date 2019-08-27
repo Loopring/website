@@ -20,15 +20,23 @@ class HacksSection extends React.Component {
   }
 
   componentDidMount() {
-    fetch(API)
-        .then((response) => response.json())
-        .then((data) =>
-          this.setState({total: data.total, stories: data.stories})
-        );
+    this.timer = setTimeout(
+        () =>
+          fetch(API)
+              .then((response) => response.json())
+              .then((data) => {
+                this.setState({total: data.total, stories: data.stories});
+              }),
+        1000
+    );
   }
 
   componentDidUpdate() {
     AOS.refresh();
+  }
+
+  componentWillUnmount() {
+    clearTimeout(this.timer);
   }
 
   render() {
