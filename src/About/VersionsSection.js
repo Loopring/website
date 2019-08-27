@@ -22,11 +22,13 @@ class VersionsSection extends React.Component {
           <div className="container">
             <div className="columns is-centered">
               <div data-aos="fade-up" className="column is-10 has-text-left">
-                <h1>Version History</h1>
+                <div className="content">
+                  <h1>Version History</h1>
+                </div>
               </div>
             </div>
             <div className="columns is-centered is-multiline">
-              <div data-aos="fade-up" className="column  is-5 has-text-left">
+              <div data-aos="fade-up" className="column is-5 has-text-left">
                 <div className="content">
                   <p>
                     We started the project in June, 2017, until this date we
@@ -55,12 +57,12 @@ class VersionsSection extends React.Component {
                   </p>
                 </div>
               </div>
-              <div data-aos="fade-up" className="column  is-5 has-text-left">
+              <div data-aos="fade-up" className="column is-5 has-text-left">
                 <figure className="image covered is-3by2">
                   <img src="https://images.pexels.com/photos/461049/pexels-photo-461049.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" />
                 </figure>
               </div>
-              <div data-aos="fade-up" className="column  is-5 has-text-left">
+              <div data-aos="fade-up" className="column is-5 has-text-left">
                 <div className="content">
                   <h2> Loopring 1.5</h2>
 
