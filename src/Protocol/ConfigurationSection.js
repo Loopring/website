@@ -1,10 +1,10 @@
 import React from 'react';
-import './SectionProtocolParams.scss';
+import './ConfigurationSection.scss';
 import '../../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 const API = './configs.json';
 
-class SectionProtocolParams extends React.Component {
+class ConfigurationSection extends React.Component {
   constructor(props) {
     super(props);
 
@@ -130,4 +130,4 @@ class SectionProtocolParams extends React.Component {
   }
 }
 
-export default SectionProtocolParams;
+export default ConfigurationSection;

@@ -1,9 +1,9 @@
-import React from 'react';
-import './SectionLoopringV30.scss';
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
+import React from "react";
+import "./DesignSection.scss";
+import "../../node_modules/aos/dist/aos.css";
+import AOS from "aos";
 
-class SectionLoopringV30 extends React.Component {
+class DesignSection extends React.Component {
   constructor(props, context) {
     super(props, context);
     AOS.init();
@@ -127,7 +127,7 @@ class SectionLoopringV30 extends React.Component {
                     className="highlight has-leading-thick-arrow highlight"
                     href=""
                   >
-                    Loopring 3.0 smart contracts··············the on-chain part{' '}
+                    Loopring 3.0 smart contracts··············the on-chain part{" "}
                     <span className="symboled">⟁</span>
                   </a>
                 </li>
@@ -163,4 +163,4 @@ class SectionLoopringV30 extends React.Component {
   }
 }
 
-export default SectionLoopringV30;
+export default DesignSection;

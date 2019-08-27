@@ -1,11 +1,11 @@
 import React from 'react';
 
-import './SectionLRCHero.scss';
+import './HeroSection.scss';
 
 import '../../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 
-class SectionLRCHero extends React.Component {
+class HeroSection extends React.Component {
   constructor(props, context) {
     super(props, context);
     AOS.init();
@@ -34,4 +34,4 @@ class SectionLRCHero extends React.Component {
   }
 }
 
-export default SectionLRCHero;
+export default HeroSection;
