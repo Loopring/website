@@ -1,9 +1,9 @@
 import React from "react";
 
-import "./SectionArticles.scss";
+import "./ArticlesSection.scss";
 import Post from "../Components/Post.js";
 
-class SectionArticles extends React.Component {
+class ArticlesSection extends React.Component {
   render() {
     return (
       <section className="section section-articles  has-text-black">
@@ -35,4 +35,4 @@ class SectionArticles extends React.Component {
   }
 }
 
-export default SectionArticles;
+export default ArticlesSection;
