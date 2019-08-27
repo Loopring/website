@@ -35,16 +35,16 @@ class Header extends React.Component {
           <div id="navbarMenu" className="navbar-menu">
             <div className="navbar-start has-text-din">
               <Link className="navbar-item" to="/">
-                About
+                <div className="pageLink">About</div>
               </Link>
               <Link className="navbar-item" to="/protocol">
-                Loopring 3.0
+                <div className="pageLink">Loopring 3.0</div>
               </Link>
               <Link className="navbar-item" to="/lrc">
-                LRC
+                <div className="pageLink">LRC</div>
               </Link>
               <Link className="navbar-item" to="/team">
-                Team
+                <div className="pageLink">Team</div>
               </Link>
 
               {/*        <Link className="navbar-item" to="/updates">
