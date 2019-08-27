@@ -32,7 +32,7 @@ class ConfigurationSection extends React.Component {
 
   render() {
     return (
-      <section className="section protocol-section-params is-large has-background-grey">
+      <section className="section section-protocol-configuration is-large has-background-grey">
         <div className="container has-text-centered">
           <h1>DEX Configuration</h1>
 

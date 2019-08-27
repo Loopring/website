@@ -4,7 +4,7 @@ import './HeroSection.scss';
 class HeroSection extends React.Component {
   render() {
     return (
-      <section className="section section-project-hero is-large">
+      <section className="section section-about-hero is-large">
         <div className="backdrop"></div>
 
         <div className="text">

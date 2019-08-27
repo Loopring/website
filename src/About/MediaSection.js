@@ -1,10 +1,10 @@
-import React from "react";
-import "./MediaSection.scss";
+import React from 'react';
+import './MediaSection.scss';
 
 class MediaSection extends React.Component {
   render() {
     return (
-      <section className="section section-media is-large has-text-black">
+      <section className="section section-about-media is-large has-text-black">
         <div className="container">
           <div className="columns is-mobile is-centered  is-vcentered is-multiline">
             <div className="column  is-narrow">

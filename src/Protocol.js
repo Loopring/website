@@ -15,7 +15,7 @@ import ConfigurationSection from './Protocol/ConfigurationSection.js';
 class Protocol extends React.Component {
   render() {
     return (
-      <div>
+      <div className="page-protocol">
         <Header />
         <PerformanceSection />
         <DesignSection />

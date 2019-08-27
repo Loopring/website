@@ -7,7 +7,7 @@ import Header from './Components/Header.js';
 class NotFound extends React.Component {
   render() {
     return (
-      <div>
+      <div className="page-notfound">
         <Header />
       </div>
     );

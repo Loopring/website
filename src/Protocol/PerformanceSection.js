@@ -27,7 +27,7 @@ class PerformanceSection extends React.Component {
   render() {
     return (
       <div>
-        <section className="section section-throughput is-large  has-background-grey">
+        <section className="section section-protocol-throughput is-large  has-background-grey">
           <div className="container">
             <div className="columns is-centered">
               <div
@@ -114,14 +114,14 @@ class PerformanceSection extends React.Component {
           </div>
         </section>
 
-        <section className="section section-cost is-large has-background-black">
+        <section className="section section-protocol-cost is-large has-background-black">
           <div className="container">
             <div className="columns is-centered">
               <div
                 data-aos="fade-up"
                 className="column is-5  has-text-centered"
               >
-                <h1>Cost per Trade</h1>
+                <h1>Low Settlement Cost</h1>
                 <Odometer
                   theme="white"
                   format="(ddd).dddd"

@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import "./HeroSection.scss";
+import './HeroSection.scss';
 
 class HeroSection extends React.Component {
   render() {
     return (
-      <section className="section section-blog-hero is-large has-background-white has-text-black">
+      <section className="section section-updates-hero is-large has-background-white has-text-black">
         <div className="is-centered is-full">BLOGS</div>
       </section>
     );

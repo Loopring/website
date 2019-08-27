@@ -1,7 +1,7 @@
-import React from "react";
-import "./VisionSection.scss";
-import "../../node_modules/aos/dist/aos.css";
-import AOS from "aos";
+import React from 'react';
+import './VisionSection.scss';
+import '../../node_modules/aos/dist/aos.css';
+import AOS from 'aos';
 
 class VisionSection extends React.Component {
   constructor(props, context) {
@@ -13,7 +13,7 @@ class VisionSection extends React.Component {
   }
   render() {
     return (
-      <section className="section is-large section-overview has-background-grey">
+      <section className="section is-large section-about-vision has-background-grey">
         <div className="container">
           <div className="columns is-multiline">
             <div data-aos="fade-up" className="column is-12 has-text-centered">
@@ -116,7 +116,7 @@ class VisionSection extends React.Component {
                 <p>
                   We believe the way most other trading protocols use the
                   underlying blockchain is fundamentally wrong. Loopring takes a
-                  different approach known as{" "}
+                  different approach known as{' '}
                   <a
                     className="highlight underline has-trailing-arrow"
                     href="https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477"

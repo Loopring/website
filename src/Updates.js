@@ -11,7 +11,7 @@ import ArticlesSection from './Updates/ArticlesSection.js';
 class Updates extends React.Component {
   render() {
     return (
-      <div>
+      <div className="page-updates">
         <Header />
         <SectionUpdatesHero />
         <ArticlesSection />

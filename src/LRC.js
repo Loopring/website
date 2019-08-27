@@ -9,6 +9,7 @@ import Header from './Components/Header.js';
 import Footer from './Components/Footer.js';
 
 import HeroSection from './LRC/HeroSection.js';
+import IconSection from './LRC/IconSection.js';
 import StakingSection from './LRC/StakingSection.js';
 import TokenInfoSection from './LRC/TokenInfoSection.js';
 
@@ -23,28 +24,10 @@ class LRC extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="page-lrc">
         <Header />
         <HeroSection />
-
-        <section className="section section-lrc-icon   has-text-black has-background-white">
-          <div className="container is-centered has-text-centered">
-            <div className="columns is-unselectable is-centered">
-              <div
-                data-aos="fade-up"
-                className="column is-12 has-text-centered"
-              >
-                <figure className="image lrc-logo">
-                  <img
-                    draggable="false"
-                    className="is-rounded"
-                    src="images/lrc.svg"
-                  />
-                </figure>{' '}
-              </div>
-            </div>
-          </div>
-        </section>
+        <IconSection />
 
         <StakingSection />
         <TokenInfoSection />

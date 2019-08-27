@@ -1,8 +1,8 @@
 @charset "utf-8";
 @import "../Variables.scss";
 
-.section-throughput,
-.section-cost {
+.section-protocol-throughput,
+.section-protocol-cost {
   .column-explain p {
     text-align: justify;
   }
@@ -200,7 +200,7 @@
   }
 }
 
-.section-cost {
+.section-protocol-cost {
   table {
     color: $white !important;
     border-bottom: 2px solid $white;
