@@ -6,10 +6,10 @@ import Header from './Header.js';
 import Footer from './Sections/Footer.js';
 
 import HeroSection from './About/HeroSection.js';
-import SectionOverview from './About/SectionOverview.js';
+import VisionSection from './About/VisionSection.js';
 import HacksSection from './About/HacksSection.js';
-import SectionMedia from './About/SectionMedia.js';
-import SectionLoopringHistory from './About/SectionLoopringHistory.js';
+import MediaSection from './About/MediaSection.js';
+import VersionsSection from './About/VersionsSection.js';
 
 class About extends React.Component {
   render() {
@@ -17,8 +17,8 @@ class About extends React.Component {
       <div>
         <Header />
         <HeroSection />
-        <SectionOverview />
-        <SectionLoopringHistory />
+        <VisionSection />
+        <VersionsSection />
         <HacksSection />
 
         <Footer />

@@ -1,9 +1,9 @@
 import React from "react";
-import "./SectionOverview.scss";
+import "./VisionSection.scss";
 import "../../node_modules/aos/dist/aos.css";
 import AOS from "aos";
 
-class SectionOverview extends React.Component {
+class VisionSection extends React.Component {
   constructor(props, context) {
     super(props, context);
     AOS.init();
@@ -153,4 +153,4 @@ class SectionOverview extends React.Component {
   }
 }
 
-export default SectionOverview;
+export default VisionSection;

@@ -1,12 +1,12 @@
 import React from "react";
-import "./SectionLoopringHistory.scss";
+import "./VersionsSection.scss";
 import "../../node_modules/aos/dist/aos.css";
 import AOS from "aos";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRadiationAlt } from "@fortawesome/free-solid-svg-icons";
 
-class SectionLoopringHistory extends React.Component {
+class VersionsSection extends React.Component {
   constructor(props, context) {
     super(props, context);
     AOS.init();
@@ -233,4 +233,4 @@ class SectionLoopringHistory extends React.Component {
   }
 }
 
-export default SectionLoopringHistory;
+export default VersionsSection;
