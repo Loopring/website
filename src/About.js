@@ -7,7 +7,7 @@ import Footer from './Sections/Footer.js';
 
 import HeroSection from './About/HeroSection.js';
 import SectionOverview from './About/SectionOverview.js';
-import SectionHackStory from './About/SectionHackStory.js';
+import HacksSection from './About/HacksSection.js';
 import SectionMedia from './About/SectionMedia.js';
 import SectionLoopringHistory from './About/SectionLoopringHistory.js';
 
@@ -19,7 +19,7 @@ class About extends React.Component {
         <HeroSection />
         <SectionOverview />
         <SectionLoopringHistory />
-        <SectionHackStory />
+        <HacksSection />
 
         <Footer />
       </div>

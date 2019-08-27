@@ -1,5 +1,5 @@
 import React from "react";
-import "./SectionHackStory.scss";
+import "./HacksSection.scss";
 import "../../node_modules/aos/dist/aos.css";
 import AOS from "aos";
 
@@ -8,7 +8,7 @@ import { faRadiationAlt } from "@fortawesome/free-solid-svg-icons";
 
 const API = "./hacks_en.json";
 
-class SectionHackStory extends React.Component {
+class HacksSection extends React.Component {
   constructor(props) {
     super(props);
     this.hackStories = React.createRef();
@@ -107,4 +107,4 @@ class SectionHackStory extends React.Component {
   }
 }
 
-export default SectionHackStory;
+export default HacksSection;
