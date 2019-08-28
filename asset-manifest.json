@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/dong77/website/static/css/main.46fdf49b.chunk.css",
-    "main.js": "/dong77/website/static/js/main.4dd81e9d.chunk.js",
-    "main.js.map": "/dong77/website/static/js/main.4dd81e9d.chunk.js.map",
-    "runtime~main.js": "/dong77/website/static/js/runtime~main.92e656ca.js",
-    "runtime~main.js.map": "/dong77/website/static/js/runtime~main.92e656ca.js.map",
-    "static/css/2.7abef457.chunk.css": "/dong77/website/static/css/2.7abef457.chunk.css",
-    "static/js/2.d77775fd.chunk.js": "/dong77/website/static/js/2.d77775fd.chunk.js",
-    "static/js/2.d77775fd.chunk.js.map": "/dong77/website/static/js/2.d77775fd.chunk.js.map",
-    "index.html": "/dong77/website/index.html",
-    "precache-manifest.7dc94c55d0ad9f493d9b55e5b7ce2f30.js": "/dong77/website/precache-manifest.7dc94c55d0ad9f493d9b55e5b7ce2f30.js",
-    "service-worker.js": "/dong77/website/service-worker.js",
-    "static/css/2.7abef457.chunk.css.map": "/dong77/website/static/css/2.7abef457.chunk.css.map",
-    "static/css/main.46fdf49b.chunk.css.map": "/dong77/website/static/css/main.46fdf49b.chunk.css.map",
-    "static/media/index.scss": "/dong77/website/static/media/363123_2_0.564e5e19.eot"
+    "main.css": "//yesdex.io/static/css/main.78b60700.chunk.css",
+    "main.js": "//yesdex.io/static/js/main.1182a94b.chunk.js",
+    "main.js.map": "//yesdex.io/static/js/main.1182a94b.chunk.js.map",
+    "runtime~main.js": "//yesdex.io/static/js/runtime~main.4fd8ddcc.js",
+    "runtime~main.js.map": "//yesdex.io/static/js/runtime~main.4fd8ddcc.js.map",
+    "static/css/2.7abef457.chunk.css": "//yesdex.io/static/css/2.7abef457.chunk.css",
+    "static/js/2.d77775fd.chunk.js": "//yesdex.io/static/js/2.d77775fd.chunk.js",
+    "static/js/2.d77775fd.chunk.js.map": "//yesdex.io/static/js/2.d77775fd.chunk.js.map",
+    "index.html": "//yesdex.io/index.html",
+    "precache-manifest.211d5dfd32136126da1c9327b9132e50.js": "//yesdex.io/precache-manifest.211d5dfd32136126da1c9327b9132e50.js",
+    "service-worker.js": "//yesdex.io/service-worker.js",
+    "static/css/2.7abef457.chunk.css.map": "//yesdex.io/static/css/2.7abef457.chunk.css.map",
+    "static/css/main.78b60700.chunk.css.map": "//yesdex.io/static/css/main.78b60700.chunk.css.map",
+    "static/media/index.scss": "//yesdex.io/static/media/363123_2_0.564e5e19.eot"
   }
 }
