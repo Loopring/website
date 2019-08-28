@@ -69,7 +69,7 @@ class OverviewSection extends React.Component {
             </div>
             <div data-aos="fade-up" className="column is-4 has-text-justify">
               <div className="content">
-                <h2>Loopring is Secure</h2>
+                <h2>Loopring Protocol is Secure</h2>
                 <p>
                   The security of user assets is and will remain to be
                   Loopring's first priority. Here at Loopring, we believe it's
@@ -106,7 +106,7 @@ class OverviewSection extends React.Component {
             </div>
             <div data-aos="fade-up" className="column is-4 has-text-justify">
               <div className="content">
-                <h2>Loopring's Performance</h2>
+                <h2>Loopring's Remarkable Performant</h2>
                 <p>
                   Most DEX protocols suffer terrible performance issues — the
                   throughput is too low while the cost is too high. The
