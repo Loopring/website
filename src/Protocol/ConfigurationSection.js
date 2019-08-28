@@ -35,7 +35,7 @@ class ConfigurationSection extends React.Component {
       <section className="section section-protocol-configuration is-large has-background-grey">
         <div className="container">
           <div className="columns is-centered">
-            <div data-aos="fade-up" className="column is-10 has-text-centered">
+            <div data-aos="fade-up" className="column is-12 has-text-centered">
               <h1>DEX Configuration</h1>
             </div>{' '}
           </div>

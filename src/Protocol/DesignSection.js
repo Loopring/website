@@ -23,7 +23,7 @@ class DesignSection extends React.Component {
         {/* ---*/}
         <div className="container">
           <div className="columns is-centered">
-            <div data-aos="fade-up" className="column is-10">
+            <div data-aos="fade-up" className="column has-text-centered  is-12">
               <h1>Design</h1>
             </div>
           </div>
@@ -33,7 +33,10 @@ class DesignSection extends React.Component {
             <div data-aos="fade-up" className="column is-5 has-text-justify">
               <div className="content">
                 <h2>
-                  Whitepaper <span className="deprecate">(Deprecated)</span>
+                  Whitepaper{' '}
+                  <span className="deprecate is-unselectable">
+                    (Deprecated)
+                  </span>
                 </h2>
                 <p>
                   There is no better source than our Design Doc for you to learn
