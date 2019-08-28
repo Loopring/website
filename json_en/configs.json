@@ -1,0 +1,198 @@
+{
+    "constants": [
+    {
+        "name": "MAX_PROOF_GENERATION_TIME_IN_SECONDS",
+        "value": "3600 SECOND",
+        "type": "uint32",
+
+        "meaning": "The operator creates a block and submits it on-chain by calling commitBlock. He then has at most MAX_PROOF_GENERATION_TIME_IN_SECONDS seconds to submit a proof for the block using verifyBlock. A proof can be submitted any time between when the block is committed and MAX_PROOF_GENERATION_TIME_IN_SECONDS seconds afterward, verifying a block does not need to be done in the same order as they are committed."
+    },
+    {
+        "name": "MAX_GAP_BETWEEN_FINALIZED_AND_VERIFIED_BLOCKS",
+        "value": "2500",
+        "type": "uint32",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "MAX_OPEN_DEPOSIT_REQUESTS",
+        "value": "1024",
+        "type": "uint16",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "MAX_OPEN_WITHDRAWAL_REQUESTS",
+        "value": "1024",
+        "type": "uint16",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "MAX_AGE_UNFINALIZED_BLOCK_UNTIL_WITHDRAW_MODE",
+        "value": "1 DAY",
+        "type": "uint32",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "MAX_AGE_REQUEST_UNTIL_FORCED",
+        "value": "15 MINUTES",
+        "type": "uint32",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "MAX_AGE_REQUEST_UNTIL_WITHDRAW_MODE",
+        "value": "1 DAY",
+        "type": "uint32",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "MAX_TIME_IN_SHUTDOWN_BASE",
+        "value": "1 DAY",
+        "type": "uint32",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "MAX_TIME_IN_SHUTDOWN_DELTA",
+        "value": "15 SECONDS",
+        "type": "uint32",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "TIMESTAMP_HALF_WINDOW_SIZE_IN_SECONDS",
+        "value": "10 MINUTES",
+        "type": "uint32",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "MAX_NUM_TOKENS",
+        "value": "256",
+        "type": "uint",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "MAX_NUM_ACCOUNTS",
+        "value": "1,048,575",
+        "type": "uint",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "MAX_TIME_TO_DISTRIBUTE_WITHDRAWALS",
+        "value": "2 HOURS",
+        "type": "uint32",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "FEE_BLOCK_FINE_START_TIME",
+        "value": "5 MINUTES",
+        "type": "uint32",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "FEE_BLOCK_FINE_MAX_DURATION",
+        "value": "30 MINUTES",
+        "type": "uint32",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "MIN_GAS_TO_DISTRIBUTE_WITHDRAWALS",
+        "value": "60,000",
+        "type": "uint32",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "MIN_AGE_PROTOCOL_FEES_UNTIL_UPDATED",
+        "value": "1 DAY",
+        "type": "uint32",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "GAS_LIMIT_SEND_TOKENS",
+        "value": "30,000",
+        "type": "uint32",
+        "meaning": "@brecht, please provide a comment."
+    },
+    {
+        "name": "GENESIS_BLOCK_HASH",
+        "value": "0x2b4827daf74c0ab30deb68b1c337dec40579bb3ff45ce9478288e1a2b83a3a01",
+        "meaning": "@brecht, please provide a comment."
+    }],
+    "dexParams": [
+    {
+        "name": "onchainDataAvailability",
+        "value": "",
+        "type": "boolean",
+        "meaning": "True to indicate the DEX will use zkRollup to enable On-Chain Data-Availability. The parameter's value cannot be changed once the DEX is forged."
+    },
+    {
+        "name": "forgeMode",
+        "value": "AUTO_UPGRADABLE",
+        "type": "enum",
+        "meaning": "Indicates how DEX upgradability should be supported. AUTO_UPGRADABLE indicates transparent upgradability. The other options are MANUAL_UPGRADABLE, PROXIED, and NATIVE. Check out our smart contract code for more details. The parameter's value cannot be changed once the DEX is forged."
+    }],
+    "onchainParams": [
+    {
+        "name": "owner",
+        "value": "msg.sender",
+        "type": "address",
+        "meaning": "The owner of the exchange, who can change the operator address and many other on-chain DEX parameters."
+    },
+    {
+        "name": "operator",
+        "value": "msg.sender",
+        "type": "address",
+        "meaning": "The address that can submit and verify blocks. This can be a smart contract address for supporting multiple operators."
+    },
+    {
+        "name": "accountCreationFeeETH",
+        "value": "0",
+        "type": "uint",
+        "meaning": "The amount of Ether charged by the DEX for the creation of a new account. DEXes should change this to non-zero to mitigate sybil attach."
+    },
+    {
+        "name": "accountUpdateFeeETH",
+        "value": "0",
+        "type": "uint",
+        "meaning": "The amount of Ether charged by the DEX for updating an existing account."
+    },
+    {
+        "name": "depositFeeETH",
+        "value": "0",
+        "type": "uint",
+        "meaning": "The amount of Ether charged by the DEX for handling a deposit request."
+    },
+    {
+        "name": "withdrawalFeeETH",
+        "value": "0",
+        "type": "uint",
+        "meaning": "The amount of Ether charged by the DEX for handling a withdrawal request."
+    },
+    {
+        "name": "addressWhitelist",
+        "value": "0x0",
+        "type": "address",
+        "meaning": "The address of an IAddressWhitelist contract to filter addresses that can request account creation. This is the major approach for Looping-based DEXes to implement KYC. IAddressWhitelist is designed such that whitelisting an address does NOT take an Ethereum transaction. The default value 0x0 indicats KYC is disabled by default."
+    }],
+    "offchainParams": [
+    {
+        "name": "orderA_feeBips",
+        "value": "0",
+        "type": "uint6",
+        "meaning": "The fee bips for the taker order to be charged by the DEX. The maximum value is 0.63% in steps of 0.01% (1 bips). If this parameter is non-zero, `orderA_rebateBips` must be zero."
+    },
+    {
+        "name": "orderB_feeBips",
+        "value": "0",
+        "type": "uint6",
+        "meaning": "The fee bips for the maker order to be charged by the DEX. The maximum value is 0.63% in steps of 0.01% (1 bips). If this parameter is non-zero, `orderB_rebateBips` must be zero."
+    },
+    {
+        "name": "orderA_rebateBips",
+        "value": "0",
+        "type": "uint6",
+        "meaning": "The rebate bips for the taker order to receive from the DEX. The maximum value is 0.63% in steps of 0.01% (1 bips). If this parameter is non-zero, `orderA_feeBips` must be zero."
+    },
+    {
+        "name": "orderB_rebateBips",
+        "value": "0",
+        "type": "uint6",
+        "meaning": "The rebate bips for the maker order to receive from the DEX. The maximum value is 0.63% in steps of 0.01% (1 bips). If this parameter is non-zero, `orderB_feeBips` must be zero."
+    }]
+}
