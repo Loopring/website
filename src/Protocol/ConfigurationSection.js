@@ -46,10 +46,7 @@ class ConfigurationSection extends React.Component {
               <div className="content">
                 <h2>Global Constants</h2>
                 <div className="remark">
-                  <i>
-                    A list of protocol-wise constants that will never be
-                    changed.
-                  </i>
+                  A list of protocol-wise constants that will never be changed.
                 </div>
                 <ul>
                   {this.state.constants.map((item, idx) => (
@@ -71,10 +68,8 @@ class ConfigurationSection extends React.Component {
               <div className="content">
                 <h2>DEX Initialization Settings</h2>
                 <div className="remark">
-                  <i>
-                    A list of per-DEX constants whose values are fixed once the
-                    DEX is forged.
-                  </i>
+                  A list of per-DEX constants whose values are fixed once the
+                  DEX is forged.
                 </div>
                 <ul>
                   {this.state.dexParams.map((item, idx) => (
@@ -94,10 +89,8 @@ class ConfigurationSection extends React.Component {
               <div className="content">
                 <h2>DEX On-Chain Parameters</h2>
                 <div className="remark">
-                  <i>
-                    A list of DEX smart contract parameters whose values can
-                    only be changed by the DEX owner.
-                  </i>
+                  A list of DEX smart contract parameters whose values can only
+                  be changed by the DEX owner.
                 </div>
                 <ul>
                   {this.state.onchainParams.map((item, idx) => (
@@ -117,11 +110,10 @@ class ConfigurationSection extends React.Component {
               <div className="content">
                 <h2>DEX off-Chain Parameters</h2>
                 <div className="remark">
-                  <i>
-                    A list of DEX circuit parameters whose values can only be
-                    changed by DEX operators very frequently, e.g. per order,
-                    token, trading-pair, or even per-trade.
-                  </i>
+                  A list of DEX circuit parameters whose values can only be
+                  changed by DEX operators very frequently, e.g. per order,
+                  token, trading-pair, or even per-trade. The maximum values are
+                  0.63% in steps of 0.01% (1 bips)
                 </div>
                 .
                 <ul>

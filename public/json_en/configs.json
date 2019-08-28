@@ -175,24 +175,24 @@
         "name": "orderA_feeBips",
         "value": "0",
         "type": "uint6",
-        "meaning": "The fee bips for the taker order to be charged by the DEX. The maximum value is 0.63% in steps of 0.01% (1 bips). If this parameter is non-zero, `orderA_rebateBips` must be zero."
+        "meaning": "The fee bips for the taker order to be charged by the DEX. If this parameter is non-zero, `orderA_rebateBips` must be zero."
     },
     {
         "name": "orderB_feeBips",
         "value": "0",
         "type": "uint6",
-        "meaning": "The fee bips for the maker order to be charged by the DEX. The maximum value is 0.63% in steps of 0.01% (1 bips). If this parameter is non-zero, `orderB_rebateBips` must be zero."
+        "meaning": "The fee bips for the maker order to be charged by the DEX. If this parameter is non-zero, `orderB_rebateBips` must be zero."
     },
     {
         "name": "orderA_rebateBips",
         "value": "0",
         "type": "uint6",
-        "meaning": "The rebate bips for the taker order to receive from the DEX. The maximum value is 0.63% in steps of 0.01% (1 bips). If this parameter is non-zero, `orderA_feeBips` must be zero."
+        "meaning": "The rebate bips for the taker order to receive from the DEX. If this parameter is non-zero, `orderA_feeBips` must be zero."
     },
     {
         "name": "orderB_rebateBips",
         "value": "0",
         "type": "uint6",
-        "meaning": "The rebate bips for the maker order to receive from the DEX. The maximum value is 0.63% in steps of 0.01% (1 bips). If this parameter is non-zero, `orderB_feeBips` must be zero."
+        "meaning": "The rebate bips for the maker order to receive from the DEX. If this parameter is non-zero, `orderB_feeBips` must be zero."
     }]
 }
