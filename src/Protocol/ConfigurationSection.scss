@@ -13,10 +13,10 @@
 
   .remark {
     margin-bottom: 20px;
-    // margin-left:20px;
     margin-top: -20px;
-    // font-size: 0.8em;
-    color: $grey;
+    background-color: $grey-lighter;
+    padding: 20px;
+    border-left: 2px solid $grey;
   }
 
   .name {
