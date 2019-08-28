@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import {Route, HashRouter} from 'react-router-dom';
 import './index.scss';
 import ScrollToTop from './Components/ScrollToTop';
-import {renderToStaticMarkup} from 'react-dom/server';
-import {withLocalize} from 'react-localize-redux';
 
 import About from './About/About';
 import Protocol from './Protocol/Protocol';
@@ -15,23 +13,13 @@ import Updates from './Updates/Updates';
 import NotFound from './NotFound';
 import * as serviceWorker from './serviceWorker';
 
-import {LocalizeProvider} from 'react-localize-redux';
+import {LocalizeProvider,  setActiveLanguage} from 'react-localize-redux';
+import { withLocalize } from "react-localize-redux";
 
-class Root extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.props.initialize({
-      languages: [
-        {name: 'English', code: 'en'},
-        {name: '中文', code: 'cn'},
-      ],
-      // translation: globalTranslations,
-      options: {renderToStaticMarkup},
-    });
-  }
-
+class App extends React.Component {
   render() {
+
+    setActiveLanguage("cn");
     return (
       <LocalizeProvider>
         <HashRouter>
@@ -50,4 +38,4 @@ class Root extends React.Component {
   }
 }
 
-export default withLocalize(Root);
+export default App;

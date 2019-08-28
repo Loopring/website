@@ -1,16 +1,18 @@
 import React from 'react';
-import './Header.scss';
-
 import {NavLink} from 'react-router-dom';
 
 import {withLocalize} from 'react-localize-redux';
-import translations from './Header.json';
 import {Translate} from 'react-localize-redux';
+import englishTranslation from './Header.en.json';
+import chineseTranslation from './Header.cn.json';
+import I18nComponent from './I18nComponent';
 
-class Header extends React.Component {
+import './Header.scss';
+
+class Header extends I18nComponent {
   constructor(props) {
-    super(props);
-    this.props.addTranslation(translations);
+    super(props, englishTranslation, chineseTranslation);
+
     this.burgerRef = React.createRef();
     this.menuRef = React.createRef();
   }
@@ -86,7 +88,7 @@ class Header extends React.Component {
               onClick={this.onLinkClick.bind(this)}
             >
               <div className="pageLink">
-                <Translate id="menu.team">Team</Translate>
+                <Translate id="team" />
               </div>
             </NavLink>
             {/*   <NavLink
