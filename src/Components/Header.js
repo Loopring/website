@@ -3,12 +3,14 @@ import './Header.scss';
 
 import {NavLink} from 'react-router-dom';
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import {withLocalize} from 'react-localize-redux';
+import translations from './Header.json';
+import {Translate} from 'react-localize-redux';
 
 class Header extends React.Component {
   constructor(props) {
     super(props);
+    this.props.addTranslation(translations);
     this.burgerRef = React.createRef();
     this.menuRef = React.createRef();
   }
@@ -83,7 +85,9 @@ class Header extends React.Component {
               to="/team"
               onClick={this.onLinkClick.bind(this)}
             >
-              <div className="pageLink">Team</div>
+              <div className="pageLink">
+                <Translate id="menu.team">Team</Translate>
+              </div>
             </NavLink>
             {/*   <NavLink
                 activeClassName="active"
@@ -99,4 +103,4 @@ class Header extends React.Component {
   }
 }
 
-export default Header;
+export default withLocalize(Header);

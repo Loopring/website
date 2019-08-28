@@ -12,6 +12,9 @@ import FeaturesSection from './FeaturesSection.js';
 // import MediaSection from './MediaSection.js';
 import HacksSection from './HacksSection.js';
 
+import {renderToStaticMarkup} from 'react-dom/server';
+import {withLocalize} from 'react-localize-redux';
+
 class About extends React.Component {
   render() {
     return (
