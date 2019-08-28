@@ -19,7 +19,9 @@ class Footer extends I18nComponent {
         <div className="content has-text-centered">
           <ul>
             <li>
-              <a href="mailto:foundation@loopring.org">Email</a>
+              <a href="mailto:foundation@loopring.org">
+                <Translate id="email" />
+              </a>
             </li>
             ⭑
             <li>
@@ -27,7 +29,9 @@ class Footer extends I18nComponent {
             </li>
             ⭑
             <li>
-              <a href="https://twitter.com/loopringorg">Twitter</a>
+              <a href="https://twitter.com/loopringorg">
+                <Translate id="twitter" />
+              </a>
             </li>
             ⭑
             <li>
@@ -50,7 +54,9 @@ class Footer extends I18nComponent {
               <a href="https://open.kakao.com/o/gJbSZdF">Kakao</a>
             </li>
           </ul>
-          <p className="has-text-grey">Loopring Project Ltd</p>
+          <p className="has-text-grey">
+            <Translate id="org" />
+          </p>
         </div>
       </footer>
     );
