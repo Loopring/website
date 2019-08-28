@@ -1,0 +1,234 @@
+{
+    "constants": [
+    {
+        "name": "MAX_PROOF_GENERATION_TIME_IN_SECONDS",
+        "value": "3600 SECOND",
+        "type": "unit",
+
+        "meaning": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "name": "MAX_GAP_BETWEEN_FINALIZED_AND_VERIFIED_BLOCKS",
+        "value": "2500",
+         "type": "unit",
+        "meaning": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "name": "MAX_OPEN_DEPOSIT_REQUESTS",
+        "value": "1024",
+         "type": "unit",
+        "meaning": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "name": "MAX_OPEN_WITHDRAWAL_REQUESTS",
+        "value": "1024",
+         "type": "unit",
+        "meaning": ""
+    },
+    {
+        "name": "MAX_AGE_UNFINALIZED_BLOCK_UNTIL_WITHDRAW_MODE",
+        "value": "1 DAY",
+         "type": "unit",
+        "meaning": ""
+    },
+    {
+        "name": "MAX_AGE_REQUEST_UNTIL_FORCED",
+        "value": "15 MINUTES",
+         "type": "unit",
+        "meaning": ""
+    },
+    {
+        "name": "MAX_AGE_REQUEST_UNTIL_WITHDRAW_MODE",
+        "value": "1 DAY",
+         "type": "unit",
+        "meaning": ""
+    },
+    {
+        "name": "MAX_TIME_IN_SHUTDOWN_BASE",
+        "value": "1 DAY",
+        "meaning": ""
+    },
+    {
+        "name": "MAX_TIME_IN_SHUTDOWN_DELTA",
+        "value": "15 SECONDS",
+        "meaning": ""
+    },
+    {
+        "name": "TIMESTAMP_HALF_WINDOW_SIZE_IN_SECONDS",
+        "value": "10 MINUTES",
+        "meaning": ""
+    },
+    {
+        "name": "MAX_NUM_TOKENS",
+        "value": "256",
+        "meaning": ""
+    },
+    {
+        "name": "MAX_NUM_ACCOUNTS",
+        "value": "1,048,575",
+        "meaning": ""
+    },
+    {
+        "name": "MAX_TIME_TO_DISTRIBUTE_WITHDRAWALS",
+        "value": "2 HOURS",
+        "meaning": ""
+    },
+    {
+        "name": "FEE_BLOCK_FINE_START_TIME",
+        "value": "5 MINUTES",
+        "meaning": ""
+    },
+    {
+        "name": "FEE_BLOCK_FINE_MAX_DURATION",
+        "value": "30 MINUTES",
+        "meaning": ""
+    },
+    {
+        "name": "MIN_GAS_TO_DISTRIBUTE_WITHDRAWALS",
+        "value": "60,000",
+        "meaning": ""
+    },
+    {
+        "name": "MIN_AGE_PROTOCOL_FEES_UNTIL_UPDATED",
+        "value": "1 DAY",
+        "meaning": ""
+    },
+    {
+        "name": "GAS_LIMIT_SEND_TOKENS",
+        "value": "30,000",
+        "meaning": ""
+    },
+    {
+        "name": "GENESIS_BLOCK_HASH",
+        "value": "0x2b4827daf74c0ab30deb68b1c337dec40579bb3ff45ce9478288e1a2b83a3a01",
+        "meaning": ""
+    }],
+    "dexParams": [
+    {
+        "name": "onchainDataAvailability",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "forgeMode",
+        "value": "",
+        "meaning": ""
+    }],
+    "onchainParams": [
+    {
+        "name": "owner",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "operator",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "accountCreationFeeETH",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "accountUpdateFeeETH",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "depositFeeETH",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "withdrawalFeeETH",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "addressWhitelist",
+        "value": "",
+        "meaning": ""
+    }],
+    "offchainParams": [
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    },
+    {
+        "name": "",
+        "value": "",
+        "meaning": ""
+    }]
+}

@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/dong77/website/static/css/main.4cbb1d21.chunk.css",
-    "main.js": "/dong77/website/static/js/main.67a88f7c.chunk.js",
-    "main.js.map": "/dong77/website/static/js/main.67a88f7c.chunk.js.map",
-    "runtime~main.js": "/dong77/website/static/js/runtime~main.92e656ca.js",
-    "runtime~main.js.map": "/dong77/website/static/js/runtime~main.92e656ca.js.map",
-    "static/css/2.ef420f18.chunk.css": "/dong77/website/static/css/2.ef420f18.chunk.css",
-    "static/js/2.ea17497f.chunk.js": "/dong77/website/static/js/2.ea17497f.chunk.js",
-    "static/js/2.ea17497f.chunk.js.map": "/dong77/website/static/js/2.ea17497f.chunk.js.map",
-    "index.html": "/dong77/website/index.html",
-    "precache-manifest.0daf1c12a5a661837f0c3e4d2a47a44e.js": "/dong77/website/precache-manifest.0daf1c12a5a661837f0c3e4d2a47a44e.js",
-    "service-worker.js": "/dong77/website/service-worker.js",
-    "static/css/2.ef420f18.chunk.css.map": "/dong77/website/static/css/2.ef420f18.chunk.css.map",
-    "static/css/main.4cbb1d21.chunk.css.map": "/dong77/website/static/css/main.4cbb1d21.chunk.css.map"
+    "main.css": "publc/static/css/main.d88adf70.chunk.css",
+    "main.js": "publc/static/js/main.96e39507.chunk.js",
+    "main.js.map": "publc/static/js/main.96e39507.chunk.js.map",
+    "runtime~main.js": "publc/static/js/runtime~main.bc33aa12.js",
+    "runtime~main.js.map": "publc/static/js/runtime~main.bc33aa12.js.map",
+    "static/css/2.7abef457.chunk.css": "publc/static/css/2.7abef457.chunk.css",
+    "static/js/2.d77775fd.chunk.js": "publc/static/js/2.d77775fd.chunk.js",
+    "static/js/2.d77775fd.chunk.js.map": "publc/static/js/2.d77775fd.chunk.js.map",
+    "index.html": "publc/index.html",
+    "precache-manifest.20a48515d5a48011c08d6516a43c0d28.js": "publc/precache-manifest.20a48515d5a48011c08d6516a43c0d28.js",
+    "service-worker.js": "publc/service-worker.js",
+    "static/css/2.7abef457.chunk.css.map": "publc/static/css/2.7abef457.chunk.css.map",
+    "static/css/main.d88adf70.chunk.css.map": "publc/static/css/main.d88adf70.chunk.css.map",
+    "static/media/index.scss": "publc/static/media/363123_2_0.564e5e19.eot"
   }
 }
