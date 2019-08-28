@@ -69,10 +69,10 @@ class ConfigurationSection extends React.Component {
 
             <div data-aos="fade-up" className="column is-5">
               <div className="content">
-                <h2>DEX Settings</h2>
+                <h2>DEX Initialization Settings</h2>
                 <div className="remark">
                   <i>
-                    A list of DEX-wise constants whose values are fixed once the
+                    A list of per-DEX constants whose values are fixed once the
                     DEX is forged.
                   </i>
                 </div>
@@ -95,8 +95,8 @@ class ConfigurationSection extends React.Component {
                 <h2>DEX On-Chain Parameters</h2>
                 <div className="remark">
                   <i>
-                    A list of DEX-wise smart contract parameters whose values
-                    can only be changed by DEX owners.
+                    A list of DEX smart contract parameters whose values can
+                    only be changed by the DEX owner.
                   </i>
                 </div>
                 <ul>
@@ -118,9 +118,9 @@ class ConfigurationSection extends React.Component {
                 <h2>DEX off-Chain Parameters</h2>
                 <div className="remark">
                   <i>
-                    A list of DEX-wise circuit parameters whose values can only
-                    be changed by DEX operators very frequently, e.g. per order
-                    and/or user request.
+                    A list of DEX circuit parameters whose values can only be
+                    changed by DEX operators very frequently, e.g. per order,
+                    token, trading-pair, or even per-trade.
                   </i>
                 </div>
                 .
