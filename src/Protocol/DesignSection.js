@@ -3,6 +3,9 @@ import './DesignSection.scss';
 import '../../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 
+// import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+// import {faFileAlt} from '@fortawesome/free-solid-svg-icons';
+
 class DesignSection extends React.Component {
   constructor(props, context) {
     super(props, context);
@@ -41,6 +44,7 @@ class DesignSection extends React.Component {
                   There is no better source than our Design Doc for you to learn
                   about all the ideas behind Loopring 3.0.
                 </p>
+                {/* <FontAwesomeIcon icon={faFileAlt} size="5x" />*/}
                 <p>
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                   Aenean commodo ligula eget dolor. Aenean massa. Cum sociis

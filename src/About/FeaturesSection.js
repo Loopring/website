@@ -3,9 +3,6 @@ import './FeaturesSection.scss';
 import '../../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
-
 class FeaturesSection extends React.Component {
   constructor(props, context) {
     super(props, context);
