@@ -5,7 +5,7 @@ import './TokenInfoSection.scss';
 import '../../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 
-const API = './lrc_info.json';
+const API = './json/lrc_info.json';
 
 class TokenInfoSection extends React.Component {
   constructor(props, context) {

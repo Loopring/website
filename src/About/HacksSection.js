@@ -6,7 +6,7 @@ import AOS from 'aos';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
 
-const API = './hacks_en.json';
+const API = './json/hacks_en.json';
 
 class HacksSection extends React.Component {
   constructor(props) {

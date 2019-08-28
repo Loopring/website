@@ -2,7 +2,7 @@ import React from 'react';
 import './ConfigurationSection.scss';
 import '../../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
-const API = './configs.json';
+const API = './json/configs.json';
 
 class ConfigurationSection extends React.Component {
   constructor(props) {
