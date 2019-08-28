@@ -13,9 +13,14 @@ class Header extends React.Component {
     this.menuRef = React.createRef();
   }
 
-  onClick(e) {
+  onBurgerClick(e) {
     this.burgerRef.current.classList.toggle('is-active');
     this.menuRef.current.classList.toggle('is-active');
+  }
+
+  onLinkClick(e) {
+    this.burgerRef.current.classList.remove('is-active');
+    this.menuRef.current.classList.remove('is-active');
   }
   render() {
     return (
@@ -36,7 +41,7 @@ class Header extends React.Component {
             aria-label="menu"
             aria-expanded="false"
             data-target="navbarBasicExample"
-            onClick={this.onClick.bind(this)}
+            onClick={this.onBurgerClick.bind(this)}
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -52,6 +57,7 @@ class Header extends React.Component {
               activeClassName="active"
               className="navbar-item"
               to="/"
+              onClick={this.onLinkClick.bind(this)}
             >
               <div className="pageLink">About</div>
             </NavLink>
@@ -59,16 +65,23 @@ class Header extends React.Component {
               activeClassName="active"
               className="navbar-item"
               to="/protocol"
+              onClick={this.onLinkClick.bind(this)}
             >
               <div className="pageLink">Loopring 3.0</div>
             </NavLink>
-            <NavLink activeClassName="active" className="navbar-item" to="/lrc">
+            <NavLink
+              activeClassName="active"
+              className="navbar-item"
+              to="/lrc"
+              onClick={this.onLinkClick.bind(this)}
+            >
               <div className="pageLink">LRC</div>
             </NavLink>
             <NavLink
               activeClassName="active"
               className="navbar-item"
               to="/team"
+              onClick={this.onLinkClick.bind(this)}
             >
               <div className="pageLink">Team</div>
             </NavLink>
