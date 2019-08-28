@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "//yesdex.io/static/css/main.78b60700.chunk.css",
-    "main.js": "//yesdex.io/static/js/main.1182a94b.chunk.js",
-    "main.js.map": "//yesdex.io/static/js/main.1182a94b.chunk.js.map",
-    "runtime~main.js": "//yesdex.io/static/js/runtime~main.4fd8ddcc.js",
-    "runtime~main.js.map": "//yesdex.io/static/js/runtime~main.4fd8ddcc.js.map",
-    "static/css/2.7abef457.chunk.css": "//yesdex.io/static/css/2.7abef457.chunk.css",
-    "static/js/2.d77775fd.chunk.js": "//yesdex.io/static/js/2.d77775fd.chunk.js",
-    "static/js/2.d77775fd.chunk.js.map": "//yesdex.io/static/js/2.d77775fd.chunk.js.map",
-    "index.html": "//yesdex.io/index.html",
-    "precache-manifest.211d5dfd32136126da1c9327b9132e50.js": "//yesdex.io/precache-manifest.211d5dfd32136126da1c9327b9132e50.js",
-    "service-worker.js": "//yesdex.io/service-worker.js",
-    "static/css/2.7abef457.chunk.css.map": "//yesdex.io/static/css/2.7abef457.chunk.css.map",
-    "static/css/main.78b60700.chunk.css.map": "//yesdex.io/static/css/main.78b60700.chunk.css.map",
-    "static/media/index.scss": "//yesdex.io/static/media/363123_2_0.564e5e19.eot"
+    "main.css": "//beta.loopring.org/static/css/main.371490d6.chunk.css",
+    "main.js": "//beta.loopring.org/static/js/main.41ee00f7.chunk.js",
+    "main.js.map": "//beta.loopring.org/static/js/main.41ee00f7.chunk.js.map",
+    "runtime~main.js": "//beta.loopring.org/static/js/runtime~main.7216f7c8.js",
+    "runtime~main.js.map": "//beta.loopring.org/static/js/runtime~main.7216f7c8.js.map",
+    "static/css/2.7abef457.chunk.css": "//beta.loopring.org/static/css/2.7abef457.chunk.css",
+    "static/js/2.d77775fd.chunk.js": "//beta.loopring.org/static/js/2.d77775fd.chunk.js",
+    "static/js/2.d77775fd.chunk.js.map": "//beta.loopring.org/static/js/2.d77775fd.chunk.js.map",
+    "index.html": "//beta.loopring.org/index.html",
+    "precache-manifest.ee4c140c9a0ad3ba2bf07084482fd1f6.js": "//beta.loopring.org/precache-manifest.ee4c140c9a0ad3ba2bf07084482fd1f6.js",
+    "service-worker.js": "//beta.loopring.org/service-worker.js",
+    "static/css/2.7abef457.chunk.css.map": "//beta.loopring.org/static/css/2.7abef457.chunk.css.map",
+    "static/css/main.371490d6.chunk.css.map": "//beta.loopring.org/static/css/main.371490d6.chunk.css.map",
+    "static/media/index.scss": "//beta.loopring.org/static/media/363123_2_0.564e5e19.eot"
   }
 }
