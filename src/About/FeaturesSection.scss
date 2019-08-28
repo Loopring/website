@@ -24,4 +24,10 @@
       color: $grey-darker;
     }
   }
+
+  .column-features {
+    @include mobile {
+      padding-left: 20px;
+    }
+  }
 }

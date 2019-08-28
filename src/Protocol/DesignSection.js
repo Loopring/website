@@ -3,6 +3,9 @@ import './DesignSection.scss';
 import '../../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 
+// import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+// import {faFileAlt} from '@fortawesome/free-solid-svg-icons';
+
 class DesignSection extends React.Component {
   constructor(props, context) {
     super(props, context);
@@ -20,7 +23,7 @@ class DesignSection extends React.Component {
         {/* ---*/}
         <div className="container">
           <div className="columns is-centered">
-            <div data-aos="fade-up" className="column is-10">
+            <div data-aos="fade-up" className="column has-text-centered  is-12">
               <h1>Design</h1>
             </div>
           </div>
@@ -30,7 +33,10 @@ class DesignSection extends React.Component {
             <div data-aos="fade-up" className="column is-5 has-text-justify">
               <div className="content">
                 <h2>
-                  Whitepaper <span className="deprecate">(Deprecated)</span>
+                  Whitepaper{' '}
+                  <span className="deprecate is-unselectable">
+                    (Deprecated)
+                  </span>
                 </h2>
                 <p>
                   There is no better source than our Design Doc for you to learn
@@ -41,6 +47,7 @@ class DesignSection extends React.Component {
                   There is no better source than our Design Doc for you to learn
                   about all the ideas behind Loopring 3.0.
                 </p>
+                {/* <FontAwesomeIcon icon={faFileAlt} size="5x" />*/}
                 <p>
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                   Aenean commodo ligula eget dolor. Aenean massa. Cum sociis

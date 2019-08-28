@@ -3,8 +3,10 @@
 
 .section-about-versions {
   .version30 {
-    box-shadow: 10px 10px $grey;
-    margin-top: 100px;
-    padding: 60px;
+    @include desktop {
+      box-shadow: 10px 10px $grey;
+      margin-top: 100px;
+      padding: 60px;
+    }
   }
 }
