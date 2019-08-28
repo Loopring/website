@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Route, BrowserRouter as Router} from 'react-router-dom';
+import {Route, HashRouter} from 'react-router-dom';
 import './index.scss';
 import ScrollToTop from './Components/ScrollToTop';
 
@@ -14,7 +14,7 @@ import NotFound from './NotFound';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
-  <Router>
+  <HashRouter>
     <ScrollToTop>
       <Route path="/" exact component={About} />
       <Route path="/protocol" component={Protocol} />
@@ -24,7 +24,7 @@ const routing = (
       {/* <Route path="/blog" component={BlogPage} />*/}
       <Route component={NotFound} />
     </ScrollToTop>
-  </Router>
+  </HashRouter>
 );
 
 console.log('public url: ', process.env.PUBLIC_URL);
