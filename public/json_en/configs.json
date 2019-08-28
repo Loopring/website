@@ -116,13 +116,13 @@
     }],
     "dexParams": [
     {
-        "name": "onchainDataAvailability",
+        "name": "on_chain_Data_Availability",
         "value": "",
         "type": "boolean",
         "meaning": "True to indicate the DEX will use zkRollup to enable On-Chain Data-Availability. The parameter's value cannot be changed once the DEX is forged."
     },
     {
-        "name": "forgeMode",
+        "name": "forge_Mode",
         "value": "AUTO_UPGRADABLE",
         "type": "enum",
         "meaning": "Indicates how DEX upgradability should be supported. AUTO_UPGRADABLE indicates transparent upgradability. The other options are MANUAL_UPGRADABLE, PROXIED, and NATIVE. Check out our smart contract code for more details. The parameter's value cannot be changed once the DEX is forged."
@@ -141,58 +141,58 @@
         "meaning": "The address that can submit and verify blocks. This can be a smart contract address for supporting multiple operators."
     },
     {
-        "name": "accountCreationFeeETH",
+        "name": "account_Creation_Fee_ETH",
         "value": "0",
         "type": "uint",
         "meaning": "The amount of Ether charged by the DEX for the creation of a new account. DEXes should change this to non-zero to mitigate sybil attach."
     },
     {
-        "name": "accountUpdateFeeETH",
+        "name": "account_Update_Fee_ETH",
         "value": "0",
         "type": "uint",
         "meaning": "The amount of Ether charged by the DEX for updating an existing account."
     },
     {
-        "name": "depositFeeETH",
+        "name": "deposit_Fee_ETH",
         "value": "0",
         "type": "uint",
         "meaning": "The amount of Ether charged by the DEX for handling a deposit request."
     },
     {
-        "name": "withdrawalFeeETH",
+        "name": "withdrawal_Fee_ETH",
         "value": "0",
         "type": "uint",
         "meaning": "The amount of Ether charged by the DEX for handling a withdrawal request."
     },
     {
-        "name": "addressWhitelist",
+        "name": "address_Whitelist",
         "value": "0x0",
         "type": "address",
         "meaning": "The address of an IAddressWhitelist contract to filter addresses that can request account creation. This is the major approach for Looping-based DEXes to implement KYC. IAddressWhitelist is designed such that whitelisting an address does NOT take an Ethereum transaction. The default value 0x0 indicats KYC is disabled by default."
     }],
     "offchainParams": [
     {
-        "name": "orderA_feeBips",
+        "name": "ORDER_A_FEE_BIPS",
         "value": "0",
         "type": "uint6",
-        "meaning": "The fee bips for the taker order to be charged by the DEX. If this parameter is non-zero, `orderA_rebateBips` must be zero."
+        "meaning": "The fee bips for the taker order to be charged by the DEX. If this parameter is non-zero, ORDER_A_REBATE_BIPS must be zero."
     },
     {
-        "name": "orderB_feeBips",
+        "name": "ORDER_B_FEE_BIPS",
         "value": "0",
         "type": "uint6",
-        "meaning": "The fee bips for the maker order to be charged by the DEX. If this parameter is non-zero, `orderB_rebateBips` must be zero."
+        "meaning": "The fee bips for the maker order to be charged by the DEX. If this parameter is non-zero, ORDER_B_REBATE_BIPS must be zero."
     },
     {
-        "name": "orderA_rebateBips",
+        "name": "ORDER_A_REBATE_BIPS",
         "value": "0",
         "type": "uint6",
-        "meaning": "The rebate bips for the taker order to receive from the DEX. If this parameter is non-zero, `orderA_feeBips` must be zero."
+        "meaning": "The rebate bips for the taker order to receive from the DEX. If this parameter is non-zero, ORDER_A_FEE_BIPS must be zero."
     },
     {
-        "name": "orderB_rebateBips",
+        "name": "ORDER_B_REBATE_BIPS",
         "value": "0",
         "type": "uint6",
-        "meaning": "The rebate bips for the maker order to receive from the DEX. If this parameter is non-zero, `orderB_feeBips` must be zero."
+        "meaning": "The rebate bips for the maker order to receive from the DEX. If this parameter is non-zero, ORDER_B_FEE_BIPS must be zero."
     }]
 }
