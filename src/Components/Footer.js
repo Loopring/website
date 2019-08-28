@@ -1,9 +1,16 @@
 import React from 'react';
+
+import {withLocalize} from 'react-localize-redux';
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './Footer.en.json';
+import chineseTranslation from './Footer.cn.json';
+import I18nComponent from './I18nComponent';
+
 import './Footer.scss';
 
-class Footer extends React.Component {
+class Footer extends I18nComponent {
   constructor(props) {
-    super(props);
+    super(props, englishTranslation, chineseTranslation);
   }
 
   render() {
@@ -50,4 +57,4 @@ class Footer extends React.Component {
   }
 }
 
-export default Footer;
+export default withLocalize(Footer);

@@ -63,7 +63,9 @@ class Header extends I18nComponent {
               to="/"
               onClick={this.onLinkClick.bind(this)}
             >
-              <div className="pageLink">About</div>
+              <div className="pageLink">
+                <Translate id="about" />
+              </div>
             </NavLink>
             <NavLink
               activeClassName="active"
@@ -71,7 +73,9 @@ class Header extends I18nComponent {
               to="/protocol"
               onClick={this.onLinkClick.bind(this)}
             >
-              <div className="pageLink">Loopring 3.0</div>
+              <div className="pageLink">
+                <Translate id="loopring30" />
+              </div>
             </NavLink>
             <NavLink
               activeClassName="active"
@@ -79,7 +83,9 @@ class Header extends I18nComponent {
               to="/lrc"
               onClick={this.onLinkClick.bind(this)}
             >
-              <div className="pageLink">LRC</div>
+              <div className="pageLink">
+                <Translate id="lrc" />
+              </div>
             </NavLink>
             <NavLink
               activeClassName="active"
