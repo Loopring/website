@@ -2,21 +2,41 @@
 @import "../Variables.scss";
 
 .footer {
-  * {
-    user-select: none;
-  }
-  // border-top: 1px solid $grey-lighter;
-  background-color: white;
-
-  a {
-    text-decoration: none;
-    box-shadow: inset 0 -2px transparent;
-    transition-duration: 0.5s;
-    display: inline-block;
-    margin: 10px;
-
-    &:hover {
-      box-shadow: inset 0 -2px $black;
+    * {
+        user-select: none;
     }
-  }
+
+    ul {
+        list-style-type: none;
+
+        padding: 0;
+        margin: 0;
+
+        li {
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+
+            @include mobile {
+                display: block;
+            }
+        }
+
+
+    }
+
+    // border-top: 1px solid $grey-lighter;
+    background-color: white;
+
+    a {
+        text-decoration: none;
+        box-shadow: inset 0 -2px transparent;
+        transition-duration: 0.5s;
+        display: inline-block;
+        margin: 10px;
+
+        &:hover {
+            box-shadow: inset 0 -2px $black;
+        }
+    }
 }

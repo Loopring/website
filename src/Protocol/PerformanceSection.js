@@ -32,7 +32,7 @@ class PerformanceSection extends React.Component {
             <div className="columns is-centered">
               <div
                 data-aos="fade-up"
-                className="column is-10  has-text-centered"
+                className="column is-12 is-centered has-text-centered"
               >
                 <h1>Remarkable Throughput</h1>
                 <Odometer value={this.state.throughput} format="(,ddd)" />
@@ -70,8 +70,14 @@ class PerformanceSection extends React.Component {
                   <thead>
                     <tr>
                       <th className="first"></th>
-                      <th>Throughput with OCDA</th>
-                      <th>Throughput without OCDA</th>
+                      <th>
+                        Throughput
+                        <br /> with OCDA
+                      </th>
+                      <th>
+                        Throughput
+                        <br /> without OCDA
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
@@ -85,7 +91,7 @@ class PerformanceSection extends React.Component {
                       </td>
                     </tr>
                     <tr>
-                      <td className="first">Post-Istanbul Fork</td>
+                      <td className="first">Post-Istanbul</td>
                       <td>
                         <span className="highlighted">1,400</span>
                       </td>
@@ -130,7 +136,7 @@ class PerformanceSection extends React.Component {
             <div className="columns is-centered">
               <div
                 data-aos="fade-up"
-                className="column is-10  has-text-centered"
+                className="column is-12 is-centered has-text-centered"
               >
                 <h1>Low Settlement Cost</h1>
                 <Odometer
@@ -182,7 +188,7 @@ class PerformanceSection extends React.Component {
                       </td>
                     </tr>
                     <tr>
-                      <td className="first">Post-Istanbul Fork</td>
+                      <td className="first">Post-Istanbul</td>
                       <td>
                         <span className="">${this.state.cost - 0.0005}</span>
                       </td>

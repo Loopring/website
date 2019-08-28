@@ -55,7 +55,7 @@ class HacksSection extends React.Component {
           <div className="columns">
             <div
               data-aos="fade-up"
-              className="column is-3 is-12-mobile has-text-left"
+              className="column is-3 is-12-mobile has-text-left has-text-centered-mobile"
             >
               <FontAwesomeIcon icon={faRadiationAlt} size="5x" />
 
@@ -81,7 +81,7 @@ class HacksSection extends React.Component {
                   </div>
                   <div
                     data-aos="fade-up"
-                    className="column is-5 is-12-mobile has-text-justified "
+                    className="column is-6 is-12-mobile has-text-justified "
                   >
                     <a
                       target="_blank"

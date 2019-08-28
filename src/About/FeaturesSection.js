@@ -32,7 +32,7 @@ class FeaturesSection extends React.Component {
               </span>{' '}
               ······
             </div>
-            <div data-aos="fade-up" className="column is-6">
+            <div data-aos="fade-up" className="column column-features is-6">
               <span className="tag highlight">Ring-Matching</span>
               <span className="tag highlight">Order-Sharing</span>
               <span className="tag highlight">Non-Custodial</span>
@@ -44,7 +44,7 @@ class FeaturesSection extends React.Component {
               </span>{' '}
               ······
             </div>
-            <div data-aos="fade-up" className="column is-6">
+            <div data-aos="fade-up" className="column column-features is-6">
               <span className="tag">Ring-Matching</span>
               <span className="tag ">Order-Sharing</span>
               <span className="tag">Non-Custodial</span>
@@ -57,7 +57,7 @@ class FeaturesSection extends React.Component {
               </span>{' '}
               ······
             </div>
-            <div data-aos="fade-up" className="column is-6">
+            <div data-aos="fade-up" className="column column-features is-6">
               <span className="tag">Ring-Matching</span>
               <span className="tag">Order-Sharing</span>
               <span className="tag">Non-Custodial</span>
@@ -70,7 +70,7 @@ class FeaturesSection extends React.Component {
               <span className="has-leading-thick-arrow">Loopring 3.0</span>{' '}
               ···························
             </div>
-            <div data-aos="fade-up" className="column is-6">
+            <div data-aos="fade-up" className="column column-features is-6">
               <span className="tag deprecated">Ring-Matching</span>
               <span className="tag deprecated">Order-Sharing</span>
               <span className="tag deprecated">Non-Custodial</span>

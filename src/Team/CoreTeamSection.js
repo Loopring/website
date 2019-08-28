@@ -20,7 +20,6 @@ class CoreTeamSection extends React.Component {
               data-aos="fade-up"
               className="column is-5 has-text-centered has-text-right-tablet"
             >
-              {' '}
               <h1>Core Team</h1>
             </div>
             <div data-aos="fade-up" className="column is-7">

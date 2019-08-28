@@ -10,9 +10,20 @@
     background-color: transparent;
     color: $black;
     border-bottom: 2px solid $grey-darker;
+
+    br {
+      display: none;
+      @include mobile {
+        display: inline-block;
+      }
+    }
   }
 
   td {
+    padding-left:0;
+    padding-right:0;
+    margin-right:0;
+    margin-left:0;
     // border: none;
     font-size: $body-size !important;
     white-space: nowrap;
@@ -45,6 +56,13 @@
     *zoom: 1;
     *display: inline;
     position: relative;
+    white-space: nowrap;
+
+
+
+    @include mobile {
+      transform: scale(0.65);
+    }
   }
 
   .odometer-formatting-mark.odometer-radix-mark {
@@ -162,9 +180,15 @@
     left: 0.15em;
   }
 
+    .odometer.odometer-theme-white {
+    padding-right:8px;
+
+  }
+
   .odometer.odometer-theme-white .odometer-digit {
     background-color: $white-bis;
     color: $black;
+
   }
 
   .odometer.odometer-theme-white .odometer-formatting-mark.odometer-radix-mark {
