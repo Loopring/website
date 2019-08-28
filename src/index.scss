@@ -34,7 +34,7 @@
 @import "../node_modules/bulma/sass/layout/_all.sass";
 
 .highlighted {
-  background-image: url("https://ethereum.org/assets/img/highlight.22a66491.svg") !important;
+  background-image: url("/images/css/highlight.svg") !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -54,7 +54,7 @@ a {
 
   &.highlight {
     &:hover {
-      background-image: url("https://ethereum.org/assets/img/highlight.22a66491.svg") !important;
+      background-image: url("/images/css/highlight.svg") !important;
       background-repeat: no-repeat;
       background-size: cover;
     }

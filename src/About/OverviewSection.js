@@ -56,14 +56,14 @@ class OverviewSection extends React.Component {
             </div>
             <div data-aos="fade-up" className="column is-8">
               <figure className="image covered is-8by6">
-                <img src="https://images.unsplash.com/photo-1559526324-593bc073d938?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80" />
+                <img src="/images/inserts/trading-image.jpg" />
               </figure>
             </div>
             <div data-aos="fade-up" className="column is-4">
               <figure className="image covered is-1by1">
                 <img
                   className="is-rounded"
-                  src="https://images.unsplash.com/photo-1529465230221-a0d10e46fcbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+                  src="/images/inserts/trading-image2.jpg"
                 />
               </figure>
             </div>

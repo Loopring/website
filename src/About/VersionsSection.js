@@ -56,7 +56,7 @@ class VersionsSection extends React.Component {
             </div>
             <div data-aos="fade-up" className="column is-5 has-text-justify">
               <figure className="image covered is-3by2">
-                <img src="https://images.pexels.com/photos/461049/pexels-photo-461049.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" />
+                <img src="/images/inserts/ring.jpg" />
               </figure>
             </div>
             <div data-aos="fade-up" className="column is-5 has-text-justify">

@@ -9,7 +9,7 @@ import HeroSection from './HeroSection.js';
 import OverviewSection from './OverviewSection.js';
 import VersionsSection from './VersionsSection.js';
 import FeaturesSection from './FeaturesSection.js';
-import MediaSection from './MediaSection.js';
+// import MediaSection from './MediaSection.js';
 import HacksSection from './HacksSection.js';
 
 class About extends React.Component {

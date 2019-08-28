@@ -1,8 +1,6 @@
 @charset "utf-8";
 @import "../Variables.scss";
 
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700&display=swap");
-
 $height-mask: 800px;
 
 // To regulate alpha is recommended to use gray scale.
@@ -29,7 +27,8 @@ $color-base: rgb(255, 255, 255);
     top: 0;
     background-size: 100%;
     z-index: -2;
-    background-image: url(https://images.unsplash.com/photo-1486546910464-ec8e45c4a137?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2918&q=80);
+    background-color:  $primary;
+    // background-image: url(https://images.unsplash.com/photo-1486546910464-ec8e45c4a137?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2918&q=80);
   }
 
   .text {
