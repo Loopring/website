@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import {withLocalize} from 'react-localize-redux';
-import {Translate} from 'react-localize-redux';
-import englishTranslation from './i18n/DesignSection.en.json';
-import chineseTranslation from './i18n/DesignSection.zh.json';
-import I18nComponent from '../Components/I18nComponent';
+import { withLocalize } from "react-localize-redux";
+import { Translate } from "react-localize-redux";
+import englishTranslation from "./i18n/DesignSection.en.json";
+import chineseTranslation from "./i18n/DesignSection.zh.json";
+import I18nComponent from "../Components/I18nComponent";
 
-import './DesignSection.scss';
+import "./DesignSection.scss";
 
 class DesignSection extends I18nComponent {
   constructor(props) {
@@ -33,7 +33,7 @@ class DesignSection extends I18nComponent {
             <div data-aos="fade-up" className="column is-5 has-text-justify">
               <div className="content">
                 <h2>
-                  <Translate id="designTitles.whitepaper" />{' '}
+                  <Translate id="designTitles.whitepaper" />{" "}
                   <span className="deprecate is-unselectable">
                     <Translate id="deprecated" />
                   </span>
@@ -67,6 +67,16 @@ class DesignSection extends I18nComponent {
               </div>
             </div>
 
+            {/* "contracts": "Loopring 3.0 Smart Contracts·············the on-chain part ⟁",
+        "circuits": "Loopring 3.0 ZKP circuits·····················the off-chain part ⧉",
+        "zkRollupPost": "Vitalik's post on zkRollup ··············································· ◎",
+        "zkRollupTechTalk": "Vitalik's tech-talk on zkRollup······························ ◎",
+        "zkp": "Zero Knowledge Proof / ZKP···································· ◎",
+        "poseidon": "Poseidon hash function ················································· ◱",
+        "quadTree": "Quad-Merkle Tree ··························································· ◱",
+        "loopring3.0Audit": "SECBIT Security Audit Report ································· ◒"
+    }*/}
+
             <div data-aos="fade-up" className="column is-5">
               <div className="content">
                 <h2>
@@ -80,9 +90,7 @@ class DesignSection extends I18nComponent {
                       className="highlight has-leading-thick-arrow highlight"
                       href="https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477"
                     >
-                      Vitalik's post on zkRollup
-                      ···············································
-                      <span className="symboled"> ◎</span>
+                      <Translate id="blocks.zkRollupPost" />
                     </a>
                   </li>
 
@@ -93,9 +101,7 @@ class DesignSection extends I18nComponent {
                       className="highlight has-leading-thick-arrow highlight"
                       href="https://www.youtube.com/watch?v=mOm47gBMfg8"
                     >
-                      Vitalik's tech-talk on
-                      zkRollup······························
-                      <span className="symboled"> ◎</span>
+                      <Translate id="blocks.zkRollupTechTalk" />
                     </a>
                   </li>
 
@@ -106,9 +112,7 @@ class DesignSection extends I18nComponent {
                       className="highlight has-leading-thick-arrow highlight"
                       href="https://en.wikipedia.org/wiki/Zero-knowledge_proof"
                     >
-                      Zero Knowledge Proof /
-                      ZKP····································
-                      <span className="symboled"> ◎</span>
+                      <Translate id="blocks.zkp" />
                     </a>
                   </li>
 
@@ -119,9 +123,7 @@ class DesignSection extends I18nComponent {
                       className="highlight has-leading-thick-arrow highlight"
                       href="https://github.com/scipr-lab/libsnark"
                     >
-                      libsnark
-                      ································································
-                      <span className="symboled"> ◱</span>
+                      <Translate id="blocks.libsnark" />
                     </a>
                   </li>
 
@@ -132,9 +134,7 @@ class DesignSection extends I18nComponent {
                       className="highlight has-leading-thick-arrow highlight"
                       href="https://github.com/HarryR/ethsnarks"
                     >
-                      ethsnarks
-                      ··················································
-                      <span className="symboled"> ◱</span>
+                      <Translate id="blocks.ethsnark" />
                     </a>
                   </li>
 
@@ -145,9 +145,7 @@ class DesignSection extends I18nComponent {
                       className="highlight has-leading-thick-arrow highlight"
                       href="https://dusk.network/news/poseidon-the-most-efficient-zero-knowledge-friendly-implementation"
                     >
-                      Poseidon hash function
-                      ·················································
-                      <span className="symboled"> ◱</span>
+                      <Translate id="blocks.poseidon" />
                     </a>
                   </li>
                   <li>
@@ -157,9 +155,7 @@ class DesignSection extends I18nComponent {
                       className="highlight has-leading-thick-arrow highlight"
                       href="https://en.wikipedia.org/wiki/Merkle_tree"
                     >
-                      Quad-Merkle Tree
-                      ···························································
-                      <span className="symboled"> ◱</span>
+                      <Translate id="blocks.quardTree" />
                     </a>
                   </li>
 
@@ -170,8 +166,7 @@ class DesignSection extends I18nComponent {
                       className="highlight has-leading-thick-arrow highlight"
                       href=""
                     >
-                      Loopring 3.0 smart contracts··············the on-chain
-                      part <span className="symboled">⟁</span>
+                      <Translate id="blocks.contracts" />
                     </a>
                   </li>
                   <li>
@@ -181,8 +176,7 @@ class DesignSection extends I18nComponent {
                       className="highlight has-leading-thick-arrow highlight"
                       href=""
                     >
-                      Loopring 3.0 ZKP circuits····················the off-chain
-                      part <span className="symboled"> ⧉</span>
+                      <Translate id="blocks.circuits" />
                     </a>
                   </li>
                   <li>
@@ -192,9 +186,7 @@ class DesignSection extends I18nComponent {
                       className="highlight has-leading-thick-arrow highlight"
                       href=""
                     >
-                      SECBIT Security Audit Report
-                      ·································
-                      <span className="symboled"> ◒</span>
+                      <Translate id="blocks.loopring3.0audit" />
                     </a>
                   </li>
                 </ul>

@@ -4,7 +4,7 @@
   "table": {
     "throughput": "吞吐量",
     "costPerTrade": "每笔清结算成本（元人民币）",
-    "current": "以太坊当前版本",
+    "current": "以太坊的当前版本",
     "post": "伊斯坦布尔分叉后",
     "withOCDA": "（开启OCDA）",
     "withoutOCDA": "（关闭OCDA）"
