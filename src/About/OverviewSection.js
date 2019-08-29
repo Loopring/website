@@ -106,11 +106,7 @@ class OverviewSection extends I18nComponent {
                   <Translate id="section4.title" />
                 </h2>
                 <p>
-                  Most DEX protocols suffer terrible performance issues — the
-                  throughput is too low while the cost is too high. The
-                  performance issues prevent those protocol from being massively
-                  adopted as no professional market makers or traders will use
-                  these protocols as their primary methods of trading.
+                  <Translate id="section4.p1" />
                 </p>
                 <p>
                   <Translate
@@ -119,10 +115,7 @@ class OverviewSection extends I18nComponent {
                   />
                 </p>
                 <p>
-                  We believe Loopring's performance is sufficient for
-                  professional traders and market makers to take advantage of
-                  bots for trading automation. Decentralized exchanges built on
-                  top of Loopring 3.0 will soon beat many centralized ones.
+                  <Translate id="section4.p3" />
                 </p>
               </div>
             </div>
