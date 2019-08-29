@@ -99,7 +99,31 @@ class DesignSection extends I18nComponent {
                     </p>
                   </div>
                 ) : (
-                  <p></p>
+                  <div>
+                    <p>
+                      We designed Loopring 3.0 for two major objectives:
+                      Security and Performance. The protocol ensures that users
+                      are able to withdraw their assets under all circumstances.
+                      In the worst scenario, users can withdraw with Merkle
+                      proofs which can be calculated based on the data on-chain
+                      if OCDA is enabled. This means users don't need to trust
+                      or turn to any central party for help.
+                    </p>
+
+                    <p>
+                      To greatly imporve throuhput and lower settlement cost,
+                      Loopring 3.0 migrates most computations off-chain, and
+                      uses the underlying blockchain as a data and a ZKP
+                      verification layer. User balances and order trading
+                      histories are all organized in an off-chain Quard-Merkle
+                      tree. User requests, including deposits, withdrawals,
+                      transfers, and settlements are processed in large batches.
+                      The Merkle tree root after each batch will be published
+                      on-chain together with other data. The ZKP proofs for new
+                      Merkle tree roots are verified in order to finalize those
+                      batch updates.
+                    </p>
+                  </div>
                 )}
               </div>
               <div className="content">
