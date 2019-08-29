@@ -4,113 +4,105 @@
     "headingContributors": "社区贡献者",
     "advisors": [
     {
-        "name": "Xuefeng LI",
-        "title": "CTO of Zhongan Technology"
+        "name": "李雪峰",
+        "title": "众安科技首席技术官"
     },
     {
-        "name": "Yuhang GUO",
-        "title": "Council, Chain Blockchain Application Research Center"
+        "name": "郭宇航",
+        "title": "中国区块链应用研究中心理事长"
     },
     {
-        "name": "Xuefeng LI",
-        "title": "CTO of Zhongan Technology"
+        "name": "达鸿飞",
+        "title": "NEO和本体网络创始人"
     },
     {
-        "name": "Hongfei DA",
-        "title": "CTO of Zhongan Technology"
+        "name": "林祖荣",
+        "title": "香港Loopnest区块链加速器创始人"
     },
     {
-        "name": "Yuhang GUO",
-        "title": "Council, Chain Blockchain Application Research Center"
+        "name": "郑子斌",
+        "title": "VipKid首席技术官，百度前副总裁"
     },
     {
-        "name": "Terence LAM",
-        "title": "CEO, Loopnest Blockchain Accelerator"
+        "name": "曹寅",
+        "title": "能源区块链实验室创始合伙人"
     },
     {
-        "name": "Alex CHENG",
-        "title": "CTO of VipKid, Senior VP of Baidu, Director at Google"
+        "name": "郭小虎",
+        "title": "德州大学计算机教授"
     },
     {
-        "name": "Yin CAO",
-        "title": "Founder, Energy Blockchain Lab"
+        "name": "郭一澎",
+        "title": "广州产业投资基金总裁"
     },
     {
-        "name": "Xiaohu GUO",
-        "title": "CS Professor, University of Texas"
+        "name": "夏华夏",
+        "title": "美团首席科学家"
     },
     {
-        "name": "Yipeng GUO",
-        "title": "President, Guangzhou Development Fund"
+        "name": "张鸣晨",
+        "title": "红点创投合伙人"
     },
     {
-        "name": "Huaxia XIA",
-        "title": "Chief Scientist, Meituan Group"
+        "name": "白硕",
+        "title": "Chinaledger技术委员会主任"
     },
     {
-        "name": "Mingchen Zhang",
-        "title": "Partner, Redpoint Ventures"
-    },
-    {
-        "name": "Shuo BAI",
-        "title": "Supervisor of ChinaLedger"
-    },
-    {
-        "name": "Steven LI",
-        "title": "Founder, Univalue Associates"
+        "name": "李江",
+        "title": "Univalue Associates创始人"
     }],
     "contributors": [
         {
-            "name": "Bella LONG",
-            "title": "Former PR Director"
+            "name": "龙雨",
+            "title": "前公共关系总监"
         },
         {
-            "name": "Zongbao HOU",
-            "title": "Developer"
+            "name": "侯宗保",
+            "title": "研发工程师"
         },
         {
-            "name": "Kun FU",
-            "title": "Developer"
+            "name": "傅坤",
+            "title": "研发工程师"
         },
         {
-            "name": "Tao LI",
-            "title": "Developer"
+            "name": "李涛",
+            "title": "研发工程师"
         },
         {
-            "name": "Hui SHAO",
-            "title": "Developer"
+            "name": "邵辉",
+            "title": "研发工程师"
         },
         {
-            "name": "Weichao LI",
-            "title": "Developer"
+            "name": "李伟超",
+            "title": "研发工程师"
         },
         {
             "name": "Benjamin Price",
-            "title": "Developer"
+            "title": "研发工程师"
         },
         {
-            "name": "Shuhong CHANG",
-            "title": "Designer"
+            "name": "常书鸿",
+            "title": "设计师"
         },
         {
-            "name": "Jinchen Hou",
-            "title": "Community"
+            "name": "侯金辰",
+            "title": "社区管理"
         },
         {
-            "name": "Kai ZENG",
-            "title": "Community, Marketing, Operation"
+            "name": "曾凯",
+            "title": "社区, 市场，和运营"
         },
         {
-            "name": "Dawei LI",
-            "title": "Community"
+            "name": "李大伟",
+            "title": "社区管理"
         },
         {
-            "name": "Jie LIU",
-            "title": "Operation"
+            "name": "刘杰",
+            "title": "市场和运营"
         },
         {
             "name": "Натали Игонина",
-            "title": "Translation"
+            "title": "翻译"
         },
 
         {
@@ -127,17 +119,17 @@
 
         {
             "name": "Dmitry Khovratovich",
-            "title": "Poseidon Hash Function",
+            "title": "波塞冬哈希函数",
             "url": "https://github.com/khovratovich"
         },
         {
             "name": "Matter Labs",
-            "title": "SNARK Batch Proof Verification",
+            "title": "SNARK的批量验证",
         "url":"https://matter-labs.io"
         },
         {
-            "name": "SECBIT Labs ",
-            "title": "Formal Verification & Auditing",
+            "name": "安比实验室",
+            "title": "形式化验证和安全审计",
             "url": "https://secbit.io"
         }
     ]
