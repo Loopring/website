@@ -59,5 +59,86 @@
         "name": "Steven LI",
         "title": "Founder, Univalue Associates"
     }],
-    "contributors":[]
+    "contributors": [
+        {
+            "name": "Bella LONG",
+            "title": "Former PR Director"
+        },
+        {
+            "name": "Zongbao HOU",
+            "title": "Developer"
+        },
+        {
+            "name": "Kun FU",
+            "title": "Developer"
+        },
+        {
+            "name": "Tao LI",
+            "title": "Developer"
+        },
+        {
+            "name": "Hui SHAO",
+            "title": "Developer"
+        },
+        {
+            "name": "Weichao LI",
+            "title": "Developer"
+        },
+        {
+            "name": "Benjamin Price",
+            "title": "Developer"
+        },
+        {
+            "name": "Shuhong CHANG",
+            "title": "Designer"
+        },
+        {
+            "name": "Jinchen Hou",
+            "title": "Community"
+        },
+        {
+            "name": "Kai ZENG",
+            "title": "Community, Marketing, Operation"
+        },
+        {
+            "name": "Dawei LI",
+            "title": "Community"
+        },
+        {
+            "name": "Jie LIU",
+            "title": "Operation"
+        },
+        {
+            "name": "Натали Игонина",
+            "title": "Translation"
+        },
+
+        {
+            "name": "HarryR",
+            "title": "ethSnarks",
+            "url": "https://github.com/HarryR"
+        },
+
+        {
+            "name": "BarryWhitehat",
+            "title": "zkRollup",
+            "url": "https://github.com/barryWhiteHat"
+        },
+
+        {
+            "name": "Dmitry Khovratovich",
+            "title": "Poseidon Hash Function",
+            "url": "https://github.com/khovratovich"
+        },
+        {
+            "name": "Matter Labs",
+            "title": "SNARK Batch Proof Verification",
+        "url":"https://matter-labs.io"
+        },
+        {
+            "name": "SECBIT Labs ",
+            "title": "Formal Verification & Auditing",
+            "url": "https://secbit.io"
+        }
+    ]
 }

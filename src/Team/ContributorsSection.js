@@ -27,7 +27,13 @@ class ContributorsSection extends JsonI18nComponent {
                 <ul>
                   {this.state.I.advisors.map((item, idx) => (
                     <li key="idx">
-                      <a disabled className="highlight has-leading-thin-arrow">
+                      <a
+                        disabled={!item.url}
+                        href={item.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="highlight has-leading-thin-arrow"
+                      >
                         {item.name}
                       </a>{' '}
                       / {item.title}
@@ -47,7 +53,13 @@ class ContributorsSection extends JsonI18nComponent {
                 <ul>
                   {this.state.I.contributors.map((item, idx) => (
                     <li key="idx">
-                      <a disabled className="highlight has-leading-thin-arrow">
+                      <a
+                        disabled={!item.url}
+                        href={item.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="highlight has-leading-thin-arrow"
+                      >
                         {item.name}
                       </a>{' '}
                       / {item.title}
