@@ -16,7 +16,9 @@ class DesignSection extends I18nComponent {
   render() {
     return (
       <section className="section is-large section-protocol-design  has-background-blue">
-        <div className="fixed-label is-hidden-mobile">100% open-source</div>
+        <div className="fixed-label is-unselectable is-hidden-mobile">
+          <Translate id="sidenote" />
+        </div>
 
         {/* ---*/}
         <div className="container">
@@ -83,28 +85,34 @@ class DesignSection extends I18nComponent {
                   <Translate id="designTitles.designDoc" />
                 </h2>
                 {this.isChinese() ? (
-                  <p>
-                    There is no better source than our Design Doc for you to
-                    learn about all the ideas behind Loopring 3.0.
-                  </p>
+                  <div>
+                    <p>
+                      路印协议3.0的核心设计目标包括两个：第一是高安全性，第二是高性能。协议设计的很多方面，都是围绕着在各种可能的情况下，为用户提现自己充值的资产提供各种保障。这种保障允许用户在极端情况下，仅提供默克尔证明，不依靠于交易所的任何动作，就可以将资产全部取出。而默克尔证明，则可以通过区块链上的数据可用性计算得到。
+                    </p>
+                    <p>
+                      为了提高吞吐量，并降低清结算成本，路印协议3.0将几乎全部的计算都迁移到区块链外完成。这种计算会更新中继维护的一个四叉默克尔树，其中保存了每个用户每个币种的余额，以及每个订单的成交历史。
+                      中继批量处理几十到几万个充值提现和交易清结算等请求，并将批量更新后的树根上链。为了保障中继的计算更新方式严格遵循协议的规则，中级必须在一定时间内提供批量处理相关的零知识证明。
+                    </p>
+
+                    <p>
+                      路印协议3.0的安全性，高吞吐量，和低成本证明了zkRollup思路是去中心化应用扩容的最佳方式之一。二层协议依靠底层公有链来扩容是不可取的。
+                    </p>
+                  </div>
                 ) : (
-                  <p>
-                    There is no better source than our Design Doc for you to
-                    learn about all the ideas behind Loopring 3.0.
-                  </p>
+                  <p></p>
                 )}
               </div>
+              <div className="content">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="highlight has-leading-thick-arrow highlight"
+                  href="https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/DESIGN.md"
+                >
+                  <Translate id="blocks.designdoc" />
+                </a>
+              </div>
             </div>
-
-            {/* "contracts": "Loopring 3.0 Smart Contracts·············the on-chain part ⟁",
-        "circuits": "Loopring 3.0 ZKP circuits·····················the off-chain part ⧉",
-        "zkRollupPost": "Vitalik's post on zkRollup ··············································· ◎",
-        "zkRollupTechTalk": "Vitalik's tech-talk on zkRollup······························ ◎",
-        "zkp": "Zero Knowledge Proof / ZKP···································· ◎",
-        "poseidon": "Poseidon hash function ················································· ◱",
-        "quadTree": "Quad-Merkle Tree ··························································· ◱",
-        "loopring3.0Audit": "SECBIT Security Audit Report ································· ◒"
-    }*/}
 
             <div data-aos="fade-up" className="column is-5">
               <div className="content">
@@ -112,16 +120,6 @@ class DesignSection extends I18nComponent {
                   <Translate id="designTitles.buildingBlocks" />
                 </h2>
                 <ul className="links">
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="highlight has-leading-thick-arrow highlight"
-                      href="https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/DESIGN.md"
-                    >
-                      <Translate id="blocks.designdoc" />
-                    </a>
-                  </li>
                   <li>
                     <a
                       target="_blank"

@@ -5,10 +5,11 @@
     "designDoc": "Design Doc",
     "buildingBlocks": "Building Blocks"
   },
+  "sidenote": "100% open-source",
 
   "deprecated": "(Deprecated)",
   "blocks": {
-    "designdoc": "Loopring 3.0 Design Doc··················································◉",
+    "designdoc": "Loopring 3.0 Design Doc··················································★★★★★",
     "contracts": "Loopring 3.0 Smart Contracts·············the on-chain part ⟁",
     "circuits": "Loopring 3.0 ZKP circuits·····················the off-chain part ⧉",
     "zkRollupPost": "Vitalik's post on zkRollup ···············································◎",
