@@ -1,5 +1,7 @@
 import React from 'react';
 
+import renderHTML from 'react-render-html';
+
 import englishTranslation from './i18n/TokenInfoSection.en.json';
 import chineseTranslation from './i18n/TokenInfoSection.zh.json';
 import JsonI18nComponent from '../Components/JsonI18nComponent';
@@ -42,42 +44,82 @@ class TokenInfoSection extends JsonI18nComponent {
               </div>
               <div data-aos="fade-up" className="content">
                 <h2>{this.state.I.titles.migration}</h2>
-                <p className="has-text-justify">
-                  On May 07 2019, we migrated LRC from{' '}
-                  <a
-                    className="highlight has-trailing-arrow"
-                    href="https://etherscan.io/token/0xef68e7c694f40c8202821edf525de3782458639f"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    version 1.0
-                  </a>{' '}
-                  to version 2.0. The new LRC token remains ERC20 compliant and
-                  now supports a “burn” function that will be used by the
-                  Loopring Protocol and the new{' '}
-                  <a
-                    href="https://medium.com/loopring-protocol/oedax-looprings-open-ended-dutch-auction-exchange-model-d92cebbd3667"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="highlight has-trailing-arrow"
-                  >
-                    Oedax
-                  </a>{' '}
-                  auction protocol to burn LRC as the protocols are being used.
-                  The total LRC supply will decrease over time to reflect these
-                  burns.
-                </p>
-
-                <p>
-                  To learn more about the migration, please check out our{' '}
-                  <a
-                    className="highlight has-trailing-arrow"
-                    href="https://medium.com/loopring-protocol/lrc-token-upgraded-a26ee6f87b84"
-                  >
-                    blog post
-                  </a>
-                  .
-                </p>
+                {this.isChinese() ? (
+                  <div>
+                    <p className="has-text-justify">
+                      我们已于2019年5月7日完成了LRC代币从
+                      <a
+                        className="highlight has-trailing-arrow"
+                        href="https://etherscan.io/token/0xef68e7c694f40c8202821edf525de3782458639f"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        1.0版本
+                      </a>{' '}
+                      到2.0版本的升级. LRC
+                      2.0依然严格遵循ERC20代币标准，并引入了一个代币燃烧的机制。该机制确保路印协议被逐渐广泛采用后，
+                      LRC的发行和流通总量都会逐渐减少
+                      。路印协议收取的其他代币的协议手续费会通过我们的
+                      <a
+                        href="https://medium.com/loopring-protocol/oedax-looprings-open-ended-dutch-auction-exchange-model-d92cebbd3667"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="highlight has-trailing-arrow"
+                      >
+                        Oedax协议
+                      </a>{' '}
+                      拍卖成LRC，之后再燃烧掉。
+                    </p>
+                    <p>
+                      您可以通过我们的
+                      <a
+                        className="highlight has-trailing-arrow"
+                        href="https://medium.com/loopring-protocol/lrc-token-upgraded-a26ee6f87b84"
+                      >
+                        博客
+                      </a>
+                      了解更多关于LRC代币升级的一些细节。请注意LRC1.0代币已经没有任何价值，不要尝试用LRC1.0代币在交易所上进行充值提现，白白浪费转账手续费！
+                    </p>
+                  </div>
+                ) : (
+                  <div>
+                    <p className="has-text-justify">
+                      On May 07 2019, we migrated LRC from{' '}
+                      <a
+                        className="highlight has-trailing-arrow"
+                        href="https://etherscan.io/token/0xef68e7c694f40c8202821edf525de3782458639f"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        version 1.0
+                      </a>{' '}
+                      to version 2.0. The new LRC token remains ERC20 compliant
+                      and now supports a “burn” function that will be used by
+                      the Loopring Protocol and the new{' '}
+                      <a
+                        href="https://medium.com/loopring-protocol/oedax-looprings-open-ended-dutch-auction-exchange-model-d92cebbd3667"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="highlight has-trailing-arrow"
+                      >
+                        Oedax
+                      </a>{' '}
+                      auction protocol to burn LRC as the protocols are being
+                      used. The total LRC supply will decrease over time to
+                      reflect these burns.
+                    </p>
+                    <p>
+                      To learn more about the migration, please check out our{' '}
+                      <a
+                        className="highlight has-trailing-arrow"
+                        href="https://medium.com/loopring-protocol/lrc-token-upgraded-a26ee6f87b84"
+                      >
+                        blog post
+                      </a>
+                      .
+                    </p>
+                  </div>
+                )}
               </div>
             </div>
 

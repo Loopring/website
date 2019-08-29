@@ -9,9 +9,9 @@ class JsonI18nComponent extends React.Component {
     super(props);
 
     if (navigator.language === 'zh' || navigator.browserLanguage === 'zh') {
-      this.state = {I: chineseTranslation};
+      this.state = {lang: 'zh', I: chineseTranslation};
     } else {
-      this.state = {I: englishTranslation};
+      this.state = {lang: 'en', I: englishTranslation};
     }
 
     AOS.init();
@@ -19,6 +19,10 @@ class JsonI18nComponent extends React.Component {
 
   componentDidUpdate() {
     AOS.refresh();
+  }
+
+  isChinese() {
+    return this.state.lang === 'zh';
   }
 }
 
