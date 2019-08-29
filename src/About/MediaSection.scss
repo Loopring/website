@@ -8,11 +8,7 @@
   img {
     user-select: none;
     filter: grayscale(100%);
-    width: 120px;
+    width: 120px!important;
     margin: 10px;
   }
-
-  // .image:hover {
-  //     filter:  grayscale(100%) opacity(1);
-  // }
 }

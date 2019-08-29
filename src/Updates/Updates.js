@@ -1,12 +1,12 @@
 import React from 'react';
 
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
+
+import SectionUpdatesHero from './HeroSection';
+import ArticlesSection from './ArticlesSection';
+
 import './Updates.scss';
-
-import Header from '../Components/Header.js';
-import Footer from '../Components/Footer.js';
-
-import SectionUpdatesHero from './HeroSection.js';
-import ArticlesSection from './ArticlesSection.js';
 
 class Updates extends React.Component {
   render() {

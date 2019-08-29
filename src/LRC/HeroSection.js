@@ -1,19 +1,17 @@
 import React from 'react';
 
+import {withLocalize} from 'react-localize-redux';
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './i18n/HeroSection.en.json';
+import chineseTranslation from './i18n/HeroSection.zh.json';
+import I18nComponent from '../Components/I18nComponent';
+
 import './HeroSection.scss';
 
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
-
-class HeroSection extends React.Component {
-  constructor(props, context) {
-    super(props, context);
-    AOS.init();
+class HeroSection extends I18nComponent {
+  constructor(props) {
+    super(props, englishTranslation, chineseTranslation);
   }
-  componentDidUpdate() {
-    AOS.refresh();
-  }
-
   render() {
     return (
       <section className="section section-lrc-hero is-large has-background-white">
@@ -34,4 +32,4 @@ class HeroSection extends React.Component {
   }
 }
 
-export default HeroSection;
+export default withLocalize(HeroSection);

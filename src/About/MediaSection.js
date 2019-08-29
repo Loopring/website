@@ -1,7 +1,18 @@
 import React from 'react';
+
+import {withLocalize} from 'react-localize-redux';
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './i18n/MediaSection.en.json';
+import chineseTranslation from './i18n/MediaSection.zh.json';
+import I18nComponent from '../Components/I18nComponent';
+
 import './MediaSection.scss';
 
-class MediaSection extends React.Component {
+class MediaSection extends I18nComponent {
+  constructor(props) {
+    super(props, englishTranslation, chineseTranslation);
+  }
+
   render() {
     return (
       <section className="section section-about-media is-large has-text-black">
@@ -56,14 +67,6 @@ class MediaSection extends React.Component {
                 />
               </figure>
             </div>
-
-            {/*          <div className="column  is-narrow">
-       <figure className="image ">
-  <img  draggable="false" src="https://cdn.freebiesupply.com/logos/large/2x/coinranking-logo-svg-vector.svg"/>
-</figure>
-</div>
-*/}
-
             <div className="column  is-narrow">
               <figure className="image ">
                 <img
@@ -79,4 +82,4 @@ class MediaSection extends React.Component {
   }
 }
 
-export default MediaSection;
+export default withLocalize(MediaSection);

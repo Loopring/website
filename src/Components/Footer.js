@@ -2,8 +2,8 @@ import React from 'react';
 
 import {withLocalize} from 'react-localize-redux';
 import {Translate} from 'react-localize-redux';
-import englishTranslation from './Footer.en.json';
-import chineseTranslation from './Footer.zh.json';
+import englishTranslation from './i18n/Footer.en.json';
+import chineseTranslation from './i18n/Footer.zh.json';
 import I18nComponent from './I18nComponent';
 
 import './Footer.scss';

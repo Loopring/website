@@ -2,8 +2,8 @@ import React from 'react';
 
 import {withLocalize} from 'react-localize-redux';
 import {Translate} from 'react-localize-redux';
-import englishTranslation from './ContributorsSection.en.json';
-import chineseTranslation from './ContributorsSection.zh.json';
+import englishTranslation from './i18n/ContributorsSection.en.json';
+import chineseTranslation from './i18n/ContributorsSection.zh.json';
 import I18nComponent from '../Components/I18nComponent';
 
 import './ContributorsSection.scss';

@@ -1,30 +1,18 @@
 import React from 'react';
-import {renderToStaticMarkup} from 'react-dom/server';
-import {withLocalize} from 'react-localize-redux';
+
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
+
+import HeroSection from './HeroSection';
+import OverviewSection from './OverviewSection';
+import VersionsSection from './VersionsSection';
+import FeaturesSection from './FeaturesSection';
+// import MediaSection from "./MediaSection";
+import HacksSection from './HacksSection';
+
 import './About.scss';
 
-import Header from '../Components/Header.js';
-import Footer from '../Components/Footer.js';
-
-import HeroSection from './HeroSection.js';
-import OverviewSection from './OverviewSection.js';
-import VersionsSection from './VersionsSection.js';
-import FeaturesSection from './FeaturesSection.js';
-// import MediaSection from './MediaSection.js';
-import HacksSection from './HacksSection.js';
-
 class About extends React.Component {
-  constructor(props) {
-    super(props);
-    this.props.initialize({
-      languages: [
-        {name: '中文', code: 'zh'},
-        {name: 'English', code: 'en'},
-      ],
-      options: {renderToStaticMarkup, defaultLanguage: 'zh'},
-    });
-  }
-
   render() {
     return (
       <div className="page-about">
@@ -41,4 +29,4 @@ class About extends React.Component {
   }
 }
 
-export default withLocalize(About);
+export default About;

@@ -1,13 +1,13 @@
 import React from 'react';
 
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
+
+import PerformanceSection from './PerformanceSection';
+import DesignSection from './DesignSection';
+import ConfigurationSection from './ConfigurationSection';
+
 import './Protocol.scss';
-
-import Header from '../Components/Header.js';
-import Footer from '../Components/Footer.js';
-
-import PerformanceSection from './PerformanceSection.js';
-import DesignSection from './DesignSection.js';
-import ConfigurationSection from './ConfigurationSection.js';
 
 class Protocol extends React.Component {
   render() {

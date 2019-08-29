@@ -1,18 +1,16 @@
 import React from 'react';
+
+import {withLocalize} from 'react-localize-redux';
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './i18n/VersionsSection.en.json';
+import chineseTranslation from './i18n/VersionsSection.zh.json';
+import I18nComponent from '../Components/I18nComponent';
+
 import './VersionsSection.scss';
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
-
-class VersionsSection extends React.Component {
-  constructor(props, context) {
-    super(props, context);
-    AOS.init();
-  }
-  componentDidUpdate() {
-    AOS.refresh();
+class VersionsSection extends I18nComponent {
+  constructor(props) {
+    super(props, englishTranslation, chineseTranslation);
   }
 
   render() {
@@ -146,4 +144,4 @@ class VersionsSection extends React.Component {
   }
 }
 
-export default VersionsSection;
+export default withLocalize(VersionsSection);

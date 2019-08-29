@@ -1,6 +1,8 @@
 import React from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
 import {withLocalize} from 'react-localize-redux';
+import AOS from 'aos';
+import '../../node_modules/aos/dist/aos.css';
 
 class I18nComponent extends React.Component {
   constructor(props, englishTranslation, chineseTranslation) {
@@ -21,6 +23,11 @@ class I18nComponent extends React.Component {
     } else {
       this.props.setActiveLanguage('en');
     }
+
+    AOS.init();
+  }
+  componentDidUpdate() {
+    AOS.refresh();
   }
 }
 

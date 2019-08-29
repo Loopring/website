@@ -1,22 +1,21 @@
 import React from 'react';
+import Odometer from 'react-odometerjs';
+
+import {withLocalize} from 'react-localize-redux';
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './i18n/PerformanceSection.en.json';
+import chineseTranslation from './i18n/PerformanceSection.zh.json';
+import I18nComponent from '../Components/I18nComponent';
+
 import './PerformanceSection.scss';
 
-import '../../node_modules/aos/dist/aos.css';
-
-import Odometer from 'react-odometerjs';
-import AOS from 'aos';
-
-class PerformanceSection extends React.Component {
-  constructor(props, context) {
-    super(props, context);
+class PerformanceSection extends I18nComponent {
+  constructor(props) {
+    super(props, englishTranslation, chineseTranslation);
     this.state = {
       throughput: 100,
       cost: '0.003',
     };
-    AOS.init();
-  }
-  componentDidUpdate() {
-    AOS.refresh();
   }
 
   componentDidMount() {
@@ -228,4 +227,4 @@ class PerformanceSection extends React.Component {
   }
 }
 
-export default PerformanceSection;
+export default withLocalize(PerformanceSection);

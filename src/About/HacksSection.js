@@ -1,22 +1,26 @@
 import React from 'react';
-import './HacksSection.scss';
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
+
+import {withLocalize} from 'react-localize-redux';
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './i18n/HacksSection.en.json';
+import chineseTranslation from './i18n/HacksSection.zh.json';
+import I18nComponent from '../Components/I18nComponent';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
 
+import './HacksSection.scss';
+
 const API = './json_en/hacks.json';
 
-class HacksSection extends React.Component {
+class HacksSection extends I18nComponent {
   constructor(props) {
-    super(props);
+    super(props, englishTranslation, chineseTranslation);
     this.hackStories = React.createRef();
     this.state = {
       title: '...',
       stories: [],
     };
-    AOS.init();
   }
 
   componentDidMount() {
@@ -29,10 +33,6 @@ class HacksSection extends React.Component {
               }),
         1000
     );
-  }
-
-  componentDidUpdate() {
-    AOS.refresh();
   }
 
   componentWillUnmount() {
@@ -115,4 +115,4 @@ class HacksSection extends React.Component {
   }
 }
 
-export default HacksSection;
+export default withLocalize(HacksSection);

@@ -1,17 +1,16 @@
 import React from 'react';
 
+import {withLocalize} from 'react-localize-redux';
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './i18n/StakingSection.en.json';
+import chineseTranslation from './i18n/StakingSection.zh.json';
+import I18nComponent from '../Components/I18nComponent';
+
 import './StakingSection.scss';
 
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
-
-class StakingSection extends React.Component {
-  constructor(props, context) {
-    super(props, context);
-    AOS.init();
-  }
-  componentDidUpdate() {
-    AOS.refresh();
+class StakingSection extends I18nComponent {
+  constructor(props) {
+    super(props, englishTranslation, chineseTranslation);
   }
 
   render() {
@@ -102,4 +101,4 @@ class StakingSection extends React.Component {
   }
 }
 
-export default StakingSection;
+export default withLocalize(StakingSection);
