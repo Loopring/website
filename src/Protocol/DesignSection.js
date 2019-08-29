@@ -38,32 +38,55 @@ class DesignSection extends I18nComponent {
                     <Translate id="deprecated" />
                   </span>
                 </h2>
-                <p>
-                  There is no better source than our Design Doc for you to learn
-                  about all the ideas behind Loopring 3.0.
-                </p>
+                {this.isChinese() ? (
+                  <p>
+                    我们曾为路印较早的1.0、1.5、和2.0版本发表过
+                    <a
+                      className="highlight underline"
+                      href="/resources/zh_whitepaper.pdf"
+                    >
+                      技术白皮书
+                    </a>
+                    。但对最新的3.0版本，我们选择直接发布更具技术细节的
+                    <a className="highlight underline" href="">
+                      设计文档
+                    </a>
+                    （目前只有英文版）。如果您想了解路印协议的设计背景和理念，我们白皮书中相关的章节依然会提供很好参考。
+                  </p>
+                ) : (
+                  <p>
+                    We published a{" "}
+                    <a
+                      className="highlight underline"
+                      href="/resources/en_whitepaper.pdf"
+                    >
+                      Whitepaper
+                    </a>{" "}
+                    for version 1.0, 1.5, and 2.0. For 3.0, however, we decided
+                    to share our{" "}
+                    <a className="highlight underline" href="">
+                      Design Doc
+                    </a>{" "}
+                    as it provides a lot more details than a whitepaper. Many
+                    background information can still be found in the origin
+                    whitepaper.
+                  </p>
+                )}
+
                 <h2>
                   <Translate id="designTitles.designDoc" />
                 </h2>
-                <p>
-                  There is no better source than our Design Doc for you to learn
-                  about all the ideas behind Loopring 3.0.
-                </p>
-                {/* <FontAwesomeIcon icon={faFileAlt} size="5x" />*/}
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                  eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
-                  pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                  In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
-                  justo. Nullam dictum felis eu pede mollis pretium. Integer
-                  tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
-                  vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
-                  consequat vitae, eleifend ac, enim. Aliquam lorem ante,
-                  dapibus in, viverra quis, feugiat a,
-                </p>
+                {this.isChinese() ? (
+                  <p>
+                    There is no better source than our Design Doc for you to
+                    learn about all the ideas behind Loopring 3.0.
+                  </p>
+                ) : (
+                  <p>
+                    There is no better source than our Design Doc for you to
+                    learn about all the ideas behind Loopring 3.0.
+                  </p>
+                )}
               </div>
             </div>
 
