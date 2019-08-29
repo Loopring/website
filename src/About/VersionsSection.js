@@ -19,7 +19,9 @@ class VersionsSection extends I18nComponent {
         <div className="container">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-10">
-              <h1>Version History</h1>
+              <h1>
+                <Translate id="headingVersions" />
+              </h1>
             </div>
           </div>
           {/* ---*/}

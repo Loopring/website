@@ -33,7 +33,9 @@ class TokenInfoSection extends I18nComponent {
         <div className="container is-centered has-text-centered">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-10 has-text-centered">
-              <h1>Buy to Invest</h1>
+              <h1>
+                <Translate id="headingInvest" />
+              </h1>
             </div>
           </div>
 
@@ -42,7 +44,9 @@ class TokenInfoSection extends I18nComponent {
           <div className="columns is-centered is-multiline">
             <div className="column column-info is-5 has-text-left">
               <div data-aos="fade-up" className="content">
-                <h2>Token Information</h2>
+                <h2>
+                  <Translate id="investTitles.tokenInfo" />
+                </h2>
                 <ul>
                   {this.state.facts.map((item, idx) => (
                     <li key={idx}>
@@ -55,7 +59,9 @@ class TokenInfoSection extends I18nComponent {
                 </ul>
               </div>
               <div data-aos="fade-up" className="content">
-                <h2>Regarding LRC Token Migration</h2>
+                <h2>
+                  <Translate id="investTitles.migration" />
+                </h2>
                 <p className="has-text-justify">
                   On May 07 2019, we migrated LRC from{' '}
                   <a
@@ -97,7 +103,9 @@ class TokenInfoSection extends I18nComponent {
 
             <div className="column column-exchange  is-5 has-text-left">
               <div data-aos="fade-up" className="content">
-                <h2>Exchanges</h2>
+                <h2>
+                  <Translate id="investTitles.exchanges" />
+                </h2>
                 <ul>
                   {this.state.exchanges.map((exchange, idx) => (
                     <li key={idx}>
@@ -120,7 +128,9 @@ class TokenInfoSection extends I18nComponent {
                 </ul>
               </div>
               <div data-aos="fade-up" className="content">
-                <h2>Coming Soon...</h2>
+                <h2>
+                  <Translate id="investTitles.comingSoon" />
+                </h2>
                 <ul>
                   <li className="coming-soon highlighted">
                     <a

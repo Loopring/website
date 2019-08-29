@@ -19,7 +19,9 @@ class FeaturesSection extends I18nComponent {
         <div className="container">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-10 has-text-centered">
-              <h1>Features</h1>
+              <h1>
+                <Translate id="headingFeatures" />
+              </h1>
             </div>
           </div>
           {/* ---*/}

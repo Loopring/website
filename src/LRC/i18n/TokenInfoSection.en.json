@@ -1,1 +1,10 @@
-{}
+{
+    "headingInvest": "Buy to Invest",
+
+    "investTitles": {
+        "tokenInfo": "Token Information",
+        "exchanges": "Exchanges",
+        "migration": "LRC V2 Migration Completed",
+        "comingSoon": "Coming Soon..."
+    }
+}

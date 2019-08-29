@@ -19,10 +19,11 @@ class HeroSection extends I18nComponent {
           <div className="column is-12 is-unselectable hero has-text-din">
             <div className="container">
               <div data-aos="fade-up" className="text">
-                Buy and stake <span className="symbol">LRC</span>
+                <Translate id="buyAndStake" />{' '}
+                <span className="symbol">LRC</span>
               </div>
               <div data-aos="fade-up" className="text smaller">
-                to capture the growing value of Loopring's ecosystem.
+                <Translate id="buyAndStakeTo" />
               </div>
             </div>
           </div>

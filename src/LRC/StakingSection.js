@@ -19,7 +19,9 @@ class StakingSection extends I18nComponent {
         <div className="container is-centered has-text-centered">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-10 has-text-centered">
-              <h1>Utility & Staking</h1>
+              <h1>
+                <Translate id="headingStaking" />
+              </h1>
               {/* Unlike many other projects, Loopring's utility token LRC is no longer a fee token.*/}
             </div>
           </div>

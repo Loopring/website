@@ -48,7 +48,9 @@ class HacksSection extends I18nComponent {
         <div className="container">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-12 has-text-centered">
-              <h1>Crypto Hacks</h1>
+              <h1>
+                <Translate id="headingHacks" />
+              </h1>
             </div>
           </div>
           {/* ---*/}

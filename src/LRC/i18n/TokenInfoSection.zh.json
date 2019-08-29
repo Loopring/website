@@ -1,1 +1,10 @@
-{}
+{
+    "headingInvest": "价值投资LRC",
+    "investTitles":
+    {
+        "tokenInfo": "代币基本面",
+        "exchanges": "可交易平台",
+        "migration": "LRC代币完成升级",
+        "comingSoon": "即将登录"
+    }
+}
