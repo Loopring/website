@@ -20,8 +20,10 @@ class I18nComponent extends React.Component {
 
     if (navigator.language === 'zh' || navigator.browserLanguage === 'zh') {
       this.props.setActiveLanguage('zh');
+      this.state = {lang: 'zh'};
     } else {
       this.props.setActiveLanguage('en');
+      this.state = {lang: 'en'};
     }
 
     AOS.init();
@@ -29,6 +31,10 @@ class I18nComponent extends React.Component {
 
   componentDidUpdate() {
     AOS.refresh();
+  }
+
+  isChinese() {
+    return this.state.lang === 'zh';
   }
 }
 

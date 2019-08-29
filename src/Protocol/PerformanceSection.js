@@ -14,7 +14,7 @@ class PerformanceSection extends I18nComponent {
     super(props, englishTranslation, chineseTranslation);
     this.state = {
       throughput: 100,
-      cost: '0.003',
+      cost: this.isChinese() ? 0.02 : 0.003,
     };
   }
 
@@ -49,13 +49,10 @@ class PerformanceSection extends I18nComponent {
               >
                 <div className="content">
                   <p>
-                    Loopring 3.0 can settle up to 350 trades per second while
-                    guarantees the same level of security as the underlying
-                    Ethereum blockchain. This is powered by a zkRollup feature
-                    called <b>On-Chain Data Availability</b>, or <b>OCDA</b>. If
-                    OCDA is disabled, Loopring provides consortium-level
-                    security, and its throughput will be much higher, as shown
-                    in the following table.
+                    <Translate
+                      id="throughputDetail"
+                      options={{renderInnerHtml: true}}
+                    />
                   </p>
                 </div>
               </div>
@@ -72,18 +69,21 @@ class PerformanceSection extends I18nComponent {
                     <tr>
                       <th className="first"></th>
                       <th>
-                        Throughput
-                        <br /> with OCDA
+                        <Translate id="table.throughput" />
+                        <br />
+                        <Translate id="table.withOCDA" />
                       </th>
                       <th>
-                        Throughput
-                        <br /> without OCDA
+                        <Translate id="table.throughput" />
+                        <br /> <Translate id="table.withoutOCDA" />
                       </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="first">Currently</td>
+                      <td className="">
+                        <Translate id="table.current" />
+                      </td>
                       <td>
                         <span className="highlighted">350</span>
                       </td>
@@ -92,7 +92,9 @@ class PerformanceSection extends I18nComponent {
                       </td>
                     </tr>
                     <tr>
-                      <td className="first">Post-Istanbul</td>
+                      <td className="">
+                        <Translate id="table.post" />
+                      </td>
                       <td>
                         <span className="highlighted">1,400</span>
                       </td>
@@ -113,15 +115,13 @@ class PerformanceSection extends I18nComponent {
               >
                 <ul className="links">
                   <li>
-                    <a disabled className="has-leading-thick-arrow highlight">
-                      Loopring 3.0 Smart Contracts·············the on-chain part{' '}
-                      <span className="symboled">⟁</span>
+                    <a disabled className="has-leading-thick-arrow">
+                      <Translate id="links.contracts" />
                     </a>
                   </li>
                   <li>
-                    <a disabled className="has-leading-thick-arrow highlight">
-                      Loopring 3.0 ZKP circuits·····················the
-                      off-chain part <span className="symboled"> ⧉</span>
+                    <a disabled className="has-leading-thick-arrow">
+                      <Translate id="links.circuits" />
                     </a>
                   </li>
                 </ul>
@@ -157,14 +157,7 @@ class PerformanceSection extends I18nComponent {
               >
                 <div className="content">
                   <p>
-                    The average settlement cost for each trade is as low as{' '}
-                    {this.state.cost}
-                    USD, which covers the gas for Ethereum transactions and the
-                    cost of proof generation on cloud computing platforms. DEXes
-                    can further lower the settlement cost by using cheaper
-                    servers in the cloud and GPU-based algorithms. To put things
-                    into perspective, most brokers' stock trading fees in the US
-                    are in the range of 2 to 7 USD per trade.
+                    <Translate id="costDetail" />
                   </p>
                 </div>
               </div>
@@ -180,20 +173,26 @@ class PerformanceSection extends I18nComponent {
                   <thead>
                     <tr>
                       <th className="first"></th>
-                      <th>Cost per Trade</th>
+                      <th>
+                        <Translate id="table.costPerTrade" />
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="first">Currently</td>
+                      <td className="">
+                        <Translate id="table.current" />
+                      </td>
                       <td>
-                        <span className="">${this.state.cost}</span>
+                        <span className="">{this.state.cost}</span>
                       </td>
                     </tr>
                     <tr>
-                      <td className="first">Post-Istanbul</td>
+                      <td className="">
+                        <Translate id="table.post" />
+                      </td>
                       <td>
-                        <span className="">${this.state.cost - 0.0005}</span>
+                        <span className="">{this.state.cost * 0.95}</span>
                       </td>
                     </tr>
                   </tbody>
@@ -211,14 +210,12 @@ class PerformanceSection extends I18nComponent {
                 <ul className="links">
                   <li>
                     <a disabled className="has-leading-thick-arrow">
-                      Loopring 3.0 Smart Contracts·············the on-chain part{' '}
-                      <span className="symboled">⟁</span>
+                      <Translate id="links.contracts" />
                     </a>
                   </li>
                   <li>
                     <a disabled className="has-leading-thick-arrow">
-                      Loopring 3.0 ZKP circuits·····················the
-                      off-chain part <span className="symboled"> ⧉</span>
+                      <Translate id="links.circuits" />
                     </a>
                   </li>
                 </ul>
