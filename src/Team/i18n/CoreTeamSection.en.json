@@ -1,3 +1,99 @@
 {
-    "heading": "Core Team"
+    "heading": "Core Team",
+    "danielWang":
+    {
+        "name": "Daniel WANG",
+        "title": "Founder and CEO"
+    },
+    "jayZhou":
+    {
+        "name": "Jay ZHOU",
+        "title": "CMO"
+    },
+    "xiaoliang":
+    {
+        "name": "Johnston CHEN",
+        "title": "COO"
+    },
+    "steveGuo":
+    {
+        "name": "Steve GUO",
+        "title": "CTO"
+    },
+    "hossMa":
+    {
+        "name": "Hoss MA",
+        "title": "Chief Scientist"
+    },
+    "matthew":
+    {
+        "name": "Matthew Finestone",
+        "title": "Director of Business Development"
+    },
+    "brecht":
+    {
+        "name": "Brecht Devos",
+        "title": "Protocol Developer"
+    },
+    "kongliang":
+    {
+        "name": "Freeman ZONG",
+        "title": "Protocol Developer"
+    },
+
+    "hongyu":
+    {
+        "name": "Hongyu YU",
+        "title": "Developer"
+    },
+     "yangli":
+    {
+        "name": "Eric YANG",
+         "title": "Engineer"
+    },
+    "yadong":
+    {
+        "name": "Yadong LI",
+        "title": "Developer"
+    },
+    "xiaolu":
+    {
+        "name": "Xiaolu WU",
+         "title": "Developer"
+    },
+    "yongfeng":
+    {
+        "name": "Yongfeng DU",
+         "title": "Developer"
+    },
+    "wangchen":
+    {
+        "name": "Chen WANG",
+        "title": "Developer"
+    },
+    "laiyanyan":
+    {
+        "name": "Yanyan LAI",
+         "title": "Developer"
+    },
+    "wangyue":
+    {
+        "name": "Yue WANG",
+         "title": "Developer"
+    },
+    "chensheng":
+    {
+        "name": "Sheng CHEN",
+          "title": "Developer"
+    },
+    "ruby":
+    {
+        "name": "Ruby QIN",
+        "title": "Developer"
+    },
+    "leila":
+    {
+        "name": "Leila LIN",
+        "title": "HR & Administration"
+    }
 }

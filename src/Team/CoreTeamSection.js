@@ -32,171 +32,175 @@ class CoreTeamSection extends I18nComponent {
                     className="highlight has-leading-thin-arrow"
                     href="mailto:daniel@loopring.org"
                   >
-                    Daniel Wang
+                    <Translate id="danielWang.name" />
                   </a>{' '}
-                  / Founder & CEO
+                  / <Translate id="danielWang.title" />
                 </li>
                 <li>
                   <a
                     className="highlight has-leading-thin-arrow"
                     href="mailto:jay@loopring.org"
                   >
-                    Jay Zhou
+                    <Translate id="jayZhou.name" />
                   </a>{' '}
-                  / CMO
+                  / <Translate id="jayZhou.title" />
                 </li>
                 <li>
                   <a
                     className="highlight has-leading-thin-arrow"
                     href="mailto:johnston@loopring.org"
                   >
-                    Johnston Chen
+                    <Translate id="xiaoliang.name" />
                   </a>{' '}
-                  / COO
+                  / <Translate id="xiaoliang.title" />
                 </li>
+
                 <li>
                   <a
                     className="highlight has-leading-thin-arrow"
                     href="mailto:steve@loopring.org"
                   >
-                    Steve Guo
+                    <Translate id="steveGuo.name" />
                   </a>{' '}
-                  / CTO
+                  / <Translate id="steveGuo.title" />
                 </li>
                 <li>
                   <a
                     className="highlight has-leading-thin-arrow"
                     href="mailto:hoss@loopring.org"
                   >
-                    Hoss Ma
+                    <Translate id="hossMa.name" />
                   </a>{' '}
-                  / Chief Scientist
+                  / <Translate id="hossMa.title" />
                 </li>
                 <li>
                   <a
                     className="highlight has-leading-thin-arrow"
                     href="mailto:matthew@loopring.org"
                   >
-                    Matthew Finestone
+                    <Translate id="matthew.name" />
                   </a>{' '}
-                  /BD Director
+                  / <Translate id="matthew.title" />
+                </li>
+
+                <li>
+                  <a
+                    className="highlight has-leading-thin-arrow"
+                    href="mailto:brecht@loopring.org"
+                  >
+                    <Translate id="brecht.name" />
+                  </a>{' '}
+                  / <Translate id="brecht.title" />
                 </li>
                 <li>
                   <a
                     className="highlight has-leading-thin-arrow"
                     href="mailto:kongliang@loopring.org"
                   >
-                    Freeman Zhong
+                    <Translate id="kongliang.name" />
                   </a>{' '}
-                  / Developer
-                </li>
-                <li>
-                  <a
-                    className="highlight has-leading-thin-arrow"
-                    href="mailto:brecht@loopring.org"
-                  >
-                    Brecht Devos
-                  </a>{' '}
-                  / Developer
+                  / <Translate id="kongliang.title" />
                 </li>
                 <li>
                   <a
                     className="highlight has-leading-thin-arrow"
                     href="mailto:hongyu@loopring.org"
                   >
-                    Hongyu Yu
+                    <Translate id="hongyu.name" />
                   </a>{' '}
-                  / Developer
-                </li>
-                <li>
-                  <a
-                    className="highlight has-leading-thin-arrow"
-                    href="mailto:xiaolu@loopring.org"
-                  >
-                    Xiaolu Wu
-                  </a>{' '}
-                  / Developer
-                </li>
-                <li>
-                  <a
-                    className="highlight has-leading-thin-arrow"
-                    href="mailto:eric@loopring.org"
-                  >
-                    Eric Yang
-                  </a>{' '}
-                  / Developer
+                  / <Translate id="hongyu.title" />
                 </li>
                 <li>
                   <a
                     className="highlight has-leading-thin-arrow"
                     href="mailto:yadong@loopring.org"
                   >
-                    Yadong Li
+                    <Translate id="yadong.name" />
                   </a>{' '}
-                  / Developer
+                  / <Translate id="yadong.title" />
                 </li>
+
+                <li>
+                  <a
+                    className="highlight has-leading-thin-arrow"
+                    href="mailto:eric@loopring.org"
+                  >
+                    <Translate id="yangli.name" />
+                  </a>{' '}
+                  / <Translate id="yangli.title" />
+                </li>
+
                 <li>
                   <a
                     className="highlight has-leading-thin-arrow"
                     href="mailto:yongfeng@loopring.org"
                   >
-                    Yongfeng Du
+                    <Translate id="yongfeng.name" />
                   </a>{' '}
-                  / Developer
+                  / <Translate id="yongfeng.title" />
                 </li>
                 <li>
                   <a
                     className="highlight has-leading-thin-arrow"
                     href="mailto:chen@loopring.org"
                   >
-                    Chen Wang
+                    <Translate id="wangchen.name" />
                   </a>{' '}
-                  / Developer
+                  / <Translate id="wangchen.title" />
+                </li>
+                <li>
+                  <a
+                    className="highlight has-leading-thin-arrow"
+                    href="mailto:xiaolu@loopring.org"
+                  >
+                    <Translate id="xiaolu.name" />
+                  </a>{' '}
+                  / <Translate id="xiaolu.title" />
                 </li>
                 <li>
                   <a
                     className="highlight has-leading-thin-arrow"
                     href="mailto:yanyan@loopring.org"
                   >
-                    Yanyan Lai
+                    <Translate id="laiyanyan.name" />
                   </a>{' '}
-                  / Developer
+                  / <Translate id="laiyanyan.title" />
                 </li>
                 <li>
                   <a
                     className="highlight has-leading-thin-arrow"
                     href="mailto:yue@loopring.org"
                   >
-                    Yue Wang
+                    <Translate id="wangyue.name" />
                   </a>{' '}
-                  / Developer
+                  / <Translate id="wangyue.title" />
                 </li>
                 <li>
                   <a
                     className="highlight has-leading-thin-arrow"
                     href="mailto:sheng@loopring.org"
                   >
-                    Sheng Chen
+                    <Translate id="chensheng.name" />
                   </a>{' '}
-                  / Developer
+                  / <Translate id="chensheng.title" />
                 </li>
                 <li>
                   <a
                     className="highlight has-leading-thin-arrow"
                     href="mailto:ruby@loopring.org"
                   >
-                    Ruby Qi
+                    <Translate id="ruby.name" />
                   </a>{' '}
-                  / Developer
+                  / <Translate id="ruby.title" />
                 </li>
                 <li>
                   <a
                     className="highlight has-leading-thin-arrow"
                     href="mailto:leila@loopring.org"
                   >
-                    Leila Lin
+                    <Translate id="leila.name" />
                   </a>{' '}
-                  / HR & Administration
+                  / <Translate id="leila.title" />
                 </li>
               </ul>
             </div>
