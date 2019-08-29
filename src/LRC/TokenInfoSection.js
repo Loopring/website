@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import renderHTML from 'react-render-html';
+import renderHTML from "react-render-html";
 
-import englishTranslation from './i18n/TokenInfoSection.en.json';
-import chineseTranslation from './i18n/TokenInfoSection.zh.json';
-import JsonI18nComponent from '../Components/JsonI18nComponent';
+import englishTranslation from "./i18n/TokenInfoSection.en.json";
+import chineseTranslation from "./i18n/TokenInfoSection.zh.json";
+import JsonI18nComponent from "../Components/JsonI18nComponent";
 
-import './TokenInfoSection.scss';
+import "./TokenInfoSection.scss";
 
-const API = './json_en/lrc_info.json';
+const API = "./json_en/lrc_info.json";
 
 class TokenInfoSection extends JsonI18nComponent {
   constructor(props) {
@@ -35,7 +35,7 @@ class TokenInfoSection extends JsonI18nComponent {
                   {this.state.I.facts.map((item, idx) => (
                     <li key={idx}>
                       <span className="has-leading-thin-arrow key">
-                        {item.key}:{' '}
+                        {item.key}:{" "}
                       </span>
                       <span className="tag value">{item.value}</span>
                     </li>
@@ -55,7 +55,7 @@ class TokenInfoSection extends JsonI18nComponent {
                         rel="noopener noreferrer"
                       >
                         1.0版本
-                      </a>{' '}
+                      </a>{" "}
                       到2.0版本的升级. LRC
                       2.0依然严格遵循ERC20代币标准，并引入了一个代币燃烧的机制。该机制确保路印协议被逐渐广泛采用后，
                       LRC的发行和流通总量都会逐渐减少
@@ -67,7 +67,7 @@ class TokenInfoSection extends JsonI18nComponent {
                         className="highlight has-trailing-arrow"
                       >
                         Oedax协议
-                      </a>{' '}
+                      </a>{" "}
                       拍卖成LRC，之后再燃烧掉。
                     </p>
                     <p>
@@ -84,7 +84,7 @@ class TokenInfoSection extends JsonI18nComponent {
                 ) : (
                   <div>
                     <p className="has-text-justify">
-                      On May 07 2019, we migrated LRC from{' '}
+                      On May 07 2019, we migrated LRC from{" "}
                       <a
                         className="highlight has-trailing-arrow"
                         href="https://etherscan.io/token/0xef68e7c694f40c8202821edf525de3782458639f"
@@ -92,10 +92,10 @@ class TokenInfoSection extends JsonI18nComponent {
                         rel="noopener noreferrer"
                       >
                         version 1.0
-                      </a>{' '}
+                      </a>{" "}
                       to version 2.0. The new LRC token remains ERC20 compliant
                       and now supports a “burn” function that will be used by
-                      the Loopring Protocol and the new{' '}
+                      the Loopring Protocol and the new{" "}
                       <a
                         href="https://medium.com/loopring-protocol/oedax-looprings-open-ended-dutch-auction-exchange-model-d92cebbd3667"
                         target="_blank"
@@ -103,13 +103,13 @@ class TokenInfoSection extends JsonI18nComponent {
                         className="highlight has-trailing-arrow"
                       >
                         Oedax
-                      </a>{' '}
+                      </a>{" "}
                       auction protocol to burn LRC as the protocols are being
                       used. The total LRC supply will decrease over time to
                       reflect these burns.
                     </p>
                     <p>
-                      To learn more about the migration, please check out our{' '}
+                      To learn more about the migration, please check out our{" "}
                       <a
                         className="highlight has-trailing-arrow"
                         href="https://medium.com/loopring-protocol/lrc-token-upgraded-a26ee6f87b84"

@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import {withLocalize} from 'react-localize-redux';
-import {Translate} from 'react-localize-redux';
-import englishTranslation from './i18n/MediaSection.en.json';
-import chineseTranslation from './i18n/MediaSection.zh.json';
-import I18nComponent from '../Components/I18nComponent';
+import { withLocalize } from "react-localize-redux";
+import { Translate } from "react-localize-redux";
+import englishTranslation from "./i18n/MediaSection.en.json";
+import chineseTranslation from "./i18n/MediaSection.zh.json";
+import I18nComponent from "../Components/I18nComponent";
 
-import './MediaSection.scss';
+import "./MediaSection.scss";
 
 class MediaSection extends I18nComponent {
   constructor(props) {

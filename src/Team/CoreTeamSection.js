@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import englishTranslation from './i18n/CoreTeamSection.en.json';
-import chineseTranslation from './i18n/CoreTeamSection.zh.json';
-import JsonI18nComponent from '../Components/JsonI18nComponent';
+import englishTranslation from "./i18n/CoreTeamSection.en.json";
+import chineseTranslation from "./i18n/CoreTeamSection.zh.json";
+import JsonI18nComponent from "../Components/JsonI18nComponent";
 
-import './CoreTeamSection.scss';
+import "./CoreTeamSection.scss";
 
 class CoreTeamSection extends JsonI18nComponent {
   constructor(props) {
@@ -32,7 +32,7 @@ class CoreTeamSection extends JsonI18nComponent {
                       href={member.url}
                     >
                       {member.name}
-                    </a>{' '}
+                    </a>{" "}
                     / {member.title}
                   </li>
                 ))}

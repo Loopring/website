@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import {withLocalize} from 'react-localize-redux';
-import {Translate} from 'react-localize-redux';
-import englishTranslation from './i18n/Footer.en.json';
-import chineseTranslation from './i18n/Footer.zh.json';
-import I18nComponent from './I18nComponent';
+import { withLocalize } from "react-localize-redux";
+import { Translate } from "react-localize-redux";
+import englishTranslation from "./i18n/Footer.en.json";
+import chineseTranslation from "./i18n/Footer.zh.json";
+import I18nComponent from "./I18nComponent";
 
-import './Footer.scss';
+import "./Footer.scss";
 
 class Footer extends I18nComponent {
   constructor(props) {

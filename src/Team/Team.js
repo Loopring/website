@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import Header from '../Components/Header';
-import Footer from '../Components/Footer';
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
-import CoreTeamSection from './CoreTeamSection';
-import GroupPhotoSection from './GroupPhotoSection';
-import ContributorsSection from './ContributorsSection';
+import CoreTeamSection from "./CoreTeamSection";
+import GroupPhotoSection from "./GroupPhotoSection";
+import ContributorsSection from "./ContributorsSection";
 
-import './Team.scss';
+import "./Team.scss";
 
 class Team extends React.Component {
   render() {

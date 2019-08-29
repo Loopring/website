@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import englishTranslation from './i18n/ContributorsSection.en.json';
-import chineseTranslation from './i18n/ContributorsSection.zh.json';
-import JsonI18nComponent from '../Components/JsonI18nComponent';
+import englishTranslation from "./i18n/ContributorsSection.en.json";
+import chineseTranslation from "./i18n/ContributorsSection.zh.json";
+import JsonI18nComponent from "../Components/JsonI18nComponent";
 
-import './ContributorsSection.scss';
+import "./ContributorsSection.scss";
 
 class ContributorsSection extends JsonI18nComponent {
   constructor(props) {
@@ -35,7 +35,7 @@ class ContributorsSection extends JsonI18nComponent {
                         className="highlight has-leading-thin-arrow"
                       >
                         {item.name}
-                      </a>{' '}
+                      </a>{" "}
                       / {item.title}
                     </li>
                   ))}
@@ -61,7 +61,7 @@ class ContributorsSection extends JsonI18nComponent {
                         className="highlight has-leading-thin-arrow"
                       >
                         {item.name}
-                      </a>{' '}
+                      </a>{" "}
                       / {item.title}
                     </li>
                   ))}

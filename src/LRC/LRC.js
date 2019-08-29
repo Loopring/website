@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import Header from '../Components/Header';
-import Footer from '../Components/Footer';
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
-import HeroSection from './HeroSection';
-import IconSection from './IconSection';
-import StakingSection from './StakingSection';
-import TokenInfoSection from './TokenInfoSection';
+import HeroSection from "./HeroSection";
+import IconSection from "./IconSection";
+import StakingSection from "./StakingSection";
+import TokenInfoSection from "./TokenInfoSection";
 
-import './LRC.scss';
+import "./LRC.scss";
 
 class LRC extends React.Component {
   render() {

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import './ArticlesSection.scss';
-import Post from '../Components/Post.js';
+import "./ArticlesSection.scss";
+import Post from "../Components/Post.js";
 
 class ArticlesSection extends React.Component {
   render() {

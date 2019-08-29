@@ -1,23 +1,22 @@
 {
-    "headingDesign": "Design",
-    "designTitles":
-    {
-        "whitepaper": "Whitepaper",
-        "designDoc": "Design Doc",
-        "buildingBlocks": "Building Blocks"
-    },
+  "headingDesign": "Design",
+  "designTitles": {
+    "whitepaper": "Whitepaper",
+    "designDoc": "Design Doc",
+    "buildingBlocks": "Building Blocks"
+  },
 
-    "deprecated": "(Deprecated)",
-    "blocks":
-    {    "contracts": "Loopring 3.0 Smart Contracts·············the on-chain part ⟁",
+  "deprecated": "(Deprecated)",
+  "blocks": {
+    "contracts": "Loopring 3.0 Smart Contracts·············the on-chain part ⟁",
     "circuits": "Loopring 3.0 ZKP circuits·····················the off-chain part ⧉",
-        "zkRollupPost": "Vitalik's post on zkRollup ··············································· ◎",
-        "zkRollupTechTalk": "Vitalik's tech-talk on zkRollup······························ ◎",
-        "zkp": "Zero Knowledge Proof / ZKP···································· ◎",
-        "libsnark":"libsnark ································································ ◱",
-        "ethsnark":"ethsnarks ·················································· ◱",
-        "poseidon": "Poseidon hash function ················································· ◱",
-        "quadTree": "Quad-Merkle Tree ··························································· ◱",
-        "loopring3.0audit": "SECBIT Security Audit Report for Loopring 3.0··············· ◒"
-    }
+    "zkRollupPost": "Vitalik's post on zkRollup ··············································· ◎",
+    "zkRollupTechTalk": "Vitalik's tech-talk on zkRollup······························ ◎",
+    "zkp": "Zero Knowledge Proof / ZKP···································· ◎",
+    "libsnark": "libsnark ································································ ◱",
+    "ethsnark": "ethsnarks ·················································· ◱",
+    "poseidon": "Poseidon hash function ················································· ◱",
+    "quadTree": "Quad-Merkle Tree ··························································· ◱",
+    "loopring3.0audit": "SECBIT Security Audit Report for Loopring 3.0··············· ◒"
+  }
 }

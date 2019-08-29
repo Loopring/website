@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import './HeroSection.scss';
+import "./HeroSection.scss";
 
 class HeroSection extends React.Component {
   render() {

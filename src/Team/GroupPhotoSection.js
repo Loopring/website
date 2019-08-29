@@ -1,7 +1,7 @@
-import React from 'react';
-import './GroupPhotoSection.scss';
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
+import React from "react";
+import "./GroupPhotoSection.scss";
+import "../../node_modules/aos/dist/aos.css";
+import AOS from "aos";
 
 class GroupPhotoSection extends React.Component {
   constructor(props, context) {

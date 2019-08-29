@@ -1,13 +1,13 @@
-import React from 'react';
-import './OverviewSection.scss';
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
+import React from "react";
+import "./OverviewSection.scss";
+import "../../node_modules/aos/dist/aos.css";
+import AOS from "aos";
 
-import {withLocalize} from 'react-localize-redux';
-import {Translate} from 'react-localize-redux';
-import englishTranslation from './i18n/OverviewSection.en.json';
-import chineseTranslation from './i18n/OverviewSection.zh.json';
-import I18nComponent from '../Components/I18nComponent';
+import { withLocalize } from "react-localize-redux";
+import { Translate } from "react-localize-redux";
+import englishTranslation from "./i18n/OverviewSection.en.json";
+import chineseTranslation from "./i18n/OverviewSection.zh.json";
+import I18nComponent from "../Components/I18nComponent";
 
 class OverviewSection extends I18nComponent {
   constructor(props, context) {
@@ -111,7 +111,7 @@ class OverviewSection extends I18nComponent {
                 <p>
                   <Translate
                     id="section4.p2"
-                    options={{renderInnerHtml: true}}
+                    options={{ renderInnerHtml: true }}
                   />
                 </p>
                 <p>

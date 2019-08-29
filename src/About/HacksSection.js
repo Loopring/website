@@ -1,37 +1,37 @@
-import React from 'react';
+import React from "react";
 
-import {withLocalize} from 'react-localize-redux';
-import {Translate} from 'react-localize-redux';
-import englishTranslation from './i18n/HacksSection.en.json';
-import chineseTranslation from './i18n/HacksSection.zh.json';
-import I18nComponent from '../Components/I18nComponent';
+import { withLocalize } from "react-localize-redux";
+import { Translate } from "react-localize-redux";
+import englishTranslation from "./i18n/HacksSection.en.json";
+import chineseTranslation from "./i18n/HacksSection.zh.json";
+import I18nComponent from "../Components/I18nComponent";
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRadiationAlt } from "@fortawesome/free-solid-svg-icons";
 
-import './HacksSection.scss';
+import "./HacksSection.scss";
 
-const API = './json_en/hacks.json';
+const API = "./json_en/hacks.json";
 
 class HacksSection extends I18nComponent {
   constructor(props) {
     super(props, englishTranslation, chineseTranslation);
     this.hackStories = React.createRef();
     this.state = {
-      title: '...',
-      stories: [],
+      title: "...",
+      stories: []
     };
   }
 
   componentDidMount() {
     this.timer = setTimeout(
-        () =>
-          fetch(API)
-              .then((response) => response.json())
-              .then((data) => {
-                this.setState({total: data.total, stories: data.stories});
-              }),
-        1000
+      () =>
+        fetch(API)
+          .then(response => response.json())
+          .then(data => {
+            this.setState({ total: data.total, stories: data.stories });
+          }),
+      1000
     );
   }
 
@@ -62,7 +62,7 @@ class HacksSection extends I18nComponent {
               <FontAwesomeIcon icon={faRadiationAlt} size="5x" />
 
               <div className="total-figure">
-                {this.state.total}{' '}
+                {this.state.total}{" "}
                 <span className="total-figure-label">
                   — the crypto-assets hacked from centralized exchanges that
                   belongs to the users, and counting...

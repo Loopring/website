@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import {withLocalize} from 'react-localize-redux';
-import {Translate} from 'react-localize-redux';
-import englishTranslation from './i18n/FeaturesSection.en.json';
-import chineseTranslation from './i18n/FeaturesSection.zh.json';
-import I18nComponent from '../Components/I18nComponent';
+import { withLocalize } from "react-localize-redux";
+import { Translate } from "react-localize-redux";
+import englishTranslation from "./i18n/FeaturesSection.en.json";
+import chineseTranslation from "./i18n/FeaturesSection.zh.json";
+import I18nComponent from "../Components/I18nComponent";
 
-import './FeaturesSection.scss';
+import "./FeaturesSection.scss";
 
 class FeaturesSection extends I18nComponent {
   constructor(props) {
@@ -29,7 +29,7 @@ class FeaturesSection extends I18nComponent {
             <div data-aos="fade-up" className="column is-2 is-offset-2">
               <span className="has-leading-thick-arrow deprecated">
                 Loopring 1.0 (deprecated)
-              </span>{' '}
+              </span>{" "}
               ······
             </div>
             <div data-aos="fade-up" className="column column-features is-6">
@@ -41,7 +41,7 @@ class FeaturesSection extends I18nComponent {
             <div data-aos="fade-up" className="column is-2 is-offset-2">
               <span className="has-leading-thick-arrow deprecated">
                 Loopring 1.5 (deprecated)
-              </span>{' '}
+              </span>{" "}
               ······
             </div>
             <div data-aos="fade-up" className="column column-features is-6">
@@ -54,7 +54,7 @@ class FeaturesSection extends I18nComponent {
             <div data-aos="fade-up" className="column is-2 is-offset-2">
               <span className="has-leading-thick-arrow deprecated">
                 Loopring 2.0 (deprecated)
-              </span>{' '}
+              </span>{" "}
               ······
             </div>
             <div data-aos="fade-up" className="column column-features is-6">
@@ -67,7 +67,7 @@ class FeaturesSection extends I18nComponent {
             </div>
 
             <div data-aos="fade-up" className="column is-2 is-offset-2">
-              <span className="has-leading-thick-arrow">Loopring 3.0</span>{' '}
+              <span className="has-leading-thick-arrow">Loopring 3.0</span>{" "}
               ···························
             </div>
             <div data-aos="fade-up" className="column column-features is-6">

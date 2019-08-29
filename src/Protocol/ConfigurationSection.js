@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import {withLocalize} from 'react-localize-redux';
-import {Translate} from 'react-localize-redux';
-import englishTranslation from './i18n/ConfigurationSection.en.json';
-import chineseTranslation from './i18n/ConfigurationSection.zh.json';
-import I18nComponent from '../Components/I18nComponent';
+import { withLocalize } from "react-localize-redux";
+import { Translate } from "react-localize-redux";
+import englishTranslation from "./i18n/ConfigurationSection.en.json";
+import chineseTranslation from "./i18n/ConfigurationSection.zh.json";
+import I18nComponent from "../Components/I18nComponent";
 
-import './ConfigurationSection.scss';
+import "./ConfigurationSection.scss";
 
-const API = './json_en/configs.json';
+const API = "./json_en/configs.json";
 
 class ConfigurationSection extends I18nComponent {
   constructor(props) {
@@ -17,21 +17,21 @@ class ConfigurationSection extends I18nComponent {
       constants: [],
       dexParams: [],
       onchainParams: [],
-      offchainParams: [],
+      offchainParams: []
     };
   }
 
   componentDidMount() {
     fetch(API)
-        .then((response) => response.json())
-        .then((data) =>
-          this.setState({
-            constants: data.constants,
-            dexParams: data.dexParams,
-            onchainParams: data.onchainParams,
-            offchainParams: data.offchainParams,
-          })
-        );
+      .then(response => response.json())
+      .then(data =>
+        this.setState({
+          constants: data.constants,
+          dexParams: data.dexParams,
+          onchainParams: data.onchainParams,
+          offchainParams: data.offchainParams
+        })
+      );
   }
 
   render() {
@@ -43,7 +43,7 @@ class ConfigurationSection extends I18nComponent {
               <h1>
                 <Translate id="headingConfig" />
               </h1>
-            </div>{' '}
+            </div>{" "}
           </div>
 
           {/* ---*/}
@@ -60,7 +60,7 @@ class ConfigurationSection extends I18nComponent {
                   {this.state.constants.map((item, idx) => (
                     <li key={idx}>
                       <div className="has-leading-thin-arrow">
-                        <span className="name">{item.name}</span>{' '}
+                        <span className="name">{item.name}</span>{" "}
                         <span className="tag">
                           {item.type}: {item.value}
                         </span>
@@ -85,7 +85,7 @@ class ConfigurationSection extends I18nComponent {
                   {this.state.dexParams.map((item, idx) => (
                     <li key={idx}>
                       <div className="has-leading-thin-arrow">
-                        <span className="name">{item.name}</span>{' '}
+                        <span className="name">{item.name}</span>{" "}
                         <span className="tag">
                           {item.type}: {item.value}
                         </span>
@@ -108,7 +108,7 @@ class ConfigurationSection extends I18nComponent {
                   {this.state.onchainParams.map((item, idx) => (
                     <li key={idx}>
                       <div className="has-leading-thin-arrow">
-                        <span className="name">{item.name}</span>{' '}
+                        <span className="name">{item.name}</span>{" "}
                         <span className="tag">
                           {item.type}: {item.value}
                         </span>
@@ -134,7 +134,7 @@ class ConfigurationSection extends I18nComponent {
                   {this.state.offchainParams.map((item, idx) => (
                     <li key={idx}>
                       <div className="has-leading-thin-arrow">
-                        <span className="name">{item.name}</span>{' '}
+                        <span className="name">{item.name}</span>{" "}
                         <span className="tag">
                           {item.type}: {item.value}
                         </span>

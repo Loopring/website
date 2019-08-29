@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import './IconSection.scss';
+import "./IconSection.scss";
 
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
+import "../../node_modules/aos/dist/aos.css";
+import AOS from "aos";
 
 class IconSection extends React.Component {
   constructor(props, context) {
@@ -26,7 +26,7 @@ class IconSection extends React.Component {
                   className="is-rounded"
                   src="/images/lrc.svg"
                 />
-              </figure>{' '}
+              </figure>{" "}
             </div>
           </div>
         </div>

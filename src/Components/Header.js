@@ -1,12 +1,12 @@
-import React from 'react';
-import {NavLink} from 'react-router-dom';
-import {withLocalize} from 'react-localize-redux';
-import {Translate} from 'react-localize-redux';
-import englishTranslation from './i18n/Header.en.json';
-import chineseTranslation from './i18n/Header.zh.json';
-import I18nComponent from './I18nComponent';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import { withLocalize } from "react-localize-redux";
+import { Translate } from "react-localize-redux";
+import englishTranslation from "./i18n/Header.en.json";
+import chineseTranslation from "./i18n/Header.zh.json";
+import I18nComponent from "./I18nComponent";
 
-import './Header.scss';
+import "./Header.scss";
 
 class Header extends I18nComponent {
   constructor(props) {
@@ -17,13 +17,13 @@ class Header extends I18nComponent {
   }
 
   onBurgerClick(e) {
-    this.burgerRef.current.classList.toggle('is-active');
-    this.menuRef.current.classList.toggle('is-active');
+    this.burgerRef.current.classList.toggle("is-active");
+    this.menuRef.current.classList.toggle("is-active");
   }
 
   onLinkClick(e) {
-    this.burgerRef.current.classList.remove('is-active');
-    this.menuRef.current.classList.remove('is-active');
+    this.burgerRef.current.classList.remove("is-active");
+    this.menuRef.current.classList.remove("is-active");
   }
   render() {
     return (

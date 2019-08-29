@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import {withLocalize} from 'react-localize-redux';
-import {Translate} from 'react-localize-redux';
-import englishTranslation from './i18n/VersionsSection.en.json';
-import chineseTranslation from './i18n/VersionsSection.zh.json';
-import I18nComponent from '../Components/I18nComponent';
+import { withLocalize } from "react-localize-redux";
+import { Translate } from "react-localize-redux";
+import englishTranslation from "./i18n/VersionsSection.en.json";
+import chineseTranslation from "./i18n/VersionsSection.zh.json";
+import I18nComponent from "../Components/I18nComponent";
 
-import './VersionsSection.scss';
+import "./VersionsSection.scss";
 
 class VersionsSection extends I18nComponent {
   constructor(props) {
@@ -64,7 +64,7 @@ class VersionsSection extends I18nComponent {
                 <h2> Loopring 1.5</h2>
 
                 <p>
-                  Loopring 1.5 introduced another unique feature called{' '}
+                  Loopring 1.5 introduced another unique feature called{" "}
                   <i>Dual Authoring</i> to prevent front-running. Each order has
                   a randomly generated DA key-pair — the public key is part of
                   the order; the private key is not part of the order but is
@@ -118,7 +118,7 @@ class VersionsSection extends I18nComponent {
                   Loopring 3.0 is our newest, fastest, and most forward-looking
                   protocol. It provides a solution for the most outstanding
                   challenge of all decentralized protocols — performance, or
-                  more precisely,{' '}
+                  more precisely,{" "}
                   <b>much higher performance without tradeoff in security</b>.
                 </p>
                 <p>
@@ -134,7 +134,7 @@ class VersionsSection extends I18nComponent {
                 <p>
                   <a className="underline has-trailing-arrow" href="/protocol">
                     Click here
-                  </a>{' '}
+                  </a>{" "}
                   to learn about the technical details of Loopring 3.0.
                 </p>
               </div>

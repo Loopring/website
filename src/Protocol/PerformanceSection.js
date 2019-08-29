@@ -1,25 +1,25 @@
-import React from 'react';
-import Odometer from 'react-odometerjs';
+import React from "react";
+import Odometer from "react-odometerjs";
 
-import {withLocalize} from 'react-localize-redux';
-import {Translate} from 'react-localize-redux';
-import englishTranslation from './i18n/PerformanceSection.en.json';
-import chineseTranslation from './i18n/PerformanceSection.zh.json';
-import I18nComponent from '../Components/I18nComponent';
+import { withLocalize } from "react-localize-redux";
+import { Translate } from "react-localize-redux";
+import englishTranslation from "./i18n/PerformanceSection.en.json";
+import chineseTranslation from "./i18n/PerformanceSection.zh.json";
+import I18nComponent from "../Components/I18nComponent";
 
-import './PerformanceSection.scss';
+import "./PerformanceSection.scss";
 
 class PerformanceSection extends I18nComponent {
   constructor(props) {
     super(props, englishTranslation, chineseTranslation);
     this.state = {
       throughput: 100,
-      cost: this.isChinese() ? 0.02 : 0.003,
+      cost: this.isChinese() ? 0.02 : 0.003
     };
   }
 
   componentDidMount() {
-    setTimeout(() => this.setState({throughput: 350}), 50);
+    setTimeout(() => this.setState({ throughput: 350 }), 50);
     // setTimeout(data => this.setState({ cost: 0.002 }), 1000);
   }
 
@@ -51,7 +51,7 @@ class PerformanceSection extends I18nComponent {
                   <p>
                     <Translate
                       id="throughputDetail"
-                      options={{renderInnerHtml: true}}
+                      options={{ renderInnerHtml: true }}
                     />
                   </p>
                 </div>

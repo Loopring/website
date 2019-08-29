@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import englishTranslation from './i18n/StakingSection.en.json';
-import chineseTranslation from './i18n/StakingSection.zh.json';
-import JsonI18nComponent from '../Components/JsonI18nComponent';
+import englishTranslation from "./i18n/StakingSection.en.json";
+import chineseTranslation from "./i18n/StakingSection.zh.json";
+import JsonI18nComponent from "../Components/JsonI18nComponent";
 
-import './StakingSection.scss';
+import "./StakingSection.scss";
 
 class StakingSection extends JsonI18nComponent {
   constructor(props) {
