@@ -33,7 +33,9 @@ class PerformanceSection extends I18nComponent {
                 data-aos="fade-up"
                 className="column is-12 is-centered has-text-centered"
               >
-                <h1>Remarkable Throughput</h1>
+                <h1>
+                  <Translate id="headingThroughput" />
+                </h1>
                 <Odometer value={this.state.throughput} format="(,ddd)" />
               </div>
             </div>
@@ -137,7 +139,9 @@ class PerformanceSection extends I18nComponent {
                 data-aos="fade-up"
                 className="column is-12 is-centered has-text-centered"
               >
-                <h1>Low Settlement Cost</h1>
+                <h1>
+                  <Translate id="headingCost" />
+                </h1>
                 <Odometer
                   theme="white"
                   format="(ddd).dddd"

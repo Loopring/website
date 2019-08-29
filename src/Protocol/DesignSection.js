@@ -22,7 +22,9 @@ class DesignSection extends I18nComponent {
         <div className="container">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column has-text-centered  is-12">
-              <h1>Design</h1>
+              <h1>
+                <Translate id="headingDesign" />
+              </h1>
             </div>
           </div>
 
@@ -31,16 +33,18 @@ class DesignSection extends I18nComponent {
             <div data-aos="fade-up" className="column is-5 has-text-justify">
               <div className="content">
                 <h2>
-                  Whitepaper{' '}
+                  <Translate id="designTitles.whitepaper" />{' '}
                   <span className="deprecate is-unselectable">
-                    (Deprecated)
+                    <Translate id="deprecated" />
                   </span>
                 </h2>
                 <p>
                   There is no better source than our Design Doc for you to learn
                   about all the ideas behind Loopring 3.0.
                 </p>
-                <h2>Design Doc</h2>
+                <h2>
+                  <Translate id="designTitles.designDoc" />
+                </h2>
                 <p>
                   There is no better source than our Design Doc for you to learn
                   about all the ideas behind Loopring 3.0.
@@ -65,7 +69,9 @@ class DesignSection extends I18nComponent {
 
             <div data-aos="fade-up" className="column is-5">
               <div className="content">
-                <h2>Building Blocks</h2>
+                <h2>
+                  <Translate id="designTitles.buildingBlocks" />
+                </h2>
                 <ul className="links">
                   <li>
                     <a

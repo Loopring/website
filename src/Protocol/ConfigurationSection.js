@@ -40,7 +40,9 @@ class ConfigurationSection extends I18nComponent {
         <div className="container">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-12 has-text-centered">
-              <h1>DEX Configuration</h1>
+              <h1>
+                <Translate id="headingConfig" />
+              </h1>
             </div>{' '}
           </div>
 
@@ -48,7 +50,9 @@ class ConfigurationSection extends I18nComponent {
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-5">
               <div className="content">
-                <h2>Global Constants</h2>
+                <h2>
+                  <Translate id="configTitles.global" />
+                </h2>
                 <div className="remark">
                   A list of protocol-wise constants that will never be changed.
                 </div>
@@ -70,7 +74,9 @@ class ConfigurationSection extends I18nComponent {
 
             <div data-aos="fade-up" className="column is-5">
               <div className="content">
-                <h2>DEX Initialization Settings</h2>
+                <h2>
+                  <Translate id="configTitles.initial" />
+                </h2>
                 <div className="remark">
                   A list of per-DEX constants whose values are fixed once the
                   DEX is forged.
@@ -91,7 +97,9 @@ class ConfigurationSection extends I18nComponent {
               </div>
 
               <div className="content">
-                <h2>DEX On-Chain Parameters</h2>
+                <h2>
+                  <Translate id="configTitles.onchain" />
+                </h2>
                 <div className="remark">
                   A list of DEX smart contract parameters whose values can only
                   be changed by the DEX owner.
@@ -112,7 +120,9 @@ class ConfigurationSection extends I18nComponent {
               </div>
 
               <div className="content">
-                <h2>DEX off-Chain Parameters</h2>
+                <h2>
+                  <Translate id="configTitles.offchain" />
+                </h2>
                 <div className="remark">
                   A list of DEX circuit parameters whose values can only be
                   changed by DEX operators very frequently, e.g. per order,

@@ -1,1 +1,10 @@
-{}
+{
+    "headingDesign": "Design",
+    "designTitles": {
+        "whitepaper": "Whitepaper",
+        "designDoc": "Design Doc",
+        "buildingBlocks": "Building Blocks"
+    },
+
+    "deprecated": "(Deprecated)"
+}

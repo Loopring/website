@@ -1,1 +1,10 @@
-{}
+{
+    "headingConfig": "协议参数",
+    "configTitles":
+    {
+        "global": "协议全局不变量",
+        "initial": "交易所初始化参数",
+        "onchain": "交易所链上合约参数",
+        "offchain": "交易所链外电路参数"
+    }
+}

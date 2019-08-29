@@ -1,1 +1,10 @@
-{}
+{
+    "headingDesign": "协议设计",
+    "designTitles":
+    {
+        "whitepaper": "白皮书",
+        "designDoc": "设计文档",
+        "buildingBlocks": "重要组件"
+    },
+    "deprecated": "（已过期）"
+}
