@@ -26,6 +26,7 @@ class I18nComponent extends React.Component {
 
     AOS.init();
   }
+
   componentDidUpdate() {
     AOS.refresh();
   }

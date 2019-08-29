@@ -1,5 +1,63 @@
 {
 
-    "advisors": "顾问团队",
-    "contributors": "社区贡献者"
+    "headingAdvisors": "顾问团队",
+    "headingContributors": "社区贡献者",
+    "advisors": [
+    {
+        "name": "Xuefeng LI",
+        "title": "CTO of Zhongan Technology"
+    },
+    {
+        "name": "Yuhang GUO",
+        "title": "Council, Chain Blockchain Application Research Center"
+    },
+    {
+        "name": "Xuefeng LI",
+        "title": "CTO of Zhongan Technology"
+    },
+    {
+        "name": "Hongfei DA",
+        "title": "CTO of Zhongan Technology"
+    },
+    {
+        "name": "Yuhang GUO",
+        "title": "Council, Chain Blockchain Application Research Center"
+    },
+    {
+        "name": "Terence LAM",
+        "title": "CEO, Loopnest Blockchain Accelerator"
+    },
+    {
+        "name": "Alex CHENG",
+        "title": "CTO of VipKid, Senior VP of Baidu, Director at Google"
+    },
+    {
+        "name": "Yin CAO",
+        "title": "Founder, Energy Blockchain Lab"
+    },
+    {
+        "name": "Xiaohu GUO",
+        "title": "CS Professor, University of Texas"
+    },
+    {
+        "name": "Yipeng GUO",
+        "title": "President, Guangzhou Development Fund"
+    },
+    {
+        "name": "Huaxia XIA",
+        "title": "Chief Scientist, Meituan Group"
+    },
+    {
+        "name": "Mingchen Zhang",
+        "title": "Partner, Redpoint Ventures"
+    },
+    {
+        "name": "Shuo BAI",
+        "title": "Supervisor of ChinaLedger"
+    },
+    {
+        "name": "Steven LI",
+        "title": "Founder, Univalue Associates"
+    }],
+    "contributors":[]
 }
