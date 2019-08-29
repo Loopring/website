@@ -1,7 +1,5 @@
 import React from 'react';
 
-// import {withLocalize} from 'react-localize-redux';
-// import {Translate} from 'react-localize-redux';
 import englishTranslation from './i18n/ContributorsSection.en.json';
 import chineseTranslation from './i18n/ContributorsSection.zh.json';
 import JsonI18nComponent from '../Components/JsonI18nComponent';
