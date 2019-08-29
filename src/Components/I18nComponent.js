@@ -7,14 +7,14 @@ class I18nComponent extends React.Component {
     super(props);
     this.props.initialize({
       languages: [
-        {name: '中文', code: 'cn'},
         {name: 'English', code: 'en'},
+        {name: '中文', code: 'zh'},
       ],
       options: {renderToStaticMarkup},
     });
 
     this.props.addTranslationForLanguage(englishTranslation, 'en');
-    this.props.addTranslationForLanguage(chineseTranslation, 'cn');
+    this.props.addTranslationForLanguage(chineseTranslation, 'zh');
   }
 }
 

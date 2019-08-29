@@ -1,30 +1,26 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import {Route, HashRouter} from 'react-router-dom';
-import './index.scss';
 import ScrollToTop from './Components/ScrollToTop';
+import {
+  LocalizeProvider,
+  setActiveLanguage,
+  withLocalize,
+} from 'react-localize-redux';
 
 import About from './About/About';
 import Protocol from './Protocol/Protocol';
 import LRC from './LRC/LRC';
 import Team from './Team/Team';
 import Updates from './Updates/Updates';
-// import BlogPage from "./BlogPage";
 import NotFound from './NotFound';
-import * as serviceWorker from './serviceWorker';
-
-import {
-  LocalizeProvider,
-  getActiveLanguage,
-  setActiveLanguage,
-} from 'react-localize-redux';
-import {withLocalize} from 'react-localize-redux';
 
 class App extends React.Component {
-  render() {
-    setActiveLanguage('cn');
-    // console.log(getActiveLanguage(this.state.localize));
+  // constructor(props) {
+  //     super(props);
+  //     this.props.setActiveLanguage("zh");
+  // }
 
+  render() {
     return (
       <LocalizeProvider>
         <HashRouter>
@@ -43,4 +39,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default withLocalize(App);

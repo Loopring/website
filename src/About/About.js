@@ -18,10 +18,10 @@ class About extends React.Component {
     super(props);
     this.props.initialize({
       languages: [
-        {name: '中文', code: 'cn'},
+        {name: '中文', code: 'zh'},
         {name: 'English', code: 'en'},
       ],
-      options: {renderToStaticMarkup},
+      options: {renderToStaticMarkup, defaultLanguage: 'zh'},
     });
   }
 

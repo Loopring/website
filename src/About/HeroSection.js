@@ -3,7 +3,7 @@ import React from 'react';
 import {withLocalize} from 'react-localize-redux';
 import {Translate} from 'react-localize-redux';
 import englishTranslation from './HeroSection.en.json';
-import chineseTranslation from './HeroSection.cn.json';
+import chineseTranslation from './HeroSection.zh.json';
 import I18nComponent from '../Components/I18nComponent';
 
 import './HeroSection.scss';

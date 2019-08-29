@@ -6,7 +6,7 @@ import AOS from 'aos';
 import {withLocalize} from 'react-localize-redux';
 import {Translate} from 'react-localize-redux';
 import englishTranslation from './OverviewSection.en.json';
-import chineseTranslation from './OverviewSection.cn.json';
+import chineseTranslation from './OverviewSection.zh.json';
 import I18nComponent from '../Components/I18nComponent';
 
 class OverviewSection extends I18nComponent {
