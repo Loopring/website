@@ -1,30 +1,16 @@
 import React from 'react';
 
-import {withLocalize} from 'react-localize-redux';
-import {Translate} from 'react-localize-redux';
 import englishTranslation from './i18n/TokenInfoSection.en.json';
 import chineseTranslation from './i18n/TokenInfoSection.zh.json';
-import I18nComponent from '../Components/I18nComponent';
+import JsonI18nComponent from '../Components/JsonI18nComponent';
 
 import './TokenInfoSection.scss';
 
 const API = './json_en/lrc_info.json';
 
-class TokenInfoSection extends I18nComponent {
+class TokenInfoSection extends JsonI18nComponent {
   constructor(props) {
     super(props, englishTranslation, chineseTranslation);
-    this.state = {
-      exchanges: [],
-      facts: [],
-    };
-  }
-
-  componentDidMount() {
-    fetch(API)
-        .then((response) => response.json())
-        .then((data) =>
-          this.setState({facts: data.facts, exchanges: data.exchanges})
-        );
   }
 
   render() {
@@ -33,9 +19,7 @@ class TokenInfoSection extends I18nComponent {
         <div className="container is-centered has-text-centered">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-10 has-text-centered">
-              <h1>
-                <Translate id="headingInvest" />
-              </h1>
+              <h1>{this.state.I.heading}</h1>
             </div>
           </div>
 
@@ -44,11 +28,9 @@ class TokenInfoSection extends I18nComponent {
           <div className="columns is-centered is-multiline">
             <div className="column column-info is-5 has-text-left">
               <div data-aos="fade-up" className="content">
-                <h2>
-                  <Translate id="investTitles.tokenInfo" />
-                </h2>
+                <h2>{this.state.I.titles.tokenInfo}}</h2>
                 <ul>
-                  {this.state.facts.map((item, idx) => (
+                  {this.state.I.facts.map((item, idx) => (
                     <li key={idx}>
                       <span className="has-leading-thin-arrow key">
                         {item.key}:{' '}
@@ -59,9 +41,7 @@ class TokenInfoSection extends I18nComponent {
                 </ul>
               </div>
               <div data-aos="fade-up" className="content">
-                <h2>
-                  <Translate id="investTitles.migration" />
-                </h2>
+                <h2>{this.state.I.titles.migration}</h2>
                 <p className="has-text-justify">
                   On May 07 2019, we migrated LRC from{' '}
                   <a
@@ -103,11 +83,9 @@ class TokenInfoSection extends I18nComponent {
 
             <div className="column column-exchange  is-5 has-text-left">
               <div data-aos="fade-up" className="content">
-                <h2>
-                  <Translate id="investTitles.exchanges" />
-                </h2>
+                <h2>{this.state.I.titles.exchanges}</h2>
                 <ul>
-                  {this.state.exchanges.map((exchange, idx) => (
+                  {this.state.I.exchanges.map((exchange, idx) => (
                     <li key={idx}>
                       <a
                         target="_blank"
@@ -128,9 +106,7 @@ class TokenInfoSection extends I18nComponent {
                 </ul>
               </div>
               <div data-aos="fade-up" className="content">
-                <h2>
-                  <Translate id="investTitles.comingSoon" />
-                </h2>
+                <h2>{this.state.I.titles.comingSoon}</h2>
                 <ul>
                   <li className="coming-soon highlighted">
                     <a
@@ -144,10 +120,7 @@ class TokenInfoSection extends I18nComponent {
                       <span className="tag">LRC/ETH</span>
                       <span className="tag">LRC/USDT</span>
                     </a>
-                    <div className="footnote">
-                      WeDEX will be the first DEX built on top of Loopring 3.0.
-                      It is owned and will be run by an independent third-party.
-                    </div>
+                    <div className="footnote">{this.state.I.wedexFootnote}</div>
                   </li>
                   <li className="coming-soon ">
                     <a
@@ -162,10 +135,7 @@ class TokenInfoSection extends I18nComponent {
                       <span className="tag">LRC/USDT</span>
                       <span className="tag">LRC/WBTC</span>
                     </a>
-                    <div className="footnote">
-                      UpDEX will be a fully compliant Loopring DEX based in Hong
-                      Kong, China.
-                    </div>
+                    <div className="footnote">{this.state.I.updexFootnote}</div>
                   </li>
                 </ul>
               </div>
@@ -177,4 +147,4 @@ class TokenInfoSection extends I18nComponent {
   }
 }
 
-export default withLocalize(TokenInfoSection);
+export default TokenInfoSection;
