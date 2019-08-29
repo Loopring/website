@@ -1,56 +1,26 @@
 import React from "react";
 
-import { withLocalize } from "react-localize-redux";
-import { Translate } from "react-localize-redux";
 import englishTranslation from "./i18n/HacksSection.en.json";
 import chineseTranslation from "./i18n/HacksSection.zh.json";
-import I18nComponent from "../Components/I18nComponent";
+import JsonI18nComponent from "../Components/JsonI18nComponent";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRadiationAlt } from "@fortawesome/free-solid-svg-icons";
 
 import "./HacksSection.scss";
 
-const API = "./json_en/hacks.json";
-
-class HacksSection extends I18nComponent {
+class HacksSection extends JsonI18nComponent {
   constructor(props) {
     super(props, englishTranslation, chineseTranslation);
-    this.hackStories = React.createRef();
-    this.state = {
-      title: "...",
-      stories: []
-    };
-  }
-
-  componentDidMount() {
-    this.timer = setTimeout(
-      () =>
-        fetch(API)
-          .then(response => response.json())
-          .then(data => {
-            this.setState({ total: data.total, stories: data.stories });
-          }),
-      1000
-    );
-  }
-
-  componentWillUnmount() {
-    clearTimeout(this.timer);
   }
 
   render() {
     return (
-      <section
-        ref={this.hackStories}
-        className="section section-about-hacks is-large has-background-grey"
-      >
+      <section className="section section-about-hacks is-large has-background-grey">
         <div className="container">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-12 has-text-centered">
-              <h1>
-                <Translate id="headingHacks" />
-              </h1>
+              <h1>{this.state.I.heading}</h1>
             </div>
           </div>
           {/* ---*/}
@@ -61,19 +31,13 @@ class HacksSection extends I18nComponent {
             >
               <FontAwesomeIcon icon={faRadiationAlt} size="5x" />
 
-              <div className="total-figure">
-                {this.state.total}{" "}
-                <span className="total-figure-label">
-                  — the crypto-assets hacked from centralized exchanges that
-                  belongs to the users, and counting...
-                </span>
-              </div>
+              <div className="total-figure">{this.state.I.total}</div>
             </div>
             <div
               data-aos="fade-up"
               className="column is-9 is-12-mobile stories"
             >
-              {this.state.stories.map((story, idx) => (
+              {this.state.I.stories.map((story, idx) => (
                 <div className="columns" key={idx}>
                   <div
                     data-aos="fade-up"
@@ -117,4 +81,4 @@ class HacksSection extends I18nComponent {
   }
 }
 
-export default withLocalize(HacksSection);
+export default HacksSection;
