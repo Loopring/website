@@ -13,12 +13,18 @@ import Updates from './Updates/Updates';
 import NotFound from './NotFound';
 import * as serviceWorker from './serviceWorker';
 
-import {LocalizeProvider, setActiveLanguage} from 'react-localize-redux';
+import {
+  LocalizeProvider,
+  getActiveLanguage,
+  setActiveLanguage,
+} from 'react-localize-redux';
 import {withLocalize} from 'react-localize-redux';
 
 class App extends React.Component {
   render() {
     setActiveLanguage('cn');
+    // console.log(getActiveLanguage(this.state.localize));
+
     return (
       <LocalizeProvider>
         <HashRouter>
