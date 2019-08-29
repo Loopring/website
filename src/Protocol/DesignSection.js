@@ -48,10 +48,13 @@ class DesignSection extends I18nComponent {
                       技术白皮书
                     </a>
                     。但对最新的3.0版本，我们选择直接发布更具技术细节的
-                    <a className="highlight underline" href="">
+                    <a
+                      className="highlight underline"
+                      href="https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/DESIGN.md"
+                    >
                       设计文档
                     </a>
-                    （目前只有英文版）。如果您想了解路印协议的设计背景和理念，我们白皮书中相关的章节依然会提供很好参考。
+                    （目前只有英文版）。如果您想了解路印协议的设计背景和理念，我们白皮书中相关的章节依然会提供很好的参考。
                   </p>
                 ) : (
                   <p>
@@ -64,7 +67,10 @@ class DesignSection extends I18nComponent {
                     </a>{" "}
                     for version 1.0, 1.5, and 2.0. For 3.0, however, we decided
                     to share our{" "}
-                    <a className="highlight underline" href="">
+                    <a
+                      className="highlight underline"
+                      href="https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/DESIGN.md"
+                    >
                       Design Doc
                     </a>{" "}
                     as it provides a lot more details than a whitepaper. Many
@@ -106,6 +112,16 @@ class DesignSection extends I18nComponent {
                   <Translate id="designTitles.buildingBlocks" />
                 </h2>
                 <ul className="links">
+                  <li>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="highlight has-leading-thick-arrow highlight"
+                      href="https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/DESIGN.md"
+                    >
+                      <Translate id="blocks.designdoc" />
+                    </a>
+                  </li>
                   <li>
                     <a
                       target="_blank"
