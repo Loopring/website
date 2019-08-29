@@ -1,15 +1,16 @@
 import React from 'react';
-import './ContributorsSection.scss';
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
 
-class ContributorsSection extends React.Component {
-  constructor(props, context) {
-    super(props, context);
-    AOS.init();
-  }
-  componentDidUpdate() {
-    AOS.refresh();
+import {withLocalize} from 'react-localize-redux';
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './i18n/ContributorsSection.en.json';
+import chineseTranslation from './i18n/ContributorsSection.zh.json';
+import I18nComponent from '../Components/I18nComponent';
+
+import './ContributorsSection.scss';
+
+class ContributorsSection extends I18nComponent {
+  constructor(props) {
+    super(props, englishTranslation, chineseTranslation);
   }
 
   render() {
@@ -22,7 +23,9 @@ class ContributorsSection extends React.Component {
                 data-aos="fade-up"
                 className="column is-6 has-text-centered has-text-right-tablet"
               >
-                <h1>Advisors</h1>
+                <h1>
+                  <Translate id="advisors" />
+                </h1>
               </div>
               <div data-aos="fade-up" className="column is-6">
                 <ul>
@@ -116,7 +119,9 @@ class ContributorsSection extends React.Component {
                 data-aos="fade-up"
                 className="column is-3 has-text-centered has-text-right-tablet"
               >
-                <h1>Contributors</h1>
+                <h1>
+                  <Translate id="contributors" />
+                </h1>
               </div>
               <div data-aos="fade-up" className="column is-9">
                 <ul>
@@ -260,4 +265,4 @@ class ContributorsSection extends React.Component {
   }
 }
 
-export default ContributorsSection;
+export default withLocalize(ContributorsSection);

@@ -1,20 +1,24 @@
 import React from 'react';
+
+import {withLocalize} from 'react-localize-redux';
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './i18n/ConfigurationSection.en.json';
+import chineseTranslation from './i18n/ConfigurationSection.zh.json';
+import I18nComponent from '../Components/I18nComponent';
+
 import './ConfigurationSection.scss';
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
+
 const API = './json_en/configs.json';
 
-class ConfigurationSection extends React.Component {
+class ConfigurationSection extends I18nComponent {
   constructor(props) {
-    super(props);
-
+    super(props, englishTranslation, chineseTranslation);
     this.state = {
       constants: [],
       dexParams: [],
       onchainParams: [],
       offchainParams: [],
     };
-    AOS.init();
   }
 
   componentDidMount() {
@@ -138,4 +142,4 @@ class ConfigurationSection extends React.Component {
   }
 }
 
-export default ConfigurationSection;
+export default withLocalize(ConfigurationSection);

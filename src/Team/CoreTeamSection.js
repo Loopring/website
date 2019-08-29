@@ -1,15 +1,16 @@
 import React from 'react';
-import './CoreTeamSection.scss';
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
 
-class CoreTeamSection extends React.Component {
-  constructor(props, context) {
-    super(props, context);
-    AOS.init();
-  }
-  componentDidUpdate() {
-    AOS.refresh();
+import {withLocalize} from 'react-localize-redux';
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './i18n/CoreTeamSection.en.json';
+import chineseTranslation from './i18n/CoreTeamSection.zh.json';
+import I18nComponent from '../Components/I18nComponent';
+
+import './CoreTeamSection.scss';
+
+class CoreTeamSection extends I18nComponent {
+  constructor(props) {
+    super(props, englishTranslation, chineseTranslation);
   }
   render() {
     return (
@@ -20,7 +21,9 @@ class CoreTeamSection extends React.Component {
               data-aos="fade-up"
               className="column is-5 has-text-centered has-text-right-tablet"
             >
-              <h1>Core Team</h1>
+              <h1>
+                <Translate id="heading" />
+              </h1>
             </div>
             <div data-aos="fade-up" className="column is-7">
               <ul>
@@ -204,4 +207,4 @@ class CoreTeamSection extends React.Component {
   }
 }
 
-export default CoreTeamSection;
+export default withLocalize(CoreTeamSection);

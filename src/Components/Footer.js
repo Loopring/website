@@ -1,9 +1,16 @@
 import React from 'react';
+
+import {withLocalize} from 'react-localize-redux';
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './i18n/Footer.en.json';
+import chineseTranslation from './i18n/Footer.zh.json';
+import I18nComponent from './I18nComponent';
+
 import './Footer.scss';
 
-class Footer extends React.Component {
+class Footer extends I18nComponent {
   constructor(props) {
-    super(props);
+    super(props, englishTranslation, chineseTranslation);
   }
 
   render() {
@@ -12,7 +19,9 @@ class Footer extends React.Component {
         <div className="content has-text-centered">
           <ul>
             <li>
-              <a href="mailto:foundation@loopring.org">Email</a>
+              <a href="mailto:foundation@loopring.org">
+                <Translate id="email" />
+              </a>
             </li>
             ⭑
             <li>
@@ -20,7 +29,9 @@ class Footer extends React.Component {
             </li>
             ⭑
             <li>
-              <a href="https://twitter.com/loopringorg">Twitter</a>
+              <a href="https://twitter.com/loopringorg">
+                <Translate id="twitter" />
+              </a>
             </li>
             ⭑
             <li>
@@ -43,11 +54,13 @@ class Footer extends React.Component {
               <a href="https://open.kakao.com/o/gJbSZdF">Kakao</a>
             </li>
           </ul>
-          <p className="has-text-grey">Loopring Project Ltd</p>
+          <p className="has-text-grey">
+            <Translate id="org" />
+          </p>
         </div>
       </footer>
     );
   }
 }
 
-export default Footer;
+export default withLocalize(Footer);

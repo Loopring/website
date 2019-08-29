@@ -1,15 +1,16 @@
 import React from 'react';
-import './FeaturesSection.scss';
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
 
-class FeaturesSection extends React.Component {
-  constructor(props, context) {
-    super(props, context);
-    AOS.init();
-  }
-  componentDidUpdate() {
-    AOS.refresh();
+import {withLocalize} from 'react-localize-redux';
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './i18n/FeaturesSection.en.json';
+import chineseTranslation from './i18n/FeaturesSection.zh.json';
+import I18nComponent from '../Components/I18nComponent';
+
+import './FeaturesSection.scss';
+
+class FeaturesSection extends I18nComponent {
+  constructor(props) {
+    super(props, englishTranslation, chineseTranslation);
   }
 
   render() {
@@ -89,4 +90,4 @@ class FeaturesSection extends React.Component {
   }
 }
 
-export default FeaturesSection;
+export default withLocalize(FeaturesSection);

@@ -1,14 +1,17 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
+import {withLocalize} from 'react-localize-redux';
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './i18n/Header.en.json';
+import chineseTranslation from './i18n/Header.zh.json';
+import I18nComponent from './I18nComponent';
+
 import './Header.scss';
 
-import {NavLink} from 'react-router-dom';
-
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
-
-class Header extends React.Component {
+class Header extends I18nComponent {
   constructor(props) {
-    super(props);
+    super(props, englishTranslation, chineseTranslation);
+
     this.burgerRef = React.createRef();
     this.menuRef = React.createRef();
   }
@@ -59,7 +62,9 @@ class Header extends React.Component {
               to="/"
               onClick={this.onLinkClick.bind(this)}
             >
-              <div className="pageLink">About</div>
+              <div className="pageLink">
+                <Translate id="about" />
+              </div>
             </NavLink>
             <NavLink
               activeClassName="active"
@@ -67,7 +72,9 @@ class Header extends React.Component {
               to="/protocol"
               onClick={this.onLinkClick.bind(this)}
             >
-              <div className="pageLink">Loopring 3.0</div>
+              <div className="pageLink">
+                <Translate id="loopring30" />
+              </div>
             </NavLink>
             <NavLink
               activeClassName="active"
@@ -75,7 +82,9 @@ class Header extends React.Component {
               to="/lrc"
               onClick={this.onLinkClick.bind(this)}
             >
-              <div className="pageLink">LRC</div>
+              <div className="pageLink">
+                <Translate id="lrc" />
+              </div>
             </NavLink>
             <NavLink
               activeClassName="active"
@@ -83,7 +92,9 @@ class Header extends React.Component {
               to="/team"
               onClick={this.onLinkClick.bind(this)}
             >
-              <div className="pageLink">Team</div>
+              <div className="pageLink">
+                <Translate id="team" />
+              </div>
             </NavLink>
             {/*   <NavLink
                 activeClassName="active"
@@ -99,4 +110,4 @@ class Header extends React.Component {
   }
 }
 
-export default Header;
+export default withLocalize(Header);

@@ -1,7 +1,18 @@
 import React from 'react';
+
+import {withLocalize} from 'react-localize-redux';
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './i18n/HeroSection.en.json';
+import chineseTranslation from './i18n/HeroSection.zh.json';
+import I18nComponent from '../Components/I18nComponent';
+
 import './HeroSection.scss';
 
-class HeroSection extends React.Component {
+class HeroSection extends I18nComponent {
+  constructor(props) {
+    super(props, englishTranslation, chineseTranslation);
+  }
+
   render() {
     return (
       <section className="section section-about-hero is-large">
@@ -19,10 +30,10 @@ class HeroSection extends React.Component {
                   y="35%"
                   dy="1.58em"
                 >
-                  LOOPRING
+                  <Translate id="loopring" />
                 </text>
                 <text id="subtitle" x="50%" y="40%" dy="9.8em">
-                  High-Performance Ethereum DEX Protocol
+                  <Translate id="slogan" />
                 </text>
               </mask>
             </defs>
@@ -34,4 +45,4 @@ class HeroSection extends React.Component {
   }
 }
 
-export default HeroSection;
+export default withLocalize(HeroSection);

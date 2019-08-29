@@ -1,20 +1,22 @@
 import React from 'react';
 
-import './TokenInfoSection.scss';
+import {withLocalize} from 'react-localize-redux';
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './i18n/TokenInfoSection.en.json';
+import chineseTranslation from './i18n/TokenInfoSection.zh.json';
+import I18nComponent from '../Components/I18nComponent';
 
-import '../../node_modules/aos/dist/aos.css';
-import AOS from 'aos';
+import './TokenInfoSection.scss';
 
 const API = './json_en/lrc_info.json';
 
-class TokenInfoSection extends React.Component {
-  constructor(props, context) {
-    super(props, context);
+class TokenInfoSection extends I18nComponent {
+  constructor(props) {
+    super(props, englishTranslation, chineseTranslation);
     this.state = {
       exchanges: [],
       facts: [],
     };
-    AOS.init();
   }
 
   componentDidMount() {
@@ -23,10 +25,6 @@ class TokenInfoSection extends React.Component {
         .then((data) =>
           this.setState({facts: data.facts, exchanges: data.exchanges})
         );
-  }
-
-  componentDidUpdate() {
-    AOS.refresh();
   }
 
   render() {
@@ -169,4 +167,4 @@ class TokenInfoSection extends React.Component {
   }
 }
 
-export default TokenInfoSection;
+export default withLocalize(TokenInfoSection);
