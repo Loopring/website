@@ -103,7 +103,7 @@ class OverviewSection extends I18nComponent {
             <div data-aos="fade-up" className="column is-4 has-text-justify">
               <div className="content">
                 <h2>
-                  <Translate id="subtitle4" />
+                  <Translate id="section4.title" />
                 </h2>
                 <p>
                   Most DEX protocols suffer terrible performance issues — the
@@ -113,29 +113,10 @@ class OverviewSection extends I18nComponent {
                   these protocols as their primary methods of trading.
                 </p>
                 <p>
-                  We believe the way most other trading protocols use the
-                  underlying blockchain is fundamentally wrong. Loopring takes a
-                  different approach known as{' '}
-                  <a
-                    className="highlight underline has-trailing-arrow"
-                    href="https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    zkRollup proposed by Vitalik Buterin
-                  </a>
-                  , and migrates most computations off the blockchain and only
-                  broadcast exchanges' new state roots and their corresponding
-                  proofs onto the blockchain. In other words, the Loopring
-                  protocol uses the underlying Ethereum blockchain mainly as a
-                  data layer and a Zero-Knowledge Proof verification thin-logic
-                  layer. As a result, Loopring's throughput is as high as 350
-                  trades per second with on-chain data-availability is on, and
-                  6,900 trades per second without. The post-Istanbul throughput
-                  will become 1,400 and 10,500 respectively. The cost per trade
-                  settlement is as small as one-third of a US cent, which can be
-                  further optimized with different approaches such as GPU-based
-                  proof generation and recursive SNARKs.
+                  <Translate
+                    id="section4.p2"
+                    options={{renderInnerHtml: true}}
+                  />
                 </p>
                 <p>
                   We believe Loopring's performance is sufficient for

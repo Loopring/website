@@ -10,5 +10,11 @@
     },
     "subtitle2": "路印的安全性保障",
     "subtitle3": "中心化交易所的救赎",
-    "subtitle4": "路印突出的性能"
+    "section4":
+    {
+        "title": "路印突出的性能",
+        "p1": "Most DEX protocols suffer terrible performance issues — the throughput is too low while the cost is too high. The performance issues prevent those protocol from being massively adopted as no professional market makers or traders will use these protocols as their primary methods of trading.",
+        "p2": "We believe the way most other trading protocols use the underlying blockchain is fundamentally wrong. Loopring takes a different approach known as <a class='highlight underline has-trailing-arrow'href='https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477'target='_blank'rel='noopener noreferrer'> zkRollup proposed by Vitalik Buterin </a> , and migrates most computations off the blockchain and only broadcast exchanges' new state roots and their corresponding proofs onto the blockchain. In other words, the Loopring protocol uses the underlying Ethereum blockchain mainly as a data layer and a Zero-Knowledge Proof verification thin-logic layer. As a result, Loopring's throughput is as high as 350 trades per second with on-chain data-availability is on, and 6,900 trades per second without. The post-Istanbul throughput will become 1,400 and 10,500 respectively. The cost per trade settlement is as small as one-third of a US cent, which can be further optimized with different approaches such as GPU-based proof generation and recursive SNARKs.",
+        "p3": "We believe Loopring's performance is sufficient for professional traders and market makers to take advantage of bots for trading automation. Decentralized exchanges built on top of Loopring 3.0 will soon beat many centralized ones."
+    }
 }
