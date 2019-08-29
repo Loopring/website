@@ -1,169 +1,162 @@
 {
-    "heading": "价值投资LRC",
-    "titles":
+  "heading": "价值投资LRC",
+  "titles": {
+    "tokenInfo": "代币基本面",
+    "exchanges": "可交易平台",
+    "migration": "LRC代币完成升级",
+    "comingSoon": "即将登录"
+  },
+  "wedexFootnote": "WeDEX将成为第一个基于路印协议3.0的高性能去中心化交易所。WeDEX将完全由第三方独立运营。",
+  "updexFootnote": "UpDEX将是中国香港的确第一个基于路印协议3.0的，合规的去中心化交易所。",
+  "facts": [
     {
-        "tokenInfo": "代币基本面",
-        "exchanges": "可交易平台",
-        "migration": "LRC代币完成升级",
-        "comingSoon": "即将登录"
-    },
-        "wedexFootnote": "WeDEX将成为第一个基于路印协议3.0的高性能去中心化交易所。WeDEX将完全由第三方独立运营。",
-   "updexFootnote": "UpDEX将是中国香港的确第一个基于路印协议3.0的，合规的去中心化交易所。",
-    "facts": [
-    {
-        "key": "代币版本",
-        "value": "2.0"
-    },
-    {
-        "key": "代币地址",
-        "value": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
+      "key": "代币版本",
+      "value": "2.0"
     },
     {
-        "key": "代币ENS",
-        "value": "LRCTOKEN.eth"
+      "key": "代币地址",
+      "value": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
     },
     {
-        "key": "ERC20兼容",
-        "value": "是"
+      "key": "代币ENS",
+      "value": "LRCTOKEN.eth"
     },
     {
-        "key": "精度位数",
-        "value": "18"
+      "key": "ERC20兼容",
+      "value": "是"
     },
     {
-        "key": "符号",
-        "value": "LRC"
+      "key": "精度位数",
+      "value": "18"
     },
     {
-        "key": "发行量",
-        "value": "1,375,076,040"
+      "key": "符号",
+      "value": "LRC"
     },
     {
-        "key": "流通量",
-        "value": "898,305,000（约65%）"
+      "key": "发行量",
+      "value": "1,375,076,040"
     },
     {
-        "key": "销售起始日",
-        "value": "2017年8月1日"
+      "key": "流通量",
+      "value": "898,305,000（约65%）"
     },
     {
-        "key": "销售结束日",
-        "value": "2017年8月16日"
+      "key": "销售起始日",
+      "value": "2017年8月1日"
     },
     {
-        "key": "销售价格",
-        "value": "0.0002 以太"
+      "key": "销售结束日",
+      "value": "2017年8月16日"
     },
     {
-        "key": "历史最高价",
-        "value": "18.50 人民币"
+      "key": "销售价格",
+      "value": "0.0002 以太"
     },
     {
-        "key": "历史最低价",
-        "value": "0.20 人民币（2017年9月5日）"
-    }],
-    "exchanges": [
-        {
-            "name": "CoinMex",
-            "url": "https://www.coinmex.com/",
-            "pairs": ["USDT", "ETH"]
-        },
-        {
-            "name": "OKEX",
-            "url": "https://www.okex.com",
-            "pairs": ["USDT", "BTC", "ETH"]
-        },
-        {
-            "name": "币安",
-            "url": "https://www.binance.com",
-            "pairs": ["BTC", "ETH"]
-        },
-        {
-            "name": "BITKER",
-            "url": "https://www.bitker.com/",
-            "pairs": ["ETH"]
-        },
-        {
-            "name": "龙网",
-            "url": "https://dragonex.io",
-            "pairs": ["USDT"]
-        },
-        {
-            "name": "Dcoin",
-            "url": "https://www.dcoin.com/",
-            "pairs": ["USDT"]
-        },
-        {
-            "name": "Bitrue",
-            "url": "https://www.bitrue.com/",
-            "pairs": ["BTC", "ETH"]
-        },
-        {
-            "name": "Gate.io",
-            "url": "https://gate.io/",
-            "pairs": ["USDT", "BTC", "ETH"]
-        },
-        {
-            "name": "Bittrex",
-            "url": "https://bittrex.com/",
-            "pairs": ["BTC"]
-        }
+      "key": "历史最高价",
+      "value": "18.50 人民币"
+    },
+    {
+      "key": "历史最低价",
+      "value": "0.20 人民币（2017年9月5日）"
+    }
+  ],
+  "exchanges": [
+    {
+      "name": "CoinMex",
+      "url": "https://www.coinmex.com/",
+      "pairs": ["USDT", "ETH"]
+    },
+    {
+      "name": "OKEX",
+      "url": "https://www.okex.com",
+      "pairs": ["USDT", "BTC", "ETH"]
+    },
+    {
+      "name": "币安",
+      "url": "https://www.binance.com",
+      "pairs": ["BTC", "ETH"]
+    },
+    {
+      "name": "BITKER",
+      "url": "https://www.bitker.com/",
+      "pairs": ["ETH"]
+    },
+    {
+      "name": "龙网",
+      "url": "https://dragonex.io",
+      "pairs": ["USDT"]
+    },
+    {
+      "name": "Dcoin",
+      "url": "https://www.dcoin.com/",
+      "pairs": ["USDT"]
+    },
+    {
+      "name": "Bitrue",
+      "url": "https://www.bitrue.com/",
+      "pairs": ["BTC", "ETH"]
+    },
+    {
+      "name": "Gate.io",
+      "url": "https://gate.io/",
+      "pairs": ["USDT", "BTC", "ETH"]
+    },
+    {
+      "name": "Bittrex",
+      "url": "https://bittrex.com/",
+      "pairs": ["BTC"]
+    },
 
-        ,
-        {
-            "name": "Alterdice",
-            "url": "https://alterdice.com/",
-            "pairs": ["BTC", "ETH"]
-        }
+    {
+      "name": "Alterdice",
+      "url": "https://alterdice.com/",
+      "pairs": ["BTC", "ETH"]
+    },
 
-        ,
-        {
-            "name": "Ethfinex",
-            "url": "https://www.ethfinex.com/",
-            "pairs": ["USD", "BTC", "ETH"]
-        }
+    {
+      "name": "Ethfinex",
+      "url": "https://www.ethfinex.com/",
+      "pairs": ["USD", "BTC", "ETH"]
+    },
 
+    {
+      "name": "Kyber Network",
+      "url": "https://kyber.network/",
+      "pairs": ["ETH"]
+    },
+    {
+      "name": "HitBTC",
+      "url": "https://www.hitbtc.com/",
+      "pairs": ["BTC", "ETH"]
+    },
 
-        ,
-        {
-            "name": "Kyber Network",
-            "url": "https://kyber.network/",
-            "pairs": ["ETH"]
-        },
-        {
-            "name": "HitBTC",
-            "url": "https://www.hitbtc.com/",
-            "pairs": ["BTC", "ETH"]
-        }
+    {
+      "name": "Upbit",
+      "url": "https://upbit.com/",
+      "pairs": ["BTC"]
+    },
 
-        ,
-        {
-            "name": "Upbit",
-            "url": "https://upbit.com/",
-            "pairs": ["BTC"]
-        }
-
-        ,
-        {
-            "name": "Livecoin",
-            "url": "https://www.livecoin.net/",
-            "pairs": ["BTC"]
-        },
-        {
-            "name": "YoBit",
-            "url": "https://yobit.net",
-            "pairs": ["BTC"]
-        },
-        {
-            "name": "CoinExchange",
-            "url": " https://www.coinexchange.io/",
-            "pairs": ["BTC", "ETH"]
-        },
-        {
-            "name": "Dolomite",
-            "url": "https://beta.dolomite.io/exchange/LRC-DAI",
-            "pairs": ["DAI"]
-        }
-
-    ]
+    {
+      "name": "Livecoin",
+      "url": "https://www.livecoin.net/",
+      "pairs": ["BTC"]
+    },
+    {
+      "name": "YoBit",
+      "url": "https://yobit.net",
+      "pairs": ["BTC"]
+    },
+    {
+      "name": "CoinExchange",
+      "url": " https://www.coinexchange.io/",
+      "pairs": ["BTC", "ETH"]
+    },
+    {
+      "name": "Dolomite",
+      "url": "https://beta.dolomite.io/exchange/LRC-DAI",
+      "pairs": ["DAI"]
+    }
+  ]
 }

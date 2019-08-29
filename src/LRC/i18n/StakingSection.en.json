@@ -1,26 +1,25 @@
 {
-    "heading": "Utility & Staking",
-    "utilities": [{
-            "title": "1/ Earn Protocol Fees, by Holders",
-            "symbol": "☉",
-            "detail": "Every LRC holder can stake LRC to earn part of 70% of the protocol fees of all exchanges built on top of Loopring— 20 % will fund the Loopring DAO and the remaining 10 % will be burned. "
-        },
-        {
-            "title": "2/ Build up DEX Reputation, by DEX Owners",
-            "symbol": "☐",
-            "detail": "An exchange owner needs to stake LRC for economic security and builing up its reputation."
-        },
-        {
-            "title": "3/ Lower Protocol Fees, by DEX Owners",
-            "symbol": "⟁",
-            "detail": "LRC can be staked to lower the protocol fees on a specific exchange by an exchange owner, market makers and high-frequency traders."
-        },
-        {
-            "title": "4/ Lower Protocol Fees, by Traders",
-            "symbol": "∖",
-            "detail": "LRC can be staked to lower the protocol fees on a specific exchange by an exchange owner, market makers and high-frequency traders. "
-        }
-
-    ]
-
+  "heading": "Utility & Staking",
+  "utilities": [
+    {
+      "title": "1/ Earn Protocol Fees, by Holders",
+      "symbol": "☉",
+      "detail": "Every LRC holder can stake LRC to earn part of 70% of the protocol fees of all exchanges built on top of Loopring— 20 % will fund the Loopring DAO and the remaining 10 % will be burned. "
+    },
+    {
+      "title": "2/ Build up DEX Reputation, by DEX Owners",
+      "symbol": "☐",
+      "detail": "An exchange owner needs to stake LRC for economic security and builing up its reputation."
+    },
+    {
+      "title": "3/ Lower Protocol Fees, by DEX Owners",
+      "symbol": "⟁",
+      "detail": "LRC can be staked to lower the protocol fees on a specific exchange by an exchange owner, market makers and high-frequency traders."
+    },
+    {
+      "title": "4/ Lower Protocol Fees, by Traders",
+      "symbol": "∖",
+      "detail": "LRC can be staked to lower the protocol fees on a specific exchange by an exchange owner, market makers and high-frequency traders. "
+    }
+  ]
 }

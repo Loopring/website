@@ -23,7 +23,7 @@
   },
   "scripts": {
     "lint": "eslint 'src/**/*.{js,jsx}' --fix",
-    "format": "prettier --write 'src/**/*.{js,jsx,css,scss}'",
+    "format": "prettier --write 'src/**/*.{js,jsx,css,scss,json}'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

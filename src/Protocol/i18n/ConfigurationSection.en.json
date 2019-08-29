@@ -1,10 +1,9 @@
 {
-    "headingConfig": "DEX Configuration",
-    "configTitles":
-    {
-        "global": "Global Constants",
-        "initial": "DEX Initialization Parameters",
-        "onchain": "DEX On-Chain Parameters",
-        "offchain": "DEX Off-Chain Parameters"
-    }
+  "headingConfig": "DEX Configuration",
+  "configTitles": {
+    "global": "Global Constants",
+    "initial": "DEX Initialization Parameters",
+    "onchain": "DEX On-Chain Parameters",
+    "offchain": "DEX Off-Chain Parameters"
+  }
 }
