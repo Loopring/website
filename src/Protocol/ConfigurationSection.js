@@ -129,7 +129,7 @@ class ConfigurationSection extends I18nComponent {
                   token, trading-pair, or even per-trade. The maximum values are
                   0.63% in steps of 0.01% (1 bips)
                 </div>
-                .
+
                 <ul>
                   {this.state.offchainParams.map((item, idx) => (
                     <li key={idx}>

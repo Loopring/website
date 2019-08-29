@@ -16,7 +16,7 @@
     margin-top: -20px;
     background-color: $grey-lighter;
     padding: 20px;
-    border-left: 2px solid $grey;
+    border-left: 2px solid $grey-dark;
   }
 
   .name {
@@ -32,7 +32,7 @@
     margin-left: 20px;
   }
   .meaning {
-    text-align: justify;
+    // text-align: justify;
     padding: 4px 26px;
   }
 }
