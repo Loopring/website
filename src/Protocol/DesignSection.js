@@ -216,7 +216,7 @@ class DesignSection extends I18nComponent {
                       className="highlight has-leading-thick-arrow highlight"
                       href="https://en.wikipedia.org/wiki/Merkle_tree"
                     >
-                      <Translate id="blocks.quardTree" />
+                      <Translate id="blocks.quadTree" />
                     </a>
                   </li>
 

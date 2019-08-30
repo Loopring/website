@@ -15,8 +15,8 @@ class Footer extends I18nComponent {
 
   render() {
     return (
-      <footer className="footer has-background-white">
-        <div className="content has-text-centered">
+      <footer className="footer is-centered has-background-white">
+        <div className="container is-centered has-text-centered">
           <ul>
             <li>
               <a href="mailto:foundation@loopring.org">

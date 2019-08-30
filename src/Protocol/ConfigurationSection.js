@@ -30,11 +30,11 @@ class ConfigurationSection extends JsonI18nComponent {
                 <ul>
                   {this.state.I.constants.items.map((item, idx) => (
                     <li key={idx}>
-                      <div className="has-leading-thin-arrow">
-                        <span className="name">{item.name}</span>{" "}
-                        <span className="tag">
-                          {item.type}: {item.value}
-                        </span>
+                      <div className="has-leading-thin-arrow name">
+                        {item.name}
+                      </div>{" "}
+                      <div className="tag">
+                        {item.type}: {item.value}
                       </div>
                       <div className="meaning">{item.meaning}</div>
                     </li>
@@ -50,11 +50,11 @@ class ConfigurationSection extends JsonI18nComponent {
                 <ul>
                   {this.state.I.dexParams.items.map((item, idx) => (
                     <li key={idx}>
-                      <div className="has-leading-thin-arrow">
-                        <span className="name">{item.name}</span>{" "}
-                        <span className="tag">
-                          {item.type}: {item.value}
-                        </span>
+                      <div className="has-leading-thin-arrow name">
+                        {item.name}
+                      </div>{" "}
+                      <div className="tag">
+                        {item.type}: {item.value}
                       </div>
                       <div className="meaning">{item.meaning}</div>
                     </li>
@@ -70,11 +70,11 @@ class ConfigurationSection extends JsonI18nComponent {
                 <ul>
                   {this.state.I.onchainParams.items.map((item, idx) => (
                     <li key={idx}>
-                      <div className="has-leading-thin-arrow">
-                        <span className="name">{item.name}</span>{" "}
-                        <span className="tag">
-                          {item.type}: {item.value}
-                        </span>
+                      <div className="has-leading-thin-arrow name">
+                        {item.name}
+                      </div>{" "}
+                      <div className="tag">
+                        {item.type}: {item.value}
                       </div>
                       <div className="meaning">{item.meaning}</div>
                     </li>
@@ -91,11 +91,11 @@ class ConfigurationSection extends JsonI18nComponent {
                 <ul>
                   {this.state.I.offchainParams.items.map((item, idx) => (
                     <li key={idx}>
-                      <div className="has-leading-thin-arrow">
-                        <span className="name">{item.name}</span>{" "}
-                        <span className="tag">
-                          {item.type}: {item.value}
-                        </span>
+                      <div className="has-leading-thin-arrow name">
+                        {item.name}
+                      </div>{" "}
+                      <div className="tag">
+                        {item.type}: {item.value}
                       </div>
                       <div className="meaning">{item.meaning}</div>
                     </li>

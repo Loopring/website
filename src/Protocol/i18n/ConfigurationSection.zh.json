@@ -115,6 +115,7 @@
       },
       {
         "name": "GENESIS_BLOCK_HASH",
+         "type": "bytes",
         "value": "0x2b4827daf74c0ab30deb68b1c337dec40579bb3ff45ce9478288e1a2b83a3a01",
         "meaning": "@brecht, please provide a comment."
       }
