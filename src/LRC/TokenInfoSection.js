@@ -8,8 +8,6 @@ import JsonI18nComponent from "../Components/JsonI18nComponent";
 
 import "./TokenInfoSection.scss";
 
-const API = "./json_en/lrc_info.json";
-
 class TokenInfoSection extends JsonI18nComponent {
   constructor(props) {
     super(props, englishTranslation, chineseTranslation);

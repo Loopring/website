@@ -1,20 +1,19 @@
 {
-    "headingFeatures": "协议特性",
-    "loopring": "路印协议",
-    "deprecated": "（已弃用）",
-    "features":
-    {
-        "ringMatching": "环路撮合",
-        "orderSharing": "订单共享",
-        "nonCustodial": "非托管",
-        "dualAuthoring": "双重授权",
-        "anyTokenAsFee": "任意代币计费",
-        "lrcBurning": "LRC燃烧机制",
-        "custodialInContract": "合约托管",
-        "tradeTokenAsFee": "交易代币计费",
-        "lrcStaking": "LRC质押经济",
-        "highThroughput": "高吞吐量",
-        "lowCost": "低成本",
-        "upgradability": "可升级性"
-    }
+  "headingFeatures": "协议特性",
+  "loopring": "路印协议",
+  "deprecated": "（已弃用）",
+  "features": {
+    "ringMatching": "环路撮合",
+    "orderSharing": "订单共享",
+    "nonCustodial": "非托管",
+    "dualAuthoring": "双重授权",
+    "anyTokenAsFee": "任意代币计费",
+    "lrcBurning": "LRC燃烧机制",
+    "custodialInContract": "合约托管",
+    "tradeTokenAsFee": "交易代币计费",
+    "lrcStaking": "LRC质押经济",
+    "highThroughput": "高吞吐量",
+    "lowCost": "低成本",
+    "upgradability": "可升级性"
+  }
 }
