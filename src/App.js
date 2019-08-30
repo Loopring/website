@@ -26,7 +26,6 @@ class App extends React.Component {
             <Route path="/lrc" component={LRC} />
             <Route path="/team" component={Team} />
             <Route path="/updates" component={Updates} />
-            {/* <Route path="/blog" component={BlogPage} />*/}
             <Route component={NotFound} />
           </ScrollToTop>
         </HashRouter>
