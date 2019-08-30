@@ -1,4 +1,5 @@
 import React from "react";
+import detectBrowserLanguage from "detect-browser-language";
 import { renderToStaticMarkup } from "react-dom/server";
 import { withLocalize } from "react-localize-redux";
 import AOS from "aos";
@@ -18,7 +19,8 @@ class I18nComponent extends React.Component {
     this.props.addTranslationForLanguage(englishTranslation, "en");
     this.props.addTranslationForLanguage(chineseTranslation, "zh");
 
-    if (navigator.language === "zh" || navigator.browserLanguage === "zh") {
+    const lang = detectBrowserLanguage().toLowerCase();
+    if (lang === "zh" || lang == "zh-cn") {
       this.props.setActiveLanguage("zh");
       this.state = { lang: "zh" };
     } else {
