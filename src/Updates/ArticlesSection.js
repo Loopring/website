@@ -7,7 +7,7 @@ class ArticlesSection extends React.Component {
   render() {
     return (
       <div className="article-section">
-        <ArticleGroup fields="title,url,published_at,custom_excerpt,featured,feature_image" />
+        <ArticleGroup fields="title,slug,published_at,custom_excerpt,featured,feature_image" />
       </div>
     );
   }

@@ -23,7 +23,7 @@ class ArticleCard extends React.Component {
       sameElse: "L"
     };
 
-    const url = "/#/post/" + this.props.post.id;
+    const url = "/#/post/" + this.props.post.slug;
 
     return (
       <div className="column article-card is-4">

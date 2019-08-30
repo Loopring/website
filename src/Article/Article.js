@@ -27,7 +27,7 @@ class Article extends React.Component {
 
     api.posts
       .read({
-        id: params.postId
+        slug: params.postId
       })
       .then(post => {
         this.setState({ post: post });
