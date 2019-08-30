@@ -9,6 +9,7 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "aos": "^2.3.4",
     "bulma": "^0.7.5",
+    "detect-browser-language": "^0.0.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-localize-redux": "^3.5.3",
