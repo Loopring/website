@@ -2,11 +2,3 @@
 
 @import "../Variables.scss";
 
-.section-updates-articles {
-  .columns {
-    @include desktop {
-      padding-right: 10%;
-      padding-left: 10%;
-    }
-  }
-}
