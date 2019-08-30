@@ -16,7 +16,7 @@
       "detail": "In a statement, one of BitMarket's directors said that the exchange was hacked in 2017 as a result of which \"several users and technical accounts of the stock exchange lost more than 600 BTC.\""
     },
     {
-      "title": "$8,000,000 / Binance",
+      "title": "$8,000,000 / 币安",
       "date": "07-2019",
       "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
       "detail": "Binance experienced a major breach on May 7 and the hackers were able to withdraw 7,000 bitcoins (currently over USD $40 million). Essentially the hackers were able to steal funds from Binance's hot wallet and seemingly was done in a way to bypass all of Binance's security checks."
@@ -34,7 +34,7 @@
       "detail": "the United Kingdom and Slovenia-based crypto exchange GateHub reported the loss of nearly $10 million worth of XRP. 18,473 accounts affected."
     },
     {
-      "title": "$7,000,000 / DragonEX",
+      "title": "$7,000,000 / 龙网",
       "date": "03-2019",
       "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
       "detail": "The Singapore-based exchange DragonEX was hacked in March 2019, and lost an estimated USD 7 Million to the attacker. The company behind the exchange has not really released any details regarding the security breach, only that they will not be going bankrupt. The exchange promised to figure out a compensation plan for their users by providing USDT credit or Dragon Token (DT)."
@@ -146,7 +146,7 @@
       "detail": "Bitfinex promoted its service as possessing multi-signature wallets for every of their client, but unfortunately, their advertised multi-signature technology was of no use against hackers which led to the loss of 120,000 bitcoins belonging to their customers. "
     },
     {
-      "title": "$1,750,000 / BTER.com",
+      "title": "$1,750,000 / 比特儿",
       "date": "02-2015",
       "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
       "detail": "Bter has been hacked before for a smaller amount of money in NXT equivalent. They haven't learned their lesson (as a number of other hacked exchanges don't) and got hacked again in 2015. The real question is, why do they still have customers after being repeatedly hacked again and again?"
@@ -176,7 +176,7 @@
       "detail": "The attacker – famous for developing Lucky7Coin – inserted a Trojan malware into Cryptsy’s code so that he could access precious information and transfer cyber currencies – mainly bitcoin and litecoin – out of the exchange’s wallet."
     },
     {
-      "title": "$700,000,000 / MT.GOX",
+      "title": "$700,000,000 / 门头沟",
       "date": "03-2014",
       "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
       "detail": "It is no surprise that by far the biggest hack in the history of cryptocurrencies happened to Bitcoin in the days of its infancy. The world's most popular exchange, MtGox, finally admitted its insolvency due to ongoing hacks. MtGox employees failed to protect the private keys of its wallet where it stored all the customer's deposits, and hackers would routinely drain this wallet into their own pockets. Everybody who had money stored on the exchange lost it. This amount of Bitcoin is currently worth more than 6 billion USD."
@@ -208,7 +208,7 @@
       "detail": "PicoStocks, a stock exchange using a novel means of circumventing legal regulation, reported that someone that previously had access to PicoStocks keys used them to defund both hot and cold wallets. Creditors were reportedly unaffected as, despite the magnitude of the loss, PicoStocks covered it completely."
     },
     {
-      "title": "$270,000,000 / Silk Road",
+      "title": "$270,000,000 / 丝绸之路",
       "date": "10-2013",
       "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
       "detail": "Although not a cryptocurrency exchange, but instead a marketplace that accepted cryptocurrency, Silk Road was nonetheless a place where people stored their money. When the FBI managed to track down the exchange's owner they have confiscated all of the BTC that was deposited on the website's account."
