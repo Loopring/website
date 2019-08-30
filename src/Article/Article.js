@@ -47,10 +47,15 @@ class Article extends React.Component {
     return (
       <div>
         <Header />
-        <section className="section section-updates-hero is-medium has-background-grey has-text-black">
+        <section className="section section-hero-image">
+          <figure className="image">
+            <img draggable="false" src={this.state.post.feature_image} />
+          </figure>
+        </section>
+        <section className="section section-article is-smallhas-background-white">
           <div className="columns is-centered">
             <div className="column is-6">
-              {this.state.post.title}
+              <h1>{this.state.post.title}</h1>
 
               <div
                 className="postWrapper"

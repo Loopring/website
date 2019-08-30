@@ -13,7 +13,7 @@ class Updates extends React.Component {
     return (
       <div className="page-updates">
         <Header />
-        <HeroSection />
+        {/* <HeroSection />*/}
         <ArticlesSection />
         <Footer />
       </div>
