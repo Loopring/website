@@ -2,6 +2,12 @@
 
 @import "../Variables.scss";
 
+
 .section-updates-articles {
-  background-color: $white-ter;
+    .columns {
+        @include desktop {
+            padding-right: 10%;
+            padding-left: 10%;
+        }
+    }
 }
