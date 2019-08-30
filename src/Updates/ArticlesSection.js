@@ -20,7 +20,7 @@ class ArticlesSection extends React.Component {
   componentDidMount() {
     api.posts
       .browse({
-        limit: 5,
+        limit: 100,
         include: "title,url,published_at,custom_excerpt,featured,feature_image"
       })
       .then(posts => {

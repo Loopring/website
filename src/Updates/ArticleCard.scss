@@ -15,13 +15,12 @@
     box-shadow: none;
 
     .card-content {
-         height: 300px;
-           overflow: hidden;
+      height: 300px;
+      overflow: hidden;
       transition-duration: 0.25s;
       .content {
-
-
-text-overflow: ellipsis;      }
+        text-overflow: ellipsis;
+      }
     }
 
     .image {
