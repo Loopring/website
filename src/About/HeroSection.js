@@ -32,7 +32,7 @@ class HeroSection extends I18nComponent {
                 >
                   <Translate id="loopring" />
                 </text>
-                <text id="subtitle" x="50%" y="40%" dy="9.8em">
+                <text id="subtitle" x="50%" y="32%" dy="9.8em">
                   <Translate id="slogan" />
                 </text>
               </mask>
