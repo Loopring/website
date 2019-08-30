@@ -2,6 +2,7 @@ import React from "react";
 import { Route, HashRouter } from "react-router-dom";
 import ScrollToTop from "./Components/ScrollToTop";
 import { LocalizeProvider, withLocalize } from "react-localize-redux";
+import detectBrowserLanguage from "detect-browser-language";
 
 import About from "./About/About";
 import Protocol from "./Protocol/Protocol";
@@ -12,6 +13,10 @@ import NotFound from "./NotFound";
 
 class App extends React.Component {
   render() {
+    const lang = detectBrowserLanguage().toLowerCase();
+    if (lang === "zh" || lang == "zh-cn") {
+      document.title = "路印 - 高性能去中心化交易协议";
+    }
     return (
       <LocalizeProvider>
         <HashRouter>
