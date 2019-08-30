@@ -28,7 +28,8 @@ $color-base: rgb(255, 255, 255);
     background-size: 100%;
     z-index: -2;
     background-color: $black;
-    background-image: url(https://images.unsplash.com/photo-1485211177140-aa3b17a0c7b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3402&q=80);
+    background-size: fill;
+    background-image: url(/images/herobg.jpeg);
   }
 
   .text {
