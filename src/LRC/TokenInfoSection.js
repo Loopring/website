@@ -1,7 +1,5 @@
 import React from "react";
 
-import renderHTML from "react-render-html";
-
 import englishTranslation from "./i18n/TokenInfoSection.en.json";
 import chineseTranslation from "./i18n/TokenInfoSection.zh.json";
 import JsonI18nComponent from "../Components/JsonI18nComponent";
