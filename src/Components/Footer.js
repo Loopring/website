@@ -35,6 +35,12 @@ class Footer extends I18nComponent {
             </li>
             ⭑
             <li>
+              <a href="https://weibo.com/loopringfoundation">
+                <Translate id="weibo" />
+              </a>
+            </li>
+            ⭑
+            <li>
               <a href="https://reddit.com/r/loopringorg">Reddit</a>
             </li>
             ⭑

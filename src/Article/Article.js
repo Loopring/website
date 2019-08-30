@@ -20,6 +20,15 @@ class Article extends React.Component {
     this.state = { post: {}, error: "" };
   }
 
+  trimHtml(html) {
+    if (html) {
+      const idx = html.lastIndexOf("<!--kg-card-begin: hr-->");
+      return html.slice(0, idx) + "</div></div>";
+    } else {
+      return "";
+    }
+  }
+
   componentDidMount() {
     const {
       match: { params }
@@ -43,7 +52,7 @@ class Article extends React.Component {
     const {
       match: { params }
     } = this.props;
-    const html = this.state.post.html;
+    const html = this.trimHtml(this.state.post.html);
     return (
       <div>
         <Header />
