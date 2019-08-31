@@ -1,0 +1,11 @@
+{
+    "subNavigation":
+    {
+        "all": "All",
+        "biweekly": "Bi-Weekly",
+        "loopring30": "Loopring 3.0",
+        "learning": "Learning Series",
+        "thoughts": "Thoughts",
+        "news": "News"
+    }
+}

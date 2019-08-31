@@ -1,10 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import "./ArticlesSection.scss";
-import ArticleGroup from "./ArticleGroup";
+import englishTranslation from "./i18n/ArticlesSection.en.json";
+import chineseTranslation from "./i18n/ArticlesSection.zh.json";
+import JsonI18nComponent from "../Components/JsonI18nComponent";
 
-class ArticlesSection extends React.Component {
+import ArticleGroup from "./ArticleGroup";
+import "./ArticlesSection.scss";
+
+class ArticlesSection extends JsonI18nComponent {
+  constructor(props) {
+    super(props, englishTranslation, chineseTranslation);
+  }
+
   render() {
     console.log("CAT: ", this.props.tag);
 
@@ -39,7 +47,7 @@ class ArticlesSection extends React.Component {
                     className="navbar-item"
                     to="/updates"
                   >
-                    All
+                    {this.state.I.subNavigation.all}
                   </NavLink>
                 </li>
                 <li>
@@ -50,7 +58,7 @@ class ArticlesSection extends React.Component {
                     className="navbar-item"
                     to="/updates/3.0"
                   >
-                    Loopring 3.0
+                    {this.state.I.subNavigation.loopring30}
                   </NavLink>
                 </li>
                 <li>
@@ -61,7 +69,7 @@ class ArticlesSection extends React.Component {
                     className="navbar-item"
                     to="/updates/learning"
                   >
-                    Learning Series
+                    {this.state.I.subNavigation.learning}
                   </NavLink>
                 </li>
 
@@ -73,7 +81,7 @@ class ArticlesSection extends React.Component {
                     className="navbar-item"
                     to="/updates/thoughts"
                   >
-                    Thoughts
+                    {this.state.I.subNavigation.thoughts}
                   </NavLink>
                 </li>
                 <li>
@@ -84,7 +92,7 @@ class ArticlesSection extends React.Component {
                     className="navbar-item"
                     to="/updates/news"
                   >
-                    News
+                    {this.state.I.subNavigation.news}
                   </NavLink>
                 </li>
               </ul>
