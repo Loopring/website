@@ -4,7 +4,7 @@ import "./ArticleGroup.scss";
 import ArticleCard from "./ArticleCard";
 import GhostContentAPI from "@tryghost/content-api";
 import InfiniteScroll from "react-infinite-scroller";
-// import ContentLoader, { Facebook } from "react-content-loader";
+import { List } from "react-content-loader";
 
 const api = new GhostContentAPI({
   url: "https://loopring.ghost.io",
@@ -52,8 +52,14 @@ class ArticleGroup extends React.Component {
   render() {
     const loader = (
       <div className="columns" key={0}>
-        <div className="column article-card is-12">
-          <div className="card">LOADING...</div>
+        <div className="column article-card is-4">
+          <List />
+        </div>
+        <div className="column article-card is-4">
+          <List />
+        </div>
+        <div className="column article-card is-4">
+          <List />
         </div>
       </div>
     );
