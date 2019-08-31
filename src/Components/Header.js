@@ -28,7 +28,7 @@ class Header extends I18nComponent {
   render() {
     return (
       <nav
-        className="navbar is-spaced is-fixed-top"
+        className="navbar is-fixed-top"
         role="navigation"
         aria-label="main navigation"
       >

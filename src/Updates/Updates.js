@@ -9,12 +9,16 @@ import ArticlesSection from "./ArticlesSection";
 import "./Updates.scss";
 
 class Updates extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { category: this.props.category };
+  }
   render() {
     return (
       <div className="page-updates">
         <Header />
-        {/* <HeroSection />*/}
-        <ArticlesSection tag={this.props.tag} />
+        <HeroSection category={this.state.category} />
+        <ArticlesSection category={this.state.category} />
         <Footer />
       </div>
     );

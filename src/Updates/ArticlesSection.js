@@ -33,8 +33,6 @@ class ArticlesSection extends JsonI18nComponent {
 
     return (
       <div>
-        <section className="section  section-hero-image" />
-
         <section className="section  has-text-centered is-centered section-sub-nav has-background-blue">
           <div className="columns is-centered has-text-centered">
             <div className="column is-12  is-centered has-text-dentered">
@@ -56,7 +54,18 @@ class ArticlesSection extends JsonI18nComponent {
                     exact
                     activeClassName="active"
                     className="navbar-item"
-                    to="/updates/3.0"
+                    to="/updates/biweekly"
+                  >
+                    {this.state.I.subNavigation.biweekly}
+                  </NavLink>
+                </li>
+                <li>
+                  {" "}
+                  <NavLink
+                    exact
+                    activeClassName="active"
+                    className="navbar-item"
+                    to="/updates/loopring3.0"
                   >
                     {this.state.I.subNavigation.loopring30}
                   </NavLink>

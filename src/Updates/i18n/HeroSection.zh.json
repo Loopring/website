@@ -1,11 +1,10 @@
-
 {
-    "headings": {
+  "headings": {
     "all": "All here",
     "biweekly": "Bi-Weekly",
     "loopring30": "Loopring 3.0",
     "learning": "Learning Series",
     "thoughts": "Thoughts",
     "news": "News"
-    }
+  }
 }

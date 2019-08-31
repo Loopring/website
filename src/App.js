@@ -29,7 +29,24 @@ class App extends React.Component {
             <Route path="/updates" component={Updates} />
             <Route
               path="/updates/biweekly"
-              component={() => <Updates tag="zhou-bao" />}
+              component={() => <Updates category="biweekly" />}
+            />
+            <Route
+              path="/updates/loopring3.0"
+              component={() => <Updates category="loopring3.0" />}
+            />
+
+            <Route
+              path="/updates/learning"
+              component={() => <Updates category="learning" />}
+            />
+            <Route
+              path="/updates/thoughts"
+              component={() => <Updates category="thoughts" />}
+            />
+            <Route
+              path="/updates/news"
+              component={() => <Updates category="news" />}
             />
             <Route path="/post/:postId" component={Article} />
             <Route component={NotFound} />
