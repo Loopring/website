@@ -37,9 +37,43 @@ class ArticlesSection extends React.Component {
                     exact
                     activeClassName="active"
                     className="navbar-item"
-                    to="/updates/biweekly"
+                    to="/updates"
                   >
-                    Bi-Weekly
+                    All
+                  </NavLink>
+                </li>
+                <li>
+                  {" "}
+                  <NavLink
+                    exact
+                    activeClassName="active"
+                    className="navbar-item"
+                    to="/updates/3.0"
+                  >
+                    Loopring 3.0
+                  </NavLink>
+                </li>
+                <li>
+                  {" "}
+                  <NavLink
+                    exact
+                    activeClassName="active"
+                    className="navbar-item"
+                    to="/updates/learning"
+                  >
+                    Learning Series
+                  </NavLink>
+                </li>
+
+                <li>
+                  {" "}
+                  <NavLink
+                    exact
+                    activeClassName="active"
+                    className="navbar-item"
+                    to="/updates/thoughts"
+                  >
+                    Thoughts
                   </NavLink>
                 </li>
                 <li>
