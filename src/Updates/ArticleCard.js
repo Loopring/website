@@ -27,34 +27,36 @@ class ArticleCard extends React.Component {
 
     return (
       <div className="column article-card is-4">
-        <a href={url}>
-          <div className="card">
-            <div className="card-image" style={divStyle}>
-              <figure className="is-unselectable image is-16by9"></figure>
-            </div>
-            <div className="card-content">
-              <div className="media">
-                <div className="media-content">
-                  <p className="title is-12">{this.props.post.title}</p>
-                  <p className="subtitle is-6" dateTime="2016-1-1">
-                    <Moment
-                      lparse="YYYY-MM-DD HH:mm"
-                      calendar={calendarStrings}
-                    >
-                      {this.props.post.published_at}
-                    </Moment>
-                  </p>
+        <div className="card-wrapper">
+          <a href={url}>
+            <div className="card">
+              <div className="card-image" style={divStyle}>
+                <figure className="is-unselectable image is-16by9"></figure>
+              </div>
+              <div className="card-content">
+                <div className="media">
+                  <div className="media-content">
+                    <p className="title is-12">{this.props.post.title}</p>
+                    <p className="subtitle is-6" dateTime="2016-1-1">
+                      <Moment
+                        lparse="YYYY-MM-DD HH:mm"
+                        calendar={calendarStrings}
+                      >
+                        {this.props.post.published_at}
+                      </Moment>
+                    </p>
+                  </div>
+                </div>
+
+                <div className="content">
+                  {this.props.post.custom_excerpt}
+
+                  <br />
                 </div>
               </div>
-
-              <div className="content">
-                {this.props.post.custom_excerpt}
-
-                <br />
-              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
     );
   }

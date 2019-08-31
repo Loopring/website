@@ -22,11 +22,16 @@ class ArticleGroup extends React.Component {
   }
 
   loadPosts(page) {
+    const options = {
+      page: page,
+      include: "title,slug,published_at,custom_excerpt,featured,feature_image"
+    };
+
+    if (this.props.tag) {
+      options.filter = "tag:" + this.props.tag;
+    }
     api.posts
-      .browse({
-        page: page,
-        include: this.props.fields
-      })
+      .browse(options)
       .then(posts => {
         const _posts = this.state.posts;
         if (posts.length < 15) {
@@ -46,13 +51,15 @@ class ArticleGroup extends React.Component {
 
   render() {
     const loader = (
-      <div key={0} className="loader">
-        Loading..
+      <div className="columns" key={0}>
+        <div className="column article-card is-12">
+          <div className="card">LOADING...</div>
+        </div>
       </div>
     );
 
     return (
-      <section className="section is-large section-article-group has-background-blue">
+      <section className="section is-medium section-article-group has-background-blue">
         <div className="container">
           <InfiniteScroll
             pageStart={0}

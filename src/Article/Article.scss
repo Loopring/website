@@ -2,11 +2,13 @@
 
 @import "../Variables.scss";
 
-.section-hero-image {
+.section-article-hero-image {
   padding: 0 !important;
   margin: 0 !important;
+  margin-top: -5rem!important;
 }
 .section-article {
+  min-height: 100vh;
   h1 {
     padding-top: 60px !important;
     padding-bottom: 10px !important;

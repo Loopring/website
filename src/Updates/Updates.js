@@ -14,7 +14,7 @@ class Updates extends React.Component {
       <div className="page-updates">
         <Header />
         {/* <HeroSection />*/}
-        <ArticlesSection />
+        <ArticlesSection tag={this.props.tag} />
         <Footer />
       </div>
     );

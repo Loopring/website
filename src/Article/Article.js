@@ -55,21 +55,23 @@ class Article extends React.Component {
     const html = this.trimHtml(this.state.post.html);
     return (
       <div>
-        <Header />
-        <section className="section section-hero-image">
+        {/* <Header />*/}
+        <section className="section section-article-hero-image">
           <figure className="image">
-            <img draggable="false" src={this.state.post.feature_image} />
+            {<img draggable="false" src={this.state.post.feature_image} />}
           </figure>
         </section>
-        <section className="section section-article is-smallhas-background-white">
-          <div className="columns is-centered">
-            <div className="column is-6">
-              <h1>{this.state.post.title}</h1>
+        <section className="section section-article is-small has-background-white">
+          <div className="container">
+            <div className="columns is-centered">
+              <div className="column is-5">
+                <h1>{this.state.post.title}</h1>
 
-              <div
-                className="postWrapper"
-                dangerouslySetInnerHTML={{ __html: html }}
-              />
+                <div
+                  className="postWrapper"
+                  dangerouslySetInnerHTML={{ __html: html }}
+                />
+              </div>
             </div>
           </div>
         </section>

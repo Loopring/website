@@ -1,3 +1,45 @@
 @charset "utf-8";
 
 @import "../Variables.scss";
+
+.section-hero-image {
+    height: 67vh;
+    min-height: 300px;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1567095740613-beef70b7e61c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+    background-position: center center;
+    background-size: cover;
+}
+
+.section-sub-nav {
+    padding:0!important;
+
+
+    li {
+        display: inline-block;
+    }
+
+    a.navbar-item {
+        background-color: $grey-lighter;
+         color:$black;
+         display: inline-block;
+        text-decoration: none;
+        user-select:none;
+        min-width: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        transition-duration: 0.5s;
+        // text-transform: uppercase;
+        font-weight: 500;
+        &:hover {
+            background-color: $primary;
+             color:$white;
+        }
+
+        &.active {
+             color:$white;
+            background-color: $black;
+        }
+    }
+}
