@@ -1,12 +1,14 @@
 @charset "utf-8";
 
-@import "./Variables.scss";
+@import "../Variables.scss";
 
-.markdown {
-  // min-height: 100vh;
-  // max-width: 400px;
-  padding: 0 10%;
-
+.section-article-hero-image {
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-top: -5rem !important;
+}
+.section-article {
+  min-height: 100vh;
   h1 {
     padding-top: 60px !important;
     padding-bottom: 10px !important;

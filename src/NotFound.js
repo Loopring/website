@@ -6,11 +6,7 @@ import Header from "./Components/Header.js";
 
 class NotFound extends React.Component {
   render() {
-    return (
-      <div className="page-notfound">
-        <Header />
-      </div>
-    );
+    return <div className="page-notfound">{/* <Header />*/}</div>;
   }
 }
 

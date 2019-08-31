@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+@import "../Variables.scss";
+
+.section-article-group {
+  .columns {
+    @include desktop {
+      padding-right: 10%;
+      padding-left: 10%;
+    }
+  }
+}

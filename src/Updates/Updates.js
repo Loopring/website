@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
-import SectionUpdatesHero from "./HeroSection";
+import HeroSection from "./HeroSection";
 import ArticlesSection from "./ArticlesSection";
 
 import "./Updates.scss";
@@ -13,8 +13,8 @@ class Updates extends React.Component {
     return (
       <div className="page-updates">
         <Header />
-        <SectionUpdatesHero />
-        <ArticlesSection />
+        {/* <HeroSection />*/}
+        <ArticlesSection tag={this.props.tag} />
         <Footer />
       </div>
     );

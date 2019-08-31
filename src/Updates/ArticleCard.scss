@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+@import "../Variables.scss";
+
+.article-card {
+  .card-wrapper {
+    // padding: 10px;
+  }
+  a {
+    text-decoration: none !important;
+  }
+
+  .card-image {
+    // min-height: 300px;
+    background-color: $primary;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .card {
+    box-shadow: none;
+
+    .card-content {
+      transition-duration: 1s;
+      overflow: hidden;
+    }
+
+    .image {
+      transition-duration: 2s;
+    }
+
+    img {
+      transition-duration: 2s;
+    }
+
+    .subtitle {
+      font-size: 10px;
+    }
+  }
+
+  &:hover {
+    .card {
+      img {
+        filter: grayscale(100%);
+      }
+
+      .image:after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba($image-overlay-background, 0.1);
+        background-image: linear-gradient(
+            45deg,
+            $image-overlay-foreground 5%,
+            transparent 15%,
+            transparent 85%,
+            $image-overlay-foreground 45%,
+            $image-overlay-foreground
+          ),
+          linear-gradient(
+            45deg,
+            $image-overlay-foreground 5%,
+            transparent 15%,
+            transparent 85%,
+            $image-overlay-foreground 45%,
+            $image-overlay-foreground
+          ),
+          linear-gradient(
+            -45deg,
+            $image-overlay-foreground 5%,
+            transparent 15%,
+            transparent 85%,
+            $image-overlay-foreground 45%,
+            $image-overlay-foreground
+          ),
+          linear-gradient(
+            -45deg,
+            $image-overlay-foreground 5%,
+            transparent 15%,
+            transparent 85%,
+            $image-overlay-foreground 45%,
+            $image-overlay-foreground
+          );
+        background-size: 3px 3px;
+      }
+    }
+
+    .card-content {
+      background-color: $black;
+
+      .media,
+      .title,
+      .subtitle,
+      .content {
+        color: $white !important;
+      }
+    }
+  }
+
+  .title {
+    font-size: $body-size !important;
+    font-weight: 400 !important;
+    padding-bottom: $body-size !important;
+    color: $black;
+
+    font-family: $theme-font;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+  }
+
+  .content {
+    color: $black;
+  }
+}

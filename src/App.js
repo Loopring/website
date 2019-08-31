@@ -9,12 +9,13 @@ import Protocol from "./Protocol/Protocol";
 import LRC from "./LRC/LRC";
 import Team from "./Team/Team";
 import Updates from "./Updates/Updates";
+import Article from "./Article/Article";
 import NotFound from "./NotFound";
 
 class App extends React.Component {
   render() {
     const lang = detectBrowserLanguage().toLowerCase();
-    if (lang === "zh" || lang == "zh-cn") {
+    if (lang === "zh" || lang === "zh-cn") {
       document.title = "路印 - 高性能去中心化交易协议";
     }
     return (
@@ -26,7 +27,11 @@ class App extends React.Component {
             <Route path="/lrc" component={LRC} />
             <Route path="/team" component={Team} />
             <Route path="/updates" component={Updates} />
-            {/* <Route path="/blog" component={BlogPage} />*/}
+            <Route
+              path="/updates/biweekly"
+              component={() => <Updates tag="zhou-bao" />}
+            />
+            <Route path="/post/:postId" component={Article} />
             <Route component={NotFound} />
           </ScrollToTop>
         </HashRouter>
