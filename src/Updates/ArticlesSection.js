@@ -35,7 +35,7 @@ class ArticlesSection extends JsonI18nComponent {
       <div>
         <section className="section  section-hero-image" />
 
-        <section className="section is-hidden has-text-centered is-centered section-sub-nav has-background-blue">
+        <section className="section  has-text-centered is-centered section-sub-nav has-background-blue">
           <div className="columns is-centered has-text-centered">
             <div className="column is-12  is-centered has-text-dentered">
               <ul>

@@ -55,7 +55,7 @@ class Article extends React.Component {
     const html = this.trimHtml(this.state.post.html);
     return (
       <div>
-        {/* <Header />*/}
+        <Header />
         <section className="section section-article-hero-image">
           <figure className="image">
             {<img draggable="false" src={this.state.post.feature_image} />}
