@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, HashRouter } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 import ScrollToTop from "./Components/ScrollToTop";
 import { LocalizeProvider, withLocalize } from "react-localize-redux";
 import detectBrowserLanguage from "detect-browser-language";
@@ -22,43 +22,45 @@ class App extends React.Component {
       <LocalizeProvider>
         <HashRouter>
           <ScrollToTop>
-            <Route path="/" exact component={About} />
-            <Route path="/protocol" exact component={Protocol} />
-            <Route path="/lrc" exact component={LRC} />
-            <Route path="/team" exact component={Team} />
-            <Route
-              path="/updates"
-              exact
-              render={props => <Updates group="all" />}
-            />
-            <Route
-              path="/updates/biweekly"
-              exact
-              render={props => <Updates group="biweekly" />}
-            />
-            <Route
-              path="/updates/loopring3.0"
-              exact
-              render={props => <Updates group="loopring3.0" />}
-            />
+            <Switch>
+              <Route path="/" exact component={About} />
+              <Route path="/protocol" exact component={Protocol} />
+              <Route path="/lrc" exact component={LRC} />
+              <Route path="/team" exact component={Team} />
+              <Route
+                path="/updates"
+                exact
+                render={props => <Updates group="all" />}
+              />
+              <Route
+                path="/updates/biweekly"
+                exact
+                render={props => <Updates group="biweekly" />}
+              />
+              <Route
+                path="/updates/loopring3.0"
+                exact
+                render={props => <Updates group="loopring3.0" />}
+              />
 
-            <Route
-              path="/updates/learning"
-              exact
-              render={props => <Updates group={"learning"} />}
-            />
-            <Route
-              path="/updates/thoughts"
-              exact
-              render={props => <Updates group="thoughts" />}
-            />
-            <Route
-              path="/updates/news"
-              exact
-              render={props => <Updates group="news" />}
-            />
-            <Route path="/post/:postId" component={Article} />
-            <Route component={NotFound} />
+              <Route
+                path="/updates/learning"
+                exact
+                render={props => <Updates group={"learning"} />}
+              />
+              <Route
+                path="/updates/thoughts"
+                exact
+                render={props => <Updates group="thoughts" />}
+              />
+              <Route
+                path="/updates/news"
+                exact
+                render={props => <Updates group="news" />}
+              />
+              <Route path="/post/:postId" component={Article} />
+              <Route component={NotFound} />
+            </Switch>
           </ScrollToTop>
         </HashRouter>
       </LocalizeProvider>
