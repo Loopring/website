@@ -13,6 +13,17 @@
     // display: inline-block;
   }
 
+  @include mobile {
+
+    a{
+         font-size: 25px!important;
+         height: 100px;
+     }
+
+     .navbar-end {
+      padding-top: 50px;
+     }
+}
   a.hover {
     text-decoration: none !important;
   }
