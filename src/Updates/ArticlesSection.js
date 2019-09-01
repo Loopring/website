@@ -18,6 +18,7 @@ class ArticlesSection extends JsonI18nComponent {
     if (tag) {
       return tag;
     } else {
+      console.error("no tag match");
       return "";
     }
   }
@@ -62,17 +63,21 @@ class ArticlesSection extends JsonI18nComponent {
                     {this.state.I.subNavigation.loopring30}
                   </NavLink>
                 </li>
-                <li>
-                  {" "}
-                  <NavLink
-                    exact
-                    activeClassName="active"
-                    className="navbar-item"
-                    to="/updates/learning"
-                  >
-                    {this.state.I.subNavigation.learning}
-                  </NavLink>
-                </li>
+                {!this.isChinese() ? (
+                  <li>
+                    {" "}
+                    <NavLink
+                      exact
+                      activeClassName="active"
+                      className="navbar-item"
+                      to="/updates/learning"
+                    >
+                      {this.state.I.subNavigation.learning}
+                    </NavLink>
+                  </li>
+                ) : (
+                  <span />
+                )}
 
                 <li>
                   {" "}
@@ -100,7 +105,10 @@ class ArticlesSection extends JsonI18nComponent {
             </div>
           </div>
         </section>
-        <ArticleGroup tag={this.getTag()} />
+        <ArticleGroup
+          key={this.getTag() + "_article_group"}
+          tag={this.getTag()}
+        />
       </div>
     );
   }

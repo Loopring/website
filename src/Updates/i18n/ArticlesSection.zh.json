@@ -9,11 +9,11 @@
   },
 
   "groupTagMapping": {
-    "all": "",
-    "biweekly": "zhou-bao",
-    "loopring3.0": "",
-    "learning": "",
-    "thoughts": "",
-    "news": ""
+    "all": "luyin",
+    "biweekly": "shuangzhoubao",
+    "loopring3_0": "banben3_0",
+    "learning": "xuexi",
+    "thoughts": "sikao",
+    "news": "xinwen"
   }
 }

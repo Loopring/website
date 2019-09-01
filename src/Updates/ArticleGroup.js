@@ -24,12 +24,10 @@ class ArticleGroup extends React.Component {
   loadPosts(page) {
     const options = {
       page: page,
-      include: "title,slug,published_at,custom_excerpt,featured,feature_image"
+      include: "title,slug,published_at,custom_excerpt,featured,feature_image",
+      filter: "tag:" + this.props.tag
     };
 
-    if (this.props.tag) {
-      options.filter = "tag:" + this.props.tag;
-    }
     api.posts
       .browse(options)
       .then(posts => {

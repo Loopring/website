@@ -13,8 +13,14 @@ class Updates extends React.Component {
     return (
       <div className="page-updates">
         <Header />
-        <HeroSection group={this.props.group} />
-        <ArticlesSection group={this.props.group} />
+        <HeroSection
+          key={this.props.group + "_hero"}
+          group={this.props.group}
+        />
+        <ArticlesSection
+          key={this.props.group + "_article_section"}
+          group={this.props.group}
+        />
         <Footer />
       </div>
     );

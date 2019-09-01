@@ -30,33 +30,41 @@ class App extends React.Component {
               <Route
                 path="/updates"
                 exact
-                render={props => <Updates group="all" />}
+                render={props => <Updates key="updates_all" group="all" />}
               />
               <Route
                 path="/updates/biweekly"
                 exact
-                render={props => <Updates group="biweekly" />}
+                render={props => (
+                  <Updates key="updates_biweekly" group="biweekly" />
+                )}
               />
               <Route
                 path="/updates/loopring3.0"
                 exact
-                render={props => <Updates group="loopring3.0" />}
+                render={props => (
+                  <Updates key="updates_loopring3_0" group="loopring3_0" />
+                )}
               />
 
               <Route
                 path="/updates/learning"
                 exact
-                render={props => <Updates group={"learning"} />}
+                render={props => (
+                  <Updates key="updates_learning" group={"learning"} />
+                )}
               />
               <Route
                 path="/updates/thoughts"
                 exact
-                render={props => <Updates group="thoughts" />}
+                render={props => (
+                  <Updates key="updates_thoughts" group="thoughts" />
+                )}
               />
               <Route
                 path="/updates/news"
                 exact
-                render={props => <Updates group="news" />}
+                render={props => <Updates key="updates_news" group="news" />}
               />
               <Route path="/post/:postId" component={Article} />
               <Route component={NotFound} />
