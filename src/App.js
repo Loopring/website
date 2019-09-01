@@ -10,7 +10,7 @@ import LRC from "./LRC/LRC";
 import Team from "./Team/Team";
 import Updates from "./Updates/Updates";
 import Article from "./Article/Article";
-import NotFound from "./NotFound";
+import NotFound from "./NotFound/NotFound";
 
 class App extends React.Component {
   render() {
