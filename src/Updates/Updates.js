@@ -9,16 +9,13 @@ import ArticlesSection from "./ArticlesSection";
 import "./Updates.scss";
 
 class Updates extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { category: this.props.category };
-  }
   render() {
+    console.log("Updates > props ", this.props);
     return (
       <div className="page-updates">
         <Header />
-        <HeroSection category={this.state.category} />
-        <ArticlesSection category={this.state.category} />
+        <HeroSection group={this.props.group} />
+        {/* <ArticlesSection group={this.props.group} />*/}
         <Footer />
       </div>
     );
