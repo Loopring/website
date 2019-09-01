@@ -34,7 +34,7 @@ class Article extends React.Component {
 
   trimHtml(html) {
     if (html) {
-      const idx = html.lastIndexOf("<!--kg-card-begin: hr-->");
+      const idx = html.lastIndexOf("<hr>");
       return html.slice(0, idx) + "</div></div>";
     } else {
       return "";
@@ -65,13 +65,15 @@ class Article extends React.Component {
     const {
       match: { params }
     } = this.props;
-    console.log(this.state.post);
     const html = this.trimHtml(this.state.post.html);
     const tags = this.state.post.tags ? this.state.post.tags : [];
     const publishedAt = this.state.post.published_at
       ? this.state.post.published_at
       : "";
 
+    const featureImg = this.state.post.feature_image
+      ? this.state.post.feature_image
+      : "/images/post_hero.png";
     return (
       <div>
         <Header />
@@ -90,7 +92,7 @@ class Article extends React.Component {
                     {publishedAt}
                   </Moment>
                   {tags.map((tag, idx) => (
-                    <span className="tag" key="idx">
+                    <span className="tag" key={idx}>
                       {tag.name}
                     </span>
                   ))}
@@ -102,13 +104,13 @@ class Article extends React.Component {
 
         <section className="section section-article-hero">
           <figure data-aos="fade-zoom-in" className="image">
-            {<img draggable="false" src={this.state.post.feature_image} />}
+            {<img draggable="false" src={featureImg} />}
           </figure>
         </section>
         <section className="section section-article-body is-small has-background-white">
           <div className="container">
             <div className="columns is-centered">
-              <div className="column is-6">
+              <div className="column is-8">
                 <div
                   className="content post-full-content"
                   dangerouslySetInnerHTML={{ __html: html }}
