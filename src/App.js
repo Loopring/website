@@ -23,30 +23,35 @@ class App extends React.Component {
         <HashRouter>
           <ScrollToTop>
             <Route path="/" exact component={About} />
-            <Route path="/protocol" component={Protocol} />
-            <Route path="/lrc" component={LRC} />
-            <Route path="/team" component={Team} />
-            <Route path="/updates" component={Updates} />
+            <Route path="/protocol" exact component={Protocol} />
+            <Route path="/lrc" exact component={LRC} />
+            <Route path="/team" exact component={Team} />
+            <Route path="/updates" exact component={Updates} />
             <Route
               path="/updates/biweekly"
-              component={() => <Updates category="biweekly" />}
+              exact
+              render={props => <Updates group="biweekly" />}
             />
             <Route
               path="/updates/loopring3.0"
-              component={() => <Updates category="loopring3.0" />}
+              exact
+              render={props => <Updates group="loopring3.0" />}
             />
 
             <Route
               path="/updates/learning"
-              component={() => <Updates category="learning" />}
+              exact
+              render={props => <Updates group={"learning"} />}
             />
             <Route
               path="/updates/thoughts"
-              component={() => <Updates category="thoughts" />}
+              exact
+              render={props => <Updates group="thoughts" />}
             />
             <Route
               path="/updates/news"
-              component={() => <Updates category="news" />}
+              exact
+              render={props => <Updates group="news" />}
             />
             <Route path="/post/:postId" component={Article} />
             <Route component={NotFound} />
