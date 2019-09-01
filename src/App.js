@@ -26,7 +26,11 @@ class App extends React.Component {
             <Route path="/protocol" exact component={Protocol} />
             <Route path="/lrc" exact component={LRC} />
             <Route path="/team" exact component={Team} />
-            <Route path="/updates" exact component={Updates} />
+            <Route
+              path="/updates"
+              exact
+              render={props => <Updates group="all" />}
+            />
             <Route
               path="/updates/biweekly"
               exact

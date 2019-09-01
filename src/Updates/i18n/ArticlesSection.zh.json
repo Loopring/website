@@ -7,4 +7,12 @@
     "thoughts": "思考",
     "news": "新闻"
   }
+
+  ,"groupTagMapping" :{
+"biweekly": "zhou-bao",
+"loopring3.0": "Version30",
+"learning": "xue-xi",
+"thoughts": "si-kao",
+"news": "xin-wen"
+  }
 }

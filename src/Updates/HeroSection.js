@@ -11,16 +11,15 @@ class HeroSection extends JsonI18nComponent {
   }
 
   render() {
-    // console.log("HeroSection props", this.props.group,  this.state.I, this.state.I[this.props.group]);
     return (
-      <section className="section section-updates-hero is-large has-background-white">
+      <section className="section section-updates-hero is-medium has-background-white">
         <div className="columns is-multiline">
           <div className="column is-12 is-unselectable hero has-text-din">
             <div className="container">
-              <div data-aos="fade-up" className="text">
+              <div className="text">
                 <h1>{this.state.I.headings[this.props.group]}</h1>
               </div>
-              <div data-aos="fade-up" className="text smaller"></div>
+              <div className="text smaller"></div>
             </div>
           </div>
         </div>

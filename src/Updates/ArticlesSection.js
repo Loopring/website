@@ -13,27 +13,19 @@ class ArticlesSection extends JsonI18nComponent {
     super(props, englishTranslation, chineseTranslation);
   }
 
-  render() {
-    console.log("CAT: ", this.props.tag);
-
-    let tag = this.props.tag;
-    if (tag === "updates") {
-      tag = "zhou-bao";
-    } else if (tag === "version3.0") {
-      tag = "Version3.0";
-    } else if (tag === "learning") {
-      tag = "learning";
-    } else if (tag === "thoughts") {
-      tag = "thoughts";
-    } else if (tag === "news") {
-      tag = "news";
+  getTag() {
+    const tag = this.state.I.groupTagMapping[this.props.group];
+    if (tag) {
+      return tag;
+    } else {
+      return "";
     }
+  }
 
-    console.log("CAT2: " + tag);
-
+  render() {
     return (
       <div>
-        <section className="section  has-text-centered is-centered section-sub-nav has-background-blue">
+        <section className="section has-text-centered is-centered section-sub-nav has-background-blue">
           <div className="columns is-centered has-text-centered">
             <div className="column is-12  is-centered has-text-dentered">
               <ul>
@@ -108,9 +100,7 @@ class ArticlesSection extends JsonI18nComponent {
             </div>
           </div>
         </section>
-        <div className="article-section">
-          <ArticleGroup tag={tag} />
-        </div>
+        <ArticleGroup tag={this.getTag()} />
       </div>
     );
   }

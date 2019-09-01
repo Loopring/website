@@ -8,6 +8,7 @@ import "../../node_modules/aos/dist/aos.css";
 class I18nComponent extends React.Component {
   constructor(props, englishTranslation, chineseTranslation) {
     super(props);
+
     this.props.initialize({
       languages: [
         { name: "English", code: "en" },
@@ -20,7 +21,7 @@ class I18nComponent extends React.Component {
     this.props.addTranslationForLanguage(chineseTranslation, "zh");
 
     const lang = detectBrowserLanguage().toLowerCase();
-    if (lang === "zh" || lang == "zh-cn") {
+    if (lang === "zh" || lang === "zh-cn") {
       this.props.setActiveLanguage("zh");
       this.state = { lang: "zh" };
     } else {
