@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "//beta.loopring.org/static/css/main.36e0512c.chunk.css",
-    "main.js": "//beta.loopring.org/static/js/main.7476d8b9.chunk.js",
-    "main.js.map": "//beta.loopring.org/static/js/main.7476d8b9.chunk.js.map",
+    "main.css": "//beta.loopring.org/static/css/main.d5fd3f6f.chunk.css",
+    "main.js": "//beta.loopring.org/static/js/main.02d90085.chunk.js",
+    "main.js.map": "//beta.loopring.org/static/js/main.02d90085.chunk.js.map",
     "runtime~main.js": "//beta.loopring.org/static/js/runtime~main.7216f7c8.js",
     "runtime~main.js.map": "//beta.loopring.org/static/js/runtime~main.7216f7c8.js.map",
     "static/css/2.7abef457.chunk.css": "//beta.loopring.org/static/css/2.7abef457.chunk.css",
-    "static/js/2.68fb011e.chunk.js": "//beta.loopring.org/static/js/2.68fb011e.chunk.js",
-    "static/js/2.68fb011e.chunk.js.map": "//beta.loopring.org/static/js/2.68fb011e.chunk.js.map",
+    "static/js/2.6e7348e1.chunk.js": "//beta.loopring.org/static/js/2.6e7348e1.chunk.js",
+    "static/js/2.6e7348e1.chunk.js.map": "//beta.loopring.org/static/js/2.6e7348e1.chunk.js.map",
     "index.html": "//beta.loopring.org/index.html",
-    "precache-manifest.78daebb498c3f5e668668e112dde9865.js": "//beta.loopring.org/precache-manifest.78daebb498c3f5e668668e112dde9865.js",
+    "precache-manifest.b77f356967a6d1d3b2d20cfc664a9298.js": "//beta.loopring.org/precache-manifest.b77f356967a6d1d3b2d20cfc664a9298.js",
     "service-worker.js": "//beta.loopring.org/service-worker.js",
     "static/css/2.7abef457.chunk.css.map": "//beta.loopring.org/static/css/2.7abef457.chunk.css.map",
-    "static/css/main.36e0512c.chunk.css.map": "//beta.loopring.org/static/css/main.36e0512c.chunk.css.map",
+    "static/css/main.d5fd3f6f.chunk.css.map": "//beta.loopring.org/static/css/main.d5fd3f6f.chunk.css.map",
     "static/media/index.scss": "//beta.loopring.org/static/media/363123_2_0.564e5e19.eot"
   }
 }
