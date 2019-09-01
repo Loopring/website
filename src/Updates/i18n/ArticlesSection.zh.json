@@ -9,10 +9,11 @@
   },
 
   "groupTagMapping": {
+    "all": "",
     "biweekly": "zhou-bao",
-    "loopring3.0": "Version30",
-    "learning": "xue-xi",
-    "thoughts": "si-kao",
-    "news": "xin-wen"
+    "loopring3.0": "",
+    "learning": "",
+    "thoughts": "",
+    "news": ""
   }
 }

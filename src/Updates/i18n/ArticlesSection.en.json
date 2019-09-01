@@ -8,10 +8,11 @@
     "news": "News"
   },
   "groupTagMapping": {
-    "biweekly": "Update",
-    "loopring3.0": "Version30",
-    "learning": "Learning",
-    "thoughts": "Thoughts",
-    "news": "News"
+    "all":"",
+    "biweekly": "",
+    "loopring3.0": "",
+    "learning": "",
+    "thoughts": "",
+    "news": ""
   }
 }
