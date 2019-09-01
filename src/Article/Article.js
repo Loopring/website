@@ -2,6 +2,7 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 
 import "./Article.scss";
+import "./Ghost.scss";
 import Header from "../Components/Header.js";
 import Footer from "../Components/Footer.js";
 
@@ -74,7 +75,7 @@ class Article extends React.Component {
     return (
       <div>
         <Header />
-        <section className="section  has-background-white">
+        <section className="section section-article-heading has-background-white">
           <div className="container">
             <div className="columns is-centered">
               <div className="column is-6 has-text-left">
@@ -99,17 +100,17 @@ class Article extends React.Component {
           </div>
         </section>
 
-        <section className="section section-article-hero-image">
+        <section className="section section-article-hero">
           <figure data-aos="fade-zoom-in" className="image">
             {<img draggable="false" src={this.state.post.feature_image} />}
           </figure>
         </section>
-        <section className="section section-article is-small has-background-white">
+        <section className="section section-article-body is-small has-background-white">
           <div className="container">
             <div className="columns is-centered">
               <div className="column is-6">
                 <div
-                  className="postWrapper"
+                  className="content post-full-content"
                   dangerouslySetInnerHTML={{ __html: html }}
                 />
               </div>

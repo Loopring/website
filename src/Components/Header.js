@@ -28,84 +28,86 @@ class Header extends I18nComponent {
   render() {
     return (
       <nav
-        className="navbar is-fixed-top"
+        className="navbar is-transparent is-fixed-top"
         role="navigation"
         aria-label="main navigation"
       >
-        <div className="navbar-brand">
-          <a className="navbar-item" href="/">
-            <img className="logo" draggable="false" src="/images/logo.svg" />
-          </a>
+        <div className="container">
+          <div className="navbar-brand">
+            <a className="navbar-item" href="/">
+              <img className="logo" draggable="false" src="/images/logo.svg" />
+            </a>
 
-          <a
-            ref={this.burgerRef}
-            role="button"
-            className="navbar-burger burger"
-            aria-label="menu"
-            aria-expanded="false"
-            data-target="navbarBasicExample"
-            onClick={this.onBurgerClick.bind(this)}
-          >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
+            <a
+              ref={this.burgerRef}
+              role="button"
+              className="navbar-burger burger"
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="navbarBasicExample"
+              onClick={this.onBurgerClick.bind(this)}
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
 
-        <div ref={this.menuRef} id="navbarMenu" className="navbar-menu">
-          <div className="navbar-start has-text-din"></div>
-          <div className="navbar-end has-text-din">
-            <NavLink
-              exact
-              activeClassName="active"
-              className="navbar-item"
-              to="/"
-              onClick={this.onLinkClick.bind(this)}
-            >
-              <div className="pageLink">
-                <Translate id="about" />
-              </div>
-            </NavLink>
-            <NavLink
-              activeClassName="active"
-              className="navbar-item"
-              to="/protocol"
-              onClick={this.onLinkClick.bind(this)}
-            >
-              <div className="pageLink">
-                <Translate id="loopring30" />
-              </div>
-            </NavLink>
-            <NavLink
-              activeClassName="active"
-              className="navbar-item"
-              to="/lrc"
-              onClick={this.onLinkClick.bind(this)}
-            >
-              <div className="pageLink">
-                <Translate id="lrc" />
-              </div>
-            </NavLink>
-            <NavLink
-              activeClassName="active"
-              className="navbar-item"
-              to="/team"
-              onClick={this.onLinkClick.bind(this)}
-            >
-              <div className="pageLink">
-                <Translate id="team" />
-              </div>
-            </NavLink>
-            <NavLink
-              activeClassName="active"
-              className="navbar-item"
-              to="/updates"
-              onClick={this.onLinkClick.bind(this)}
-            >
-              <div className="pageLink">
-                <Translate id="updates" />
-              </div>
-            </NavLink>
+          <div ref={this.menuRef} id="navbarMenu" className="navbar-menu">
+            <div className="navbar-start has-text-din"></div>
+            <div className="navbar-end has-text-din">
+              <NavLink
+                exact
+                activeClassName="active"
+                className="navbar-item"
+                to="/"
+                onClick={this.onLinkClick.bind(this)}
+              >
+                <div className="pageLink">
+                  <Translate id="about" />
+                </div>
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                className="navbar-item"
+                to="/protocol"
+                onClick={this.onLinkClick.bind(this)}
+              >
+                <div className="pageLink">
+                  <Translate id="loopring30" />
+                </div>
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                className="navbar-item"
+                to="/lrc"
+                onClick={this.onLinkClick.bind(this)}
+              >
+                <div className="pageLink">
+                  <Translate id="lrc" />
+                </div>
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                className="navbar-item"
+                to="/team"
+                onClick={this.onLinkClick.bind(this)}
+              >
+                <div className="pageLink">
+                  <Translate id="team" />
+                </div>
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                className="navbar-item"
+                to="/updates"
+                onClick={this.onLinkClick.bind(this)}
+              >
+                <div className="pageLink">
+                  <Translate id="updates" />
+                </div>
+              </NavLink>
+            </div>
           </div>
         </div>
       </nav>
