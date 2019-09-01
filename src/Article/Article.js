@@ -57,7 +57,7 @@ class Article extends React.Component {
       <div>
         <Header />
         <section className="section section-article-hero-image">
-          <figure className="image">
+          <figure data-aos="fade-up" className="image">
             {<img draggable="false" src={this.state.post.feature_image} />}
           </figure>
         </section>

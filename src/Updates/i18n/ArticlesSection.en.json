@@ -1,19 +1,17 @@
 {
-    "subNavigation":
-    {
-        "all": "All",
-        "biweekly": "Bi-Weekly",
-        "loopring30": "Loopring 3.0",
-        "learning": "Learning Series",
-        "thoughts": "Thoughts",
-        "news": "News"
-    },
-    "groupTagMapping":
-    {
-        "biweekly": "Update",
-        "loopring3.0": "Version30",
-        "learning": "Learning",
-        "thoughts": "Thoughts",
-        "news": "News"
-    }
+  "subNavigation": {
+    "all": "All",
+    "biweekly": "Bi-Weekly",
+    "loopring30": "Loopring 3.0",
+    "learning": "Learning Series",
+    "thoughts": "Thoughts",
+    "news": "News"
+  },
+  "groupTagMapping": {
+    "biweekly": "Update",
+    "loopring3.0": "Version30",
+    "learning": "Learning",
+    "thoughts": "Thoughts",
+    "news": "News"
+  }
 }

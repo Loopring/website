@@ -3,7 +3,7 @@
 @import "../Variables.scss";
 
 .section-article-group {
-       min-height: 50vh;
+  min-height: 50vh;
   .columns {
     @include desktop {
       padding-right: 10%;

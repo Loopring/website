@@ -3,15 +3,16 @@
 @import "../Variables.scss";
 
 .section-updates-hero {
-    height: 50vh;
-    min-height: 300px;
-    margin: 0;
-    padding: 0;
-    background-image: url(https://images.unsplash.com/photo-1567095740613-beef70b7e61c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
-    background-position: center center;
-    background-size: cover;
+    transition: opacity 2s ease-in;
+  height: 50vh;
+  min-height: 300px;
+  margin: 0;
+  padding: 0;
+  background-color: $primary;
+  background-position: center center;
+  background-size: cover;
 
-    h1 {
-        color: $white;
-    }
+  h1 {
+    color: $white;
+  }
 }
