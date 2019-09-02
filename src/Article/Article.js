@@ -107,18 +107,16 @@ class Article extends React.Component {
             {<img draggable="false" src={featureImg} />}
           </figure>
         </section>
-        <section className="section section-article-body is-small has-background-white">
+
+        <section className="section is-centered section-article-body">
           <div className="container">
-            <div className="columns is-centered">
-              <div className="column is-8">
-                <div
-                  className="content post-full-content"
-                  dangerouslySetInnerHTML={{ __html: html }}
-                />
-              </div>
-            </div>
+            <div
+              className="post-content"
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
           </div>
         </section>
+
         <Footer />
       </div>
     );
