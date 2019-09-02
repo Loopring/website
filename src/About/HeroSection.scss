@@ -27,9 +27,9 @@ $color-base: rgb(255, 255, 255);
     top: 0;
     background-size: 100%;
     z-index: -2;
-    background-color: $black;
+    background-color: $primary;
     background-size: fill;
-    background-image: url(/images/herobg.jpeg);
+    // background-image: url(/images/bg6.jpeg);
   }
 
   .text {
@@ -44,17 +44,17 @@ $color-base: rgb(255, 255, 255);
   }
 
   svg {
-    position: relative!important;
-    width: 100%!important;
-    height: $height-mask!important;
+    position: relative;
+    width: 100%;
+    height: $height-mask;
 
     text {
-      padding: 120px!important;
-      text-anchor: middle!important;
+      padding: 120px;
+      text-anchor: middle;
     }
 
     #alpha {
-      fill: $color-alpha!important;
+      fill: $color-alpha;
     }
 
     #title {
