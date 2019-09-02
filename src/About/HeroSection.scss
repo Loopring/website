@@ -24,7 +24,7 @@ $color-base: rgb(255, 255, 255);
     left: 0;
     right: 0;
     bottom: 0;
-    top: 0;
+    top: 40px;
     background-size: 100%;
     z-index: -2;
     background-color: $primary;
@@ -34,7 +34,7 @@ $color-base: rgb(255, 255, 255);
 
   .text {
     position: absolute;
-    top: 0;
+    top: -2px;
     left: 0;
     right: 0;
     bottom: 0;
