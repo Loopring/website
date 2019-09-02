@@ -5,67 +5,74 @@
 @import "./screen.css";
 
 .section-article-body {
-  * {
-    font-size: ($body-size * 1.2) !important;
-  }
+    * {
+        font-size: ($body-size * 1.2) !important;
+    }
 
-  p {
-    line-height: 1.6;
-  }
+    .post-full {
+        z-index: 20;
+    }
 
-  color: $black !important;
+    p {
+        line-height: 1.6;
+    }
 
-  .post-full-content {
-    padding: 70px 200px 0;
-    // border: 1px solid red;
-  }
+    color: $black !important;
 
-  .post-content {
-    // border: 1px solid blue;
-  }
+    @include desktop {
+        .post-full-content {
+            padding: 70px 200px 0;
+            // border: 1px solid red;
+        }
+    }
 
-  h2 {
-    color: $black;
-    font-family: $theme-font;
-    font-size: 2.4rem !important;
-    font-weight: 700 !important;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom:0!important;
-  }
+    .post-content {
+        // border: 1px solid blue;
+    }
 
-h2>br, h3>br {
-    display:none;
-}
+    h2 {
+        color: $black;
+        font-family: $theme-font;
+        font-size: 2.4rem !important;
+        font-weight: 700 !important;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 0 !important;
+    }
 
-  h3 {
-    text-decoration-style: solid !important;
-    font-size: 1.6rem !important;
-  }
+    h2>br,
+    h3>br {
+        display: none;
+    }
 
-  h4 {
-    text-decoration-style: dotted !important;
-  }
+    h3 {
+        text-decoration-style: solid !important;
+        font-size: 1.6rem !important;
+    }
 
-  h1 {
-    color: $black;
-    // letter-spacing: 0.08em;
-    font-family: $theme-font;
-    text-transform: uppercase;
-    // letter-spacing: 0.1em;
-    font-weight: 700 !important;
-    // padding-bottom: 40px !important;
-    font-size: 3.2rem !important;
-  }
+    h4 {
+        text-decoration-style: dotted !important;
+    }
 
-  li {
-    margin-right: 1em;
-  }
+    h1 {
+        color: $black;
+        // letter-spacing: 0.08em;
+        font-family: $theme-font;
+        text-transform: uppercase;
+        // letter-spacing: 0.1em;
+        font-weight: 700 !important;
+        // padding-bottom: 40px !important;
+        font-size: 3.2rem !important;
+    }
 
-  a:hover {
-      background-image: url("/images/css/highlight.svg") !important;
-      background-repeat: no-repeat;
-      background-size: cover;
-      color:$black!important;
+    li {
+        margin-right: 1em;
+    }
+
+    a:hover {
+        background-image: url("/images/css/highlight.svg") !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: $black !important;
     }
 }
