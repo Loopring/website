@@ -97,16 +97,21 @@ class Header extends I18nComponent {
                   <Translate id="team" />
                 </div>
               </NavLink>
-              <NavLink
-                activeClassName="active"
-                className="navbar-item"
-                to="/updates"
-                onClick={this.onLinkClick.bind(this)}
-              >
-                <div className="pageLink">
-                  <Translate id="updates" />
-                </div>
-              </NavLink>
+
+              {this.isChinese() ? (
+                <NavLink
+                  activeClassName="active"
+                  className="navbar-item"
+                  to="/updates"
+                  onClick={this.onLinkClick.bind(this)}
+                >
+                  <div className="pageLink">
+                    <Translate id="updates" />
+                  </div>
+                </NavLink>
+              ) : (
+                <span />
+              )}
             </div>
           </div>
         </div>

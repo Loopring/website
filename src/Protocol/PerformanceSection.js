@@ -14,7 +14,7 @@ class PerformanceSection extends I18nComponent {
     super(props, englishTranslation, chineseTranslation);
     this.state = {
       throughput: 100,
-      cost: this.isChinese() ? 0.02 : 0.003
+      cost: this.isChinese() ? 0.015 : 0.0021
     };
   }
 
@@ -160,43 +160,6 @@ class PerformanceSection extends I18nComponent {
                     <Translate id="costDetail" />
                   </p>
                 </div>
-              </div>
-            </div>
-
-            {/* ---*/}
-            <div className="columns is-centered">
-              <div
-                data-aos="fade-up"
-                className="column is-5 is-centered has-text-centered"
-              >
-                <table className="table">
-                  <thead>
-                    <tr>
-                      <th className="first"></th>
-                      <th>
-                        <Translate id="table.costPerTrade" />
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td className="">
-                        <Translate id="table.current" />
-                      </td>
-                      <td>
-                        <span className="">{this.state.cost}</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="">
-                        <Translate id="table.post" />
-                      </td>
-                      <td>
-                        <span className="">{this.state.cost * 0.95}</span>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
               </div>
             </div>
 
