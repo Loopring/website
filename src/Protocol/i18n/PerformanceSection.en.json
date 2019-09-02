@@ -4,8 +4,8 @@
   "table": {
     "throughput": "Throughtput",
     "costPerTrade": "Cost Per Trade (USD)",
-    "current": "Today",
-    "post": "Post-Istanbul",
+    "current": "Constantinople",
+    "post": "Istanbul",
     "withOCDA": "with OCDA",
     "withoutOCDA": "without OCDA"
   },
