@@ -5,6 +5,62 @@
 @import "./screen.css";
 
 .section-article-body {
+    * {
+        font-size: ($body-size*1) !important
+    }
 
+    ;
+
+    p {
+        line-height: 1.6;
+    }
+
+    color: $black !important;
+
+    .post-full-content {
+        padding: 70px 200px 0;
+        // border: 1px solid red;
+    }
+
+
+    .post-content {
+        // border: 1px solid blue;
+    }
+
+    h2 {
+        text-underline-position: under !important;
+        padding-bottom: $body-size !important;
+        color: $black;
+        font-family: $theme-font;
+        font-size: 2rem !important;
+        font-weight: 700 !important;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    h3 {
+        text-decoration-style: solid !important;
+        font-size: 1.6rem !important;
+    }
+
+    h4 {
+        text-decoration-style: dotted !important;
+    }
+
+    h1 {
+        color: $black;
+        // letter-spacing: 0.08em;
+        font-family: $theme-font;
+        text-transform: uppercase;
+        // letter-spacing: 0.1em;
+        font-weight: 700 !important;
+        // padding-bottom: 40px !important;
+        font-size: 3.2rem !important;
+    }
+
+
+    li {
+        margin-right: 1em;
+    }
 
 }

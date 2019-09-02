@@ -108,12 +108,16 @@ class Article extends React.Component {
           </figure>
         </section>
 
-        <section className="section is-centered section-article-body">
-          <div className="container">
-            <div
-              className="post-content"
-              dangerouslySetInnerHTML={{ __html: html }}
-            />
+        <section className="section is-centered section-article-body has-background-white">
+          <div className="inner content">
+            <article className="post-full post tag-shuangzhoubao tag-luyin ">
+              <section className="post-full-content">
+                <div
+                  className="post-content"
+                  dangerouslySetInnerHTML={{ __html: html }}
+                ></div>
+              </section>
+            </article>
           </div>
         </section>
 

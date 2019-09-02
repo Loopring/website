@@ -19,12 +19,12 @@ class HeroSection extends I18nComponent {
         <div className="backdrop"></div>
 
         <div className="text">
-          <svg>
+          <svg className="hero">
             <defs>
               <mask id="mask" x="0" y="0" width="100%" height="100%">
                 <rect id="alpha" x="0" y="0" width="100%" height="100%" />
                 <text
-                  className="has-text-din"
+                  className="has-text-din has-text-primary"
                   id="title"
                   x="50%"
                   y="35%"

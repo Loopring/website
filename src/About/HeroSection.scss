@@ -28,7 +28,7 @@ $color-base: rgb(255, 255, 255);
     background-size: 100%;
     z-index: -2;
     background-color: $black;
-    background-size: fill;
+    background-size: cover;
     background-image: url(/images/herobg.jpeg);
   }
 
@@ -43,7 +43,7 @@ $color-base: rgb(255, 255, 255);
     overflow: hidden;
   }
 
-  svg {
+  svg.hero {
     position: relative;
     width: 100%;
     height: $height-mask;
