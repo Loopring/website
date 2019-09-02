@@ -44,17 +44,17 @@ $color-base: rgb(255, 255, 255);
   }
 
   svg {
-    position: relative;
-    width: 100%;
-    height: $height-mask;
+    position: relative!important;
+    width: 100%!important;
+    height: $height-mask!important;
 
     text {
-      padding: 120px;
-      text-anchor: middle;
+      padding: 120px!important;
+      text-anchor: middle!important;
     }
 
     #alpha {
-      fill: $color-alpha;
+      fill: $color-alpha!important;
     }
 
     #title {
