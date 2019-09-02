@@ -75,4 +75,10 @@
         background-size: cover;
         color: $black !important;
     }
+
+    figcaption {
+        color: $grey;
+        font-size: 12px!important;
+        font-weight: 300!important;
+    }
 }
