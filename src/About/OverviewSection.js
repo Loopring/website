@@ -52,16 +52,6 @@ class OverviewSection extends JsonI18nComponent {
 
             <div data-aos="fade-up" className="column is-4 has-text-justify">
               <div className="content">
-                <h2>{this.state.I.section4.title}</h2>
-
-                {this.state.I.section4.content.map((p, idx) => (
-                  <p key={idx} dangerouslySetInnerHTML={{ __html: p }} />
-                ))}
-              </div>
-            </div>
-
-            <div data-aos="fade-up" className="column is-4 has-text-justify">
-              <div className="content">
                 <h2>{this.state.I.section2.title}</h2>
 
                 {this.state.I.section2.content.map((p, idx) => (
@@ -71,6 +61,16 @@ class OverviewSection extends JsonI18nComponent {
                 <h2>{this.state.I.section3.title}</h2>
 
                 {this.state.I.section3.content.map((p, idx) => (
+                  <p key={idx} dangerouslySetInnerHTML={{ __html: p }} />
+                ))}
+              </div>
+            </div>
+
+            <div data-aos="fade-up" className="column is-4 has-text-justify">
+              <div className="content">
+                <h2>{this.state.I.section4.title}</h2>
+
+                {this.state.I.section4.content.map((p, idx) => (
                   <p key={idx} dangerouslySetInnerHTML={{ __html: p }} />
                 ))}
               </div>
