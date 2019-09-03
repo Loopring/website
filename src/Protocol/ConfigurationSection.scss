@@ -15,7 +15,6 @@
 
   .remark {
     margin-bottom: 20px;
-    margin-top: -20px;
     background-color: $grey-lighter;
     padding: 20px;
     border-left: 2px solid $grey-dark;
@@ -25,6 +24,10 @@
     font-size: 0.8em;
     font-weight: 700;
     text-transform: uppercase;
+  }
+
+  code {
+    color: $primary;
   }
 
   .tag {

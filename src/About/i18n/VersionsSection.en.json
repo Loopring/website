@@ -5,8 +5,7 @@
   "version10": {
     "title": "Loopring 1.0",
     "content": [
-      "Loopring 1.0 introduced the <b> Ring-Matching</b> concept — in one trade, up to 12 orders can circularly swap cryptoassets in the form of rings. This feature is unique and brings the potential for improved price discovery and higher trading volume.",
-      "Our project name <b>Loopring</b> is derived from this feature.",
+      "Loopring 1.0 introduced the <b> Ring-Matching</b> concept — in one trade, up to 12 orders can circularly swap cryptoassets in the form of rings. This feature is unique and brings the potential for improved price discovery and higher trading volume. Our project name <b>Loopring</b> is derived from this feature.",
       "With 1.0, orders are managed and matched off-chain. The protocol's smart contracts verify order signatures, trading prices, and settlement amounts on-chain and perform token transfers for each order accordingly. Because of the off-chain order management and matching, the performance of Loopring 1.0 is better than that of EtherDelta and the like, which rest entirely on-chain."
     ]
   },

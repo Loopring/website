@@ -1,25 +1,24 @@
 {
-  "heading": "Utility & Staking",
-  "utilities": [
+    "heading": "Utility & Staking",
+    "utilities": [
     {
-      "title": "1/ Earn Protocol Fees, by Holders",
-      "symbol": "☉",
-      "detail": "Every LRC holder can stake LRC to earn part of 70% of the protocol fees of all exchanges built on top of Loopring— 20 % will fund the Loopring DAO and the remaining 10 % will be burned. "
+        "title": "1/ Earn Protocol Fees, by Holders",
+        "symbol": "☉",
+        "detail": "All LRC holder can stake LRC to earn part of the protocol fees paid by all exchanges built on top of Loopring — 70% of the fees are rewarded to stakers, 20 % will be used to fund the Loopring DAO, and the remaining 10 % will be burned."
     },
     {
-      "title": "2/ Build up DEX Reputation, by DEX Owners",
-      "symbol": "☐",
-      "detail": "An exchange owner needs to stake LRC for economic security and builing up its reputation."
+        "title": "2/ Build up DEX Reputation, by DEX Owners",
+        "symbol": "☐",
+        "detail": "Loopring DEX owners need to stake some LRC for economic security and building up their reputations. This mechanism guarantees malicious DEXes have something to lose if they don't follow the protocol rules. Always trust DEXes with more LRC staked."
     },
     {
-      "title": "3/ Lower Protocol Fees, by DEX Owners",
-      "symbol": "⟁",
-      "detail": "LRC can be staked to lower the protocol fees on a specific exchange by an exchange owner, market makers and high-frequency traders."
+        "title": "3/ Lower Protocol Fees, by DEX Owners",
+        "symbol": "⟁",
+        "detail": "The same LRC staking by a DEX owner to build up reputations will also reduce the protocol fee the DEX has to pay for each trade. The more LRC staked, the less the settlement cost will be for the DEX. "
     },
     {
-      "title": "4/ Lower Protocol Fees, by Traders",
-      "symbol": "∖",
-      "detail": "LRC can be staked to lower the protocol fees on a specific exchange by an exchange owner, market makers and high-frequency traders. "
-    }
-  ]
+        "title": "4/ Lower Protocol Fees, by Traders",
+        "symbol": "∖",
+        "detail": "DEX owners, operators, market makers, and professional traders can also stake LRC to lower down the protocol fee. This type of LRC staking will reduce the protocol fee twice as much as the previous staking by DEX owners, and these LRC can be unlocked and withdrawn at any time without restriction."
+    }]
 }

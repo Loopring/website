@@ -22,7 +22,7 @@ class ConfigurationSection extends JsonI18nComponent {
           </div>
 
           {/* ---*/}
-          <div className="columns is-centered">
+          <div className="columns is-centered is-multiline">
             <div data-aos="fade-up" className="column is-5">
               <div className="content">
                 <h2>{this.state.I.constants.heading}</h2>
@@ -36,7 +36,32 @@ class ConfigurationSection extends JsonI18nComponent {
                       <div className="tag">
                         {item.type}: {item.value}
                       </div>
-                      <div className="meaning">{item.meaning}</div>
+                      <div
+                        className="meaning"
+                        dangerouslySetInnerHTML={{ __html: item.meaning }}
+                      />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="column is-5">
+              <div className="content">
+                <h2>{this.state.I.globalParams.heading}</h2>
+                <div className="remark">{this.state.I.globalParams.remark}</div>
+                <ul>
+                  {this.state.I.globalParams.items.map((item, idx) => (
+                    <li key={idx}>
+                      <div className="has-leading-thin-arrow name">
+                        {item.name}
+                      </div>{" "}
+                      <div className="tag">
+                        {item.type}: {item.value}
+                      </div>
+                      <div
+                        className="meaning"
+                        dangerouslySetInnerHTML={{ __html: item.meaning }}
+                      />
                     </li>
                   ))}
                 </ul>
@@ -56,27 +81,10 @@ class ConfigurationSection extends JsonI18nComponent {
                       <div className="tag">
                         {item.type}: {item.value}
                       </div>
-                      <div className="meaning">{item.meaning}</div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="content">
-                <h2>{this.state.I.onchainParams.heading}</h2>
-                <div className="remark">
-                  {this.state.I.onchainParams.remark}
-                </div>
-                <ul>
-                  {this.state.I.onchainParams.items.map((item, idx) => (
-                    <li key={idx}>
-                      <div className="has-leading-thin-arrow name">
-                        {item.name}
-                      </div>{" "}
-                      <div className="tag">
-                        {item.type}: {item.value}
-                      </div>
-                      <div className="meaning">{item.meaning}</div>
+                      <div
+                        className="meaning"
+                        dangerouslySetInnerHTML={{ __html: item.meaning }}
+                      />
                     </li>
                   ))}
                 </ul>
@@ -97,7 +105,34 @@ class ConfigurationSection extends JsonI18nComponent {
                       <div className="tag">
                         {item.type}: {item.value}
                       </div>
-                      <div className="meaning">{item.meaning}</div>
+                      <div
+                        className="meaning"
+                        dangerouslySetInnerHTML={{ __html: item.meaning }}
+                      />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="column is-5">
+              <div className="content">
+                <h2>{this.state.I.onchainParams.heading}</h2>
+                <div className="remark">
+                  {this.state.I.onchainParams.remark}
+                </div>
+                <ul>
+                  {this.state.I.onchainParams.items.map((item, idx) => (
+                    <li key={idx}>
+                      <div className="has-leading-thin-arrow name">
+                        {item.name}
+                      </div>{" "}
+                      <div className="tag">
+                        {item.type}: {item.value}
+                      </div>
+                      <div
+                        className="meaning"
+                        dangerouslySetInnerHTML={{ __html: item.meaning }}
+                      />
                     </li>
                   ))}
                 </ul>
