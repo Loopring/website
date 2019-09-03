@@ -1,38 +1,35 @@
 {
-    "overview": "Overview",
-    "section1":
-    {
-        "title": "Loopring's Vision and Objectives",
-        "content": ["Blockchain technology empowers true ownership — ownership of digital assets, and soon, the ownership of legacy, or physical assets as well. This technology and the cryptoassets it supports have upended traditional notions of currency, and will establish the foundation of the next generation of finance.",
-            "Ironically, however, most cryptoasset holders still trade these assets on Centralized Exchanges, or CEXes, temporarily giving up their ownership (keys) to intermediaries, and eschewing a primary benefit & virtue of the asset itself. Over the years, while in the custody of these CEXes, more than two billion USD of cryptoassets belonging to users have been stolen. Further, it is often difficult to distinguish if this was stolen by external hackers, or an ‘inside job’ by malicious owners.",
-            "We believe that cryptoasset trading should be — and will be — risk-free, occuring on Decentralized Exchanges, or DEXes — powered by the underlying blockchains & smart contracts where these assets live. We also envision that trading cryptoassets on DEXes will be less expensive compared to CEXes, and that liquidity will be aggregated at a much larger scale, if not globally.",
-            "Loopring's objective is to design and engineer the best-in-class orderbook-based DEX protocol on Ethereum. We wish to make this infrastructure available for the whole industry, improving crypto-holders' overall trading experience and peace of mind. We expect that our effort will accelerate the adoption of blockchain technology and cryptocurrencies."
-        ]
-    },
-    "section2":
-    {
-        "title": "LOOPRING PROTOCOL IS SECURE",
-        "content": [
+  "overview": "Overview",
+  "section1": {
+    "title": "Loopring's Vision and Objectives",
+    "content": [
+      "Blockchain technology empowers true ownership — ownership of digital assets, and soon, the ownership of legacy, or physical assets as well. This technology and the cryptoassets it supports have upended traditional notions of currency, and will establish the foundation of the next generation of finance.",
+      "Ironically, however, most cryptoasset holders still trade these assets on Centralized Exchanges, or CEXes, temporarily giving up their ownership (keys) to intermediaries, and eschewing a primary benefit & virtue of the asset itself. Over the years, while in the custody of these CEXes, more than two billion USD of cryptoassets belonging to users have been stolen. Further, it is often difficult to distinguish if this was stolen by external hackers, or an ‘inside job’ by malicious owners.",
+      "We believe that cryptoasset trading should be — and will be — risk-free, occuring on Decentralized Exchanges, or DEXes — powered by the underlying blockchains & smart contracts where these assets live. We also envision that trading cryptoassets on DEXes will be less expensive compared to CEXes, and that liquidity will be aggregated at a much larger scale, if not globally.",
+      "Loopring's objective is to design and engineer the best-in-class orderbook-based DEX protocol on Ethereum. We wish to make this infrastructure available for the whole industry, improving crypto-holders' overall trading experience and peace of mind. We expect that our effort will accelerate the adoption of blockchain technology and cryptocurrencies."
+    ]
+  },
+  "section2": {
+    "title": "LOOPRING PROTOCOL IS SECURE",
+    "content": [
+      "The security of user assets is and will always remain Loopring's top priority. The three previous versions of the Loopring protocol do not take any custody of user assets at all — traders are always in possession of their assets. The latest version, Loopring 3.0, relies on smart contracts to hold assets to be traded. We designed the protocol in such a way that users can always claim their assets in all circumstances, even when DEX operators are evil.",
+      "We claim that Loopring offers users the same level of security as the underlying Ethereum blockchain — if a feature called On-Chain Data Availability (OCDA) is turned on in v3. Trading on Loopring-based DEXes does not demand traders place any trust in the DEX owners or operators, nor the Loopring team. In terms of crypto-trading, being trustless will become the new standard of trustworthiness."
+    ]
+  },
+  "section3": {
+    "title": "THE REDEMPTION OF CENTRALIZED EXCHANGES",
+    "content": [
+      "If you have ever run a centralized exchange business, you know the stress and fear of being hacked. Loopring ensures that even if all your servers were compromised, you will, at worst, only lose a couple of Ether that you use as transaction fees (gas). You can always recover from such incidences and resume your business. Using an open-sourced, audited, cryptographically sound protocol means less time & money spent on security, and more on growing your business."
+    ]
+  },
+  "section4": {
+    "title": "LOOPRING IS REMARKABLELY PERFORMANT",
+    "content": [
+      "Most DEX protocols suffer terrible performance issues — the throughput is too low while the cost is too high. The performance issues prevent those protocols from being massively adopted as no professional market makers or traders will use these protocols as their primary method of trading. The performance vs security tradeoff has indeed been a polarizing one. ",
 
-            "The security of user assets is and will always remain Loopring's top priority. The three previous versions of the Loopring protocol do not take any custody of user assets at all — traders are always in possession of their assets. The latest version, Loopring 3.0, relies on smart contracts to hold assets to be traded. We designed the protocol in such a way that users can always claim their assets in all circumstances, even when DEX operators are evil.",
-            "We claim that Loopring offers users the same level of security as the underlying Ethereum blockchain — if a feature called On-Chain Data Availability (OCDA) is turned on in v3. Trading on Loopring-based DEXes does not demand traders place any trust in the DEX owners or operators, nor the Loopring team. In terms of crypto-trading, being trustless will become the new standard of trustworthiness."
+      "We believe the way many trading protocols use the underlying blockchain is fundamentally flawed. Loopring takes a different approach known as zkRollup proposed, by Vitalik Buterin, which migrates most computations off the blockchain and only broadcasts exchanges' new state roots and their corresponding proofs onto the blockchain. In other words, the Loopring protocol uses the underlying Ethereum blockchain mainly as a data layer and a Zero-Knowledge Proof verification thin-logic layer. As a result, Loopring's throughput is as high as 350 trades per second with on-chain data-availability, and 6,900 trades per second without. The post-Istanbul throughput will become 1,400 and 10,500 respectively. The cost per trade settlement is as small as one-third of a US cent, which can be further optimized with different approaches such as GPU-based proof generation and recursive SNARKs.",
 
-        ]
-    },
-    "section3":
-    {
-        "title": "THE REDEMPTION OF CENTRALIZED EXCHANGES",
-        "content": ["If you have ever run a centralized exchange business, you know the stress and fear of being hacked. Loopring ensures that even if all your servers were compromised, you will, at worst, only lose a couple of Ether that you use as transaction fees (gas). You can always recover from such incidences and resume your business. Using an open-sourced, audited, cryptographically sound protocol means less time & money spent on security, and more on growing your business."]
-    },
-    "section4":
-    {
-        "title": "LOOPRING IS REMARKABLELY PERFORMANT",
-        "content": ["Most DEX protocols suffer terrible performance issues — the throughput is too low while the cost is too high. The performance issues prevent those protocols from being massively adopted as no professional market makers or traders will use these protocols as their primary method of trading. The performance vs security tradeoff has indeed been a polarizing one. ",
-
-            "We believe the way many trading protocols use the underlying blockchain is fundamentally flawed. Loopring takes a different approach known as zkRollup proposed, by Vitalik Buterin, which migrates most computations off the blockchain and only broadcasts exchanges' new state roots and their corresponding proofs onto the blockchain. In other words, the Loopring protocol uses the underlying Ethereum blockchain mainly as a data layer and a Zero-Knowledge Proof verification thin-logic layer. As a result, Loopring's throughput is as high as 350 trades per second with on-chain data-availability, and 6,900 trades per second without. The post-Istanbul throughput will become 1,400 and 10,500 respectively. The cost per trade settlement is as small as one-third of a US cent, which can be further optimized with different approaches such as GPU-based proof generation and recursive SNARKs.",
-
-
-            "We believe Loopring's performance is sufficient for professional traders and market makers to deploy algorithmic strategies and other automated trading bots. By building on top of Loopring 3.0, orderbook-based DEXes can be commercially viable for the first time. We expect such DEXes to begin outcompeting and displacing many centralized counterparts."
-        ]
-    }
+      "We believe Loopring's performance is sufficient for professional traders and market makers to deploy algorithmic strategies and other automated trading bots. By building on top of Loopring 3.0, orderbook-based DEXes can be commercially viable for the first time. We expect such DEXes to begin outcompeting and displacing many centralized counterparts."
+    ]
+  }
 }

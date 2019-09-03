@@ -32,7 +32,7 @@ class OverviewSection extends JsonI18nComponent {
                 <h2>{this.state.I.section1.title}</h2>
 
                 {this.state.I.section1.content.map((p, idx) => (
-                  <p key={idx}>{p}</p>
+                  <p key={idx} dangerouslySetInnerHTML={{ __html: p }} />
                 ))}
               </div>
             </div>
@@ -54,13 +54,13 @@ class OverviewSection extends JsonI18nComponent {
                 <h2>{this.state.I.section2.title}</h2>
 
                 {this.state.I.section2.content.map((p, idx) => (
-                  <p key={idx}>{p}</p>
+                  <p key={idx} dangerouslySetInnerHTML={{ __html: p }} />
                 ))}
 
                 <h2>{this.state.I.section3.title}</h2>
 
                 {this.state.I.section3.content.map((p, idx) => (
-                  <p key={idx}>{p}</p>
+                  <p key={idx} dangerouslySetInnerHTML={{ __html: p }} />
                 ))}
               </div>
             </div>
@@ -69,7 +69,7 @@ class OverviewSection extends JsonI18nComponent {
                 <h2>{this.state.I.section1.title}</h2>
 
                 {this.state.I.section1.content.map((p, idx) => (
-                  <p key={idx}>{p}</p>
+                  <p key={idx} dangerouslySetInnerHTML={{ __html: p }} />
                 ))}
               </div>
             </div>
