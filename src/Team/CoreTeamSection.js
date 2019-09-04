@@ -28,7 +28,6 @@ class CoreTeamSection extends JsonI18nComponent {
                   <li key="idx">
                     <a
                       className="highlight has-leading-thin-arrow"
-                      disabled={!member.url}
                       href={member.url}
                     >
                       {member.name}

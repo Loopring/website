@@ -34,6 +34,13 @@ class TokenInfoSection extends JsonI18nComponent {
                         {item.key}:{" "}
                       </span>
                       <span className="tag value">{item.value}</span>
+                      {item.url ? (
+                        <a className="highlight" href={item.url}>
+                          ↗
+                        </a>
+                      ) : (
+                        <span />
+                      )}
                     </li>
                   ))}
                 </ul>

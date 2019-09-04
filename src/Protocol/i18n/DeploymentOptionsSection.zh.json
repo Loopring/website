@@ -1,36 +1,38 @@
 {
-  "headingDeployment": "Deployment Options",
-  "headingDeploymentMore": "Loopring 3.0 provides the following deployment options (or forge mode) to support various upgradability. Note that upgradability is available only for new protocol versions with compatible DEX state schema.",
+  "headingDeployment": "多种部署选项",
+  "headingDeploymentMore": "路印协议3.0提供下列四种部署选项用以支持去中心化交易所的协议升级。请注意协议升级的前提是新协议版本的数据结构是向后兼容的。",
   "options": [
     {
-      "title": "● AUTOMATIC UPGRADABLITY",
+      "title": "● 自动升级模式",
+
       "contents": [
-        "DEXes deployed with this option will automatically upgrade to new minor versions when they become available. We encourage DEXes to opt-in this option to benefit from future bug fixes and features.",
-        "This option enables a transparent upgrade experience to both DEX owners and DEX users but does imply trust on the Loopring team for future protocol releases."
+        "在这种模式下，当具有兼容性的协议新版本发布后，交易所就会自动升级到使用协议的最新版。交易所和用户对协议的升级没有感知，不会影响用户体验。这种模式也意味着交易所需要信任路印协议后续的版本。",
+        "这是我们推荐的部署模式。通过自动升级，交易所可以第一时间获得协议的漏洞补丁和新特性。"
       ]
     },
 
     {
-      "title": "◉ Manual UPGRADABLITY",
+      "title": "◉ 手动升级模式",
       "contents": [
-        "DEXes deployed with this option will be able to upgrade to new versions, but the upgrade must be triggered by the DEX owners manually. This option allows DEX owners to evaluate new protocol releases first and make their best judgment call.",
-        "The upgrade experience enabled by this option is also entirely transparent to DEX users."
+        "手动升级模式依靠于交易所拥有者决定是否升级到具有兼容性的协议新版本。在这种模式下，交易所拥有者无需信任路印基金会以及任何新版协议，他们可以自行决定是否升级，已经升级到哪个版本。",
+        "手动升级对交易所用户依然是完全透明且无缝的，因此对用户体验以及中继的运行没有任何影响。"
       ]
     },
 
     {
-      "title": "◎ Proxied",
+      "title": "◎ 代理模式",
       "contents": [
-        "DEXes deployed with this option are not upgradable at all. This option isolates the DEX state (data) from its logic by deploying only a proxy in front of a pre-deployed Looping DEX, which makes forging a new DEX very inexpensive. ",
-        "This option enables a transparent upgrade experience to both DEX owners and DEX users but does imply trust on the Loopring team for future protocol releases."
+        "代理模式不支持交易所协议升级，这意味着一旦发现现有版本协议有安全漏洞，交易所运营者只能选择关闭交易所，并帮助用户提现已充值资产。",
+        "这种模式的优势是部署非常节省油费，不过我们不建议在产品环境下使用该模式。"
       ]
     },
 
     {
-      "title": "○ Native",
+      "title": "◯ 原生模式",
       "contents": [
-        " DEXes deployed with this option are not upgradable either, and the deployment is likely to consume more gas than the other three options.",
-        "This option enables smaller transaction cost after deployment as there is no proxy applied."
+        "该模式也不支持协议的升级，并且部署消耗的油费也很多。这种模式的优点是部署后每笔以太坊转账的费用都是最优的。",
+        "如果交易所对协议升级不感兴趣，且想最小化运营成本，可以考虑使用这种模式。",
+        "我们建议在极致地节省油费和协议升级之间，选择可升级性。"
       ]
     }
   ]

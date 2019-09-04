@@ -14,11 +14,13 @@
     },
     {
       "key": "代币地址",
-      "value": "0xBBbbCA6A......ec7AEafD"
+      "value": "0xBBbbCA6A......ec7AEafD",
+      "url": "https://etherscan.io/address/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
     },
     {
       "key": "代币ENS",
-      "value": "LRCTOKEN.eth"
+      "value": "LRCTOKEN.eth",
+      "url": "https://etherscan.io/address/lrctoken.eth"
     },
     {
       "key": "ERC20兼容",

@@ -1,6 +1,5 @@
 import React from "react";
 
-import { Translate } from "react-localize-redux";
 import englishTranslation from "./i18n/VersionsSection.en.json";
 import chineseTranslation from "./i18n/VersionsSection.zh.json";
 import JsonI18nComponent from "../Components/JsonI18nComponent";

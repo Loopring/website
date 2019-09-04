@@ -33,7 +33,7 @@ class ArticleGroup extends React.Component {
       .then(posts => {
         const _posts = this.state.posts;
         if (posts.length < 15) {
-          this.state.hasMorePosts = false;
+          this.setState({ hasMorePosts: false });
         }
 
         posts.map(post => {

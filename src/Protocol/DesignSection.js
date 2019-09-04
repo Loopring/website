@@ -224,7 +224,7 @@ class DesignSection extends I18nComponent {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="highlight has-leading-thick-arrow highlight"
-                      href=""
+                      href="https://github.com/Loopring/protocols/tree/master/packages/loopring_v3/contracts"
                     >
                       <Translate id="blocks.contracts" />
                     </a>
@@ -234,12 +234,12 @@ class DesignSection extends I18nComponent {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="highlight has-leading-thick-arrow highlight"
-                      href=""
+                      href="https://github.com/Loopring/protocols/tree/master/packages/loopring_v3/circuit"
                     >
                       <Translate id="blocks.circuits" />
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -248,7 +248,7 @@ class DesignSection extends I18nComponent {
                     >
                       <Translate id="blocks.loopring3.0audit" />
                     </a>
-                  </li>
+                  </li>*/}
                 </ul>
               </div>
             </div>

@@ -122,12 +122,18 @@ class PerformanceSection extends I18nComponent {
               >
                 <ul className="links">
                   <li>
-                    <a disabled className="has-leading-thick-arrow">
+                    <a
+                      href="https://github.com/Loopring/protocols/tree/master/packages/loopring_v3/contracts"
+                      className="has-leading-thick-arrow"
+                    >
                       <Translate id="links.contracts" />
                     </a>
                   </li>
                   <li>
-                    <a disabled className="has-leading-thick-arrow">
+                    <a
+                      href="https://github.com/Loopring/protocols/tree/master/packages/loopring_v3/circuit"
+                      className="has-leading-thick-arrow"
+                    >
                       <Translate id="links.circuits" />
                     </a>
                   </li>
@@ -182,12 +188,18 @@ class PerformanceSection extends I18nComponent {
               >
                 <ul className="links">
                   <li>
-                    <a disabled className="has-leading-thick-arrow">
+                    <a
+                      href="https://github.com/Loopring/protocols/tree/master/packages/loopring_v3/contracts"
+                      className="has-leading-thick-arrow"
+                    >
                       <Translate id="links.contracts" />
                     </a>
                   </li>
                   <li>
-                    <a disabled className="has-leading-thick-arrow">
+                    <a
+                      href="https://github.com/Loopring/protocols/tree/master/packages/loopring_v3/circuit"
+                      className="has-leading-thick-arrow"
+                    >
                       <Translate id="links.circuits" />
                     </a>
                   </li>

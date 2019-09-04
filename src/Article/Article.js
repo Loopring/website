@@ -1,5 +1,4 @@
 import React from "react";
-import ReactMarkdown from "react-markdown";
 
 import "./Article.scss";
 import "./Ghost.scss";
@@ -9,7 +8,6 @@ import Footer from "../Components/Footer.js";
 import GhostContentAPI from "@tryghost/content-api";
 import Moment from "react-moment";
 import "moment-timezone";
-// import ContentLoader, { Facebook } from "react-content-loader";
 
 const api = new GhostContentAPI({
   url: "https://loopring.ghost.io",

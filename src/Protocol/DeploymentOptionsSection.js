@@ -31,17 +31,15 @@ class DeploymentOptionsSection extends JsonI18nComponent {
           <div className="columns columns-options is-centered">
             {this.state.I.options.map((option, idx) => (
               <div
+                key={idx}
                 data-aos="fade-up"
                 className="column is-3 has-text-centered "
               >
-                <div
-                  key={idx}
-                  class="content has-background-blue has-text-left"
-                >
+                <div className="content has-background-blue has-text-left">
                   <h2>{option.title}</h2>
 
                   {option.contents.map((p, idx) => (
-                    <p>{p}</p>
+                    <p key={"p_" + idx}>{p}</p>
                   ))}
                 </div>
               </div>
