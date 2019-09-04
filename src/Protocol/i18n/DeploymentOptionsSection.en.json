@@ -1,7 +1,7 @@
 {
 
     "headingDeployment": "Deployment Options",
-    "headingDeploymentMore": "Loopring 3.0 provides the following deployment options (or forge mode) to support various upgradability. Note that upgradability is available only for new protocol versions with compatible DEX state schema.",
+    "headingDeploymentMore": "Loopring 3.0 provides the following deployment options (or forge modes) to support various upgradability. Note that upgradability is available only for new protocol versions with compatible DEX state schema.",
     "options": [{
             "title": "● AUTOMATIC UPGRADABLITY",
             "contents": [
