@@ -67,17 +67,17 @@ class DesignSection extends I18nComponent {
                     >
                       Whitepaper
                     </a>{" "}
-                    for version 1.0, 1.5, and 2.0. For 3.0, however, we decided
-                    to share our{" "}
+                    for version 1.0, 1.5, and 2.0. For 3.0, however, we’ve
+                    decided to share our{" "}
                     <a
                       className="highlight underline"
                       href="https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/DESIGN.md"
                     >
                       Design Doc
                     </a>{" "}
-                    as it provides a lot more details than a whitepaper. Many
-                    background information is still available in the origin
-                    whitepaper.
+                    as it provides a lot more granular details than a
+                    whitepaper. Much of the general background information,
+                    though, is still available in the original whitepaper.
                   </p>
                 )}
 
@@ -101,25 +101,25 @@ class DesignSection extends I18nComponent {
                 ) : (
                   <div>
                     <p>
-                      We designed Loopring 3.0 for two major objectives:
-                      Security and Performance. The protocol ensures that users
-                      can withdraw their assets under all circumstances. In the
-                      worst scenario, users can withdraw with Merkle proofs that
-                      can be generated from the on-chain data if OCDA is
-                      enabled, which means users don't need to trust or turn to
-                      any central party for help.
+                      We designed Loopring 3.0 with two major objectives in
+                      mind: Security and Performance. The protocol ensures that
+                      users can withdraw their assets under all circumstances.
+                      In the worst-case scenario, users can still withdraw their
+                      assets with Merkle proofs that can be generated from the
+                      on-chain data if OCDA is enabled. This means users don't
+                      need to trust or turn to any central party for help in any
+                      circumstance.
                     </p>
-
                     <p>
                       To significantly improve throughput and lower settlement
                       cost, Loopring 3.0 migrates most computations off-chain
                       and uses the underlying blockchain as a data and a ZKP
                       verification layer. User balances and order trading
-                      histories are all organized in an off-chain Quard-Merkle
+                      histories are all organized in an off-chain Quad-Merkle
                       tree. User requests, including deposits, withdrawals,
                       transfers, and settlements, are processed in large
                       batches. The state root after each batch will be published
-                      on-chain together with other data. The ZKP proofs for new
+                      on-chain together with other data. The ZK proofs for new
                       state roots are verified to finalize those state updates.
                     </p>
                   </div>

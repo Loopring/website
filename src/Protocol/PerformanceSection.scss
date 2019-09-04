@@ -9,7 +9,7 @@
     display: inline-block;
     background-color: transparent;
     color: $black;
-    border-bottom: 2px solid $grey-darker;
+
 
     br {
       display: none;
@@ -19,6 +19,9 @@
       }
     }
   }
+  tbody {
+  border-bottom: 2px solid $grey-darker;
+}
 
   td {
     padding-left: 0;
@@ -30,17 +33,21 @@
     white-space: nowrap;
     // color: $black
     width: 100% !important;
-    text-align: right;
+    text-align: center;
   }
 
   th {
     // width: 100% !important;
-    text-align: left;
+    text-align: center;
     border: 0;
     font-weight: 500;
     border-top: none;
     white-space: nowrap;
     border-bottom: 1px solid $grey-darker;
+
+    >div{
+      margin:auto;
+    }
   }
 
   .odometer {

@@ -69,13 +69,20 @@ class PerformanceSection extends I18nComponent {
                     <tr>
                       <th className="first"></th>
                       <th>
-                        <Translate id="table.throughput" />
-                        <br />
-                        <Translate id="table.withOCDA" />
+                        <div>
+                          <Translate id="table.throughput" />
+                        </div>
+                        <div>
+                          <Translate id="table.withOCDA" />
+                        </div>
                       </th>
                       <th>
-                        <Translate id="table.throughput" />
-                        <br /> <Translate id="table.withoutOCDA" />
+                        <div>
+                          <Translate id="table.throughput" />
+                        </div>
+                        <div>
+                          <Translate id="table.withoutOCDA" />
+                        </div>
                       </th>
                     </tr>
                   </thead>
@@ -157,7 +164,10 @@ class PerformanceSection extends I18nComponent {
               >
                 <div className="content">
                   <p>
-                    <Translate id="costDetail" />
+                    <Translate
+                      id="costDetail"
+                      options={{ renderInnerHtml: true }}
+                    />
                   </p>
                 </div>
               </div>

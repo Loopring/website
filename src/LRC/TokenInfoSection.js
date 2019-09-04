@@ -45,7 +45,7 @@ class TokenInfoSection extends JsonI18nComponent {
                     <p className="has-text-justify">
                       我们已于2019年5月7日完成了LRC代币从
                       <a
-                        className="highlight has-trailing-arrow"
+                        className="highlight "
                         href="https://etherscan.io/token/0xef68e7c694f40c8202821edf525de3782458639f"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -60,7 +60,7 @@ class TokenInfoSection extends JsonI18nComponent {
                         href="https://medium.com/loopring-protocol/oedax-looprings-open-ended-dutch-auction-exchange-model-d92cebbd3667"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="highlight has-trailing-arrow"
+                        className="highlight "
                       >
                         Oedax协议
                       </a>{" "}
@@ -69,7 +69,7 @@ class TokenInfoSection extends JsonI18nComponent {
                     <p>
                       您可以通过我们的
                       <a
-                        className="highlight has-trailing-arrow"
+                        className="highlight "
                         href="https://medium.com/loopring-protocol/lrc-token-upgraded-a26ee6f87b84"
                       >
                         博客
@@ -79,10 +79,10 @@ class TokenInfoSection extends JsonI18nComponent {
                   </div>
                 ) : (
                   <div>
-                    <p className="has-text-justify">
-                      On May 07 2019, we migrated LRC from{" "}
+                    <p>
+                      On May 7th 2019, we migrated LRC from{" "}
                       <a
-                        className="highlight has-trailing-arrow"
+                        className="highlight "
                         href="https://etherscan.io/token/0xef68e7c694f40c8202821edf525de3782458639f"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -96,18 +96,21 @@ class TokenInfoSection extends JsonI18nComponent {
                         href="https://medium.com/loopring-protocol/oedax-looprings-open-ended-dutch-auction-exchange-model-d92cebbd3667"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="highlight has-trailing-arrow"
+                        className="highlight "
                       >
                         Oedax
                       </a>{" "}
                       auction protocol to burn LRC as the protocols are being
-                      used. The total LRC supply will decrease over time to
-                      reflect these burns.
+                      used. The total LRC supply will decrease over time - in
+                      line with useage - to reflect these burns. (Note, LRC v2
+                      has nothing to do with Loopring v2; LRC v2 is simply the
+                      updated, proper token - it is used in Loopring 3.0 and
+                      beyond).
                     </p>
                     <p>
                       To learn more about the migration, please check out our{" "}
                       <a
-                        className="highlight has-trailing-arrow"
+                        className="highlight "
                         href="https://medium.com/loopring-protocol/lrc-token-upgraded-a26ee6f87b84"
                       >
                         blog post
@@ -133,12 +136,12 @@ class TokenInfoSection extends JsonI18nComponent {
                         <span className="has-leading-thin-arrow exchange-name">
                           {exchange.name}
                         </span>
-                        {exchange.pairs.map((token, idx) => (
-                          <span key={idx} className="tag">
-                            LRC/{token}
-                          </span>
-                        ))}
                       </a>
+                      {exchange.pairs.map((token, idx) => (
+                        <span key={idx} className="tag">
+                          LRC/{token}
+                        </span>
+                      ))}
                     </li>
                   ))}
                 </ul>
@@ -155,12 +158,13 @@ class TokenInfoSection extends JsonI18nComponent {
                       <span className="has-leading-thin-arrow exchange-name">
                         WeDEX
                       </span>
-                      <span className="tag">LRC/ETH</span>
-                      <span className="tag">LRC/USDT</span>
                     </a>
+                    <span className="tag">LRC/ETH</span>
+                    <span className="tag">LRC/USDT</span>
+
                     <div className="footnote">{this.state.I.wedexFootnote}</div>
                   </li>
-                  <li className="coming-soon ">
+                  {/* <li className="coming-soon ">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -174,7 +178,7 @@ class TokenInfoSection extends JsonI18nComponent {
                       <span className="tag">LRC/WBTC</span>
                     </a>
                     <div className="footnote">{this.state.I.updexFootnote}</div>
-                  </li>
+                  </li>*/}
                 </ul>
               </div>
             </div>

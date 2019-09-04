@@ -30,7 +30,7 @@
       "Loopring 3.0 is our newest, fastest, and most forward-looking protocol. It provides a solution for the most outstanding challenge of all decentralized protocols — performance, or more precisely, <b>much higher performance without a tradeoff in security.</b>",
       "There are, however, some tradeoffs in other aspects. For example, orders are no longer shareable among multiple exchanges and have to be matched by a dedicated relayer. Also, cryptoassets have to be deposited into a smart contract before they’re available for orders. One benefit of these tradeoffs is that the new user experience is more comparable to centralized exchanges, with familiar user flow.",
 
-      "<a class='underline has-trailing-arrow' href='/protocol'> Click here</a> to learn about the technical details of Loopring 3.0."
+      "<a class='underline ' href='/protocol'> Click here</a> to learn about the technical details of Loopring 3.0."
     ]
   }
 }

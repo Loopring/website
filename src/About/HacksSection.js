@@ -67,11 +67,8 @@ class HacksSection extends JsonI18nComponent {
               data-aos="fade-up"
               className="column has-text-centered  is-12 call-for-action"
             >
-              <a
-                className="is-rounded is-unselectable has-trailing-arrow"
-                href="/protocol"
-              >
-                Learn how Loopring 3.0 achieves high level of security
+              <a className="is-rounded is-unselectable " href="/protocol">
+                {this.state.I.learn}
               </a>
             </div>
           </div>
