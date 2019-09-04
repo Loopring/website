@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "//beta.loopring.org/static/css/main.9ed49d7b.chunk.css",
-    "main.js": "//beta.loopring.org/static/js/main.f8df65c1.chunk.js",
-    "main.js.map": "//beta.loopring.org/static/js/main.f8df65c1.chunk.js.map",
+    "main.js": "//beta.loopring.org/static/js/main.7fc9c7da.chunk.js",
+    "main.js.map": "//beta.loopring.org/static/js/main.7fc9c7da.chunk.js.map",
     "runtime~main.js": "//beta.loopring.org/static/js/runtime~main.7216f7c8.js",
     "runtime~main.js.map": "//beta.loopring.org/static/js/runtime~main.7216f7c8.js.map",
     "static/css/2.7abef457.chunk.css": "//beta.loopring.org/static/css/2.7abef457.chunk.css",
     "static/js/2.3364ef53.chunk.js": "//beta.loopring.org/static/js/2.3364ef53.chunk.js",
     "static/js/2.3364ef53.chunk.js.map": "//beta.loopring.org/static/js/2.3364ef53.chunk.js.map",
     "index.html": "//beta.loopring.org/index.html",
-    "precache-manifest.6e1a38f0ade740f1af0eeadfff01fc55.js": "//beta.loopring.org/precache-manifest.6e1a38f0ade740f1af0eeadfff01fc55.js",
+    "precache-manifest.30c9c21dab99386a9c6d66d63eb1d92f.js": "//beta.loopring.org/precache-manifest.30c9c21dab99386a9c6d66d63eb1d92f.js",
     "service-worker.js": "//beta.loopring.org/service-worker.js",
     "static/css/2.7abef457.chunk.css.map": "//beta.loopring.org/static/css/2.7abef457.chunk.css.map",
     "static/css/main.9ed49d7b.chunk.css.map": "//beta.loopring.org/static/css/main.9ed49d7b.chunk.css.map",
