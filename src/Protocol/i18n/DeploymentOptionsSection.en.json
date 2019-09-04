@@ -4,7 +4,7 @@
   "options": [
     {
       "title": "● AUTOMATIC UPGRADABLITY",
-            "contents": [
+      "contents": [
         "DEXes deployed with this option will automatically upgrade to new minor versions when they become available. We encourage DEXes to opt-in this option to benefit from future bug fixes and features.",
         "This option enables a transparent upgrade experience to both DEX owners and DEX users but does imply trust on the Loopring team for future protocol releases."
       ]
