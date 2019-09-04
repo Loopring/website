@@ -8,115 +8,115 @@
         "name": "MAX_PROOF_GENERATION_TIME_IN_SECONDS",
         "value": "3600 SECOND",
         "type": "uint32",
-        "meaning": "The operator creates a block and submits it on-chain by calling commitBlock. He then has at most MAX_PROOF_GENERATION_TIME_IN_SECONDS seconds to submit a proof for the block using verifyBlock. A proof can be submitted any time between when the block is committed and MAX_PROOF_GENERATION_TIME_IN_SECONDS seconds afterward, verifying a block does not need to be done in the same order as they are committed."
+        "meaning": "The operator creates a block and submits it on-chain by calling commitBlock. He then has at most MAX_PROOF_GENERATION_TIME_IN_SECONDS seconds to submit a proof for the block using verifyBlock. A proof can be submitted any time between when the block is committed and MAX_PROOF_GENERATION_TIME_IN_SECONDS seconds afterwards, verifying a block does not need to be done in the same order as they are committed."
       },
       {
         "name": "MAX_GAP_BETWEEN_FINALIZED_AND_VERIFIED_BLOCKS",
         "value": "2500",
         "type": "uint32",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "A block can only be verified when the number of blocks between the last finalized block and the block that the operator wants to verify is less than MAX_GAP_BETWEEN_FINALIZED_AND_VERIFIED_BLOCKS. This is to limit the number of blocks that can be become finalized with a single block verification. There is a small fixed cost associated with finalizing a block (e.g. an event is emitted), so this limit makes sure that all the work that is necessary is possible within the Ethereum block gas limit."
       },
       {
         "name": "MAX_OPEN_DEPOSIT_REQUESTS",
         "value": "1024",
         "type": "uint16",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "The maximum number of deposits that can be queued on-chain before they are processed by the operator. If a user tries to deposit when there are MAX_OPEN_DEPOSIT_REQUESTS unprocessed deposit requests the request will be rejected and the user will have to try to do the deposit at a later time when the operator has processed some of those deposits. The operator is forced to process deposits requests in a reasonable time (MAX_AGE_REQUEST_UNTIL_FORCED)."
       },
       {
         "name": "MAX_OPEN_WITHDRAWAL_REQUESTS",
         "value": "1024",
         "type": "uint16",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "The maximum number of on-chain withdrawal requests that can be queued on-chain before they are processed by the operator. If a user tries to request a withdrawal on-chain when there are MAX_OPEN_WITHDRAWAL_REQUESTS unprocessed on-chain withdrawal requests the request will be rejected and the user will have to try to do the withdrawal request at a later time when the operator has processed some of those on-chain withdrawal requests. The operator is forced to process on-chain withdrawal requests in a reasonable time (MAX_AGE_REQUEST_UNTIL_FORCED)."
       },
       {
         "name": "MAX_AGE_UNFINALIZED_BLOCK_UNTIL_WITHDRAW_MODE",
         "value": "1 DAY",
         "type": "uint32",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "The maximum time a block can remain unverified or unreverted before we go into withdraw mode."
       },
       {
         "name": "MAX_AGE_REQUEST_UNTIL_FORCED",
         "value": "15 MINUTES",
         "type": "uint32",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "The maximum age of an on-chain request that is unprocessed before we force the operator to include it in a block. The operator is not allowed to commit any other block that does other work until the on-chain request is processed."
       },
       {
         "name": "MAX_AGE_REQUEST_UNTIL_WITHDRAW_MODE",
         "value": "1 DAY",
         "type": "uint32",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "The maximum age of an on-chain request that is unprocessed before we go into withdraw mode. If this happens the operator is unresponsive and we cannot depend on him to commit any other blocks."
       },
       {
         "name": "MAX_TIME_IN_SHUTDOWN_BASE",
         "value": "1 DAY",
         "type": "uint32",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "When the exchange owner shuts down the exchange the exchange only has a limited amount of time to automatically distribute all tokens back to the users. If the exchange fails to do so we go into withdraw mode. The maximum time to distribute all tokens back to all users in shutdown mode can be calculated as follows: `MAX_TIME_IN_SHUTDOWN_BASE + numAccounts * MAX_TIME_IN_SHUTDOWN_DELTA`."
       },
       {
         "name": "MAX_TIME_IN_SHUTDOWN_DELTA",
         "value": "15 SECONDS",
         "type": "uint32",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "When the exchange owner shuts down the exchange the exchange only has a limited amount of time to automatically distribute all tokens back to the users. If the exchange fails to do so we go into withdraw mode. The maximum time to distribute all tokens back to all users in shutdown mode can be calculated as follows: `MAX_TIME_IN_SHUTDOWN_BASE + numAccounts * MAX_TIME_IN_SHUTDOWN_DELTA`."
       },
       {
         "name": "TIMESTAMP_HALF_WINDOW_SIZE_IN_SECONDS",
         "value": "10 MINUTES",
         "type": "uint32",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "The operator has some limited freedom in choosing the timestamp that is used in the block to check time related logic. This is because the operator cannot accurately predict when exactly the block will be include in an Ethereum block. The timestamp chosen by the operator is checked on-chain against the Ethereum block timestamp, the difference allowed is limited to TIMESTAMP_HALF_WINDOW_SIZE_IN_SECONDS seconds (earlier or later)."
       },
       {
         "name": "MAX_NUM_TOKENS",
         "value": "256",
         "type": "uint",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "The maximum number of tokens supported on the exchange. The number of tokens is limited because of efficiency reasons: the token is not only part of the on-chain data availability data, each token also needs a leaf in the Merkle tree."
       },
       {
         "name": "MAX_NUM_ACCOUNTS",
         "value": "1,048,575",
         "type": "uint",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "The maximum number of accounts supported on the exchange. The number of accounts is limited because of efficiency reasons: the account is not only part of the on-chain data availability data, each account also needs a leaf in the Merkle tree."
       },
       {
         "name": "MAX_TIME_TO_DISTRIBUTE_WITHDRAWALS",
         "value": "2 HOURS",
         "type": "uint32",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "The maximum time the operator has to distribute all withdrawals he has processed in a block. If he fails to do so anyone anyone can distribute the withdrawals and get rewarded a part of the exchange stake."
       },
       {
         "name": "FEE_BLOCK_FINE_START_TIME",
         "value": "5 MINUTES",
         "type": "uint32",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "On-chain requests pay a fee to the operator which the operator can withdraw after processing the request in a block. To ensure the best user experience all on-chain requests should be processed reasonably fast, if the operator fails to do so he will receive a lower of even no fee. If the last request handled in a block is older than FEE_BLOCK_FINE_START_TIME the operator will only be able to withdraw a part of the fees paid by the users. From FEE_BLOCK_FINE_START_TIME on the withdrawable fee is linearly reduced until FEE_BLOCK_FINE_MAX_DURATION. From that point on the operator does not receive any fee at all for processing the requests."
       },
       {
         "name": "FEE_BLOCK_FINE_MAX_DURATION",
         "value": "30 MINUTES",
         "type": "uint32",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "On-chain requests pay a fee to the operator which the operator can withdraw after processing the request in a block. To ensure the best user experience all on-chain requests should be processed reasonably fast, if the operator fails to do so he will receive a lower of even no fee. If the last request handled in a block is older than FEE_BLOCK_FINE_START_TIME the operator will only be able to withdraw a part of the fees paid by the users. From FEE_BLOCK_FINE_START_TIME on the withdrawable fee is linearly reduced until FEE_BLOCK_FINE_MAX_DURATION. From that point on the operator does not receive any fee at all for processing the requests."
       },
       {
         "name": "MIN_GAS_TO_DISTRIBUTE_WITHDRAWALS",
         "value": "60,000",
         "type": "uint32",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "The operator needs to distribute all tokens of all withdrawals he has processed. This distribution can be done in multiple transactions because the token transfers are more expensive than committing the block, so it's possible that more withdrawals requests are processed in a block than can be distributed in a single Ethereum block. distributeWithdrawals will automatically stop distributing the withdrawals when the amount of gas left is less than MIN_GAS_TO_DISTRIBUTE_WITHDRAWALS."
       },
       {
         "name": "MIN_AGE_PROTOCOL_FEES_UNTIL_UPDATED",
         "value": "1 DAY",
         "type": "uint32",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "The minimum amount of time that needs to have passed between the commitment of ring settlement blocks before the protocol fee values are recalculated. The operator needs the protocol fee values to create a block, so he needs to use some values he knows are valid when the block actually gets committed on-chain. The values the operator has chosen are checked on-chain against the current AND previous values. This way the operator can choose values he knows will be valid when the block actually gets committed on-chain."
       },
       {
         "name": "GAS_LIMIT_SEND_TOKENS",
         "value": "30,000",
         "type": "uint32",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "The operator is forced to distribute all withdrawals. But the transfer necessary to do this withdrawal can cost a lot of gas (e.g. a custom fallback function to receive ETH) which could be very costly for the operator. To mitigate this we limit the amount of gas that can be used to do the transfer while distributing. If the transfer fails the operator is not punished for this. The user can at any time withdraw the tokens himself without any gas limit."
       },
       {
         "name": "GENESIS_BLOCK_HASH",
         "type": "bytes",
         "value": "0x2b4827daf74c0ab30deb68b1c337dec40579bb3ff45ce9478288e1a2b83a3a01",
-        "meaning": "@brecht, please provide a comment."
+        "meaning": "The initial Merkle tree root hash value. This tree has no accounts (all accounts are empty and all values are set to their default values)."
       }
     ]
   },
@@ -128,55 +128,55 @@
         "name": "exchangeCreationCostLRC",
         "value": "0",
         "type": "uint",
-        "meaning": "TODO"
+        "meaning": "The amount of LRC that the first owner of the exchange needs to burn to create a Loopring exchange."
       },
 
       {
         "name": "maxWithdrawalFee",
         "value": "0",
         "type": "uint",
-        "meaning": "TODO"
+        "meaning": "The maximum amount of ETH the exchange can charge for an on-chain withdrawal request. If the exchange can set the fee too high on-chain withdrawal requests can effectively be disabled and users would not have have a way to force operators to process their withdrawals."
       },
       {
         "name": "tokenRegistrationFeeLRCBase",
         "value": "0",
         "type": "uint",
-        "meaning": "TODO"
+        "meaning": "The exchange owner may need to burn LRC to register a token so it is available on his exchange. The more tokens he registers the higher the fee can be. The fee is calculated as `tokenRegistrationFeeLRCBase + numTokensRegisteredBefore * tokenRegistrationFeeLRCDelta`"
       },
 
       {
         "name": "tokenRegistrationFeeLRCDelta",
         "value": "0",
         "type": "uint",
-        "meaning": "TODO"
+        "meaning": "The exchange owner may need to burn LRC to register a token so it is available on his exchange. The more tokens he registers the higher the fee can be. The fee is calculated as `tokenRegistrationFeeLRCBase + numTokensRegisteredBefore * tokenRegistrationFeeLRCDelta`"
       },
 
       {
         "name": "minExchangeStakeWithDataAvailability",
         "value": "0",
         "type": "uint",
-        "meaning": "TODO"
+        "meaning": "The minimum amount of LRC the exchange owner needs to stake for an exchange with on-chain data-availability. If the amount staked is lower than this no blocks can be committed on the exchange."
       },
 
       {
         "name": "minExchangeStakeWithoutDataAvailability",
         "value": "0",
         "type": "uint",
-        "meaning": "TODO"
+        "meaning": "The minimum amount of LRC the exchange owner needs to stake for an exchange without on-chain data-availability. If the amount staked is lower than this no blocks can be committed on the exchange."
       },
 
       {
         "name": "revertFineLRC",
         "value": "0",
         "type": "uint",
-        "meaning": "TODO"
+        "meaning": "When a block gets reverted (i.e. no valid proof was submitted for the block in time) revertFineLRC LRC is burned from the exchange stake as punishment."
       },
 
       {
         "name": "withdrawalFineLRC",
         "value": "0",
         "type": "uint",
-        "meaning": "TODO"
+        "meaning": "When an operator fails to distribute withdrawals in time (see MAX_TIME_TO_DISTRIBUTE_WITHDRAWALS) withdrawalFineLRC LRC is used from the exchange stak for every withdrawal that was distributed too late. 50% is burned and 50% is used to reward the distributor of the withdrawals."
       }
     ]
   },
@@ -218,7 +218,7 @@
         "name": "account_Creation_Fee_ETH",
         "value": "0",
         "type": "uint",
-        "meaning": "The amount of Ether charged by the DEX for the creation of a new account. DEXes should change this to non-zero to mitigate sybil attach."
+        "meaning": "The amount of Ether charged by the DEX for the creation of a new account. DEXes should change this to non-zero to mitigate sybil attack."
       },
       {
         "name": "account_Update_Fee_ETH",
@@ -242,7 +242,7 @@
         "name": "address_Whitelist",
         "value": "0x0",
         "type": "address",
-        "meaning": "The address of an IAddressWhitelist contract to filter addresses that can request account creation. This is the major approach for Looping-based DEXes to implement KYC. IAddressWhitelist is designed such that whitelisting an address does NOT take an Ethereum transaction. The default value 0x0 indicats KYC is disabled by default."
+        "meaning": "The address of an IAddressWhitelist contract to filter addresses that can request account creation. This is the major approach for Looping-based DEXes to implement KYC. IAddressWhitelist is designed such that whitelisting an address does NOT take an Ethereum transaction. The default value 0x0 indicates KYC is disabled by default."
       }
     ]
   },
