@@ -16,72 +16,71 @@ $color-alpha: darken($color, $darken);
 $color-base: rgb(255, 255, 255);
 
 .section-about-hero {
+  position: relative;
+  min-height: 74vh;
+
+  .backdrop {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 40px;
+    background-size: 100%;
+    z-index: -2;
+    background-color: $primary;
+    background-size: fill;
+    // background-image: url(/images/bg6.jpeg);
+  }
+
+  .text {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 10;
+    overflow: hidden;
+  }
+
+  svg {
     position: relative;
-    min-height: 74vh;
+    width: 100%;
+    height: $height-mask;
 
-    .backdrop {
-        position: fixed;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        top: 40px;
-        background-size: 100%;
-        z-index: -2;
-        background-color: $primary;
-        background-size: fill;
-        // background-image: url(/images/bg6.jpeg);
+    text {
+      padding: 120px;
+      text-anchor: middle;
     }
 
-    .text {
-        position: absolute;
-        top: -2px;
-        left: 0;
-        right: 0;
-        bottom: 0;
-
-        z-index: 10;
-        overflow: hidden;
+    #alpha {
+      fill: $color-alpha;
     }
 
-    svg {
-        position: relative;
-        width: 100%;
-        height: $height-mask;
+    #title {
+      font-size: 6em;
+      font-weight: 700;
+      text-transform: uppercase;
 
-        text {
-            padding: 120px;
-            text-anchor: middle;
-
-        }
-
-        #alpha {
-            fill: $color-alpha;
-        }
-
-        #title {
-            font-size: 6em;
-            font-weight: 700;
-            text-transform: uppercase;
-
-            @include mobile {
-                font-size: 5em;
-            }
-        }
-
-        #subtitle {
-            // letter-spacing: 3px;
-            // font-size: 1em;
-            font-weight: 500;
-            font-size: 1.5em;
-
-            @include mobile {
-                font-size: 1.25em;
-            }
-        }
-
-        #base {
-            fill: $color-base;
-            mask: url(#mask);
-        }
+      @include mobile {
+        font-size: 5em;
+      }
     }
+
+    #subtitle {
+      // letter-spacing: 3px;
+      // font-size: 1em;
+      font-weight: 500;
+      font-size: 1.5em;
+
+      @include mobile {
+        font-size: 1.25em;
+      }
+    }
+
+    #base {
+      fill: $color-base;
+      mask: url(#mask);
+    }
+  }
 }

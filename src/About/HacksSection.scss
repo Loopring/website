@@ -31,9 +31,9 @@
     transition-timing-function: ease-in-out;
     // box-shadow: inset 0 -2px $black;
 
-@include mobile {
-  padding: 10px;
-}
+    @include mobile {
+      padding: 10px;
+    }
     &:hover {
       background: $blue;
       color: $white;
