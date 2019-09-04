@@ -4,6 +4,7 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
 import PerformanceSection from "./PerformanceSection";
+import DeploymentOptionsSection from "./DeploymentOptionsSection";
 import DesignSection from "./DesignSection";
 import ConfigurationSection from "./ConfigurationSection";
 
@@ -15,6 +16,7 @@ class Protocol extends React.Component {
       <div className="page-protocol">
         <Header />
         <PerformanceSection />
+        <DeploymentOptionsSection />
         <DesignSection />
         <ConfigurationSection />
         <Footer />

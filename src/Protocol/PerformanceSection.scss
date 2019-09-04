@@ -10,7 +10,6 @@
     background-color: transparent;
     color: $black;
 
-
     br {
       display: none;
 
@@ -20,8 +19,8 @@
     }
   }
   tbody {
-  border-bottom: 2px solid $grey-darker;
-}
+    border-bottom: 2px solid $grey-darker;
+  }
 
   td {
     padding-left: 0;
@@ -45,8 +44,8 @@
     white-space: nowrap;
     border-bottom: 1px solid $grey-darker;
 
-    >div{
-      margin:auto;
+    > div {
+      margin: auto;
     }
   }
 

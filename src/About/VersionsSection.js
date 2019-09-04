@@ -60,7 +60,7 @@ class VersionsSection extends JsonI18nComponent {
             </div>
             <div
               data-aos="fade-up"
-              className="column version30 has-shaddow is-6 has-text-justify has-background-black"
+              className="column version30 is-6 has-text-justify has-background-black"
             >
               <div className="content">
                 <h2>{this.state.I.version30.title}</h2>
