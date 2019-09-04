@@ -3,6 +3,9 @@
 
 .section-about-versions {
   .version30 {
+    margin-top: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     @include desktop {
       box-shadow: 10px 10px $grey;
       margin-top: 100px;

@@ -26,7 +26,7 @@ class TokenInfoSection extends JsonI18nComponent {
           <div className="columns is-centered is-multiline">
             <div className="column column-info is-5 has-text-left">
               <div data-aos="fade-up" className="content">
-                <h2>{this.state.I.titles.tokenInfo}}</h2>
+                <h2>{this.state.I.titles.tokenInfo}</h2>
                 <ul>
                   {this.state.I.facts.map((item, idx) => (
                     <li key={idx}>

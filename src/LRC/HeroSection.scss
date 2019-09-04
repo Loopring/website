@@ -3,18 +3,23 @@
 @import "../Variables.scss";
 
 .section-lrc-hero {
-  .hero {
-    // letter-spacing: -3px;
-    font-size: 4.5em;
-    font-weight: 700;
-    text-transform: uppercase;
+    .hero {
+        // letter-spacing: -3px;
+        font-size: 4em;
+        font-weight: 700;
+        text-transform: uppercase;
 
-    .symbol {
-      color: $primary;
-    }
+        @include mobile {
+          margin-top: 60px;
+            font-size: 3.2em;
+        }
 
-    .smaller {
-      font-size: 2rem !important;
+        .symbol {
+            color: $primary;
+        }
+
+        .smaller {
+            font-size: 1.8rem !important;
+        }
     }
-  }
 }

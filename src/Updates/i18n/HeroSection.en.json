@@ -1,10 +1,10 @@
 {
   "headings": {
-    "all": "All you need to know...",
-    "biweekly": "Bi-Weekly Updates",
-    "loopring3.0": "Loopring 3.0",
-    "learning": "Learning Series",
-    "thoughts": "Thoughts",
-    "news": "News"
+    "all": "<br/><br/>All you need to know...",
+    "biweekly": "<br/><br/>Bi-Weekly Updates",
+    "loopring3.0": "<br/><br/>Loopring 3.0",
+    "learning": "<br/><br/>Learning Series",
+    "thoughts": "<br/><br/>Thoughts",
+    "news": "<br/><br/>News"
   }
 }

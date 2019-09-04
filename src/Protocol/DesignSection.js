@@ -137,7 +137,7 @@ class DesignSection extends I18nComponent {
               </div>
             </div>
 
-            <div data-aos="fade-up" className="column is-5">
+            <div data-aos="fade-up" className="column building-blocks is-5">
               <div className="content">
                 <h2>
                   <Translate id="designTitles.buildingBlocks" />

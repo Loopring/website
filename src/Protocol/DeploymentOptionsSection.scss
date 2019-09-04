@@ -2,33 +2,28 @@
 
 @import "../Variables.scss";
 
-
 .section-protocol-deployment {
+  .columns-options {
+    margin-top: 40px;
 
-    .columns-options {
-        margin-top: 40px;
+    .content {
+      padding: 40px;
+      transition-duration: 0.5s;
 
-        .content {
+      @include desktop {
+        min-height: 400px;
+      }
 
-            padding: 40px;
-            transition-duration: .5s;
+      &:hover {
+        box-shadow: 10px 10px $grey-light;
 
-            @include desktop {
-                min-height: 400px;
-            }
-
-
-
-            &:hover {
-                box-shadow: 10px 10px $grey-light;
-
-                h2 {
-                    color: $white !important;
-                }
-
-                background-color: $black !important;
-                color: $white !important;
-            }
+        h2 {
+          color: $white !important;
         }
+
+        background-color: $black !important;
+        color: $white !important;
+      }
     }
+  }
 }

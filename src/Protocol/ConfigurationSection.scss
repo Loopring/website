@@ -18,6 +18,7 @@
     background-color: $grey-lighter;
     padding: 20px;
     border-left: 2px solid $grey-dark;
+    overflow: hidden;
   }
 
   .name {
@@ -48,5 +49,6 @@
   .meaning {
     // text-align: justify;
     padding: 4px 26px;
+    overflow: hidden;
   }
 }

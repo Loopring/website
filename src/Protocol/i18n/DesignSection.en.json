@@ -10,15 +10,15 @@
   "deprecated": "(Deprecated)",
   "blocks": {
     "designdoc": "Loopring 3.0 Design Doc··················★★★★★",
-    "contracts": "Loopring 3.0 Smart Contracts·····the on-chain part ⟁",
-    "circuits": "Loopring 3.0 ZKP circuits············the off-chain part ⧉",
-    "zkRollupPost": "Vitalik's post on zkRollup···········································◎",
+    "contracts": "Loopring 3.0 Smart Contracts·········· ⟁",
+    "circuits": "Loopring 3.0 ZKP circuits·········· ⧉",
+    "zkRollupPost": "Vitalik's post on zkRollup··································◎",
     "zkRollupTechTalk": "Vitalik's tech-talk on zkRollup······························◎",
-    "zkp": "Zero Knowledge Proof / ZKP···································· ◎",
+    "zkp": "Zero Knowledge Proof / ZKP····························· ◎",
     "libsnark": "libsnark································································◱",
     "ethsnark": "ethsnarks·················································· ◱",
     "poseidon": "Poseidon hash function ································◱",
-    "quadTree": "Quad-Merkle Tree···················································◱",
-    "loopring3.0audit": "SECBIT Security Audit Report for Loopring 3.0········◒"
+    "quadTree": "Quad-Merkle Tree··········································◱",
+    "loopring3.0audit": "SECBIT Audit Report for Loopring 3.0······◒"
   }
 }

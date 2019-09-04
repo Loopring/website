@@ -36,7 +36,11 @@ class HeroSection extends JsonI18nComponent {
         <div className="columns is-multiline">
           <div className="column is-12 is-unselectable hero has-text-din">
             <div className="container">
-              <h1>{this.state.I.headings[this.props.group]}</h1>
+              <h1
+                dangerouslySetInnerHTML={{
+                  __html: this.state.I.headings[this.props.group]
+                }}
+              />
             </div>
           </div>
         </div>
