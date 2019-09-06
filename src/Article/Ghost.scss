@@ -35,7 +35,14 @@
   }
 
   .post-content {
-    // border: 1px solid blue;
+    &:after {
+      content: "...";
+      margin-top: 40px;
+      font-size: 30px;
+      letter-spacing: 20px;
+      color: $black;
+      font-family: "Georgia";
+    };
   }
 
   h2 {
