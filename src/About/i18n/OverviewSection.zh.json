@@ -34,10 +34,10 @@
     {
         "title": "路印突出的性能",
         "content": [
-            "Most DEX protocols suffer terrible performance issues — the throughput is too low while the cost is too high. The performance issues prevent those protocols from being massively adopted as no professional market makers or traders will use these protocols as their primary methods of trading. The performance vs. security tradeoff has indeed been a polarizing one.",
+            "多数去中心化交易协议都会遇到性能问题：吞吐量太低，且成本过高。性能瓶颈阻碍了这些协议被大规模采用，因为没有专业的做市商或交易者会使用这些协议作为他们主要的交易方式。很多交易协议和平台只好在性能与安全性中选择其一。",
 
-            "We believe the way many trading protocols use the underlying blockchain is fundamentally flawed. Loopring takes a different approach known as <b>zkRollup</b> proposed by <b>Vitalik Buterin</b>.  zkRollup migrates most computations off the blockchain and only broadcasts exchanges' new state roots and their corresponding proofs onto the blockchain. In other words, the Loopring protocol uses the underlying Ethereum blockchain mainly as a data layer and a Zero-Knowledge Proof verification thin-logic layer. As a result, Loopring's throughput is as high as <b>350</b> trades per second with OCDA, and <b>6,900</b> trades per second without. The post-Istanbul throughput will become <b>1,400</b> and <b>10,500</b>, respectively. The cost per trade settlement is as small as 0.21 US cent, which can be further optimized, such as using GPU-based proof generation and recursive SNARKs.",
-            "We believe Loopring's performance is sufficient for professional traders and market makers to deploy algorithmic strategies and other automated trading bots. By building on top of Loopring 3.0, orderbook-based DEXes can be commercially viable for the first time. We expect such DEXes to begin outcompeting and displacing many centralized counterparts."
+            "我们窃以为目前很多交易协议和去中心化应用使用区块链的方式是错误的。路印协议采用了不同的方案（后续Vitalik Buterin称之为<b>zkRollup</b>）。zkRollup将大部分计算迁移到链下，只将交易所的新状态哈希及其相应的证明广播到区块链上。换句话说，路印协议将底层以太坊作为数据层和零知识证明验证逻辑层使用。因此，启用链上数据可用性，路印协议的吞吐量高达<b>每秒350笔</b>交易 — 相比之下，路印协议2.0的吞吐量是每秒3笔交易；0x协议的吞吐量也是每秒3笔交易。关闭链上数据可用性后，路印3.0的吞吐量会达到<b>每秒6,900笔</b>交易。伊斯坦布尔分叉后的吞吐量将提升到<b>每秒1,400笔</b>和<b>每秒10,500笔</b>。结算成本低至<b>每笔人民币0.0155元</b>。如果使用更廉价的服务器，或基于GPU的证明生成算法和递归SNARKs，结算成本还可以进一步降低。",
+            "我们认为路印协议3.0的性能已经可以支持专业的交易者和做市商部署算法策略和自动交易机器人。通过集成路印协议，去中心化交易所作为商业模式已经可以落地运营。我们期待这样的去中心化交易平台能开始与中心化交易所竞争并逐渐取而代之。"
         ]
     }
 }

@@ -1,31 +1,29 @@
 {
   "heading": "版本历史",
-  "starter": "We started the Loopring project in June 2017, and until now (September 2019), we have released four major versions of the Loopring protocol.",
-
+  "starter": "路印团队在2017年6月启动项目。截止目前（2019年9月）共发布了四个主要版本。",
   "version10": {
-    "title": "Loopring 1.0",
+    "title": "路印协议1.0",
     "content": [
-      "Loopring 1.0 introduced the <b> Ring-Matching</b> concept — in one trade, up to 12 orders can circularly swap cryptoassets in the form of rings. This feature is unique and brings the potential for improved price discovery and higher trading volume. Our project name <b>Loopring</b> is derived from this feature.",
-      "With 1.0, orders are managed and matched off-chain. The protocol's smart contracts verify order signatures, trading prices, and settlement amounts on-chain and perform token transfers for each order accordingly. Because of the off-chain order management and matching, the performance of Loopring 1.0 is better than that of EtherDelta and the like, which rest entirely on-chain."
-    ]
+      "路印协议1.0引入了<b>环路撮合</b>的理念和技术。在一个原子交易中，多个订单可以用环路的方式交换加密资产。这个设计是路印独有且有专利保护的，它可改善价格发现机制并带来更高的交易量。我们的项目名称“路印”也源自于这个设计。",
+      "在协议1.0中，订单的管理和撮合都在链下。协议的智能合约在链上验证订单签名、交易价格、和结算金额，并相应地为每个订单执行代币转账。由于在链下进行订单管理和撮合，路印协议1.0的性能和成本都优于类似EtherDelta的，全在链上的去中心化交易平台。"
+          ]
   },
   "version15": {
-    "title": "Loopring 1.5",
+    "title": "路印协议1.5",
     "content": [
-      "Loopring 1.5 introduced another unique feature called <b>Dual Authoring</b> to prevent front-running. Each order has a randomly generated Dual Author key-pair — the public key is part of the order.  The private key, however,  is not part of the order but is sent to the relayer so that the relayer can and must use it to sign rings that include the order.",
-      "Dual Authoring effectively prevents pending settlements and their orders from being stolen by middlemen in the Ethereum network, as only the legitimate relayer has access to the orders' Dual Author private keys.",
-      "Dual Authoring comes very handy for scenarios where orders can be matched by more than one exchange/relayer."
+      "路印协议1.5引入了一个防止抢先交易的独特功能：<b>双重授权（Dual Authoring）</b>。每个订单都有一个随机生成的双重密钥对，公钥是订单的一部分；私钥虽不是订单的一部分，但却和订单一起被发送给中继，以便中继可以并且必须使用它来签署包含该订单的环路。",
+      "双重授权可以有效防止未确认交易和这些交易中的订单被中间人（如以太坊矿工）盗取，因为只有被用户授权的中继才能为用户订单提供撮合服务。双重授权在流动性共享的交易平台中为中继提供了一种有效的安全保障。双重授权也是受全球专利保护的路印专利技术。"
     ]
   },
   "version20": {
-    "title": "Loopring 2.0",
+    "title": "路印协议2.0",
     "content": [
-      "With the 2.0 release, Loopring no longer required traders to pay relayers <b>LRC</b>, Loopring's utility token, as the trading fee. The trading fees can be paid using any ERC-20 tokens that relayers specify. Relayers only have to use a percentage, known as the burn-rate, of their fee income to buy LRC to burn (so LRC's total supply is ever decreasing). Different tokens have varying burn-rates, and the burn rates for LRC and WETH are the lowest, which makes paying in LRC and Ether the most cost-efficient.",
-      "This <b>Any-Token-As-Fee</b> feature not only significantly reduces frictions in user experience but also enables decentralized exchanges to use own their platform token as the fee token."
+      "随着2.0版本的发布，路印协议不再要求交易者向中继支付<b>LRC</b> — 路印的应用代币 — 作为交易费用。中继可以指定收取任何ERC-20作为交易费。路印2.0要求中继使用一定比例（称为燃烧率）的手续费收入来买入LRC并且燃烧掉这部分LRC。因此LRC的总供给量会不断减少，价值也会不断提升。不同的代币具有不同的燃烧率，LRC和WETH的燃烧率最低，这意味着使用LRC和ETH支付手续费的性价比最高。",
+      "路印协议是首个提出并支持这种<b>任意代币付费（Any-Token-As-Fee）</b>的项目。这种设计不仅可以极大地减少用户体验的摩擦，还可以赋能去中心化交易所为自己发的平台币赋予一个新的应用。"
     ]
   },
   "version30": {
-    "title": "Loopring 3.0",
+    "title": "路印协议3.0",
     "content": [
       "Loopring 3.0 is our newest, fastest, and most forward-looking protocol. It provides a solution for the most outstanding challenge of all decentralized protocols — performance, or more precisely, <b>much higher performance without a tradeoff in security.</b>",
       "There are, however, some tradeoffs in other aspects. For example, orders are no longer shareable among multiple exchanges and have to be matched by a dedicated relayer. Also, cryptoassets have to be deposited into a smart contract before they’re available for orders. One benefit of these tradeoffs is that the new user experience is more comparable to centralized exchanges, with familiar user flow.",
