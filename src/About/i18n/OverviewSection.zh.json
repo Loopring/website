@@ -27,7 +27,7 @@
     {
         "title": "中心化交易所的救赎",
         "content": [
-            "If you have ever run a centralized exchange business, you know the stress and fear of being hacked. Loopring ensures that even if all your servers were compromised, you will, at worst, only lose a couple of Ether that you use as transaction fees (gas). You can always recover from such incidences and resume your business. Using an open-sourced, audited, cryptographically sound protocol means less time & money spent on security, and more on growing your business."
+            "如果您曾经运营过中心化交易所，您就会了解那种担心被黑客攻击的压力和恐惧。路印协议确保即使所有的服务器都遭到入侵，您最坏的情况下只会损失作为交易费（gas)的一两个以太。您可以后续从这些事件中恢复您的业务。使用开源，经第三方审计过，且密码学安全的交易协议意味着您的交易所在安全保障上的投入将变得最小化，您和团队可以将资金和精力投入到更重要的商业拓展上。"
         ]
     },
     "section4":
