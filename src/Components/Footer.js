@@ -60,9 +60,14 @@ class Footer extends I18nComponent {
               <a href="https://open.kakao.com/o/gJbSZdF">Kakao</a>
             </li>
           </ul>
-          <p className="org has-text-grey">
-            <Translate id="org" />
-          </p>
+          <div className="org">
+            <p className="has-text-grey">
+              <Translate id="org" />
+            </p>
+            <p className="wechat">
+              <Translate id="wechat" />
+            </p>
+          </div>
         </div>
       </footer>
     );

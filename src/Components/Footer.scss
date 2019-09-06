@@ -39,8 +39,15 @@
   }
 
   .org {
+    padding-top: 20px;
     @include mobile {
       margin-top: 40px;
+    }
+    p {
+      display: block;
+      color: grey;
+      font-size: 13px;
+      margin: 10px;
     }
   }
 }
