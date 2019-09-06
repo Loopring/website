@@ -46,11 +46,15 @@ class DesignSection extends I18nComponent {
                     <a
                       className="highlight underline"
                       href="/#/resources/zh_whitepaper.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       技术白皮书
                     </a>
                     。但对最新的3.0版本，我们选择直接发布更具技术细节的
                     <a
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="highlight underline"
                       href="https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/DESIGN.md"
                     >
@@ -62,6 +66,8 @@ class DesignSection extends I18nComponent {
                   <p>
                     We published a{" "}
                     <a
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="highlight underline"
                       href="/#/Fresources/en_whitepaper.pdf"
                     >

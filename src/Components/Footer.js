@@ -45,7 +45,11 @@ class Footer extends I18nComponent {
             </li>
             ⭑
             <li>
-              <a href="https://t.me/loopring_en">Telegram</a>
+              {this.isChinese() ? (
+                <a href="https://t.me/loopringfans">Telegram</a>
+              ) : (
+                <a href="https://t.me/loopring_en">Telegram</a>
+              )}
             </li>
             ⭑
             <li>

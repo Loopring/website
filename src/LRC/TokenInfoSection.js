@@ -154,11 +154,7 @@ class TokenInfoSection extends JsonI18nComponent {
                 <h2>{this.state.I.titles.comingSoon}</h2>
                 <ul>
                   <li className="coming-soon highlighted">
-                    <a
-                      disabled
-                      rel="noopener noreferrer"
-                      href="https://wedex.io"
-                    >
+                    <a disabled rel="noopener noreferrer">
                       <span className="has-leading-thin-arrow exchange-name">
                         WeDEX
                       </span>
