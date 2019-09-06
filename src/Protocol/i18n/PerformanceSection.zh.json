@@ -1,6 +1,6 @@
 {
-  "headingThroughput": "显著提高的吞吐量",
-  "headingCost": "大幅降低的交易成本",
+  "headingThroughput": "吞吐量显著提高",
+  "headingCost": "交易成本大幅降低",
   "table": {
     "throughput": "吞吐量",
     "costPerTrade": "每笔清结算成本（元人民币）",
