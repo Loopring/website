@@ -3,10 +3,10 @@
 @import "../Variables.scss";
 
 .section-coreteam {
-    @include desktop {
-        .name {
-            display: inline-block;
-            min-width: 140px;
-        }
+  @include desktop {
+    .name {
+      display: inline-block;
+      min-width: 140px;
     }
+  }
 }

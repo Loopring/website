@@ -45,7 +45,7 @@ class DesignSection extends I18nComponent {
                     我们曾为路印较早的1.0、1.5、和2.0版本发表过
                     <a
                       className="highlight underline"
-                      href="/resources/zh_whitepaper.pdf"
+                      href="/#/resources/zh_whitepaper.pdf"
                     >
                       技术白皮书
                     </a>
