@@ -1,10 +1,10 @@
 {
   "heading": "Crypto Hacks",
-  "total": "More than $2,1 billion crypto-assets had been hacked from centralized exchanges, and counting...",
+  "total": "More than $2,1 billion crypto-assets had been hacked from centralized exchanges, and counting. The following stories have been reported by thirdparty media.",
   "learn": "Learn how Loopring 3.0 is designed to be secure",
   "stories": [
     {
-      "title": "$34,000,000 / Remixpoint",
+      "title": "$34,300,000 / Remixpoint",
       "date": "07-2019",
       "source": "https://www.pymnts.com/cryptocurrency/2019/major-crypto-hacks/",
       "detail": "Days after admitting to a hack that caused the loss of $32 million in cryptocurrency, Bitpoint Japan, a cryptocurrency exchange operator run by Remixpoint, said on Sunday (July 14) it has discovered an additional $2.3 million was stolen."
@@ -132,7 +132,7 @@
       "title": "$7,000,000 / Bithumb",
       "date": "07-2017",
       "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
-      "detail": "Bithumb was the fourth largest cryptocurrency exchange at the time by volume was hacked for the first time in July 2017. This was the start of many security incidents with for bithumb, all stemming from an attacker getting control of an employee's pc and being able to steal about 3% of the platform's user credentials. Bithumb has always claimed to not know the exact amount the attacker took, and though local South Korean media claims it was in the billions, estimations today put it around $7 million in Bitcoin and Ethereum."
+      "detail": "Bithumb was the fourth largest cryptocurrency exchange at the time by volume was hacked for the first time in July 2017. This was the start of many security incidents with for bithumb, all stemming from an attacker getting control of an employee's PC and being able to steal about 3% of the platform's user credentials. Bithumb has always claimed to not know the exact amount the attacker took, and though local South Korean media claims it was in the billions, estimations today put it around $7 million in Bitcoin and Ethereum."
     },
     {
       "title": "$5,300,000 / Yapizon (Youbit)",

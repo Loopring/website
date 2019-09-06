@@ -30,7 +30,7 @@ class CoreTeamSection extends JsonI18nComponent {
                       className="highlight has-leading-thin-arrow"
                       href={member.url}
                     >
-                      {member.name}
+                      <span className="name">{member.name}</span>
                     </a>{" "}
                     / {member.title}
                   </li>

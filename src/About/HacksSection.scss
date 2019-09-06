@@ -6,6 +6,10 @@
   .total-figure {
     margin-top: 40px;
     font-weitht: 700;
+
+    @include mobile {
+      text-align: left;
+    }
   }
 
   a > h2 {
@@ -15,6 +19,8 @@
   .total-figure-label {
     // color: $grey;
   }
+
+
 
   .call-for-action > a {
     margin-top: 40px;

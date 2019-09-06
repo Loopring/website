@@ -58,11 +58,11 @@ class TokenInfoSection extends JsonI18nComponent {
                         rel="noopener noreferrer"
                       >
                         1.0版本
-                      </a>{" "}
-                      到2.0版本的升级. LRC
-                      2.0依然严格遵循ERC20代币标准，并引入了一个代币燃烧的机制。该机制确保路印协议被逐渐广泛采用后，
+                      </a>
+                      到2.0版本的升级。LRC
+                      2.0依然严格遵循ERC20代币标准，并引入了一个代币燃烧机制。该机制确保路印协议被逐渐广泛采用后，
                       LRC的发行和流通总量都会逐渐减少
-                      。路印协议收取的其他代币的协议手续费会通过我们的
+                      。路印协议用其它代币收取的协议手续费会通过我们的
                       <a
                         href="https://medium.com/loopring-protocol/oedax-looprings-open-ended-dutch-auction-exchange-model-d92cebbd3667"
                         target="_blank"
@@ -70,18 +70,15 @@ class TokenInfoSection extends JsonI18nComponent {
                         className="highlight "
                       >
                         Oedax协议
-                      </a>{" "}
-                      拍卖成LRC，之后再燃烧掉。
+                      </a>
+                      和路印DAO，拍卖成LRC，之后再燃烧掉。
                     </p>
                     <p>
                       您可以通过我们的
-                      <a
-                        className="highlight "
-                        href="https://medium.com/loopring-protocol/lrc-token-upgraded-a26ee6f87b84"
-                      >
+                      <a className="highlight" href="/#/updates">
                         博客
                       </a>
-                      了解更多关于LRC代币升级的一些细节。请注意LRC1.0代币已经没有任何价值，不要尝试用LRC1.0代币在交易所上进行充值提现，白白浪费转账手续费！
+                      了解更多关于LRC代币升级的一些细节。请注意LRC1.0代币已没不具价值，请不要尝试用LRC1.0代币在交易所上充值，白白浪费转账手续费！
                     </p>
                   </div>
                 ) : (
@@ -158,7 +155,7 @@ class TokenInfoSection extends JsonI18nComponent {
                 <ul>
                   <li className="coming-soon highlighted">
                     <a
-                      target="_blank"
+                      disabled
                       rel="noopener noreferrer"
                       href="https://wedex.io"
                     >

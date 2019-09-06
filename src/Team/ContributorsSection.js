@@ -34,7 +34,7 @@ class ContributorsSection extends JsonI18nComponent {
                         rel="noopener noreferrer"
                         className="highlight has-leading-thin-arrow"
                       >
-                        {item.name}
+                        <span className="name">{item.name}</span>
                       </a>{" "}
                       / {item.title}
                     </li>
@@ -60,7 +60,7 @@ class ContributorsSection extends JsonI18nComponent {
                         rel="noopener noreferrer"
                         className="highlight has-leading-thin-arrow"
                       >
-                        {item.name}
+                        <span className="name">{item.name}</span>
                       </a>{" "}
                       / {item.title}
                     </li>

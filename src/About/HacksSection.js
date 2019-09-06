@@ -67,7 +67,7 @@ class HacksSection extends JsonI18nComponent {
               data-aos="fade-up"
               className="column has-text-centered  is-12 call-for-action"
             >
-              <a className="is-rounded is-unselectable " href="/protocol">
+              <a className="is-rounded is-unselectable " href="/#/protocol">
                 {this.state.I.learn}
               </a>
             </div>

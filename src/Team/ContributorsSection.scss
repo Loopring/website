@@ -2,4 +2,10 @@
 @import "../Variables.scss";
 
 .section-contributors {
+    @include desktop {
+        .name {
+            display: inline-block;
+            min-width: 140px;
+        }
+    }
 }
