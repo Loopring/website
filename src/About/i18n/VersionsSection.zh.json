@@ -25,10 +25,10 @@
   "version30": {
     "title": "路印协议3.0",
     "content": [
-      "Loopring 3.0 is our newest, fastest, and most forward-looking protocol. It provides a solution for the most outstanding challenge of all decentralized protocols — performance, or more precisely, <b>much higher performance without a tradeoff in security.</b>",
-      "There are, however, some tradeoffs in other aspects. For example, orders are no longer shareable among multiple exchanges and have to be matched by a dedicated relayer. Also, cryptoassets have to be deposited into a smart contract before they’re available for orders. One benefit of these tradeoffs is that the new user experience is more comparable to centralized exchanges, with familiar user flow.",
-      "Loopring 3.0 also supports multiple upgradability options. As an owner, you can decide whether your DEX can upgrade to new <b>compatible versions</b> in the future, and if so, whether the upgrade should be fully automated or manually. In either case, the upgrade process is entirely transparent to end-users.",
-      "<a class='underline ' href='/protocol'> Click here</a> to learn about the technical details of Loopring 3.0."
+      "路印协议3.0是我们最新、最快、和最具前瞻性的协议。它解决了去中心化交易协议面临的最棘手的挑战，即<b>在保障用户资产安全性的前提下大幅度提升性能。</b>",
+      "但协议在其它方面确实存在一些取舍。例如，订单不能在多个交易所之间共享，只能由一个用户指定的中继撮合。此外，加密资产在用于订单之前必须充值在交易所的智能合约中。这些牺牲却意外带来了好处：<b>新的用户体验和中心化交易所几乎完全一样，用户的教育成本大大降低。</b>",
+      "路印协议3.0还支持交易所升级。作为管理者，您决定您的交易所是否可以升级使用新的兼容的协议新版本。如果是，升级应完全自动化还是手动升级。在任何情况下，升级过程对终端用户都是完全透明的。",
+      "<a class='underline ' href='/protocol'>单击此处</a>了解路印协议3.0的更多细节。"
     ]
   }
 }
