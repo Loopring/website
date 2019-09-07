@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9815d2200de395812bdb7ed5f495c233",
+    "revision": "9257129f9d356b2d8a18aee71e71c83c",
     "url": "//beta.loopring.org/index.html"
   },
   {
