@@ -11,12 +11,12 @@
     margin-right: 0.25rem;
     margin-left: 0.25rem;
     margin-bottom: 0.5rem;
-    background-color: $grey;
+    background-color: $black;
     color: $white;
     font-weight: 700;
 
     &.highlight {
-      background-color: $black;
+      background-color: $primary;
     }
 
     &.deprecated {

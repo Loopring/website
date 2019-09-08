@@ -4,6 +4,7 @@ import ScrollToTop from "./Components/ScrollToTop";
 import { LocalizeProvider, withLocalize } from "react-localize-redux";
 import detectBrowserLanguage from "detect-browser-language";
 
+import Home from "./Home/Home";
 import About from "./About/About";
 import Protocol from "./Protocol/Protocol";
 import LRC from "./LRC/LRC";
@@ -23,7 +24,8 @@ class App extends React.Component {
         <HashRouter>
           <ScrollToTop>
             <Switch>
-              <Route path="/" exact component={About} />
+              <Route path="/" exact component={Home} />
+              <Route path="/about" exact component={About} />
               <Route path="/protocol" exact component={Protocol} />
               <Route path="/lrc" exact component={LRC} />
               <Route path="/team" exact component={Team} />

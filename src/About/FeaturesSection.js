@@ -57,9 +57,7 @@ class FeaturesSection extends I18nComponent {
               <span className="tag ">
                 <Translate id="features.orderSharing" />
               </span>
-              <span className="tag">
-                <Translate id="features.nonCustodial" />
-              </span>
+
               <span className="tag highlight">
                 <Translate id="features.dualAuthoring" />
               </span>
@@ -78,9 +76,7 @@ class FeaturesSection extends I18nComponent {
               <span className="tag">
                 <Translate id="features.orderSharing" />
               </span>
-              <span className="tag">
-                <Translate id="features.nonCustodial" />
-              </span>
+
               <span className="tag">
                 <Translate id="features.dualAuthoring" />
               </span>
@@ -103,9 +99,7 @@ class FeaturesSection extends I18nComponent {
               <span className="tag deprecated">
                 <Translate id="features.orderSharing" />
               </span>
-              <span className="tag deprecated">
-                <Translate id="features.nonCustodial" />
-              </span>
+
               <span className="tag deprecated">
                 <Translate id="features.dualAuthoring" />
               </span>
@@ -114,9 +108,6 @@ class FeaturesSection extends I18nComponent {
               </span>
               <span className="tag">
                 <Translate id="features.lrcBurning" />
-              </span>
-              <span className="tag highlight">
-                <Translate id="features.custodialInContract" />
               </span>
               <span className="tag highlight">
                 <Translate id="features.tradeTokenAsFee" />

@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
-import HeroSection from "./HeroSection";
+// import HeroSection from "./HeroSection";
 import OverviewSection from "./OverviewSection";
 import VersionsSection from "./VersionsSection";
 import FeaturesSection from "./FeaturesSection";
@@ -17,7 +17,7 @@ class About extends React.Component {
     return (
       <div className="page-about">
         <Header />
-        <HeroSection />
+        {/* <HeroSection />*/}
         <OverviewSection />
         <VersionsSection />
         <FeaturesSection />

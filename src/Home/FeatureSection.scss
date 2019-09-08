@@ -1,0 +1,65 @@
+@charset "utf-8";
+@import "../Variables.scss";
+
+.section-features {
+
+    background-color: darken($primary, 20);
+    color: $white;
+
+    .content {
+
+        padding: 40px;
+        transition-duration: 0.5s;
+        background-color: white;
+        color: darken($primary, 20);
+
+        @include desktop {
+            min-height: 400px;
+        }
+
+        &:hover {
+            box-shadow: 10px 10px $black;
+        }
+    }
+
+    h1 {
+        color: $primary !important;
+        // text-transform: none!important;
+    }
+
+
+    .image {
+        img {
+            display: inline-block;
+            height: 120px;
+            width: auto;
+        }
+    }
+
+    a.learn-more {
+        display: block;
+        padding: 10px;
+        margin: 10px;
+        transition-duration: 0.5s;
+        color: $grey;
+
+        &:after {
+            transition-duration: 0.5s;
+            content: "→";
+            opacity: 0;
+            padding-left: 0px;
+             color: $grey;
+        }
+
+        &:hover {
+            text-decoration: none;
+            color: black;
+
+            &:after {
+                opacity: 1;
+                padding-left: 10px;
+                color: black;
+            }
+        }
+    }
+}
