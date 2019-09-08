@@ -125,8 +125,10 @@ class DesignSection extends I18nComponent {
                       tree. User requests, including deposits, withdrawals,
                       transfers, and settlements, are processed in large
                       batches. The state root after each batch will be published
-                      on-chain together with other data. The ZK proofs for new
-                      state roots are verified to finalize those state updates.
+                      on-chain together with other data necessary for
+                      re-construction and verification of state roots. The ZK
+                      proofs for new state roots are verified to finalize those
+                      state updates.
                     </p>
                   </div>
                 )}

@@ -5,14 +5,14 @@
   "version10": {
     "title": "Loopring 1.0",
     "content": [
-      "Loopring 1.0 introduced the <b> Ring-Matching</b> concept — in one trade, two or more orders can circularly swap cryptoassets in the form of rings. This feature is unique and brings the potential for improved price discovery and higher trading volume. Our project name <b>Loopring</b> is derived from this feature.",
+      "Loopring 1.0 introduced the <b> Ring-Matching</b> concept - in one trade, two or more orders can circularly swap cryptoassets in the form of rings. This feature is unique and brings the potential for improved price discovery and higher trading volume. Our project name <b>Loopring</b> is derived from this feature.",
       "With 1.0, orders are managed and matched off-chain. The protocol's smart contracts verify order signatures, trading prices, and settlement amounts on-chain and perform token transfers for each order accordingly. Because of the off-chain order management and matching, the performance of Loopring 1.0 is better than that of EtherDelta and the like, which rest entirely on-chain."
     ]
   },
   "version15": {
     "title": "Loopring 1.5",
     "content": [
-      "Loopring 1.5 introduced another unique feature called <b>Dual Authoring</b> to prevent front-running. Each order has a randomly generated Dual Author key-pair — the public key is part of the order.  The private key, however,  is not part of the order but is sent to the relayer so that the relayer can and must use it to sign rings that include the order.",
+      "Loopring 1.5 introduced another unique feature called <b>Dual Authoring</b> to prevent front-running. Each order has a randomly generated Dual Author key-pair - the public key is part of the order.  The private key, however,  is not part of the order but is sent to the relayer so that the relayer can and must use it to sign rings that include the order.",
       "Dual Authoring effectively prevents pending settlements and their orders from being stolen by middlemen in the Ethereum network, as only the legitimate relayer has access to the orders' Dual Author private keys.",
       "Dual Authoring comes very handy for scenarios where orders can be matched by more than one exchange/relayer."
     ]
@@ -27,7 +27,7 @@
   "version30": {
     "title": "Loopring 3.0",
     "content": [
-      "Loopring 3.0 is our newest, fastest, and most forward-looking protocol. It provides a solution for the most outstanding challenge of all decentralized protocols — performance, or more precisely, <b>much higher performance without a tradeoff in security.</b>",
+      "Loopring 3.0 is our newest, fastest, and most forward-looking protocol. It provides a solution for the most outstanding challenge of all decentralized protocols - performance, or more precisely, <b>much higher performance without a tradeoff in security.</b>",
       "There are, however, some tradeoffs in other aspects. For example, orders are no longer shareable among multiple exchanges and have to be matched by a dedicated relayer. Also, cryptoassets have to be deposited into a smart contract before they’re available for orders. One benefit of these tradeoffs is that the new user experience is more comparable to centralized exchanges, with familiar user flow.",
       "Loopring 3.0 also supports multiple upgradability options. As an owner, you can decide whether your DEX can upgrade to new <b>compatible versions</b> in the future, and if so, whether the upgrade should be fully automated or manually. In either case, the upgrade process is entirely transparent to end-users.",
       "<a class='underline ' href='/#/protocol'> Click here</a> to learn about the technical details of Loopring 3.0."

@@ -243,7 +243,7 @@
         "name": "address_Whitelist",
         "value": "0x0",
         "type": "address",
-        "meaning": "The address of an IAddressWhitelist contract to filter addresses that can request account creation. This is the major approach for Looping-based DEXes to implement KYC. IAddressWhitelist is designed such that whitelisting an address does NOT take an Ethereum transaction. The default value 0x0 indicats KYC is disabled by default."
+        "meaning": "The address of an IAddressWhitelist contract to filter addresses that can request account creation. This is the major approach for Loopring-based DEXes to implement KYC. IAddressWhitelist is designed such that whitelisting an address does NOT take an Ethereum transaction. The default value 0x0 indicats KYC is disabled by default."
       }
     ]
   },

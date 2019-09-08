@@ -37,11 +37,19 @@ class OverviewSection extends JsonI18nComponent {
               </div>
             </div>
             <div data-aos="fade-up" className="column is-hidden-mobile is-8">
-              <figure className="image covered is-8by6">
+              <figure className="image covered is-4by3">
                 <img src="/images/inserts/trading-image.jpg" />
               </figure>
             </div>
-            <div data-aos="fade-up" className="column is-4">
+            <div data-aos="fade-up" className="column is-4 has-text-justify">
+              <div className="content">
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: this.state.I.section1.objective
+                  }}
+                />
+              </div>
+
               <figure className="image covered is-1by1">
                 <img
                   className="is-rounded"

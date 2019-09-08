@@ -1,6 +1,6 @@
 {
   "headingDeployment": "Deployment Options",
-  "headingDeploymentMore": "Loopring 3.0 provides the following deployment options (or forge modes) to support various upgradability. Note that upgradability is available only for new protocol versions with compatible DEX state schema.",
+  "headingDeploymentMore": "Loopring 3.0 provides the following deployment options to support various forms of upgradability. Note that upgradability is available only for new protocol versions with compatible DEX state schema.",
   "options": [
     {
       "title": "● AUTOMATIC UPGRADABLITY",
@@ -21,8 +21,8 @@
     {
       "title": "◎ Proxied",
       "contents": [
-        "DEXes deployed with this option are not upgradable at all. This option isolates the DEX state (data) from its logic by deploying only a proxy in front of a pre-deployed Looping DEX, which makes forging a new DEX very inexpensive. ",
-        "This option enables a transparent upgrade experience to both DEX owners and DEX users but does imply trust on the Loopring team for future protocol releases."
+        "DEXes deployed with this option are not upgradable at all. This option isolates the DEX state from its logic by deploying only a proxy in front of a pre-deployed Loopring DEX, which makes forging a new DEX very inexpensive.",
+        "We recommend this option when user-transparent upgradability is now allowed by regulations in your jurisdiction."
       ]
     },
 

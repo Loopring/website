@@ -1,7 +1,7 @@
 {
   "heading": "Crypto Hacks",
-  "total": "More than $2,1 billion crypto-assets had been hacked from centralized exchanges, and counting. The following stories have been reported by thirdparty media.",
-  "learn": "Learn how Loopring 3.0 is designed to be secure",
+  "total": "More than $2.1 billion of cryptoassets have been hacked from centralized exchanges - and counting. Due to the bearer instrument nature of cryptoassets - whoever holds the private key, ‘owns’ it - CEXes remain the largest and most attractive honeypots for thieves and other bad actors. The following stories have been reported by third-party media.",
+    "learn": "Learn how Loopring 3.0 is designed to be secure",
   "stories": [
     {
       "title": "$34,300,000 / Remixpoint",
@@ -95,7 +95,7 @@
       "title": "$195,000,000 / BitGrail",
       "date": "02-2018",
       "source": "https://fortune.com/2018/02/11/bitgrail-cryptocurrency-claims-hack/",
-      "detail": "An obscure Italian cryptocurrency exchange called BitGrail claims that it was hacked late last week and lost roughly $195 million worth of customers’ cryptocurrency. But others — including the developers who created the stolen cryptocurrency — have suggested not all may be as it appears."
+      "detail": "An obscure Italian cryptocurrency exchange called BitGrail claims that it was hacked late last week and lost roughly $195 million worth of customers’ cryptocurrency. But others - including the developers who created the stolen cryptocurrency - have suggested not all may be as it appears."
     },
     {
       "title": "$534,800,000 / Coincheck",

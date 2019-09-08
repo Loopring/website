@@ -14,7 +14,7 @@ class PerformanceSection extends I18nComponent {
     super(props, englishTranslation, chineseTranslation);
     this.state = {
       throughput: 100,
-      cost: this.isChinese() ? 1.49 : 0.21
+      cost: this.isChinese() ? 0.015 : 0.0021
     };
   }
 
@@ -156,7 +156,7 @@ class PerformanceSection extends I18nComponent {
                   <Translate id="headingCost" />
                 </h1>
                 <Odometer
-                  theme="white"
+                  theme="white smaller"
                   format="(ddd).dddd"
                   value={this.state.cost}
                 />

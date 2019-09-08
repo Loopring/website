@@ -106,10 +106,13 @@ class TokenInfoSection extends JsonI18nComponent {
                       </a>{" "}
                       auction protocol to burn LRC as the protocols are being
                       used. The total LRC supply will decrease over time - in
-                      line with useage - to reflect these burns. (Note, LRC v2
-                      has nothing to do with Loopring v2; LRC v2 is simply the
-                      updated, proper token - it is used in Loopring 3.0 and
-                      beyond).
+                      line with useage - to reflect these burns. (
+                      <i>
+                        Note, LRC v2 has nothing to do with Loopring v2; LRC v2
+                        is simply the updated, proper token - it is used in
+                        Loopring 3.0 and beyond
+                      </i>
+                      ).
                     </p>
                     <p>
                       To learn more about the migration, please check out our{" "}
