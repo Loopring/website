@@ -2,64 +2,70 @@
 @import "../Variables.scss";
 
 .section-features {
+  background-color: darken($primary, 20);
+  color: $white;
 
-    background-color: darken($primary, 20);
+  .content {
+    padding: 40px;
+    transition-duration: 0.5s;
+    background-color: white;
+    color: darken($primary, 20);
+
+    @include desktop {
+      min-height: 400px;
+    }
+
+    &:hover {
+      box-shadow: 10px 10px $black;
+    }
+  }
+
+  h1 {
+    color: $primary !important;
+    // text-transform: none!important;
+  }
+
+  .explain {
+    padding-bottom: 40px;
+  }
+
+  .image {
+    img {
+      display: inline-block;
+      height: 120px;
+      width: auto;
+    }
+  }
+
+  a.learn-more {
+
+    background-color: $black;
+    display: inline-block;
+    padding: 15px 40px;
+    transition-duration: 0.5s;
     color: $white;
+     margin-top: 100px;
+     min-width: 300px;
+     border-radius: 4px;
 
-    .content {
-
-        padding: 40px;
-        transition-duration: 0.5s;
-        background-color: white;
-        color: darken($primary, 20);
-
-        @include desktop {
-            min-height: 400px;
-        }
-
-        &:hover {
-            box-shadow: 10px 10px $black;
-        }
+    &:after {
+      transition-duration: 0.5s;
+      content: "→";
+      opacity: 0;
+      padding-left: 0px;
+      color: $black;
     }
 
-    h1 {
-        color: $primary !important;
-        // text-transform: none!important;
+    &:hover {
+      text-decoration: none;
+      color: $white;
+       background-color: $black;
+
+      &:after {
+        opacity: 1;
+        padding-left: 10px;
+       color: $white;
+      }
     }
-
-
-    .image {
-        img {
-            display: inline-block;
-            height: 120px;
-            width: auto;
-        }
-    }
-
-    a.learn-more {
-        display: block;
-        padding: 10px;
-        margin: 10px;
-        transition-duration: 0.5s;
-        color: $grey;
-
-        &:after {
-            transition-duration: 0.5s;
-            content: "→";
-            opacity: 0;
-            padding-left: 0px;
-             color: $grey;
-        }
-
-        &:hover {
-            text-decoration: none;
-            color: black;
-
-            &:after {
-                opacity: 1;
-                padding-left: 10px;
-                color: black;
-            }
-        }
-    }
+  }
 }

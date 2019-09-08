@@ -31,12 +31,16 @@ class FeatureSection extends JsonI18nComponent {
                     <div className="explain has-text-left">
                       {feature.explain}{" "}
                     </div>{" "}
-                    <a href="/#/protocol" className="learn-more">
-                      {this.state.I.learnMore}
-                    </a>
                   </div>
                 </div>
               ))}
+            </div>
+            <div className="columns is-centered is-vcentered">
+              <div className="column is-centered is-vcentered has-text-centered is-12">
+                <a href="/#/protocol" className="learn-more">
+                  {this.state.I.learnMore}
+                </a>
+              </div>
             </div>
           </div>
         </section>
