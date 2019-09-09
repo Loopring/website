@@ -33,7 +33,10 @@ class FeatureSection extends JsonI18nComponent {
                 >
                   <div className="content">
                     <figure className="image">
-                      <img src={"/images/" + idx + ".svg"} />
+                      <img
+                        src={"/images/" + idx + ".svg"}
+                        className={idx === 2 ? "rotated" : ""}
+                      />
                     </figure>
                     <h1 className="feature">{feature.title}</h1>
                     <div className="explain has-text-left">
