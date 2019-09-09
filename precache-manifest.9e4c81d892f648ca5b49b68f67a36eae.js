@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f94a99d22f4317302633742fb2d4f10",
+    "revision": "8872417c3a75386edbcdd4f1a38eeec5",
     "url": "//loopring.org/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "//loopring.org/static/css/2.7abef457.chunk.css"
   },
   {
-    "revision": "0ff912f1860de0421d9a",
-    "url": "//loopring.org/static/css/main.dbbf5fd3.chunk.css"
+    "revision": "7b8ed16af3607a187f84",
+    "url": "//loopring.org/static/css/main.6b931120.chunk.css"
   },
   {
     "revision": "2e4de0ea1b2b5f7db700",
     "url": "//loopring.org/static/js/2.4afab69d.chunk.js"
   },
   {
-    "revision": "0ff912f1860de0421d9a",
+    "revision": "7b8ed16af3607a187f84",
     "url": "//loopring.org/static/js/main.122077c7.chunk.js"
   },
   {
