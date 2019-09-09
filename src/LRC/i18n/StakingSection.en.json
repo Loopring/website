@@ -2,7 +2,7 @@
   "heading": "Staking and RewardS",
   "utilities": [
     {
-      "title": "1 / Earn Protocol Fees (Holders)",
+      "title": "1 / Earn Protocol Fees (LRC Holders)",
       "symbol": "☉",
       "detail": "All LRC holders can stake LRC to earn part of the protocol fees paid by all exchanges built on top of Loopring - 70% of the fees are rewarded to stakers, 20% will be used to fund the Loopring DAO, and the remaining 10% will be burned."
     },
