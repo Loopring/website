@@ -34,6 +34,7 @@ class FeatureSection extends JsonI18nComponent {
                   <div className="content">
                     <figure className="image">
                       <img
+                        draggable="false"
                         src={"/images/" + idx + ".svg"}
                         className={idx === 2 ? "rotated" : ""}
                       />
