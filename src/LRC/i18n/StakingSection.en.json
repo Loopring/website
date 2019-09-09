@@ -12,12 +12,12 @@
       "detail": "Loopring DEX owners need to stake some LRC for economic security and building up their reputation. This mechanism guarantees malicious DEXes have something to lose if they don't follow the protocol rules. Always trust DEXes with more LRC staked."
     },
     {
-      "title": "3 / Lower Protocol Fees (DEX Owners)",
+      "title": "3 / Reduce Protocol Fees (DEX Owners)",
       "symbol": "⟁",
       "detail": "The same LRC staking by a DEX owner to build up reputation will also reduce the protocol fee the DEX must  pay for each trade. The more LRC staked, the less the settlement cost will be for the DEX."
     },
     {
-      "title": "4 / Lower Protocol Fees (Traders)",
+      "title": "4 / Reduce Protocol Fees (Traders)",
       "symbol": "∖",
       "detail": "DEX owners, operators, market makers, and professional traders can also stake LRC to lower the protocol fee. This type of LRC staking will reduce the protocol fee twice as much as the previous staking by DEX owners, and these LRC can be unlocked and withdrawn at any time without restriction."
     }
