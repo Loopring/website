@@ -29,7 +29,7 @@ class BuildDexSection extends JsonI18nComponent {
               <div className="column is-12 is-centered is-vcentered has-text-centered">
                 <div className="outer-container">
                   <div
-                    data-aos="fade-right"
+                    data-aos="fade-up"
                     className="inner-container has-text-centered"
                   >
                     <h2>
@@ -51,7 +51,7 @@ class BuildDexSection extends JsonI18nComponent {
                     </a>
                   </div>
                   <div
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     className="inner-container  has-text-centered right"
                   >
                     <h2>
