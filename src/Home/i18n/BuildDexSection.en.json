@@ -2,7 +2,7 @@
   "heading": "HOW TO BUILD YOUR OWN EXCHANGE?",
   "option1": {
     "title": "Build your own relayer backend",
-    "details": "You can choose to build your very own relayer backend system for your exchange by following Loopring's protocol rules. We strongly encourage you to go through our <a class='underline'href='https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/DESIGN.md'> Design Doc </a> and checkout the backend-specific documentation.",
+    "details": "You can choose to build your very own relayer backend system for your exchange by following Loopring's protocol rules. We strongly encourage you to go through our <a class='underline'href='https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/DESIGN.md'> Design Doc </a> and check out the backend-specific documentation.",
     "action": "Check out documentation →"
   },
   "option2": {
