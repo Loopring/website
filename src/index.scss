@@ -111,7 +111,7 @@ h1 {
 }
 
 .has-background-primary-dark {
-  background-color: darken($primary, 20) !important;
+  background-color: $dark-blue !important;
   color: $white;
 }
 

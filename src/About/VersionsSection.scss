@@ -6,14 +6,20 @@
     margin-top: 40px;
     padding-top: 60px;
     padding-bottom: 60px;
+
+    a, a:hover, h2 {
+      color: $black!important;
+    }
+
+
     @include desktop {
-      box-shadow: 10px 10px $grey;
+      box-shadow: 10px 10px $black;
       margin-top: 100px;
       padding: 60px;
     }
 
     b {
-      color: lighten($light-blue, 10%);
+      color: $primary;
     }
   }
 }

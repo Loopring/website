@@ -13,7 +13,7 @@ class VersionsSection extends JsonI18nComponent {
 
   render() {
     return (
-      <section className="section section-about-versions is-large has-background-blue">
+      <section className="section section-about-versions is-large has-background-primary-dark">
         <div className="container">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-10">
@@ -59,7 +59,7 @@ class VersionsSection extends JsonI18nComponent {
             </div>
             <div
               data-aos="fade-up"
-              className="column version30 is-6 has-text-justify has-background-black"
+              className="column version30 is-6 has-text-justify has-text-black has-background-white"
             >
               <div className="content">
                 <h2>{this.state.I.version30.title}</h2>

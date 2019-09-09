@@ -5,12 +5,8 @@
 // Loopring theme colors
 $black: #272727;
 $blue: #1c60ff;
-$light-blue: #1c71ff;
-$purple: #8dafff;
-$mint: #3fafff;
-$grayish-blue: #67759a;
+$dark-blue: darken($blue, 20);
 $white: #ffffff;
-
 $primary: $blue;
 
 // Body  & Global

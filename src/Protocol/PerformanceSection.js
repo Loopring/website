@@ -145,7 +145,7 @@ class PerformanceSection extends I18nComponent {
 
         {/* ====*/}
 
-        <section className="section section-protocol-cost is-large has-background-black">
+        <section className="section section-protocol-cost is-large has-background-primary-dark">
           <div className="container">
             <div className="columns is-centered">
               <div
