@@ -67,9 +67,10 @@
       .button {
         text-decoration: none;
         background-color: $primary;
-        border-color: $primary!important;
-        color: $white!important;
-      }}
+        border-color: $primary !important;
+        color: $white !important;
+      }
+    }
 
     .details {
       min-height: 200px;
@@ -100,8 +101,6 @@
           color: $black;
         }
       }
-
-
     }
   }
 }
