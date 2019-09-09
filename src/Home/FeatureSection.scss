@@ -2,14 +2,11 @@
 @import "../Variables.scss";
 
 .section-features {
-  background-color: darken($primary, 20);
-  color: $white;
-
   .content {
     padding: 40px;
     transition-duration: 0.5s;
     background-color: white;
-    color: darken($primary, 20);
+    color: $primary;
 
     @include desktop {
       min-height: 400px;
@@ -20,7 +17,7 @@
     }
   }
 
-  h1 {
+  h1.feature {
     color: $primary !important;
     // text-transform: none!important;
   }
@@ -38,15 +35,14 @@
   }
 
   a.learn-more {
-
     background-color: $black;
     display: inline-block;
     padding: 15px 40px;
     transition-duration: 0.5s;
     color: $white;
-     margin-top: 100px;
-     min-width: 300px;
-     border-radius: 4px;
+    margin-top: 100px;
+    min-width: 300px;
+    border-radius: 4px;
 
     &:after {
       transition-duration: 0.5s;
@@ -59,12 +55,12 @@
     &:hover {
       text-decoration: none;
       color: $white;
-       background-color: $black;
+      background-color: $black;
 
       &:after {
         opacity: 1;
         padding-left: 10px;
-       color: $white;
+        color: $white;
       }
     }
   }

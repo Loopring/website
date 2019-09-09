@@ -1,10 +1,10 @@
 {
   "heading": "Features",
-  "learnMore": "Learn More",
+  "learnMore": "Learn more about Loopring 3.0",
   "features": [
     {
       "title": "Secure",
-      "explain": "Loopring is an open-sourced, audited,  and non-custodial DEX protocol, which means nobody in the Loopring ecosystem needs to trust others. Your cryptoassets are always under your own control."
+      "explain": "Loopring is an open-sourced, audited, and non-custodial DEX protocol, which means nobody in the Loopring ecosystem needs to trust others. Your cryptoassets are always under your own control."
     },
     {
       "title": "High Throughput",

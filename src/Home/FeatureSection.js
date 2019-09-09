@@ -14,8 +14,16 @@ class FeatureSection extends JsonI18nComponent {
   render() {
     return (
       <div>
-        <section className="section section-features is-large">
+        <section className="section section-features is-large has-background-primary-dark">
           <div className="container">
+            <div className="columns is-centered is-vcentered">
+              <div
+                data-aos="fade-up"
+                className="column is-centered is-vcentered has-text-centered"
+              >
+                <h1>{this.state.I.heading}</h1>
+              </div>
+            </div>
             <div className="columns is-centered is-vcentered">
               {this.state.I.features.map((feature, idx) => (
                 <div
@@ -25,9 +33,9 @@ class FeatureSection extends JsonI18nComponent {
                 >
                   <div className="content">
                     <figure className="image">
-                      <img src={"/images/third" + idx + ".gif"} />
+                      <img src={"/images/" + idx + ".svg"} />
                     </figure>
-                    <h1>{feature.title}</h1>
+                    <h1 className="feature">{feature.title}</h1>
                     <div className="explain has-text-left">
                       {feature.explain}{" "}
                     </div>{" "}
