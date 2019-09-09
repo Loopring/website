@@ -78,7 +78,7 @@ class TokenInfoSection extends JsonI18nComponent {
                       <a className="highlight" href="/#/updates">
                         博客
                       </a>
-                      了解更多关于LRC代币升级的一些细节。请注意LRC1.0代币已没不具价值，请不要尝试用LRC1.0代币在交易所上充值，白白浪费转账手续费！
+                      了解更多关于LRC代币升级的一些细节。请注意LRC1.0代币已经不具价值，请不要尝试用LRC1.0代币在交易所上充值，白白浪费转账手续费！
                     </p>
                   </div>
                 ) : (
