@@ -1,5 +1,5 @@
 {
-  "headingDeployment": "Deployment Options",
+  "headingDeployment": "Deployment",
   "headingDeploymentMore": "Loopring 3.0 provides the following deployment options to support various forms of upgradability. Note that upgradability is available only for new protocol versions with compatible DEX state schema.",
   "options": [
     {

@@ -43,8 +43,8 @@
 
 /* Usage:
 
-<div class="outer">
-    <div class="inner">
+<div className="outer">
+    <div className="inner">
         Centered content
     </div>
 </div>

@@ -33,26 +33,18 @@ class BuildDexSection extends JsonI18nComponent {
                     className="inner-container has-text-centered"
                   >
                     <h2>
-                      <span className="heading-number">1 /</span> Develop my own
-                      relayer
+                      <span className="heading-number">1 /</span>{" "}
+                      {this.state.I.option1.title}
                     </h2>
                     <div class="details has-text-left">
-                      <p>
-                        You can choose to build your very own relayer backend
-                        system for your exchange by following Loopring's
-                        protocol rules. We strongly encourage you to go through
-                        our{" "}
-                        <a
-                          className="underline"
-                          href="https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/DESIGN.md"
-                        >
-                          Design Doc
-                        </a>{" "}
-                        and checkout the backend-specific documentation.
-                      </p>
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: this.state.I.option1.details
+                        }}
+                      />
                     </div>
                     <a class="button is-outlined left">
-                      Check out documentation →
+                      {this.state.I.option1.action}
                     </a>
                   </div>
                   <div
@@ -60,19 +52,19 @@ class BuildDexSection extends JsonI18nComponent {
                     className="inner-container  has-text-centered right"
                   >
                     <h2>
-                      <span className="heading-number">2 /</span> Use
-                      Lightcone's relayer service
+                      <span className="heading-number">2 /</span>{" "}
+                      {this.state.I.option2.title}
                     </h2>
                     <div class="details has-text-left">
-                      <p>
-                        You may also consider uing Lightcone Technology's
-                        production-ready Relayer-as-a-Service. Adopting a
-                        third-party relayer will allow you launch a DEX quickly
-                        and focus on regulation, token listing, and other
-                        business activities.
-                      </p>
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: this.state.I.option2.details
+                        }}
+                      />
                     </div>
-                    <a class="button is-outlined right">Visit lightcone.io →</a>
+                    <a class="button is-outlined right">
+                      {this.state.I.option2.action}
+                    </a>
                   </div>
                 </div>
               </div>

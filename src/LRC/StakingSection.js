@@ -13,7 +13,7 @@ class StakingSection extends JsonI18nComponent {
 
   render() {
     return (
-      <section className="section section-lrc-staking is-large  has-background-black">
+      <section className="section section-lrc-staking is-large has-background-primary-dark">
         <div className="container is-centered has-text-centered">
           <div className="columns is-centered">
             <div data-aos="fade-up" className="column is-10 has-text-centered">
