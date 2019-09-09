@@ -36,8 +36,13 @@
         // text-transform: none;
         color: $black !important;
       }
+
     }
 
+@include mobile {
+  display: block;
+  width: 100%;
+}
     position: relative;
     min-height: 400px;
     width: 50%;
