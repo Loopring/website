@@ -35,7 +35,7 @@ class DeploymentOptionsSection extends JsonI18nComponent {
                 data-aos="fade-up"
                 className="column is-3 has-text-centered "
               >
-                <div className="content has-background-blue has-text-left">
+                <div className="content  has-background-blue has-text-left">
                   <h2>{option.title}</h2>
 
                   {option.contents.map((p, idx) => (

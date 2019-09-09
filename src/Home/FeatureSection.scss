@@ -35,6 +35,7 @@
   }
 
   a.learn-more {
+    user-select: none;
     background-color: $black;
     display: inline-block;
     padding: 15px 40px;
