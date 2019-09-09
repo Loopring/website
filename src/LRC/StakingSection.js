@@ -29,7 +29,9 @@ class StakingSection extends JsonI18nComponent {
                 className="column  is-2 has-text-right has-text-centered-mobile"
               >
                 <div className="content">
-                  <div className="category is-unselectable">{item.symbol}</div>
+                  <div className="category has-text-centered is-centered is-unselectable">
+                    {item.symbol}
+                  </div>
                 </div>
               </div>
 
