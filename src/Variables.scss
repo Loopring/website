@@ -4,10 +4,9 @@
 
 // Loopring theme colors
 $black: #272727;
-$blue: #1c60ff;
-$dark-blue: darken($blue, 20);
+$primary: #1c60ff;
+$dark-blue: darken($primary, 15);
 $white: #ffffff;
-$primary: $blue;
 
 // Body  & Global
 $body-size: 15px;
