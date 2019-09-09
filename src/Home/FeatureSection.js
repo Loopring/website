@@ -5,6 +5,8 @@ import chineseTranslation from "./i18n/FeatureSection.zh.json";
 import JsonI18nComponent from "../Components/JsonI18nComponent";
 
 import "./FeatureSection.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 class FeatureSection extends JsonI18nComponent {
   constructor(props) {
@@ -21,7 +23,21 @@ class FeatureSection extends JsonI18nComponent {
                 data-aos="fade-up"
                 className="column is-centered is-vcentered has-text-centered"
               >
-                <h1>{this.state.I.heading}</h1>
+                <div className="subtitle has-text-centered">
+                  <div
+                    dangerouslySetInnerHTML={{ __html: this.state.I.subtitle }}
+                  />
+
+                  <div>
+                    <FontAwesomeIcon icon={faStar} size="1x" />
+                    <FontAwesomeIcon icon={faStar} size="1x" />
+                    <FontAwesomeIcon icon={faStar} size="1x" />
+                    <FontAwesomeIcon icon={faStar} size="1x" />
+                    <FontAwesomeIcon icon={faStar} size="1x" />
+                  </div>
+                </div>
+
+                <h1 class="sectionTitle">{this.state.I.heading}</h1>
               </div>
             </div>
             <div className="columns is-centered is-vcentered">

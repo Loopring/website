@@ -17,9 +17,28 @@
     }
   }
 
+  h1.sectionTitle {
+    padding: 40px;
+  }
   h1.feature {
     color: $primary !important;
-    // text-transform: none!important;
+  }
+
+  .subtitle {
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: $body-size;
+    margin:auto;
+    max-width: 680px;
+    line-height: 2;
+    background-color: rgba(255,255,255, 0.05);
+    border-radius: 10px;
+    border: 1px solid $primary;
+
+    >div {
+      margin: 10px;
+    }
   }
 
   .explain {
