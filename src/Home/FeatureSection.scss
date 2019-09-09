@@ -29,14 +29,14 @@
     color: white;
     font-weight: 500;
     font-size: $body-size;
-    margin:auto;
+    margin: auto;
     max-width: 680px;
     line-height: 2;
-    background-color: rgba(255,255,255, 0.05);
+    background-color: rgba(255, 255, 255, 0.05);
     border-radius: 10px;
     border: 1px solid $primary;
 
-    >div {
+    > div {
       margin: 10px;
     }
   }
