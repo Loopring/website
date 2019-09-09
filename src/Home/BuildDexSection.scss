@@ -63,6 +63,14 @@
       color: $white !important;
     }
 
+    &:hover {
+      .button {
+        text-decoration: none;
+        background-color: $primary;
+        border-color: $primary!important;
+        color: $white!important;
+      }}
+
     .details {
       min-height: 200px;
       padding: 25px 80px;
@@ -93,12 +101,7 @@
         }
       }
 
-      &:hover {
-        text-decoration: none;
-        background-color: $primary;
-        border-color: $primary;
-        color: $white;
-      }
+
     }
   }
 }
