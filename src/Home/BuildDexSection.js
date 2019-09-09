@@ -43,7 +43,10 @@ class BuildDexSection extends JsonI18nComponent {
                         }}
                       />
                     </div>
-                    <a class="button is-outlined left">
+                    <a
+                      href="https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/BACKEND.md"
+                      class="button is-outlined left"
+                    >
                       {this.state.I.option1.action}
                     </a>
                   </div>
@@ -62,7 +65,10 @@ class BuildDexSection extends JsonI18nComponent {
                         }}
                       />
                     </div>
-                    <a class="button is-outlined right">
+                    <a
+                      href="https://lightcone.io"
+                      class="button is-outlined right"
+                    >
                       {this.state.I.option2.action}
                     </a>
                   </div>
