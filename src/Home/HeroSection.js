@@ -28,8 +28,8 @@ class HeroSection extends I18nComponent {
                     className="chinese"
                     id="title"
                     x="50%"
-                    y="35%"
-                    dy="1.58em"
+                    y="30%"
+                    // dy="1.58em"
                   >
                     路印协议
                   </text>
@@ -38,14 +38,14 @@ class HeroSection extends I18nComponent {
                     className="has-text-din"
                     id="title"
                     x="50%"
-                    y="35%"
-                    dy="1.58em"
+                    y="30%"
+                    // dy="1.58em"
                   >
                     Loopring
                   </text>
                 )}
 
-                <text id="subtitle" x="50%" y="32%" dy="9.8em">
+                <text id="subtitle" x="50%" y="40%">
                   <Translate id="slogan" />
                 </text>
               </mask>
