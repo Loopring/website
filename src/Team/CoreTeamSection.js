@@ -13,7 +13,7 @@ class CoreTeamSection extends JsonI18nComponent {
 
   render() {
     return (
-      <section className="section section-coreteam is-large  has-background-grey">
+      <section className="section section-coreteam is-large  has-background-primary-dark">
         <div className="container">
           <div className="columns ">
             <div

@@ -9,4 +9,8 @@
       min-width: 140px;
     }
   }
+
+  a.highlight:hover {
+    color: $primary!important;
+  }
 }
