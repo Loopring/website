@@ -16,8 +16,8 @@ class Protocol extends React.Component {
       <div className="page-protocol">
         <Header />
         <PerformanceSection />
-        <DeploymentOptionsSection />
         <DesignSection />
+        <DeploymentOptionsSection />
         {/* <ConfigurationSection />*/}
         <Footer />
       </div>
