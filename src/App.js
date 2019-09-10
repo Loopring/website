@@ -30,19 +30,19 @@ class App extends React.Component {
               <Route path="/lrc" exact component={LRC} />
               <Route path="/team" exact component={Team} />
               <Route
-                path="/updates"
+                path="/blog"
                 exact
                 render={props => <Updates key="updates_all" group="all" />}
               />
               <Route
-                path="/updates/biweekly"
+                path="/blog/update"
                 exact
                 render={props => (
                   <Updates key="updates_biweekly" group="biweekly" />
                 )}
               />
               <Route
-                path="/updates/loopring3.0"
+                path="/blog/loopring3.0"
                 exact
                 render={props => (
                   <Updates key="updates_loopring3_0" group="loopring3_0" />
@@ -50,21 +50,21 @@ class App extends React.Component {
               />
 
               <Route
-                path="/updates/learning"
+                path="/blog/learning"
                 exact
                 render={props => (
                   <Updates key="updates_learning" group={"learning"} />
                 )}
               />
               <Route
-                path="/updates/thoughts"
+                path="/blog/thoughts"
                 exact
                 render={props => (
                   <Updates key="updates_thoughts" group="thoughts" />
                 )}
               />
               <Route
-                path="/updates/news"
+                path="/blog/news"
                 exact
                 render={props => <Updates key="updates_news" group="news" />}
               />

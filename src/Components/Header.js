@@ -109,11 +109,11 @@ class Header extends I18nComponent {
                 </div>
               </NavLink>
 
-              {/* {this.isChinese() ? (
+              {this.isChinese() ? (
                 <NavLink
                   activeClassName="active"
                   className="navbar-item"
-                  to="/updates"
+                  to="/blog"
                   onClick={this.onLinkClick.bind(this)}
                 >
                   <div className="pageLink">
@@ -122,7 +122,7 @@ class Header extends I18nComponent {
                 </NavLink>
               ) : (
                 <span />
-              )}*/}
+              )}
             </div>
           </div>
         </div>

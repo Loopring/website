@@ -36,7 +36,7 @@ class ArticlesSection extends JsonI18nComponent {
                     exact
                     activeClassName="active"
                     className="navbar-item"
-                    to="/updates"
+                    to="/blog"
                   >
                     {this.state.I.subNavigation.all}
                   </NavLink>
@@ -47,7 +47,7 @@ class ArticlesSection extends JsonI18nComponent {
                     exact
                     activeClassName="active"
                     className="navbar-item"
-                    to="/updates/biweekly"
+                    to="/blog/update"
                   >
                     {this.state.I.subNavigation.biweekly}
                   </NavLink>
@@ -58,7 +58,7 @@ class ArticlesSection extends JsonI18nComponent {
                     exact
                     activeClassName="active"
                     className="navbar-item"
-                    to="/updates/loopring3.0"
+                    to="/blog/loopring3.0"
                   >
                     {this.state.I.subNavigation.loopring30}
                   </NavLink>
@@ -70,7 +70,7 @@ class ArticlesSection extends JsonI18nComponent {
                       exact
                       activeClassName="active"
                       className="navbar-item"
-                      to="/updates/learning"
+                      to="/blog/learning"
                     >
                       {this.state.I.subNavigation.learning}
                     </NavLink>
@@ -85,7 +85,7 @@ class ArticlesSection extends JsonI18nComponent {
                     exact
                     activeClassName="active"
                     className="navbar-item"
-                    to="/updates/thoughts"
+                    to="/blog/thoughts"
                   >
                     {this.state.I.subNavigation.thoughts}
                   </NavLink>
@@ -96,7 +96,7 @@ class ArticlesSection extends JsonI18nComponent {
                     exact
                     activeClassName="active"
                     className="navbar-item"
-                    to="/updates/news"
+                    to="/blog/news"
                   >
                     {this.state.I.subNavigation.news}
                   </NavLink>
