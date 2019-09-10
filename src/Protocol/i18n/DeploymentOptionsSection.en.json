@@ -22,7 +22,7 @@
       "title": "◎ Proxied",
       "contents": [
         "DEXes deployed with this option are not upgradable at all. This option isolates the DEX state from its logic by deploying only a proxy in front of a pre-deployed Loopring DEX, which makes forging a new DEX very inexpensive.",
-        "We recommend this option when user-transparent upgradability is now allowed by regulations in your jurisdiction."
+        "We recommend this option when user-transparent upgradability is not allowed by regulations in your jurisdiction."
       ]
     },
 
