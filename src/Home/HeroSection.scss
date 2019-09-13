@@ -43,21 +43,21 @@ $color-base: rgb(255, 255, 255);
     overflow: hidden;
   }
 
-    .subtitle {
-      padding: 20px;
-       position: absolute;
+  .subtitle {
+    padding: 20px;
+    position: absolute;
     width: 100%;
     text-align: center;
     font-weight: 500;
     top: 45%;
     z-index: 110;
-      font-weight: 500;
-      font-size: 1.5em;
+    font-weight: 500;
+    font-size: 1.5em;
 
-      @include mobile {
-        font-size: 1.25em;
-      }
+    @include mobile {
+      font-size: 1.25em;
     }
+  }
 
   svg {
     position: relative;
@@ -75,11 +75,9 @@ $color-base: rgb(255, 255, 255);
 
     #title {
       font-size: 6em;
+      font-weight: 700;
       text-transform: uppercase;
-       font-family: $theme-font;
-
-
-
+      font-family: $theme-font;
 
       &.chinese {
         font-family: "Helvetica";
@@ -89,7 +87,6 @@ $color-base: rgb(255, 255, 255);
         font-size: 5em;
       }
     }
-
 
     #base {
       fill: $color-base;
