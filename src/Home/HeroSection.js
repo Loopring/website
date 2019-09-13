@@ -14,6 +14,12 @@ class HeroSection extends I18nComponent {
   }
 
   render() {
+    const title = this.isChinese() ? "路印协议" : "Loopring";
+    const titleClass = this.isChinese() ? "chinese" : "";
+    const subTitle = this.isChinese()
+      ? "高性能去中心化交易协议"
+      : "An Open Protocol for Scalable, Non-Custodial Exchanges";
+
     return (
       <section className="section section-about-hero is-large">
         <div className="backdrop"></div>
@@ -23,35 +29,16 @@ class HeroSection extends I18nComponent {
             <defs>
               <mask id="mask" x="0" y="0" width="100%" height="100%">
                 <rect id="alpha" x="0" y="0" width="100%" height="100%" />
-                {this.isChinese() ? (
-                  <text
-                    className="chinese"
-                    id="title"
-                    x="50%"
-                    y="30%"
-                    // dy="1.58em"
-                  >
-                    路印协议
-                  </text>
-                ) : (
-                  <text
-                    className="has-text-din"
-                    id="title"
-                    x="50%"
-                    y="30%"
-                    // dy="1.58em"
-                  >
-                    Loopring
-                  </text>
-                )}
 
-                <text id="subtitle" x="50%" y="40%">
-                  <Translate id="slogan" />
+                <text className={titleClass} id="title" x="50%" y="30%">
+                  {title}
                 </text>
               </mask>
             </defs>
             <rect id="base" x="0" y="0" width="100%" height="100%" />
           </svg>
+
+          <div className="subtitle">{subTitle}</div>
         </div>
       </section>
     );
