@@ -3,119 +3,115 @@
 @import "../Variables.scss";
 
 .article-card {
-  .card-wrapper {
-  }
-  a {
-    text-decoration: none !important;
-  }
+    .card-wrapper {}
 
-  .card-image {
-    // min-height: 300px;
-    background-color: $primary;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .card {
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.01), 0 0 0 1px rgba(0, 0, 0, 0.01);
-
-    .card-content {
-      transition-duration: 1s;
-      overflow: hidden;
-
-      height: 240px;
-      font-size: $body-size;
+    a {
+        text-decoration: none !important;
     }
 
-    .image {
-      transition-duration: 2s;
+    .card-image {
+        // min-height: 300px;
+        background-color: $primary;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
-    img {
-      transition-duration: 2s;
-    }
-
-    .subtitle {
-      font-size: 10px;
-    }
-  }
-
-  &:hover {
     .card {
-      img {
-        filter: grayscale(100%);
-      }
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.01), 0 0 0 1px rgba(0, 0, 0, 0.01);
 
-      .image:after {
-        content: "";
-        display: block;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        background: rgba($image-overlay-background, 0.1);
-        background-image: linear-gradient(
-            45deg,
-            $image-overlay-foreground 5%,
-            transparent 15%,
-            transparent 85%,
-            $image-overlay-foreground 45%,
-            $image-overlay-foreground
-          ),
-          linear-gradient(
-            45deg,
-            $image-overlay-foreground 5%,
-            transparent 15%,
-            transparent 85%,
-            $image-overlay-foreground 45%,
-            $image-overlay-foreground
-          ),
-          linear-gradient(
-            -45deg,
-            $image-overlay-foreground 5%,
-            transparent 15%,
-            transparent 85%,
-            $image-overlay-foreground 45%,
-            $image-overlay-foreground
-          ),
-          linear-gradient(
-            -45deg,
-            $image-overlay-foreground 5%,
-            transparent 15%,
-            transparent 85%,
-            $image-overlay-foreground 45%,
-            $image-overlay-foreground
-          );
-        background-size: 3px 3px;
-      }
+        .card-content {
+            transition-duration: 1s;
+
+            overflow: hidden;
+
+            @include desktop {
+                height: 240px;
+            }
+
+            font-size: $body-size;
+        }
+
+        .image {
+            transition-duration: 2s;
+        }
+
+        img {
+            transition-duration: 2s;
+        }
+
+        .subtitle {
+            font-size: 10px;
+        }
     }
 
-    .card-content {
-      background-color: $black;
+    &:hover {
+        .card {
+            img {
+                filter: grayscale(100%);
+            }
 
-      .media,
-      .title,
-      .subtitle,
-      .content {
-        color: $white !important;
-      }
+            .image:after {
+                content: "";
+                display: block;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                background: rgba($image-overlay-background, 0.1);
+                background-image: linear-gradient(45deg,
+                    $image-overlay-foreground 5%,
+                    transparent 15%,
+                    transparent 85%,
+                    $image-overlay-foreground 45%,
+                    $image-overlay-foreground),
+                    linear-gradient(45deg,
+                    $image-overlay-foreground 5%,
+                    transparent 15%,
+                    transparent 85%,
+                    $image-overlay-foreground 45%,
+                    $image-overlay-foreground),
+                    linear-gradient(-45deg,
+                    $image-overlay-foreground 5%,
+                    transparent 15%,
+                    transparent 85%,
+                    $image-overlay-foreground 45%,
+                    $image-overlay-foreground),
+                    linear-gradient(-45deg,
+                    $image-overlay-foreground 5%,
+                    transparent 15%,
+                    transparent 85%,
+                    $image-overlay-foreground 45%,
+                    $image-overlay-foreground);
+                background-size: 3px 3px;
+            }
+        }
+
+        .card-content {
+            background-color: $black;
+
+            .media,
+            .title,
+            .subtitle,
+            .content {
+                color: $white !important;
+            }
+        }
     }
-  }
 
-  .title {
-    font-size: $body-size !important;
-    font-weight: 400 !important;
-    padding-bottom: $body-size !important;
-    color: $black;
+    .title {
+        font-size: $body-size !important;
+        font-weight: 400 !important;
+        padding-bottom: $body-size !important;
+        color: $black;
 
-    font-family: $theme-font;
-    font-size: 20px !important;
-    font-weight: 500 !important;
-  }
+        font-family: $theme-font;
+        font-size: 20px !important;
+        font-weight: 500 !important;
+    }
 
-  .content {
-    color: $black;
-  }
+    .content {
+        color: $black;
+    }
 }
