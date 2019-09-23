@@ -3,7 +3,6 @@
 @import "../Variables.scss";
 
 .article-card {
-
   .card-wrapper {
   }
   a {
@@ -21,14 +20,12 @@
   .card {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.01), 0 0 0 1px rgba(0, 0, 0, 0.01);
 
-
     .card-content {
       transition-duration: 1s;
       overflow: hidden;
 
-        height: 240px;
-        font-size: $body-size;
-
+      height: 240px;
+      font-size: $body-size;
     }
 
     .image {
