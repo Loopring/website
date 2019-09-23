@@ -3,8 +3,8 @@
 @import "../Variables.scss";
 
 .article-card {
+
   .card-wrapper {
-    // padding: 10px;
   }
   a {
     text-decoration: none !important;
@@ -19,11 +19,16 @@
   }
 
   .card {
-    box-shadow: none;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.01), 0 0 0 1px rgba(0, 0, 0, 0.01);
+
 
     .card-content {
       transition-duration: 1s;
       overflow: hidden;
+
+        height: 240px;
+        font-size: $body-size;
+
     }
 
     .image {
