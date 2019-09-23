@@ -387,44 +387,44 @@ Usage (In Ghost editor):
   font-size: 4.6rem;
   font-weight: 700;
 }
-@media (max-width: 500px) {
+/*@media (max-width: 500px) {
   .post-full-content h1 {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
   }
-}
+}*/
 
 .post-full-content h2 {
   margin: 0.5em 0 0.2em 0;
   font-size: 3.6rem;
   font-weight: 700;
 }
-@media (max-width: 500px) {
+/*@media (max-width: 500px) {
   .post-full-content h2 {
     font-size: 2.6rem;
   }
-}
+}*/
 
 .post-full-content h3 {
   margin: 0.5em 0 0.2em 0;
   font-size: 2.8rem;
   font-weight: 700;
 }
-@media (max-width: 500px) {
+/*@media (max-width: 500px) {
   .post-full-content h3 {
     font-size: 2.2rem;
   }
-}
+}*/
 
 .post-full-content h4 {
   margin: 0.5em 0 0.2em 0;
   font-size: 2.8rem;
   font-weight: 700;
 }
-@media (max-width: 500px) {
+/*@media (max-width: 500px) {
   .post-full-content h4 {
     font-size: 2.2rem;
   }
-}
+}*/
 
 .post-full-content h5 {
   display: block;
