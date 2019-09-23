@@ -45,7 +45,7 @@ class App extends React.Component {
                 path="/blog/loopring3.0"
                 exact
                 render={props => (
-                  <Updates key="updates_loopring3_0" group="loopring3_0" />
+                  <Updates key="updates_loopring3_0" group="loopring30" />
                 )}
               />
 

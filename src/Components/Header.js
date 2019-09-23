@@ -108,7 +108,6 @@ class Header extends I18nComponent {
                   <Translate id="team" />
                 </div>
               </NavLink>
-
               <NavLink
                 activeClassName="active"
                 className="navbar-item"

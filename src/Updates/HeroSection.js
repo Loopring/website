@@ -14,7 +14,7 @@ class HeroSection extends JsonI18nComponent {
     const bgMap = {
       all: "/images/bg1.jpeg",
       biweekly: "/images/bg2.jpeg",
-      loopring3_0: "/images/bg3.jpeg",
+      loopring30: "/images/bg3.jpeg",
       learning: "/images/bg4.jpeg",
       thoughts: "/images/bg5.jpeg",
       news: "/images/bg6.jpeg"
