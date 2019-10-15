@@ -1165,10 +1165,10 @@
     "@svgr/plugin-svgo" "^4.3.1"
     loader-utils "^1.2.3"
 
-"@tryghost/content-api@^1.2.7":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@tryghost/content-api/-/content-api-1.2.7.tgz#9f2a37a6e5403de14c566c28cd2de1bdfb618798"
-  integrity sha512-09EYGNczyPcpTXgw7wHD/GU1YhLIQ3KFdHwPHkHywm2a5ZEHKP/SMOSuAP/CG+HlwbiFQ5Bs600pLn1U4VeT4A==
+"@tryghost/content-api@^1.2.13":
+  version "1.2.13"
+  resolved "https://registry.yarnpkg.com/@tryghost/content-api/-/content-api-1.2.13.tgz#d34bc95a44d36355a806ef21b370b03e8e921679"
+  integrity sha512-iwACLg/7ghG43p3B5rugugNyG7o00rKA/B3hWMYRPyTa0V34Lmrm6fQq8BsvB6b0QtrJwPAdwLHLTCVPsCcc+Q==
   dependencies:
     axios "0.19.0"
     ghost-ignition "^3.0.0"
