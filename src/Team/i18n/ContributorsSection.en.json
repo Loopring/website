@@ -2,6 +2,11 @@
   "headingAdvisors": "Advisors",
   "headingContributors": "Contributors",
   "advisors": [
+      {
+      "name": "Johnston CHEN",
+      "title": "Founder of WeDEX, Former Loopring COO",
+      "url": "mailto:johnston@wedex.io"
+    },
     {
       "name": "Xuefeng LI",
       "title": "CTO of Zhongan Technology"
@@ -52,11 +57,6 @@
     }
   ],
   "contributors": [
-    {
-      "name": "Johnston CHEN",
-      "title": "Former COO",
-      "url": "mailto:johnston@wedex.io"
-    },
     {
       "name": "Bella LONG",
       "title": "Former PR Director"
