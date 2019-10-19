@@ -3,21 +3,21 @@
 @import "../Variables.scss";
 
 .section-article-heading {
-    .datetime {
-        color: $grey;
-        padding-right: 20px;
-    }
+  .datetime {
+    color: $grey;
+    padding-right: 20px;
+  }
 
-    h1 {
-        font-size: 3.2rem !important;
-    }
+  h1 {
+    font-size: 3.2rem !important;
+  }
 }
 
 .tag {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .section-article-hero {
-    padding: 0 !important;
-    margin: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
