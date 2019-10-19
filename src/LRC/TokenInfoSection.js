@@ -128,6 +128,42 @@ class TokenInfoSection extends JsonI18nComponent {
 
             <div className="column column-exchange  is-5 has-text-left">
               <div data-aos="fade-up" className="content">
+                <h2>{this.state.I.titles.dexes}</h2>
+                <ul>
+                  {this.state.I.dexes.map((exchange, idx) => (
+                    <li key={idx}>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={exchange.url}
+                      >
+                        <span className="has-leading-thin-arrow exchange-name">
+                          {exchange.name}
+                        </span>
+                      </a>
+                      {exchange.pairs.map((token, idx) => (
+                        <span key={idx} className="tag">
+                          LRC/{token}
+                        </span>
+                      ))}
+                    </li>
+                  ))}
+
+                  <li className="coming-soon highlighted">
+                    <a disabled rel="noopener noreferrer">
+                      <span className="has-leading-thin-arrow exchange-name">
+                        WeDEX
+                      </span>
+                    </a>
+                    <span className="tag">LRC/ETH</span>
+                    <span className="tag">LRC/USDT</span>
+
+                    <div className="footnote">{this.state.I.wedexFootnote}</div>
+                  </li>
+                </ul>
+              </div>
+
+              <div data-aos="fade-up" className="content">
                 <h2>{this.state.I.titles.exchanges}</h2>
                 <ul>
                   {this.state.I.exchanges.map((exchange, idx) => (
@@ -148,37 +184,6 @@ class TokenInfoSection extends JsonI18nComponent {
                       ))}
                     </li>
                   ))}
-                </ul>
-              </div>
-              <div data-aos="fade-up" className="content">
-                <h2>{this.state.I.titles.comingSoon}</h2>
-                <ul>
-                  <li className="coming-soon highlighted">
-                    <a disabled rel="noopener noreferrer">
-                      <span className="has-leading-thin-arrow exchange-name">
-                        WeDEX
-                      </span>
-                    </a>
-                    <span className="tag">LRC/ETH</span>
-                    <span className="tag">LRC/USDT</span>
-
-                    <div className="footnote">{this.state.I.wedexFootnote}</div>
-                  </li>
-                  {/* <li className="coming-soon ">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://UpDEX.io"
-                    >
-                      <span className="has-leading-thin-arrow exchange-name">
-                        UpDEX
-                      </span>
-                      <span className="tag">LRC/ETH</span>
-                      <span className="tag">LRC/USDT</span>
-                      <span className="tag">LRC/WBTC</span>
-                    </a>
-                    <div className="footnote">{this.state.I.updexFootnote}</div>
-                  </li>*/}
                 </ul>
               </div>
             </div>

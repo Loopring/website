@@ -2,11 +2,11 @@
   "heading": "LRC代币",
   "titles": {
     "tokenInfo": "代币基本面",
-    "exchanges": "可交易平台",
-    "migration": "LRC代币完成升级",
-    "comingSoon": "即将登录"
+    "exchanges": "中心化交易平台",
+    "dexes": "去中心化交易平台",
+    "migration": "LRC代币完成升级"
   },
-  "wedexFootnote": "WeDEX将成为第一个基于路印协议3.0的高性能去中心化交易所。WeDEX将完全由第三方独立运营。",
+  "wedexFootnote": "即将上线。WeDEX将成为第一个基于路印协议3.0的高性能去中心化交易所。WeDEX将完全由第三方独立运营。",
   "facts": [
     {
       "key": "代币版本",
@@ -63,6 +63,23 @@
       "value": "0.20 人民币（2017年9月5日）"
     }
   ],
+  "dexes": [
+    {
+      "name": "Dolomite",
+      "url": "https://beta.dolomite.io/exchange/LRC-ETH",
+      "pairs": ["ETH"]
+    },
+    {
+      "name": "Ethfinex",
+      "url": "https://www.ethfinex.com/",
+      "pairs": ["USD", "BTC", "ETH"]
+    },
+    {
+      "name": "Kyber Network",
+      "url": "https://kyber.network/",
+      "pairs": ["ETH"]
+    }
+  ],
   "exchanges": [
     {
       "name": "CoinMex",
@@ -109,23 +126,10 @@
       "url": "https://bittrex.com/",
       "pairs": ["BTC"]
     },
-
     {
       "name": "Alterdice",
       "url": "https://alterdice.com/",
       "pairs": ["BTC", "ETH"]
-    },
-
-    {
-      "name": "Ethfinex",
-      "url": "https://www.ethfinex.com/",
-      "pairs": ["USD", "BTC", "ETH"]
-    },
-
-    {
-      "name": "Kyber Network",
-      "url": "https://kyber.network/",
-      "pairs": ["ETH"]
     },
     {
       "name": "HitBTC",
@@ -153,11 +157,6 @@
       "name": "CoinExchange",
       "url": " https://www.coinexchange.io/",
       "pairs": ["BTC", "ETH"]
-    },
-    {
-      "name": "Dolomite",
-      "url": "https://beta.dolomite.io/exchange/LRC-DAI",
-      "pairs": ["DAI"]
     }
   ]
 }

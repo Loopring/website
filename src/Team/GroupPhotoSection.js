@@ -13,7 +13,7 @@ class GroupPhotoSection extends React.Component {
   }
   render() {
     return (
-      <section className="section section-group-photo">
+      <section className="section section-group-photo has-background-primary-dark">
         <figure data-aos="fade-up" className="image covered">
           <img
             className="team-picture is-unselectable"
