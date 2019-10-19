@@ -1,164 +1,162 @@
 {
-  "heading": "LRC Token",
+    "heading": "LRC Token",
 
-  "titles": {
-    "tokenInfo": "Token Information",
-    "exchanges": "Exchanges",
-    "migration": "LRC V2 Migration Completed",
-    "comingSoon": "Coming Soon..."
-  },
-  "wedexFootnote": "WeDEX will be the first DEX built on top of Loopring 3.0. It is owned and will be run by an independent third-party.",
-  "facts": [
+    "titles":
     {
-      "key": "Token Version",
-      "value": "2.0"
+        "tokenInfo": "Token Information",
+        "exchanges": "Exchanges",
+        "dexes": "DEXes",
+        "migration": "LRC V2 Migration Completed"
+    },
+    "wedexFootnote": "Comign soon... WeDEX will be the first DEX built on top of Loopring 3.0. It is owned and will be run by an independent third-party.",
+    "facts": [
+    {
+        "key": "Token Version",
+        "value": "2.0"
     },
     {
-      "key": "Token Address",
-      "value": "0xBBbbCA6A......ec7AEafD",
-      "url": "https://etherscan.io/address/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
+        "key": "Token Address",
+        "value": "0xBBbbCA6A......ec7AEafD",
+        "url": "https://etherscan.io/address/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
     },
     {
-      "key": "Token ENS",
-      "value": "LRCTOKEN.eth",
-      "url": "https://etherscan.io/address/lrctoken.eth"
+        "key": "Token ENS",
+        "value": "LRCTOKEN.eth",
+        "url": "https://etherscan.io/address/lrctoken.eth"
     },
     {
-      "key": "ERC-20 Compliant",
-      "value": "YES"
+        "key": "ERC-20 Compliant",
+        "value": "YES"
     },
     {
-      "key": "Decimals",
-      "value": "18"
+        "key": "Decimals",
+        "value": "18"
     },
     {
-      "key": "Symbol",
-      "value": "LRC"
+        "key": "Symbol",
+        "value": "LRC"
     },
     {
-      "key": "Total Supply",
-      "value": "1,375,076,040"
+        "key": "Total Supply",
+        "value": "1,375,076,040"
     },
     {
-      "key": "Circulating Supply",
-      "value": "898,305,000 (~65%)"
+        "key": "Circulating Supply",
+        "value": "898,305,000 (~65%)"
     },
     {
-      "key": "ICO Start Date",
-      "value": "Aug 01, 2017"
+        "key": "ICO Start Date",
+        "value": "Aug 01, 2017"
     },
     {
-      "key": "ICO End Date",
-      "value": "Aug 16, 2017"
+        "key": "ICO End Date",
+        "value": "Aug 16, 2017"
     },
     {
-      "key": "ICO Price",
-      "value": "0.0002 ETH"
+        "key": "ICO Price",
+        "value": "0.0002 ETH"
     },
     {
-      "key": "All Time High",
-      "value": "$2.59 USD (Jan 09, 2018)"
+        "key": "All Time High",
+        "value": "$2.59 USD (Jan 09, 2018)"
     },
     {
-      "key": "All Time Low",
-      "value": "$0.027952 USD (Sep 05, 2017)"
-    }
-  ],
-  "exchanges": [
+        "key": "All Time Low",
+        "value": "$0.027952 USD (Sep 05, 2017)"
+    }],
+    "dexes": [
     {
-      "name": "CoinMex",
-      "url": "https://www.coinmex.com/",
-      "pairs": ["USDT", "ETH"]
+        "name": "Dolomite",
+        "url": "https://beta.dolomite.io/exchange/LRC-ETH",
+        "pairs": ["ETH"]
     },
     {
-      "name": "OKEX",
-      "url": "https://www.okex.com",
-      "pairs": ["USDT", "BTC", "ETH"]
+        "name": "Ethfinex",
+        "url": "https://www.ethfinex.com/",
+        "pairs": ["USD", "BTC", "ETH"]
     },
     {
-      "name": "Binance",
-      "url": "https://www.binance.com",
-      "pairs": ["BTC", "ETH"]
-    },
-    {
-      "name": "BITKER",
-      "url": "https://www.bitker.com/",
-      "pairs": ["ETH"]
-    },
-    {
-      "name": "DragonEX",
-      "url": "https://dragonex.io",
-      "pairs": ["USDT"]
-    },
-    {
-      "name": "Dcoin",
-      "url": "https://www.dcoin.com/",
-      "pairs": ["USDT"]
-    },
-    {
-      "name": "Bitrue",
-      "url": "https://www.bitrue.com/",
-      "pairs": ["BTC", "ETH"]
-    },
-    {
-      "name": "Gate.io",
-      "url": "https://gate.io/",
-      "pairs": ["USDT", "BTC", "ETH"]
-    },
-    {
-      "name": "Bittrex",
-      "url": "https://bittrex.com/",
-      "pairs": ["BTC"]
-    },
+        "name": "Kyber Network",
+        "url": "https://kyber.network/",
+        "pairs": ["ETH"]
+    }],
+    "exchanges": [
+        {
+            "name": "CoinMex",
+            "url": "https://www.coinmex.com/",
+            "pairs": ["USDT", "ETH"]
+        },
+        {
+            "name": "OKEX",
+            "url": "https://www.okex.com",
+            "pairs": ["USDT", "BTC", "ETH"]
+        },
+        {
+            "name": "Binance",
+            "url": "https://www.binance.com",
+            "pairs": ["BTC", "ETH"]
+        },
+        {
+            "name": "BITKER",
+            "url": "https://www.bitker.com/",
+            "pairs": ["ETH"]
+        },
+        {
+            "name": "DragonEX",
+            "url": "https://dragonex.io",
+            "pairs": ["USDT"]
+        },
+        {
+            "name": "Dcoin",
+            "url": "https://www.dcoin.com/",
+            "pairs": ["USDT"]
+        },
+        {
+            "name": "Bitrue",
+            "url": "https://www.bitrue.com/",
+            "pairs": ["BTC", "ETH"]
+        },
+        {
+            "name": "Gate.io",
+            "url": "https://gate.io/",
+            "pairs": ["USDT", "BTC", "ETH"]
+        },
+        {
+            "name": "Bittrex",
+            "url": "https://bittrex.com/",
+            "pairs": ["BTC"]
+        },
+        {
+            "name": "Alterdice",
+            "url": "https://alterdice.com/",
+            "pairs": ["BTC", "ETH"]
+        },
+        {
+            "name": "HitBTC",
+            "url": "https://www.hitbtc.com/",
+            "pairs": ["BTC", "ETH"]
+        },
 
-    {
-      "name": "Alterdice",
-      "url": "https://alterdice.com/",
-      "pairs": ["BTC", "ETH"]
-    },
+        {
+            "name": "Upbit",
+            "url": "https://upbit.com/",
+            "pairs": ["BTC"]
+        },
 
-    {
-      "name": "Ethfinex",
-      "url": "https://www.ethfinex.com/",
-      "pairs": ["USD", "BTC", "ETH"]
-    },
-
-    {
-      "name": "Kyber Network",
-      "url": "https://kyber.network/",
-      "pairs": ["ETH"]
-    },
-    {
-      "name": "HitBTC",
-      "url": "https://www.hitbtc.com/",
-      "pairs": ["BTC", "ETH"]
-    },
-
-    {
-      "name": "Upbit",
-      "url": "https://upbit.com/",
-      "pairs": ["BTC"]
-    },
-
-    {
-      "name": "Livecoin",
-      "url": "https://www.livecoin.net/",
-      "pairs": ["BTC"]
-    },
-    {
-      "name": "YoBit",
-      "url": "https://yobit.net",
-      "pairs": ["BTC"]
-    },
-    {
-      "name": "CoinExchange",
-      "url": " https://www.coinexchange.io/",
-      "pairs": ["BTC", "ETH"]
-    },
-    {
-      "name": "Dolomite",
-      "url": "https://beta.dolomite.io/exchange/LRC-DAI",
-      "pairs": ["DAI"]
-    }
-  ]
+        {
+            "name": "Livecoin",
+            "url": "https://www.livecoin.net/",
+            "pairs": ["BTC"]
+        },
+        {
+            "name": "YoBit",
+            "url": "https://yobit.net",
+            "pairs": ["BTC"]
+        },
+        {
+            "name": "CoinExchange",
+            "url": " https://www.coinexchange.io/",
+            "pairs": ["BTC", "ETH"]
+        }
+    ]
 }
