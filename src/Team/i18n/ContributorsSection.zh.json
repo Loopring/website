@@ -1,140 +1,141 @@
 {
-    "headingAdvisors": "顾问团队",
-    "headingContributors": "社区贡献者",
-    "advisors": [
+  "headingAdvisors": "顾问团队",
+  "headingContributors": "社区贡献者",
+  "advisors": [
     {
-        "name": "陈晓亮",
-        "title": "WeDEX创始人，路印前首席运营官（COO）",
-        "url": "mailto:johnston@wedex.io"
+      "name": "陈晓亮",
+      "title": "WeDEX创始人，路印前首席运营官（COO）",
+      "url": "mailto:johnston@wedex.io"
     },
     {
-        "name": "李雪峰",
-        "title": "众安科技首席技术官"
+      "name": "李雪峰",
+      "title": "众安科技首席技术官"
     },
     {
-        "name": "郭宇航",
-        "title": "中国区块链应用研究中心理事长"
+      "name": "郭宇航",
+      "title": "中国区块链应用研究中心理事长"
     },
     {
-        "name": "达鸿飞",
-        "title": "NEO和本体网络创始人"
+      "name": "达鸿飞",
+      "title": "NEO和本体网络创始人"
     },
     {
-        "name": "林祖荣",
-        "title": "香港Loopnest区块链加速器创始人"
+      "name": "林祖荣",
+      "title": "香港Loopnest区块链加速器创始人"
     },
     {
-        "name": "郑子斌",
-        "title": "VipKid首席技术官，百度前副总裁"
+      "name": "郑子斌",
+      "title": "VipKid首席技术官，百度前副总裁"
     },
     {
-        "name": "曹寅",
-        "title": "能源区块链实验室创始合伙人"
+      "name": "曹寅",
+      "title": "能源区块链实验室创始合伙人"
     },
     {
-        "name": "郭小虎",
-        "title": "德州大学计算机教授"
+      "name": "郭小虎",
+      "title": "德州大学计算机教授"
     },
     {
-        "name": "郭一澎",
-        "title": "广州产业投资基金总裁"
+      "name": "郭一澎",
+      "title": "广州产业投资基金总裁"
     },
     {
-        "name": "夏华夏",
-        "title": "美团首席科学家"
+      "name": "夏华夏",
+      "title": "美团首席科学家"
     },
     {
-        "name": "张鸣晨",
-        "title": "红点创投合伙人"
+      "name": "张鸣晨",
+      "title": "红点创投合伙人"
     },
     {
-        "name": "白硕",
-        "title": "Chinaledger技术委员会主任"
+      "name": "白硕",
+      "title": "Chinaledger技术委员会主任"
     },
     {
-        "name": "李江",
-        "title": "Univalue Associates创始人"
-    }],
-    "contributors": [
-        {
-            "name": "侯宗保",
-            "title": "研发工程师"
-        },
-        {
-            "name": "傅坤",
-            "title": "研发工程师"
-        },
-        {
-            "name": "李涛",
-            "title": "研发工程师"
-        },
-        {
-            "name": "邵辉",
-            "title": "研发工程师"
-        },
-        {
-            "name": "李伟超",
-            "title": "研发工程师"
-        },
+      "name": "李江",
+      "title": "Univalue Associates创始人"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "侯宗保",
+      "title": "研发工程师"
+    },
+    {
+      "name": "傅坤",
+      "title": "研发工程师"
+    },
+    {
+      "name": "李涛",
+      "title": "研发工程师"
+    },
+    {
+      "name": "邵辉",
+      "title": "研发工程师"
+    },
+    {
+      "name": "李伟超",
+      "title": "研发工程师"
+    },
 
-        {
-            "name": "常书鸿",
-            "title": "设计师"
-        },
-        {
-            "name": "侯金辰",
-            "title": "社区管理"
-        },
-        {
-            "name": "曾凯",
-            "title": "社区、市场、和运营管理"
-        },
-        {
-            "name": "李大伟",
-            "title": "社区管理"
-        },
-        {
-            "name": "刘杰",
-            "title": "市场和运营"
-        },
-        {
-            "name": "Benjamin Price",
-            "title": "研发工程师"
-        },
-        {
-            "name": "Bella Long",
-            "title": "前公共关系总监"
-        },
-        {
-            "name": "Натали Игонина",
-            "title": "翻译"
-        },
-        {
-            "name": "安比实验室",
-            "title": "形式化验证和安全审计",
-            "url": "https://secbit.io"
-        },
-        {
-            "name": "HarryR",
-            "title": "ethSnarks",
-            "url": "https://github.com/HarryR"
-        },
+    {
+      "name": "常书鸿",
+      "title": "设计师"
+    },
+    {
+      "name": "侯金辰",
+      "title": "社区管理"
+    },
+    {
+      "name": "曾凯",
+      "title": "社区、市场、和运营管理"
+    },
+    {
+      "name": "李大伟",
+      "title": "社区管理"
+    },
+    {
+      "name": "刘杰",
+      "title": "市场和运营"
+    },
+    {
+      "name": "Benjamin Price",
+      "title": "研发工程师"
+    },
+    {
+      "name": "Bella Long",
+      "title": "前公共关系总监"
+    },
+    {
+      "name": "Натали Игонина",
+      "title": "翻译"
+    },
+    {
+      "name": "安比实验室",
+      "title": "形式化验证和安全审计",
+      "url": "https://secbit.io"
+    },
+    {
+      "name": "HarryR",
+      "title": "ethSnarks",
+      "url": "https://github.com/HarryR"
+    },
 
-        {
-            "name": "BarryWhitehat",
-            "title": "zkRollup",
-            "url": "https://github.com/barryWhiteHat"
-        },
+    {
+      "name": "BarryWhitehat",
+      "title": "zkRollup",
+      "url": "https://github.com/barryWhiteHat"
+    },
 
-        {
-            "name": "Dmitry Khovratovich",
-            "title": "波塞冬哈希函数",
-            "url": "https://github.com/khovratovich"
-        },
-        {
-            "name": "Matter Labs",
-            "title": "SNARK批量验证算法",
-            "url": "https://matter-labs.io"
-        }
-    ]
+    {
+      "name": "Dmitry Khovratovich",
+      "title": "波塞冬哈希函数",
+      "url": "https://github.com/khovratovich"
+    },
+    {
+      "name": "Matter Labs",
+      "title": "SNARK批量验证算法",
+      "url": "https://matter-labs.io"
+    }
+  ]
 }

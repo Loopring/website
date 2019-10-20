@@ -2,7 +2,7 @@
   "headingAdvisors": "Advisors",
   "headingContributors": "Contributors",
   "advisors": [
-      {
+    {
       "name": "Johnston CHEN",
       "title": "Founder of WeDEX, Former Loopring COO",
       "url": "mailto:johnston@wedex.io"
