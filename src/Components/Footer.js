@@ -29,6 +29,18 @@ class Footer extends I18nComponent {
             </li>
             ⭑
             <li>
+              {this.isChinese() ? (
+                <a href="https://www.youtube.com/channel/UChUsnhrJmjvIZ0l0cuAXjeQ/">
+                  油管
+                </a>
+              ) : (
+                <a href="https://www.youtube.com/channel/UChUsnhrJmjvIZ0l0cuAXjeQ/">
+                  YouTube
+                </a>
+              )}
+            </li>
+            ⭑
+            <li>
               <a href="https://twitter.com/loopringorg">
                 <Translate id="twitter" />
               </a>
