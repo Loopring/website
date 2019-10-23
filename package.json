@@ -13,7 +13,7 @@
     "detect-browser-language": "^0.0.2",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.26",
-    "react": "^16.10.2",
+    "react": "^16.11.0",
     "react-content-loader": "^4.2.2",
     "react-dom": "^16.10.2",
     "react-infinite-scroller": "^1.2.4",
