@@ -10,6 +10,7 @@
     text-decoration: none !important;
     text-transform: uppercase;
     font-size: 20px !important;
+    color: $primary;
     // display: inline-block;
   }
 
@@ -25,6 +26,7 @@
   }
   a.hover {
     text-decoration: none !important;
+    color: $primary!important;
   }
 
   .pageLink {
@@ -33,11 +35,12 @@
   }
 
   .pageLink:hover {
-    box-shadow: inset 0 -2px $black;
+    box-shadow: inset 0 -2px $primary;
+     color: $primary!important;
   }
 
   a.navbar-item.active > div.pageLink {
-    box-shadow: inset 0 -2px $black;
+    box-shadow: inset 0 -2px $primary;
   }
 
   .navbar-menu.is-active {
