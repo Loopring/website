@@ -1164,10 +1164,10 @@
     "@svgr/plugin-svgo" "^4.3.1"
     loader-utils "^1.2.3"
 
-"@tryghost/content-api@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@tryghost/content-api/-/content-api-1.3.1.tgz#21749b971fb3f37610d9ffb62630009b121f171b"
-  integrity sha512-6B/iKC2Wynl2GJaLJEIOOQQSejOrYImh63YmoccClxZBigC3ur/unWRwFe3lnJ74HmjxrxoDBC6y3yDcI2m4nQ==
+"@tryghost/content-api@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@tryghost/content-api/-/content-api-1.3.2.tgz#6eb6d1c1bf060706eb79c81656ed5284365a455e"
+  integrity sha512-HPuDCfUFWXyczPTP/gsRtxrdQsmEWzUWcXCiA2o2mrHIY0cImWflBb9PYACD/7JhT1cQJVTUZk9yTOMA0JSHoQ==
   dependencies:
     axios "0.19.0"
     ghost-ignition "^3.0.0"
@@ -2919,10 +2919,10 @@ builtin-status-codes@^3.0.0:
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
-bulma@^0.7.5:
-  version "0.7.5"
-  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.7.5.tgz#35066c37f82c088b68f94450be758fc00a967208"
-  integrity sha512-cX98TIn0I6sKba/DhW0FBjtaDpxTelU166pf7ICXpCCuplHWyu6C9LYZmL5PEsnePIeJaiorsTEzzNk3Tsm1hw==
+bulma@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.8.0.tgz#ac1606431703a4761b18a4a2d5cc1fa864a2aece"
+  integrity sha512-nhf3rGyiZh/VM7FrSJ/5KeLlfaFkXz0nYcXriynfPH4vVpnxnqyEwaNGdNCVzHyyCA3cHgkQAMpdF/SFbFGZfA==
 
 bunyan-loggly@^1.3.1:
   version "1.4.1"
@@ -6209,20 +6209,26 @@ humanize-url@^1.0.0:
     normalize-url "^1.0.0"
     strip-url-auth "^1.0.0"
 
-husky@^3.0.8:
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-3.0.8.tgz#8de3fed26ce9b43034ef51013c4ad368b6b74ea8"
-  integrity sha512-HFOsgcyrX3qe/rBuqyTt+P4Gxn5P0seJmr215LAZ/vnwK3jWB3r0ck7swbzGRUbufCf9w/lgHPVbF/YXQALgfQ==
+humps@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/humps/-/humps-2.0.1.tgz#dd02ea6081bd0568dc5d073184463957ba9ef9aa"
+  integrity sha1-3QLqYIG9BWjcXQcxhEY5V7qe+ao=
+
+husky@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-3.0.9.tgz#a2c3e9829bfd6b4957509a9500d2eef5dbfc8044"
+  integrity sha512-Yolhupm7le2/MqC1VYLk/cNmYxsSsqKkTyBhzQHhPK1jFnC89mmmNVuGtLNabjDI6Aj8UNIr0KpRNuBkiC4+sg==
+
   dependencies:
     chalk "^2.4.2"
+    ci-info "^2.0.0"
     cosmiconfig "^5.2.1"
     execa "^1.0.0"
     get-stdin "^7.0.0"
-    is-ci "^2.0.0"
     opencollective-postinstall "^2.0.2"
     pkg-dir "^4.2.0"
     please-upgrade-node "^3.2.0"
-    read-pkg "^5.1.1"
+    read-pkg "^5.2.0"
     run-node "^1.0.0"
     slash "^3.0.0"
 
@@ -8292,10 +8298,10 @@ mkdirp@0.5.1, mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdi
   dependencies:
     minimist "0.0.8"
 
-moment-timezone@^0.5.26:
-  version "0.5.26"
-  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.26.tgz#c0267ca09ae84631aa3dc33f65bedbe6e8e0d772"
-  integrity sha512-sFP4cgEKTCymBBKgoxZjYzlSovC20Y6J7y3nanDc5RoBIXKlZhoYwBoZGe3flwU6A372AcRwScH8KiwV6zjy1g==
+moment-timezone@^0.5.27:
+  version "0.5.27"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.27.tgz#73adec8139b6fe30452e78f210f27b1f346b8877"
+  integrity sha512-EIKQs7h5sAsjhPCqN6ggx6cEbs94GK050254TIJySD1bzoM5JTYDwAU1IoVOeTOL6Gm27kYJ51/uuvq1kIlrbw==
   dependencies:
     moment ">= 2.9.0"
 
@@ -10374,15 +10380,15 @@ react-dev-utils@^9.0.3:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@^16.10.2:
-  version "16.10.2"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.10.2.tgz#4840bce5409176bc3a1f2bd8cb10b92db452fda6"
-  integrity sha512-kWGDcH3ItJK4+6Pl9DZB16BXYAZyrYQItU4OMy0jAkv5aNqc+mAKb4TpFtAteI6TJZu+9ZlNhaeNQSVQDHJzkw==
+react-dom@^16.11.0:
+  version "16.11.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.11.0.tgz#7e7c4a5a85a569d565c2462f5d345da2dd849af5"
+  integrity sha512-nrRyIUE1e7j8PaXSPtyRKtz+2y9ubW/ghNgqKFHHAHaeP0fpF5uXR+sq8IMRHC+ZUxw7W9NyCDTBtwWxvkb0iA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.16.2"
+    scheduler "^0.17.0"
 
 react-error-overlay@^6.0.1:
   version "6.0.1"
@@ -10547,10 +10553,10 @@ react-waterfall@^4.0.4:
   resolved "https://registry.yarnpkg.com/react-waterfall/-/react-waterfall-4.0.4.tgz#85ff084624f1a50698beb099a252220e25f57f08"
   integrity sha512-UIuR9Fmuv7sXupKOYhplRc6Hy8aC/TTQiibqY01dgG/UFHhi1X3+QPSL+9/4mi9CTEitAqkCgiPkpDT+lzqSUQ==
 
-react@^16.10.2:
-  version "16.10.2"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.10.2.tgz#a5ede5cdd5c536f745173c8da47bda64797a4cf0"
-  integrity sha512-MFVIq0DpIhrHFyqLU0S3+4dIcBhhOvBE8bJ/5kHPVOVaGdo0KuiQzpcjCPsf585WvhypqtrMILyoE2th6dT+Lw==
+react@^16.11.0:
+  version "16.11.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.11.0.tgz#d294545fe62299ccee83363599bf904e4a07fdbb"
+  integrity sha512-M5Y8yITaLmU0ynd0r1Yvfq98Rmll6q8AxaEe88c8e7LxO8fZ2cNgmFt0aGAS9wzf1Ao32NKXtCl+/tVVtkxq6g==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -10607,7 +10613,7 @@ read-pkg@^3.0.0:
     normalize-package-data "^2.3.2"
     path-type "^3.0.0"
 
-read-pkg@^5.1.1:
+read-pkg@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/read-pkg/-/read-pkg-5.2.0.tgz#7bf295438ca5a33e56cd30e053b34ee7250c93cc"
   integrity sha512-Ug69mNOpfvKDAc2Q8DRpMjjzdtrnv9HcSMX+4VsZxD1aZ6ZzrIE7rlzXBtWTyhULSMKg076AW6WR5iZpD0JiOg==
@@ -11218,10 +11224,10 @@ saxes@^3.1.9:
   dependencies:
     xmlchars "^2.1.1"
 
-scheduler@^0.16.2:
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.16.2.tgz#f74cd9d33eff6fc554edfb79864868e4819132c1"
-  integrity sha512-BqYVWqwz6s1wZMhjFvLfVR5WXP7ZY32M/wYPo04CcuPM7XZEbV2TBNW7Z0UkguPTl0dWMA59VbNXxK6q+pHItg==
+scheduler@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.17.0.tgz#7c9c673e4ec781fac853927916d1c426b6f3ddfe"
+  integrity sha512-7rro8Io3tnCPuY4la/NuI5F2yfESpnfZyT6TtkXnSWVkcu0BCDJ+8gk5ozUaFaxpIyNuWAPXrH0yFcSi28fnDA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
