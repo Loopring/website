@@ -26,7 +26,14 @@ class ArticlesSection extends JsonI18nComponent {
   render() {
     return (
       <div>
-        <section className="section has-text-centered is-centered section-sub-nav has-background-black">
+        {/*       <section className="section has-text-centered is-centered section-sub-nav has-background-black">
+          <div className="columns is-centered has-text-centered">
+            <div className="column column-events is-12  is-centered has-text-dentered">
+            Events
+            </div>
+            </div>
+            </section>*/}
+        <section className="section has-text-centered is-centered section-sub-nav has-background-primary-dark">
           <div className="columns is-centered has-text-centered">
             <div className="column is-12  is-centered has-text-dentered">
               <ul>
