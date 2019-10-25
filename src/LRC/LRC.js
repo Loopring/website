@@ -4,7 +4,6 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
 import HeroSection from "./HeroSection";
-import IconSection from "./IconSection";
 import StakingSection from "./StakingSection";
 import TokenInfoSection from "./TokenInfoSection";
 
@@ -16,7 +15,6 @@ class LRC extends React.Component {
       <div className="page-lrc">
         <Header />
         <HeroSection />
-        <IconSection />
         <StakingSection />
         <TokenInfoSection />
         <Footer />
