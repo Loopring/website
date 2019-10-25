@@ -3,11 +3,11 @@
 
   "titles": {
     "tokenInfo": "Token Information",
-    "exchanges": "Exchanges",
-    "migration": "LRC V2 Migration Completed",
-    "comingSoon": "Coming Soon..."
+    "exchanges": "Centralized Exchanges",
+    "dexes": "Decentralized Exchanges",
+    "migration": "LRC V2 Migration Completed"
   },
-  "wedexFootnote": "WeDEX will be the first DEX built on top of Loopring 3.0. It is owned and will be run by an independent third-party.",
+  "wedexFootnote": "Comign soon... WeDEX will be the first DEX built on top of Loopring 3.0. It is owned and will be run by an independent third-party.",
   "facts": [
     {
       "key": "Token Version",
@@ -64,6 +64,23 @@
       "value": "$0.027952 USD (Sep 05, 2017)"
     }
   ],
+  "dexes": [
+    {
+      "name": "Dolomite",
+      "url": "https://beta.dolomite.io/exchange/LRC-ETH",
+      "pairs": ["ETH"]
+    },
+    {
+      "name": "Ethfinex",
+      "url": "https://www.ethfinex.com/",
+      "pairs": ["USD", "BTC", "ETH"]
+    },
+    {
+      "name": "Kyber Network",
+      "url": "https://kyber.network/",
+      "pairs": ["ETH"]
+    }
+  ],
   "exchanges": [
     {
       "name": "CoinMex",
@@ -110,23 +127,10 @@
       "url": "https://bittrex.com/",
       "pairs": ["BTC"]
     },
-
     {
       "name": "Alterdice",
       "url": "https://alterdice.com/",
       "pairs": ["BTC", "ETH"]
-    },
-
-    {
-      "name": "Ethfinex",
-      "url": "https://www.ethfinex.com/",
-      "pairs": ["USD", "BTC", "ETH"]
-    },
-
-    {
-      "name": "Kyber Network",
-      "url": "https://kyber.network/",
-      "pairs": ["ETH"]
     },
     {
       "name": "HitBTC",
@@ -154,11 +158,6 @@
       "name": "CoinExchange",
       "url": " https://www.coinexchange.io/",
       "pairs": ["BTC", "ETH"]
-    },
-    {
-      "name": "Dolomite",
-      "url": "https://beta.dolomite.io/exchange/LRC-DAI",
-      "pairs": ["DAI"]
     }
   ]
 }

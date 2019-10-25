@@ -29,6 +29,18 @@ class Footer extends I18nComponent {
             </li>
             ⭑
             <li>
+              {this.isChinese() ? (
+                <a href="https://www.youtube.com/channel/UChUsnhrJmjvIZ0l0cuAXjeQ/">
+                  油管
+                </a>
+              ) : (
+                <a href="https://www.youtube.com/channel/UChUsnhrJmjvIZ0l0cuAXjeQ/">
+                  YouTube
+                </a>
+              )}
+            </li>
+            ⭑
+            <li>
               <a href="https://twitter.com/loopringorg">
                 <Translate id="twitter" />
               </a>
@@ -46,7 +58,7 @@ class Footer extends I18nComponent {
             ⭑
             <li>
               {this.isChinese() ? (
-                <a href="https://t.me/loopringfans">Telegram</a>
+                <a href="https://t.me/loopringfans">电报</a>
               ) : (
                 <a href="https://t.me/loopring_en">Telegram</a>
               )}
@@ -62,6 +74,14 @@ class Footer extends I18nComponent {
             ⭑
             <li>
               <a href="https://open.kakao.com/o/gJbSZdF">Kakao</a>
+            </li>
+            ⭑
+            <li>
+              {this.isChinese() ? (
+                <a href="https://loopring.substack.com/embed">剪报</a>
+              ) : (
+                <a href="https://loopring.substack.com/embed">Newsletter</a>
+              )}
             </li>
           </ul>
           <div className="org">
