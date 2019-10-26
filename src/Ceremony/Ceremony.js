@@ -10,15 +10,25 @@ class Ceremony extends React.Component {
       <div className="page-ceremony">
         <DarkHeader />
 
-        <section className="section section-terminal is-medium">
+        <section className="section section-terminal is-small">
           <div className="container">
             <div className="columns is-multiline">
               <div
                 data-aos="fade-up"
                 className="column is-12 has-text-centered "
               >
-                <h2>Loopring ZKP Trusted Setup</h2>
-                <h2>Multi-party Computation Ceremony</h2>
+                <div class="fire">
+                  <div class="red flame"></div>
+                  <div class="orange flame"></div>
+                  <div class="yellow flame"></div>
+                  <div class="white flame"></div>
+                  <div class="blue circle"></div>
+                  <div class="black circle"></div>
+                </div>
+                <div className="title">
+                  <h2>Loopring ZKP Trusted Setup</h2>
+                  <h2>Multi-party Computation Ceremony</h2>
+                </div>
               </div>
               <div
                 data-aos="fade-up"
