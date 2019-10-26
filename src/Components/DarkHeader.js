@@ -6,9 +6,9 @@ import englishTranslation from "./i18n/Header.en.json";
 import chineseTranslation from "./i18n/Header.zh.json";
 import I18nComponent from "./I18nComponent";
 
-import "./Header.scss";
+import "./DarkHeader.scss";
 
-class Header extends I18nComponent {
+class DarkHeader extends I18nComponent {
   constructor(props) {
     super(props, englishTranslation, chineseTranslation);
 
@@ -28,7 +28,7 @@ class Header extends I18nComponent {
   render() {
     return (
       <nav
-        className="navbar is-transparent is-fixed-top"
+        className="navbar navbar-dark is-transparent is-fixed-top"
         role="navigation"
         aria-label="main navigation"
       >
@@ -126,4 +126,4 @@ class Header extends I18nComponent {
   }
 }
 
-export default withLocalize(Header);
+export default withLocalize(DarkHeader);

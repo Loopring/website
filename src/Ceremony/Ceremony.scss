@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@import "../Variables.scss";
+
+.page-ceremony {
+    background-color: #080808;
+    min-height: calc(100vh - 63px);
+
+    .section-terminal {
+        background-color: transparent;
+        font-family: menlo, 'Roboto Mono'!important;
+        font-size: 12px;
+
+        h1,
+        h2 {
+            color: white;
+            // animation: neon3 5s ease-in-out infinite alternate;
+            user-select: none;
+        }
+
+        li {
+            color: #a0a0a0;
+        }
+    }
+}
