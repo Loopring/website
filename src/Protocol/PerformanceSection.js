@@ -13,13 +13,13 @@ class PerformanceSection extends I18nComponent {
   constructor(props) {
     super(props, englishTranslation, chineseTranslation);
     this.state = {
-      throughput: 100,
+      throughput: 1000,
       cost: this.isChinese() ? 0.015 : 0.0021
     };
   }
 
   componentDidMount() {
-    setTimeout(() => this.setState({ throughput: 350 }), 50);
+    setTimeout(() => this.setState({ throughput: 1400 }), 50);
     // setTimeout(data => this.setState({ cost: 0.002 }), 1000);
   }
 
@@ -55,62 +55,6 @@ class PerformanceSection extends I18nComponent {
                     />
                   </p>
                 </div>
-              </div>
-            </div>
-
-            {/* ---*/}
-            <div className="columns is-centered">
-              <div
-                data-aos="fade-up"
-                className="column is-5 is-centered has-text-centered"
-              >
-                <table className="table">
-                  <thead>
-                    <tr>
-                      <th className="first"></th>
-                      <th>
-                        <div>
-                          <Translate id="table.throughput" />
-                        </div>
-                        <div>
-                          <Translate id="table.withOCDA" />
-                        </div>
-                      </th>
-                      <th>
-                        <div>
-                          <Translate id="table.throughput" />
-                        </div>
-                        <div>
-                          <Translate id="table.withoutOCDA" />
-                        </div>
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td className="">
-                        <Translate id="table.current" />
-                      </td>
-                      <td>
-                        <span className="highlighted">350</span>
-                      </td>
-                      <td>
-                        <span className="highlighted">6,900</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="">
-                        <Translate id="table.post" />
-                      </td>
-                      <td>
-                        <span className="highlighted">1,400</span>
-                      </td>
-                      <td>
-                        <span className="highlighted">10,500</span>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
               </div>
             </div>
 

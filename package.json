@@ -26,6 +26,7 @@
     "react-scripts": "3.2.0",
     "react-tabs": "^3.0.0",
     "react-waterfall": "^4.0.4",
+    "sass-loader": "^8.0.0",
     "waterfall": "^1.0.0"
   },
   "scripts": {

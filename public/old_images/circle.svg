@@ -1,0 +1,7 @@
+<svg viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd" stroke-linecap="round" >
+        <circle stroke="#1c60ff" cx="33" cy="33" r="32" stroke-width="0.15" style="opacity: 0.2"></circle>
+        <circle stroke="#1c60ff" cx="33" cy="33" r="26" stroke-width="0.15" style="opacity: 0.2"></circle>
+        <circle class="progress-slide" stroke-width="0.75" stroke="#1c71ff" cx="33" cy="33" r="26" stroke-dasharray="164" style="stroke-dashoffset: 41px;"></circle>
+    </g>
+</svg>
