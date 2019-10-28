@@ -7,7 +7,7 @@
     "dexes": "Decentralized Exchanges",
     "migration": "LRC V2 Migration Completed"
   },
-  "wedexFootnote": "Comign soon... WeDEX will be the first DEX built on top of Loopring 3.0. It is owned and will be run by an independent third-party.",
+  "wedexFootnote": "Coming soon... WeDEX will be the first DEX built on top of Loopring 3.0. It is owned and will be run by an independent third-party.",
   "facts": [
     {
       "key": "Token Version",
@@ -71,9 +71,9 @@
       "pairs": ["ETH"]
     },
     {
-      "name": "Ethfinex",
-      "url": "https://www.ethfinex.com/",
-      "pairs": ["USD", "BTC", "ETH"]
+      "name": "Uniswap",
+      "url": "https://www.uniswap.exchange/",
+      "pairs": ["ETH"]
     },
     {
       "name": "Kyber Network",
@@ -126,6 +126,11 @@
       "name": "Bittrex",
       "url": "https://bittrex.com/",
       "pairs": ["BTC"]
+    },
+    {
+      "name": "Bitfinex",
+      "url": "https://www.bitfinex.com/",
+      "pairs": ["USD", "BTC", "ETH"]
     },
     {
       "name": "Alterdice",
