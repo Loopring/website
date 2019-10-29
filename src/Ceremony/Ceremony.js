@@ -21,7 +21,7 @@ class Ceremony extends JsonI18nComponent {
 
   componentDidMount() {
     const urlBase =
-      "https://gist.githubusercontent.com/dong77/c1478297907ae87fdad66e05b06eece6/raw/a290665f6770f6c4169fc9802296bf209d948d23/";
+      "https://raw.githubusercontent.com/Loopring/website/master/public/";
     const url = this.isChinese()
       ? urlBase + "ceremony.zh.json"
       : urlBase + "ceremony.en.json";
