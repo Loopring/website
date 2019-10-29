@@ -26,7 +26,7 @@ class ContributorsSection extends JsonI18nComponent {
               <div data-aos="fade-up" className="column is-6">
                 <ul>
                   {this.state.I.advisors.map((item, idx) => (
-                    <li key="idx">
+                    <li key={idx}>
                       <a
                         disabled={!item.url}
                         href={item.url}
@@ -52,7 +52,7 @@ class ContributorsSection extends JsonI18nComponent {
               <div data-aos="fade-up" className="column is-9">
                 <ul>
                   {this.state.I.contributors.map((item, idx) => (
-                    <li key="idx">
+                    <li key={idx}>
                       <a
                         disabled={!item.url}
                         href={item.url}
