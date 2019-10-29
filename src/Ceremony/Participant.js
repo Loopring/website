@@ -4,7 +4,7 @@ import "./Participant.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
-import { faSync } from "@fortawesome/free-solid-svg-icons";
+import { faYinYang } from "@fortawesome/free-solid-svg-icons";
 
 class Participant extends React.Component {
   randomHash() {
@@ -47,7 +47,7 @@ class Participant extends React.Component {
         icon = faCheckCircle;
         break;
       case "running":
-        icon = faSync;
+        icon = faYinYang;
         break;
       default:
     }
