@@ -30,7 +30,7 @@ class HeroSection extends JsonI18nComponent {
     return (
       <section
         data-aos="fade-zoom-in"
-        className="section section-updates-hero is-medium has-background-white"
+        className="section section-updates-hero is-medium has-background-primary-dark"
         style={divStyle}
       >
         <div className="columns is-multiline">
