@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+@import "../Variables.scss";
+
+
+.setup-participant {
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: $white;
+    margin-top: 4px!important;
+    font-size: 0.9rem;
+
+    &.done {
+        color: #00dc35;
+    }
+
+    &.running {
+        color: $primary;
+        // font-weight: 700;
+        background-color: $white;
+    }
+
+
+    .hash {
+        font-family: monospace;
+    }
+
+}

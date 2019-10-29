@@ -1,12 +1,9 @@
 import React from "react";
 
 import DarkHeader from "../Components/DarkHeader";
-import Footer from "../Components/Footer";
 import "./Ceremony.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
-import { faClock } from "@fortawesome/free-solid-svg-icons";
-import { faSync } from "@fortawesome/free-solid-svg-icons";
+
+import Participant from "./Participant";
 
 import englishTranslation from "./i18n/Ceremony.en.json";
 import chineseTranslation from "./i18n/Ceremony.zh.json";
@@ -43,82 +40,33 @@ class Ceremony extends JsonI18nComponent {
               </div>
               <div data-aos="fade-up" className="column has-text-centered is-7">
                 {this.state.I.done.map((participant, idx) => (
-                  <div
+                  <Participant
                     key={idx}
-                    className="columns columns-participant done is-centered is-multiline"
-                  >
-                    <div className="column is-1  has-text-left ">
-                      {participant.name}
-                    </div>
-
-                    <div className="column is-1  has-text-left ">
-                      {participant.org}
-                    </div>
-
-                    <div className="column is-8 is-vcentered ">
-                      <span className="hash">{participant.hash}</span>
-                    </div>
-                    <div className="column is-1  ">
-                      <FontAwesomeIcon
-                        className="icon"
-                        icon={faCheckCircle}
-                        size="1x"
-                      />
-                    </div>
-                  </div>
+                    name={participant.name}
+                    org={participant.org}
+                    hash={participant.hash}
+                    status="done"
+                  />
                 ))}
 
                 {this.state.I.running.map((participant, idx) => (
-                  <div
+                  <Participant
                     key={idx}
-                    className="columns columns-participant  running is-centered is-multiline"
-                  >
-                    <div className="column is-1 has-text-left ">
-                      {participant.name}
-                    </div>
-
-                    <div className="column is-1 has-text-left  ">
-                      {participant.org}
-                    </div>
-
-                    <div className="column is-8 is-vcentered ">
-                      <span className="hash">{participant.hash}</span>
-                    </div>
-                    <div className="column is-1  ">
-                      <FontAwesomeIcon
-                        className="icon"
-                        spin
-                        icon={faSync}
-                        size="1x"
-                      />
-                    </div>
-                  </div>
+                    name={participant.name}
+                    org={participant.org}
+                    hash={participant.hash}
+                    status="running"
+                  />
                 ))}
 
                 {this.state.I.waiting.map((participant, idx) => (
-                  <div
+                  <Participant
                     key={idx}
-                    className="columns columns-participant  is-centered is-multiline"
-                  >
-                    <div className="column is-1 has-text-left ">
-                      {participant.name}
-                    </div>
-
-                    <div className="column is-1 has-text-left  ">
-                      {participant.org}
-                    </div>
-
-                    <div className="column is-8 is-vcentered ">
-                      <span className="hash">{participant.hash}</span>
-                    </div>
-                    <div className="column is-1  ">
-                      <FontAwesomeIcon
-                        className="icon"
-                        icon={faClock}
-                        size="1x"
-                      />
-                    </div>
-                  </div>
+                    name={participant.name}
+                    org={participant.org}
+                    hash={participant.hash}
+                    status="waiting"
+                  />
                 ))}
               </div>
             </div>
