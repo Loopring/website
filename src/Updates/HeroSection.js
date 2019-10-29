@@ -12,12 +12,12 @@ class HeroSection extends JsonI18nComponent {
 
   getBackgroundImg() {
     const bgMap = {
-      all: "/images/bg1.jpeg",
-      biweekly: "/images/bg2.jpeg",
-      loopring30: "/images/bg3.jpeg",
-      learning: "/images/bg4.jpeg",
-      thoughts: "/images/bg5.jpeg",
-      news: "/images/bg6.jpeg"
+      all: "/images/bg_1.jpeg",
+      biweekly: "/images/bg_2.jpeg",
+      loopring30: "/images/bg_3.jpeg",
+      learning: "/images/bg_4.jpeg",
+      thoughts: "/images/bg_5.jpeg",
+      news: "/images/bg_6.jpeg"
     };
     return bgMap[this.props.group];
   }
@@ -30,7 +30,7 @@ class HeroSection extends JsonI18nComponent {
     return (
       <section
         data-aos="fade-zoom-in"
-        className="section section-updates-hero is-medium has-background-white"
+        className="section section-updates-hero is-medium has-background-primary-dark"
         style={divStyle}
       >
         <div className="columns is-multiline">
