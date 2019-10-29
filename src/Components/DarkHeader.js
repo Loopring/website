@@ -35,7 +35,11 @@ class DarkHeader extends I18nComponent {
         <div className="container">
           <div className="navbar-brand">
             <a className="navbar-item" href="/">
-              <img className="logo" draggable="false" src="/images/logo.svg" />
+              <img
+                className="logo"
+                draggable="false"
+                src="/images/logo_white.svg"
+              />
             </a>
 
             <a

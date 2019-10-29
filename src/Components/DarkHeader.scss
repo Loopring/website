@@ -2,7 +2,7 @@
 
 .navbar.navbar-dark {
   margin-bottom: 0;
-  background: #080808 !important;
+  background: $dark-blue !important;
   * {
     user-select: none;
   }
@@ -11,7 +11,7 @@
     text-decoration: none !important;
     text-transform: uppercase;
     font-size: 20px !important;
-    color: $primary !important;
+    color: $white !important;
     // display: inline-block;
   }
 
@@ -27,7 +27,7 @@
   }
   a.hover {
     text-decoration: none !important;
-    color: $primary !important;
+    color: $white !important;
   }
 
   .pageLink {
@@ -36,12 +36,12 @@
   }
 
   .pageLink:hover {
-    box-shadow: inset 0 -2px $primary;
-    color: $primary !important;
+    box-shadow: inset 0 -2px $white;
+    color: $white !important;
   }
 
   a.navbar-item.active > div.pageLink {
-    box-shadow: inset 0 -2px $primary;
+    box-shadow: inset 0 -2px $white;
   }
 
   .navbar-menu.is-active {

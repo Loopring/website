@@ -3,7 +3,8 @@
 @import "../Variables.scss";
 
 .page-ceremony {
-  background-color: #080808;
+  background-image: linear-gradient($dark-blue, darken($primary, 40), darken($primary, 70));
+  // background-color: $dark-blue;
   min-height: calc(100vh - 63px);
 
   .section-terminal {
@@ -96,8 +97,8 @@
         height: 40px;
         left: 10px;
         bottom: -60px;
-        background: black;
-        box-shadow: 0px 0px 15px 10px black;
+        background: rgba(0,0,0,0.4);
+        box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.4);
       }
     }
 
