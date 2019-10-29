@@ -3,7 +3,6 @@
 @import "../Variables.scss";
 
 .setup-participant {
-  border: 1px solid rgba(255, 255, 255, 0.07);
   background-color: rgba(0, 0, 0, 0.2);
   color: $white;
   margin-top: 4px !important;
@@ -11,12 +10,20 @@
   font-weight: 700;
 
   &.done {
-    color: #00dc35;
+    background-color: $black;
+    color: #3fafff;
+
+    .icon {
+      color: #02ee35;
+    }
   }
 
   &.running {
     color: $primary;
     background-color: $white;
+     .icon {
+      color: #ff8d00;
+    }
   }
 
   .hash {

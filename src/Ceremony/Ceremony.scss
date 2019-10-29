@@ -14,13 +14,24 @@
 
     h1,
     h2 {
-      color: gold;
+      color: $white;
       // animation: neon3 5s ease-in-out infinite alternate;
       user-select: none;
     }
 
     .title {
       margin-top: -10px;
+    }
+
+    .instructions {
+
+      color: #3fafff;
+      padding: 20px;
+
+      a {
+        color: #3fafff;
+        text-decoration: underline;
+      }
     }
 
     .fire {

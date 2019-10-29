@@ -1,1 +1,5 @@
-{}
+{
+    "heading1": "Loopring ZKP Trusted Setup",
+    "heading2": "Multi-party Computation Ceremony",
+     "instructions": "Please visit our Trusted Setup github <a href='https://github.com/Loopring/trusted_setup'>repository</a> for details."
+}

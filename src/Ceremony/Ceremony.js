@@ -52,11 +52,17 @@ class Ceremony extends JsonI18nComponent {
                   <div className="black circle"></div>
                 </div>
                 <div className="title">
-                  <h2>Loopring ZKP Trusted Setup</h2>
-                  <h2>Multi-party Computation Ceremony</h2>
+                  <h1>{this.state.I.heading1}</h1>
+                  <h1>{this.state.I.heading2}</h1>
                 </div>
               </div>
               <div data-aos="fade-up" className="column has-text-centered is-7">
+                <div
+                  className="instructions"
+                  dangerouslySetInnerHTML={{
+                    __html: this.state.I.instructions
+                  }}
+                />
                 {this.state.ceremony.done.map((participant, idx) => (
                   <Participant
                     key={idx}
