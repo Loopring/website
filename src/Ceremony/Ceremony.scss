@@ -9,14 +9,16 @@
 
   .section-terminal {
     background-color: transparent;
-    // font-family: menlo, "Roboto Mono" !important;
-    font-size: 12px;
 
     h1,
     h2 {
       color: $white;
       // animation: neon3 5s ease-in-out infinite alternate;
       user-select: none;
+    }
+
+    h2 {
+       color: #3fafff;
     }
 
     .title {
