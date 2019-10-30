@@ -41,6 +41,11 @@ class Ceremony extends JsonI18nComponent {
       status = this.state.I.status.completed;
     }
 
+    let morePeople = "";
+    if (status === this.state.I.status.preparing) {
+      morePeople = this.state.I.morePeople;
+    }
+
     return (
       <div className="page-ceremony">
         <DarkHeader />
@@ -73,7 +78,7 @@ class Ceremony extends JsonI18nComponent {
                 <div
                   className="instructions"
                   dangerouslySetInnerHTML={{
-                    __html: this.state.I.instructions
+                    __html: morePeople + this.state.I.instructions
                   }}
                 />
                 {this.state.ceremony.done.map((participant, idx) => (

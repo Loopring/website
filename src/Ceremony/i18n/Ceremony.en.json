@@ -6,5 +6,6 @@
     "completed": "- Completed -",
     "preparing": "- Preparing -"
   },
-  "instructions": "Please visit our Trusted Setup github <a href='https://github.com/Loopring/trusted_setup'>repository</a> for details."
+  "morePeople": "We are inviting more participants to join the ceremony. ",
+  "instructions": "Please visit our Github <a href='https://github.com/Loopring/trusted_setup'>repository</a> for more information."
 }
