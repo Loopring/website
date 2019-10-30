@@ -14,14 +14,14 @@
     color: #3fafff;
 
     .icon {
-      color: #02ee35;
+      color: rgba(0,255,0,0.9);
     }
   }
 
   &.running {
     color: $primary;
     background-color: $white;
-     .icon {
+    .icon {
       color: $primary;
     }
   }

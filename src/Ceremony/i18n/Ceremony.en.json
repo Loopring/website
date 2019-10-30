@@ -1,5 +1,10 @@
 {
-    "heading1": "Loopring ZKP Trusted Setup",
-    "heading2": "Multi-party Computation Ceremony",
-     "instructions": "Please visit our Trusted Setup github <a href='https://github.com/Loopring/trusted_setup'>repository</a> for details."
+  "heading1": "Loopring ZKP Trusted Setup",
+  "heading2": "Multi-party Computation Ceremony",
+  "status": {
+    "running": "(In progross)",
+    "completed": "(Completed)",
+    "preparing": "(Preparing)"
+  },
+  "instructions": "Please visit our Trusted Setup github <a href='https://github.com/Loopring/trusted_setup'>repository</a> for details."
 }

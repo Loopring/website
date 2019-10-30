@@ -32,6 +32,15 @@ class Ceremony extends JsonI18nComponent {
   }
 
   render() {
+    let status = this.state.I.status.preparing;
+    const ceremony = this.state.ceremony;
+
+    if (ceremony.running.length > 0) {
+      status = this.state.I.status.running;
+    } else if (ceremony.waiting.length === 0) {
+      status = this.state.I.status.completed;
+    }
+
     return (
       <div className="page-ceremony">
         <DarkHeader />
@@ -54,6 +63,10 @@ class Ceremony extends JsonI18nComponent {
                 <div className="title">
                   <h1>{this.state.I.heading1}</h1>
                   <h1>{this.state.I.heading2}</h1>
+                </div>
+
+                <div className="title">
+                  <h2>{status}</h2>
                 </div>
               </div>
               <div data-aos="fade-up" className="column has-text-centered is-7">
