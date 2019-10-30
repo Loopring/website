@@ -24,10 +24,18 @@
     .icon {
       color: $primary;
     }
+
   }
 
   .hash {
     font-family: monospace;
     overflow: hidden;
   }
+
+&.waiting {
+  .hash {
+    opacity: 0.5;
+  }
+}
+
 }
