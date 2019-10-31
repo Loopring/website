@@ -14,7 +14,7 @@ class PerformanceSection extends I18nComponent {
     super(props, englishTranslation, chineseTranslation);
     this.state = {
       throughput: 1000,
-      cost: this.isChinese() ? 0.015 : 0.0021
+      cost: this.isChinese() ? 0.015 : 0.002
     };
   }
 
