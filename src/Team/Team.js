@@ -6,6 +6,7 @@ import Footer from "../Components/Footer";
 import CoreTeamSection from "./CoreTeamSection";
 import GroupPhotoSection from "./GroupPhotoSection";
 import ContributorsSection from "./ContributorsSection";
+import CeremonySection from "./CeremonySection";
 
 import "./Team.scss";
 
@@ -17,6 +18,7 @@ class Team extends React.Component {
         <CoreTeamSection />
         <GroupPhotoSection />
         <ContributorsSection />
+        <CeremonySection />
         <Footer />
       </div>
     );

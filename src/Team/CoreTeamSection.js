@@ -25,7 +25,7 @@ class CoreTeamSection extends JsonI18nComponent {
             <div data-aos="fade-up" className="column is-7">
               <ul>
                 {this.state.I.members.map((member, idx) => (
-                  <li key="idx">
+                  <li key={idx}>
                     <a
                       className="highlight has-leading-thin-arrow"
                       href={member.url}

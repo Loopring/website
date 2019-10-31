@@ -1,0 +1,11 @@
+{
+  "heading1": "零知可信启动",
+  "heading2": "多方计算仪式",
+  "status": {
+    "running": "- 正在进行 -",
+    "completed": "- 已经结束 -",
+    "preparing": "- 正在准备 -"
+  },
+  "morePeople": "我们正在邀请更多人参与该仪式。",
+  "instructions": "您可以访问路印的Github<a href='https://github.com/Loopring/trusted_setup'>代码库</a>以获取更多信息。"
+}

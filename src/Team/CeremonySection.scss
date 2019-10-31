@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@import "../Variables.scss";
+
+.section-ceremony {
+  @include desktop {
+    .name {
+      display: inline-block;
+      min-width: 140px;
+    }
+  }
+
+  a.highlight:hover {
+    color: $primary !important;
+  }
+}
