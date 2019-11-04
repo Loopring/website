@@ -3,40 +3,38 @@
 @import "../Variables.scss";
 
 .setup-participant {
-    background-color: rgba(0, 0, 0, 0.2);
-    color: $white;
-    margin-top: 4px !important;
-    font-size: 0.9rem;
-    font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: $white;
+  margin-top: 4px !important;
+  font-size: 0.9rem;
+  font-weight: 700;
 
-    &.done {
-        background-color: $black;
-        color: #3fafff;
+  &.done {
+    background-color: $black;
+    color: #3fafff;
 
-        .icon {
-            color: rgba(0, 255, 0, 0.9);
-        }
+    .icon {
+      color: rgba(0, 255, 0, 0.9);
     }
+  }
 
-    &.running {
-        color: $primary;
-        background-color: $white;
+  &.running {
+    color: $primary;
+    background-color: $white;
 
-        .icon {
-            color: $primary;
-        }
-
+    .icon {
+      color: $primary;
     }
+  }
 
+  .hash {
+    font-family: monospace;
+    overflow: hidden;
+  }
+
+  &.waiting {
     .hash {
-        font-family: monospace;
-        overflow: hidden;
+      opacity: 0.5;
     }
-
-    &.waiting {
-        .hash {
-            opacity: 0.5;
-        }
-    }
-
+  }
 }

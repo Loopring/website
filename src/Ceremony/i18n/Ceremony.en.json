@@ -1,89 +1,89 @@
 {
-    "heading1": "Loopring ZKP Trusted Setup",
-    "heading2": "Multi-party Computation Ceremony",
-    "status":
-    {
-        "running": "- In progress -",
-        "completed": "- Completed -",
-        "preparing": "- In preparation -"
-    },
-    "morePeople": "We are inviting more participants to join the ceremony. ",
-    "instructions": "Please visit our Github <a href='https://github.com/Loopring/trusted_setup'>repository</a> for more information.",
-    "participants":
-    {
-        "done": [],
-        "running": [
-        {
-            "name": "Brecht Davos",
-            "org": "Loopring",
-            "url": "https://github.com/Brechtpd",
-            "hash": "000000000000000000000000000000000000000000000000"
-        }],
-        "waiting": [
-        {
-            "name": "Steve Guo",
-            "org": "Loopring",
-            "url": "https://github.com/letsgoustc",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Koh Wei Jie",
-            "org": "Ethereum Foundation",
-            "url": "https://medium.com/@weijiek",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Felix Leupold",
-            "org": "Gnosis",
-            "url": "https://github.com/fleupold",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Kerman Kohli",
-            "org": "DeFi School",
-            "url": "https://twitter.com/kermankohli",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Yu Guo",
-            "org": "SECBIT Labs",
-            "url": "https://github.com/gy001",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Hongfei Da",
-            "org": "NEO",
-            "url": "https://twitter.com/dahongfei",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Gaurav",
-            "org": "Coinmonks",
-            "url": "https://twitter.com/gaurav_zen",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Jun Li",
-            "org": "Ontology",
-            "url": "https://www.linkedin.com/in/jun-li-58950069/",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Chunming Liu",
-            "org": "VITE Labs",
-            "url": "https://twitter.com/chunming_liu",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "James Prestwich",
-            "org": "Summa",
-            "url": "https://twitter.com/_prestwich",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Yong Chen",
-            "org": "BitUniverse",
-            "hash": "000000000000000000000000000000000000000000000000"
-        }]
-    }
+  "heading1": "Loopring ZKP Trusted Setup",
+  "heading2": "Multi-party Computation Ceremony",
+  "status": {
+    "running": "- In progress -",
+    "completed": "- Completed -",
+    "preparing": "- In preparation -"
+  },
+  "morePeople": "We are inviting more participants to join the ceremony. ",
+  "instructions": "Please visit our Github <a href='https://github.com/Loopring/trusted_setup'>repository</a> for more information.",
+  "participants": {
+    "done": [],
+    "running": [
+      {
+        "name": "Brecht Devos",
+        "org": "Loopring",
+        "url": "https://github.com/Brechtpd",
+        "hash": "000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "waiting": [
+      {
+        "name": "Steve Guo",
+        "org": "Loopring",
+        "url": "https://github.com/letsgoustc",
+        "hash": "000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Koh Wei Jie",
+        "org": "Ethereum Foundation",
+        "url": "https://medium.com/@weijiek",
+        "hash": "000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Felix Leupold",
+        "org": "Gnosis",
+        "url": "https://github.com/fleupold",
+        "hash": "000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Kerman Kohli",
+        "org": "DeFi School",
+        "url": "https://twitter.com/kermankohli",
+        "hash": "000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Yu Guo",
+        "org": "SECBIT Labs",
+        "url": "https://github.com/gy001",
+        "hash": "000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Hongfei Da",
+        "org": "NEO",
+        "url": "https://twitter.com/dahongfei",
+        "hash": "000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Gaurav",
+        "org": "Coinmonks",
+        "url": "https://twitter.com/gaurav_zen",
+        "hash": "000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Jun Li",
+        "org": "Ontology",
+        "url": "https://www.linkedin.com/in/jun-li-58950069/",
+        "hash": "000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Chunming Liu",
+        "org": "VITE Labs",
+        "url": "https://twitter.com/chunming_liu",
+        "hash": "000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "James Prestwich",
+        "org": "Summa",
+        "url": "https://twitter.com/_prestwich",
+        "hash": "000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Yong Chen",
+        "org": "BitUniverse",
+        "hash": "000000000000000000000000000000000000000000000000"
+      }
+    ]
+  }
 }
