@@ -12,32 +12,15 @@ import JsonI18nComponent from "../Components/JsonI18nComponent";
 class Ceremony extends JsonI18nComponent {
   constructor(props) {
     super(props, englishTranslation, chineseTranslation);
-    this.state.ceremony = {
-      done: [],
-      running: [],
-      waiting: []
-    };
-  }
-
-  componentDidMount() {
-    const urlBase =
-      "https://raw.githubusercontent.com/Loopring/website/master/public/";
-    const url = this.isChinese()
-      ? urlBase + "ceremony.zh.json"
-      : urlBase + "ceremony.en.json";
-
-    fetch(url)
-      .then(response => response.json())
-      .then(data => this.setState({ ceremony: data }));
   }
 
   render() {
     let status = this.state.I.status.preparing;
-    const ceremony = this.state.ceremony;
+    const participants = this.state.I.participants;
 
-    if (ceremony.running.length > 0) {
+    if (participants.running.length > 0) {
       status = this.state.I.status.running;
-    } else if (ceremony.waiting.length === 0) {
+    } else if (participants.waiting.length === 0) {
       status = this.state.I.status.completed;
     }
 
@@ -74,14 +57,14 @@ class Ceremony extends JsonI18nComponent {
                   <h2>{status}</h2>
                 </div>
               </div>
-              <div data-aos="fade-up" className="column has-text-centered is-7">
+              <div data-aos="fade-up" className="column has-text-centered is-8">
                 <div
                   className="instructions"
                   dangerouslySetInnerHTML={{
                     __html: morePeople + this.state.I.instructions
                   }}
                 />
-                {this.state.ceremony.done.map((participant, idx) => (
+                {this.state.I.participants.done.map((participant, idx) => (
                   <Participant
                     key={idx}
                     name={participant.name}
@@ -91,7 +74,7 @@ class Ceremony extends JsonI18nComponent {
                   />
                 ))}
 
-                {this.state.ceremony.running.map((participant, idx) => (
+                {this.state.I.participants.running.map((participant, idx) => (
                   <Participant
                     key={idx}
                     name={participant.name}
@@ -101,7 +84,7 @@ class Ceremony extends JsonI18nComponent {
                   />
                 ))}
 
-                {this.state.ceremony.waiting.map((participant, idx) => (
+                {this.state.I.participants.waiting.map((participant, idx) => (
                   <Participant
                     key={idx}
                     name={participant.name}
