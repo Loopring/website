@@ -45,31 +45,37 @@
             "hash": "000000000000000000000000000000000000000000000000"
         },
         {
-            "name": "Yu Guo",
+            "name": "Guo Yu",
             "org": "SECBIT Labs",
             "url": "https://github.com/gy001",
             "hash": "000000000000000000000000000000000000000000000000"
         },
         {
-            "name": "Hongfei Da",
+            "name": "Da Hongfei",
             "org": "NEO",
             "url": "https://twitter.com/dahongfei",
             "hash": "000000000000000000000000000000000000000000000000"
         },
         {
-            "name": "Gaurav",
+            "name": "Gaurav Agrawal",
             "org": "Coinmonks",
             "url": "https://twitter.com/gaurav_zen",
             "hash": "000000000000000000000000000000000000000000000000"
         },
         {
-            "name": "Jun Li",
+            "name": "Li Jun",
             "org": "Ontology",
             "url": "https://www.linkedin.com/in/jun-li-58950069/",
             "hash": "000000000000000000000000000000000000000000000000"
         },
         {
-            "name": "Chunming Liu",
+            "name": "Petr Korolev",
+            "org": "Mixorio",
+            "url": "https://twitter.com/skywinder",
+            "hash": "000000000000000000000000000000000000000000000000"
+        },
+        {
+            "name": "Liu Chunming",
             "org": "VITE Labs",
             "url": "https://twitter.com/chunming_liu",
             "hash": "000000000000000000000000000000000000000000000000"
@@ -81,7 +87,7 @@
             "hash": "000000000000000000000000000000000000000000000000"
         },
         {
-            "name": "Yong Chen",
+            "name": "Chen Yong",
             "org": "BitUniverse",
             "hash": "000000000000000000000000000000000000000000000000"
         },
@@ -95,6 +101,12 @@
             "name": "Tyler Smith",
             "org": "Bitcoin Cash & OpenBazaar",
             "url": "https://medium.com/@tcrypt",
+            "hash": "000000000000000000000000000000000000000000000000"
+        },
+        {
+            "name": "Philippe Castonguay",
+            "org": "Skyweaver",
+            "url": "https://twitter/PhABCD",
             "hash": "000000000000000000000000000000000000000000000000"
         }]
     }
