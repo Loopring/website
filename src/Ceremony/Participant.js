@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import { faYinYang } from "@fortawesome/free-solid-svg-icons";
+import { faFan } from "@fortawesome/free-solid-svg-icons";
 
 class Participant extends React.Component {
   randomHash() {
@@ -12,6 +13,7 @@ class Participant extends React.Component {
     let result = "";
     const characters =
       "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
     const charactersLength = characters.length;
     for (let i = 0; i < HASH_SIZE; i++) {
       result += characters.charAt(Math.floor(Math.random() * charactersLength));
@@ -23,7 +25,8 @@ class Participant extends React.Component {
     super(props);
     this.state = {
       hash: this.props.hash,
-      isRunning: this.props.status === "running"
+      isRunning:
+        this.props.status === "running" || this.props.status === "preparing"
     };
 
     if (this.state.isRunning) {
@@ -48,6 +51,10 @@ class Participant extends React.Component {
         break;
       case "running":
         icon = faYinYang;
+        break;
+
+      case "preparing":
+        icon = faFan;
         break;
       default:
     }

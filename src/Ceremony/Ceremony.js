@@ -64,6 +64,15 @@ class Ceremony extends JsonI18nComponent {
                     __html: morePeople + this.state.I.instructions
                   }}
                 />
+                {this.state.I.participants.preparing.map((participant, idx) => (
+                  <Participant
+                    key={idx}
+                    name={participant.name}
+                    org={participant.org}
+                    hash={participant.hash}
+                    status="preparing"
+                  />
+                ))}
                 {this.state.I.participants.done.map((participant, idx) => (
                   <Participant
                     key={idx}

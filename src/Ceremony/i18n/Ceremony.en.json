@@ -11,15 +11,23 @@
     "instructions": "Please visit our Github <a href='https://github.com/Loopring/trusted_setup'>repository</a> for more information.",
     "participants":
     {
+        "preparing": [
+        {
+            "name": "[Prepareing]",
+            "org": "Loopring",
+            "hash": "000000000000000000000000000000000000000000000000"
+        }],
         "done": [],
         "running": [
+
+        ],
+        "waiting": [
         {
             "name": "Brecht Devos",
             "org": "Loopring",
             "url": "https://github.com/Brechtpd",
             "hash": "000000000000000000000000000000000000000000000000"
-        }],
-        "waiting": [
+        },
         {
             "name": "Steve Guo",
             "org": "Loopring",
