@@ -120,7 +120,13 @@
         "org": "Polymath",
         "url": "https://twitter.com/adamaid",
         "hash": "000000000000000000000000000000000000000000000000"
-      }
+      },
+        {
+            "name": "Manuel Garcia",
+            "org": "Protofire",
+            "url": "https://twitter.com/rmgarciap",
+            "hash": "000000000000000000000000000000000000000000000000"
+        }
     ]
   }
 }
