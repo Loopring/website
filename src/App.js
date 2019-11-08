@@ -25,7 +25,7 @@ class App extends React.Component {
         <HashRouter>
           <ScrollToTop>
             <Switch>
-              <Route path="/" exact component={Home} />
+              <Route path="/" exact component={Ceremony} />
               <Route path="/home" exact component={Home} />
               <Route path="/about" exact component={About} />
               <Route path="/protocol" exact component={Protocol} />
