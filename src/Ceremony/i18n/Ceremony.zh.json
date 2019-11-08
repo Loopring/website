@@ -114,6 +114,12 @@
         "org": "Skyweaver",
         "url": "https://twitter/PhABCD",
         "hash": "000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Adam Dossa",
+        "org": "Polymath",
+        "url": "https://twitter.com/adamaid",
+        "hash": "000000000000000000000000000000000000000000000000"
       }
     ]
   }
