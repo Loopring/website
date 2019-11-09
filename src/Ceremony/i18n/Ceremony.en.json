@@ -1,179 +1,179 @@
 {
-    "heading1": "Loopring ZKP Trusted Setup",
-    "heading2": "Multi-party Computation Ceremony",
-    "status":
-    {
-        "running": "- In progress -",
-        "completed": "- Completed -",
-        "preparing": "- In preparation -"
-    },
-    "morePeople": "We are inviting more participants to join the ceremony. ",
-    "instructions": "Please visit our Github <a href='https://github.com/Loopring/trusted_setup'>repository</a> for more information.",
-    "participants":
-    {
-        "preparing": [
-        {
-            "name": "[Preparation]",
-            "org": "Loopring",
-            "hash": "000000000000000000000000000000000000000000000000"
-        }],
-        "done": [],
-        "running": [],
-        "waiting": [
-        {
-            "name": "Brecht Devos",
-            "org": "Loopring",
-            "url": "https://github.com/Brechtpd",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Steve Guo",
-            "org": "Loopring",
-            "url": "https://github.com/letsgoustc",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Arnaud Schenk",
-            "org": "AZTEC Protocol",
-            "url": "https://twitter.com/_arnauds_",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Koh Wei Jie",
-            "org": "Ethereum Foundation",
-            "url": "https://medium.com/@weijiek",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Harry Kalodner",
-            "org": "Offchain Labs",
-            "url": "https://twitter.com/hkalodner",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Francois Proulx ",
-            "org": "dfuse",
-            "url": "https://twitter.com/francoisproulx",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Felix Leupold",
-            "org": "Gnosis",
-            "url": "https://github.com/fleupold",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Sunny Aggarwal",
-            "org": "Cosmos",
-            "url": "https://twitter.com/sunnya97",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Kerman Kohli",
-            "org": "DeFi School",
-            "url": "https://twitter.com/kermankohli",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Evan Van Ness",
-            "org": "Week In Ethereum",
-            "url": "https://twitter.com/evan_van_ness",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Guo Yu",
-            "org": "SECBIT Labs",
-            "url": "https://github.com/gy001",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Da Hongfei",
-            "org": "NEO",
-            "url": "https://twitter.com/dahongfei",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Gaurav Agrawal",
-            "org": "Coinmonks",
-            "url": "https://twitter.com/gaurav_zen",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Li Jun",
-            "org": "Ontology",
-            "url": "https://www.linkedin.com/in/jun-li-58950069/",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Petr Korolev",
-            "org": "Mixorio",
-            "url": "https://twitter.com/skywinder",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Liu Chunming",
-            "org": "VITE Labs",
-            "url": "https://twitter.com/chunming_liu",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "James Prestwich",
-            "org": "Summa",
-            "url": "https://twitter.com/_prestwich",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Jesse Abramowitz",
-            "org": "BlockX Labs",
-            "url": "https://twitter.com/abramowitzjesse",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Chen Yong",
-            "org": "BitUniverse",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Patrick McCorry",
-            "org": "PISA",
-            "url": "https://twitter.com/paddypisa",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Tyler Smith",
-            "org": "Bitcoin Cash & OpenBazaar",
-            "url": "https://medium.com/@tcrypt",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Henry Chan",
-            "org": "PayTrie",
-            "url": "https://medium.com/@henry_78826",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Philippe Castonguay",
-            "org": "Skyweaver",
-            "url": "https://twitter/PhABCD",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Adam Dossa",
-            "org": "Polymath",
-            "url": "https://twitter.com/adamaid",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Manuel Garcia",
-            "org": "Protofire",
-            "url": "https://twitter.com/rmgarciap",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Ryan Lee",
-            "org": "York University",
-            "url": "http://yorku.academia.edu/RyanLee",
-            "hash": "000000000000000000000000000000000000000000000000"
-        }]
-    }
+  "heading1": "Loopring ZKP Trusted Setup",
+  "heading2": "Multi-party Computation Ceremony",
+  "status": {
+    "running": "Running for Loopring 3.0 Beta4",
+    "completed": "Completed",
+    "preparing": "In preparation"
+  },
+  "morePeople": "We are inviting more participants to join the ceremony. ",
+  "instructions": "Please visit our Github <a href='https://github.com/Loopring/trusted_setup'>repository</a> for more information.",
+  "participants": {
+    "done": [
+      {
+        "name": "[Preparation]",
+        "org": "Loopring",
+        "hash": "0xdac4d06092381a8f43a38bac743582ff06c2a8a193cc390c58cf0f6b87f972dc"
+      }
+    ],
+    "running": [
+      {
+        "name": "Brecht Devos",
+        "org": "Loopring",
+        "url": "https://github.com/Brechtpd",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "waiting": [
+      {
+        "name": "Steve Guo",
+        "org": "Loopring",
+        "url": "https://github.com/letsgoustc",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Arnaud Schenk",
+        "org": "AZTEC Protocol",
+        "url": "https://twitter.com/_arnauds_",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Koh Wei Jie",
+        "org": "Ethereum Foundation",
+        "url": "https://medium.com/@weijiek",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Harry Kalodner",
+        "org": "Offchain Labs",
+        "url": "https://twitter.com/hkalodner",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Francois Proulx ",
+        "org": "dfuse",
+        "url": "https://twitter.com/francoisproulx",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Felix Leupold",
+        "org": "Gnosis",
+        "url": "https://github.com/fleupold",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Sunny Aggarwal",
+        "org": "Cosmos",
+        "url": "https://twitter.com/sunnya97",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Kerman Kohli",
+        "org": "DeFi School",
+        "url": "https://twitter.com/kermankohli",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Evan Van Ness",
+        "org": "Week In Ethereum",
+        "url": "https://twitter.com/evan_van_ness",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Guo Yu",
+        "org": "SECBIT Labs",
+        "url": "https://github.com/gy001",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Da Hongfei",
+        "org": "NEO",
+        "url": "https://twitter.com/dahongfei",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Gaurav Agrawal",
+        "org": "Coinmonks",
+        "url": "https://twitter.com/gaurav_zen",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Li Jun",
+        "org": "Ontology",
+        "url": "https://www.linkedin.com/in/jun-li-58950069/",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Petr Korolev",
+        "org": "Mixorio",
+        "url": "https://twitter.com/skywinder",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Liu Chunming",
+        "org": "VITE Labs",
+        "url": "https://twitter.com/chunming_liu",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "James Prestwich",
+        "org": "Summa",
+        "url": "https://twitter.com/_prestwich",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Jesse Abramowitz",
+        "org": "BlockX Labs",
+        "url": "https://twitter.com/abramowitzjesse",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Chen Yong",
+        "org": "BitUniverse",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Patrick McCorry",
+        "org": "PISA",
+        "url": "https://twitter.com/paddypisa",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Tyler Smith",
+        "org": "Bitcoin Cash & OpenBazaar",
+        "url": "https://medium.com/@tcrypt",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Henry Chan",
+        "org": "PayTrie",
+        "url": "https://medium.com/@henry_78826",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Philippe Castonguay",
+        "org": "Skyweaver",
+        "url": "https://twitter/PhABCD",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Adam Dossa",
+        "org": "Polymath",
+        "url": "https://twitter.com/adamaid",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Manuel Garcia",
+        "org": "Protofire",
+        "url": "https://twitter.com/rmgarciap",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Ryan Lee",
+        "org": "York University",
+        "url": "http://yorku.academia.edu/RyanLee",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ]
+  }
 }

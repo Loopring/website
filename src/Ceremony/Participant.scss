@@ -26,14 +26,6 @@
       color: $primary;
     }
   }
-  &.preparing {
-    color: $primary;
-    background-color: $white;
-
-    .icon {
-      color: $primary;
-    }
-  }
 
   .hash {
     font-family: monospace;
