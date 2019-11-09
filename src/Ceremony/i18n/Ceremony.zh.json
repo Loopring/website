@@ -32,7 +32,7 @@
                 "url": "https://github.com/letsgoustc",
                 "hash": "000000000000000000000000000000000000000000000000"
             },
-                        {
+            {
                 "name": "Arnaud Schenk",
                 "org": "AZTEC Protocol",
                 "url": "https://twitter.com/_arnauds_",
@@ -51,15 +51,33 @@
                 "hash": "000000000000000000000000000000000000000000000000"
             },
             {
+                "name": "Francois Proulx ",
+                "org": "dfuse",
+                "url": "https://twitter.com/francoisproulx",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
                 "name": "Felix Leupold",
                 "org": "Gnosis",
                 "url": "https://github.com/fleupold",
                 "hash": "000000000000000000000000000000000000000000000000"
             },
             {
+                "name": "Sunny Aggarwal",
+                "org": "Cosmos",
+                "url": "https://twitter.com/sunnya97",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
                 "name": "Kerman Kohli",
                 "org": "DeFi School",
                 "url": "https://twitter.com/kermankohli",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Evan Van Ness",
+                "org": "Week In Ethereum",
+                "url": "https://twitter.com/evan_van_ness",
                 "hash": "000000000000000000000000000000000000000000000000"
             },
             {
@@ -106,6 +124,12 @@
                 "hash": "000000000000000000000000000000000000000000000000"
             },
             {
+                "name": "Jesse Abramowitz",
+                "org": "BlockX Labs",
+                "url": "https://twitter.com/abramowitzjesse",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
                 "name": "陈勇",
                 "org": "BitUniverse",
                 "hash": "000000000000000000000000000000000000000000000000"
@@ -120,6 +144,12 @@
                 "name": "Tyler Smith",
                 "org": "Bitcoin Cash & OpenBazaar",
                 "url": "https://medium.com/@tcrypt",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Henry Chan",
+                "org": "PayTrie",
+                "url": "https://medium.com/@henry_78826",
                 "hash": "000000000000000000000000000000000000000000000000"
             },
             {
@@ -138,6 +168,12 @@
                 "name": "Manuel Garcia",
                 "org": "Protofire",
                 "url": "https://twitter.com/rmgarciap",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Ryan Lee",
+                "org": "York University",
+                "url": "http://yorku.academia.edu/RyanLee",
                 "hash": "000000000000000000000000000000000000000000000000"
             }
         ]
