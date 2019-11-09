@@ -32,7 +32,7 @@ class Participant extends React.Component {
     if (this.state.isRunning) {
       this.refresh = setInterval(() => {
         this.setState({ hash: this.randomHash() });
-      }, 100);
+      }, 1000);
     }
   }
 
