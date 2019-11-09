@@ -20,112 +20,125 @@
         "done": [],
         "running": [],
         "waiting": [
-        {
-            "name": "Brecht Devos",
-            "org": "Loopring",
-            "url": "https://github.com/Brechtpd",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Steve Guo",
-            "org": "Loopring",
-            "url": "https://github.com/letsgoustc",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Koh Wei Jie",
-            "org": "Ethereum Foundation",
-            "url": "https://medium.com/@weijiek",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Felix Leupold",
-            "org": "Gnosis",
-            "url": "https://github.com/fleupold",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Kerman Kohli",
-            "org": "DeFi School",
-            "url": "https://twitter.com/kermankohli",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Guo Yu",
-            "org": "SECBIT Labs",
-            "url": "https://github.com/gy001",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Da Hongfei",
-            "org": "NEO",
-            "url": "https://twitter.com/dahongfei",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Gaurav Agrawal",
-            "org": "Coinmonks",
-            "url": "https://twitter.com/gaurav_zen",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Li Jun",
-            "org": "Ontology",
-            "url": "https://www.linkedin.com/in/jun-li-58950069/",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Petr Korolev",
-            "org": "Mixorio",
-            "url": "https://twitter.com/skywinder",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Liu Chunming",
-            "org": "VITE Labs",
-            "url": "https://twitter.com/chunming_liu",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "James Prestwich",
-            "org": "Summa",
-            "url": "https://twitter.com/_prestwich",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Chen Yong",
-            "org": "BitUniverse",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Patrick McCorry",
-            "org": "PISA",
-            "url": "https://twitter.com/paddypisa",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Tyler Smith",
-            "org": "Bitcoin Cash & OpenBazaar",
-            "url": "https://medium.com/@tcrypt",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Philippe Castonguay",
-            "org": "Skyweaver",
-            "url": "https://twitter/PhABCD",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Adam Dossa",
-            "org": "Polymath",
-            "url": "https://twitter.com/adamaid",
-            "hash": "000000000000000000000000000000000000000000000000"
-        },
-        {
-            "name": "Manuel Garcia",
-            "org": "Protofire",
-            "url": "https://twitter.com/rmgarciap",
-            "hash": "000000000000000000000000000000000000000000000000"
-        }]
+            {
+                "name": "Brecht Devos",
+                "org": "Loopring",
+                "url": "https://github.com/Brechtpd",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Steve Guo",
+                "org": "Loopring",
+                "url": "https://github.com/letsgoustc",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Arnaud Schenk",
+                "org": "AZTEC Protocol",
+                "url": "https://twitter.com/_arnauds_",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Koh Wei Jie",
+                "org": "Ethereum Foundation",
+                "url": "https://medium.com/@weijiek",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Harry Kalodner",
+                "org": "Offchain Labs",
+                "url": "https://twitter.com/hkalodner",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Felix Leupold",
+                "org": "Gnosis",
+                "url": "https://github.com/fleupold",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Kerman Kohli",
+                "org": "DeFi School",
+                "url": "https://twitter.com/kermankohli",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Guo Yu",
+                "org": "SECBIT Labs",
+                "url": "https://github.com/gy001",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Da Hongfei",
+                "org": "NEO",
+                "url": "https://twitter.com/dahongfei",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Gaurav Agrawal",
+                "org": "Coinmonks",
+                "url": "https://twitter.com/gaurav_zen",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Li Jun",
+                "org": "Ontology",
+                "url": "https://www.linkedin.com/in/jun-li-58950069/",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Petr Korolev",
+                "org": "Mixorio",
+                "url": "https://twitter.com/skywinder",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Liu Chunming",
+                "org": "VITE Labs",
+                "url": "https://twitter.com/chunming_liu",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "James Prestwich",
+                "org": "Summa",
+                "url": "https://twitter.com/_prestwich",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Chen Yong",
+                "org": "BitUniverse",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Patrick McCorry",
+                "org": "PISA",
+                "url": "https://twitter.com/paddypisa",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Tyler Smith",
+                "org": "Bitcoin Cash & OpenBazaar",
+                "url": "https://medium.com/@tcrypt",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Philippe Castonguay",
+                "org": "Skyweaver",
+                "url": "https://twitter/PhABCD",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Adam Dossa",
+                "org": "Polymath",
+                "url": "https://twitter.com/adamaid",
+                "hash": "000000000000000000000000000000000000000000000000"
+            },
+            {
+                "name": "Manuel Garcia",
+                "org": "Protofire",
+                "url": "https://twitter.com/rmgarciap",
+                "hash": "000000000000000000000000000000000000000000000000"
+            }
+        ]
     }
 }
