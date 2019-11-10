@@ -183,5 +183,11 @@
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       }
     ]
-  }
+  },
+  "teamPage": {
+  "heading1": "SNARK ZKP Trusted Setup",
+  "heading2": "Multi-party Computation",
+  "heading3": "Ceremony Participants"
+}
+
 }
