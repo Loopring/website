@@ -15,18 +15,11 @@ class Ceremony extends JsonI18nComponent {
   }
 
   render() {
-    let status = this.state.I.status.preparing;
+    let status = this.state.I.status.running;
     const participants = this.state.I.participants;
 
-    if (participants.running.length > 0) {
-      status = this.state.I.status.running;
-    } else if (participants.waiting.length === 0) {
+    if (participants.waiting.length === 0) {
       status = this.state.I.status.completed;
-    }
-
-    let morePeople = "";
-    if (status === this.state.I.status.preparing) {
-      morePeople = this.state.I.morePeople;
     }
 
     return (
@@ -61,18 +54,20 @@ class Ceremony extends JsonI18nComponent {
                 <div
                   className="instructions"
                   dangerouslySetInnerHTML={{
-                    __html: morePeople + this.state.I.instructions
+                    __html: this.state.I.instructions
                   }}
                 />
-                {this.state.I.participants.preparing.map((participant, idx) => (
+
+                {this.state.I.participants.setup.map((participant, idx) => (
                   <Participant
                     key={idx}
                     name={participant.name}
                     org={participant.org}
                     hash={participant.hash}
-                    status="preparing"
+                    status="done"
                   />
                 ))}
+
                 {this.state.I.participants.done.map((participant, idx) => (
                   <Participant
                     key={idx}

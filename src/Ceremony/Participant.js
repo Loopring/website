@@ -5,11 +5,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import { faYinYang } from "@fortawesome/free-solid-svg-icons";
-import { faFan } from "@fortawesome/free-solid-svg-icons";
 
 class Participant extends React.Component {
   randomHash() {
-    const HASH_SIZE = 48;
+    const HASH_SIZE = 66;
     let result = "";
     const characters =
       "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
@@ -25,14 +24,13 @@ class Participant extends React.Component {
     super(props);
     this.state = {
       hash: this.props.hash,
-      isRunning:
-        this.props.status === "running" || this.props.status === "preparing"
+      isRunning: this.props.status === "running"
     };
 
     if (this.state.isRunning) {
       this.refresh = setInterval(() => {
         this.setState({ hash: this.randomHash() });
-      }, 1000);
+      }, 500);
     }
   }
 
@@ -54,7 +52,7 @@ class Participant extends React.Component {
         break;
 
       case "preparing":
-        icon = faFan;
+        icon = faCheckCircle;
         break;
       default:
     }
