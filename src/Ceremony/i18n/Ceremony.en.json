@@ -69,7 +69,7 @@
       },
       {
         "name": "Kerman Kohli",
-        "org": "DeFi School",
+        "org": "DeFi School & Gods Unchained",
         "url": "https://twitter.com/kermankohli",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       },
@@ -172,6 +172,12 @@
         "name": "Ryan Lee",
         "org": "York University",
         "url": "http://yorku.academia.edu/RyanLee",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "Garret MacDonald",
+        "org": "Tuku",
+        "url": "https://twitter.com/bitcoingarrett",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       }
     ]
