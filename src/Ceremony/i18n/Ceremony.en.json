@@ -1,6 +1,6 @@
 {
-  "heading1": "Loopring ZKP Trusted Setup",
-  "heading2": "Multi-party Computation Ceremony",
+  "heading1": "zkSNARK Trusted Setup",
+  "heading2": "Multi-Party Computation Ceremony",
   "status": {
     "running": "Active for Loopring Protocol 3.0beta4",
     "completed": "Completed",
@@ -185,9 +185,8 @@
     ]
   },
   "teamPage": {
-  "heading1": "SNARK ZKP Trusted Setup",
-  "heading2": "Multi-party Computation",
-  "heading3": "Ceremony Participants"
-}
-
+    "heading1": "zkSNARK Trusted Setup",
+    "heading2": "Multi-Party Computation",
+    "heading3": "Ceremony Participants"
+  }
 }
