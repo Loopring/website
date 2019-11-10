@@ -9,13 +9,14 @@
   "morePeople": "We are inviting more participants to join the ceremony. ",
   "instructions": "Please visit our Github <a href='https://github.com/Loopring/trusted_setup'>repository</a> for more information.",
   "participants": {
-    "done": [
+    "setup": [
       {
         "name": "[Preparation]",
         "org": "Loopring",
         "hash": "0xdac4d06092381a8f43a38bac743582ff06c2a8a193cc390c58cf0f6b87f972dc"
       }
     ],
+    "done":[],
     "running": [
       {
         "name": "Brecht Devos",

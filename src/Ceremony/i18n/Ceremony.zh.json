@@ -9,13 +9,14 @@
   "morePeople": "我们正在邀请更多人参与该仪式。",
   "instructions": "您可以访问路印的Github<a href='https://github.com/Loopring/trusted_setup'>代码库</a>以获取更多信息。",
   "participants": {
-    "done": [
+    "setup": [
       {
         "name": "【初始参数准备】",
         "org": "路印基金会",
         "hash": "0xdac4d06092381a8f43a38bac743582ff06c2a8a193cc390c58cf0f6b87f972dc"
       }
     ],
+    "done":[],
     "running": [
       {
         "name": "Brecht Devos",
