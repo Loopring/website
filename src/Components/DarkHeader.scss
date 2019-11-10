@@ -44,6 +44,10 @@
     box-shadow: inset 0 -2px $white;
   }
 
+  .navbar-menu{
+    background: $dark-blue !important;
+  }
+
   .navbar-menu.is-active {
     height: 100vh;
     text-align: center;
