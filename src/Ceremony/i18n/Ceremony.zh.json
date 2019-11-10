@@ -1,5 +1,5 @@
 {
-  "heading1": "零知可信启动",
+  "heading1": "零知可信设置",
   "heading2": "多方计算仪式",
   "status": {
     "running": "正为路印协议3.0beta4计算",
@@ -16,7 +16,7 @@
         "hash": "0xdac4d06092381a8f43a38bac743582ff06c2a8a193cc390c58cf0f6b87f972dc"
       }
     ],
-    "done":[],
+    "done": [],
     "running": [
       {
         "name": "Brecht Devos",
@@ -70,7 +70,7 @@
       },
       {
         "name": "Kerman Kohli",
-       "org": "DeFi School & Gods Unchained",
+        "org": "DeFi School & Gods Unchained",
         "url": "https://twitter.com/kermankohli",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       },
