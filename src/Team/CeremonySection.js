@@ -16,8 +16,8 @@ class CeremonySection extends JsonI18nComponent {
     const urlBase =
       "https://raw.githubusercontent.com/Loopring/website/master/src/Ceremony/i18n/";
     const url = this.isChinese()
-      ? urlBase + "ceremony.zh.json"
-      : urlBase + "ceremony.en.json";
+      ? urlBase + "Ceremony.zh.json"
+      : urlBase + "Ceremony.en.json";
 
     fetch(url)
       .then(response => response.json())
