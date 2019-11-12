@@ -1,136 +1,139 @@
 {
-  "headingAdvisors": "Advisors",
-  "headingContributors": "Contributors",
-  "advisors": [
+    "headingAdvisors": "Advisors",
+    "headingContributors": "Contributors",
+    "advisors": [
     {
-      "name": "Xuefeng LI",
-      "title": "CTO of Zhongan Technology"
+        "name": "Johnston CHEN",
+        "title": "Loopring Co-founder & Former COO, Founder of WeDEX"
     },
     {
-      "name": "Yuhang GUO",
-      "title": "Council, China Blockchain Application Research Center"
+        "name": "Xuefeng LI",
+        "title": "CTO of Zhongan Technology"
     },
     {
-      "name": "Hongfei DA",
-      "title": "Founder of NEO and Ontology"
+        "name": "Yuhang GUO",
+        "title": "Council, China Blockchain Application Research Center"
     },
     {
-      "name": "Terence LAM",
-      "title": "CEO, Loopnest Blockchain Accelerator"
+        "name": "Hongfei DA",
+        "title": "Founder of NEO and Ontology"
     },
     {
-      "name": "Alex CHENG",
-      "title": "CTO of VipKid, Senior VP of Baidu, Director at Google"
+        "name": "Terence LAM",
+        "title": "CEO, Loopnest Blockchain Accelerator"
     },
     {
-      "name": "Yin CAO",
-      "title": "Founder, Energy Blockchain Lab"
+        "name": "Alex CHENG",
+        "title": "CTO of VipKid, Senior VP of Baidu, Director at Google"
     },
     {
-      "name": "Xiaohu GUO",
-      "title": "CS Professor, University of Texas"
+        "name": "Yin CAO",
+        "title": "Founder, Energy Blockchain Lab"
     },
     {
-      "name": "Yipeng GUO",
-      "title": "President, Guangzhou Development Fund"
+        "name": "Xiaohu GUO",
+        "title": "CS Professor, University of Texas"
     },
     {
-      "name": "Huaxia XIA",
-      "title": "Chief Scientist, Meituan Group"
+        "name": "Yipeng GUO",
+        "title": "President, Guangzhou Development Fund"
     },
     {
-      "name": "Mingchen Zhang",
-      "title": "Partner, Redpoint Ventures"
+        "name": "Huaxia XIA",
+        "title": "Chief Scientist, Meituan Group"
     },
     {
-      "name": "Shuo BAI",
-      "title": "Supervisor of ChinaLedger"
+        "name": "Mingchen Zhang",
+        "title": "Partner, Redpoint Ventures"
     },
     {
-      "name": "Steven LI",
-      "title": "Founder, Univalue Associates"
-    }
-  ],
-  "contributors": [
-    {
-      "name": "Bella LONG",
-      "title": "Former PR Director"
+        "name": "Shuo BAI",
+        "title": "Supervisor of ChinaLedger"
     },
     {
-      "name": "Zongbao HOU",
-      "title": "Developer"
-    },
-    {
-      "name": "Kun FU",
-      "title": "Developer"
-    },
-    {
-      "name": "Tao LI",
-      "title": "Developer"
-    },
-    {
-      "name": "Hui SHAO",
-      "title": "Developer"
-    },
-    {
-      "name": "Weichao LI",
-      "title": "Developer"
-    },
-    {
-      "name": "Benjamin Price",
-      "title": "Developer"
-    },
-    {
-      "name": "Shuhong CHANG",
-      "title": "Designer"
-    },
-    {
-      "name": "Jinchen Hou",
-      "title": "Community"
-    },
-    {
-      "name": "Kai ZENG",
-      "title": "Community, Marketing, Operation"
-    },
-    {
-      "name": "Dawei LI",
-      "title": "Community"
-    },
-    {
-      "name": "Jie LIU",
-      "title": "Operation"
-    },
-    {
-      "name": "Натали Игонина",
-      "title": "Translation"
-    },
+        "name": "Steven LI",
+        "title": "Founder, Univalue Associates"
+    }],
+    "contributors": [
+        {
+            "name": "Bella LONG",
+            "title": "Former PR Director"
+        },
+        {
+            "name": "Zongbao HOU",
+            "title": "Developer"
+        },
+        {
+            "name": "Kun FU",
+            "title": "Developer"
+        },
+        {
+            "name": "Tao LI",
+            "title": "Developer"
+        },
+        {
+            "name": "Hui SHAO",
+            "title": "Developer"
+        },
+        {
+            "name": "Weichao LI",
+            "title": "Developer"
+        },
+        {
+            "name": "Benjamin Price",
+            "title": "Developer"
+        },
+        {
+            "name": "Shuhong CHANG",
+            "title": "Designer"
+        },
+        {
+            "name": "Jinchen Hou",
+            "title": "Community"
+        },
+        {
+            "name": "Kai ZENG",
+            "title": "Community, Marketing, Operation"
+        },
+        {
+            "name": "Dawei LI",
+            "title": "Community"
+        },
+        {
+            "name": "Jie LIU",
+            "title": "Operation"
+        },
+        {
+            "name": "Натали Игонина",
+            "title": "Translation"
+        },
 
-    {
-      "name": "HarryR",
-      "title": "ethSnarks",
-      "url": "https://github.com/HarryR"
-    },
+        {
+            "name": "HarryR",
+            "title": "ethSnarks",
+            "url": "https://github.com/HarryR"
+        },
 
-    {
-      "name": "BarryWhitehat",
-      "title": "zkRollup",
-      "url": "https://github.com/barryWhiteHat"
-    },
+        {
+            "name": "BarryWhitehat",
+            "title": "zkRollup",
+            "url": "https://github.com/barryWhiteHat"
+        },
 
-    {
-      "name": "Dmitry Khovratovich",
-      "title": "Poseidon Hash Function",
-      "url": "https://github.com/khovratovich"
-    },
-    {
-      "name": "Matter Labs",
-      "title": "SNARK Batch Proof Verification",
-      "url": "https://matter-labs.io"
-    },
-    {
-      "name": "SECBIT Labs ",
-      "title": "Formal Verification & Auditing",
-      "url": "https://secbit.io"
-    }
-  ]
+        {
+            "name": "Dmitry Khovratovich",
+            "title": "Poseidon Hash Function",
+            "url": "https://github.com/khovratovich"
+        },
+        {
+            "name": "Matter Labs",
+            "title": "SNARK Batch Proof Verification",
+            "url": "https://matter-labs.io"
+        },
+        {
+            "name": "SECBIT Labs ",
+            "title": "Formal Verification & Auditing",
+            "url": "https://secbit.io"
+        }
+    ]
 }

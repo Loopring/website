@@ -3,17 +3,12 @@
   "members": [
     {
       "name": "王东",
-      "title": "创始人兼首席执行官（CEO）",
+      "title": "创始人，首席执行官（CEO）",
       "url": "mailto:daniel@loopring.org"
     },
     {
       "name": "周杰",
       "title": "联合创始人，首席营销官（CMO）",
-      "url": "mailto:jay@loopring.org"
-    },
-    {
-      "name": "陈晓亮",
-      "title": "联合创始人",
       "url": "mailto:jay@loopring.org"
     },
     {
@@ -23,18 +18,18 @@
     },
     {
       "name": "马超",
-      "title": "首席科学家",
+      "title": "首席科学家（Chief Scientist）",
       "url": "mailto:hoss@loopring.org"
+    },
+        {
+      "name": "Brecht Devos",
+      "title": "首席架构师（Chief Architect）",
+      "url": "mailto:brecht@loopring.org"
     },
     {
       "name": "Matthew Finestone",
       "title": "商务拓展总监",
       "url": "mailto:matthew@loopring.org"
-    },
-    {
-      "name": "Brecht Devos",
-      "title": "协议架构师",
-      "url": "mailto:brecht@loopring.org"
     },
     {
       "name": "钟孔亮",
