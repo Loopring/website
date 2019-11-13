@@ -29,12 +29,18 @@
             "org": "路印基金会",
             "url": "https://github.com/letsgoustc",
             "hash": "0x8ffdb4d916eb885a59198430f5e3a75fe8f3492cfc1c5afc70f90b497ba7c4f1"
+        },
+        {
+            "name": "Koh Wei Jie",
+            "org": "以太坊基金会",
+            "url": "https://medium.com/@weijiek",
+            "hash": "0x252688dd371ad931552bbd3caec0976f9423df0853a9420ce9ad104e1f575ca2"
         }],
         "running": [
             {
-                "name": "Koh Wei Jie",
-                "org": "以太坊基金会",
-                "url": "https://medium.com/@weijiek",
+                "name": "Anton Buenavista",
+                "org": "Kyber Network",
+                "url": "https://twitter.com/ayobuenavista",
                 "hash": "000000000000000000000000000000000000000000000000000000000000000000"
             }
         ],
@@ -82,12 +88,7 @@
                 "url": "https://twitter.com/evan_van_ness",
                 "hash": "000000000000000000000000000000000000000000000000000000000000000000"
             },
-            {
-                "name": "Anton Buenavista",
-                "org": "Kyber Network",
-                "url": "https://twitter.com/ayobuenavista",
-                "hash": "000000000000000000000000000000000000000000000000000000000000000000"
-            },
+
             {
                 "name": "郭宇",
                 "org": "安比实验室",
