@@ -8,7 +8,11 @@
         "preparing": "正在准备"
     },
     "morePeople": "我们正在邀请更多人参与该仪式。",
-    "instructions": "您可以访问路印的Github<a href='https://github.com/Loopring/trusted_setup'>代码库</a>以获取更多信息。",
+    "instructions": [
+    "您可以访问路印的Github<a href='https://github.com/Loopring/trusted_setup'>代码库</a>以获取更多信息。",
+    "各位参与者：我们会与您沟通参会顺序，但会优先考虑已加入 Keybase 上 <b>loopringceremony</b> 团队的朋友们。"
+
+    ],
     "participants":
     {
         "setup": [
@@ -35,12 +39,19 @@
             "org": "以太坊基金会",
             "url": "https://medium.com/@weijiek",
             "hash": "0x252688dd371ad931552bbd3caec0976f9423df0853a9420ce9ad104e1f575ca2"
-        }],
+        },
+         {
+            "name": "Anton Buenavista",
+            "org": "Kyber Network",
+            "url": "https://twitter.com/ayobuenavista",
+            "hash": "0xdf2c8c46e8dba15e5cd470611b1943e326c780f10143fd8d0daf02ee42f6feef"
+        }
+        ],
         "running": [
-            {
-                "name": "Anton Buenavista",
-                "org": "Kyber Network",
-                "url": "https://twitter.com/ayobuenavista",
+   {
+                "name": "Garrett MacDonald",
+                "org": "Tuku",
+                "url": "https://twitter.com/bitcoingarrett",
                 "hash": "000000000000000000000000000000000000000000000000000000000000000000"
             }
         ],
@@ -183,12 +194,6 @@
                 "name": "Ryan Lee",
                 "org": "York University",
                 "url": "http://yorku.academia.edu/RyanLee",
-                "hash": "000000000000000000000000000000000000000000000000000000000000000000"
-            },
-            {
-                "name": "Garret MacDonald",
-                "org": "Tuku",
-                "url": "https://twitter.com/bitcoingarrett",
                 "hash": "000000000000000000000000000000000000000000000000000000000000000000"
             }
         ]

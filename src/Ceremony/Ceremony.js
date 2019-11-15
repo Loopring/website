@@ -51,12 +51,16 @@ class Ceremony extends JsonI18nComponent {
                 </div>
               </div>
               <div data-aos="fade-up" className="column has-text-centered is-8">
-                <div
-                  className="instructions"
-                  dangerouslySetInnerHTML={{
-                    __html: this.state.I.instructions
-                  }}
-                />
+                <div className="instructions">
+                  {this.state.I.instructions.map((instruction, idx) => (
+                    <p
+                      key={idx}
+                      dangerouslySetInnerHTML={{
+                        __html: instruction
+                      }}
+                    />
+                  ))}
+                </div>
 
                 {this.state.I.participants.setup.map((participant, idx) => (
                   <Participant

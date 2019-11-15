@@ -8,7 +8,10 @@
         "preparing": "In preparation"
     },
     "morePeople": "We are inviting more participants to join the ceremony. ",
-    "instructions": "Please visit our Github <a href='https://github.com/Loopring/trusted_setup'>repository</a> for more information.",
+    "instructions": [
+    "Please visit our Github <a href='https://github.com/Loopring/trusted_setup'>repository</a> for more information.",
+"Participants, please follow our instructions and join the <b>loopringceremony</b> team on Keybase for priority.."
+    ],
     "participants":
     {
         "setup": [
@@ -35,14 +38,21 @@
             "org": "Ethereum Foundation",
             "url": "https://medium.com/@weijiek",
             "hash": "0x252688dd371ad931552bbd3caec0976f9423df0853a9420ce9ad104e1f575ca2"
-        }],
-        "running": [
-        {
+        }, {
             "name": "Anton Buenavista",
             "org": "Kyber Network",
             "url": "https://twitter.com/ayobuenavista",
-            "hash": "000000000000000000000000000000000000000000000000000000000000000000"
-        }],
+            "hash": "0xdf2c8c46e8dba15e5cd470611b1943e326c780f10143fd8d0daf02ee42f6feef"
+        }
+        ],
+        "running": [
+           {
+                "name": "Garrett MacDonald",
+                "org": "Tuku",
+                "url": "https://twitter.com/bitcoingarrett",
+                "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+            }
+       ],
         "waiting": [
             {
                 "name": "Arnaud Schenk",
@@ -181,12 +191,6 @@
                 "name": "Ryan Lee",
                 "org": "York University",
                 "url": "http://yorku.academia.edu/RyanLee",
-                "hash": "000000000000000000000000000000000000000000000000000000000000000000"
-            },
-            {
-                "name": "Garret MacDonald",
-                "org": "Tuku",
-                "url": "https://twitter.com/bitcoingarrett",
                 "hash": "000000000000000000000000000000000000000000000000000000000000000000"
             }
         ]
