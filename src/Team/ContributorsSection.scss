@@ -2,9 +2,9 @@
 @import "../Variables.scss";
 
 .section-contributors {
-        h1 {
-        user-select: none;
-    }
+  h1 {
+    user-select: none;
+  }
   @include desktop {
     .name {
       display: inline-block;
