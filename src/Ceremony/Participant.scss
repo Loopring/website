@@ -4,15 +4,14 @@
 
 .setup-participant {
   background-color: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  color: rgba(255,255,255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   margin-top: 4px !important;
   font-size: 0.9rem;
   font-weight: 700;
 
   &.gitcoin {
-    // color: yellow!important;
-     background-color: #3fafff;
+    // background-color: #3fafff;
+    color: gold;
   }
 
   &.done {
