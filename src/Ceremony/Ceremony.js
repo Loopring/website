@@ -65,6 +65,7 @@ class Ceremony extends JsonI18nComponent {
                 {this.state.I.participants.setup.map((participant, idx) => (
                   <Participant
                     key={idx}
+                    cat={participant.cat}
                     name={participant.name}
                     org={participant.org}
                     hash={participant.hash}
@@ -75,6 +76,7 @@ class Ceremony extends JsonI18nComponent {
                 {this.state.I.participants.done.map((participant, idx) => (
                   <Participant
                     key={idx}
+                    cat={participant.cat}
                     name={participant.name}
                     org={participant.org}
                     hash={participant.hash}
@@ -85,6 +87,7 @@ class Ceremony extends JsonI18nComponent {
                 {this.state.I.participants.running.map((participant, idx) => (
                   <Participant
                     key={idx}
+                    cat={participant.cat}
                     name={participant.name}
                     org={participant.org}
                     hash={participant.hash}
@@ -95,6 +98,7 @@ class Ceremony extends JsonI18nComponent {
                 {this.state.I.participants.waiting.map((participant, idx) => (
                   <Participant
                     key={idx}
+                    cat={participant.cat}
                     name={participant.name}
                     org={participant.org}
                     hash={participant.hash}

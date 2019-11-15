@@ -4,10 +4,16 @@
 
 .setup-participant {
   background-color: rgba(0, 0, 0, 0.2);
-  color: $white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(255,255,255, 0.8);
   margin-top: 4px !important;
   font-size: 0.9rem;
   font-weight: 700;
+
+  &.gitcoin {
+    // color: yellow!important;
+     background-color: #3fafff;
+  }
 
   &.done {
     background-color: $black;
@@ -29,11 +35,5 @@
   .hash {
     font-family: monospace;
     overflow: hidden;
-  }
-
-  &.waiting {
-    .hash {
-      opacity: 0.5;
-    }
   }
 }

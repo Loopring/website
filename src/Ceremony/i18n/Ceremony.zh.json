@@ -84,6 +84,12 @@
         "org": "Cosmos",
         "url": "https://twitter.com/sunnya97",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },      {
+        "name": "悬赏赢家",
+        "org": "Gitcoin",
+        "url": "https://gitcoin.co/issue/Loopring/trusted_setup/11/3700",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000",
+        "cat": "gitcoin"
       },
       {
         "name": "Kerman Kohli",
@@ -192,6 +198,11 @@
         "name": "Ryan Lee",
         "org": "York University",
         "url": "http://yorku.academia.edu/RyanLee",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },  {
+        "name": "Piotr Janiuk",
+        "org": "Golem Factory",
+        "url": "mailto:viggith@golem.network",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       }
     ]
