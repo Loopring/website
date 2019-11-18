@@ -43,12 +43,14 @@
         "org": "Kyber Network",
         "url": "https://twitter.com/ayobuenavista",
         "hash": "0xdf2c8c46e8dba15e5cd470611b1943e326c780f10143fd8d0daf02ee42f6feef"
-      },  {
+      },
+      {
         "name": "Garrett MacDonald",
         "org": "Tuku",
         "url": "https://twitter.com/bitcoingarrett",
         "hash": "0x104cbca805a131a7538267d1b41572df2c0952e495f95e6e3fb5725011bd1ab8"
-      },      {
+      },
+      {
         "name": "Vany Serezhkin",
         "org": "INSOLAR",
         "url": "https://nz.linkedin.com/in/serezhkin",
@@ -56,9 +58,7 @@
       }
     ],
     "running": [
-
-
-          {
+      {
         "name": "Francois Proulx",
         "org": "dfuse",
         "url": "https://twitter.com/francoisproulx",
