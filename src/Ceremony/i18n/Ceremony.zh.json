@@ -55,13 +55,19 @@
         "org": "INSOLAR",
         "url": "https://nz.linkedin.com/in/serezhkin",
         "hash": "0xe7645078f85058f7855fe0d42ccfc232237ac7ee954c984f506626694a9977b3"
-      }
-    ],
-    "running": [
-      {
+      },
+        {
         "name": "Francois Proulx",
         "org": "dfuse",
         "url": "https://twitter.com/francoisproulx",
+        "hash": "0x59949a49eac6e74506daee86b3a1212018dea2b39a2c6bf2ec862448c2666b6f"
+      }
+    ],
+    "running": [
+   {
+        "name": "郭宇",
+        "org": "安比实验室",
+        "url": "https://github.com/gy001",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       }
     ],
@@ -108,13 +114,6 @@
         "name": "Evan Van Ness",
         "org": "Week In Ethereum",
         "url": "https://twitter.com/evan_van_ness",
-        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
-      },
-
-      {
-        "name": "郭宇",
-        "org": "安比实验室",
-        "url": "https://github.com/gy001",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       },
       {
