@@ -48,13 +48,18 @@
         "org": "Tuku",
         "url": "https://twitter.com/bitcoingarrett",
         "hash": "0x104cbca805a131a7538267d1b41572df2c0952e495f95e6e3fb5725011bd1ab8"
-      }
-    ],
-    "running": [
-    {
+      },{
         "name": "Vany Serezhkin",
         "org": "INSOLAR",
         "url": "https://nz.linkedin.com/in/serezhkin",
+        "hash": "0xe7645078f85058f7855fe0d42ccfc232237ac7ee954c984f506626694a9977b3"
+      }
+    ],
+    "running": [
+        {
+        "name": "Francois Proulx",
+        "org": "dfuse",
+        "url": "https://twitter.com/francoisproulx",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       }
     ],
@@ -70,12 +75,6 @@
         "name": "Harry Kalodner",
         "org": "Offchain Labs",
         "url": "https://twitter.com/hkalodner",
-        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
-      },
-      {
-        "name": "Francois Proulx ",
-        "org": "dfuse",
-        "url": "https://twitter.com/francoisproulx",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       },
       {
