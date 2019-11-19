@@ -60,15 +60,15 @@
         "org": "dfuse",
         "url": "https://twitter.com/francoisproulx",
         "hash": "0x59949a49eac6e74506daee86b3a1212018dea2b39a2c6bf2ec862448c2666b6f"
-      }
-    ],
-    "running": [
-   {
+      },   {
         "name": "Guo Yu",
         "org": "SECBIT Labs",
         "url": "https://github.com/gy001",
-        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+        "hash": "0x32fb38b94649ec68ceb7c2516eaa90c6cdddfd54a4b96f55f82d12ed21c62c0b"
       }
+    ],
+    "running": [
+
     ],
     "waiting": [
       {
