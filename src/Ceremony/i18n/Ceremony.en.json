@@ -68,7 +68,12 @@
       }
     ],
     "running": [
-
+  {
+        "name": "Daniel Wang",
+        "org": "Loopring",
+        "url": "https://twitter.com/daniel_loopring",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      }
     ],
     "waiting": [
       {
