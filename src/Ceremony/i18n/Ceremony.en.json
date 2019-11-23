@@ -74,21 +74,24 @@
             "org": "Loopring",
             "url": "https://twitter.com/daniel_loopring",
             "hash": "0x07eb94fe191c3181e80111c969d517679628986ab153a19bdc8260610511ea84"
-        }],
-        "running": [
+        },
         {
             "name": "Felix Leupold",
             "org": "Gnosis",
             "url": "https://github.com/fleupold",
-            "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+            "hash": "0x28a2eb9a68639bdc81a9529c69008a71efda2009e0dd63d012679ad4d463f31e"
         }],
-        "waiting": [
+        "running": [
+
             {
                 "name": "Arnaud Schenk",
                 "org": "AZTEC Protocol",
                 "url": "https://twitter.com/_arnauds_",
                 "hash": "000000000000000000000000000000000000000000000000000000000000000000"
-            },
+            }
+        ],
+        "waiting": [
+
             {
                 "name": "Manuel Garcia",
                 "org": "Protofire",
