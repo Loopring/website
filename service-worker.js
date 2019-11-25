@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "//loopring.org/precache-manifest.879f0d39f6033a3be4ab184a2e6eb9fc.js"
+  "//loopring.org/precache-manifest.b93ed05d6241640133d9591b25e784f3.js"
 );
 
 self.addEventListener('message', (event) => {
