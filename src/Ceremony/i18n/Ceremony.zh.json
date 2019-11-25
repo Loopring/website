@@ -97,27 +97,32 @@
       }
     ],
     "running": [
-     {
-        "name": "刘春明",
-        "org": "VITE Labs",
-        "url": "https://twitter.com/chunming_liu",
+         {
+        "name": "James Prestwich",
+        "org": "Summa",
+        "url": "https://twitter.com/_prestwich",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       }
     ],
     "waiting": [
 
-      {
-        "name": "Harry Kalodner",
-        "org": "Offchain Labs",
-        "url": "https://twitter.com/hkalodner",
-        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
-      },
+
       {
         "name": "[悬赏赢家]",
         "org": "Gitcoin",
         "url": "https://gitcoin.co/issue/Loopring/trusted_setup/11/3700",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000",
         "cat": "gitcoin"
+      },      {
+        "name": "Harry Kalodner",
+        "org": "Offchain Labs",
+        "url": "https://twitter.com/hkalodner",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },  {
+        "name": "刘春明",
+        "org": "VITE Labs",
+        "url": "https://twitter.com/chunming_liu",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       },
       {
         "name": "Sunny Aggarwal",
@@ -161,13 +166,6 @@
         "name": "Petr Korolev",
         "org": "Mixorio",
         "url": "https://twitter.com/skywinder",
-        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
-      },
-
-      {
-        "name": "James Prestwich",
-        "org": "Summa",
-        "url": "https://twitter.com/_prestwich",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       },
       {
