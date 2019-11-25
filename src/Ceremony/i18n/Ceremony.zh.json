@@ -97,7 +97,12 @@
       }
     ],
     "running": [
-
+     {
+        "name": "刘春明",
+        "org": "VITE Labs",
+        "url": "https://twitter.com/chunming_liu",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      }
     ],
     "waiting": [
 
@@ -158,12 +163,7 @@
         "url": "https://twitter.com/skywinder",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       },
-      {
-        "name": "刘春明",
-        "org": "VITE Labs",
-        "url": "https://twitter.com/chunming_liu",
-        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
-      },
+
       {
         "name": "James Prestwich",
         "org": "Summa",

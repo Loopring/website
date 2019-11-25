@@ -98,6 +98,12 @@
       }
     ],
     "running": [
+          {
+        "name": "Liu Chunming",
+        "org": "VITE Labs",
+        "url": "https://twitter.com/chunming_liu",
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      }
 
     ],
     "waiting": [
@@ -156,12 +162,6 @@
         "name": "Petr Korolev",
         "org": "Mixorio",
         "url": "https://twitter.com/skywinder",
-        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
-      },
-      {
-        "name": "Liu Chunming",
-        "org": "VITE Labs",
-        "url": "https://twitter.com/chunming_liu",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       },
       {
