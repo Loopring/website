@@ -90,18 +90,17 @@
         "org": "Protofire",
         "url": "https://twitter.com/rmgarciap",
         "hash": "0x43b3f417693241456a8d6fec85300d5170bb5728439cde9eea445faba273498a"
-      }
-    ],
-    "running": [
-    {
+      },    {
         "name": "Chris Wessels",
         "org": "Consensys",
         "url": "https://twitter.com/undefinedza",
-        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+        "hash": "0x1353586b5aeae753c5d2cdbec5751430a6998dc5bc6b3a384e67eddaa886dab2"
       }
     ],
-    "waiting": [
+    "running": [
 
+    ],
+    "waiting": [
       {
         "name": "Harry Kalodner",
         "org": "Offchain Labs",
