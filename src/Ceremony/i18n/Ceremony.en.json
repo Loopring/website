@@ -95,26 +95,26 @@
         "org": "Consensys",
         "url": "https://twitter.com/undefinedza",
         "hash": "0x1353586b5aeae753c5d2cdbec5751430a6998dc5bc6b3a384e67eddaa886dab2"
-      }
-    ],
-    "running": [
-    {
+      },    {
         "name": "James Prestwich",
         "org": "Summa",
         "url": "https://twitter.com/_prestwich",
-        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+        "hash": "0x24174aadc7085a98c32c2dc3b0e9eaa409cf9900991fb987041fc5f34b2ddd36"
       }
-
     ],
-    "waiting": [
-
-      {
+    "running": [
+  {
         "name": "[Bounty Winner]",
         "org": "Gitcoin",
         "url": "https://gitcoin.co/issue/Loopring/trusted_setup/11/3700",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000",
         "cat": "gitcoin"
-      },    {
+      }
+
+    ],
+    "waiting": [
+
+       {
         "name": "Harry Kalodner",
         "org": "Offchain Labs",
         "url": "https://twitter.com/hkalodner",
