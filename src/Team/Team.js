@@ -1,6 +1,6 @@
 import React from "react";
 
-import Header from "../Components/Header";
+import DarkHeader from "../Components/DarkHeader";
 import Footer from "../Components/Footer";
 
 import CoreTeamSection from "./CoreTeamSection";
@@ -14,7 +14,7 @@ class Team extends React.Component {
   render() {
     return (
       <div className="page-team">
-        <Header />
+        <DarkHeader />
         <CoreTeamSection />
         <GroupPhotoSection />
         <ContributorsSection />
