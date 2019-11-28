@@ -149,8 +149,7 @@ class TokenInfoSection extends JsonI18nComponent {
                     </li>
                   ))}
 
-                  {/* <li className="coming-soon highlighted">*/}
-                  <li className="coming-soon">
+                  {/*        <li className="coming-soon">
                     <a disabled rel="noopener noreferrer">
                       <span className="has-leading-thin-arrow exchange-name">
                         WeDEX
@@ -158,9 +157,17 @@ class TokenInfoSection extends JsonI18nComponent {
                     </a>
                     <span className="tag">LRC/ETH</span>
                     <span className="tag">LRC/USDT</span>
-
-                    <div className="footnote">{this.state.I.wedexFootnote}</div>
                   </li>
+
+                  <li className="coming-soon">
+                    <a disabled rel="noopener noreferrer">
+                      <span className="has-leading-thin-arrow exchange-name">
+                        Hebao
+                      </span>
+                    </a>
+                    <span className="tag">LRC/ETH</span>
+                    <span className="tag">LRC/USDT</span>
+                  </li>*/}
                 </ul>
               </div>
 
