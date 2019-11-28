@@ -149,7 +149,8 @@ class TokenInfoSection extends JsonI18nComponent {
                     </li>
                   ))}
 
-                  <li className="coming-soon highlighted">
+                  {/* <li className="coming-soon highlighted">*/}
+                  <li className="coming-soon">
                     <a disabled rel="noopener noreferrer">
                       <span className="has-leading-thin-arrow exchange-name">
                         WeDEX
