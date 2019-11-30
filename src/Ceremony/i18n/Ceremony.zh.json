@@ -2,7 +2,7 @@
   "heading1": "零知可信设置",
   "heading2": "多方计算仪式",
   "status": {
-    "running": "正为路印协议3.0beta4计算",
+    "running": "3.0beta4的多方计算已完成第一阶段目标，但会持续进行...",
     "completed": "已经结束",
     "preparing": "正在准备"
   },
@@ -79,22 +79,26 @@
         "org": "Gnosis",
         "url": "https://github.com/fleupold",
         "hash": "0x28a2eb9a68639bdc81a9529c69008a71efda2009e0dd63d012679ad4d463f31e"
-      },      {
+      },
+      {
         "name": "Arnaud Schenk",
         "org": "AZTEC Protocol",
         "url": "https://twitter.com/_arnauds_",
         "hash": "0x0f51b1640e6fda9e69297f4805f00ad98f8109649667af58934599935d8b2df3"
-      },  {
+      },
+      {
         "name": "Manuel Garcia",
         "org": "Protofire",
         "url": "https://twitter.com/rmgarciap",
         "hash": "0x43b3f417693241456a8d6fec85300d5170bb5728439cde9eea445faba273498a"
-      },   {
+      },
+      {
         "name": "Chris Wessels",
         "org": "Consensys",
         "url": "https://twitter.com/undefinedza",
         "hash": "0x1353586b5aeae753c5d2cdbec5751430a6998dc5bc6b3a384e67eddaa886dab2"
-      },    {
+      },
+      {
         "name": "James Prestwich",
         "org": "Summa",
         "url": "https://twitter.com/_prestwich",
