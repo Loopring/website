@@ -1,6 +1,5 @@
 import React from "react";
 
-import DarkHeader from "../Components/DarkHeader";
 import "./Ceremony.scss";
 
 import Participant from "./Participant";
@@ -24,8 +23,6 @@ class Ceremony extends JsonI18nComponent {
 
     return (
       <div className="page-ceremony">
-        <DarkHeader />
-
         <section className="section section-terminal is-small">
           <div className="container">
             <div className="columns is-multiline is-centered">
