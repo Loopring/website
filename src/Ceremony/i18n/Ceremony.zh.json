@@ -103,23 +103,25 @@
         "org": "Summa",
         "url": "https://twitter.com/_prestwich",
         "hash": "0x24174aadc7085a98c32c2dc3b0e9eaa409cf9900991fb987041fc5f34b2ddd36"
+      },     {
+        "name": "李伟超",
+        "org": "VITE Labs",
+        "hash": "0x75e1a37e90ba669a62d02f030c6bd84042aafdb9adc488153c899173d1f057e1"
       }
     ],
     "running": [
-      {
-        "name": "李伟超",
-        "org": "VITE Labs",
-        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
-      }
-    ],
-    "waiting": [
-      {
+
+    {
         "name": "[悬赏赢家]",
         "org": "Gitcoin",
         "url": "https://gitcoin.co/issue/Loopring/trusted_setup/11/3700",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000",
         "cat": "gitcoin"
-      },
+      }
+    ],
+    "waiting": [
+
+
       {
         "name": "Harry Kalodner",
         "org": "Offchain Labs",
