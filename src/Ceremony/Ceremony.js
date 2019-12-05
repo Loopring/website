@@ -48,6 +48,17 @@ class Ceremony extends JsonI18nComponent {
                 </div>
               </div>
               <div data-aos="fade-up" className="column has-text-centered is-8">
+                {this.state.I.participants.phase1.map((participant, idx) => (
+                  <Participant
+                    key={idx}
+                    cat={participant.cat}
+                    name={participant.name}
+                    org={participant.org}
+                    hash={participant.hash}
+                    status="done"
+                  />
+                ))}
+
                 <div className="instructions">
                   {this.state.I.instructions.map((instruction, idx) => (
                     <p
@@ -58,17 +69,6 @@ class Ceremony extends JsonI18nComponent {
                     />
                   ))}
                 </div>
-
-                {this.state.I.participants.setup.map((participant, idx) => (
-                  <Participant
-                    key={idx}
-                    cat={participant.cat}
-                    name={participant.name}
-                    org={participant.org}
-                    hash={participant.hash}
-                    status="done"
-                  />
-                ))}
 
                 {this.state.I.participants.done.map((participant, idx) => (
                   <Participant

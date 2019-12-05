@@ -12,7 +12,7 @@ class CeremonySection extends JsonI18nComponent {
   }
 
   render() {
-    return this.state.I.participants.done.length === 0 ? (
+    return this.state.I.participants.phase1.length === 0 ? (
       <span />
     ) : (
       <section className="section section-ceremony is-large  has-background-primary-dark">
@@ -28,7 +28,7 @@ class CeremonySection extends JsonI18nComponent {
             </div>
             <div data-aos="fade-up" className="column is-7">
               <ul>
-                {this.state.I.participants.done.map((participant, idx) => (
+                {this.state.I.participants.phase1.map((participant, idx) => (
                   <li key={idx}>
                     <a
                       className="highlight has-leading-thin-arrow"

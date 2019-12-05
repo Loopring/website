@@ -1,6 +1,6 @@
 import React from "react";
 
-import DarkHeader from "../Components/DarkHeader";
+import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
 import PerformanceSection from "./PerformanceSection";
@@ -16,11 +16,11 @@ class Protocol extends React.Component {
   render() {
     return (
       <div className="page-protocol">
-        <DarkHeader />
-        <Ceremony />
+        <Header />
         <PerformanceSection />
         <DesignSection />
         <DeploymentOptionsSection />
+        <Ceremony />
         <Footer />
       </div>
     );

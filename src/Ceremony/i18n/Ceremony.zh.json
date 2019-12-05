@@ -2,24 +2,16 @@
   "heading1": "零知可信设置",
   "heading2": "多方计算仪式",
   "status": {
-    "running": "3.0beta4的多方计算已完成第一阶段目标，但会持续进行...",
+    "running": "3.0-beta4的多方计算已完成预定的15轮计算目标。",
     "completed": "已经结束",
     "preparing": "正在准备"
   },
   "morePeople": "我们正在邀请更多人参与该仪式。",
   "instructions": [
-    "您可以访问路印的Github<a href='https://github.com/Loopring/trusted_setup'>代码库</a>以获取更多信息。",
-    "我们会与每位参与者沟通参与顺序，但会优先考虑已加入Keybase上<b>loopringceremony</b> Team的朋友们。"
+    "后续计算会根据需求进行。以下列表显示愿意继续参与路印多方计算的朋友："
   ],
   "participants": {
-    "setup": [
-      {
-        "name": "【初始参数准备】",
-        "org": "路印基金会",
-        "hash": "0xdac4d06092381a8f43a38bac743582ff06c2a8a193cc390c58cf0f6b87f972dc"
-      }
-    ],
-    "done": [
+    "phase1": [
       {
         "name": "Brecht Devos",
         "org": "路印基金会",
@@ -109,18 +101,16 @@
         "hash": "0x75e1a37e90ba669a62d02f030c6bd84042aafdb9adc488153c899173d1f057e1"
       }
     ],
+     "done": [],
     "running": [
-
+    ],
+    "waiting": [
     {
         "name": "【悬赏赢家】",
         "org": "Gitcoin",
         "url": "https://gitcoin.co/issue/Loopring/trusted_setup/11/3700",
-        "hash": "000000000000000000000000000000000000000000000000000000000000000000",
-        "cat": "gitcoin"
-      }
-    ],
-    "waiting": [
-
+        "hash": "000000000000000000000000000000000000000000000000000000000000000000"
+      },
 
       {
         "name": "Harry Kalodner",
@@ -234,8 +224,8 @@
     ]
   },
   "teamPage": {
-    "heading1": "零知可信设置",
-    "heading2": "多方计算仪式",
-    "heading3": "参与者"
+    "heading1": "路印协议3.0",
+    "heading2": "可信设置",
+    "heading3": "参与人员"
   }
 }
