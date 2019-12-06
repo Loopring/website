@@ -2,13 +2,13 @@
   "heading1": "zkSNARK Trusted Setup",
   "heading2": "Multi-Party Computation Ceremony",
   "status": {
-    "running": "Ceremony for 3.0-beta4 has completed with 15 participation.",
+    "running": "The ceremony for 3.0-beta4 has completed with 15 participants.",
     "completed": "Completed",
     "preparing": "In preparation"
   },
   "morePeople": "We are inviting more participants to join the ceremony. ",
   "instructions": [
-    "Furthur computations will run on demaond. The following people are likely to participate in future rounds:"
+    "Furthur computations will run on demand. The following people are likely to participate in future rounds:"
   ],
   "participants": {
     "phase1": [
