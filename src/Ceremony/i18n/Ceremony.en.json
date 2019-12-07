@@ -103,14 +103,14 @@
       }
     ],
     "done": [],
-    "running": [],
-    "waiting": [
-      {
+    "running": [{
         "name": "[Bounty Winner]",
         "org": "Gitcoin",
         "url": "https://gitcoin.co/issue/Loopring/trusted_setup/11/3700",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
-      },
+      }],
+    "waiting": [
+
       {
         "name": "Harry Kalodner",
         "org": "Offchain Labs",
