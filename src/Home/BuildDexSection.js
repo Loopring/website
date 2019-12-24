@@ -36,7 +36,7 @@ class BuildDexSection extends JsonI18nComponent {
                       <span className="heading-number">1 /</span>{" "}
                       {this.state.I.option1.title}
                     </h2>
-                    <div class="details has-text-left">
+                    <div className="details has-text-left">
                       <p
                         dangerouslySetInnerHTML={{
                           __html: this.state.I.option1.details
@@ -45,7 +45,7 @@ class BuildDexSection extends JsonI18nComponent {
                     </div>
                     <a
                       href="https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/BACKEND.md"
-                      class="button is-outlined left"
+                      className="button is-outlined left"
                     >
                       {this.state.I.option1.action}
                     </a>
@@ -58,7 +58,7 @@ class BuildDexSection extends JsonI18nComponent {
                       <span className="heading-number">2 /</span>{" "}
                       {this.state.I.option2.title}
                     </h2>
-                    <div class="details has-text-left">
+                    <div className="details has-text-left">
                       <p
                         dangerouslySetInnerHTML={{
                           __html: this.state.I.option2.details
@@ -67,7 +67,7 @@ class BuildDexSection extends JsonI18nComponent {
                     </div>
                     <a
                       href="https://lightcone.io"
-                      class="button is-outlined right"
+                      className="button is-outlined right"
                     >
                       {this.state.I.option2.action}
                     </a>
