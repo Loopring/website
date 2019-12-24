@@ -17,6 +17,33 @@ class Footer extends I18nComponent {
     return (
       <footer className="footer is-centered has-background-white">
         <div className="container is-centered has-text-centered">
+          <div className="columns is-centered is-vcentered">
+            <div className="column is-4  is-centered is-vcentered has-text-centered">
+              <div class="field">
+                <div class="control has-icons-left has-icons-right">
+                  <input
+                    class="input is-danger"
+                    type="email"
+                    placeholder="Email input"
+                    value="hello@"
+                  />
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-exclamation-triangle"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="column is-4  is-centered is-vcentered has-text-centered">
+              <div class="field">
+                <div class="control">
+                  <button class="button is-link">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
           <ul>
             <li>
               <a href="mailto:foundation@loopring.org">
