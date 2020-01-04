@@ -14,13 +14,13 @@ class PerformanceSection extends I18nComponent {
     super(props, englishTranslation, chineseTranslation);
     this.state = {
       throughput: 1000,
-      cost: this.isChinese() ? 0.015 : 0.002
+      cost: this.isChinese() ? 0.035 : 0.005
     };
   }
 
   componentDidMount() {
     setTimeout(() => this.setState({ throughput: 1400 }), 50);
-    // setTimeout(data => this.setState({ cost: 0.002 }), 1000);
+    // setTimeout(data => this.setState({ cost: 0.005 }), 1000);
   }
 
   render() {
