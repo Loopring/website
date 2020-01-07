@@ -34,7 +34,7 @@ class Footer extends JsonI18nComponent {
     return (
       <footer className="footer is-centered has-background-white">
         <div className="container is-centered has-text-centered">
-          <div className="columns is-centered is-vcentered">
+          {/* <div className="columns is-centered is-vcentered">
             <div className="column is-4  is-right is-vcentered has-text-centered">
               <div className="field">
                 <div className="control has-icons-left has-icons-right">
@@ -63,7 +63,7 @@ class Footer extends JsonI18nComponent {
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
           <ul>
             <li>
               <a href="mailto:foundation@loopring.org">{this.state.I.email}</a>
