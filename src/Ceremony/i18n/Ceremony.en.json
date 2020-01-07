@@ -102,15 +102,16 @@
         "hash": "0x75e1a37e90ba669a62d02f030c6bd84042aafdb9adc488153c899173d1f057e1"
       }
     ],
-    "done": [{
+    "done": [
+      {
         "name": "Rachid Moulakhnif",
         "org": "Gitcoin",
         "url": "https://gitcoin.co/issue/Loopring/trusted_setup/11/3700",
         "hash": "0x5950c73cfb47e041ccd91c5a4c62e3ddc2f004c4d3e98bbd5bb596a4ef385df4"
-      }],
+      }
+    ],
     "running": [],
     "waiting": [
-
       {
         "name": "Harry Kalodner",
         "org": "Offchain Labs",

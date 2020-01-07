@@ -54,4 +54,30 @@
       margin: 10px;
     }
   }
+
+  div.field {
+    display: inline-block;
+    padding: 0 10px 0 10px;
+  }
+
+  .input {
+    background-color: white !important;
+    color: $grey;
+    min-width: 120px;
+  }
+
+  .input:focus,
+  .input:active {
+    border-color: $primary;
+    box-shadow: 0 0 0 0.125em rgba($primary, 0.2);
+    color: $black;
+  }
+
+  .button.is-link {
+    background-color: $grey;
+  }
+
+  .button.is-link:hover {
+    background-color: $primary;
+  }
 }
