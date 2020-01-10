@@ -1,7 +1,7 @@
 {
   "subNavigation": {
     "all": "All",
-    "biweekly": "Bi-Weekly",
+    "biweekly": "Updates",
     "loopring30": "Loopring 3.0",
     "learning": "Learning Series",
     "thoughts": "Thoughts",
@@ -9,7 +9,7 @@
   },
   "groupTagMapping": {
     "all": "loopring",
-    "biweekly": "biweekly",
+    "biweekly": "Updates",
     "loopring30": "loopring30",
     "learning": "learning",
     "thoughts": "thoughts",
