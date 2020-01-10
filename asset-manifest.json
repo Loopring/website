@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "//loopring.org/static/css/main.646c2634.chunk.css",
-    "main.js": "//loopring.org/static/js/main.1eeb0bef.chunk.js",
-    "main.js.map": "//loopring.org/static/js/main.1eeb0bef.chunk.js.map",
-    "runtime-main.js": "//loopring.org/static/js/runtime-main.d8b59f6b.js",
-    "runtime-main.js.map": "//loopring.org/static/js/runtime-main.d8b59f6b.js.map",
+    "main.css": "//loopring.org/static/css/main.307b7c77.chunk.css",
+    "main.js": "//loopring.org/static/js/main.214fc360.chunk.js",
+    "main.js.map": "//loopring.org/static/js/main.214fc360.chunk.js.map",
+    "runtime-main.js": "//loopring.org/static/js/runtime-main.7cb4d7f0.js",
+    "runtime-main.js.map": "//loopring.org/static/js/runtime-main.7cb4d7f0.js.map",
     "static/css/2.7abef457.chunk.css": "//loopring.org/static/css/2.7abef457.chunk.css",
-    "static/js/2.b7f02c8e.chunk.js": "//loopring.org/static/js/2.b7f02c8e.chunk.js",
-    "static/js/2.b7f02c8e.chunk.js.map": "//loopring.org/static/js/2.b7f02c8e.chunk.js.map",
+    "static/js/2.7bb1bb63.chunk.js": "//loopring.org/static/js/2.7bb1bb63.chunk.js",
+    "static/js/2.7bb1bb63.chunk.js.map": "//loopring.org/static/js/2.7bb1bb63.chunk.js.map",
     "index.html": "//loopring.org/index.html",
-    "precache-manifest.3d4dab807f0ce6c551691bf9c675bfc0.js": "//loopring.org/precache-manifest.3d4dab807f0ce6c551691bf9c675bfc0.js",
+    "precache-manifest.cf1830363a5af37e83952cc668595840.js": "//loopring.org/precache-manifest.cf1830363a5af37e83952cc668595840.js",
     "service-worker.js": "//loopring.org/service-worker.js",
     "static/css/2.7abef457.chunk.css.map": "//loopring.org/static/css/2.7abef457.chunk.css.map",
-    "static/css/main.646c2634.chunk.css.map": "//loopring.org/static/css/main.646c2634.chunk.css.map",
+    "static/css/main.307b7c77.chunk.css.map": "//loopring.org/static/css/main.307b7c77.chunk.css.map",
     "static/media/index.scss": "//loopring.org/static/media/363123_2_0.564e5e19.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.d8b59f6b.js",
+    "static/js/runtime-main.7cb4d7f0.js",
     "static/css/2.7abef457.chunk.css",
-    "static/js/2.b7f02c8e.chunk.js",
-    "static/css/main.646c2634.chunk.css",
-    "static/js/main.1eeb0bef.chunk.js"
+    "static/js/2.7bb1bb63.chunk.js",
+    "static/css/main.307b7c77.chunk.css",
+    "static/js/main.214fc360.chunk.js"
   ]
 }
