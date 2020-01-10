@@ -8,6 +8,8 @@ import DeploymentOptionsSection from "./DeploymentOptionsSection";
 import DesignSection from "./DesignSection";
 import ConfigurationSection from "./ConfigurationSection";
 
+import Ceremony from "../Ceremony/Ceremony";
+
 import "./Protocol.scss";
 
 class Protocol extends React.Component {
@@ -18,7 +20,7 @@ class Protocol extends React.Component {
         <PerformanceSection />
         <DesignSection />
         <DeploymentOptionsSection />
-        {/* <ConfigurationSection />*/}
+        <Ceremony />
         <Footer />
       </div>
     );

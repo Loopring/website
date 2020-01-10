@@ -1,5 +1,5 @@
 import React from "react";
-
+import MetaTags from "react-meta-tags";
 import "./Article.scss";
 import "./Ghost.scss";
 import Header from "../Components/Header.js";
@@ -74,6 +74,9 @@ class Article extends React.Component {
       : "/images/post_hero.png";
     return (
       <div>
+        <MetaTags>
+          <meta property="twitter:image" content={featureImg} />
+        </MetaTags>
         <Header />
         <section className="section section-article-heading has-background-white">
           <div className="container">

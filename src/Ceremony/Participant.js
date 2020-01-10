@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import { faYinYang } from "@fortawesome/free-solid-svg-icons";
+import { faCrown } from "@fortawesome/free-solid-svg-icons";
 
 class Participant extends React.Component {
   randomHash() {
@@ -50,16 +51,20 @@ class Participant extends React.Component {
       case "running":
         icon = faYinYang;
         break;
-
       case "preparing":
         icon = faCheckCircle;
         break;
       default:
+        if (this.props.cat === "gitcoin") {
+          icon = faCrown;
+        }
     }
 
     return (
       <div
         className={
+          (this.props.cat || "") +
+          " " +
           this.props.status +
           " columns setup-participant  is-mobile is-centered is-multiline"
         }

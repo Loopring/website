@@ -1,6 +1,5 @@
 import React from "react";
 
-import DarkHeader from "../Components/DarkHeader";
 import "./Ceremony.scss";
 
 import Participant from "./Participant";
@@ -24,8 +23,6 @@ class Ceremony extends JsonI18nComponent {
 
     return (
       <div className="page-ceremony">
-        <DarkHeader />
-
         <section className="section section-terminal is-small">
           <div className="container">
             <div className="columns is-multiline is-centered">
@@ -51,6 +48,17 @@ class Ceremony extends JsonI18nComponent {
                 </div>
               </div>
               <div data-aos="fade-up" className="column has-text-centered is-8">
+                {this.state.I.participants.phase1.map((participant, idx) => (
+                  <Participant
+                    key={idx}
+                    cat={participant.cat}
+                    name={participant.name}
+                    org={participant.org}
+                    hash={participant.hash}
+                    status="done"
+                  />
+                ))}
+
                 <div className="instructions">
                   {this.state.I.instructions.map((instruction, idx) => (
                     <p
@@ -62,19 +70,10 @@ class Ceremony extends JsonI18nComponent {
                   ))}
                 </div>
 
-                {this.state.I.participants.setup.map((participant, idx) => (
-                  <Participant
-                    key={idx}
-                    name={participant.name}
-                    org={participant.org}
-                    hash={participant.hash}
-                    status="done"
-                  />
-                ))}
-
                 {this.state.I.participants.done.map((participant, idx) => (
                   <Participant
                     key={idx}
+                    cat={participant.cat}
                     name={participant.name}
                     org={participant.org}
                     hash={participant.hash}
@@ -85,6 +84,7 @@ class Ceremony extends JsonI18nComponent {
                 {this.state.I.participants.running.map((participant, idx) => (
                   <Participant
                     key={idx}
+                    cat={participant.cat}
                     name={participant.name}
                     org={participant.org}
                     hash={participant.hash}
@@ -95,6 +95,7 @@ class Ceremony extends JsonI18nComponent {
                 {this.state.I.participants.waiting.map((participant, idx) => (
                   <Participant
                     key={idx}
+                    cat={participant.cat}
                     name={participant.name}
                     org={participant.org}
                     hash={participant.hash}
