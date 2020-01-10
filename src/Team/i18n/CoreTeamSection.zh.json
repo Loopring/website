@@ -1,96 +1,96 @@
 {
-  "heading": "核心团队",
-  "members": [
-    {
-      "name": "王东",
-      "title": "创始人，首席执行官（CEO）",
-      "url": "mailto:daniel@loopring.org"
-    },
-    {
-      "name": "周杰",
-      "title": "联合创始人，首席营销官（CMO）",
-      "url": "mailto:jay@loopring.org"
-    },
-    {
-      "name": "郭雄辉",
-      "title": "首席技术官（CTO）",
-      "url": "mailto:steve@loopring.org"
-    },
-    {
-      "name": "马超",
-      "title": "首席科学家（Chief Scientist）",
-      "url": "mailto:hoss@loopring.org"
-    },
-    {
-      "name": "Brecht Devos",
-      "title": "首席架构师（Chief Architect）",
-      "url": "mailto:brecht@loopring.org"
-    },
-    {
-      "name": "Matthew Finestone",
-      "title": "商务拓展总监",
-      "url": "mailto:matthew@loopring.org"
-    },
-    {
-      "name": "钟孔亮",
-      "title": "协议架构师",
-      "url": "mailto:kongliang@loopring.org"
-    },
+    "heading": "核心团队",
+    "members": [
+        {
+            "name": "王东",
+            "title": "创始人，首席执行官（CEO）",
+            "url": "mailto:daniel@loopring.org"
+        },
+        {
+            "name": "周杰",
+            "title": "联合创始人，首席营销官（CMO）",
+            "url": "mailto:jay@loopring.org"
+        },
+        {
+            "name": "Brecht Devos",
+            "title": "首席架构师（Chief Architect）",
+            "url": "mailto:brecht@loopring.org"
+        },
+        {
+            "name": "郭雄辉",
+            "title": "首席技术官（CTO）",
+            "url": "mailto:steve@loopring.org"
+        },
+        {
+            "name": "马超",
+            "title": "首席科学家（Chief Scientist）",
+            "url": "mailto:hoss@loopring.org"
+        },
+        {
+            "name": "Matthew Finestone",
+            "title": "商务拓展总监",
+            "url": "mailto:matthew@loopring.org"
+        },
+        {
+            "name": "钟孔亮",
+            "title": "协议架构师",
+            "url": "mailto:kongliang@loopring.org"
+        },
 
-    {
-      "name": "于红雨",
-      "title": "后台研发工程师",
-      "url": "mailto:hongyu@loopring.org"
-    },
-    {
-      "name": "李亚东",
-      "title": "后台研发工程师",
-      "url": "mailto:yadong@loopring.org"
-    },
-    {
-      "name": "杨立",
-      "title": "研发工程师",
-      "url": "mailto:langyi@loopring.org"
-    },
-    {
-      "name": "吴晓露",
-      "title": "研发工程师",
-      "url": "mailto:xiaolu@loopring.org"
-    },
-    {
-      "name": "杜永丰",
-      "title": "研发工程师",
-      "url": "mailto:yongfeng@loopring.org"
-    },
-    {
-      "name": "王忱",
-      "title": "研发工程师",
-      "url": "mailto:wangchen@loopring.org"
-    },
-    {
-      "name": "赖岩岩",
-      "title": "研发工程师",
-      "url": "mailto:yanyan@loopring.org"
-    },
-    {
-      "name": "王玥",
-      "title": "研发工程师",
-      "url": "mailto:wangyue@loopring.org"
-    },
-    {
-      "name": "陈胜",
-      "title": "研发工程师",
-      "url": "mailto:chensheng@loopring.org"
-    },
-    {
-      "name": "秦懿",
-      "title": "研发工程师",
-      "url": "mailto:ruby@loopring.org"
-    },
-    {
-      "name": "林先玲",
-      "title": "人事行政",
-      "url": "mailto:leila@loopring.org"
-    }
-  ]
+        {
+            "name": "于红雨",
+            "title": "后台研发工程师",
+            "url": "mailto:hongyu@loopring.org"
+        },
+        {
+            "name": "李亚东",
+            "title": "后台研发工程师",
+            "url": "mailto:yadong@loopring.org"
+        },
+        {
+            "name": "杨立",
+            "title": "研发工程师",
+            "url": "mailto:langyi@loopring.org"
+        },
+        {
+            "name": "吴晓露",
+            "title": "研发工程师",
+            "url": "mailto:xiaolu@loopring.org"
+        },
+        {
+            "name": "杜永丰",
+            "title": "研发工程师",
+            "url": "mailto:yongfeng@loopring.org"
+        },
+        {
+            "name": "王忱",
+            "title": "研发工程师",
+            "url": "mailto:wangchen@loopring.org"
+        },
+        {
+            "name": "赖岩岩",
+            "title": "研发工程师",
+            "url": "mailto:yanyan@loopring.org"
+        },
+        {
+            "name": "王玥",
+            "title": "研发工程师",
+            "url": "mailto:wangyue@loopring.org"
+        },
+        {
+            "name": "陈胜",
+            "title": "研发工程师",
+            "url": "mailto:chensheng@loopring.org"
+        },
+        {
+            "name": "秦懿",
+            "title": "研发工程师",
+            "url": "mailto:ruby@loopring.org"
+        },
+        {
+            "name": "林先玲",
+            "title": "人事行政",
+            "url": "mailto:leila@loopring.org"
+        }
+    ]
 }
