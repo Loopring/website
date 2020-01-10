@@ -37,7 +37,7 @@ class FeatureSection extends JsonI18nComponent {
                   </div>
                 </div>
 
-                <h1 class="sectionTitle">{this.state.I.heading}</h1>
+                <h1 className="sectionTitle">{this.state.I.heading}</h1>
               </div>
             </div>
             <div className="columns is-centered is-vcentered">
