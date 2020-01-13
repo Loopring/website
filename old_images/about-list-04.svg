@@ -13,7 +13,7 @@
 	.st7{fill:#059FE2;}
 	.st8{opacity:0.45;fill:url(#SVGID_3_);}
 	.st9{fill:#002277;}
-	.st10{fill:#1C60FF;}
+	.st10{fill:#1c42ff;}
 	.st11{fill:#1C92FF;}
 	.st12{opacity:0.69;fill:url(#SVGID_4_);}
 	.st13{opacity:0.2;fill:url(#SVGID_5_);}
@@ -46,7 +46,7 @@
 	<polygon class="st3" points="236.8,313.8 191.8,287.8 191.8,260.3 236.8,286.2 	"/>
 	<polygon class="st4" points="236.8,286.2 281.7,260.3 281.7,287.8 236.8,313.8 	"/>
 	<g>
-		
+
 			<image style="overflow:visible;opacity:0.35;" width="218" height="246" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN0AAAD6CAYAAAAlbUKUAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAATG1JREFUeNrsfW1vJNl13jm3qrvZ
 HHJmdna1klaSV1BsOYKTWAggw5vIsWPECZB8CJB89X/Kj0i+2h+dDwHsBDFiGwaSOEbgRIoNJJas
@@ -395,7 +395,7 @@ iIH/vul1KtjqVre61a1udatb3epWt7rVrW51q1vd6la3utWtbnWrW93qVre61Y23/y/AANUsodEv
 6kETAAAAAElFTkSuQmCC" transform="matrix(0.24 0 0 0.24 211.6044 215.9863)">
 		</image>
 		<g>
-			<polygon class="st5" points="237.2,219.1 237.2,219.1 237.2,219.1 237.2,219.1 237.2,219.1 216.4,256 237,268.1 258.6,255.3 			
+			<polygon class="st5" points="237.2,219.1 237.2,219.1 237.2,219.1 237.2,219.1 237.2,219.1 216.4,256 237,268.1 258.6,255.3
 				"/>
 		</g>
 	</g>
@@ -418,7 +418,7 @@ iIH/vul1KtjqVre61a1udatb3epWt7rVrW51q1vd6la3utWtbnWrW93qVre61Y23/y/AANUsodEv
 	<polygon class="st3" points="141.8,266.8 83.2,232.8 83.2,196.9 141.8,230.8 	"/>
 	<polygon class="st9" points="141.8,230.8 200.5,196.9 200.5,232.8 141.8,266.8 	"/>
 	<g>
-		
+
 			<image style="overflow:visible;opacity:0.35;" width="285" height="322" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASQAAAFFCAYAAABFUZATAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAboxJREFUeNrsvcuSK8mRJWhq7gAi
 7iOTt5hJNqtZUyVVUpSRTOlVS8+aPzBL7udT7vxEr3tPme2suOAP9GIW5KJnMRxhS3JYyWbyPiMQ
@@ -920,7 +920,7 @@ AcnPg3osOAj5cUDyc2+PDQcgP378+PHjx48fP378+PHjx48fP378+PHjx48fP378+PHjx48fP378
 +PFzJ+f/F2AARm/+W+bO1XoAAAAASUVORK5CYII=" transform="matrix(0.24 0 0 0.24 109.0749 139.1368)">
 		</image>
 		<g>
-			<polygon class="st5" points="142.4,143.2 142.4,143.2 142.3,143.2 142.3,143.2 142.3,143.2 115.2,191.3 142.1,207.1 170.3,190.4 
+			<polygon class="st5" points="142.4,143.2 142.4,143.2 142.3,143.2 142.3,143.2 142.3,143.2 115.2,191.3 142.1,207.1 170.3,190.4
 							"/>
 		</g>
 	</g>

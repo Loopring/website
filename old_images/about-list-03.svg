@@ -14,7 +14,7 @@
 	.st8{opacity:0.69;fill:url(#SVGID_3_);}
 	.st9{opacity:0.2;fill:url(#SVGID_4_);}
 	.st10{opacity:0.71;fill:#05C0F7;}
-	.st11{fill:#1C60FF;}
+	.st11{fill:#1c42ff;}
 	.st12{fill:#1C92FF;}
 </style>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="276.2438" y1="325.3781" x2="33.2203" y2="329.3762">
@@ -33,7 +33,7 @@
 	<polygon class="st2" points="183,256.1 130.8,225.9 130.8,193.9 183,224.1 	"/>
 	<polygon class="st3" points="183,224.1 235.1,193.9 235.1,225.9 183,256.1 	"/>
 	<g>
-		
+
 			<image style="overflow:visible;opacity:0.35;" width="251" height="284" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP4AAAEgCAYAAACU1c66AAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAARm5JREFUeNrsfVuTI9lxXuapAtDd
 c9sruUtyKYZN67ZWKMJ0WGG9WAqHJYd/hX+anvwD/OTQg0Kh8AsfGA6GRGulkGx6RWpF7exldi7d
@@ -355,7 +355,7 @@ yO/Swe4fFj8P4HfrQPfjx48fP378+PHjx48fP378+PHjx48fP378+PHjx48fP378+Lmj8/8FGACF
 GGhJ38Tb4wAAAABJRU5ErkJggg==" transform="matrix(0.24 0 0 0.24 154.0482 142.7009)">
 		</image>
 		<g>
-			<polygon class="st4" points="183.4,146.2 183.4,146.2 183.4,146.2 183.4,146.2 183.4,146.2 159.3,189 183.2,203 208.3,188.2 			
+			<polygon class="st4" points="183.4,146.2 183.4,146.2 183.4,146.2 183.4,146.2 183.4,146.2 159.3,189 183.2,203 208.3,188.2
 				"/>
 		</g>
 	</g>
@@ -367,7 +367,7 @@ GGhJ38Tb4wAAAABJRU5ErkJggg==" transform="matrix(0.24 0 0 0.24 154.0482 142.7009)
 	<polygon class="st2" points="238.5,316.5 186.7,286.5 186.7,270.5 238.5,300.4 	"/>
 	<polygon class="st3" points="238.5,300.4 290.3,270.5 290.3,286.5 238.5,316.5 	"/>
 	<g>
-		
+
 			<image style="overflow:visible;opacity:0.35;" width="349" height="396" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWIAAAGQCAYAAACUBmpoAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAonpJREFUeNrsvV2PJNmRJWZ23T0i
 s7KS7C5yyWLviCU0JGK52oaW0D5MYwYihhjNQ4+ABbiAoIf9E/pPet5H/gthAL0IwgACMeRwyWFP
@@ -1102,7 +1102,7 @@ mre/CPCNioqKuiYon7FJDNp38fz7RUUFI46KuuvvarDeqKioqKioqKioqKioqKioqKioqKioqKio
 qKioqKioqKioqKioqKioqIvV/xdgAEv6eLWwwa+ZAAAAAElFTkSuQmCC" transform="matrix(0.24 0 0 0.24 196.8367 201.0894)">
 		</image>
 		<g>
-			<polygon class="st4" points="237.7,204.6 237.7,204.5 237.7,204.6 237.7,204.6 237.7,204.6 202.2,267.3 237.4,287.9 274.2,266.2 
+			<polygon class="st4" points="237.7,204.6 237.7,204.5 237.7,204.6 237.7,204.6 237.7,204.6 202.2,267.3 237.4,287.9 274.2,266.2
 							"/>
 		</g>
 	</g>
