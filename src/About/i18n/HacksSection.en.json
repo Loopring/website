@@ -1,6 +1,6 @@
 {
-  "heading": "Crypto Hacks",
-  "total": "More than $2.1 billion of cryptoassets have been hacked from centralized exchanges - and counting. Due to the bearer instrument nature of cryptoassets - whoever holds the private key, \"owns\" it - CEXes remain the largest and most attractive honeypots for thieves and other bad actors. The following stories have been reported by third-party media.",
+  "heading": "Cryptocurrency Hacks From Centralized Exchanges",
+  "total": "More than $2.1 billion worth of cryptoassets have been hacked from centralized exchanges - and counting. Due to the bearer instrument nature of cryptoassets - whoever holds the private key, \"owns\" it - CEXes remain the largest and most attractive honeypots for thieves and other bad actors. What's worse, as the blockchain and cryptocurrency industry grows, and the value of these assets grow alongside it, hackers and other nefarious actors are only more incentivized to attack. The following stories have been reported by third-party media.",
   "learn": "Learn how Loopring 3.0 is designed to be secure",
   "stories": [
     {
@@ -58,6 +58,12 @@
       "date": "01-2019",
       "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
       "detail": "The full amount of lost funds is unknown, however, 19,390 ETH has been seen transferred to an unknown wallet. "
+    },
+    {
+      "title": "$160,000,000 / QuadrigaCX",
+      "date": "12-2018",
+      "source": "https://cointelegraph.com/news/quadrigacx-users-lose-190m-as-speculations-over-cottens-death-swirl",
+      "detail": "In the largest and most notorious cryptocurrency scandal in Canada, the Quadriga founder died while having all the exchange users' assets in cold storage, with the private keys known only to him, therefore being unrecoverable. Rumours remain as to whether this was terrible opsec, or an inside job where he faked his death to steal assets. Either way, users are without their assets. "
     },
     {
       "title": "$30,000,000 / Pure Bit",

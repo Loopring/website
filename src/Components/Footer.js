@@ -123,9 +123,9 @@ class Footer extends JsonI18nComponent {
             ⭑
             <li>
               {this.isChinese() ? (
-                <a href="https://loopring.substack.com/embed">剪报</a>
+                <a href="https://loopring.substack.com">剪报</a>
               ) : (
-                <a href="https://loopring.substack.com/embed">Newsletter</a>
+                <a href="https://loopring.substack.com">Newsletter</a>
               )}
             </li>
           </ul>
