@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34046b9bdee99c5659da99485e4e1c7b",
+    "revision": "c7b4f76a3392c9faa7aa06acf74707bb",
     "url": "//loopring.org/index.html"
   },
   {
-    "revision": "470d8280bc03484bc86a",
+    "revision": "8cebcf9842acff693c6e",
     "url": "//loopring.org/static/css/2.7abef457.chunk.css"
   },
   {
-    "revision": "aad66b928e69089b925d",
-    "url": "//loopring.org/static/css/main.ddfc42df.chunk.css"
+    "revision": "a2ac0150c9adaf217db5",
+    "url": "//loopring.org/static/css/main.99e81ab5.chunk.css"
   },
   {
-    "revision": "470d8280bc03484bc86a",
-    "url": "//loopring.org/static/js/2.7bb1bb63.chunk.js"
+    "revision": "8cebcf9842acff693c6e",
+    "url": "//loopring.org/static/js/2.115aaf4f.chunk.js"
   },
   {
-    "revision": "aad66b928e69089b925d",
-    "url": "//loopring.org/static/js/main.1884ac60.chunk.js"
+    "revision": "f04eb0181f44195e6b74905e39b67387",
+    "url": "//loopring.org/static/js/2.115aaf4f.chunk.js.LICENSE"
   },
   {
-    "revision": "6b418c7ccf4fd18f6cd8",
-    "url": "//loopring.org/static/js/runtime-main.7cb4d7f0.js"
+    "revision": "a2ac0150c9adaf217db5",
+    "url": "//loopring.org/static/js/main.b4771e28.chunk.js"
+  },
+  {
+    "revision": "11c0291a4860242d7b90",
+    "url": "//loopring.org/static/js/runtime-main.4f022773.js"
   },
   {
     "revision": "021f9902eb4b78a9ca93d9aad455bbb5",
