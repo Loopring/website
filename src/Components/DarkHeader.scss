@@ -3,6 +3,7 @@
 .navbar.navbar-dark {
   margin-bottom: 0;
   background: $dark-blue !important;
+
   * {
     user-select: none;
   }
@@ -25,6 +26,7 @@
       padding-top: 50px;
     }
   }
+
   a.hover {
     text-decoration: none !important;
     color: $white !important;
@@ -37,6 +39,21 @@
 
   .pageLink:hover {
     box-shadow: inset 0 -2px $white;
+    color: $white !important;
+  }
+
+  .pageLinkExt {
+    box-shadow: inset 0 -2px $dark-blue;
+    transition-duration: 0.5s;
+    background-color: $white !important;
+    color: $dark-blue;
+    height: 32px;
+    padding: 2px 18px;
+  }
+
+  .pageLinkExt:hover {
+    box-shadow: inset 0 -2px $white;
+    background: $black !important;
     color: $white !important;
   }
 

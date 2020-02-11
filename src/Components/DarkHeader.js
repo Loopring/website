@@ -122,6 +122,15 @@ class DarkHeader extends I18nComponent {
                   <Translate id="updates" />
                 </div>
               </NavLink>
+              <a
+                className="navbar-item"
+                href="https://loopring.io"
+                target="_blank"
+              >
+                <div className="pageLinkExt">
+                  <Translate id="trade" />
+                </div>
+              </a>
             </div>
           </div>
         </div>
