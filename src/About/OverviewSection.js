@@ -37,7 +37,7 @@ class OverviewSection extends JsonI18nComponent {
               </div>
             </div>
             <div data-aos="fade-up" className="column is-hidden-mobile is-8">
-              <figure className="image covered is-4by3">
+              <figure className="image covered is-16by9">
                 <img src="/images/inserts/trading-image.jpg" />
               </figure>
             </div>
