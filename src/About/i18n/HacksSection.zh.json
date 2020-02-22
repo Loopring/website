@@ -1,230 +1,236 @@
 {
-  "heading": "交易所被盗事件",
-  "total": "到目前为止，用户在中心化交易所上被盗的虚拟资产总额已经超过21亿美金。新的黑客事件还在发生。下列新闻来源于第三方媒体平台。",
-  "learn": "了解路印协议如何保障您的资产安全",
-  "stories": [
-    {
-      "title": "4900万美元 / Upbit",
-      "date": "11-2019",
-      "source": "https://posts.careerengine.us/p/5ddef149d0f32a7d7a77e41a",
-      "detail": "韩国交易所Upbit针对此前韩媒报道的该交易所疑似被盗事件发布公告进行回应，表示在2019年11月27日下午1点06分，342,000 ETH（约 5000 万美元）从Upbit以太坊热钱包转移到一个未知钱包。"
-    },
-    {
-      "title": "3430万美元 / Remixpoint",
-      "date": "07-2019",
-      "source": "https://www.pymnts.com/cryptocurrency/2019/major-crypto-hacks/",
-      "detail": "Remixpoint运营的加密货币交易所Bitpoint Japan在承认黑客入侵造成3200万美元的加密货币损失之后，他们发现还有另外的230万美元被盗。"
-    },
+    "heading": "交易所被盗事件",
+    "total": "到目前为止，用户在中心化交易所上被盗的虚拟资产总额已经超过21亿美金。新的黑客事件还在发生。下列新闻来源于第三方媒体平台。",
+    "learn": "了解路印协议如何保障您的资产安全",
+    "stories": [
+        {
+            "title": "$1.25亿美元 / FCoin",
+            "date": "02-2020",
+            "source": "https://cj.sina.com.cn/articles/view/1234557003/4995d84b00100pchb",
+            "detail": "曾经大火的币圈交易所FCOIN倒闭了，FCoin创始人张健称：是资金储备无法兑付用户提现的问题。预计无法兑付的规模介于7000-13000BTC(价值约6860万-1.27亿美元)之间。."
+        },
+        {
+            "title": "4900万美元 / Upbit",
+            "date": "11-2019",
+            "source": "https://posts.careerengine.us/p/5ddef149d0f32a7d7a77e41a",
+            "detail": "韩国交易所Upbit针对此前韩媒报道的该交易所疑似被盗事件发布公告进行回应，表示在2019年11月27日下午1点06分，342,000 ETH（约 5000 万美元）从Upbit以太坊热钱包转移到一个未知钱包。"
+        },
+        {
+            "title": "3430万美元 / Remixpoint",
+            "date": "07-2019",
+            "source": "https://www.pymnts.com/cryptocurrency/2019/major-crypto-hacks/",
+            "detail": "Remixpoint运营的加密货币交易所Bitpoint Japan在承认黑客入侵造成3200万美元的加密货币损失之后，他们发现还有另外的230万美元被盗。"
+        },
 
-    {
-      "title": "600万美元 / BitMarket",
-      "date": "07-2019",
-      "source": "https://www.financemagnates.com/cryptocurrency/exchange/hackers-behind-bitmarket-shutdown/",
-      "detail": "BitMarket的董事在一份声明中表示：“交易所在2017年遭到黑客入侵，导致交易所多个用户和技术账户损失超过600个比特币。”"
-    },
-    {
-      "title": "800万美元 / 币安",
-      "date": "07-2019",
-      "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
-      "detail": "币安遭遇了重大漏洞，黑客提现了7,000个比特币（当前估值超过4,000万美元）。实际上黑客从币安的热钱包中窃取资金，并且绕过了币安所有的安全检查。"
-    },
-    {
-      "title": "500万美元 / Bitrue",
-      "date": "06-2019",
-      "source": "https://cointelegraph.com/news/round-up-of-crypto-exchanges-hack-so-far-in-2019-how-can-it-be-stopped",
-      "detail": "总部位于新加坡的加密货币交易所Bitrue承认，他们遭遇了一次重大的黑客攻击，交易所热钱包中有930万个XRP和250万个ADA（当时价值约500万美元）被盗。"
-    },
-    {
-      "title": "1000万美元 / GateHub",
-      "date": "06-2019",
-      "source": "https://cointelegraph.com/news/round-up-of-crypto-exchanges-hack-so-far-in-2019-how-can-it-be-stopped",
-      "detail": "总部位于英国和斯洛文尼亚的加密交易所GateHub表示损失了价值近1000万美元的XRP，受影响的账户有18,473个。"
-    },
-    {
-      "title": "700万美元 / 龙网",
-      "date": "03-2019",
-      "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
-      "detail": "总部位于新加坡的DragonEX交易所被黑客入侵，预估损失了700万美元。交易所背后的公司并未真正发布有关安全漏洞的任何细节，只是表示他们不会破产。交易所承诺通过提供USDT贷款或Dragon Token（DT）来补偿用户。"
-    },
+        {
+            "title": "600万美元 / BitMarket",
+            "date": "07-2019",
+            "source": "https://www.financemagnates.com/cryptocurrency/exchange/hackers-behind-bitmarket-shutdown/",
+            "detail": "BitMarket的董事在一份声明中表示：“交易所在2017年遭到黑客入侵，导致交易所多个用户和技术账户损失超过600个比特币。”"
+        },
+        {
+            "title": "800万美元 / 币安",
+            "date": "07-2019",
+            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
+            "detail": "币安遭遇了重大漏洞，黑客提现了7,000个比特币（当前估值超过4,000万美元）。实际上黑客从币安的热钱包中窃取资金，并且绕过了币安所有的安全检查。"
+        },
+        {
+            "title": "500万美元 / Bitrue",
+            "date": "06-2019",
+            "source": "https://cointelegraph.com/news/round-up-of-crypto-exchanges-hack-so-far-in-2019-how-can-it-be-stopped",
+            "detail": "总部位于新加坡的加密货币交易所Bitrue承认，他们遭遇了一次重大的黑客攻击，交易所热钱包中有930万个XRP和250万个ADA（当时价值约500万美元）被盗。"
+        },
+        {
+            "title": "1000万美元 / GateHub",
+            "date": "06-2019",
+            "source": "https://cointelegraph.com/news/round-up-of-crypto-exchanges-hack-so-far-in-2019-how-can-it-be-stopped",
+            "detail": "总部位于英国和斯洛文尼亚的加密交易所GateHub表示损失了价值近1000万美元的XRP，受影响的账户有18,473个。"
+        },
+        {
+            "title": "700万美元 / 龙网",
+            "date": "03-2019",
+            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
+            "detail": "总部位于新加坡的DragonEX交易所被黑客入侵，预估损失了700万美元。交易所背后的公司并未真正发布有关安全漏洞的任何细节，只是表示他们不会破产。交易所承诺通过提供USDT贷款或Dragon Token（DT）来补偿用户。"
+        },
 
-    {
-      "title": "1300万美元 / Bithumb",
-      "date": "03-2019",
-      "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
-      "detail": "Bithumb在保障安全性方面似乎不太重视，虽然他们这次声称是一项内部操作，但他们已经第三次被黑客攻击。这次交易所被黑客盗取了307万个EOS和2020万个XRP，并且攻击者能够清算大部分盗取的资产。"
-    },
-    {
-      "title": "400万美元 / Cryptopia",
-      "date": "01-2019",
-      "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
-      "detail": "虽然损失的总金额是未知的，但是已经看到19,390个ETH被转移到一个未知的钱包。"
-    },
-    {
-      "title": "3000万美元 / Purebit",
-      "date": "11-2018",
-      "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
-      "detail": "韩国加密货币交易所 Pure Bit 在ICO出售其代币筹集超过3000万美元之后，他们从11月9日开始退出，欺骗了他们的早期投资者和客户。超过13,000个ETH已经从Pure Bit的地址转移，他们甚至试图在UpBit（韩国大型当地交易所）上出售其中一部分资产。"
-    },
+        {
+            "title": "1300万美元 / Bithumb",
+            "date": "03-2019",
+            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
+            "detail": "Bithumb在保障安全性方面似乎不太重视，虽然他们这次声称是一项内部操作，但他们已经第三次被黑客攻击。这次交易所被黑客盗取了307万个EOS和2020万个XRP，并且攻击者能够清算大部分盗取的资产。"
+        },
+        {
+            "title": "400万美元 / Cryptopia",
+            "date": "01-2019",
+            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
+            "detail": "虽然损失的总金额是未知的，但是已经看到19,390个ETH被转移到一个未知的钱包。"
+        },
+        {
+            "title": "3000万美元 / Purebit",
+            "date": "11-2018",
+            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
+            "detail": "韩国加密货币交易所 Pure Bit 在ICO出售其代币筹集超过3000万美元之后，他们从11月9日开始退出，欺骗了他们的早期投资者和客户。超过13,000个ETH已经从Pure Bit的地址转移，他们甚至试图在UpBit（韩国大型当地交易所）上出售其中一部分资产。"
+        },
 
-    {
-      "title": "600万美元 / MapleChange",
-      "date": "10-2018",
-      "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
-      "detail": "MapleChange是位于加拿大的小型交易所，自2018年5月发布以来，每天只有大约67,000美元的交易量，他们声称遭到黑客入侵或存在漏洞，导致所有客户的资产被盗。"
-    },
+        {
+            "title": "600万美元 / MapleChange",
+            "date": "10-2018",
+            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/#fn1",
+            "detail": "MapleChange是位于加拿大的小型交易所，自2018年5月发布以来，每天只有大约67,000美元的交易量，他们声称遭到黑客入侵或存在漏洞，导致所有客户的资产被盗。"
+        },
 
-    {
-      "title": "6000万美元 / Zaif",
-      "date": "09-2018",
-      "source": "https://www.zdnet.com/article/zaif-cryptocurrency-exchange-loses-60-million-in-july-hack/",
-      "detail": "日本加密货币交易所Zaif宣布，在安全事件中，他们损失了价值6000万美元的公司和客户资产。"
-    },
-    {
-      "title": "3150万美元 / Bithumb",
-      "date": "06-2018",
-      "source": "https://www.fliptopay.com/blogs/blog-1/bithumb-hacked-with-30-million-stolen-uk-exchange-launching-litecoin-futures-and-japan-to-vote-on-banning-insider-trading-and-privacy-coins",
-      "detail": "全球第六大交易量的加密货币交易所Bithumb遭到黑客攻击，根据公司的公告，这家韩国交易所3.5亿韩元（价值3150万美元）的加密货币被盗。"
-    },
-    {
-      "title": "4000万美元 / Coinrail",
-      "date": "06-2018",
-      "source": "https://www.coindesk.com/coinrail-exchange-hacked-loses-possibly-40-million-in-cryptos",
-      "detail": "Coinrail是一家总部位于韩国的加密货币交易所，该公司表示其平台遭到黑客入侵。其他方面的消息暗示他们损失了高达4,000万美元的加密货币。"
-    },
-    {
-      "title": "330万美元 / CoinSecure",
-      "date": "04-2018",
-      "source": "https://www.zdnet.com/article/coinsecure-not-so-secure-millions-in-cryptocurrency-stolen-cso-branded-as-thief/",
-      "detail": "印度加密货币交易所指责该公司首席战略官（CSO）Amitabh Saxena博士参与盗取438个比特币（价值约为330万美元）。"
-    },
-    {
-      "title": "1.95亿美元 / BitGrail",
-      "date": "02-2018",
-      "source": "https://fortune.com/2018/02/11/bitgrail-cryptocurrency-claims-hack/",
-      "detail": "意大利加密货币交易所BitGrail声称，他们上周遭遇黑客入侵，并且损失了价值约1.95亿美元的加密货币。但其他人，包括创建被盗加密货币的开发商，已经暗示这可能不是所有的事实。"
-    },
-    {
-      "title": "5.348亿美元 / Coincheck",
-      "date": "01-2018",
-      "source": "https://www.btcnn.com/the-best-bitcoin-hacks/",
-      "detail": "Coincheck是一家采用冷钱包进行比特币交易的交易所服务商，但没有对NEM（有前景的亚洲加密货币）的安全性给予足够的重视。他们把NEM的所有存款保存在单个钱包中，这是一个代价很高的错误。没有人可以解释损失是如何发生的，但损失的后果对客户来说是毁灭性的。"
-    },
+        {
+            "title": "6000万美元 / Zaif",
+            "date": "09-2018",
+            "source": "https://www.zdnet.com/article/zaif-cryptocurrency-exchange-loses-60-million-in-july-hack/",
+            "detail": "日本加密货币交易所Zaif宣布，在安全事件中，他们损失了价值6000万美元的公司和客户资产。"
+        },
+        {
+            "title": "3150万美元 / Bithumb",
+            "date": "06-2018",
+            "source": "https://www.fliptopay.com/blogs/blog-1/bithumb-hacked-with-30-million-stolen-uk-exchange-launching-litecoin-futures-and-japan-to-vote-on-banning-insider-trading-and-privacy-coins",
+            "detail": "全球第六大交易量的加密货币交易所Bithumb遭到黑客攻击，根据公司的公告，这家韩国交易所3.5亿韩元（价值3150万美元）的加密货币被盗。"
+        },
+        {
+            "title": "4000万美元 / Coinrail",
+            "date": "06-2018",
+            "source": "https://www.coindesk.com/coinrail-exchange-hacked-loses-possibly-40-million-in-cryptos",
+            "detail": "Coinrail是一家总部位于韩国的加密货币交易所，该公司表示其平台遭到黑客入侵。其他方面的消息暗示他们损失了高达4,000万美元的加密货币。"
+        },
+        {
+            "title": "330万美元 / CoinSecure",
+            "date": "04-2018",
+            "source": "https://www.zdnet.com/article/coinsecure-not-so-secure-millions-in-cryptocurrency-stolen-cso-branded-as-thief/",
+            "detail": "印度加密货币交易所指责该公司首席战略官（CSO）Amitabh Saxena博士参与盗取438个比特币（价值约为330万美元）。"
+        },
+        {
+            "title": "1.95亿美元 / BitGrail",
+            "date": "02-2018",
+            "source": "https://fortune.com/2018/02/11/bitgrail-cryptocurrency-claims-hack/",
+            "detail": "意大利加密货币交易所BitGrail声称，他们上周遭遇黑客入侵，并且损失了价值约1.95亿美元的加密货币。但其他人，包括创建被盗加密货币的开发商，已经暗示这可能不是所有的事实。"
+        },
+        {
+            "title": "5.348亿美元 / Coincheck",
+            "date": "01-2018",
+            "source": "https://www.btcnn.com/the-best-bitcoin-hacks/",
+            "detail": "Coincheck是一家采用冷钱包进行比特币交易的交易所服务商，但没有对NEM（有前景的亚洲加密货币）的安全性给予足够的重视。他们把NEM的所有存款保存在单个钱包中，这是一个代价很高的错误。没有人可以解释损失是如何发生的，但损失的后果对客户来说是毁灭性的。"
+        },
 
-    {
-      "title": "500万美元 / Bitstamp",
-      "date": "01-2018",
-      "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
-      "detail": "Bitstamp是2018年第一个被黑客攻击的加密交易所，导致损失约500万美元的比特币。这次黑客攻击表明，加密货币交易所已经成为安全漏洞的焦点，入侵者采取了社会工程方法，并且针对六位Bitstamp员工进行了数周的攻击。攻击者通过Skype和电子邮件向员工发送消息，试图吸引他们的兴趣，并希望他们能够打开恶意软件。"
-    },
-    {
-      "title": "6000万美元 / NiceHash ",
-      "date": "12-2017",
-      "source": "https://www.coindesk.com/62-million-gone-cryptocurrency-mining-market-nicehash-hacked",
-      "detail": "NiceHash用户发布的钱包地址显示，高达4,736.42个比特币被盗。"
-    },
-    {
-      "title": "180万美元 / Coinis",
-      "date": "12-2017",
-      "source": "BBB",
-      "detail": "2017年9月，一个规模较小的韩国交易所遭到黑客入侵，许多人认为是受到黑客组织Lazarus的攻击。交易所没有发布有关安全漏洞的详细信息，并且也没有向警方报告黑客入侵事件。Coinis只是表示他们会为因黑客攻击而损失的客户提供补偿。"
-    },
-    {
-      "title": "300万美元 / OKEx",
-      "date": "08-2017",
-      "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
-      "detail": "中国交易所OKEx在2017年8月被黑客攻击的情况不多，值得关注的是，他们没有对此表示反对，而是指责用户。OKEx是中国领先的比特币交易平台，并一直否认它被黑客入侵。"
-    },
-    {
-      "title": "700万美元 / Bithumb",
-      "date": "07-2017",
-      "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
-      "detail": "Bithumb是当时交易量第四大的加密货币交易所，2017年7月首次被黑客入侵，这是Bithumb安全事件的开始，所有事件都源于攻击者控制员工的电脑并能够窃取大约3％的平台用户登录信息。尽管当地韩国媒体声称Bithumb损失数十亿，Bithumb一直表示不知道黑客攻击的确切数量，但现在预估比特币和以太损失高达约700万美元。"
-    },
-    {
-      "title": "530万美元 / Yapizon (Youbit)",
-      "date": "05-2017",
-      "source": "https://www.wsj.com/articles/cryptocurrency-exchange-collapses-files-for-bankruptcy-after-second-hack-1513683519",
-      "detail": "周二，韩国加密货币交易所在八个月内第二次遭遇网络攻击，并且损失了大量的数字货币储备。Yapian是运营首尔交易所Youbit的公司，该公司暂停了数字货币交易。在星期二的黎明时分，系统遭到黑客攻击后申请破产。该交易所交易10种虚拟货币，包括比特币和以太。"
-    },
-    {
-      "title": "7200万美元 / Bitfinex",
-      "date": "08-2016",
-      "source": "https://www.btcnn.com/the-best-bitcoin-hacks/",
-      "detail": "Bitfinex推广为每个客户处理多个签名钱包的服务，但不幸的是，他们推广的多签名技术不能防御黑客，导致他们的客户丢失了12万个比特币。"
-    },
-    {
-      "title": "175万美元 / 比特儿",
-      "date": "02-2015",
-      "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
-      "detail": "比特儿之前已经被黑客攻击，损失了较少金额的NXT。因为其他被黑客入侵的交易所没有再遭遇攻击，比特儿没有吸取教训，并在2015年再次被黑客入侵。值得关注的是，为什么他们在反复被黑客攻击之后仍然有客户呢？"
-    },
-    {
-      "title": "510万美元 / Bitstamp",
-      "date": "01-2015",
-      "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
-      "detail": "黑客给交易所员工发送恶意文件。其中一位系统管理员忽略了第一条安全规则：“不要打开陌生人的文件”，并在有权访问交易所比特币钱包的机器上打开文件，导致19,000个比特币被盗。"
-    },
-    {
-      "title": "180万美元 / bitpay",
-      "date": "12-2014",
-      "source": "https://www.ccn.com/bitpay-hacked-5-000-bitcoins-stolen/",
-      "detail": "2014年12月，位于亚特兰大的Bitpay在三个不同的场合被黑客攻击，超过5000个比特币被盗。"
-    },
-    {
-      "title": "320万美元 / Mintpal",
-      "date": "12-2014",
-      "source": "BBB",
-      "detail": "加密货币交易所Mintpal曾经是最顶级的交易平台之一。在2014年秋天，客户被告知Mintpal将拥有新的管理者。交易所被卖给了一位名叫Alex Green的Moopay高管，很多人认为这个高管是一个阴暗的诈骗者。很可能很早就已经存在漏洞，而新的管理者未能检测到漏洞并进行修补。然而，很多人认为这只是一个内部操作， Alex Green自己本人恶意的攻击。"
-    },
-    {
-      "title": "950万美元 / Cryptsy",
-      "date": "07-2014",
-      "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
-      "detail": "攻击者以开发Lucky7Coin而闻名，并在Cryptsy的代码中插入了一个木马恶意软件，以便自己可以访问宝贵的信息，并将交易所钱包中的加密货币（主要是比特币和莱特币）转移出去。"
-    },
-    {
-      "title": "7亿美元 / 门头沟",
-      "date": "03-2014",
-      "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
-      "detail": "到目前为止，加密货币历史上最大的黑客行为毫无疑问发生在比特币的初期，世界上最受欢迎的交易所门头沟承认其因多次被黑客入侵而破产。门头沟员工未能保护其钱包的私钥，因为它保存了所有客户的资产，而黑客通常会将这个钱包放入自己的口袋中。每个把资产存放在交易所的人都遭遇了损失。"
-    },
+        {
+            "title": "500万美元 / Bitstamp",
+            "date": "01-2018",
+            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
+            "detail": "Bitstamp是2018年第一个被黑客攻击的加密交易所，导致损失约500万美元的比特币。这次黑客攻击表明，加密货币交易所已经成为安全漏洞的焦点，入侵者采取了社会工程方法，并且针对六位Bitstamp员工进行了数周的攻击。攻击者通过Skype和电子邮件向员工发送消息，试图吸引他们的兴趣，并希望他们能够打开恶意软件。"
+        },
+        {
+            "title": "6000万美元 / NiceHash ",
+            "date": "12-2017",
+            "source": "https://www.coindesk.com/62-million-gone-cryptocurrency-mining-market-nicehash-hacked",
+            "detail": "NiceHash用户发布的钱包地址显示，高达4,736.42个比特币被盗。"
+        },
+        {
+            "title": "180万美元 / Coinis",
+            "date": "12-2017",
+            "source": "BBB",
+            "detail": "2017年9月，一个规模较小的韩国交易所遭到黑客入侵，许多人认为是受到黑客组织Lazarus的攻击。交易所没有发布有关安全漏洞的详细信息，并且也没有向警方报告黑客入侵事件。Coinis只是表示他们会为因黑客攻击而损失的客户提供补偿。"
+        },
+        {
+            "title": "300万美元 / OKEx",
+            "date": "08-2017",
+            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
+            "detail": "中国交易所OKEx在2017年8月被黑客攻击的情况不多，值得关注的是，他们没有对此表示反对，而是指责用户。OKEx是中国领先的比特币交易平台，并一直否认它被黑客入侵。"
+        },
+        {
+            "title": "700万美元 / Bithumb",
+            "date": "07-2017",
+            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
+            "detail": "Bithumb是当时交易量第四大的加密货币交易所，2017年7月首次被黑客入侵，这是Bithumb安全事件的开始，所有事件都源于攻击者控制员工的电脑并能够窃取大约3％的平台用户登录信息。尽管当地韩国媒体声称Bithumb损失数十亿，Bithumb一直表示不知道黑客攻击的确切数量，但现在预估比特币和以太损失高达约700万美元。"
+        },
+        {
+            "title": "530万美元 / Yapizon (Youbit)",
+            "date": "05-2017",
+            "source": "https://www.wsj.com/articles/cryptocurrency-exchange-collapses-files-for-bankruptcy-after-second-hack-1513683519",
+            "detail": "周二，韩国加密货币交易所在八个月内第二次遭遇网络攻击，并且损失了大量的数字货币储备。Yapian是运营首尔交易所Youbit的公司，该公司暂停了数字货币交易。在星期二的黎明时分，系统遭到黑客攻击后申请破产。该交易所交易10种虚拟货币，包括比特币和以太。"
+        },
+        {
+            "title": "7200万美元 / Bitfinex",
+            "date": "08-2016",
+            "source": "https://www.btcnn.com/the-best-bitcoin-hacks/",
+            "detail": "Bitfinex推广为每个客户处理多个签名钱包的服务，但不幸的是，他们推广的多签名技术不能防御黑客，导致他们的客户丢失了12万个比特币。"
+        },
+        {
+            "title": "175万美元 / 比特儿",
+            "date": "02-2015",
+            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
+            "detail": "比特儿之前已经被黑客攻击，损失了较少金额的NXT。因为其他被黑客入侵的交易所没有再遭遇攻击，比特儿没有吸取教训，并在2015年再次被黑客入侵。值得关注的是，为什么他们在反复被黑客攻击之后仍然有客户呢？"
+        },
+        {
+            "title": "510万美元 / Bitstamp",
+            "date": "01-2015",
+            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
+            "detail": "黑客给交易所员工发送恶意文件。其中一位系统管理员忽略了第一条安全规则：“不要打开陌生人的文件”，并在有权访问交易所比特币钱包的机器上打开文件，导致19,000个比特币被盗。"
+        },
+        {
+            "title": "180万美元 / bitpay",
+            "date": "12-2014",
+            "source": "https://www.ccn.com/bitpay-hacked-5-000-bitcoins-stolen/",
+            "detail": "2014年12月，位于亚特兰大的Bitpay在三个不同的场合被黑客攻击，超过5000个比特币被盗。"
+        },
+        {
+            "title": "320万美元 / Mintpal",
+            "date": "12-2014",
+            "source": "BBB",
+            "detail": "加密货币交易所Mintpal曾经是最顶级的交易平台之一。在2014年秋天，客户被告知Mintpal将拥有新的管理者。交易所被卖给了一位名叫Alex Green的Moopay高管，很多人认为这个高管是一个阴暗的诈骗者。很可能很早就已经存在漏洞，而新的管理者未能检测到漏洞并进行修补。然而，很多人认为这只是一个内部操作， Alex Green自己本人恶意的攻击。"
+        },
+        {
+            "title": "950万美元 / Cryptsy",
+            "date": "07-2014",
+            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
+            "detail": "攻击者以开发Lucky7Coin而闻名，并在Cryptsy的代码中插入了一个木马恶意软件，以便自己可以访问宝贵的信息，并将交易所钱包中的加密货币（主要是比特币和莱特币）转移出去。"
+        },
+        {
+            "title": "7亿美元 / 门头沟",
+            "date": "03-2014",
+            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
+            "detail": "到目前为止，加密货币历史上最大的黑客行为毫无疑问发生在比特币的初期，世界上最受欢迎的交易所门头沟承认其因多次被黑客入侵而破产。门头沟员工未能保护其钱包的私钥，因为它保存了所有客户的资产，而黑客通常会将这个钱包放入自己的口袋中。每个把资产存放在交易所的人都遭遇了损失。"
+        },
 
-    {
-      "title": "5000万美元 / Vircurex",
-      "source": "https://www.coindesk.com/exchange-vircurex-freezes-withdrawals-claims-lack-reserves",
-      "date": "03-2014",
-      "detail": "Vircurex前客户在科罗拉多州的美国地方法院提起诉讼，并指责交易所违约，转换资金，欺诈和非法获利。诉讼提到，由于交易所声称缺乏准备金，他们冻结所有提款后，只有少数账户持有人收到了他们的资金。目前，账户冻结总计5000万美元。"
-    },
+        {
+            "title": "5000万美元 / Vircurex",
+            "source": "https://www.coindesk.com/exchange-vircurex-freezes-withdrawals-claims-lack-reserves",
+            "date": "03-2014",
+            "detail": "Vircurex前客户在科罗拉多州的美国地方法院提起诉讼，并指责交易所违约，转换资金，欺诈和非法获利。诉讼提到，由于交易所声称缺乏准备金，他们冻结所有提款后，只有少数账户持有人收到了他们的资金。目前，账户冻结总计5000万美元。"
+        },
 
-    {
-      "title": "120万美元 / Inputs.io",
-      "date": "11-2013",
-      "source": "https://www.coindesk.com/hackers-steal-bitcoins-inputs-io-wallet-service",
-      "detail": "Inputs.io的两次黑客攻击总共损失了约4100个比特币，交易所已经无法支付所有用户的余额。攻击者通过入侵电子邮件账户来破坏托管账户，某些账户非常老旧，没有附加电话号码，因此很容易重置。由于服务器主机端的缺陷，攻击者能够绕过2FA。"
-    },
-    {
-      "title": "100万美元 / BIPS",
-      "date": "11-2013",
-      "source": "https://thehackernews.com/2013/11/danish-bitcoin-exchange-bips-hacked-and_25.html",
-      "detail": "一群网络犯罪分子刚刚入侵比特币支付处理服务器BIPs，并盗取用户钱包中大约1,295个比特币（目前价值100万美元）。超过22,000个用户钱包遭到入侵，BIPS将会联系遭遇损失的用户。"
-    },
-    {
-      "title": "300万美元 / PicoStocks",
-      "date": "11-2013",
-      "source": "https://bitcointalk.org/index.php?topic=576337#post_toc_58",
-      "detail": "PicoStocks是采用新颖的方式规避法律监管的证券交易所，该公司报告表示，之前有权使用PicoStocks密钥的人用它们来解锁冷钱包和热钱包。据报道，尽管损失严重，但因为PicoStocks完全覆盖了损失，债权人没有受到影响。"
-    },
-    {
-      "title": "2.7亿美元 / 丝绸之路",
-      "date": "10-2013",
-      "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
-      "detail": "虽然丝绸之路不是加密货币交易所，是一个接受加密货币的市场，但它仍然是用户保存资产的场所。当联邦调查局（FBI）调查交易所管理者时，他们没收了保存在网站账户上的所有比特币。"
-    },
-    {
-      "title": "25万美元 / Bitfloor",
-      "date": "12-2012",
-      "source": "https://bitcoinmagazine.com/articles/bitfloor-hacked-250000-missing-1346821046",
-      "detail": "Bitfloor是美元计价的第四大交易所，他们刚刚宣布被黑客入侵，该服务商已经损失了24,000个比特币（在被盗取时价值约25万美元）。"
-    }
-  ]
+        {
+            "title": "120万美元 / Inputs.io",
+            "date": "11-2013",
+            "source": "https://www.coindesk.com/hackers-steal-bitcoins-inputs-io-wallet-service",
+            "detail": "Inputs.io的两次黑客攻击总共损失了约4100个比特币，交易所已经无法支付所有用户的余额。攻击者通过入侵电子邮件账户来破坏托管账户，某些账户非常老旧，没有附加电话号码，因此很容易重置。由于服务器主机端的缺陷，攻击者能够绕过2FA。"
+        },
+        {
+            "title": "100万美元 / BIPS",
+            "date": "11-2013",
+            "source": "https://thehackernews.com/2013/11/danish-bitcoin-exchange-bips-hacked-and_25.html",
+            "detail": "一群网络犯罪分子刚刚入侵比特币支付处理服务器BIPs，并盗取用户钱包中大约1,295个比特币（目前价值100万美元）。超过22,000个用户钱包遭到入侵，BIPS将会联系遭遇损失的用户。"
+        },
+        {
+            "title": "300万美元 / PicoStocks",
+            "date": "11-2013",
+            "source": "https://bitcointalk.org/index.php?topic=576337#post_toc_58",
+            "detail": "PicoStocks是采用新颖的方式规避法律监管的证券交易所，该公司报告表示，之前有权使用PicoStocks密钥的人用它们来解锁冷钱包和热钱包。据报道，尽管损失严重，但因为PicoStocks完全覆盖了损失，债权人没有受到影响。"
+        },
+        {
+            "title": "2.7亿美元 / 丝绸之路",
+            "date": "10-2013",
+            "source": "https://blog.saturn.network/list-of-documented-exchange-hacks/",
+            "detail": "虽然丝绸之路不是加密货币交易所，是一个接受加密货币的市场，但它仍然是用户保存资产的场所。当联邦调查局（FBI）调查交易所管理者时，他们没收了保存在网站账户上的所有比特币。"
+        },
+        {
+            "title": "25万美元 / Bitfloor",
+            "date": "12-2012",
+            "source": "https://bitcoinmagazine.com/articles/bitfloor-hacked-250000-missing-1346821046",
+            "detail": "Bitfloor是美元计价的第四大交易所，他们刚刚宣布被黑客入侵，该服务商已经损失了24,000个比特币（在被盗取时价值约25万美元）。"
+        }
+    ]
 }
