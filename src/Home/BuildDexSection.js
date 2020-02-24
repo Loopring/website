@@ -66,7 +66,7 @@ class BuildDexSection extends JsonI18nComponent {
                       />
                     </div>
                     <a
-                      href="mailto:foundation@loopring.org"
+                      href="mailto:exchange@loopring.io"
                       className="button is-outlined right"
                     >
                       {this.state.I.option2.action}
