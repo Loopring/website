@@ -21,24 +21,23 @@ class HeroSection extends I18nComponent {
       : "An Open Protocol for Scalable, Non-Custodial Exchanges";
 
     return (
-      <section className="section section-about-hero is-large">
-        <div className="backdrop"></div>
+      <section
+        className={
+          "section section-about-hero is-large has-background-primary-white " +
+          titleClass
+        }
+      >
+        <div className="container">
+          <div className="columns is-centered is-vcentered">
+            <div
+              data-aos="fade-up"
+              className="column is-centered is-vcentered has-text-centered"
+            >
+              <div className="title">{title}</div>
 
-        <div className="text">
-          <svg>
-            <defs>
-              <mask id="mask" x="0" y="0" width="100%" height="100%">
-                <rect id="alpha" x="0" y="0" width="100%" height="100%" />
-
-                <text className={titleClass} id="title" x="50%" y="30%">
-                  {title}
-                </text>
-              </mask>
-            </defs>
-            <rect id="base" x="0" y="0" width="100%" height="100%" />
-          </svg>
-
-          <div className="subtitle">{subTitle}</div>
+              <div className="subtitle">{subTitle}</div>
+            </div>
+          </div>
         </div>
       </section>
     );
