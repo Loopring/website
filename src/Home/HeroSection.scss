@@ -15,35 +15,31 @@ $color-alpha: darken($color, $darken);
 $color-base: rgb(255, 255, 255);
 
 .section-about-hero {
-    font-family: $theme-font;
-    min-height:50vh;
+  font-family: $theme-font;
+  min-height: 50vh;
 
-    &.chinese {
-        font-family: "Helvetica";
+  &.chinese {
+    font-family: "Helvetica";
+  }
+
+  .subtitle {
+    padding: 20px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.8em;
+
+    @include mobile {
+      font-size: 1.5em;
     }
+  }
 
-    .subtitle {
-        padding: 20px;
-        width: 100%;
-        font-weight: 500;
-        font-size: 1.8em;
+  .title {
+    font-size: 6em;
+    font-weight: 700;
+    text-transform: uppercase;
 
-        @include mobile {
-            font-size: 1.5em;
-        }
+    @include mobile {
+      font-size: 5em;
     }
-
-
-    .title {
-        font-size: 6em;
-        font-weight: 700;
-        text-transform: uppercase;
-
-
-
-
-        @include mobile {
-            font-size: 5em;
-        }
-    }
+  }
 }
