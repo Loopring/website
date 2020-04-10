@@ -6,6 +6,7 @@ import Footer from "../Components/Footer";
 import HeroSection from "./HeroSection";
 import FeatureSection from "./FeatureSection";
 import BuildDexSection from "./BuildDexSection";
+import TradeSection from "./TradeSection";
 
 import "./Home.scss";
 
@@ -16,7 +17,7 @@ class Home extends React.Component {
         <Header />
         <HeroSection />
         <FeatureSection />
-        <BuildDexSection />
+        <TradeSection />
         <Footer />
       </div>
     );
