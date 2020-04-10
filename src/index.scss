@@ -2,7 +2,8 @@
   font-weight: normal;
   font-family: "DINCondensed-Regular";
   src: url("/fonts/DINCondensed/363123_2_0.eot");
-  src: url("/fonts/DINCondensed/363123_2_0.eot?#iefix") format("embedded-opentype"),
+  src: url("/fonts/DINCondensed/363123_2_0.eot?#iefix")
+      format("embedded-opentype"),
     url("/fonts/DINCondensed/363123_2_0.woff2") format("woff2"),
     url("/fonts/DINCondensed/363123_2_0.woff") format("woff"),
     url("/fonts/DINCondensed/363123_2_0.ttf") format("truetype"),
@@ -10,46 +11,47 @@
 }
 
 @font-face {
-    font-family: 'Montserrat-Regular';
-    font-weight: normal;
-    font-style: normal;
-    src: local('Montserrat-Regular'),
-      url(/fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
-  }
+  font-family: "Montserrat-Regular";
+  font-weight: normal;
+  font-style: normal;
+  src: local("Montserrat-Regular"),
+    url(/fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+}
 
-  @font-face {
-    font-family: 'Montserrat-Italic';
-    font-weight: normal;
-    font-style: normal;
-    src: local('Montserrat-Italic'),
-      url(/fonts/Montserrat/Montserrat-Italic.ttf) format('truetype');
-  }
+@font-face {
+  font-family: "Montserrat-Italic";
+  font-weight: normal;
+  font-style: normal;
+  src: local("Montserrat-Italic"),
+    url(/fonts/Montserrat/Montserrat-Italic.ttf) format("truetype");
+}
 
-  @font-face {
-    font-family: 'Montserrat-Medium';
-    font-weight: normal;
-    font-style: normal;
-    src: local('Montserrat-Medium'),
-      url(/fonts/Montserrat/Montserrat-Medium.ttf) format('truetype');
-  }
+@font-face {
+  font-family: "Montserrat-Medium";
+  font-weight: normal;
+  font-style: normal;
+  src: local("Montserrat-Medium"),
+    url(/fonts/Montserrat/Montserrat-Medium.ttf) format("truetype");
+}
 
-  @font-face {
-    font-family: 'Montserrat-Bold';
-    font-weight: bold;
-    font-style: normal;
-    src: local('Montserrat-Bold'),
-      url(/fonts/Montserrat/Montserrat-Bold.ttf) format('truetype');
-  }
+@font-face {
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-style: normal;
+  src: local("Montserrat-Bold"),
+    url(/fonts/Montserrat/Montserrat-Bold.ttf) format("truetype");
+}
 
-  @font-face {
-    font-family: 'Montserrat-Light';
-    font-weight: 300;
-    font-style: normal;
-    src: local('Montserrat-Light'),
-      url(/fonts/Montserrat/Montserrat-Light.ttf) format('truetype');
-  }
+@font-face {
+  font-family: "Montserrat-Light";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Montserrat-Light"),
+    url(/fonts/Montserrat/Montserrat-Light.ttf) format("truetype");
+}
 
-html, body {
+html,
+body {
   font-family: Montserrat, sans-serif !important;
 }
 @import "./Variables.scss";
