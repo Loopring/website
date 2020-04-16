@@ -2,7 +2,7 @@
   "heading1": "零知可信设置",
   "heading2": "多方计算仪式",
   "status": {
-    "running": "3.0-beta4的多方计算已完成预定的15轮计算目标。",
+    "running": "3.0的多方计算已完成预定的15轮计算目标。",
     "completed": "已经结束",
     "preparing": "正在准备"
   },

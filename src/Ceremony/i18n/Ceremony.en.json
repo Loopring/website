@@ -2,7 +2,7 @@
   "heading1": "zkSNARK Trusted Setup",
   "heading2": "Multi-Party Computation Ceremony",
   "status": {
-    "running": "The ceremony for 3.0-beta4 has completed with 15 participants.",
+    "running": "The ceremony for 3.0 has completed with 15 participants.",
     "completed": "Completed",
     "preparing": "In preparation"
   },
