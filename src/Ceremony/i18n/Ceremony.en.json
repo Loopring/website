@@ -100,9 +100,7 @@
         "name": "Li Weichao",
         "org": "VITE Labs",
         "hash": "0x75e1a37e90ba669a62d02f030c6bd84042aafdb9adc488153c899173d1f057e1"
-      }
-    ],
-    "done": [
+      },
       {
         "name": "Rachid Moulakhnif",
         "org": "Gitcoin",
@@ -110,6 +108,7 @@
         "hash": "0x5950c73cfb47e041ccd91c5a4c62e3ddc2f004c4d3e98bbd5bb596a4ef385df4"
       }
     ],
+    "done": [],
     "running": [],
     "waiting": [
       {
@@ -118,14 +117,12 @@
         "url": "https://twitter.com/hkalodner",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       },
-
       {
         "name": "Sunny Aggarwal",
         "org": "Cosmos",
         "url": "https://twitter.com/sunnya97",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       },
-
       {
         "name": "Kerman Kohli",
         "org": "DeFi School & Gods Unchained",
@@ -138,7 +135,6 @@
         "url": "https://twitter.com/evan_van_ness",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       },
-
       {
         "name": "Da Hongfei",
         "org": "NEO",
@@ -163,7 +159,6 @@
         "url": "https://twitter.com/skywinder",
         "hash": "000000000000000000000000000000000000000000000000000000000000000000"
       },
-
       {
         "name": "Jesse Abramowitz",
         "org": "BlockX Labs",
