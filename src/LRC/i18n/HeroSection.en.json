@@ -1,4 +1,5 @@
 {
-  "buyAndStake": "Stake",
-  "buyAndStakeTo": "to earn Loopring protocol fees."
+    "buyAndStake": "Stake",
+    "buyAndStakeTo": "to earn Loopring protocol fees.",
+    "stakeNow": "Stake Now"
 }
