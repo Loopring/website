@@ -22,4 +22,38 @@
       font-size: 1.8rem !important;
     }
   }
+
+  a.stake-now {
+    user-select: none;
+    background-color: $white;
+    display: inline-block;
+    padding: 15px 40px;
+    transition-duration: 0.5s;
+    color: $white;
+    margin-top: 40px;
+    min-width: 300px;
+    border-radius: 4px;
+    border: 1px solid $black;
+    color: $black;
+
+    &:after {
+      transition-duration: 0.5s;
+      content: "→";
+      opacity: 0;
+      padding-left: 0px;
+      color: $black;
+    }
+
+    &:hover {
+      text-decoration: none;
+      color: $white;
+      background-color: $black;
+
+      &:after {
+        opacity: 1;
+        padding-left: 10px;
+        color: $white;
+      }
+    }
+  }
 }
