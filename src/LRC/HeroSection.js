@@ -32,7 +32,7 @@ class HeroSection extends I18nComponent {
         <div className="columns is-centered is-vcentered">
           <div className="column is-centered is-vcentered has-text-centered is-12">
             <a
-              href="https://staking.loopring.io"
+              href="https://staking.loopring.org"
               target="_blank"
               className="stake-now"
             >
