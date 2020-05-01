@@ -3,7 +3,7 @@
   "headingDeploymentMore": "Loopring 3.0 provides the following deployment options to support various forms of upgradability. Note that upgradability is available only for new protocol versions with compatible DEX state schema.",
   "options": [
     {
-      "title": "● AUTOMATIC UPGRADABLITY",
+      "title": "Automatic Upgradability",
       "contents": [
         "DEXes deployed with this option will automatically upgrade to new minor versions when they become available. We encourage DEXes to opt-in this option to benefit from future bug fixes and features.",
         "This option enables a transparent upgrade experience to both DEX owners and DEX users but does imply trust on the Loopring team for future protocol releases."
@@ -11,7 +11,7 @@
     },
 
     {
-      "title": "◉ Manual UPGRADABLITY",
+      "title": "Manual Upgradability",
       "contents": [
         "DEXes deployed with this option will be able to upgrade to new versions, but the upgrade must be triggered by the DEX owners manually. This option allows DEX owners to evaluate new protocol releases first and make their best judgment call.",
         "The upgrade experience enabled by this option is also entirely transparent to DEX users."
@@ -19,7 +19,7 @@
     },
 
     {
-      "title": "◎ Proxied",
+      "title": "Proxied",
       "contents": [
         "DEXes deployed with this option are not upgradable at all. This option isolates the DEX state from its logic by deploying only a proxy in front of a pre-deployed Loopring DEX, which makes forging a new DEX very inexpensive.",
         "This option may be suitable for exchanges operating in tighter regulatory jurisdictions where upgradability may be treated as being centralized."
@@ -27,7 +27,7 @@
     },
 
     {
-      "title": "◯ Native",
+      "title": "Native",
       "contents": [
         " DEXes deployed with this option are not upgradable either, and the deployment is likely to consume more gas than the other three options.",
         "This option enables smaller transaction cost after deployment as there is no proxy applied."
