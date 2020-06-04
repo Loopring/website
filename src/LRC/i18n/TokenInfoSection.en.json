@@ -4,7 +4,7 @@
   "titles": {
     "tokenInfo": "Token Information",
     "exchanges": "Centralized Exchanges",
-    "dexes": "Decentralized Exchanges",
+    "DEXs": "Decentralized Exchanges",
     "migration": "LRC V2 Migration Completed"
   },
   "wedexFootnote": "WeDEX is the first DEX built on top of Loopring 3.0. It is owned and operated by an independent third-party.",
@@ -64,7 +64,7 @@
       "value": "$0.027952 USD (Sep 05, 2017)"
     }
   ],
-  "dexes": [
+  "DEXs": [
     {
       "name": "Loopring Exchange (DEX)",
       "url": "https://loopring.io",

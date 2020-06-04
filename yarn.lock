@@ -6646,9 +6646,9 @@ indent-string@^4.0.0:
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
   integrity sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==
 
-indexes-of@^1.0.1:
+inDEXs-of@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/indexes-of/-/indexes-of-1.0.1.tgz#f30f716c8e2bd346c7b67d3df3915566a7c05607"
+  resolved "https://registry.yarnpkg.com/inDEXs-of/-/inDEXs-of-1.0.1.tgz#f30f716c8e2bd346c7b67d3df3915566a7c05607"
   integrity sha1-8w9xbI4r00bHtn0985FVZqfAVgc=
 
 infer-owner@^1.0.3:
@@ -10178,7 +10178,7 @@ postcss-selector-parser@^3.0.0:
   integrity sha1-T4dfSvsMllc9XPTXQBGu4lCn6GU=
   dependencies:
     dot-prop "^4.1.1"
-    indexes-of "^1.0.1"
+    inDEXs-of "^1.0.1"
     uniq "^1.0.1"
 
 postcss-selector-parser@^5.0.0, postcss-selector-parser@^5.0.0-rc.3, postcss-selector-parser@^5.0.0-rc.4:
@@ -10187,7 +10187,7 @@ postcss-selector-parser@^5.0.0, postcss-selector-parser@^5.0.0-rc.3, postcss-sel
   integrity sha512-w+zLE5Jhg6Liz8+rQOWEAwtwkyqpfnmsinXjXg6cY7YIONZZtgvE0v2O0uhQBs0peNomOJwWRKt6JBfTdTd3OQ==
   dependencies:
     cssesc "^2.0.0"
-    indexes-of "^1.0.1"
+    inDEXs-of "^1.0.1"
     uniq "^1.0.1"
 
 postcss-selector-parser@^6.0.0:
@@ -10196,7 +10196,7 @@ postcss-selector-parser@^6.0.0:
   integrity sha512-36P2QR59jDTOAiIkqEprfJDsoNrvwFei3eCqKd1Y0tUsBimsq39BLp7RD+JWny3WgB1zGhJX8XVePwm9k4wdBg==
   dependencies:
     cssesc "^3.0.0"
-    indexes-of "^1.0.1"
+    inDEXs-of "^1.0.1"
     uniq "^1.0.1"
 
 postcss-svgo@^4.0.2:
@@ -10234,7 +10234,7 @@ postcss-values-parser@^2.0.0, postcss-values-parser@^2.0.1:
   integrity sha512-2tLuBsA6P4rYTNKCXYG/71C7j1pU6pK503suYOmn4xYrQIzW+opD+7FAFNuGSdZC/3Qfy334QbeMu7MEb8gOxg==
   dependencies:
     flatten "^1.0.2"
-    indexes-of "^1.0.1"
+    inDEXs-of "^1.0.1"
     uniq "^1.0.1"
 
 postcss@7.0.14:

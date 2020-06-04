@@ -81,6 +81,14 @@ class PerformanceSection extends I18nComponent {
                       <Translate id="links.circuits" />
                     </a>
                   </li>
+                  <li>
+                    <a
+                      href="https://loopring.org/#/post/loopring-3-5-is-code-complete-and-ready-for-review"
+                      className=" highlight_link bluebg "
+                    >
+                      <Translate id="links.loopring35" />
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -145,6 +153,15 @@ class PerformanceSection extends I18nComponent {
                       className="underline has-leading-thick-arrow"
                     >
                       <Translate id="links.circuits" />
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://loopring.org/#/post/loopring-3-5-is-code-complete-and-ready-for-review"
+                      className=" highlight_link whitebg "
+                    >
+                      <Translate id="links.loopring35" />
                     </a>
                   </li>
                 </ul>

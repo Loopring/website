@@ -3,7 +3,7 @@
   "titles": {
     "tokenInfo": "代币基本面",
     "exchanges": "中心化交易平台",
-    "dexes": "去中心化交易平台",
+    "DEXs": "去中心化交易平台",
     "migration": "LRC代币完成升级"
   },
   "wedexFootnote": "WeDEX是第一个基于路印协议3.0的高性能去中心化交易所。WeDEX完全由第三方独立运营。",
@@ -63,7 +63,7 @@
       "value": "0.20 人民币（2017年9月5日）"
     }
   ],
-  "dexes": [
+  "DEXs": [
     {
       "name": "路印去中心化交易所",
       "url": "https://loopring.io",

@@ -210,6 +210,26 @@
     // padding-left: 60px;
     // margin-left: -20px;
     position: relative;
+
+    a.highlight_link {
+        display:inline-block;
+       margin-top:20px!important;
+       
+       padding: 8px 24px;
+      
+       border-radius: 4px;
+       font-weight: 700;
+
+       &.bluebg {
+        color: $white!important;
+        background-color: $primary!important;
+       }
+
+       &.whitebg {
+        background: $white!important;
+        color: $primary!important;
+       }
+    }
   }
 }
 

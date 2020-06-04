@@ -9,7 +9,7 @@
     {
       "title": "2 / Build up DEX Reputation (DEX Owners)",
       "symbol": "☐",
-      "detail": "Loopring DEX owners must stake some LRC for economic security and building their reputation. This mechanism guarantees malicious DEXes have something to lose if they don't follow the protocol rules. One can trust DEXes with more LRC staked. Note: asset security is 100% guaranteed by the protocol (Ethereum + ZKPs); LRC staking is for economic guarantees related to service levels."
+      "detail": "Loopring DEX owners must stake some LRC for economic security and building their reputation. This mechanism guarantees malicious DEXs have something to lose if they don't follow the protocol rules. One can trust DEXs with more LRC staked. Note: asset security is 100% guaranteed by the protocol (Ethereum + ZKPs); LRC staking is for economic guarantees related to service levels."
     },
     {
       "title": "3 / Reduce Protocol Fees (DEX Owners & Traders)",

@@ -128,9 +128,9 @@ class TokenInfoSection extends JsonI18nComponent {
 
             <div className="column column-exchange  is-5 has-text-left">
               <div data-aos="fade-up" className="content">
-                <h2>{this.state.I.titles.dexes}</h2>
+                <h2>{this.state.I.titles.DEXs}</h2>
                 <ul>
-                  {this.state.I.dexes.map((exchange, idx) => (
+                  {this.state.I.DEXs.map((exchange, idx) => (
                     <li key={idx}>
                       <a
                         target="_blank"

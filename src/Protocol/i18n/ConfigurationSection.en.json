@@ -218,7 +218,7 @@
         "name": "account_Creation_Fee_ETH",
         "value": "0",
         "type": "uint",
-        "meaning": "The amount of Ether charged by the DEX for the creation of a new account. DEXes should change this to non-zero to mitigate sybil attach."
+        "meaning": "The amount of Ether charged by the DEX for the creation of a new account. DEXs should change this to non-zero to mitigate sybil attach."
       },
       {
         "name": "account_Update_Fee_ETH",
@@ -242,7 +242,7 @@
         "name": "address_Whitelist",
         "value": "0x0",
         "type": "address",
-        "meaning": "The address of an IAddressWhitelist contract to filter addresses that can request account creation. This is the major approach for Loopring-based DEXes to implement KYC. IAddressWhitelist is designed such that whitelisting an address does NOT take an Ethereum transaction. The default value 0x0 indicats KYC is disabled by default."
+        "meaning": "The address of an IAddressWhitelist contract to filter addresses that can request account creation. This is the major approach for Loopring-based DEXs to implement KYC. IAddressWhitelist is designed such that whitelisting an address does NOT take an Ethereum transaction. The default value 0x0 indicats KYC is disabled by default."
       }
     ]
   },
