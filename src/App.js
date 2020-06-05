@@ -18,7 +18,7 @@ class App extends React.Component {
   render() {
     const lang = detectBrowserLanguage().toLowerCase();
     if (lang === "zh" || lang === "zh-cn") {
-      document.title = "路印 - 高性能去中心化交易协议";
+      document.title = "路印 - zkRollup交易与支付协议";
     }
     return (
       <LocalizeProvider>
