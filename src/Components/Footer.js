@@ -118,10 +118,6 @@ class Footer extends JsonI18nComponent {
             </li>
             ⭑
             <li>
-              <a href="https://open.kakao.com/o/gJbSZdF">Kakao</a>
-            </li>
-            ⭑
-            <li>
               {this.isChinese() ? (
                 <a href="https://loopring.substack.com">剪报</a>
               ) : (
