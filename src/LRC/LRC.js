@@ -6,6 +6,7 @@ import Footer from "../Components/Footer";
 import HeroSection from "./HeroSection";
 import StakingSection from "./StakingSection";
 import TokenInfoSection from "./TokenInfoSection";
+import TokenResourceSection from "./TokenResourceSection";
 
 import "./LRC.scss";
 
@@ -17,6 +18,7 @@ class LRC extends React.Component {
         <HeroSection />
         <StakingSection />
         <TokenInfoSection />
+        <TokenResourceSection />
         <Footer />
       </div>
     );
