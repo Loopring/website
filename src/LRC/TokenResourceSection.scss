@@ -9,12 +9,12 @@
   }
 
   .download-button img {
-  transition: all 0.4s linear;
-  width: 120px;
-  margin-left: 20px;
-  margin-right: 20px;
-  &:hover {
-    filter:drop-shadow(0px 0px 20px rgba(0,0,0,0.6));
-  }
+    transition: all 0.4s linear;
+    width: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    &:hover {
+      filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.6));
+    }
   }
 }
