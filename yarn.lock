@@ -1518,12 +1518,12 @@
     "@svgr/plugin-svgo" "^4.3.1"
     loader-utils "^1.2.3"
 
-"@tryghost/content-api@^1.3.7":
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/@tryghost/content-api/-/content-api-1.4.3.tgz#c7bf71dac3379db5ad8dd8bfbb6022a0292fcf54"
-  integrity sha512-7hcwF4jjmQYXXu/SfMZ7271noWVi+mi35QCVwr6uJpsTbbPBNMEQ//ryYAo11yqYhTlkltHTHTWXB1MIbsuF2A==
+"@tryghost/content-api@^1.4.6":
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/@tryghost/content-api/-/content-api-1.4.6.tgz#65a8141f56988ad2ec093d121630d2f30e07e942"
+  integrity sha512-V5HgdJjG4s+R97RVgmqhGLxnOurPv3YlmwTpWRB+5L1by1GvMpIcumECTRwL4ZVxNxgITBiOQZr9B7XerA1ynQ==
   dependencies:
-    axios "0.19.2"
+    axios "0.20.0"
 
 "@types/babel__core@^7.1.0":
   version "7.1.9"
@@ -2352,7 +2352,14 @@ axe-core@^3.5.4:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-3.5.5.tgz#84315073b53fa3c0c51676c588d59da09a192227"
   integrity sha512-5P0QZ6J5xGikH780pghEdbEKijCTrruK9KxtPZCFWUpef0f6GipO+xEZ5GKCb020mmqgbiNO6TcA55CriL784Q==
 
-axios@0.19.2, axios@^0.19.2:
+axios@0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.20.0.tgz#057ba30f04884694993a8cd07fa394cff11c50bd"
+  integrity sha512-ANA4rr2BDcmmAQLOKft2fufrtuvlqR+cXNNinUmvfeSNCOF98PZL+7M/v1zIdGo7OLjEA9J2gXJL+j4zGsl0bA==
+  dependencies:
+    follow-redirects "^1.10.0"
+
+axios@^0.19.2:
   version "0.19.2"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
   integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
@@ -5970,7 +5977,7 @@ follow-redirects@1.5.10:
   dependencies:
     debug "=3.1.0"
 
-follow-redirects@^1.0.0:
+follow-redirects@^1.0.0, follow-redirects@^1.10.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
   integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
