@@ -29,7 +29,7 @@
     "react-scripts": "^3.3.0",
     "react-tabs": "^3.0.0",
     "react-waterfall": "^4.0.4",
-    "sass-loader": "^8.0.2",
+    "sass-loader": "^10.0.3",
     "waterfall": "^1.0.0"
   },
   "scripts": {
