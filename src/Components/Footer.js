@@ -66,20 +66,16 @@ class Footer extends JsonI18nComponent {
           </div>*/}
           <ul>
             <li>
-              <a href="mailto:foundation@loopring.org">{this.state.I.email}</a>
-            </li>
-            ⭑
-            <li>
               <a href="https://medium.com/loopring-protocol">Medium</a>
             </li>
             ⭑
             <li>
               {this.isChinese() ? (
-                <a href="https://www.youtube.com/channel/UChUsnhrJmjvIZ0l0cuAXjeQ/">
+                <a href="https://www.youtube.com/c/loopring">
                   油管
                 </a>
               ) : (
-                <a href="https://www.youtube.com/channel/UChUsnhrJmjvIZ0l0cuAXjeQ/">
+                <a href="https://www.youtube.com/c/loopring">
                   YouTube
                 </a>
               )}
