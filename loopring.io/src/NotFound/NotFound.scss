@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+@import "../Variables.scss";
+
+.page-notfound {
+  * {
+    user-select: none;
+  }
+  h1 {
+    margin-top: 20px;
+  }
+}

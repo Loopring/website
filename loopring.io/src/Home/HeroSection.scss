@@ -1,0 +1,45 @@
+@charset "utf-8";
+@import "../Variables.scss";
+
+$height-mask: 800px;
+
+// To regulate alpha is recommended to use gray scale.
+// Recomiendo utilizar escala de grises
+$darken: 0%;
+
+$color: rgb(255, 255, 255);
+$color-alpha: darken($color, $darken);
+
+// Apply color here!
+// Todo el color que quieras!
+$color-base: rgb(255, 255, 255);
+
+.section-about-hero {
+  font-family: $theme-font;
+  min-height: 50vh;
+
+  &.chinese {
+    font-family: "Helvetica";
+  }
+
+  .subtitle {
+    padding: 20px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.8em;
+
+    @include mobile {
+      font-size: 1.5em;
+    }
+  }
+
+  .title {
+    font-size: 6em;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    @include mobile {
+      font-size: 5em;
+    }
+  }
+}

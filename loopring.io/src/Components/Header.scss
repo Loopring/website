@@ -1,0 +1,80 @@
+@import "../Variables.scss";
+
+.navbar {
+  margin-bottom: 0;
+  * {
+    user-select: none;
+  }
+
+  a {
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-size: 20px !important;
+    color: $primary !important;
+    // display: inline-block;
+  }
+
+  @include mobile {
+    a {
+      font-size: 20px !important;
+      height: 100px;
+    }
+
+    .navbar-end {
+      padding-top: 50px;
+    }
+  }
+  a.hover {
+    text-decoration: none !important;
+    color: $primary !important;
+  }
+
+  .pageLink {
+    box-shadow: inset 0 -2px transparent;
+    transition-duration: 0.5s;
+  }
+
+  .pageLink:hover {
+    box-shadow: inset 0 -2px $primary;
+    color: $primary !important;
+  }
+
+  .pageLinkExt {
+    box-shadow: inset 0 -2px $white;
+    transition-duration: 0.5s;
+    background-color: $dark-blue !important;
+    color: $white;
+    height: 32px;
+    padding: 2px 18px;
+  }
+
+  .pageLinkExt:hover {
+    // box-shadow: inset 0 -2px $dark-blue;
+    background: $black !important;
+    color: $white !important;
+  }
+
+  a.navbar-item.active > div.pageLink {
+    box-shadow: inset 0 -2px $primary;
+  }
+
+  .navbar-menu.is-active {
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+
+    .pageLink {
+      // padding-top: 40px;
+      width: 100px;
+      margin: auto;
+      border: solid 1px transparent;
+    }
+  }
+
+  img.logo {
+    height: 28px;
+    padding-right: 10px;
+    opacity: 0.96 !important;
+    margin-top: -5px;
+  }
+}

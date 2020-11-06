@@ -1,0 +1,106 @@
+@charset "utf-8";
+@import "../Variables.scss";
+
+.section-build-dex {
+  a.big-button {
+    transition-duration: 0.5s;
+    display: block;
+    margin-top: 100px;
+    background-color: $grey-lighter;
+    border: 1px solid $grey-light;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-decoration: none;
+
+    &:hover {
+      background-color: $white;
+    }
+  }
+
+  .outer-container {
+    @include desktop {
+      box-shadow: 0 10px 20px $grey-lighter;
+    }
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .inner-container {
+    &.right {
+      background-color: white;
+      color: $black !important;
+
+      h2 {
+        // text-transform: none;
+        color: $black !important;
+      }
+    }
+
+    @include mobile {
+      display: block;
+      width: 100%;
+      padding: 40px 0 40px 0;
+    }
+
+    position: relative;
+    min-height: 400px;
+    width: 50%;
+    background-color: $black;
+    color: $white;
+    display: inline-block;
+    padding: 60px;
+
+    a {
+      color: white;
+      user-select: none;
+    }
+
+    h2 {
+      // text-transform: none;
+      color: $white !important;
+    }
+
+    &:hover {
+      .button {
+        text-decoration: none;
+        background-color: $primary;
+        border-color: $primary !important;
+        color: $white !important;
+      }
+    }
+
+    .details {
+      min-height: 200px;
+      padding: 25px 80px;
+    }
+
+    .heading-number {
+      font-weight: 700;
+      color: $primary;
+    }
+
+    .button {
+      background-color: transparent;
+      min-width: 300px;
+      padding: 20px;
+      transition-duration: 0.5s;
+
+      &.left {
+        border-color: $white;
+        color: $white;
+      }
+
+      &.right {
+        border-color: $black;
+        color: $black;
+
+        a {
+          color: $black;
+        }
+      }
+    }
+  }
+}

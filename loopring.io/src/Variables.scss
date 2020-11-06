@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+@import "../node_modules/bulma/sass/utilities/initial-variables.sass";
+
+$scheme-main: $black;
+$scheme-invert: $white;
+
+@import "../node_modules/bulma/sass/utilities/mixins.sass";
+
+// Loopring theme colors
+$black: #272727;
+$primary: #1c42ff;
+$dark-blue: darken($primary, 0);
+$white: #ffffff;
+
+// Body  & Global
+$body-size: 14px;
+$body-color: $black;
+$body-background-color: $white-bis;
+$family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$link: $black;
+
+$theme-font: "DINCondensed-Regular", sans-serif;
+
+// Navbar
+$navbar-item-color: $black;
+$navbar-item-hover-color: $black;
+$navbar-item-hover-background-color: transparent;
+$navbar-background-color: $white;
+$navbar-item-img-max-height: 80px;
+$navbar-height: 4.5rem;
+$very-light-background: #f5f6f7;
+$image-overlay-background: $primary;
+$image-overlay-foreground: $primary;
