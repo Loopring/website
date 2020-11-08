@@ -1,14 +1,14 @@
 import React from "react";
 
-import englishTranslation from "./i18n/FeatureSection.en.json";
-import chineseTranslation from "./i18n/FeatureSection.zh.json";
+import englishTranslation from "./i18n/FunctionsSection.en.json";
+import chineseTranslation from "./i18n/FunctionsSection.zh.json";
 import JsonI18nComponent from "../Components/JsonI18nComponent";
 
-import "./FeatureSection.scss";
+import "./FunctionsSection.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
-class FeatureSection extends JsonI18nComponent {
+class FunctionsSection extends JsonI18nComponent {
   constructor(props) {
     super(props, englishTranslation, chineseTranslation);
   }
@@ -39,8 +39,7 @@ class FeatureSection extends JsonI18nComponent {
                     <figure className="image">
                       <img
                         draggable="false"
-                        src={"/images/" + idx + ".svg"}
-                        className={idx === 2 ? "rotated" : ""}
+                        src={"/images/feature_A" + (idx + 1) + ".jpg"}
                       />
                     </figure>
                     <h1 className="feature">{feature.title}</h1>
@@ -58,4 +57,4 @@ class FeatureSection extends JsonI18nComponent {
   }
 }
 
-export default FeatureSection;
+export default FunctionsSection;

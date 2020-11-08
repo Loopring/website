@@ -2,9 +2,9 @@
 @import "../Variables.scss";
 
 .section-features {
-    background: #E9EEFF;
+    background: #e9eeff;
     .content {
-        padding: 40px;
+        padding: 20px;
         transition-duration: 0.5s;
         background-color: white;
         color: $primary;
@@ -13,8 +13,7 @@
             min-height: 400px;
         }
 
-
-        background: rgba(255, 255, 255, 0.3)!important;
+        background: rgba(255, 255, 255, 0.3) !important;
         box-shadow: 8px 19px 28px 0px rgba(204, 204, 225, 0.09);
         &:hover {
             box-shadow: 8px 19px 28px 10px rgba(204, 204, 225, 0.3);
@@ -22,30 +21,26 @@
     }
 
     h1.sectionTitle {
-    padding-top: 40px;
-        font-size: 64px!important;
+        padding-top: 40px;
+        font-size: 64px !important;
     }
     h2.sectionTitle {
-        font-size: 52px!important;
+        font-size: 52px !important;
         font-weight: 300;
         text-transform: none;
     }
     h3.sectionTitle {
-
         font-weight: 300;
         max-width: 750px;
         margin: auto;
-        font-size: 20px!important;
+        font-size: 20px !important;
         padding-top: 0px;
         padding-bottom: 40px;
     }
 
     h1.feature {
-
-
-        font-size: 32px!important;
+        font-size: 32px !important;
     }
-
 
     .subtitle {
         padding: 20px;
@@ -68,19 +63,13 @@
         margin: auto;
         color: #222222;
         font-size: 20px;
+        font-weight: 300;
     }
 
     .image {
+        margin: 10px;
         img {
             display: inline-block;
-            height: 100px;
-            width: auto;
-            padding: 10px;
-            margin: 20px;
-
-            &.rotated {
-                transform: rotate(180deg);
-            }
         }
     }
 
