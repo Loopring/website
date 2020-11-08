@@ -14,18 +14,14 @@ $color-alpha: darken($color, $darken);
 // Todo el color que quieras!
 $color-base: rgb(255, 255, 255);
 
-.section-about-hero {
+.section-hero {
+
+background: #1C42FF;
     font-family: $theme-font;
-    min-height: 50vh;
-
-    &.chinese {
-        font-family: PingFangSC-Light, PingFang SC;
-    }
-
     .title {
+    padding-top: 60px;
         text-transform: uppercase;
-        height: 73px;
-        font-size: 52px;
+        font-size: 80px;
         font-weight: 700;
         color: $white;
     }
@@ -39,8 +35,8 @@ $color-base: rgb(255, 255, 255);
     }
 
     .button {
-    transition-duration: 0.5s;
-        color: $primary!important;
+        transition-duration: 0.5s;
+        color: $primary !important;
         height: 48px;
         font-size: 24px;
         font-family: PingFangSC-Regular, PingFang SC;
@@ -48,8 +44,17 @@ $color-base: rgb(255, 255, 255);
         padding: 16px 48px;
 
         &:hover {
-        background:#00BBA8!important;
-        text-decoration:none;
+            background: #00bba8 !important;
+            text-decoration: none;
         }
+    }
+}
+
+.section-screenshot1 {
+  padding-top: 2rem!important;
+    .image.screnshot1 {
+        width: 400px;
+        display:inline-block;
+        margin-bottom: -35%;
     }
 }
