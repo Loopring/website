@@ -28,7 +28,7 @@ class Header extends I18nComponent {
   render() {
     return (
       <nav
-        className="navbar is-transparent is-fixed-top"
+        className="navbar is-primary is-fixed-top"
         role="navigation"
         aria-label="main navigation"
       >
@@ -60,70 +60,15 @@ class Header extends I18nComponent {
                 exact
                 activeClassName="active"
                 className="navbar-item"
-                to="/home"
+                to="/"
                 onClick={this.onLinkClick.bind(this)}
               >
                 <div className="pageLink">
-                  <Translate id="home" />
+                  <Translate id="wallet" />
                 </div>
               </NavLink>
-              <NavLink
-                exact
-                activeClassName="active"
-                className="navbar-item"
-                to="/about"
-                onClick={this.onLinkClick.bind(this)}
-              >
+              <a href="https://exchange.loopring.io" className="navbar-item">
                 <div className="pageLink">
-                  <Translate id="about" />
-                </div>
-              </NavLink>
-              <NavLink
-                activeClassName="active"
-                className="navbar-item"
-                to="/protocol"
-                onClick={this.onLinkClick.bind(this)}
-              >
-                <div className="pageLink">
-                  <Translate id="loopring30" />
-                </div>
-              </NavLink>
-              <NavLink
-                activeClassName="active"
-                className="navbar-item"
-                to="/lrc"
-                onClick={this.onLinkClick.bind(this)}
-              >
-                <div className="pageLink">
-                  <Translate id="lrc" />
-                </div>
-              </NavLink>
-              <NavLink
-                activeClassName="active"
-                className="navbar-item"
-                to="/team"
-                onClick={this.onLinkClick.bind(this)}
-              >
-                <div className="pageLink">
-                  <Translate id="team" />
-                </div>
-              </NavLink>
-              <NavLink
-                activeClassName="active"
-                className="navbar-item"
-                to="/blog"
-                onClick={this.onLinkClick.bind(this)}
-              >
-                <div className="pageLink">
-                  <Translate id="updates" />
-                </div>
-              </NavLink>
-              <a
-                className="navbar-item"
-                href="https://loopring.io"
-                target="_blank"
-              >
-                <div className="pageLinkExt">
                   <Translate id="trade" />
                 </div>
               </a>
