@@ -15,31 +15,41 @@ $color-alpha: darken($color, $darken);
 $color-base: rgb(255, 255, 255);
 
 .section-about-hero {
-  font-family: $theme-font;
-  min-height: 50vh;
+    font-family: $theme-font;
+    min-height: 50vh;
 
-  &.chinese {
-    font-family: "Helvetica";
-  }
-
-  .subtitle {
-    padding: 20px;
-    width: 100%;
-    font-weight: 500;
-    font-size: 1.8em;
-
-    @include mobile {
-      font-size: 1.5em;
+    &.chinese {
+        font-family: PingFangSC-Light, PingFang SC;
     }
-  }
 
-  .title {
-    font-size: 6em;
-    font-weight: 700;
-    text-transform: uppercase;
-
-    @include mobile {
-      font-size: 5em;
+    .title {
+        text-transform: uppercase;
+        height: 73px;
+        font-size: 52px;
+        font-weight: 700;
+        color: $white;
     }
-  }
+
+    .subtitle {
+        width: 100%;
+        font-size: 30px;
+        font-weight: 300;
+        color: $white;
+        line-height: 42px;
+    }
+
+    .button {
+    transition-duration: 0.5s;
+        color: $primary!important;
+        height: 48px;
+        font-size: 24px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        line-height: 33px;
+        padding: 16px 48px;
+
+        &:hover {
+        background:#00BBA8!important;
+        text-decoration:none;
+        }
+    }
 }

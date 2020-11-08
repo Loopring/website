@@ -1,72 +1,72 @@
 @import "../Variables.scss";
 
 .navbar {
-    margin-bottom: 0;
-    * {
-        user-select: none;
-    }
+  margin-bottom: 0;
+  * {
+    user-select: none;
+  }
 
+  a {
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-size: 20px !important;
+    color: $white !important; // display: inline-block;
+  }
+
+  @include mobile {
     a {
-        text-decoration: none !important;
-        text-transform: uppercase;
-        font-size: 20px !important;
-        color: $white !important; // display: inline-block;
+      font-size: 20px !important;
+      height: 100px;
     }
 
-    @include mobile {
-        a {
-            font-size: 20px !important;
-            height: 100px;
-        }
+    .navbar-end {
+      padding-top: 50px;
+    }
+  }
+  a.hover {
+    text-decoration: none !important;
+    color: $primary !important;
+  }
 
-        .navbar-end {
-            padding-top: 50px;
-        }
-    }
-    a.hover {
-        text-decoration: none !important;
-        color: $primary !important;
-    }
+  .pageLink {
+    width: 80px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: $white;
+    line-height: 22px;
+    transition-duration: 0.5s;
+    text-align: center;
+    border-radius: 2px;
+    width: 88px;
+    padding: 4px;
+  }
+
+  a.navbar-item:hover {
+    background: transparent !important;
+  }
+
+  a.navbar-item.active > div.pageLink {
+    background: #00bba8;
+  }
+
+  .navbar-menu.is-active {
+    height: 100vh;
+    text-align: center;
+    width: 100%;
 
     .pageLink {
-        width: 80px;
-        font-size: 16px;
-        font-family: PingFangSC-Regular, PingFang SC;
-        font-weight: 400;
-        color: $white;
-        line-height: 22px;
-        transition-duration: 0.5s;
-        text-align: center;
-        border-radius: 2px;
-        width: 88px;
-        padding: 4px ;
+      // padding-top: 40px;
+      width: 100px;
+      margin: auto;
+      border: solid 1px transparent;
     }
+  }
 
-    a.navbar-item:hover {
-        background: transparent!important;
-    }
-
-    a.navbar-item.active > div.pageLink {
-        background: #00BBA8;
-    }
-
-    .navbar-menu.is-active {
-        height: 100vh;
-        text-align: center;
-        width: 100%;
-
-        .pageLink {
-            // padding-top: 40px;
-            width: 100px;
-            margin: auto;
-            border: solid 1px transparent;
-        }
-    }
-
-    img.logo {
-        height: 28px;
-        padding-right: 10px;
-        opacity: 0.96 !important;
-        margin-top: -5px;
-    }
+  img.logo {
+    height: 28px;
+    padding-right: 10px;
+    opacity: 0.96 !important;
+    margin-top: -5px;
+  }
 }

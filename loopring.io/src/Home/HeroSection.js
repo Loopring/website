@@ -14,16 +14,16 @@ class HeroSection extends I18nComponent {
   }
 
   render() {
-    const title = this.isChinese() ? "路印协议" : "Loopring";
+    const title = this.isChinese() ? "路印钱包" : "Loopring Wallet";
     const titleClass = this.isChinese() ? "chinese" : "";
     const subTitle = this.isChinese()
-      ? "zkRollup交易与支付协议"
-      : "zkRollup Exchange and Payment Protocol";
+      ? "支持二层扩容的以太坊智能钱包"
+      : "Ethereum Smart Wallet with zkRollup";
 
     return (
       <section
         className={
-          "section section-about-hero is-large has-background-primary-white " +
+          "section section-about-hero is-large has-background-primary " +
           titleClass
         }
       >
@@ -36,6 +36,13 @@ class HeroSection extends I18nComponent {
               <div className="title">{title}</div>
 
               <div className="subtitle">{subTitle}</div>
+
+              <a
+                href="https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/BACKEND.md"
+                className="button is-medium has-background-white is-primary"
+              >
+                点击下载
+              </a>
             </div>
           </div>
         </div>
