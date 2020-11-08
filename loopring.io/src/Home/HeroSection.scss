@@ -15,46 +15,45 @@ $color-alpha: darken($color, $darken);
 $color-base: rgb(255, 255, 255);
 
 .section-hero {
-
-background: #1C42FF;
-    font-family: $theme-font;
-    .title {
+  background: #1c42ff;
+  font-family: $theme-font;
+  .title {
     padding-top: 60px;
-        text-transform: uppercase;
-        font-size: 80px;
-        font-weight: 700;
-        color: $white;
-    }
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 700;
+    color: $white;
+  }
 
-    .subtitle {
-        width: 100%;
-        font-size: 30px;
-        font-weight: 300;
-        color: $white;
-        line-height: 42px;
-    }
+  .subtitle {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 300;
+    color: $white;
+    line-height: 42px;
+  }
 
-    .button {
-        transition-duration: 0.5s;
-        color: $primary !important;
-        height: 48px;
-        font-size: 24px;
-        font-family: PingFangSC-Regular, PingFang SC;
-        line-height: 33px;
-        padding: 16px 48px;
+  .button {
+    transition-duration: 0.5s;
+    color: $primary !important;
+    height: 48px;
+    font-size: 24px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    line-height: 33px;
+    padding: 16px 48px;
 
-        &:hover {
-            background: #00bba8 !important;
-            text-decoration: none;
-        }
+    &:hover {
+      background: #00bba8 !important;
+      text-decoration: none;
     }
+  }
 }
 
 .section-screenshot1 {
-  padding-top: 2rem!important;
-    .image.screnshot1 {
-        width: 400px;
-        display:inline-block;
-        margin-bottom: -35%;
-    }
+  padding-top: 2rem !important;
+  .image.screnshot1 {
+    width: 400px;
+    display: inline-block;
+    margin-bottom: -35%;
+  }
 }

@@ -1,15 +1,15 @@
 import React from "react";
 
-import englishTranslation from "./i18n/BuildDexSection.en.json";
-import chineseTranslation from "./i18n/BuildDexSection.zh.json";
+import englishTranslation from "./i18n/FunctionsSection.en.json";
+import chineseTranslation from "./i18n/FunctionsSection.zh.json";
 import JsonI18nComponent from "../Components/JsonI18nComponent";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-import "./BuildDexSection.scss";
+import "./FunctionsSection.scss";
 
-class BuildDexSection extends JsonI18nComponent {
+class FunctionsSection extends JsonI18nComponent {
   constructor(props) {
     super(props, englishTranslation, chineseTranslation);
   }
@@ -17,7 +17,7 @@ class BuildDexSection extends JsonI18nComponent {
   render() {
     return (
       <div>
-        <section className="section section-build-dex is-large has-background-blue">
+        <section className="section section-functions is-large has-background-blue">
           <div className="container">
             <div className="columns is-multiline is-centered is-vcentered">
               <div
@@ -82,4 +82,4 @@ class BuildDexSection extends JsonI18nComponent {
   }
 }
 
-export default BuildDexSection;
+export default FunctionsSection;

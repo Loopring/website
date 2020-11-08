@@ -1,14 +1,14 @@
 import React from "react";
 
-import englishTranslation from "./i18n/FunctionsSection.en.json";
-import chineseTranslation from "./i18n/FunctionsSection.zh.json";
+import englishTranslation from "./i18n/FeatureSection.en.json";
+import chineseTranslation from "./i18n/FeatureSection.zh.json";
 import JsonI18nComponent from "../Components/JsonI18nComponent";
 
-import "./FunctionsSection.scss";
+import "./FeatureSection.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
-class FunctionsSection extends JsonI18nComponent {
+class FeatureSection extends JsonI18nComponent {
   constructor(props) {
     super(props, englishTranslation, chineseTranslation);
   }
@@ -57,4 +57,4 @@ class FunctionsSection extends JsonI18nComponent {
   }
 }
 
-export default FunctionsSection;
+export default FeatureSection;
