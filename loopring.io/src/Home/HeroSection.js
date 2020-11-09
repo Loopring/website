@@ -17,7 +17,7 @@ class HeroSection extends I18nComponent {
     const title = this.isChinese() ? "路印钱包" : "Loopring Wallet";
     const titleClass = this.isChinese() ? "chinese" : "";
     const subTitle = this.isChinese()
-      ? "安全持币且轻松赚钱的以太坊智能钱包"
+      ? "我的币 我做主"
       : "Ethereum Smart Wallet with zkRollup";
 
     return (
@@ -41,7 +41,7 @@ class HeroSection extends I18nComponent {
                   href="https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/BACKEND.md"
                   className="button is-medium has-background-white is-primary"
                 >
-                  点击下载
+                  点击下载（安卓版）
                 </a>
               </div>
             </div>
