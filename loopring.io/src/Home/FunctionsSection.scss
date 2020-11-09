@@ -1,0 +1,41 @@
+@charset "utf-8";
+@import "../Variables.scss";
+
+.section-functions {
+
+    .column {
+        padding: 40px;
+    }
+    h1 {
+        padding-top: 40px;
+        font-size: 64px !important;
+    }
+    h2 {
+        font-size: 32px !important;
+        font-weight: 400;
+        text-transform: none;
+
+        padding-bottom: 40px;
+    }
+    p {
+        font-weight: 300;
+        max-width: 750px;
+        margin: auto;
+
+        color: #222222;
+        font-size: 20px;
+        font-weight: 300;
+
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+
+    .image {
+        margin: 10px;
+        height: 400px;
+        img {
+            display: inline-block;
+        }
+    }
+}

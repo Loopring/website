@@ -14,32 +14,59 @@ class HeroSection extends I18nComponent {
   }
 
   render() {
-    const title = this.isChinese() ? "路印协议" : "Loopring";
+    const title = this.isChinese() ? "路印钱包" : "Loopring Wallet";
     const titleClass = this.isChinese() ? "chinese" : "";
     const subTitle = this.isChinese()
-      ? "zkRollup交易与支付协议"
-      : "zkRollup Exchange and Payment Protocol";
+      ? "支持二层扩容的以太坊智能钱包"
+      : "Ethereum Smart Wallet with zkRollup";
 
     return (
-      <section
-        className={
-          "section section-about-hero is-large has-background-primary-white " +
-          titleClass
-        }
-      >
-        <div className="container">
-          <div className="columns is-centered is-vcentered">
-            <div
-              data-aos="fade-up"
-              className="column is-centered is-vcentered has-text-centered"
-            >
-              <div className="title">{title}</div>
+      <div>
+        <section
+          className={
+            "section section-hero is-small has-background-primary " + titleClass
+          }
+        >
+          <div className="container">
+            <div className="columns is-centered is-vcentered">
+              <div
+                data-aos="fade-up"
+                className="column is-centered is-vcentered has-text-centered"
+              >
+                <div className="title">{title}</div>
 
-              <div className="subtitle">{subTitle}</div>
+                <div className="subtitle">{subTitle}</div>
+
+                <a
+                  href="https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/BACKEND.md"
+                  className="button is-medium has-background-white is-primary"
+                >
+                  点击下载
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+        <section
+          className={
+            "section section-screenshot1 is-large has-background-primary " +
+            titleClass
+          }
+        >
+          <div className="container">
+            <div className="columns is-centered is-vcentered">
+              <div
+                data-aos="fade-up"
+                className="column is-centered is-vcentered has-text-centered"
+              >
+                <figure class="image screnshot1">
+                  <img src="/images/screenshot1.jpg" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     );
   }
 }

@@ -16,28 +16,16 @@ class FeatureSection extends JsonI18nComponent {
   render() {
     return (
       <div>
-        <section className="section section-features is-large has-background-primary-dark">
+        <section className="section section-features is-large">
           <div className="container">
             <div className="columns is-centered is-vcentered">
               <div
                 data-aos="fade-up"
                 className="column is-centered is-vcentered has-text-centered"
               >
-                <div className="subtitle has-text-centered">
-                  <div
-                    dangerouslySetInnerHTML={{ __html: this.state.I.subtitle }}
-                  />
-
-                  <div>
-                    <FontAwesomeIcon icon={faStar} size="1x" />
-                    <FontAwesomeIcon icon={faStar} size="1x" />
-                    <FontAwesomeIcon icon={faStar} size="1x" />
-                    <FontAwesomeIcon icon={faStar} size="1x" />
-                    <FontAwesomeIcon icon={faStar} size="1x" />
-                  </div>
-                </div>
-
-                <h1 className="sectionTitle">{this.state.I.heading}</h1>
+                <h1 className="sectionTitle">{this.state.I.heading1}</h1>
+                <h2 className="sectionTitle">{this.state.I.heading2}</h2>
+                <h3 className="sectionTitle">{this.state.I.heading3}</h3>
               </div>
             </div>
             <div className="columns is-centered is-vcentered">
@@ -51,24 +39,16 @@ class FeatureSection extends JsonI18nComponent {
                     <figure className="image">
                       <img
                         draggable="false"
-                        src={"/images/" + idx + ".svg"}
-                        className={idx === 2 ? "rotated" : ""}
+                        src={"/images/feature_A" + (idx + 1) + ".jpg"}
                       />
                     </figure>
                     <h1 className="feature">{feature.title}</h1>
-                    <div className="explain has-text-left">
+                    <div className="explain has-text-centered">
                       {feature.explain}{" "}
                     </div>{" "}
                   </div>
                 </div>
               ))}
-            </div>
-            <div className="columns is-centered is-vcentered">
-              <div className="column is-centered is-vcentered has-text-centered is-12">
-                <a href="/#/protocol" className="learn-more">
-                  {this.state.I.learnMore}
-                </a>
-              </div>
             </div>
           </div>
         </section>
