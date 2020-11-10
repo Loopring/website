@@ -17,6 +17,8 @@ class TradeSection extends JsonI18nComponent {
     return (
       <div>
         <section className="section section-trade is-large has-background-white">
+          <div className="sliding-background"></div>
+
           <div className="container">
             <div className="columns is-centered is-vcentered">
               <div

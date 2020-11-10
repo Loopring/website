@@ -9,12 +9,40 @@
     padding-top: 40px;
     font-size: 64px !important;
 
-    background: -webkit-linear-gradient(left,$primary,$primary, #66FF70, $primary,#66FF70); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right,$primary, $primary,#66FF70,$primary,#66FF70); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, $primary,$primary,#66FF70, $primary,#66FF70); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right,$primary ,$primary, #66FF70,$primary,#66FF70); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(
+      left,
+      $primary,
+      $primary,
+      #66ff70,
+      $primary,
+      #66ff70
+    ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(
+      right,
+      $primary,
+      $primary,
+      #66ff70,
+      $primary,
+      #66ff70
+    ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(
+      right,
+      $primary,
+      $primary,
+      #66ff70,
+      $primary,
+      #66ff70
+    ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(
+      to right,
+      $primary,
+      $primary,
+      #66ff70,
+      $primary,
+      #66ff70
+    ); /* Standard syntax (must be last) */
 
--webkit-background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   h2 {
