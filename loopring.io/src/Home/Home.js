@@ -16,7 +16,7 @@ class Home extends React.Component {
       <div className="page-team">
         <Header />
         <HeroSection />
-        {/*<FeatureSection />*/}
+        {/* <FeatureSection />*/}
         <FunctionsSection />
         <TradeSection />
         <Footer />

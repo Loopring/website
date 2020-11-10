@@ -2,40 +2,46 @@
 @import "../Variables.scss";
 
 .section-functions {
+  .column {
+    padding: 40px;
+  }
+  h1 {
+    padding-top: 40px;
+    font-size: 64px !important;
 
-    .column {
-        padding: 40px;
+    background: -webkit-linear-gradient(left,$primary,$primary, #66FF70, $primary,#66FF70); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,$primary, $primary,#66FF70,$primary,#66FF70); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, $primary,$primary,#66FF70, $primary,#66FF70); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,$primary ,$primary, #66FF70,$primary,#66FF70); /* Standard syntax (must be last) */
+
+-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  h2 {
+    font-size: 32px !important;
+    font-weight: 400;
+    text-transform: none;
+
+    padding-bottom: 40px;
+  }
+  p {
+    font-weight: 300;
+    max-width: 750px;
+    margin: auto;
+
+    color: #222222;
+    font-size: 20px;
+    font-weight: 300;
+
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+
+  .image {
+    margin: 30px;
+    height: 400px;
+    img {
+      display: inline-block;
     }
-    h1 {
-        padding-top: 40px;
-        font-size: 64px !important;
-    }
-    h2 {
-        font-size: 32px !important;
-        font-weight: 400;
-        text-transform: none;
-
-        padding-bottom: 40px;
-    }
-    p {
-        font-weight: 300;
-        max-width: 750px;
-        margin: auto;
-
-        color: #222222;
-        font-size: 20px;
-        font-weight: 300;
-
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-
-
-    .image {
-        margin: 30px;
-        height: 400px;
-        img {
-            display: inline-block;
-        }
-    }
+  }
 }
