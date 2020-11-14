@@ -14,10 +14,10 @@ $color-alpha: darken($color, $darken);
 // Todo el color que quieras!
 $color-base: rgb(255, 255, 255);
 
-.section-hero {
+.section.describe {
   background: #1c42ff;
   font-family: $theme-font;
-  border: 1px solid red;
+
   .subtitle {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -51,12 +51,11 @@ $color-base: rgb(255, 255, 255);
   }
 }
 
-.section-screenshot1 {
-border-bottom: 300px solid yellow;
+.section.screenshot1 {
+  border-bottom: 300px solid yellow;
   .image.screnshot1 {
     width: 400px;
     display: inline-block;
     margin-bottom: -300px;
   }
-
 }
