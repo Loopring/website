@@ -1,7 +1,7 @@
 import React from "react";
 
-import englishTranslation from "./i18n/FunctionsSection.en.json";
-import chineseTranslation from "./i18n/FunctionsSection.zh.json";
+import englishTranslation from "./FunctionsSection_en.json";
+import chineseTranslation from "./FunctionsSection_zh.json";
 import JsonI18nComponent from "../Components/JsonI18nComponent";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

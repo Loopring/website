@@ -2,8 +2,8 @@ import React from "react";
 
 import { withLocalize } from "react-localize-redux";
 import { Translate } from "react-localize-redux";
-import englishTranslation from "./i18n/Footer.en.json";
-import chineseTranslation from "./i18n/Footer.zh.json";
+import englishTranslation from "./Footer_en.json";
+import chineseTranslation from "./Footer_zh.json";
 import JsonI18nComponent from "./JsonI18nComponent";
 import axios from "axios";
 

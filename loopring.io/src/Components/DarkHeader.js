@@ -2,8 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { withLocalize } from "react-localize-redux";
 import { Translate } from "react-localize-redux";
-import englishTranslation from "./i18n/Header.en.json";
-import chineseTranslation from "./i18n/Header.zh.json";
+import englishTranslation from "./Header_en.json";
+import chineseTranslation from "./Header_zh.json";
 import I18nComponent from "./I18nComponent";
 
 import "./DarkHeader.scss";

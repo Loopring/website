@@ -1,7 +1,7 @@
 import React from "react";
 
-import englishTranslation from "./i18n/FeatureSection.en.json";
-import chineseTranslation from "./i18n/FeatureSection.zh.json";
+import englishTranslation from "./FeatureSection_en.json";
+import chineseTranslation from "./FeatureSection_zh.json";
 import JsonI18nComponent from "../Components/JsonI18nComponent";
 
 import "./FeatureSection.scss";

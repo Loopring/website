@@ -2,23 +2,19 @@ import React from "react";
 
 import { withLocalize } from "react-localize-redux";
 import { Translate } from "react-localize-redux";
-import englishTranslation from "./i18n/HeroSection.en.json";
-import chineseTranslation from "./i18n/HeroSection.zh.json";
-import I18nComponent from "../Components/I18nComponent";
+import englishTranslation from "./HeroSection_en.json";
+import chineseTranslation from "./HeroSection_zh.json";
+import JsonI18nComponent from "../Components/JsonI18nComponent";
 
 import "./HeroSection.scss";
 
-class HeroSection extends I18nComponent {
+class HeroSection extends JsonI18nComponent {
   constructor(props) {
     super(props, englishTranslation, chineseTranslation);
   }
 
   render() {
-    const title = this.isChinese() ? "路印钱包" : "Loopring Wallet";
     const titleClass = this.isChinese() ? "chinese" : "";
-    const subTitle = this.isChinese()
-      ? "我的币 我做主"
-      : "Ethereum Smart Wallet with zkRollup";
 
     return (
       <div>
@@ -33,9 +29,8 @@ class HeroSection extends I18nComponent {
                 data-aos="fade-up"
                 className="column is-centered is-vcentered has-text-centered"
               >
-                <div className="title">{title}</div>
-
-                <div className="subtitle">{subTitle}</div>
+                <div className="title">{this.state.I.title}</div>
+                <div className="subtitle">{this.state.I.subtitle}</div>
 
                 <a
                   href="https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/BACKEND.md"
@@ -49,7 +44,7 @@ class HeroSection extends I18nComponent {
         </section>
         <section
           className={
-            "section section-screenshot1 is-large has-background-primary " +
+            "section section-screenshot1 is-small has-background-primary " +
             titleClass
           }
         >
@@ -60,7 +55,7 @@ class HeroSection extends I18nComponent {
                 className="column is-centered is-vcentered has-text-centered"
               >
                 <figure class="image screnshot1">
-                  <img src="/images/screenshot1.jpg" />
+                  <img src="/images/hero-screenshot.png" />
                 </figure>
               </div>
             </div>

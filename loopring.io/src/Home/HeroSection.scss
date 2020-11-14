@@ -17,18 +17,20 @@ $color-base: rgb(255, 255, 255);
 .section-hero {
   background: #1c42ff;
   font-family: $theme-font;
-  .title {
-    padding-top: 60px;
+  border: 1px solid red;
+  .subtitle {
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-transform: uppercase;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
     color: $white;
   }
 
-  .subtitle {
+  .title {
     width: 100%;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 100;
     color: $white;
     line-height: 42px;
   }
@@ -50,10 +52,11 @@ $color-base: rgb(255, 255, 255);
 }
 
 .section-screenshot1 {
-  padding-top: 2rem !important;
+border-bottom: 300px solid yellow;
   .image.screnshot1 {
     width: 400px;
     display: inline-block;
-    margin-bottom: -35%;
+    margin-bottom: -300px;
   }
+
 }

@@ -1,7 +1,7 @@
 import React from "react";
 
-import englishTranslation from "./i18n/TradeSection.en.json";
-import chineseTranslation from "./i18n/TradeSection.zh.json";
+import englishTranslation from "./TradeSection_en.json";
+import chineseTranslation from "./TradeSection_zh.json";
 import JsonI18nComponent from "../Components/JsonI18nComponent";
 
 import "./TradeSection.scss";

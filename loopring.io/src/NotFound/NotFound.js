@@ -7,8 +7,8 @@ import { faSadTear } from "@fortawesome/free-solid-svg-icons";
 
 import { withLocalize } from "react-localize-redux";
 import { Translate } from "react-localize-redux";
-import englishTranslation from "./i18n/NotFound.en.json";
-import chineseTranslation from "./i18n/NotFound.zh.json";
+import englishTranslation from "./NotFound_en.json";
+import chineseTranslation from "./NotFound_zh.json";
 import I18nComponent from "../Components/I18nComponent";
 
 import "./NotFound.scss";
