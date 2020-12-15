@@ -1,8 +1,0 @@
-files:
-  include:
-    - 'src/**/*.s+(a|c)ss'
-  ignore:
-
-rules:
-  indentation:
-    - 2
