@@ -16,7 +16,7 @@ class LRC extends React.Component {
       <div className="page-lrc">
         <Header />
         <HeroSection />
-        <StakingSection />
+        {/* <StakingSection />*/}
         <TokenInfoSection />
         <TokenResourceSection />
         <Footer />
