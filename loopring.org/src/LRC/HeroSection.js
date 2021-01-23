@@ -18,18 +18,17 @@ class HeroSection extends I18nComponent {
         <div className="columns is-multiline">
           <div className="column is-12 is-unselectable hero has-text-din">
             <div className="container">
-              <div data-aos="fade-up" className="text">
-                <Translate id="buyAndStake" />{" "}
-                <span className="symbol">LRC</span>
+              <div data-aos="fade-up" className="text symbol">
+                <Translate id="tokenomics_v2" />{" "}
               </div>
-              <div data-aos="fade-up" className="text smaller">
+              {/*       <div data-aos="fade-up" className="text smaller">
                 <Translate id="buyAndStakeTo" />
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>
 
-        <div className="columns is-centered is-vcentered">
+        {/* <div className="columns is-centered is-vcentered">
           <div className="column is-centered is-vcentered has-text-centered is-12">
             <a
               href="https://staking.loopring.org"
@@ -39,7 +38,7 @@ class HeroSection extends I18nComponent {
               <Translate id="stakeNow" />
             </a>
           </div>
-        </div>
+        </div>*/}
       </section>
     );
   }
