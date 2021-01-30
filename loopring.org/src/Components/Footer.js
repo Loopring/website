@@ -100,9 +100,7 @@ class Footer extends JsonI18nComponent {
             <li>
               {this.isChinese() ? (
                 <a href="https://t.me/loopringfans">电报</a>
-              ) : (
-                <a href="https://t.me/loopring_en">Telegram</a>
-              )}
+              ) }
             </li>
             ⭑
             <li>
