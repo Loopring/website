@@ -13,13 +13,18 @@ class HeroSection extends I18nComponent {
     super(props, englishTranslation, chineseTranslation);
   }
   render() {
+    const url = this.isChinese()
+      ? "https://loopring.org/#/post/lrc-tokenomics-v2-zh"
+      : "https://medium.com/loopring-protocol/lrc-tokenomics-v2-1e6fd99e9e9c?source=collection_home---4------0-----------------------";
     return (
       <section className="section section-lrc-hero is-large has-background-white">
         <div className="columns is-multiline">
           <div className="column is-12 is-unselectable hero has-text-din">
             <div className="container">
               <div data-aos="fade-up" className="text symbol">
-                <Translate id="tokenomics_v2" />{" "}
+                <a href={url} targe="_blank">
+                  <Translate id="tokenomics_v2" />
+                </a>
               </div>
               {/*       <div data-aos="fade-up" className="text smaller">
                 <Translate id="buyAndStakeTo" />
