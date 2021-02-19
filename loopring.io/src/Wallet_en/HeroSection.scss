@@ -1,0 +1,20 @@
+@charset 'utf-8';
+@import "../../_variables.sass";
+
+.hero-section-bottom {
+  .first-zkrollup {
+    font-size: 5rem;
+  }
+
+  @media (max-width: $desktop) {
+    .first-zkrollup {
+      font-size: 4rem;
+    }
+  }
+
+  @media (max-width: $tablet) {
+    .first-zkrollup {
+      font-size: 3rem;
+    }
+  }
+}

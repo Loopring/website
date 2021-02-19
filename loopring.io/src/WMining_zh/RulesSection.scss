@@ -1,0 +1,41 @@
+@charset 'utf-8';
+@import "../../_variables.sass";
+
+.wmining-hero-section {
+  background-image: url("%PUBLIC_URL%/images/wmining-hero.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+  min-height: 700px;
+  background-color: #f3f6ff;
+
+  @media (max-width: $tablet) {
+    min-height: 180px;
+  }
+}
+.wmining-rules-section {
+  margin-top: -60px;
+  background-color: #f3f6ff;
+  padding-bottom: 120px;
+  .rules {
+    padding: 0px 40px;
+    border-radius: 5px;
+  }
+  li {
+    margin-bottom: 8px;
+  }
+  span.strong {
+    color: $primary !important;
+  }
+
+  @media (max-width: $tablet) {
+    .rules {
+      padding: 0;
+
+      margin: 0;
+      li {
+        font-size: 13px;
+      }
+    }
+  }
+}
