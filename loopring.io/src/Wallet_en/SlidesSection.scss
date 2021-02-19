@@ -1,0 +1,16 @@
+.slide-show-section {
+  .alice-carousel__play-btn {
+    display: none !important;
+  }
+
+  .slide {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 100px;
+      border-radius: 8px;
+    }
+  }
+}

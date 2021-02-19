@@ -1,0 +1,44 @@
+@charset 'utf-8';
+@import "../../_variables.sass";
+
+.main-navigation {
+  .new {
+    font-size: 10px 0 !important;
+    padding: 2px 4px 2px 4px;
+    margin-left: 4px;
+    background-color: #65ffda;
+    color: #1c60ff;
+    border-radius: 4px;
+    line-height: 10px;
+    &.old {
+      background-color: #bbb;
+    }
+  }
+  .navbar-menu {
+    background-color: $primary;
+  }
+
+  .navbar-burger > span {
+    color: white;
+  }
+
+  .navbar-item {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+
+    &.disabled-button {
+      background-color: #65ffda !important;
+      color: $primary !important;
+      border-radius: 2px;
+      margin-left: 20px;
+      margin-right: 20px;
+      cursor: default;
+    }
+
+    &.disabled-button:hover {
+      color: $primary !important;
+      background-color: #65ffda !important;
+    }
+  }
+}
