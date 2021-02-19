@@ -3,9 +3,9 @@
 
     "titles":
     {
-        "tokenInfo": "Token Information",
+        "tokenInfo": "Token Information"
     },
-   
+       "facts": [
     {
         "key": "Token Version",
         "value": "2.0"
