@@ -14,24 +14,24 @@
     "content": [
       "The security and sovereignty of user assets is Loopring's top priority. We deployed the first zkRollup protocol on Ethereum - the most secure scaling mechanism the industry knows of, whereby users can access their assets in all circumstances. On Loopring protocol, exchanges and payment applications simply <b>cannot be evil</b>. No person, company, or state can come between a user and their Ethereum-based assets.",
 
-      "Loopring inherits 100% Ethereum-level security guarantees. Loopring protocol does not rely on any external validators, consensus, or cryptoeconomic assumptions. Only Ethereum and Zero Knowledge cryptography. All actions are correct by construction, or simply cannot happen: exchange operators are constrained to purely protocol-described behaviour.",
+      "Loopring inherits 100% Ethereum-level security guarantees. Loopring protocol does not rely on any external validators, consensus, or cryptoeconomic assumptions. Only Ethereum and Zero Knowledge cryptography. All actions are correct by construction, or simply cannot happen: exchange operators are constrained to purely protocol-described behaviour."
     ]
   },
   "section3": {
     "title": "LOOPRING PROTOCOL IS AN EXCHANGE BUSINESS'S BEST-FRIEND",
     "content": [
       "If you are a centralized exchange business for cryptocurrencies, you know the stress and fear of being hacked, and the regulatory burden imposed on custodial crypto-businesses. Loopring protocol ensures that an exchange or payment application simply cannot lose user assets - nor their business as a result. Even in the unimaginable case of being extorted or threatend, an exchange owner simply cannot access user funds - a powerful deterrent. And without control over user assets, you may also shed some regulatory burden. Control is a liability. Using an open-sourced, audited, cryptographically sound protocol means less time & money spent on security & compliance, and more on growing your business.",
-      
+
       "Even if you don't use the Loopring protocol to power your exchange, you can use it for its payment functionality, as a fast (and gas-free) lane for your users to deposit and withdraw ETH and Ethereum-based assets to your venue. Augment the experience for them, while dramatically reducing your network (gas) costs. This happens on the same Ethereum address your users already know and utilize."
   ]
       },
   "section4": {
     "title": "LOOPRING PROTOCOL IS REMARKABLY PERFORMANT",
     "content": [
-    "Loopring solves scalability without compromising Ethereum security. Our zkRollup throughput reaches approximately 1000x of Ethereum, or as high as <b>2,025</b> trades per second. The cost per transaction is reduced to as little as 1/100th the cost of Ethereum, with trades and transfers costing fractions of a cent. With Loopring, we expect non-custodial exchanges and payment apps to continue outcompeting and displacing many centralized ones. The scalability vs security dilemma that users and exchanges have had to navigate is now a solved problem.", 
+    "Loopring solves scalability without compromising Ethereum security. Our zkRollup throughput reaches approximately 1000x of Ethereum, or as high as <b>2,025</b> trades per second. The cost per transaction is reduced to as little as 1/100th the cost of Ethereum, with trades and transfers costing fractions of a cent. With Loopring, we expect non-custodial exchanges and payment apps to continue outcompeting and displacing many centralized ones. The scalability vs security dilemma that users and exchanges have had to navigate is now a solved problem.",
 
-    "Ethereum has become so popular and heavily used, that it exists in a near-permanent state of congestion, where users face absurdly high fees and long delays. Layer 2 presents a less congested fast lane, where users <b>transact gas-free and without delay</b>, yet completely coupled to Ethereum for security. From a user's POV, it just works, with blockchain UX problems abstracted. Loopring's performance is even sufficient for algorithmic traders and market makers to deploy legacy-style, HFT strategies. This was not previously possible on any DEX as it was prohibitively slow and expensive." 
-      
+    "Ethereum has become so popular and heavily used, that it exists in a near-permanent state of congestion, where users face absurdly high fees and long delays. Layer 2 presents a less congested fast lane, where users <b>transact gas-free and without delay</b>, yet completely coupled to Ethereum for security. From a user's POV, it just works, with blockchain UX problems abstracted. Loopring's performance is even sufficient for algorithmic traders and market makers to deploy legacy-style, HFT strategies. This was not previously possible on any DEX as it was prohibitively slow and expensive."
+
     ]
   }
 }
