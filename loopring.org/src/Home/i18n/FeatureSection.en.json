@@ -6,7 +6,7 @@
   "features": [
     {
       "title": " Super Secure",
-      "explain": "Loopring is an open-sourced, audited, and non-custodial exchange and payment protocol. Nobody in the Loopring ecosystem needs to trust others. Cryptoassets are always under users' own control, with 100% Ethereum-level security guarantees."
+      "explain": "Loopring is an open-sourced, audited, and non-custodial exchange and payment protocol. Nobody in the Loopring ecosystem needs to trust others. zkRollup assures assets are always under users' own control; 100% Ethereum-level security guarantees."
     },
     {
       "title": "High Throughput",
