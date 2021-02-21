@@ -19,8 +19,6 @@ class Protocol extends React.Component {
         <Header />
         <PerformanceSection />
         <DesignSection />
-        <DeploymentOptionsSection />
-        <Ceremony />
         <Footer />
       </div>
     );

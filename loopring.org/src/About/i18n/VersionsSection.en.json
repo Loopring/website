@@ -1,36 +1,34 @@
 {
-  "heading": "Version History",
-  "starter": "We started the Loopring project in June 2017, and until now (September 2019), we have released four major versions of the Loopring protocol.",
+  "heading": "Loopring - Across the stack",
+  "starter": "Loopring project began in June 2017, and has evolved into a multifaceted Ethereum effort, operating across the stack, from protocol to product.",
 
   "version10": {
-    "title": "Loopring 1.0",
+    "title": "Loopring Protocol",
     "content": [
-      "Loopring 1.0 introduced the <b> Ring-Matching</b> concept - in one trade, two or more orders can circularly swap cryptoassets in the form of rings. This feature is unique and brings the potential for improved price discovery and higher trading volume. Our project name <b>Loopring</b> is derived from this feature.",
-      "With 1.0, orders are managed and matched off-chain. The protocol's smart contracts verify order signatures, trading prices, and settlement amounts on-chain and perform token transfers for each order accordingly. Because of the off-chain order management and matching, the performance of Loopring 1.0 is better than that of EtherDelta and the like, which rest entirely on-chain."
+      "Loopring protocol is an open source zkRollup protocol. It is a collection of Ethereum smart contracts and ZK circuits which describe how to build highly-secure, highly-scalable orderbook-based DEXes, AMMs, and payment apps. It was the first rollup protocol deployed on Ethereum, and has led the ecosystem into the era of Layer 2 scaling (L2). The current protocol version, v3.6, is our fifth deployed version (the first three were non-zkRollup). It provides a solution for the most outstanding challenge of all decentralized protocols - performance, or more precisely, <b>much higher performance without a tradeoff in security.</b>",
+"<a className='underline ' href='/#/protocol'> Click here</a> to learn about the technical details of Loopring protocol 3.6."
     ]
   },
   "version15": {
-    "title": "Loopring 1.5",
+    "title": "Loopring Relayer",
     "content": [
-      "Loopring 1.5 introduced another unique feature called <b>Dual Authoring</b> to prevent front-running. Each order has a randomly generated Dual Author key-pair - the public key is part of the order.  The private key, however,  is not part of the order but is sent to the relayer so that the relayer can and must use it to sign rings that include the order.",
-      "Dual Authoring effectively prevents pending settlements and their orders from being stolen by middlemen in the Ethereum network, as only the legitimate relayer has access to the orders' Dual Author private keys.",
-      "Dual Authoring comes very handy for scenarios where orders can be matched by more than one exchange/relayer."
+      "Loopring relayer (aka operator) is our implementation of the backend system that interacts with the protocol to make a zkRollup run. It hosts and updates the off-chain Merkle tree, creates rollup blocks, generates zkSNARK proofs of their validity, publishes data + proofs to Ethereum, and more. Our relayer has been highly optimized for its use case: from orderbook matching to proof generation. Note: in doing all of this, it can never, ever, access or freeze user funds - the protocol simply does not allow it.",
+      "While Loopring protocol is agnostic to relayer (anyone can build & use their own relayer(s) to run their zkRollup/products), what is known as the canonical 'Loopring L2' (and the products atop) is serviced by the Loopring relayer. Loopring relayer API can be used by builders, users, and other applications that want to perform gas-free, high-speed trading and transfers on Ethereum, or otherwise read or write to our L2."
     ]
   },
   "version20": {
-    "title": "Loopring 2.0",
+    "title": "Loopring Exchange",
     "content": [
-      "With the 2.0 release, Loopring no longer required traders to pay relayers <b>LRC</b>, Loopring's utility token, as the trading fee. The trading fees can be paid using any ERC-20 tokens that relayers specify. Relayers only have to use a percentage, known as the burn-rate, of their fee income to buy LRC to burn (so LRC's total supply is ever decreasing). Different tokens have varying burn-rates, and the burn rates for LRC and WETH are the lowest, which makes paying in LRC and Ether the most cost-efficient.",
-      "This <b>Any-Token-As-Fee</b> feature not only significantly reduces frictions in user experience but also enables decentralized exchanges to use own their platform token as the fee token."
+      "Loopring Exchange (exchange.loopring.io) is a high-performance, non-custodial exchange (AMM and orderbook) and payment platform that the Loopring team operates. It is built on the Loopring protocol, run by the Loopring relayer, and provides the most advanced and enjoyable trading experience on Ethereum. Gas-free, blazing fast, completely secure. Whether you are doing a single swap, 30 trades per minute, providing liquidity in the AMM pool or orderbook, or transferring tokens to 1 friend or 100 friends, Loopring Exchange is the L2 standard.",
+ "<a className='underline ' href='/#/trade'> Click here</a> to get on the Loopring Exchange. It requires only an Ethereum wallet."
     ]
   },
   "version30": {
-    "title": "Loopring 3.0",
+    "title": "Loopring Wallet",
     "content": [
-      "Loopring 3.0 is our newest, fastest, and most forward-looking protocol. It provides a solution for the most outstanding challenge of all decentralized protocols - performance, or more precisely, <b>much higher performance without a tradeoff in security.</b>",
-      "There are, however, some tradeoffs in other aspects. For example, orders are no longer shareable among multiple exchanges and have to be matched by a dedicated relayer. Also, cryptoassets have to be deposited into a smart contract before they’re available for orders. One benefit of these tradeoffs is that the new user experience is more comparable to centralized exchanges, with familiar user flow.",
-      "Loopring 3.0 also supports multiple upgradability options. As an owner, you can decide whether your DEX can upgrade to new <b>compatible versions</b> in the future, and if so, whether the upgrade should be fully automated or manually. In either case, the upgrade process is entirely transparent to end-users.",
-      "<a className='underline ' href='/#/protocol'> Click here</a> to learn about the technical details of Loopring 3.0."
+      "Loopring Wallet is an Ethereum mobile smart contract wallet, with Loopring zkRollup baked in. It is the first smart wallet app with L2 scaling, and provides a secure, intuitive, powerful Ethereum experience in your pocket. Swap on the AMM, become an LP, trade on the books, invest & earn in DeFi, send payments to anyone, anywhere - all gas-free, and at the tap of a finger.", 
+    "Completely self-custodial, only smarter. You can say goodbye to seed phrases and paper backups, and say hello to social recovery. This means choosing people, institutions, and hardware that you trust as the guardians of your wallet. If ever you lose access to your mobile, they help you recover your assets. As long as more than half of your guardians are trustworthy, your assets are secure. You can also set limits on daily transfers, and whitelist trusted addresses.",
+      "<a className='underline ' href='/#/trade'> Click here</a> to visit the Loopring Smart Wallet page, where you can download the app."
     ]
   }
 }
