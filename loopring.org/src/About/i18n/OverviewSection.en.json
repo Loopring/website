@@ -23,7 +23,8 @@
       "If you are a centralized exchange business for cryptocurrencies, you know the stress and fear of being hacked, and the regulatory burden imposed on custodial crypto-businesses. Loopring protocol ensures that an exchange or payment application simply cannot lose user assets - nor their business as a result. Even in the unimaginable case of being extorted or threatend, an exchange owner simply cannot access user funds - a powerful deterrent. And without control over user assets, you may also shed some regulatory burden. Control is a liability. Using an open-sourced, audited, cryptographically sound protocol means less time & money spent on security & compliance, and more on growing your business.",
       
       "Even if you don't use the Loopring protocol to power your exchange, you can use it for its payment functionality, as a fast (and gas-free) lane for your users to deposit and withdraw ETH and Ethereum-based assets to your venue. Augment the experience for them, while dramatically reducing your network (gas) costs. This happens on the same Ethereum address your users already know and utilize."
-  },
+  ]
+      },
   "section4": {
     "title": "LOOPRING PROTOCOL IS REMARKABLY PERFORMANT",
     "content": [
