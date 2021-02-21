@@ -14,7 +14,7 @@
     "content": [
       "The security and sovereignty of user assets is Loopring's top priority. We deployed the first zkRollup protocol on Ethereum - the most secure scaling mechanism the industry knows of, whereby users can access their assets in all circumstances. On Loopring protocol, exchange and payment applications simply <b>cannot be evil</b>. No person, company, nor state can come between a user and their Ethereum-based assets.",
 
-      "Loopring inherits 100% Ethereum-level security guarantees. Loopring protocol does not rely on any external validators, consensus, or cryptoeconomic assumptions. Only Ethereum and Zero Knowledge cryptography. All actions are correct by construction, or simply cannot happen: exchange operators are constrained to purely protocol-described behaviour."
+      "Loopring inherits <b>100% Ethereum-level security guarantees</b>. Loopring protocol does not rely on any external validators, consensus, or cryptoeconomic assumptions. Only Ethereum and Zero Knowledge cryptography. All actions are correct by construction, or simply cannot happen: exchange operators are constrained to purely protocol-described behaviour."
     ]
   },
   "section3": {
@@ -22,7 +22,7 @@
     "content": [
       "Control is a liability. For centralized crypto exchanges, the stress and fear of being hacked is immenese. So is the regulatory burden. Loopring protocol ensures that an exchange or payment application simply cannot access or lose user assets. And without control over user assets, exchanges may also shed some regulatory burden. Using an open-sourced, audited, cryptographically sound Ethereum protocol means less time & money spent on security & compliance, and more on growing your business.",
 
-      "If you don't use the Loopring protocol to power your exchange, you can still use it for its payment functionality - as a fast, gas-free lane for users to deposit and withdraw Ethereum-based assets. Augment the experience for users, while dramatically reducing your network costs. No extra tooling required."
+      "If you don't use the Loopring protocol to power your exchange, you can still use it for its payment functionality - as a <b>fast, gas-free lane for users to deposit and withdraw Ethereum-based assets</b>. Augment the experience for users, while dramatically reducing your network (gas) costs. No extra tooling required."
   ]
       },
   "section4": {
