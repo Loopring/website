@@ -70,17 +70,21 @@ class Footer extends JsonI18nComponent {
             </li>
             ⭑
             <li>
+              <a href="https://twitter.com/loopringorg">
+                {this.state.I.twitter}
+              </a>
+            </li>
+            ⭑
+            <li>
+              <a href="https://discord.gg/KkYccYp">Discord</a>
+            </li>
+            ⭑
+            <li>
               {this.isChinese() ? (
                 <a href="https://www.youtube.com/c/loopring">油管</a>
               ) : (
                 <a href="https://www.youtube.com/c/loopring">YouTube</a>
               )}
-            </li>
-            ⭑
-            <li>
-              <a href="https://twitter.com/loopringorg">
-                {this.state.I.twitter}
-              </a>
             </li>
             ⭑
             <li>
@@ -91,10 +95,6 @@ class Footer extends JsonI18nComponent {
             ⭑
             <li>
               <a href="https://reddit.com/r/loopringorg">Reddit</a>
-            </li>
-            ⭑
-            <li>
-              <a href="https://discord.gg/KkYccYp">Discord</a>
             </li>
             ⭑
             <li>
