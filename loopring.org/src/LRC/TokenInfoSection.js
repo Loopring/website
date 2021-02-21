@@ -93,29 +93,16 @@ class TokenInfoSection extends JsonI18nComponent {
                       >
                         version 1.0
                       </a>{" "}
-                      to version 2.0. The new LRC token remains ERC20 compliant
-                      and now supports a “burn” function that will be used by
-                      the Loopring Protocol and the new{" "}
-                      <a
-                        href="https://medium.com/loopring-protocol/oedax-looprings-open-ended-dutch-auction-exchange-model-d92cebbd3667"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="highlight "
-                      >
-                        Oedax
-                      </a>{" "}
-                      auction protocol to burn LRC as the protocols are being
-                      used. The total LRC supply will decrease over time - in
-                      line with useage - to reflect these burns. ( Note, LRC v2
-                      has nothing to do with Loopring v2; LRC v2 is simply the
-                      updated, proper token - it is used in Loopring 3.0 and
-                      beyond ).
+                      to version 2.0. Note, LRC versioning
+                      does not relate to Loopring protocol versions. LRC v2 is simply the
+                      updated token - used in Loopring protocol 3.0 and
+                      beyond.
                     </p>
                     <p>
-                      To learn more about the migration, please check out our{" "}
+                      LRC is the Loopring protocol token, used to incentivize protocol-desirable behaviour from liquidity providers, insurers, and                                       DAO governors. Protocol fees come from Loopring L2 economic activity, and flow into productive Loopring network participants and into LRC                           itself. To learn more about the LRC token model, please check out our{" "}
                       <a
                         className="highlight "
-                        href="https://medium.com/loopring-protocol/lrc-token-upgraded-a26ee6f87b84"
+                        href="https://medium.com/loopring-protocol/lrc-tokenomics-v2-1e6fd99e9e9c"
                       >
                         blog post
                       </a>
