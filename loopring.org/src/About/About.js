@@ -20,8 +20,6 @@ class About extends React.Component {
         {/* <HeroSection />*/}
         <OverviewSection />
         <VersionsSection />
-        <FeaturesSection />
-        {/* <MediaSection />*/}
         <HacksSection />
         <Footer />
       </div>
