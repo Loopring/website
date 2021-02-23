@@ -1,13 +1,13 @@
 # TERMS OF USE
 
 
-The following terms and conditions (“**Terms**” or “**Agreement**”) is a binding agreement between you and Loopring HK Technology Limited (“**we**,” “**our**”, “**us**” or “**Loopring**”).  Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms.  By accessing or using the Service you agree to be bound by these Terms.  If you disagree with any part of the Terms then you may not access to the Service.  Please read carefully and understand the Terms before using the Service, in particular the provisions of Limitation of Liability and Warrant Disclaimer (Section 8) and Governing Law and Dispute Resolution (Section 9), so that you are aware of your legal rights and obligations.
+The following terms and conditions (“**Terms**” or “**Agreement**”) is a binding agreement between you and Loopring Technology Limited (“**we**,” “**our**”, “**us**” or “**Loopring**”).  Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms.  By accessing or using the Service you agree to be bound by these Terms.  If you disagree with any part of the Terms then you may not access to the Service.  Please read carefully and understand the Terms before using the Service, in particular the provisions of Limitation of Liability and Warrant Disclaimer (Section 8) and Governing Law and Dispute Resolution (Section 9), so that you are aware of your legal rights and obligations.
 
 ## 1. DEFINITION
 
 Except being defined in other parts of this Agreement, the following terms have the following definition:
 
-1.1. “**Loopring**” refers to Loopring HK Technology Limited, a private company limited by shares registered in the Hong Kong Special Administrative Region of the People's Republic of China, with registration number 2966965.
+1.1. “**Loopring**” refers to Loopring Technology Limited, a private company limited by shares registered in the Hong Kong Special Administrative Region of the People's Republic of China, with registration number 2018184.
 
 1.2. “**Application**” or “App” refers to the Loopring Smart Wallet and/or Loopring Exchange application. The Loopring Application can be provided as a downloadable mobile application, or accessed via an Internet browser and used on desktop or laptop computers.
 

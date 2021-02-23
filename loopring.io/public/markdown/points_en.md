@@ -4,8 +4,8 @@
 
 - Loopring Points do not constitute Loopring Wallet assets, and cannot be transferred to any third party, cannot be inherited, and cannot be merged through multiple wallet accounts.
 - Loopring Points cannot be used to redeem any digital tokens.
-- Loopring HK Technology Limited reserves the right to revoke part or all Points from user wallets.
-- Loopring HK Technology Limited reserves the right to adjust the terms and query methods according to regulatory requirements and market conditions without prior notice.
+- Loopring Technology Limited reserves the right to revoke part or all Points from user wallets.
+- Loopring Technology Limited reserves the right to adjust the terms and query methods according to regulatory requirements and market conditions without prior notice.
 - Unless otherwise specified, each Point has an independent issuance date and the validity period is twelve months. Expired Points will be automatically deducted from the Point balance.
 - Loopring Points related programs are still subject to Loopring's **Service Agreement** and **Privacy Policy**.
 

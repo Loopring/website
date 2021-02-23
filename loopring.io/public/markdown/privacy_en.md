@@ -1,7 +1,7 @@
 # PRIVACY POLICY
 
 
-This Privacy Policy describes the policies and procedures of Loopring HK Technology Limited (“**we**”, “**our**”, “**us**” or “**Loopring**”) regarding the collection, retention, use, management and protection of user information on applications and products offered by Loopring (including Loopring Smart Wallet (the “**Wallet**” or “**Loopring Wallet”**)) and Loopring Exchange, collectively, “**Services**” or “**Loopring Services**”)).  This Privacy Policy applies to all functions of Loopring Wallet and Loopring Exchange operated by Loopring, including but not limited to services such as wallet creation, transfer, wire, transaction, deposit and withdrawal, guardian management and reward collection.  We recommend that you carefully read and understand the entire content of this Privacy Policy before using Loopring Services.
+This Privacy Policy describes the policies and procedures of Loopring Technology Limited (“**we**”, “**our**”, “**us**” or “**Loopring**”) regarding the collection, retention, use, management and protection of user information on applications and products offered by Loopring (including Loopring Smart Wallet (the “**Wallet**” or “**Loopring Wallet”**)) and Loopring Exchange, collectively, “**Services**” or “**Loopring Services**”)).  This Privacy Policy applies to all functions of Loopring Wallet and Loopring Exchange operated by Loopring, including but not limited to services such as wallet creation, transfer, wire, transaction, deposit and withdrawal, guardian management and reward collection.  We recommend that you carefully read and understand the entire content of this Privacy Policy before using Loopring Services.
 
 ## 1. OVERVIEW
 

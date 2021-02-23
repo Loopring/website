@@ -113,7 +113,7 @@ const FooterSection = () => {
             paddingBottom: '10px',
           }}
         >
-          路印科技（香港）有限公司版权所有
+          路印科技有限公司版权所有
         </CenterAlignContainer>
       </Container>
     </Footer>
