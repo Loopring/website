@@ -1,20 +1,20 @@
 {
   "heading": "Why Loopring?",
 
-  "subtitle": "Loopring is an Ethereum Layer-2 scaling protocol. It allows anyone to build high-throughput, non-custodial AMMs and orderbook-based exchanges, and payment applications on Ethereum by leveraging Zero-Knowledge Proofs.",
-  "learnMore": "Learn more about Loopring 3.6",
+  "subtitle": "Loopring is an Ethereum Layer-2 scaling protocol. It allows for building high-throughput, low-cost, non-custodial AMMs, orderbook exchanges, and payment applications on Ethereum by leveraging Zero-Knowledge Proofs.",
+  "learnMore": "Learn more about Loopring protocol",
   "features": [
     {
-      "title": "Secure",
-      "explain": "Loopring is an open-sourced, audited, and non-custodial exchange and payment protocol, which means nobody in the Loopring ecosystem needs to trust others. Cryptoassets are always under users' own control, with 100% Ethereum-level security guarantees."
+      "title": " Super Secure",
+      "explain": "Loopring is an open-sourced, audited, and non-custodial exchange and payment protocol. Nobody in the Loopring ecosystem needs to trust others. zkRollup assures assets are always under users' own control; 100% Ethereum-level security guarantees."
     },
     {
       "title": "High Throughput",
-      "explain": "Loopring powers highly scalable decentralized exchanges and payments by batch-processing thousands of requests off-chain, with verifiably correct execution via ZKPs. The performance of underlying Ethereum is no longer the bottleneck."
+      "explain": "Loopring powers highly scalable decentralized exchanges and payments by batch-processing thousands of requests off-chain, with verifiably correct execution via ZKPs. The performance of Ethereum is no longer the bottleneck."
     },
     {
       "title": "Low Cost",
-      "explain": "Loopring performs most operations, including order-matching and trade settlement, off the Ethereum blockchain. Such a design dramatically reduces gas consumption and thus overall settlement cost to only fractions of comparable on-chain cost."
+      "explain": "Loopring performs most operations, including trade and transfer settlement, off the Ethereum blockchain. This dramatically reduces gas consumption and overall transaction cost to small fractions of comparable on-chain cost."
     }
   ]
 }
