@@ -19,3 +19,5 @@
 
 5) Note: Vesper will be incentivizing this VSP/ETH pair for 6 rounds (3 months). Each round having a 1,300 VSP reward pool. So you can plan on adding liquidity for longer. The spread tightness may change per round.
 
+6) For easier market making, consider connecting via the [exchange API](https://docs3.loopring.io/en/), or via [Hummingbot](https://docs.hummingbot.io/exchange-connectors/loopring/), which is connected to Loopring Exchange.
+
