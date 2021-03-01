@@ -1,4 +1,4 @@
-## AMM Liquidity Mining (Round#3)
+## AMM Liquidity Mining (Round#4)
 
 
 ### Rewards
@@ -6,18 +6,13 @@
 
 | **Project** | **Pool** | **Reward** |
 | :--- | ---: | ---: |
-Ethereum | ETH⇄USDT | 800,000 LRC |
-Adex | ADX⇄ETH |  44,000 ADX |
-Autonio | NIOX⇄ETH |  150,000 NIOX |
-Bifrost | vETH⇄ETH | 50,000 LRC |
-BoringDAO | oBTC⇄ETH | 14 BOR |
-Index Coop | DPI⇄ETH  | 1,000 INDEX |
-Redfox labs | RFOX⇄ETH | 880,000 RFOX |
+PieDAO | BCP⇄ETH | 30,000 DOUGH |
+Fuse | FUSE⇄ETH |  25,000 FUSE |
 
 
 ### Rules
 
-1) This round starts at 00:00 AM on February 11th, 2021 UTC, and lasts for 14 days.
+1) This round starts at 00:00 AM on March 3rd, 2021 UTC, and lasts for 14 days.
 
 2) We take random snapshots of the relevant AMM pools several times a day, and calculate the amount of rewards each LP earns based on the average of all snapshot balances in the round.
 
