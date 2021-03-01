@@ -7,7 +7,7 @@
 | **Project** | **Pool** | **Reward** |
 | :--- | ---: | ---: |
 PieDAO | BCP⇄ETH | 30,000 DOUGH |
-Fuse | FUSE⇄ETH |  25,000 FUSE |
+Fuse | FUSE⇄ETH |  50,000 FUSE |
 
 
 ### Rules
