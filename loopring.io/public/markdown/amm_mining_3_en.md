@@ -22,6 +22,8 @@ Fuse | FUSE⇄ETH |  50,000 FUSE |
 
 5) Mining does not involve locking up your funds, but the LP tokens must stay in your Loopring layer-2 account. If you withdraw LP tokens to the Ethereum mainnet, you cannot get mining rewards, because it will not be recorded in the snapshots. You can transfer part or all of your LP tokens to other accounts on layer-2, but the mining rewards will also follow.
 
+6) Note: Fuse will be running their campaign over 2 rounds, 50k FUSE each.
+
 
 ---
 
