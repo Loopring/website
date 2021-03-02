@@ -8,9 +8,9 @@
 | :--- | ---: | ---: |
 PieDAO | BCP⇄ETH | 30,000 DOUGH |
 Fuse | FUSE⇄ETH |  50,000 FUSE |
-Rari | RGT⇄ETH | 486 RGT |
-Rari | REPT⇄ETH |  486 RGT |
-Rari | RSPT⇄USDC |  486 RGT |
+Rari Capital | RGT⇄ETH | 486 RGT |
+Rari Capital | REPT⇄ETH |  486 RGT |
+Rari Capital | RSPT⇄USDC |  486 RGT |
 
 
 ### Rules
