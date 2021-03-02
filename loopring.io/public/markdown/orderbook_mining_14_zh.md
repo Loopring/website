@@ -13,7 +13,7 @@
 
 1) 活动自2021年3月3日晚上9点开始，为期14天。
 
-2) 最大spread为2%。
+2) VSP/ETH交易对的最大spread为2%；DAI/USDT和USDC/USDT的最大spread为0.1%。
 
 3) 其他规则遵循[路印3.1订单本流动性挖矿规则](https://loopring.org/#/post/market-making-competition-cn)。
 
