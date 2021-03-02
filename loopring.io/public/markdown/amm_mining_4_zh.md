@@ -4,13 +4,14 @@
 ### 奖励
 
 
-| **项目** | **资金池** | **奖励** |
-| :--- | ---: | ---: |
-PieDAO | BCP⇄ETH | 30,000 DOUGH |
-Fuse | FUSE⇄ETH |  50,000 FUSE |
-Rari Capital | RGT⇄ETH | 486 RGT |
-Rari Capital | REPT⇄ETH |  486 RGT |
-Rari Capital | RSPT⇄USDC |  486 RGT |
+| **项目** | **资金池** | **奖励** | **交换锦标赛**
+
+| :--- | ---: | ---: | ---: |
+PieDAO | BCP⇄ETH | 30,000 DOUGH | 6,400 LRC |
+Fuse | FUSE⇄ETH |  50,000 FUSE | 1,180 LRC |
+Rari Capital | RGT⇄ETH | 486 RGT | 720 LRC |
+Rari Capital | REPT⇄ETH |  486 RGT | 720 LRC |
+Rari Capital | RSPT⇄USDC |  486 RGT | 720 LRC |
 
 
 ### 规则
