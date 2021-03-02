@@ -1,10 +1,10 @@
-## AMM Liquidity Mining (Round#4)
+## AMM流动性挖矿(第4期)
 
 
-### Rewards
+### 奖励
 
 
-| **Project** | **Pool** | **Reward** |
+| **项目** | **资金池** | **奖励** |
 | :--- | ---: | ---: |
 PieDAO | BCP⇄ETH | 30,000 DOUGH |
 Fuse | FUSE⇄ETH |  50,000 FUSE |
@@ -13,21 +13,21 @@ Rari Capital | REPT⇄ETH |  486 RGT |
 Rari Capital | RSPT⇄USDC |  486 RGT |
 
 
-### Rules
+### 规则
 
-1) This round starts at 13:00 UTC March 3rd 2021, and lasts for 14 days.
+1) 活动自2021年3月3日晚上9点开始，为期14天。
 
-2) We take random snapshots of the relevant AMM pools several times a day, and calculate the amount of rewards each LP earns based on the average of all snapshot balances in the round.
+2) 我们每天会对资金池做多次随机快照，并按照该周期内所有快照余额的平均值计算每个LP应得的奖励数量。
 
-3) This round's mining rewards will be directly distributed to LP's layer-2 accounts within three days of the end of the round.
+3) 奖励在活动结束后三天内通过二层账号直接发放给LP。
 
-4) For pools with liquidity mining, providing liquidity is how you mine. You automatically start mining without any other user action.
+4) 对于支持流动性挖矿的资金池，参与入金提供流动性就自动开始挖矿，无需任何其它操作。
 
-5) Mining does not involve locking up your funds, but the LP tokens must stay in your Loopring layer-2 account. If you withdraw LP tokens to the Ethereum mainnet, you cannot get mining rewards, because it will not be recorded in the snapshots. You can transfer part or all of your LP tokens to other accounts on layer-2, but the mining rewards will also follow.
+5) 挖矿不涉及锁仓，但入金获得的LP代币必须存储在路印二层账号中。如果将LP代币提现到以太坊主网，则无法获取挖矿奖励。用户也可以将LP代币部分或全部转给二层其它账号，但挖矿奖励也将部分或全部归另一个账号所有。
 
-6) Note: Rari will be running their campaign over several rounds, with 486 RGT per pool per round. Fuse will be running their campaign over 2 rounds, 50k FUSE each.
+6) 注: Rari项目方将持续举办几轮流动性挖矿活动，每个资金池每轮发放486 RGT奖励。另外，Fuse项目方会举办超过两轮的挖矿活动，每轮发放50,000 FUSE奖励。
 
 
 ---
 
-Note: LP tokens are equity tokens issued by AMM pools to LPs. For example, the LP token of the LRC⇄ETH AMM pool is called LP-LRC-ETH. The relative proportion of LP-LRC-ETH represents your actual ownership of the LRC⇄ETH AMM pool. If you transfer LP tokens to other accounts, it is equivalent to transferring the corresponding underlying assets in the pool to other accounts.
+注：LP代币是参与一个资金池后由资金池发给LP的权益代币。比如LRC⇄ETH资金池的代币叫LP-LRC-ETH。LP-LRC-ETH的相对比例代表您对LRC⇄ETH资金池的实际拥有权。如果您将LP代币转移给其它账号，也就相当于将资金池中对应的资产转移给了其它账号。
