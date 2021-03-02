@@ -9,7 +9,7 @@
 
 ### Rules
 
-1) This round starts at 00:00 AM on March 3rd, 2021 UTC, and lasts for 14 days.
+1) This round starts at 13:00 UTC March 3rd 2021, and lasts for 14 days.
 
 2) The maximum spread is 2%.
 
