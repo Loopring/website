@@ -213,11 +213,11 @@ class App extends React.Component {
               </Route>
 
               <Route path="/amm_top25_en">
-                <Redirect to={{pathname: '/embed/amm_top25_3_en.md'}} />
+                <Redirect to={{pathname: '/embed/no_amm_top25_en.md'}} />
               </Route>
 
               <Route path="/amm_top25_zh">
-                <Redirect to={{pathname: '/embed/amm_top25_3_zh.md'}} />
+                <Redirect to={{pathname: '/embed/no_amm_top25_zh.md'}} />
               </Route>
 
               <Route path="/orderbook_mining_zh">
