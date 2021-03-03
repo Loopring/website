@@ -15,7 +15,7 @@ Index Coop | DPI⇄ETH | 1,000 INDEX |
 
 ### Rules
 
-1) This round starts at 13:00 UTC March 3rd 2021, and lasts for 14 days.
+1) This round starts at 00:00 UTC March 4th, 2021, and lasts for 14 days.
 
 2) We take random snapshots of the relevant AMM pools several times a day, and calculate the amount of rewards each LP earns based on the average of all snapshot balances in the round.
 
