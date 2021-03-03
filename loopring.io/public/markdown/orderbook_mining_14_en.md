@@ -3,7 +3,7 @@
 
 ### Rewards
 
- | **Orderbook** | **Reward** |
+| **Orderbook** | **Reward** |
 | :--- | ---: |
 | DAI/USDT | 20,000 LRC|
 | USDC/USDT | 20,000 LRC|

@@ -1,4 +1,4 @@
-## AMM交易排名赛（第3期）
+## AMM交易排名赛（第4期）
 
 
 ### 奖励
@@ -9,12 +9,12 @@ PieDAO | BCP⇄ETH |  6,400 LRC |
 Fuse | FUSE⇄ETH |  1,180 LRC |
 Index Coop | DPI⇄ETH |3,300 LRC |
 Vesper Finance | VSP⇄ETH |   6,550 LRC |
-
+Rari Capital | RGT⇄ETH |   2，600 LRC |
 
 ### 规则
 
 
-1）活动自2021年2月11日早上8:00开始，为期14天。
+1) 活动自2021年3月3日晚上9点开始，为期14天。
 
 2）我们将奖励分成20万份，按照下图中的数量奖励给交易量排名前25位交易者。
 
