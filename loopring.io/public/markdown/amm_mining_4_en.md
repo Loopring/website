@@ -4,7 +4,7 @@
 ### Rewards
 
 
-| **Project** | **Pool** | **Reward** | **Swap Tournament** |
+| **Project** | **Pool** | **Liquidity Mining Reward** | **Swap Tournament Reward** |
 | :--- | ---: | ---: | ---: |
 PieDAO | BCP⇄ETH | 30,000 DOUGH | 6,400 LRC |
 Fuse | FUSE⇄ETH |  50,000 FUSE | 1,180 LRC |
