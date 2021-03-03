@@ -3,7 +3,6 @@
 
 ### 奖励
 
-
 | **项目** | **资金池** | **AMM流动性挖矿奖励** | **AMM交易排名赛奖励**
 | :--- | ---: | ---: | ---: |
 PieDAO | BCP⇄ETH | 30,000 DOUGH | 6,400 LRC |
@@ -13,6 +12,7 @@ Rari Capital | REPT⇄ETH |  486 RGT | 720 LRC |
 Rari Capital | RSPT⇄USDC |  486 RGT | 720 LRC |
 Index Coop | DPI⇄ETH | 1,000 INDEX | 3,300 LRC |
 Vesper Finance | VSP⇄ETH |  - | 6,550 LRC |
+
 
 ### 规则
 
