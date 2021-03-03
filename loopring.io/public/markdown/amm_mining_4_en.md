@@ -4,15 +4,14 @@
 ### Rewards
 
 
-| **Project** | **Pool** | **Liquidity Mining Reward** | **Swap Tournament Reward** |
-| :--- | ---: | ---: | ---: |
-PieDAO | BCP⇄ETH | 30,000 DOUGH | 6,400 LRC |
-Fuse | FUSE⇄ETH |  50,000 FUSE | 1,180 LRC |
-Rari Capital | RGT⇄ETH | 486 RGT | 720 LRC |
-Rari Capital | REPT⇄ETH |  486 RGT | 720 LRC |
-Rari Capital | RSPT⇄USDC |  486 RGT | 720 LRC |
-Index Coop | DPI⇄ETH | 1,000 INDEX | 3,300 LRC |
-Vesper Finance | VSP⇄ETH |  - | 6,550 LRC |
+| **Project** | **Pool** | **Reward** |
+| :--- | ---: | ---: |
+PieDAO | BCP⇄ETH | 30,000 DOUGH |
+Fuse | FUSE⇄ETH |  50,000 FUSE |
+Rari Capital | RGT⇄ETH | 486 RGT |
+Rari Capital | REPT⇄ETH |  486 RGT |
+Rari Capital | RSPT⇄USDC |  486 RGT |
+Index Coop | DPI⇄ETH | 1,000 INDEX |
 
 ### Rules
 
@@ -25,8 +24,6 @@ Vesper Finance | VSP⇄ETH |  - | 6,550 LRC |
 4) For pools with liquidity mining, providing liquidity is how you mine. You automatically start mining without any other user action.
 
 5) Mining does not involve locking up your funds, but the LP tokens must stay in your Loopring layer-2 account. If you withdraw LP tokens to the Ethereum mainnet, you cannot get mining rewards, because it will not be recorded in the snapshots. You can transfer part or all of your LP tokens to other accounts on layer-2, but the mining rewards will also follow.
-
-6) Note: Rari will be running their campaign over several rounds, with 486 RGT per pool per round. Fuse will be running their campaign over 2 rounds, 50k FUSE each. For VSP-ETH, there are no rewards for LPs in the AMM pool - the liquidity rewards for market makers are on the VSP-ETH orderbook pair. But the swap tournament rewards are indeed for swappers in the VSP-ETH AMM pool.
 
 
 ---
