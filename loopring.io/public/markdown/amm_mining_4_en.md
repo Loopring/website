@@ -12,6 +12,7 @@ Rari Capital | RGT⇄ETH | 486 RGT | 720 LRC |
 Rari Capital | REPT⇄ETH |  486 RGT | 720 LRC |
 Rari Capital | RSPT⇄USDC |  486 RGT | 720 LRC |
 Vesper Finance | VSP⇄ETH |  - | 6,550 LRC |
+Index Coop | DPI⇄ETH |  - | 3,300 LRC |
 
 ### Rules
 
