@@ -9,7 +9,7 @@ PieDAO | BCP⇄ETH |  6,400 LRC |
 Fuse | FUSE⇄ETH |  1,180 LRC |
 Index Coop | DPI⇄ETH |3,300 LRC |
 Vesper Finance | VSP⇄ETH |   6,550 LRC |
-Rari Capital | RGT⇄ETH |   2，600 LRC |
+Rari Capital | RGT⇄ETH |   2,600 LRC |
 
 ### 规则
 
