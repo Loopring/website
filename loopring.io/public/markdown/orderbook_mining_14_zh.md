@@ -19,6 +19,4 @@
 
 4) 奖励将在活动结束后三天内通过二层账号直接发放。
 
-5) 注：Vesper项目方会提供6轮（持续3个月）的订单本流动性挖矿活动，每轮发放1,300 VSP奖励。另外，每轮挖矿活动的spread会有所变化。
-
-6) 您还可以通过[路印交易API](https://docs3.loopring.io/zh-hans/)或[Hummingbot](https://docs.hummingbot.io/exchange-connectors/loopring/)更好地参与做市。
+5) 您还可以通过[路印交易API](https://docs3.loopring.io/zh-hans/)或[Hummingbot](https://docs.hummingbot.io/exchange-connectors/loopring/)更好地参与做市。
