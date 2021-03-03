@@ -54,10 +54,3 @@ the reward we pay per taker order in AMM is calculated as follows:
 `
 Out of the affiliate reward for a taker order, 50% will be given to the user's registration referral up to 3 months; and 50 will be given to the third-party platform that contributed the order.
 If the taker doesn't have a registration referral or the order is submitted directly without going through a third-party platform, then all affiliate reward will go to Loopring relayer.
-
-#### Affiliate Reward Table
-Trade  | Normal User | VIP1 | VIP2 | VIP3 | VIP4
-:--- | :--- | :--- | :--- | :--- | :---
-Stablecoin orderbook | 0.006% | 0.006%| 0.006% | 0.006% | 0.006%
-Other orderbook | 0.069% | 0.054% | 0.039% | 0.024% | 0.012%
-AMM swap | 0.030%	 |0.030%	 |0.030%	 |0.030%	 |0.030%
