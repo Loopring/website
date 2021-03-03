@@ -8,6 +8,7 @@
 | DAI/USDT | 20,000 LRC|
 | USDC/USDT | 20,000 LRC|
 | VSP/ETH | 1,300 VSP|
+| DPI/ETH | 1,000 INDEX|
 
 ### 规则
 
