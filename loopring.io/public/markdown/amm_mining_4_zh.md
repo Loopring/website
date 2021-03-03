@@ -12,8 +12,8 @@ Fuse | FUSE⇄ETH |  50,000 FUSE | 1,180 LRC |
 Rari Capital | RGT⇄ETH | 486 RGT | 720 LRC |
 Rari Capital | REPT⇄ETH |  486 RGT | 720 LRC |
 Rari Capital | RSPT⇄USDC |  486 RGT | 720 LRC |
+Index Coop | DPI⇄ETH | 1,000 INDEX | 3,300 LRC |
 Vesper Finance | VSP⇄ETH |  - | 6,550 LRC |
-Index Coop | DPI⇄ETH |  - | 3,300 LRC |
 
 ### 规则
 
