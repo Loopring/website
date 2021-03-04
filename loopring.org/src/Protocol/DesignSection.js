@@ -73,8 +73,8 @@ class DesignSection extends I18nComponent {
                     >
                       Whitepaper
                     </a>{" "}
-                    for version 1.0, 1.5, and 2.0. For 3.0 and above, however, we’ve
-                    decided to share our{" "}
+                    for version 1.0, 1.5, and 2.0. For 3.0 and above, however,
+                    we’ve decided to share our{" "}
                     <a
                       className="highlight underline"
                       href="https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/DESIGN.md"
@@ -111,9 +111,8 @@ class DesignSection extends I18nComponent {
                       users can withdraw their assets under all circumstances.
                       In the worst-case scenario, users can still withdraw their
                       assets with Merkle proofs that can be generated from the
-                      on-chain data. This means users don't
-                      need to trust or turn to any central party for help in any
-                      circumstance.
+                      on-chain data. This means users don't need to trust or
+                      turn to any central party for help in any circumstance.
                     </p>
                     <p>
                       To significantly improve throughput and lower settlement

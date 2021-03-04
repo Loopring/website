@@ -8,7 +8,6 @@ import OverviewSection from "./OverviewSection";
 import VersionsSection from "./VersionsSection";
 import FeaturesSection from "./FeaturesSection";
 // import MediaSection from "./MediaSection";
-import HacksSection from "./HacksSection";
 
 import "./About.scss";
 
@@ -20,7 +19,6 @@ class About extends React.Component {
         {/* <HeroSection />*/}
         <OverviewSection />
         <VersionsSection />
-        <HacksSection />
         <Footer />
       </div>
     );

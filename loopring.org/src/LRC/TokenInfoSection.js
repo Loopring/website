@@ -93,13 +93,17 @@ class TokenInfoSection extends JsonI18nComponent {
                       >
                         version 1.0
                       </a>{" "}
-                      to version 2.0. Note, LRC versioning
-                      does not relate to Loopring protocol versions. LRC v2 is simply the
-                      updated token - used in Loopring protocol 3.0 and
-                      beyond.
+                      to version 2.0. Note, LRC versioning does not relate to
+                      Loopring protocol versions. LRC v2 is simply the updated
+                      token - used in Loopring protocol 3.0 and beyond.
                     </p>
                     <p>
-                      LRC is the Loopring protocol token, used to incentivize protocol-desirable behaviour from liquidity providers, insurers, and                                       DAO governors. Protocol fees come from Loopring L2 economic activity, and flow into productive Loopring network participants and into LRC                           itself. To learn more about the LRC token model, please check out our{" "}
+                      LRC is the Loopring protocol token, used to incentivize
+                      protocol-desirable behaviour from liquidity providers,
+                      insurers, and DAO governors. Protocol fees come from
+                      Loopring L2 economic activity, and flow into productive
+                      Loopring network participants and into LRC itself. To
+                      learn more about the LRC token model, please check out our{" "}
                       <a
                         className="highlight "
                         href="https://medium.com/loopring-protocol/lrc-tokenomics-v2-1e6fd99e9e9c"

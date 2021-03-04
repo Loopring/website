@@ -6,8 +6,8 @@
       "Loopring builds protocols, infrastructure, and user-facing products for the future of finance. We believe this future is built on Ethereum, and specifically on layer 2 (zkRollups).",
       "Users of decentralized finance (DeFi) need not choose between security and performance. Loopring's L2 provides a low-fee, high-speed platform for trading, swapping, liquidity providing, and payments - without sacrificing Ethereum security at all.",
       "We envision a digital economy where users are empowered and always in control of their assets. Loopring has succeeded in proving that non-custodial technology can replicate custodial alternatives in speed, cost, and experience. We have made DEXes as performant as CEXes, and will outcompete incumbent fintech.",
- "Loopring's objective is to design and engineer the best-in-class <b>zkRollup exchange and payment protocol</b> on Ethereum, and to operate products that bring it to users across the world."
-    ],
+      "Loopring's objective is to design and engineer the best-in-class <b>zkRollup exchange and payment protocol</b> on Ethereum, and to operate products that bring it to users across the world."
+    ]
   },
   "section2": {
     "title": "LOOPRING PROTOCOL IS COMPLETELY SECURE",
@@ -23,15 +23,14 @@
       "Control is a liability. For centralized crypto exchanges, the stress and fear of being hacked is immenese. So is the regulatory burden. Loopring protocol ensures that an exchange or payment application simply cannot access or lose user assets. And without control over user assets, exchanges may also shed some regulatory burden. Using an open-sourced, audited, cryptographically sound Ethereum protocol means less time & money spent on security & compliance, and more on growing your business.",
 
       "If you don't use the Loopring protocol to power your exchange, you can still use it for its payment functionality - as a <b>fast, gas-free lane for users to deposit and withdraw Ethereum-based assets</b>. Augment the experience for users, while dramatically reducing your network (gas) costs. No extra tooling required."
-  ]
-      },
+    ]
+  },
   "section4": {
     "title": "LOOPRING PROTOCOL IS REMARKABLY PERFORMANT",
     "content": [
-    "Loopring solves scalability without compromising Ethereum security. Our zkRollup throughput reaches approximately <b>1000x of Ethereum</b>, or as high as 2,025 trades per second. The cost per transaction is reduced to as little as 1/100th the cost of Ethereum, with trades and transfers costing fractions of a cent. With Loopring, we expect non-custodial exchanges and payment apps to continue outcompeting and displacing centralized ones.",
+      "Loopring solves scalability without compromising Ethereum security. Our zkRollup throughput reaches approximately <b>1000x of Ethereum</b>, or as high as 2,025 trades per second. The cost per transaction is reduced to as little as 1/100th the cost of Ethereum, with trades and transfers costing fractions of a cent. With Loopring, we expect non-custodial exchanges and payment apps to continue outcompeting and displacing centralized ones.",
 
-    "Ethereum has become so popular and heavily used, that it exists in a near-permanent state of congestion, where users face absurdly high fees and long delays. Layer 2 presents a less congested fast lane, where users <b>transact gas-free and without delay</b>, yet completely coupled to Ethereum security. From a user's POV, it just works, with blockchain UX problems abstracted. Loopring's performance is sufficient for algorithmic traders and market makers to deploy legacy-style, HFT strategies on DEXes for the first time."
-
+      "Ethereum has become so popular and heavily used, that it exists in a near-permanent state of congestion, where users face absurdly high fees and long delays. Layer 2 presents a less congested fast lane, where users <b>transact gas-free and without delay</b>, yet completely coupled to Ethereum security. From a user's POV, it just works, with blockchain UX problems abstracted. Loopring's performance is sufficient for algorithmic traders and market makers to deploy legacy-style, HFT strategies on DEXes for the first time."
     ]
   }
 }
