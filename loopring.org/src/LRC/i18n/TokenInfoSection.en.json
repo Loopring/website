@@ -1,40 +1,39 @@
 {
-    "heading": "LRC Token",
+  "heading": "LRC Token",
 
-    "titles":
+  "titles": {
+    "tokenInfo": "Token Information"
+  },
+  "facts": [
     {
-        "tokenInfo": "Token Information"
-    },
-       "facts": [
-    {
-        "key": "Token Version",
-        "value": "2.0"
-    },
-    {
-        "key": "Token Address",
-        "value": "0xBBbbCA6A......ec7AEafD",
-        "url": "https://etherscan.io/address/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
+      "key": "Token Version",
+      "value": "2.0"
     },
     {
-        "key": "Token ENS",
-        "value": "LRCTOKEN.eth",
-        "url": "https://etherscan.io/address/lrctoken.eth"
+      "key": "Token Address",
+      "value": "0xBBbbCA6A......ec7AEafD",
+      "url": "https://etherscan.io/address/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
     },
     {
-        "key": "ERC-20 Compliant",
-        "value": "YES"
+      "key": "Token ENS",
+      "value": "LRCTOKEN.eth",
+      "url": "https://etherscan.io/address/lrctoken.eth"
     },
     {
-        "key": "Decimals",
-        "value": "18"
+      "key": "ERC-20 Compliant",
+      "value": "YES"
     },
     {
-        "key": "Symbol",
-        "value": "LRC"
+      "key": "Decimals",
+      "value": "18"
     },
     {
-        "key": "Total Supply",
-        "value": "1,375,076,040"
+      "key": "Symbol",
+      "value": "LRC"
+    },
+    {
+      "key": "Total Supply",
+      "value": "1,375,076,040"
     }
-    ]
+  ]
 }

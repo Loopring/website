@@ -1,40 +1,38 @@
 {
-    "heading": "LRC代币",
-    "titles":
+  "heading": "LRC代币",
+  "titles": {
+    "tokenInfo": "代币基本面"
+  },
+  "facts": [
     {
-        "tokenInfo": "代币基本面"
-    },
-    "facts": [
-    {
-        "key": "代币版本",
-        "value": "2.0"
-    },
-    {
-        "key": "代币地址",
-        "value": "0xBBbbCA6A......ec7AEafD",
-        "url": "https://etherscan.io/address/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
+      "key": "代币版本",
+      "value": "2.0"
     },
     {
-        "key": "代币ENS",
-        "value": "LRCTOKEN.eth",
-        "url": "https://etherscan.io/address/lrctoken.eth"
+      "key": "代币地址",
+      "value": "0xBBbbCA6A......ec7AEafD",
+      "url": "https://etherscan.io/address/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
     },
     {
-        "key": "ERC20兼容",
-        "value": "是"
+      "key": "代币ENS",
+      "value": "LRCTOKEN.eth",
+      "url": "https://etherscan.io/address/lrctoken.eth"
     },
     {
-        "key": "精度位数",
-        "value": "18"
+      "key": "ERC20兼容",
+      "value": "是"
     },
     {
-        "key": "符号",
-        "value": "LRC"
+      "key": "精度位数",
+      "value": "18"
     },
     {
-        "key": "发行量",
-        "value": "1,375,076,040"
+      "key": "符号",
+      "value": "LRC"
+    },
+    {
+      "key": "发行量",
+      "value": "1,375,076,040"
     }
-    ]
-
+  ]
 }
