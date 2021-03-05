@@ -46,6 +46,14 @@ class TradeSection extends JsonI18nComponent {
                 >
                   {this.state.I.tradeNow}
                 </a>
+
+               <a
+                 href="https://docs3.loopring.io"
+                  target="_blank"
+                  className="trade-with-api has-text-primary"
+                  >
+               {this.state.I.tradeWithAPI}
+               </a>
               </div>
             </div>
           </div>

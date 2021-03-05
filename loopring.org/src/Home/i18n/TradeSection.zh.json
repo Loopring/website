@@ -3,5 +3,6 @@
   "subtitle1": "路印交易所（Loopring.io）是第一个基于路印协议3.0的去中心化交易平台。",
   "subtitle2": "现在您可以通过MetaMask和多种WalletConnect钱包登陆路印交易所。",
   "img": "loopringio_zh.jpg",
-  "tradeNow": "去Loopring.io交易"
+  "tradeNow": "去Loopring.io交易",
+  "tradeWithAPI":"或使用API交易"
 }

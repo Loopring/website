@@ -29,6 +29,12 @@
       transform: scale(1.05);
     }
   }
+
+  a.trade-with-api {
+    display:block;
+    padding-top: 12px;
+    font-size: 12px;
+  }
   a.trade-now {
     user-select: none;
     background-color: $primary;
@@ -44,6 +50,7 @@
       transition-duration: 0.5s;
       content: "⟶";
       opacity: 0;
+      font-size:0;
       padding-left: 0px;
       color: $black;
     }
@@ -55,6 +62,7 @@
 
       &:after {
         opacity: 1;
+        font-size:inherit;
         padding-left: 10px;
         color: $white;
       }

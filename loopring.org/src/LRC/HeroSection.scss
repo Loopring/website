@@ -46,6 +46,7 @@
     &:after {
       transition-duration: 0.5s;
       content: "⟶";
+      font-size: 0;
       opacity: 0;
       padding-left: 0px;
       color: $black;
@@ -58,6 +59,7 @@
 
       &:after {
         opacity: 1;
+        font-size:inherit;
         padding-left: 10px;
         color: $white;
       }
