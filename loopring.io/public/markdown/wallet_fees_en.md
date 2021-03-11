@@ -35,9 +35,9 @@ All users share the same **flat-fee**s and **minimal-fee**s, but VIPs have diffe
 ### Exchange Fee Table
 Service | Flat-Fee | Minimal-Fee | Normal User | VIP1 | VIP2 | VIP3 | VIP4
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
-Stablecoin orderbook trade [0]| - | maker:0, taker:2,750GAS [3] | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04%
-Other orderbook trade [0]| - | maker:0, taker:2,750GAS [3] | maker:-0.02%, taker:0.25% | maker:-0.02%, taker:0.20% | maker:-0.02%, taker:0.15% | maker:-0.02%, taker:0.10% | maker:-0.02%, taker:0.06%
-AMM swap | - | 2,750GAS [3] | 0.10% | 0.10% | 0.10% | 0.10% | 0.06%
+Stablecoin orderbook trade [0]| - | maker:0, taker:2,750GAS [3] | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES_STABLECOIN.default}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_1}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_2}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_3}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_4}%
+Other orderbook trade [0]| - | maker:0, taker:2,750GAS [3] |maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES.default}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES.vip_1}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES.vip_2}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES.vip_3}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES.vip_4}%
+AMM swap | - | 2,750GAS [3] | ${AMM_TRADING_FEES.default}% | ${AMM_TRADING_FEES.vip_1}% | ${AMM_TRADING_FEES.vip_2}% | ${AMM_TRADING_FEES.vip_3}% | ${AMM_TRADING_FEES.vip_4}%
 AMM exit | 100,650GAS [3] | - | - | - | - | - | -
 AMM join | 100,650GAS [3][4] | - | - | - | - | - | -
 L2-to-L2 transfer | 700GAS [3] | - | - | - | - | - | -

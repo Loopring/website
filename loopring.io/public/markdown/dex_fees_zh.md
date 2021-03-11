@@ -8,9 +8,9 @@
 ### 交易所费用表格
 服务 | 基础费用 | 最小比例费用 | 一般用户 | VIP1 | VIP2 | VIP3 | VIP4
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
-稳定币订单本交易 [1] | - | 做市商返佣：0, 吃单费率：2,750GAS [4] | 做市商返佣：-0.02%, 吃单费率：0.04% | 做市商返佣：-0.02%, 吃单费率：0.04% | 做市商返佣：-0.02%, 吃单费率：0.04% | 做市商返佣：-0.02%, 吃单费率：0.04% | 做市商返佣：-0.02%, 吃单费率：0.04%
-其他订单本交易 [1]| - | 做市商返佣：0, 吃单费率：2,750GAS [4] | 做市商返佣：-0.02%, 吃单费率：0.25% | 做市商返佣：-0.02%, 吃单费率：0.20% | 做市商返佣：-0.02%, 吃单费率：0.15% | 做市商返佣：-0.02%, 吃单费率：0.10% | 做市商返佣：-0.02%, 吃单费率：0.06%
-AMM闪兑 | - | 2,750GAS [4] | 0.10% | 0.10% | 0.10% | 0.10% | 0.06%
+稳定币订单本交易 [1] | - | 做市商返佣：0, 吃单费率：2,750GAS [4] | 做市商返佣：-0.02%, ${ORDERBOOK_TRADING_FEES_STABLECOIN.default}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_1}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_2}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_3}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_4}%
+其他订单本交易 [0]| - | 做市商返佣：0, 吃单费率：2,750GAS [3] | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES.default}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES.vip_1}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES.vip_2}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES.vip_3}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES.vip_4}%
+AMM闪兑 | - | 2,750GAS [3] | ${AMM_TRADING_FEES.default}% | ${AMM_TRADING_FEES.vip_1}% | ${AMM_TRADING_FEES.vip_2}% | ${AMM_TRADING_FEES.vip_3}% | ${AMM_TRADING_FEES.vip_4}%
 AMM出金 | 100,650GAS [4] | - | - | - | - | - | -
 AMM入金 | 100,650GAS [4][5] | - | - | - | - | - | -
 二层到二层 转账 | 700GAS [4] | - | - | - | - | - | -

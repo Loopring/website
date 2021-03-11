@@ -8,6 +8,29 @@
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 768px) {
+  .outerContainer {
+    display: inherit;
+    //flex-direction: column;
+    //align-items: center;
+    //justify-content: center;
+  }
+  .legal.markdown {
+    table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    table tbody,
+    table thead {
+      //display: table;
+      width: 100%;
+    }
+    tr {
+      border: 1px solid #f0f0f0;
+    }
+  }
+}
 .legal.markdown {
   margin: 20px;
   max-width: 768px;
@@ -40,9 +63,7 @@
   table {
     border: 1px solid #f0f0f0;
   }
-  tr {
-    border: 1px solid #f0f0f0;
-  }
+
   a {
     color: #4183c4;
   }
