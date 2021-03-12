@@ -39,9 +39,9 @@ Many of the above fee settings depends on the price of Ether. Loopring will adju
 
 Maker orders will receive 0.02% trading volume as rebate.
 
-### Affiliate Rewards
+### Affiliate & Referral Rewards
 
-For every trade our affiliates contribute, the reward we pay per taker order in orderbooks is calculated as follows:
+For every trade an affiliate or referrer contributes, the reward we pay per taker order in orderbooks is calculated as follows:
 
 `
 (trading_fee - maker_rebate) * trade_volume * 20%
@@ -52,5 +52,6 @@ the reward we pay per taker order in AMM is calculated as follows:
 `
 (trading_fee - liquidity_fee) * trade_volume * 20%
 `
-Out of the affiliate reward for a taker order, 50% will be given to the user's registration referral up to 3 months; and 50 will be given to the third-party platform that contributed the order.
-If the taker doesn't have a registration referral or the order is submitted directly without going through a third-party platform, then all affiliate reward will go to Loopring relayer.
+Out of this reward amount for a taker order, 50% will be given to the user's registration referrer for up to 3 months; and 50% will be given to the third-party platform (affiliate) that contributed the order. Said otherwise: if you - as any Loopring user - refer a friend, you get 10% of their 'net trading fees' for 3 months. If you - as an affiliate application that has an agreement with us - routes an order to Loopring, you get 10% of the 'net trading fee'.
+
+If the taker doesn't have a registration referral or the order is submitted directly without going through a third-party platform, then there is no 'reward', it will go to Loopring relayer.
