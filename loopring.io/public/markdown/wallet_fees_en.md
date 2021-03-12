@@ -35,28 +35,27 @@ All users share the same **flat-fee**s and **minimal-fee**s, but VIPs have diffe
 ### Exchange Fee Table
 Service | Flat-Fee | Minimal-Fee | Normal User | VIP1 | VIP2 | VIP3 | VIP4
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
-Stablecoin orderbook trade [1]| - | maker:0, taker:2,750GAS [4] | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04%
-Other orderbook trade [1]| - | maker:0, taker:2,750GAS [4] | maker:-0.02%, taker:0.25% | maker:-0.02%, taker:0.20% | maker:-0.02%, taker:0.15% | maker:-0.02%, taker:0.10% | maker:-0.02%, taker:0.06%
-AMM swap | - | 2,750GAS [4] | 0.10% | 0.10% | 0.10% | 0.10% | 0.06%
-AMM exit | 100,650GAS [4] | - | - | - | - | - | -
-AMM join | 100,650GAS [4][5] | - | - | - | - | - | -
-L2-to-L2 transfer | 700GAS [4] | - | - | - | - | - | -
+Stablecoin orderbook trade | - | maker:0, taker:2,750GAS [3] | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES_STABLECOIN.default}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_1}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_2}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_3}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_4}%
+Other orderbook trade | - | maker:0, taker:2,750GAS [3] |maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES.default}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES.vip_1}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES.vip_2}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES.vip_3}% | maker：-0.02%, taker：${ORDERBOOK_TRADING_FEES.vip_4}%
+AMM swap | - | 2,750GAS [3] | ${AMM_TRADING_FEES.default}% | ${AMM_TRADING_FEES.vip_1}% | ${AMM_TRADING_FEES.vip_2}% | ${AMM_TRADING_FEES.vip_3}% | ${AMM_TRADING_FEES.vip_4}%
+AMM exit | 100,650GAS [3] | - | - | - | - | - | -
+AMM join | 100,650GAS [3][4] | - | - | - | - | - | -
+L2-to-L2 transfer | 700GAS [3] | - | - | - | - | - | -
 L1-to-L2 transfer (Deposit) | - | - | - | - | - | - | -
-L2-to-L1 transfer (Withdrawal) | 45,050GAS [4] | - | - | - | - | - | -
+L2-to-L1 transfer (Withdrawal) | 45,050GAS [3] | - | - | - | - | - | -
 L2-to-L1 forced transfer (Forced Withdrawal) | 0.02 ETH | - | - | - | - | - | -
-L2-to-L1 fast transfer (Fast Withdrawal) [2] | - | 145,050GAS [4] | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
+L2-to-L1 fast transfer (Fast Withdrawal) [1] | - | 145,050GAS [3] | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
 Submit order | - | - | - | - | - | - | -
 Cancel order | - | - | - | - | - | - | -
-Set L2 EdDSA key [3] | 16,050GAS [4] | - | - | - | - | - | -
+Set L2 EdDSA key [2] | 16,050GAS [3] | - | - | - | - | - | -
 
 Note:
 
 -  '-' means 0 or 0%.
-- [1] The minimal order size is $33.00
-- [2] The minimal amount for fast withdrawal is $5,000
-- [3] Waived for the first operation or when this tx is approved with an on-chain hash.
-- [4] Actual fee amount will be calculated using the realtime gas-price and fee token's ETH price.
-- [5] The fee is temporarily waived.
+- [1] The minimal amount for fast withdrawal is $5,000
+- [2] Waived for the first operation or when this tx is approved with an on-chain hash.
+- [3] Actual fee amount will be calculated using the realtime gas-price and fee token's ETH price.
+- [4] The fee is temporarily waived.
 
 Many of the above fee settings depends on the price of Ether. Loopring will adjust fee parameters if necessary.
 
