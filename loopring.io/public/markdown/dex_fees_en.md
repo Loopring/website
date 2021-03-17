@@ -11,7 +11,7 @@ All users share the same **flat-fees** and **minimum-fees**, but VIPs have diffe
 Service | Flat-Fee | Minimum-Fee | Normal User | VIP1 | VIP2 | VIP3 | VIP4
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
 Stablecoin orderbook trade [1]| - | maker:0, taker:2,750 GAS [4] | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04%
-Other orderbook trade [1]| - | maker:0, taker:2,750GAS [4] | maker:-0.02%, taker:0.25% | maker:-0.02%, taker:0.20% | maker:-0.02%, taker:0.15% | maker:-0.02%, taker:0.10% | maker:-0.02%, taker:0.06%
+Other orderbook trade [1]| - | maker:0, taker:2,750 GAS [4] | maker:-0.02%, taker:0.25% | maker:-0.02%, taker:0.20% | maker:-0.02%, taker:0.15% | maker:-0.02%, taker:0.10% | maker:-0.02%, taker:0.06%
 AMM swap | - | 2,750 GAS [4] | 0.10% | 0.10% | 0.10% | 0.10% | 0.06%
 AMM exit | 100,650 GAS [4] | - | - | - | - | - | -
 AMM join | 100,650 GAS [4][5] | - | - | - | - | - | -
