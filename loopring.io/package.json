@@ -13,6 +13,7 @@
     "bulma": "^0.8.0",
     "core-js": "2.5.7",
     "detect-browser-language": "^0.0.2",
+    "easy-template-string": "^1.0.1",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.27",
     "react": "^16.12.0",
