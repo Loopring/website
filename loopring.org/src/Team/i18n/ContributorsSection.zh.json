@@ -2,6 +2,11 @@
   "headingAdvisors": "顾问团队",
   "headingContributors": "社区贡献者",
   "advisors": [
+      {
+      "name": "周杰",
+      "title": "联合创始人，路印前CMO、COO",
+      "url": "mailto:jay@loopring.org"
+    },
     {
       "name": "陈晓亮",
       "title": "路印联合创始人，路印前COO，WeDEX创始人"
