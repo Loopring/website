@@ -8,19 +8,19 @@
 ### 交易所费用表格
 服务 | 基础费用 | 最小比例费用 | 一般用户 | VIP1 | VIP2 | VIP3 | VIP4
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
-稳定币订单本交易  | - | 做市商返佣：0, 吃单费率：2,750GAS [3] | 做市商返佣：-0.02%, ${ORDERBOOK_TRADING_FEES_STABLECOIN.default}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_1}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_2}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_3}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_4}%
-其他订单本交易 [0]| - | 做市商返佣：0, 吃单费率：2,750GAS [2] | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES.default}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES.vip_1}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES.vip_2}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES.vip_3}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES.vip_4}%
-AMM闪兑 | - | 2,750GAS [2] | ${AMM_TRADING_FEES.default}% | ${AMM_TRADING_FEES.vip_1}% | ${AMM_TRADING_FEES.vip_2}% | ${AMM_TRADING_FEES.vip_3}% | ${AMM_TRADING_FEES.vip_4}%
-AMM出金 | 100,650GAS [3] | - | - | - | - | - | -
-AMM入金 | 100,650GAS [3][4] | - | - | - | - | - | -
-二层到二层 转账 | 700GAS [3] | - | - | - | - | - | -
+稳定币订单本交易  | - | 做市商返佣：0, 吃单费率：2,750 GAS [3] | 做市商返佣：-0.02%, ${ORDERBOOK_TRADING_FEES_STABLECOIN.default}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_1}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_2}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_3}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES_STABLECOIN.vip_4}%
+其他订单本交易 [0]| - | 做市商返佣：0, 吃单费率：2,750 GAS [2] | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES.default}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES.vip_1}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES.vip_2}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES.vip_3}% | 做市商返佣：-0.02%, 吃单费率：${ORDERBOOK_TRADING_FEES.vip_4}%
+AMM闪兑 | - | 2,750 GAS [2] | ${AMM_TRADING_FEES.default}% | ${AMM_TRADING_FEES.vip_1}% | ${AMM_TRADING_FEES.vip_2}% | ${AMM_TRADING_FEES.vip_3}% | ${AMM_TRADING_FEES.vip_4}%
+AMM出金 | 100,650 GAS [3] | - | - | - | - | - | -
+AMM入金 | 100,650 GAS [3][4] | - | - | - | - | - | -
+二层到二层 转账 | 700 GAS [3] | - | - | - | - | - | -
 一层到二层 转账 (充值) | - | - | - | - | - | - | -
-二层到一层 转账 (提现) | 45,050GAS [3] | - | - | - | - | - | -
+二层到一层 转账 (提现) | 45,050 GAS [3] | - | - | - | - | - | -
 二层到一层 强制转账 (强制提现) | 0.02 ETH | - | - | - | - | - | -
-二层到一层 快速转账 (快速提现) [1] | - | 145,050GAS [3] | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
+二层到一层 快速转账 (快速提现) [1] | - | 145,050 GAS [3] | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
 提交订单 | - | - | - | - | - | - | -
 取消订单 | - | - | - | - | - | - | -
-设置二层 EdDSA公钥 [2] | 16,050GAS [3] | - | - | - | - | - | -
+设置二层 EdDSA公钥 [2] | 16,050 GAS [3] | - | - | - | - | - | -
 
 Note:
 
