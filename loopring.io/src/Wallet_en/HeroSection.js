@@ -97,6 +97,7 @@ const HeroSection = (props) => {
               imageUrl={process.env.PUBLIC_URL + '/images/download_apk.png'}
             />
             <DownloadButton
+              url="https://apps.apple.com/us/app/loopring-smart-wallet/id1550921126"
               imageUrl={
                 process.env.PUBLIC_URL + '/images/download_apple_appstore.svg'
               }

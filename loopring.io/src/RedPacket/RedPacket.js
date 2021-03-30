@@ -41,6 +41,7 @@ class RedPacket extends I18nComponent {
             />
             <DownloadButton
               small
+              url="https://apps.apple.com/us/app/loopring-smart-wallet/id1550921126"
               imageUrl="%PUBLIC_URL%/images/download_apple_appstore.svg"
             />
           </div>
