@@ -10,7 +10,7 @@
 
 ### Rules
 
-1) This round starts at 00:00 UTC April 1st, 2021, and lasts for 13 days.
+1) This round starts at 00:00 UTC April 1st, 2021, and lasts for **13 days**.
 
 2) The maximum spread is 1.5% for VSP/ETH trading pair, 1.5% for VSP/DAI trading pair.
 
