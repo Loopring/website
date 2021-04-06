@@ -3,6 +3,11 @@
   "headingContributors": "社区贡献者",
   "advisors": [
       {
+      "name": "Matthew Finestone",
+      "title": "路印前商务负责人",
+      "url": "mailto:matthew@loopring.org"
+    },
+      {
       "name": "周杰",
       "title": "联合创始人，路印前CMO、COO",
       "url": "mailto:jay@loopring.org"
@@ -22,10 +27,6 @@
     {
       "name": "达鸿飞",
       "title": "NEO和本体网络创始人"
-    },
-    {
-      "name": "林祖荣",
-      "title": "香港Loopnest区块链加速器创始人"
     },
     {
       "name": "郑子斌",

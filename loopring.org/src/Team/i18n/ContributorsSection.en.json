@@ -2,6 +2,11 @@
   "headingAdvisors": "Advisors",
   "headingContributors": "Contributors",
   "advisors": [
+      {
+      "name": "Matthew Finestone",
+      "title": "Former Head of Business",
+      "url": "mailto:matthew@loopring.org"
+    },
     {
       "name": "Jay ZHOU",
       "title": "Loopring Co-founder & Former CMO, COO",
@@ -22,10 +27,6 @@
     {
       "name": "Hongfei DA",
       "title": "Founder of NEO and Ontology"
-    },
-    {
-      "name": "Terence LAM",
-      "title": "CEO, Loopnest Blockchain Accelerator"
     },
     {
       "name": "Alex CHENG",
