@@ -21,7 +21,7 @@ BCdiploma | BCDT⇄ETH | 50,000 BCDT |
 
 5) Mining does not involve locking up your funds, but the LP tokens must stay in your Loopring layer-2 account. If you withdraw LP tokens to the Ethereum mainnet, you cannot get mining rewards, because it will not be recorded in the snapshots. You can transfer part or all of your LP tokens to other accounts on layer-2, but the mining rewards will also follow.
 
-6) Some of the incentivized pools continue beyond this 14-day round, into multi-month campaigns.
+6) Some of the incentivized pools continue beyond this 13-day round, into multi-month campaigns.
 
 
 ---
