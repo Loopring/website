@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -24,7 +27,7 @@ html, body {
 
 .imgSlogan {
     margin-top: 10%;
-    width: 80%;
+    width: 85%;
     max-width: 800px;
 }
 
@@ -36,16 +39,133 @@ html, body {
 }
 
 .priceWrapper {
-    width: 80%;
+    width: 85%;
     margin-top: 5%;
     max-width: 800px;
     border-radius: 8px;
     background-color: #FD6050;
     min-height: 106px;
+    /* padding: 5%; */
+}
+
+.priceWrapper >div {
+    margin: 5%;
+}
+
+.priceWrapper >div >div:first-child {
+    display: flex;
+    justify-content: space-between;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    /* margin-top: 5%; */
+    /* line-height: 20px; */
+}
+.priceWrapper >div >div:last-child {
+    display: flex;
+    justify-content: space-between;
+    font-family: Gilroy-SemiBold;
+    font-weight: 700;
+    font-size: 30px;
+    /* line-height: 37px; */
+    color: #FFFFFF;
+    margin-top: 5%;
 }
 
 .bottom {
-    height: 60%;
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
+    /* height: 40%; */
     background: #FFFFFF;
     border-radius: 26px 26px 0 0;
+    margin-top: 8%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bottom >div:first-child {
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.updateTime {
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #999;
+    margin: 2% 0 5% 0;
+}
+
+.inputSearch {
+    width: 100%;
+    height: 36px;
+    color: #999;
+    border-radius: 10px;
+    outline: none;
+    border:0px;
+    border-style: none;
+    outline-color: transparent;
+	box-shadow: none;
+    text-shadow: none;
+    padding-left: 35px;
+    background: url(images/search.png) no-repeat;
+    background-size: 18px;
+    background-position: 10px center;
+    background-color: rgba(118, 118, 128, 0.12);
+}
+
+.listTitleLine {
+    display: flex;
+    justify-content: space-between;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #999;
+    margin: 5% 0;
+}
+
+.userList {
+    width: 100%;
+    padding: 5%;
+    background: #F8F8F8;
+    border-radius: 12px;
+}
+
+.btnLine {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: 5%;
+}
+
+.btnAttend {
+    width: 90px;
+    height: 36px;
+    background: #4864E2;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    outline: none
 }
