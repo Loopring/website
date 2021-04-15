@@ -30,6 +30,16 @@
       "title": "协议架构师",
       "url": "mailto:kongliang@loopring.org"
     },
+        {
+      "name": "林先玲",
+      "title": "运营经理",
+      "url": "mailto:leila@loopring.org"
+    },
+        {
+      "name": "聂鹏",
+      "title": "UX和UI设计师",
+      "url": "mailto:yuqi@loopring.org"
+    },
     {
       "name": "于红雨",
       "title": "后台研发工程师",
@@ -75,15 +85,36 @@
       "title": "研发工程师",
       "url": "mailto:ruby@loopring.org"
     },
-    {
-      "name": "林先玲",
-      "title": "人事行政",
-      "url": "mailto:leila@loopring.org"
+      {
+      "name": "张迪",
+      "title": "研发工程师",
+      "url": "mailto:dizhang@loopring.org"
     },
-    {
-      "name": "张旭铭",
-      "title": "产品和社区运营",
-      "url": "mailto:xuming@loopring.org"
+          {
+      "name": "张中征",
+      "title": "研发工程师",
+      "url": "mailto:dizhang@loopring.org"
+    },
+   {
+      "name": "陈奕飞",
+      "title": "研发工程师",
+      "url": "mailto:yifei@loopring.org"
+    },
+       {
+      "name": "江晔",
+      "title": "测试工程师",
+      "url": "mailto:yejiang@loopring.org"
+    },
+   {
+      "name": "唐达之",
+      "title": "研发工程师",
+      "url": "mailto:winda@loopring.org"
+    }
+    ,
+  {
+      "name": "宫天",
+      "title": "研发工程师",
+      "url": "mailto:tian@loopring.org"
     }
   ]
 }
