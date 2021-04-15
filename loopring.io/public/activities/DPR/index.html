@@ -83,11 +83,14 @@
                 const keyword = e.target.value;
                 const isInvolved = jsonData.find(o => o.id === keyword || o.address === keyword);
                 if (!!jsonData.length && isInvolved) {
+                    const haed = isInvolved.address.substr(0, 10)
+                    const tail = isInvolved.address.substr(isInvolved.address.length - 5, 6);
+                    const address = `${haed}...${tail}`;
                     $("#userList").html(
                         `
                             <div class="singleUser">
                                 <span class="userId">${isInvolved.id}</span>
-                                <span class="userAddress">${isInvolved.address}</span>
+                                <span class="userAddress">${address}</span>
                             </div>
                         `
                     )
@@ -98,6 +101,15 @@
                     return
                 }
                 $("#userList").html("")
+            })
+            // prevent keyboard covering the input
+            $("#inputSearch").on("focus", () => {
+                $(".wrapper").css("height", "auto")
+                $("#userList").css("max-height", "unset")
+            })
+            $("#inputSearch").on("blur", () => {
+                $(".wrapper").css("height", "100%")
+                $("#userList").css("max-height", "210px")
             })
             function setUserList(data) {
                 data.forEach((o, index) => {
