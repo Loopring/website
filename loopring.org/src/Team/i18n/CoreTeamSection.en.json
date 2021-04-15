@@ -30,21 +30,31 @@
       "title": "Protocol Developer",
       "url": "mailto:freeman@loopring.org"
     },
-
+    {
+      "name": "Leila LIN",
+      "title": "Operation Manager",
+      "url": "mailto:leila@loopring.org"
+    },
+     {
+      "name": "Yuqi NIE",
+      "title": "UX/UI Designer",
+      "url": "mailto:yuqi@loopring.org"
+    },
     {
       "name": "Hongyu YU",
       "title": "Developer",
       "url": "mailto:hongyu@loopring.org"
     },
-    {
-      "name": "Eric YANG",
-      "title": "Engineer",
-      "url": "mailto:yangli@loopring.org"
-    },
+
     {
       "name": "Yadong LI",
       "title": "Developer",
       "url": "mailto:yadong@loopring.org"
+    },
+        {
+      "name": "Eric YANG",
+      "title": "Engineer",
+      "url": "mailto:yangli@loopring.org"
     },
     {
       "name": "Xiaolu WU",
@@ -75,16 +85,36 @@
       "name": "Ruby QIN",
       "title": "Developer",
       "url": "mailto:ruby@loopring.org"
+    },    {
+      "name": "Di ZHANG",
+      "title": "Developer",
+      "url": "mailto:dizhang@loopring.org"
     },
-    {
-      "name": "Leila LIN",
-      "title": "HR & Administration",
-      "url": "mailto:leila@loopring.org"
+      {
+      "name": "Zhongzheng ZHANG",
+      "title": "Developer",
+      "url": "mailto:dizhang@loopring.org"
     },
-    {
-      "name": "Xuming ZHANG",
-      "title": "Product & Community Operation",
-      "url": "mailto:xuming@loopring.org"
+   {
+      "name": "Yifei CHEN",
+      "title": "Developer",
+      "url": "mailto:yifei@loopring.org"
+    },
+       {
+      "name": "Yie JIANG",
+      "title": "Developer",
+      "url": "mailto:yejiang@loopring.org"
+    },
+   {
+      "name": "Winda TANG",
+      "title": "Developer",
+      "url": "mailto:winda@loopring.org"
+    }
+    ,
+  {
+      "name": "Tian GONG",
+      "title": "Developer",
+      "url": "mailto:tian@loopring.org"
     }
   ]
 }
