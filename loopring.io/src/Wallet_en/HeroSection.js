@@ -137,9 +137,9 @@ const HeroSection = (props) => {
               orderbook trading, AMMs, and global payments, right from the
               Loopring wallet.
             </div>
-             <div
-               Already have a different wallet and just want to use Loopring L2 on web?
-               Head to Loopring Exchange and connect.
+            <div>
+              Already have a different wallet and just want to use Loopring L2
+              on web? Head to Loopring Exchange and connect.
             </div>
           </div>
         </CenterAlignContainer>
