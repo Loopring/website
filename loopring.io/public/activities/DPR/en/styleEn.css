@@ -1,0 +1,4 @@
+.priceWrapperEn >div >div:first-child {
+  align-items: center;
+  font-size: 12px;
+}
