@@ -52,6 +52,7 @@
     <script type="text/javascript" src="../jquery.csv.min.js"></script>
     <script>
         $(document).ready(function(){
+            // get countdown
             (function getLefttime(){
                 setInterval(() => {
                     const targetTime = new Date('2021/04/22 08:00:00')
@@ -83,7 +84,7 @@
                 }
                 getDprPrice() && setInterval(getDprPrice, 30 * 1000)
             })()
-            // original data
+            // original csv data
             let jsonData = []
             $("#inputSearch").on("input", (e) => {
                 const keyword = e.target.value;
@@ -108,15 +109,6 @@
                     return
                 }
                 $("#userList").html("")
-            })
-            // prevent keyboard covering the input
-            $("#inputSearch").on("focus", () => {
-                $(".wrapper").css("height", "auto")
-                $("#userList").css("max-height", "unset")
-            })
-            $("#inputSearch").on("blur", () => {
-                $(".wrapper").css("height", "100%")
-                $("#userList").css("max-height", "210px")
             })
             function setUserList(data) {
                 data.forEach((o, index) => {

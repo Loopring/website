@@ -5,22 +5,18 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
     min-width: 360px;
 }
 
+body {
+    margin-bottom: 68px;
+}
+
 .wrapper {
-    position: relative;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #2E51FF;
-}
-
-.top {
     background-color: #2E51FF;
 }
 
@@ -59,7 +55,6 @@ html, body {
     max-width: 500px;
     border-radius: 8px;
     background-color: #FD6050;
-    min-height: 106px;
 }
 
 .priceWrapper >div:first-child {
@@ -99,7 +94,6 @@ html, body {
 .bottom {
     width: 100%;
     max-width: 430px;
-    min-height: calc(100% - 350px);
     background: #FFFFFF;
     border-radius: 26px 26px 0 0;
     margin-top: 30px;
@@ -140,7 +134,7 @@ html, body {
     color: #999;
     border-radius: 10px;
     outline: none;
-    border:0px;
+    border: 0px;
     border-style: none;
     outline-color: transparent;
 	box-shadow: none;
@@ -167,19 +161,14 @@ html, body {
 .userListWrapper {
     width: 100%;
     padding: 16px;
+    padding-bottom: 8px;
     background: #F8F8F8;
     border-radius: 12px;
-    min-height: 350px;
-    /* min-height: calc(100% - 55px); */
-    max-height: calc(100% - 200px);
-}
-
-.listContentWrapper {
-    height: 100%;
+    min-height: 46vh;
 }
 
 .userList {
-    max-height: calc(100% - 68px);
+    max-height: 46vh;
     overflow-y: scroll;
 }
 
@@ -200,6 +189,7 @@ html, body {
 
 .btnLine {
     width: 100%;
+    min-width: 360px;
     height: 68px;
     display: flex;
     justify-content: space-between;
@@ -212,7 +202,6 @@ html, body {
     line-height: 21px;
     color: #000000;
     padding: 0 16px;
-    /* margin-top: 5%; */
     position: fixed;
     bottom: 0;
     box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.07)
@@ -244,9 +233,6 @@ html, body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* min-height: calc(100% - 120px); */
-        min-height: 700px;
-        height: calc(100% - 50px);
         max-width: 480px;
     }
     .inputSearch {
@@ -254,14 +240,8 @@ html, body {
     }
     .listContentWrapper {
         width: 430px;
-        max-height: calc(100% - 36px);
     }
     .userAddress {
         max-width: 200px;
-    }
-    .userList {
-        /* height: calc(100% - 17px); */
-        min-height: calc(100% - 50px);
-        /* height: 90%; */
     }
 }
