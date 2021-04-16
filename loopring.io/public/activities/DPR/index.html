@@ -66,8 +66,9 @@
                     const msSeconds = msMinutes%(60*1000);
                     const leftSeconds = Math.floor(msSeconds/(1000));
                     $("#leftTime").html(`<span class="timeNumber">${leftDays}</span>天<span class="timeNumber">${leftHours}</span>小时<span class="timeNumber">${leftMinutes}</span>分<span class="timeNumber">${leftSeconds}</span>秒`)
-
-                    // get current DPR price
+                }, 1000)
+                // get DPR price
+                function getDprPrice() {
                     $.ajax({
                         url: 'https://api3.loopring.io/api/wallet/v3/latestTokenPrices?tokens=0xf3ae5d769e153ef72b4e3591ac004e89f48107a1&currency=USDT',
                         type: "get",
@@ -78,7 +79,9 @@
                             }
                         }
                     })
-                }, 1000)
+                    return true
+                }
+                getDprPrice() && setInterval(getDprPrice, 30 * 1000)
             })()
             // original data
             let jsonData = []
