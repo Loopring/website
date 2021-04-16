@@ -54,7 +54,7 @@
         $(document).ready(function(){
             (function getLefttime(){
                 setInterval(() => {
-                    const targetTime = new Date('2021-04-22 08:00:00')
+                    const targetTime = new Date('2021/04/22 08:00:00')
                     const currentTime = new Date()
                     const diff = targetTime - currentTime;
 
@@ -65,8 +65,7 @@
                     const leftMinutes = Math.floor(msMinutes/(60*1000));
                     const msSeconds = msMinutes%(60*1000);
                     const leftSeconds = Math.floor(msSeconds/(1000));
-                    $("#leftTime").html(`<span class="timeNumber">${leftDays}</span>天<span class="timeNumber">${leftHours}</span>小时
-                    <span class="timeNumber">${leftMinutes}</span>分<span class="timeNumber">${leftSeconds}</span>秒`)
+                    $("#leftTime").html(`<span class="timeNumber">${leftDays}</span>天<span class="timeNumber">${leftHours}</span>小时<span class="timeNumber">${leftMinutes}</span>分<span class="timeNumber">${leftSeconds}</span>秒`)
 
                     // get current DPR price
                     $.ajax({
