@@ -49,21 +49,24 @@
         </div>
     </div>
     <script type="text/javascript" src="jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.3/jquery.csv.min.js"></script>
+    <script type="text/javascript" src="jquery.csv.min.js"></script>
     <script>
         $(document).ready(function(){
             (function getLefttime(){
                 setInterval(() => {
                     const targetTime = new Date('2021-04-22 08:00:00')
-                    const currentTiem = new Date()
-                    const diff = targetTime - currentTiem;
+                    const currentTime = new Date()
+                    const diff = targetTime - currentTime;
 
                     const leftDays = Math.floor(diff/(24*3600*1000));
                     const msHours = diff % ( 24 * 3600 * 1000);
                     const leftHours = Math.floor(msHours/(3600*1000));
                     const msMinutes = msHours%(3600*1000);
                     const leftMinutes = Math.floor(msMinutes/(60*1000));
-                    $("#leftTime").html(`<span class="timeNumber">${leftDays}</span>天<span class="timeNumber">${leftHours}</span>时<span class="timeNumber">${leftMinutes}</span>分`)
+                    const msSeconds = msMinutes%(60*1000);
+                    const leftSeconds = Math.floor(msSeconds/(1000));
+                    $("#leftTime").html(`<span class="timeNumber">${leftDays}</span>天<span class="timeNumber">${leftHours}</span>小时
+                    <span class="timeNumber">${leftMinutes}</span>分<span class="timeNumber">${leftSeconds}</span>秒`)
 
                     // get current DPR price
                     $.ajax({
@@ -72,11 +75,14 @@
                         success: function(data) {
                             if (!!data.data.length) {
                                 const dprPrice = Number(data.data[0].price).toFixed(2);
+
+                                //console.log('dprPrice:', dprPrice)
                                 $("#currentPrice").html(`$${dprPrice}`)
                             }
                         }
                     })
                 }, 1000)
+
             })()
             let jsonData = []
             $("#inputSearch").on("input", (e) => {
