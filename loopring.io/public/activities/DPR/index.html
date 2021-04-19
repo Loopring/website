@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百万DPR等你抢</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top">
+            <img class="imgLogo" src="./images/logo.png">
+            <div class="topContent">
+                <img class="imgSlogan" src="./images/slogan.png">
+                <div class="triangle"></div>
+                <div class="priceWrapper">
+                    <div>
+                        <div>
+                            <span>当前中奖率</span>
+                            <span>当前价格 / 中奖认购价格</span>
+                        </div>
+                        <div>
+                            <span id="rate">--%</span>
+                            <span><span id="currentPrice">$**</span> <span style="font-weight: 300;">/</span> $0.02</span>
+                        </div>
+                    </div>
+                    <div><a class="rules" href="https://blogs.loopring.org/loopring-dpr/">活动规则 ></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div>· 符合抽奖条件账户ID ·</div>
+            <div class="updateTime">数据更新： 次日上午10:30后更新（北京时间）</div>
+            <div class="userListWrapper">
+                <input id="inputSearch" class="inputSearch" type="text" placeholder="输入用户地址或用户ID查询">
+                <div class="listContentWrapper">
+                    <div class="listTitleLine">
+                        <span>用户ID</span>
+                        <span>地址</span>
+                    </div>
+                    <div id="userList" class="userList"></div>
+                </div>
+            </div>
+            <div class="btnLine">
+                <span>距结束<span id="leftTime"></span></span>
+                <button class="btnAttend"><a class="rules" style="color: white; font-size: 14px;" href="https://exchange.loopring.io/">参与活动</a></button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.csv.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // get countdown
+            (function getLefttime(){
+                setInterval(() => {
+                    const targetTime = new Date('2021/04/22 08:00:00')
+                    const currentTime = new Date()
+                    const diff = targetTime - currentTime;
+
+                    const leftDays = Math.floor(diff/(24*3600*1000));
+                    const msHours = diff % ( 24 * 3600 * 1000);
+                    const leftHours = Math.floor(msHours/(3600*1000));
+                    const msMinutes = msHours%(3600*1000);
+                    const leftMinutes = Math.floor(msMinutes/(60*1000));
+                    const msSeconds = msMinutes%(60*1000);
+                    const leftSeconds = Math.floor(msSeconds/(1000));
+                    $("#leftTime").html(`<span class="timeNumber">${leftDays}</span>天<span class="timeNumber">${leftHours}</span>小时<span class="timeNumber">${leftMinutes}</span>分<span class="timeNumber">${leftSeconds}</span>秒`)
+                }, 1000)
+                // get DPR price
+                function getDprPrice() {
+                    $.ajax({
+                        url: 'https://api3.loopring.io/api/wallet/v3/latestTokenPrices?tokens=0xf3ae5d769e153ef72b4e3591ac004e89f48107a1&currency=USDT',
+                        type: "get",
+                        success: function(data) {
+                            if (!!data.data.length) {
+                                const dprPrice = Number(data.data[0].price).toFixed(2);
+                                $("#currentPrice").html(`$${dprPrice}`)
+                            }
+                        }
+                    })
+                    return true
+                }
+                getDprPrice() && setInterval(getDprPrice, 30 * 1000)
+            })()
+            // original csv data
+            let jsonData = []
+            $("#inputSearch").on("input", (e) => {
+                const keyword = e.target.value;
+                const formattedKeyword = keyword.toLowerCase();
+                const isInvolved = jsonData.find(o => o.id === formattedKeyword || o.address === formattedKeyword);
+                if (!!jsonData.length && isInvolved) {
+                    const head = isInvolved.address.substring(0, 8);
+                    const tail = isInvolved.address.substring(isInvolved.address.length - 6, isInvolved.address.length);
+                    const address = `${head}...${tail}`;
+                    $("#userList").html(
+                        `
+                            <div class="singleUser">
+                                <span class="userId">${isInvolved.id}</span>
+                                <span class="userAddress">${address}</span>
+                            </div>
+                        `
+                    )
+                    return
+                }
+                if (!keyword) {
+                    setUserList(jsonData)
+                    return
+                }
+                $("#userList").html("")
+            })
+            function setUserList(data) {
+                data.forEach((o, index) => {
+                    const head = o.address.substring(0, 8);
+                    const tail = o.address.substring(o.address.length - 6, o.address.length);
+                    const address = `${head}...${tail}`;
+                    $("#userList").append(
+                        `
+                            <div class="singleUser" style="margin-bottom: 10px">
+                                <span class="userId">${o.id}</span>
+                                <span class="userAddress">${address}</span>
+                            </div>
+                        `
+                    )
+                })
+                $("#rate").html(`${parseInt((30 / data.length) * 100)}%`)
+            }
+            const csvFile = 'DPR.csv';
+            $.ajax({
+                url: csvFile,
+                dataType: "text",
+                success: function(data) {
+                    jsonData = $.csv.toArrays(data).map(o => ({
+                        id: o[0],
+                        address: o[1]
+                    }))
+                    setUserList(jsonData)
+                }
+            })
+        })
+    </script>
+</body>
+</html>
