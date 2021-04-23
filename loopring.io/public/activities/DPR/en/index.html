@@ -25,7 +25,7 @@
 								<span>Current Price / Eligible Sub Price</span>
 							</div>
 							<div>
-								<span id="rate">--%</span>
+								<span id="rate">8%</span>
 								<span
 									><span id="currentPrice">$**</span>
 									<span style="font-weight: 300;">/</span>
@@ -45,9 +45,9 @@
 			</div>
 			<div class="bottom">
 				<div id="lotteryTitle">· Eligible addresses for lottery ·</div>
-				<div class="updateTime">
+				<!-- <div class="updateTime">
 					Data update: update after 0:00 am (UTC) the next day
-				</div>
+				</div> -->
 				<div class="userListWrapper">
 					<input
 						id="inputSearch"
@@ -88,20 +88,21 @@
 					const currentTime = new Date()
 					const diff = targetTime - currentTime
 					if (diff < 0) {
-						$('#lotteryTitle').html('· Lottery List ·')
+						$('#lotteryTitle').html('· Winner List ·')
 						$('#leftTimeWrapper').html(
-							`<span class="timeNumber">Activity ended</span>`
+							`<span class="timeNumber" style="color: black">Activity ended</span>`
 						)
 						$('#btnAttend').html(
-							`<span
+							`<a
+								class="rules"
                                 style="color: white; font-size: 14px;"
-                                href="https://exchange.loopring.io/"
-                                >Counting
-                            </span>`
+                                href="https://medium.com/loopring-protocol/loopring-dpr-lottery-mechanism-d1eabf678a94"
+                                >Lottery Mechanism
+                            </a>`
 						)
-						$('#btnAttend').css({
-							'background-color': '#bec8c8',
-						})
+						// $('#btnAttend').css({
+						// 	'background-color': '#bec8c8',
+						// })
 					} else {
 						setInterval(() => {
 							// const targetTime = new Date('2021/04/22 08:00:00')
@@ -196,9 +197,10 @@
                         `
 						)
 					})
-					$('#rate').html(`${parseInt((30 / data.length) * 100)}%`)
+					// $('#rate').html(`${parseInt((30 / data.length) * 100)}%`)
 				}
-				const csvFile = '../DPR.csv'
+				// const csvFile = '../DPR.csv'
+				const csvFile = '../winners.csv'
 				$.ajax({
 					url: csvFile,
 					dataType: 'text',

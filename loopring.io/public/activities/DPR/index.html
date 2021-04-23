@@ -21,7 +21,7 @@
 								<span>当前价格 / 中奖认购价格</span>
 							</div>
 							<div>
-								<span id="rate">--%</span>
+								<span id="rate">8%</span>
 								<span
 									><span id="currentPrice">$**</span>
 									<span style="font-weight: 300;">/</span>
@@ -41,9 +41,9 @@
 			</div>
 			<div class="bottom">
 				<div id="lotteryTitle">· 符合抽奖条件账户ID ·</div>
-				<div class="updateTime">
+				<!-- <div class="updateTime">
 					数据更新： 次日上午10:30后更新（北京时间）
-				</div>
+				</div> -->
 				<div class="userListWrapper">
 					<input
 						id="inputSearch"
@@ -84,26 +84,23 @@
 					const currentTime = new Date()
 					const diff = targetTime - currentTime
 					if (diff < 0) {
-						$('#lotteryTitle').html('· 抽奖名单 ·')
+						$('#lotteryTitle').html('· 中奖名单 ·')
 						$('#leftTimeWrapper').html(
-							`<span class="timeNumber">活动已结束</span>`
+							`<span class="timeNumber" style="color: black">活动已结束</span>`
 						)
 						$('#btnAttend').html(
-							`<span
-                                style="color: white; font-size: 14px;"
-                                href="https://exchange.loopring.io/"
-                                >正在统计中
-                            </span>`
+							`
+							<a
+								class="rules"
+								style="color: white; font-size: 14px;"
+								href="https://blogs.loopring.org/dpr-lottery-mechanism-cn/"
+							>抽奖规则</a>`
 						)
-						$('#btnAttend').css({
-							'background-color': '#bec8c8',
-						})
+						// $('#btnAttend').css({
+						// 	'background-color': '#bec8c8',
+						// })
 					} else {
 						setInterval(() => {
-							// const targetTime = new Date('2021/04/22 08:00:00')
-							// const currentTime = new Date()
-							// const diff = targetTime - currentTime
-
 							const leftDays = Math.floor(
 								diff / (24 * 3600 * 1000)
 							)
@@ -184,16 +181,17 @@
 						const address = `${head}...${tail}`
 						$('#userList').append(
 							`
-                            <div class="singleUser" style="margin-bottom: 10px">
+                            <div class="singleUser" style="margin-bottom: 10px;">
                                 <span class="userId">${o.id}</span>
                                 <span class="userAddress">${address}</span>
                             </div>
                         `
 						)
 					})
-					$('#rate').html(`${parseInt((30 / data.length) * 100)}%`)
+					// $('#rate').html(`${parseInt((30 / data.length) * 100)}%`)
 				}
-				const csvFile = 'DPR.csv'
+				// const csvFile = 'DPR.csv'
+				const csvFile = 'winners.csv'
 				$.ajax({
 					url: csvFile,
 					dataType: 'text',
