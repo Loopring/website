@@ -1,247 +1,248 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    min-width: 360px;
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-width: 360px;
 }
 
 body {
-    margin-bottom: 68px;
+	margin-bottom: 68px;
 }
 
 .wrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #2E51FF;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #2e51ff;
 }
 
 .imgLogo {
-    width: 30%;
-    max-width: 200px;
-    margin: 30px 0 0 30px;
+	width: 30%;
+	max-width: 200px;
+	margin: 30px 0 0 30px;
 }
 
 .imgSlogan {
-    margin-top: 30px;
-    width: 80%;
-    max-width: 500px;
+	margin-top: 30px;
+	width: 80%;
+	max-width: 500px;
 }
 
 .triangle {
-    display: inline-block;
-    position: relative;
-    top: 0px;
-    margin-left: -45px;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #FD6050;
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	margin-left: -45px;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-bottom-color: #fd6050;
 }
 
 .topContent {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .priceWrapper {
-    width: 85%;
-    max-width: 500px;
-    border-radius: 8px;
-    background-color: #FD6050;
+	width: 85%;
+	max-width: 500px;
+	border-radius: 8px;
+	background-color: #fd6050;
 }
 
-.priceWrapper >div:first-child {
-    margin: 5%;
-    margin-bottom: 0;
+.priceWrapper > div:first-child {
+	margin: 5%;
+	margin-bottom: 0;
 }
 
-.priceWrapper >div:last-child {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0 5% 2% 0
+.priceWrapper > div:last-child {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0 5% 2% 0;
 }
 
-.priceWrapper >div:last-child a {
-    color: #FFFFFF;
+.priceWrapper > div:last-child a {
+	color: #ffffff;
 }
 
-.priceWrapper >div >div:first-child {
-    display: flex;
-    justify-content: space-between;
-    font-family: PingFang SC;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.8);
+.priceWrapper > div > div:first-child {
+	display: flex;
+	justify-content: space-between;
+	font-family: PingFang SC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.8);
 }
-.priceWrapper >div >div:last-child {
-    display: flex;
-    justify-content: space-between;
-    font-family: Gilroy-SemiBold;
-    font-weight: 700;
-    font-size: 30px;
-    color: #FFFFFF;
-    margin: 2% 0;
+.priceWrapper > div > div:last-child {
+	display: flex;
+	justify-content: space-between;
+	font-family: Gilroy-SemiBold;
+	font-weight: 700;
+	font-size: 30px;
+	color: #ffffff;
+	margin: 2% 0;
 }
 
 .bottom {
-    width: 100%;
-    max-width: 430px;
-    background: #FFFFFF;
-    border-radius: 26px 26px 0 0;
-    margin-top: 30px;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+	width: 100%;
+	max-width: 430px;
+	background: #ffffff;
+	border-radius: 26px 26px 0 0;
+	margin-top: 30px;
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 }
 
-.bottom >div:first-child {
-    font-family: PingFang SC;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 34px;
+.bottom > div:first-child {
+	font-family: PingFang SC;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 34px;
 }
 
 .updateTime {
-    font-family: PingFang SC;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 17px;
-    color: #999;
-    margin: 5px 0 15px 0;
+	font-family: PingFang SC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 17px;
+	color: #999;
+	margin: 5px 0 15px 0;
 }
 
 .rules {
-    color: #000;
-    text-decoration: none;
-    font-size: 12px;
+	color: #000;
+	text-decoration: none;
+	font-size: 12px;
 }
 
 .inputSearch {
-    width: 100%;
-    height: 36px;
-    color: #999;
-    border-radius: 10px;
-    outline: none;
-    border: 0px;
-    border-style: none;
-    outline-color: transparent;
+	width: 100%;
+	height: 36px;
+	color: #999;
+	border-radius: 10px;
+	outline: none;
+	border: 0px;
+	border-style: none;
+	outline-color: transparent;
 	box-shadow: none;
-    text-shadow: none;
-    padding-left: 35px;
-    background: url(images/search.png) no-repeat;
-    background-size: 18px;
-    background-position: 10px center;
-    background-color: rgba(118, 118, 128, 0.12);
+	text-shadow: none;
+	padding-left: 35px;
+	background: url(images/search.png) no-repeat;
+	background-size: 18px;
+	background-position: 10px center;
+	background-color: rgba(118, 118, 128, 0.12);
 }
 
 .listTitleLine {
-    display: flex;
-    justify-content: space-between;
-    font-family: PingFang SC;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 17px;
-    color: #999;
-    margin: 5% 0;
+	display: flex;
+	justify-content: space-between;
+	font-family: PingFang SC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 17px;
+	color: #999;
+	margin: 5% 0;
 }
 
 .userListWrapper {
-    width: 100%;
-    padding: 16px;
-    padding-bottom: 8px;
-    background: #F8F8F8;
-    border-radius: 12px;
-    min-height: 46vh;
+	width: 100%;
+	padding: 16px;
+	padding-bottom: 8px;
+	background: #f8f8f8;
+	border-radius: 12px;
+	min-height: 46vh;
 }
 
 .userList {
-    max-height: 46vh;
-    overflow-y: scroll;
+	max-height: 46vh;
+	overflow-y: scroll;
 }
 
 .singleUser {
-    display: flex;
-    justify-content: space-between;
-    font-family: Gilroy-Medium;
-    font-size: 12px;
-    line-height: 14px;
+	display: flex;
+	justify-content: space-between;
+	font-family: Gilroy-Medium;
+	font-size: 12px;
+	line-height: 14px;
 }
 
 .userAddress {
-    max-width: 120px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+	max-width: 120px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 .btnLine {
-    width: 100%;
-    min-width: 360px;
-    height: 68px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FFFFFF;
-    font-family: PingFang SC;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 21px;
-    color: #000000;
-    padding: 0 16px;
-    position: fixed;
-    bottom: 0;
-    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.07)
+	width: 100%;
+	min-width: 360px;
+	height: 68px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #ffffff;
+	font-family: PingFang SC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 21px;
+	color: #000000;
+	padding: 0 16px;
+	position: fixed;
+	bottom: 0;
+	box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.07);
 }
 
 .btnAttend {
-    width: 90px;
-    height: 36px;
-    background: #F27C58;
-    color: #FFFFFF;
-    margin: 0;
-    padding: 0;
-    border: 1px solid transparent;
-    border-radius: 2px;
-    outline: none
+	width: 90px;
+	height: 36px;
+	background: #f27c58;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	outline: none;
 }
 
 .timeNumber {
-    color: #F27C58;
-    margin: 0 5px;
+	color: #f27c58;
+	margin: 0 5px;
 }
 
 @media (min-width: 1024px) {
-    .bottom {
-        max-width: unset;
-        border-radius: 0;
-    }
-    .userListWrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 480px;
-    }
-    .inputSearch {
-        max-width: 440px;
-    }
-    .listContentWrapper {
-        width: 430px;
-    }
-    .userAddress {
-        max-width: 200px;
-    }
+	.bottom {
+		max-width: unset;
+		border-radius: 0;
+	}
+	.userListWrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 480px;
+	}
+	.inputSearch {
+		max-width: 440px;
+	}
+	.listContentWrapper {
+		width: 430px;
+	}
+	.userAddress {
+		max-width: 200px;
+	}
 }
