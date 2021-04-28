@@ -13,7 +13,7 @@
 
 1) 活动自2021年4月29日早上8点开始，为期**13天**。
 
-2) VSP/ETH和VSP/DAI交易对的最大spread为1.5%；FLX/ETH的最大spread为1.5%。
+2) VSP/ETH和VSP/DAI交易对的最大spread为1.5%；FLX/ETH的最大spread为0.2%。
 
 3) 其他规则遵循[路印3.1订单本流动性挖矿规则](https://loopring.org/#/post/market-making-competition-cn)。
 
