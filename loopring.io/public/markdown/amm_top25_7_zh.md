@@ -6,6 +6,8 @@
 | **项目** | **资金池** | **奖励** |
 | :--- | ---: | ---: |
 ICHI | ICHI⇄ETH |  4,000 LRC |
+Vesper Finance | VSP⇄ETH |  10,000 LRC |
+Vesper Finance | VSP⇄DAI |  5,000 LRC |
 
 
 ### 规则
