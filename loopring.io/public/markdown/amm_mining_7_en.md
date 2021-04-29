@@ -9,6 +9,7 @@
 ICHI | ICHI⇄ETH | 1,666 ICHI |
 BCdiploma | BCDT⇄ETH | 40,000 BCDT |
 FLX | FLX⇄ETH | 25 FLX |
+FLX | RAI⇄ETH | 25 FLX |
 
 ### Rules
 
@@ -16,7 +17,7 @@ FLX | FLX⇄ETH | 25 FLX |
 
 2) We take random snapshots of the relevant AMM pools several times a day, and calculate the amount of rewards each LP earns based on the average of all snapshot balances in the round.
 
-3) FLX rewards will be distributed by FLX project, and other mining rewards will be directly distributed to LP's layer-2 accounts within three days of the end of the round.
+3) RAI⇄ETH AMM rewards will be distributed by FLX project, and other mining rewards will be directly distributed to LP's layer-2 accounts within three days of the end of the round.
 
 4) For pools with liquidity mining, providing liquidity is how you mine. You automatically start mining without any other user action.
 
