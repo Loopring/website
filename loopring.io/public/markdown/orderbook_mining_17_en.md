@@ -8,13 +8,13 @@
 | VSP/ETH | 1,300 VSP|
 | VSP/DAI | 667 VSP|
 | FLX/ETH | 25 FLX|
-
+| RAI/ETH | 25 FLX|
 
 ### Rules
 
 1) This round starts at 00:00 UTC April 29, 2021, and lasts for **13 days**.
 
-2) The maximum spread is 1.5% for VSP/ETH trading pair, 1.5% for VSP/DAI trading pair,0.2% for FLX/ETH trading pair.
+2) The maximum spread is 1.5% for VSP/ETH trading pair, 1.5% for VSP/DAI trading pair,2% for FLX/ETH trading pair,2% for RAI/ETH trading pair.
 
 3) Other details follow [Loopring v1 orderbook liquidity mining rules](https://medium.com/loopring-protocol/loopring-exchange-liquidity-mining-competition-748917b277e6). Hourly snapshots, measured by order depth, tightness, and balance.
 
