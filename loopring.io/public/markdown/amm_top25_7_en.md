@@ -6,7 +6,8 @@
 | **Project** | **Pool** | **Reward** |
 | :--- | ---: | ---: |
 ICHI | ICHI⇄ETH |  4,000 LRC |
-
+Vesper Finance | VSP⇄ETH |  10,000 LRC |
+Vesper Finance | VSP⇄DAI |  5,000 LRC |
 
 ### Rules
 
