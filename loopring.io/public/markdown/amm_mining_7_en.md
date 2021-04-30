@@ -8,8 +8,8 @@
 | :--- | ---: | ---: |
 ICHI | ICHI⇄ETH | 1,666 ICHI |
 BCdiploma | BCDT⇄ETH | 40,000 BCDT |
-FLX | FLX⇄ETH | 25 FLX |
-RAI | RAI⇄ETH | 25 FLX |
+Reflexer | FLX⇄ETH | 25 FLX |
+Reflexer | RAI⇄ETH | 25 FLX |
 
 ### Rules
 
