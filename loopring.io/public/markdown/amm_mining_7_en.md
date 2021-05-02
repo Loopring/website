@@ -7,7 +7,7 @@
 | **Project** | **Pool** | **Reward** |
 | :--- | ---: | ---: |
 ICHI | ICHI⇄ETH | 1,666 ICHI |
-BCdiploma | BCDT⇄ETH | 40,000 BCDT |
+Evidenz | BCDT⇄ETH | 40,000 BCDT |
 Reflexer | FLX⇄ETH | 25 FLX |
 Reflexer | RAI⇄ETH | 25 FLX |
 
