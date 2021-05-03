@@ -119,7 +119,7 @@ class StakingClaim extends I18nComponent {
           <img
             className="staking"
             draggable="false"
-            src="%PUBLIC_URL%/images/staking.png"
+            src={process.env.PUBLIC_URL + '/images/staking.png'}
           />
           {content}
         </section>

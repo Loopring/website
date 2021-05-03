@@ -24,7 +24,7 @@ const SlidesSection = () => {
       className="slide"
     >
       <img
-        src="%PUBLIC_URL%/images/promotions/1_en.png"
+        src={process.env.PUBLIC_URL + '/images/promotions/1_en.png'}
         onDragStart={handleDragStart}
       />
     </a>,
@@ -34,7 +34,7 @@ const SlidesSection = () => {
       className="slide"
     >
       <img
-        src="%PUBLIC_URL%/images/promotions/2_en.png"
+        src={process.env.PUBLIC_URL + '/images/promotions/2_en.png'}
         onDragStart={handleDragStart}
       />
     </a>,
@@ -44,7 +44,7 @@ const SlidesSection = () => {
       className="slide"
     >
       <img
-        src="%PUBLIC_URL%/images/promotions/3_en.png"
+        src={process.env.PUBLIC_URL + '/images/promotions/3_en.png'}
         onDragStart={handleDragStart}
       />
     </a>,
