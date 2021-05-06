@@ -7,7 +7,7 @@
 | **Project** | **Pool** | **Reward** |
 | :--- | ---: | ---: |
 ICHI | ICHI⇄ETH | 5,000 ICHI |
-BCdiploma | BCDT⇄ETH | 50,000 BCDT |
+Evidenz | BCDT⇄ETH | 50,000 BCDT |
 
 ### Rules
 
