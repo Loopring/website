@@ -17,7 +17,7 @@
 
 3) 其他规则遵循[路印3.1订单本流动性挖矿规则](https://loopring.org/#/post/market-making-competition-cn)。
 
-4) FLX奖励会由Reflexer项目方自己分发，VSP奖励将在活动结束后三天内通过二层账号直接发放。
+4) FLX奖励会由Reflexer项目方来分发，VSP奖励将在活动结束后三天内通过二层账号直接发放。
 
 5) 您还可以通过[路印交易API](https://docs3.loopring.io/zh-hans/)或[Hummingbot](https://docs.hummingbot.io/exchange-connectors/loopring/)更好地参与做市。
 
