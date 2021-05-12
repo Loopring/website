@@ -7,7 +7,6 @@
 | **Project** | **Pool** | **Reward** |
 | :--- | ---: | ---: |
 Reflexer | RAI⇄ETH | 25 FLX |
-Evidenz | BCDT⇄ETH | 40,000 BCDT |
 ICHI | ICHI⇄ETH | 510 ICHI |
 
 ### Rules
