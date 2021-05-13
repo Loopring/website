@@ -205,30 +205,30 @@ class App extends React.Component {
               />
 
               <Route path="/amm_mining_zh">
-                <Redirect to={{pathname: '/embed/amm_mining_7_zh.md'}} />
+                <Redirect to={{pathname: '/embed/amm_mining_8_zh.md'}} />
               </Route>
 
               <Route path="/amm_mining_en">
-                <Redirect to={{pathname: '/embed/amm_mining_7_en.md'}} />
+                <Redirect to={{pathname: '/embed/amm_mining_8_en.md'}} />
               </Route>
 
               <Route path="/amm_top25_en">
-                <Redirect to={{pathname: '/embed/amm_top25_7_en.md'}} />
+                <Redirect to={{pathname: '/embed/amm_top25_8_en.md'}} />
               </Route>
 
               <Route path="/amm_top25_zh">
-                <Redirect to={{pathname: '/embed/amm_top25_7_zh.md'}} />
+                <Redirect to={{pathname: '/embed/amm_top25_8_zh.md'}} />
               </Route>
 
               <Route path="/orderbook_mining_zh">
                 <Redirect
-                  to={{pathname: '/embed/orderbook_mining_17_zh.md'}}
+                  to={{pathname: '/embed/orderbook_mining_18_zh.md'}}
                 />
               </Route>
 
               <Route path="/orderbook_mining_en">
                 <Redirect
-                  to={{pathname: '/embed/orderbook_mining_17_en.md'}}
+                  to={{pathname: '/embed/orderbook_mining_18_en.md'}}
                 />
               </Route>
 
