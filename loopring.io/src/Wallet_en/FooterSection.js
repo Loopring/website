@@ -91,14 +91,25 @@ const FooterSection = () => {
               </div>
 
               <div>
-                <a href="https://duneanalytics.com/Brecht/loopring">
+                <a
+                  href="https://duneanalytics.com/Brecht/loopring"
+                  target="_blank"
+                >
                   Dune Analytics Dashboard
                 </a>
               </div>
 
               <div>
-                <a href="https://www.coingecko.com/it/cambi/loopring_amm">
+                <a
+                  href="https://www.coingecko.com/it/cambi/loopring_amm"
+                  target="_blank"
+                >
                   Coingecko Stats
+                </a>
+              </div>
+              <div>
+                <a href="https://loopringgrants.org/" target="_blank">
+                  Creator Grants
                 </a>
               </div>
             </Container>

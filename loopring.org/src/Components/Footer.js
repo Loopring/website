@@ -107,6 +107,13 @@ class Footer extends JsonI18nComponent {
               ) : (
                 <a href="https://loopring.substack.com">Newsletter</a>
               )}
+            </li>⭑
+                  <li>
+              {this.isChinese() ? (
+                <a href="https://loopringgrants.org/" target="_blank">拨款</a>
+              ) : (
+                <a href="https://loopringgrants.org/" target="_blank">Grants</a>
+              )}
             </li>
           </ul>
           <div className="org">
