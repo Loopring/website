@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>200,000RICE at your grasp</title>
+		<title>200,000 RICE at your grasp</title>
 		<link rel="stylesheet" type="text/css" href="../style.css" />
 		<link rel="stylesheet" type="text/css" href="styleEn.css" />
 	</head>
@@ -28,23 +28,23 @@
 						<div>
 							<div>
 								<span>Current Winning Odds</span>
-								<span>Current Price / Eligible Sub Price</span>
+								<span>Winning RICE/ Winning Pool</span>
 							</div>
 							<div>
-								<span id="rate">8%</span>
+								<span id="rate">**%</span>
 								<span
-									><span id="currentPrice">$**</span>
+									><span id="currentPrice">5,000</span>
 									<span style="font-weight: 300;">/</span>
-									$0.02</span
+									50,000</span
 								>
 							</div>
 						</div>
 						<div>
-							<a
+							<!-- <a
 								class="rules"
 								href="https://medium.com/loopring-protocol/trade-dpr-on-loopring-layer-2-million-dpr-at-your-grasp-9f870fd9ca2b"
 								>Lottery Rules ></a
-							>
+							> -->
 						</div>
 					</div>
 				</div>
@@ -87,6 +87,72 @@
 		<script type="text/javascript" src="../jquery.min.js"></script>
 		<script type="text/javascript" src="../jquery.csv.min.js"></script>
 		<script>
+			$(document).ready(function() {
+				;(function getData(){
+					setInterval(
+						$.ajax({
+							// url: 'http://uat2.loopring.io/api/v3/user/daoSquareAccounts',
+							url: 'http://api3.loopring.io/api/v3/user/daoSquareAccounts?startTime=0&endTime=0',
+							success: function(res) {
+								if (res && res.data && res.data.length) {
+									setUserList(res.data)
+									$('#rate').html(`${res.data.length <= 10 ? 100 : parseInt(10 / res.data.length * 100)}%`)
+								}
+							}
+						}), 5000)
+				})();
+				let jsonData = []
+				$('#inputSearch').on('input', (e) => {
+					const keyword = e.target.value
+					const formattedKeyword = keyword.toLowerCase()
+					const isInvolved = jsonData.find(
+						(o) =>
+							o.id === formattedKeyword ||
+							o.address === formattedKeyword
+					)
+					if (!!jsonData.length && isInvolved) {
+						const head = isInvolved.address.substring(0, 8)
+						const tail = isInvolved.address.substring(
+							isInvolved.address.length - 6,
+							isInvolved.address.length
+						)
+						const address = `${head}...${tail}`
+						$('#userList').html(
+							`
+                            <div class="singleUser">
+                                <span class="userId">${isInvolved.id}</span>
+                                <span class="userAddress">${address}</span>
+                            </div>
+                        `
+						)
+						return
+					}
+					if (!keyword) {
+						setUserList(jsonData)
+						return
+					}
+					$('#userList').html('')
+				})
+				function setUserList(data) {
+					data.forEach((o, index) => {
+						const head = o.address.substring(0, 8)
+						const tail = o.address.substring(
+							o.address.length - 6,
+							o.address.length
+						)
+						const address = `${head}...${tail}`
+						$('#userList').append(
+							`
+                            <div class="singleUser" style="margin-bottom: 10px;">
+                                <span class="userId">${o.id}</span>
+                                <span class="userAddress">${address}</span>
+                            </div>
+                        `
+						)
+					})
+					// $('#rate').html(`${parseInt((30 / data.length) * 100)}%`)
+				}
+			})
 			// $(document).ready(function() {
 			// 	// get countdown
 			// 	;(function getLefttime() {
