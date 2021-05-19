@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>百万DPR等你抢</title>
+		<title>一起来吃200,000RICE</title>
 		<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
 	<body>
@@ -12,7 +12,7 @@
 			<div class="top">
 				<img class="imgLogo" src="./images/logo.png" />
 				<div class="topContent">
-					<img class="imgSlogan" src="./images/slogan.png" />
+					<img class="imgSlogan" src="./images/riceCn.png" />
 					<div class="triangle"></div>
 					<div class="priceWrapper">
 						<div>
@@ -59,7 +59,7 @@
 						<div id="userList" class="userList"></div>
 					</div>
 				</div>
-				<div class="btnLine">
+				<!-- <div class="btnLine">
 					<span id="leftTimeWrapper"
 						>距结束<span id="leftTime"></span
 					></span>
@@ -71,73 +71,81 @@
 							>参与活动</a
 						>
 					</button>
-				</div>
+				</div> -->
 			</div>
 		</div>
 		<script type="text/javascript" src="jquery.min.js"></script>
 		<script type="text/javascript" src="jquery.csv.min.js"></script>
 		<script>
 			$(document).ready(function() {
-				// get countdown
-				;(function getLefttime() {
-					const targetTime = new Date('2021/04/22 08:00:00')
-					const currentTime = new Date()
-					const diff = targetTime - currentTime
-					if (diff < 0) {
-						$('#lotteryTitle').html('· 中奖名单 ·')
-						$('#leftTimeWrapper').html(
-							`<span class="timeNumber" style="color: black">活动已结束</span>`
-						)
-						$('#btnAttend').html(
-							`
-							<a
-								class="rules"
-								style="color: white; font-size: 14px;"
-								href="https://blogs.loopring.org/dpr-lottery-mechanism-cn/"
-							>抽奖规则</a>`
-						)
-						// $('#btnAttend').css({
-						// 	'background-color': '#bec8c8',
-						// })
-					} else {
-						setInterval(() => {
-							const leftDays = Math.floor(
-								diff / (24 * 3600 * 1000)
-							)
-							const msHours = diff % (24 * 3600 * 1000)
-							const leftHours = Math.floor(
-								msHours / (3600 * 1000)
-							)
-							const msMinutes = msHours % (3600 * 1000)
-							const leftMinutes = Math.floor(
-								msMinutes / (60 * 1000)
-							)
-							const msSeconds = msMinutes % (60 * 1000)
-							const leftSeconds = Math.floor(msSeconds / 1000)
-							$('#leftTime').html(
-								`<span class="timeNumber">${leftDays}</span>天<span class="timeNumber">${leftHours}</span>小时<span class="timeNumber">${leftMinutes}</span>分<span class="timeNumber">${leftSeconds}</span>秒`
-							)
-						}, 1000)
-					}
-					// get DPR price
-					function getDprPrice() {
-						$.ajax({
-							url:
-								'https://api3.loopring.io/api/wallet/v3/latestTokenPrices?tokens=0xf3ae5d769e153ef72b4e3591ac004e89f48107a1&currency=USDT',
-							type: 'get',
-							success: function(data) {
-								if (!!data.data.length) {
-									const dprPrice = Number(
-										data.data[0].price
-									).toFixed(2)
-									$('#currentPrice').html(`$${dprPrice}`)
-								}
-							},
-						})
-						return true
-					}
-					getDprPrice() && setInterval(getDprPrice, 30 * 1000)
+				;(function getData(){
+					$.ajax({
+						url: 'http://uat2.loopring.io/api/v3/user/daoSquareAccounts',
+						success: function(res) {
+							console.log(res)
+						}
+					})
 				})()
+				// get countdown
+				// ;(function getLefttime() {
+				// 	const targetTime = new Date('2021/04/22 08:00:00')
+				// 	const currentTime = new Date()
+				// 	const diff = targetTime - currentTime
+				// 	if (diff < 0) {
+				// 		$('#lotteryTitle').html('· 中奖名单 ·')
+				// 		$('#leftTimeWrapper').html(
+				// 			`<span class="timeNumber" style="color: black">活动已结束</span>`
+				// 		)
+				// 		$('#btnAttend').html(
+				// 			`
+				// 			<a
+				// 				class="rules"
+				// 				style="color: white; font-size: 14px;"
+				// 				href="https://blogs.loopring.org/dpr-lottery-mechanism-cn/"
+				// 			>抽奖规则</a>`
+				// 		)
+				// 		// $('#btnAttend').css({
+				// 		// 	'background-color': '#bec8c8',
+				// 		// })
+				// 	} else {
+				// 		setInterval(() => {
+				// 			const leftDays = Math.floor(
+				// 				diff / (24 * 3600 * 1000)
+				// 			)
+				// 			const msHours = diff % (24 * 3600 * 1000)
+				// 			const leftHours = Math.floor(
+				// 				msHours / (3600 * 1000)
+				// 			)
+				// 			const msMinutes = msHours % (3600 * 1000)
+				// 			const leftMinutes = Math.floor(
+				// 				msMinutes / (60 * 1000)
+				// 			)
+				// 			const msSeconds = msMinutes % (60 * 1000)
+				// 			const leftSeconds = Math.floor(msSeconds / 1000)
+				// 			$('#leftTime').html(
+				// 				`<span class="timeNumber">${leftDays}</span>天<span class="timeNumber">${leftHours}</span>小时<span class="timeNumber">${leftMinutes}</span>分<span class="timeNumber">${leftSeconds}</span>秒`
+				// 			)
+				// 		}, 1000)
+				// 	}
+				// 	// get DPR price
+				// 	function getDprPrice() {
+				// 		$.ajax({
+				// 			url:
+				// 				'https://api3.loopring.io/api/wallet/v3/latestTokenPrices?tokens=0xf3ae5d769e153ef72b4e3591ac004e89f48107a1&currency=USDT',
+				// 			type: 'get',
+				// 			success: function(data) {
+				// 				if (!!data.data.length) {
+				// 					const dprPrice = Number(
+				// 						data.data[0].price
+				// 					).toFixed(2)
+				// 					$('#currentPrice').html(`$${dprPrice}`)
+				// 				}
+				// 			},
+				// 		})
+				// 		return true
+				// 	}
+				// 	getDprPrice() && setInterval(getDprPrice, 30 * 1000)
+				// })()
 				// original csv data
 				let jsonData = []
 				$('#inputSearch').on('input', (e) => {
