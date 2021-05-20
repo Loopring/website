@@ -78,12 +78,14 @@
 		<script type="text/javascript" src="jquery.csv.min.js"></script>
 		<script>
 			$(document).ready(function() {
+				let jsonData = []
 				function getData(){
 					$.ajax({
 						// url: 'http://uat2.loopring.io/api/v3/user/daoSquareAccounts',
 						url: 'http://api3.loopring.io/api/v3/user/daoSquareAccounts?startTime=0&endTime=0',
 						success: function(res) {
 							if (res && res.data && res.data.length) {
+								jsonData = res.data
 								setUserList(res.data)
 								$('#rate').html(`${res.data.length <= 10 ? 100 : parseInt(10 / res.data.length * 100)}%`)
 							}
@@ -92,7 +94,7 @@
 					return true
 				}
 				getData() && setInterval(getData, 10 * 60 * 1000)
-				
+
 				// get countdown
 				// ;(function getLefttime() {
 				// 	const targetTime = new Date('2021/04/22 08:00:00')
@@ -154,13 +156,13 @@
 				// 	getDprPrice() && setInterval(getDprPrice, 30 * 1000)
 				// })()
 				// original csv data
-				let jsonData = []
+				
 				$('#inputSearch').on('input', (e) => {
 					const keyword = e.target.value
 					const formattedKeyword = keyword.toLowerCase()
 					const isInvolved = jsonData.find(
 						(o) =>
-							o.id === formattedKeyword ||
+							String(o.accountId) === formattedKeyword ||
 							o.address === formattedKeyword
 					)
 					if (!!jsonData.length && isInvolved) {
@@ -173,7 +175,7 @@
 						$('#userList').html(
 							`
                             <div class="singleUser">
-                                <span class="userId">${isInvolved.id}</span>
+                                <span class="userId">${isInvolved.accountId}</span>
                                 <span class="userAddress">${address}</span>
                             </div>
                         `
@@ -187,7 +189,7 @@
 					$('#userList').html('')
 				})
 				function setUserList(data) {
-					data.forEach((o, index) => {
+					data.forEach(o => {
 						const head = o.address.substring(0, 8)
 						const tail = o.address.substring(
 							o.address.length - 6,
@@ -197,7 +199,7 @@
 						$('#userList').append(
 							`
                             <div class="singleUser" style="margin-bottom: 10px;">
-                                <span class="userId">${o.id}</span>
+                                <span class="userId">${o.accountId}</span>
                                 <span class="userAddress">${address}</span>
                             </div>
                         `
