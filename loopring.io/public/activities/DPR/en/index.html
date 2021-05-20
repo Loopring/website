@@ -88,19 +88,20 @@
 		<script type="text/javascript" src="../jquery.csv.min.js"></script>
 		<script>
 			$(document).ready(function() {
-				;(function getData(){
-					setInterval(
-						$.ajax({
-							// url: 'http://uat2.loopring.io/api/v3/user/daoSquareAccounts',
-							url: 'http://api3.loopring.io/api/v3/user/daoSquareAccounts?startTime=0&endTime=0',
-							success: function(res) {
-								if (res && res.data && res.data.length) {
-									setUserList(res.data)
-									$('#rate').html(`${res.data.length <= 10 ? 100 : parseInt(10 / res.data.length * 100)}%`)
-								}
+				function getData(){
+					$.ajax({
+						// url: 'http://uat2.loopring.io/api/v3/user/daoSquareAccounts',
+						url: 'http://api3.loopring.io/api/v3/user/daoSquareAccounts?startTime=0&endTime=0',
+						success: function(res) {
+							if (res && res.data && res.data.length) {
+								setUserList(res.data)
+								$('#rate').html(`${res.data.length <= 10 ? 100 : parseInt(10 / res.data.length * 100)}%`)
 							}
-						}), 5000)
-				})();
+						}
+					})
+					return true
+				}
+				getData() && setInterval(getData, 10 * 60 * 1000)
 				let jsonData = []
 				$('#inputSearch').on('input', (e) => {
 					const keyword = e.target.value
