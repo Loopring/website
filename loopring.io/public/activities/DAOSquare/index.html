@@ -146,7 +146,7 @@
 								const limitedData = formattedData.slice(0, 888)
 								jsonData = limitedData
 								setUserList(limitedData)
-								$('#currentPrice').html(limitedData.length)
+								$('#currentPrice').html(formattedData.length)
 								$('#rate').html(parseInt(150000 / (limitedData === 888 ? 888 : limitedData.length)))
 							}
 						}
