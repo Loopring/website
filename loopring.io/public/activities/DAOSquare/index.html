@@ -153,24 +153,35 @@
 					})
 					return true
 				}
+				$('#inputSearch').on('paste', (e) => {
+					let pasteContent = ''
+					if (window.clipboardData && window.clipboardData.getData) {
+						pasteContent = window.clipboardData.getData('Text');
+					} else {
+						pasteContent = e.originalEvent.clipboardData.getData('Text');
+					}
+					handleInputOrPaste(String(pasteContent))
+				}).on('input', (e) => {
+					handleInputOrPaste(e.target.value)
+				})
 
-				$('#inputSearch').on('input', (e) => {
+				function handleInputOrPaste (content) {
 					isSearch = true
-					const keyword = e.target.value
+					const keyword = content
 					const formattedKeyword = keyword.toLowerCase()
 					const isInvolved = jsonData.find(
 						(o) =>
-							String(o.accountId) === formattedKeyword ||
-							o.address === formattedKeyword
-					)
+						String(o.accountId) === formattedKeyword ||
+						o.address === formattedKeyword
+						)
 					if (!!jsonData.length && isInvolved) {
 						const head = isInvolved.address.substring(0, 8)
 						const tail = isInvolved.address.substring(
 							isInvolved.address.length - 6,
 							isInvolved.address.length
-						)
+							)
 						const address = `${head}...${tail}`
-						$('#userList').append(
+						$('#userList').html(
 							`
                             <div class="singleUser">
                                 <span class="userId">${isInvolved.accountId}</span>
@@ -179,14 +190,14 @@
                         `
 						)
 						return
-					}
+					} 
 					if (!keyword) {
 						setUserList(jsonData)
 						isSearch = false
 						return
 					}
 					$('#userList').html('')
-				})
+				}
 
 				function setUserList(data) {
 					let listContent = ''
