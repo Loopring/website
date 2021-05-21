@@ -1,0 +1,19 @@
+.imgSloganEn {
+  width: 30%;
+  align-self: flex-start;
+  margin-left: 8%;
+}
+
+.textSloganEn {
+  color: #FFF7B1;
+  font-size: 20px;
+  line-height: 23px;
+  align-self: flex-start;
+  margin: 26px 0 -12px 10%;
+  margin-left: 12%;
+}
+
+.priceWrapperEn >div >div:first-child {
+  align-items: center;
+  font-size: 12px;
+}
