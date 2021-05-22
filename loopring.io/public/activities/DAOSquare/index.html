@@ -77,19 +77,21 @@
 		<script type="text/javascript" src="../js/jquery.min.js"></script>
 		<script type="text/javascript" src="../js/jquery.csv.min.js"></script>
 		<script type="text/javascript" src="../js/moment.min.js"></script>
+		<script type="text/javascript" src="../js/moment-timezone.min.js"></script>
 		<script>
 			$(document).ready(function() {
 				let jsonData = []
 				let isSearch = false
-				const startTime = moment('2021-05-21 20:00:00').valueOf()
-				const endTime = moment('2021-05-22 20:00:00').valueOf()
+				const startTime = moment.tz('2021-05-21 20:00:00', 'Asia/Shanghai').valueOf()
+				const endTime = moment.tz('2021-05-22 20:00:00', 'Asia/Shanghai').valueOf()
 				getData() && setInterval(getData, 10 * 1000)
 
 				// get countdown
 				;(function getLefttime() {
-					const targetTime = new Date('2021/05/22 20:00:00')
-					const currentTime = new Date()
-					const diff = targetTime - currentTime
+					const now = moment().tz('Asia/Shanghai')
+					const targetTime = moment.tz('2021-05-22 20:00:00', 'Asia/Shanghai')
+					const diff = targetTime - now
+
 					if (diff < 0) {
 						// $('#lotteryTitle').html('· 中奖名单 ·')
 						$('#leftTimeWrapper').html(
@@ -108,7 +110,8 @@
 						// })
 					} else {
 						setInterval(() => {
-							const diff = new Date('2021/05/22 20:00:00') - new Date()
+							// const diff = new Date('2021/05/22 20:00:00') - new Date()
+							const diff = moment.tz('2021-05-22 20:00:00', 'Asia/Shanghai') - moment().tz('Asia/Shanghai')
 							const leftDays = Math.floor(
 								diff / (24 * 3600 * 1000)
 							)
