@@ -1,97 +1,105 @@
 <!DOCTYPE html>
-<html lang="cn">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>一起来吃 150,000 RICE</title>
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Luckydraw through Red Packet</title>
+		<link rel="stylesheet" type="text/css" href="../style.css" />
+		<link rel="stylesheet" type="text/css" href="styleEn.css" />
 	</head>
 	<body>
 		<div class="wrapper">
 			<div class="top">
-				<img class="imgLogo" src="../images/logoEn.png" />
 				<div class="topContent">
-					<img class="imgSlogan" src="../images/riceCn.png" />
+					<img
+						class="imgSlogan imgSloganEn"
+						src="../../images/logoEn.png"
+					/>
+					<!-- <span class="textSloganEn">Luckydraw through Red Packet</span> -->
+					<img
+						class="imgSlogan"
+						style="margin-top: default;"
+						src="../../images/redPacketSolganEn.png"
+					/>
 					<div class="triangle"></div>
-					<div class="priceWrapper">
+					<div class="priceWrapper priceWrapperEn">
 						<div>
 							<div>
-								<span>均分额度(RICE)</span>
-								<span>参与人数 / 人数上限</span>
+								<span>Current Winning Odds</span>
+								<span>Winning Redemption Rights / RICE Price</span>
 							</div>
 							<div>
-								<span id="rate">***</span>
-								<span>
-									<span id="currentPrice">***</span>
+								<span id="rate">**%</span>
+								<span
+									><span id="currentPrice">5000 RICE</span>
 									<span style="font-weight: 300;">/</span>
-									<span>888</span>
-								</span>
+									$0.8</span
+								>
 							</div>
 						</div>
 						<div>
 							<a
 								class="rules"
-								href="https://blogs.loopring.org/loopring-daosquare-rice-party/"
-								>活动规则 ></a
+								href="https://medium.com/loopring-protocol/loopring-announces-a-collaboration-with-daosquare-and-an-exclusive-lucky-draw-for-loopring-smart-b0a2e62ddc7d"
+								>Activity Rules ></a
 							>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="bottom">
-				<div id="lotteryTitle">· 符合活动条件账户ID ·</div>
-				<!-- <div class="updateTime">
-					数据更新： 次日上午10:30后更新（北京时间）
-				</div> -->
+				<div id="lotteryTitle">· Eligible addresses ·</div>
+				<div class="updateTime">
+					Data update: update every 6 hours
+				</div>
 				<div class="userListWrapper">
 					<input
 						id="inputSearch"
 						class="inputSearch"
 						type="text"
-						placeholder="输入用户地址或用户ID查询"
+						placeholder="Input your account ID or address"
 					/>
 					<div class="listContentWrapper">
 						<div class="listTitleLine">
-							<span>用户ID</span>
-							<span>地址</span>
+							<span>Account ID</span>
+							<span>Address</span>
 						</div>
 						<div id="userList" class="userList"></div>
 					</div>
 				</div>
 				<div class="btnLine">
 					<span id="leftTimeWrapper"
-						>距结束<span id="leftTime"></span
+						>Time Ends:<span id="leftTime"></span
 					></span>
 					<!-- <button id="btnAttend" class="btnAttend">
 						<a
 							class="rules"
 							style="color: white; font-size: 14px;"
 							href="https://exchange.loopring.io/"
-							>参与活动</a
+							>Participate</a
 						>
 					</button> -->
 				</div>
 			</div>
 		</div>
-		<script type="text/javascript" src="../js/jquery.min.js"></script>
-		<script type="text/javascript" src="../js/jquery.csv.min.js"></script>
-		<script type="text/javascript" src="../js/moment.min.js"></script>
-		<script type="text/javascript" src="../js/moment-timezone.min.js"></script>
+		<script type="text/javascript" src="../../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../js/jquery.csv.min.js"></script>
+		<script type="text/javascript" src="../../js/moment.min.js"></script>
+		<script type="text/javascript" src="../../js/moment-timezone.min.js"></script>
 		<script>
 			$(document).ready(function() {
 				let jsonData = []
 				let isSearch = false
-				const startTime = moment.tz('2021-05-21 20:00:00', 'Asia/Shanghai').valueOf()
-				const endTime = moment.tz('2021-05-22 20:00:00', 'Asia/Shanghai').valueOf()
-				getData() && setInterval(getData, 10 * 1000)
+				const startTime = moment('2021-05-21 20:00:00').valueOf()
+				const endTime = moment('2021-05-22 20:00:00').valueOf()
+				// getData() && setInterval(getData, 10 * 1000)
 
 				// get countdown
 				;(function getLefttime() {
 					const now = moment().tz('Asia/Shanghai')
 					const targetTime = moment.tz('2021-05-22 20:00:00', 'Asia/Shanghai')
 					const diff = targetTime - now
-
 					if (diff < 0) {
 						// $('#lotteryTitle').html('· 中奖名单 ·')
 						$('#leftTimeWrapper').html(
@@ -126,36 +134,37 @@
 							const msSeconds = msMinutes % (60 * 1000)
 							const leftSeconds = Math.floor(msSeconds / 1000)
 							$('#leftTime').html(
-								`<span class="timeNumber">${leftHours}</span>小时<span class="timeNumber">${leftMinutes}</span>分<span class="timeNumber">${leftSeconds}</span>秒`
+								`<span class="timeNumber">${leftHours}</span>H<span class="timeNumber">${leftMinutes}</span>M<span class="timeNumber">${leftSeconds}</span>S`
 							)
 						}, 1000)
 					}
 				})()
 
-				function getData(){
-					if (isSearch) return
-					$.ajax({
-						// UAT -- url: 'http://uat2.loopring.io/api/v3/user/daoSquareAccounts',
-						url: `https://api3.loopring.io/api/v3/user/daoSquareAccounts?startTime=${startTime}&endTime=${endTime}`,
-						success: function(res) {
-							const addressList = Object.keys(res)
-							const accountIdList = Object.values(res)
-							const formattedData = accountIdList.map((accountId ,index) => ({
-								accountId,
-								address: addressList[index]
-							}))
+				// function getData(){
+				// 	if (isSearch) return
+				// 	$.ajax({
+				// 		// UAT -- url: 'http://uat2.loopring.io/api/v3/user/daoSquareAccounts',
+				// 		url: `https://api3.loopring.io/api/v3/user/daoSquareAccounts?startTime=${startTime}&endTime=${endTime}`,
+				// 		success: function(res) {
+				// 			const addressList = Object.keys(res)
+				// 			const accountIdList = Object.values(res)
+				// 			const formattedData = accountIdList.map((accountId ,index) => ({
+				// 				accountId,
+				// 				address: addressList[index]
+				// 			}))
 
-							if (formattedData.length) {
-								const limitedData = formattedData.slice(0, 888)
-								jsonData = limitedData
-								setUserList(limitedData)
-								$('#currentPrice').html(formattedData.length)
-								$('#rate').html(parseInt(150000 / (limitedData === 888 ? 888 : limitedData.length)))
-							}
-						}
-					})
-					return true
-				}
+				// 			if (formattedData.length) {
+				// 				const limitedData = formattedData.slice(0, 888)
+				// 				jsonData = limitedData
+				// 				setUserList(limitedData)
+				// 				$('#currentPrice').html(formattedData.length)
+				// 				$('#rate').html(parseInt(150000 / (limitedData === 888 ? 888 : limitedData.length)))
+				// 			}
+				// 		}
+				// 	})
+				// 	return true
+				// }
+
 				$('#inputSearch').on('paste', (e) => {
 					let pasteContent = ''
 					if (window.clipboardData && window.clipboardData.getData) {
@@ -220,19 +229,22 @@
 					})
 					$('#userList').html(listContent)
 				}
-				// const csvFile = 'DPR.csv'
-				// const csvFile = 'winners.csv'
-				// $.ajax({
-				// 	url: csvFile,
-				// 	dataType: 'text',
-				// 	success: function(data) {
-				// 		jsonData = $.csv.toArrays(data).map((o) => ({
-				// 			id: o[0],
-				// 			address: o[1],
-				// 		}))
-				// 		setUserList(jsonData)
-				// 	},
-				// })
+
+				;(function getCSVData() {
+					const csvFile = '../DAO.csv'
+					$.ajax({
+						url: csvFile,
+						dataType: 'text',
+						success: function(data) {
+							jsonData = $.csv.toArrays(data).map((o) => ({
+								accountId: o[0],
+								address: o[1],
+							}))
+							setUserList(jsonData)
+							$('#rate').html(`${((10 / jsonData.length) * 100).toFixed(2)}%`)
+						},
+					})
+				})()
 			})
 		</script>
 	</body>
