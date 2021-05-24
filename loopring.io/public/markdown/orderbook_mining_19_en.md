@@ -6,8 +6,9 @@
 | **Orderbook** | **Reward** |
 | :--- | ---: |
 | USDC/USDT | 50,000 LRC|
-| LRC/ETH | 8,000 LRC|
-| LRC/USDT | 8,000 LRC|
+| LRC/ETH | 10,000 LRC|
+| LRC/USDT | 10,000 LRC|
+| LRC/USDC | 10,000 LRC|
 | VSP/ETH | 1,300 VSP|
 | VSP/DAI | 667 VSP|
 
