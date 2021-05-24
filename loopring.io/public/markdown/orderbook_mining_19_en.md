@@ -17,7 +17,7 @@
 
 1) This round starts at 00:00 UTC May 27, 2021, and lasts for **13 days**.
 
-2) The maximum spread is 0.1% for USDC/USDT trading pair, 1% for LRC/ETH and LRC/USDT trading pairs, 1.5% for VSP/ETH and VSP/DAI trading pairs.
+2) The maximum spread is 0.1% for USDC/USDT trading pair, 1% for LRC/ETH, LRC/USDT and LRC/USDC trading pairs, 1.5% for VSP/ETH and VSP/DAI trading pairs.
 
 3) Other details follow [Loopring v1 orderbook liquidity mining rules](https://medium.com/loopring-protocol/loopring-exchange-liquidity-mining-competition-748917b277e6). Hourly snapshots, measured by order depth, tightness, and balance.
 
