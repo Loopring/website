@@ -6,7 +6,7 @@
 
 | **Project** | **Pool** | **Reward** |
 | :--- | ---: | ---: |
-Evidenz | BCDT⇄ETH | 40,000 BCDT |
+EvidenZ | BCDT⇄ETH | 40,000 BCDT |
 Reflexer | RAI⇄ETH | 25 FLX |
 
 ### Rules
