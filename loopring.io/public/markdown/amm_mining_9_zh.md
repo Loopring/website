@@ -6,7 +6,7 @@
 
 | **项目** | **资金池** | **奖励** |
 | :--- | ---: | ---: |
-Evidenz | BCDT⇄ETH | 40,000 BCDT |
+EvidenZ | BCDT⇄ETH | 40,000 BCDT |
 Reflexer | RAI⇄ETH | 25 FLX |
 
 ### 规则
