@@ -8,6 +8,7 @@
 | :--- | ---: | ---: |
 EvidenZ | BCDT⇄ETH | 40,000 BCDT |
 Blocktanium | BKT⇄USDT | 250,000 BKT |
+Idle Finance | IDLE⇄ETH | 1,285 IDLE |
 
 ### Rules
 
