@@ -41,7 +41,14 @@ const FooterSection = () => {
                 </div>
                 <div>iOS App</div>*/}
               </div>
-              <div>使用教程</div>
+              <div>
+                <a
+                  target="_blank"
+                  href="https://loopring-org.gitbook.io/cn/loopring_wallet_group_cn/loopring_wallet_cn"
+                >
+                  使用教程
+                </a>
+              </div>
               <div>路印积分</div>
             </Container>
           </Columns.Column>
