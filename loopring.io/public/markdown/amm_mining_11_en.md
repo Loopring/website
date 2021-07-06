@@ -8,7 +8,7 @@
 | :--- | ---: | ---: |
 EvidenZ | BCDT⇄ETH | 35,000 BCDT |
 Blocktanium | BKT⇄USDT | 125,000 BKT |
-Deapcoin | DEP⇄ETH | 1000,000 DEP |
+Deapcoin | DEP⇄ETH | 1,000,000 DEP |
 
 ### Rules
 
