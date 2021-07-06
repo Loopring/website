@@ -6,7 +6,7 @@
 | **Project** | **Pair** | **Reward** |
 | :--- | ---: | ---: |
 Vesper Finance | VSP⇄ETH |  10,000 LRC |
-Blocktanium | BKT⇄USDT | 10,000 LRC |
+
 
 ### Rules
 
