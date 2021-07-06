@@ -6,7 +6,6 @@
 | **项目** | **交易对** | **奖励** |
 | :--- | ---: | ---: |
 Vesper Finance | VSP⇄ETH |  10,000 LRC |
-Blocktanium | BKT⇄USDT | 10,000 LRC |
 
 
 ### 规则
