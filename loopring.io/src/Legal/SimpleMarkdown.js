@@ -33,9 +33,7 @@ const VariableMarkdownPage = ({file}) => {
   React.useEffect(function effectFunction() {
     const apiPromise = fetch(
         'https://api.loopring.network/api/v3/exchange/feeInfo'
-    )
-        .then((res) => res.json())
-        .then((data) => data.data);
+    ).then((res) => res.json());
     const markdownPromise = fetch('/markdown/' + file).then((response) =>
       response.text()
     );
