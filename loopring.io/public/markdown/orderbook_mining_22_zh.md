@@ -25,6 +25,6 @@
 
 5) USDC/USDT，ETH/DAI，UNI/ETH三个交易对的订单本流动性挖矿活动会持续开展多期，如有变动另行通知。
 
-6) Blocktanium将举办12期BKT/USDT订单本流动性挖矿活动，持续六个月，每期发放125,000 BKT奖励。用户可以持续提供流动性，更多奖励等你拿。
+6) Blocktanium将举办12期BKT/USDT订单本流动性挖矿活动，持续六个月，每期平均发放125,000 BKT奖励。用户可以持续提供流动性，更多奖励等你拿。
 
 7) 您还可以通过[路印交易API](https://docs3.loopring.io/zh-hans/)或[Hummingbot](https://docs.hummingbot.io/exchange-connectors/loopring/)更好地参与做市。
