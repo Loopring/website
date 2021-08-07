@@ -90,7 +90,9 @@ const FooterSection = () => {
                 Links
               </div>
               <div>
-                <a href="https://exchange.loopring.io">Loopring Exchange</a>
+                <a href={'https://exchange.' + window.location.hostname}>
+                  Loopring Exchange
+                </a>
               </div>
 
               <div>

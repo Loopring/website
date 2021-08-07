@@ -94,7 +94,9 @@ const FooterSection = () => {
                 链接
               </div>
               <div>
-                <a href="https://exchange.loopring.io">路印交易所</a>
+                <a href={'https://exchange.' + window.location.hostname}>
+                  路印交易所
+                </a>
               </div>
 
               <div>
