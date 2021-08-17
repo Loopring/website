@@ -13,7 +13,7 @@
 
 ### Rules
 
-1) This round starts at 00:00 UTC August 5, 2021, and lasts for **13 days**.
+1) This round starts at 00:00 UTC August 19, 2021, and lasts for **13 days**.
 
 2) The maximum spread is 0.1% for USDC/USDT trading pair, 0.5% for UNI/ETH trading pair, 1.5% for BKT/USDT trading pair.
 
