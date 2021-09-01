@@ -20,7 +20,7 @@
 
 4) 奖励将在活动结束后三天内通过二层账号直接发放。
 
-5) 您还可以通过[路印交易API](https://docs3.loopring.io/zh-hans/)或[Hummingbot](https://docs.hummingbot.io/exchange-connectors/loopring/)更好地参与做市。
+5) 您还可以通过[路印交易API](https://docs.loopring.io/zh-hans/)或[Hummingbot](https://docs.hummingbot.io/exchange-connectors/loopring/)更好地参与做市。
 
 
 

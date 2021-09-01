@@ -23,4 +23,4 @@
 
 5) Note: Blocktanium will also be incentivizing this BKT/USDT pair for 12 rounds (6 months). Each round has an average of 125,000 BKT reward pool. So you can plan on adding liquidity for longer. The spread tightness may change per round.
 
-6) For easier market making, consider connecting via the [exchange API](https://docs3.loopring.io/en/), or via [Hummingbot](https://docs.hummingbot.io/exchange-connectors/loopring/), which is connected to Loopring Exchange.
+6) For easier market making, consider connecting via the [exchange API](https://docs.loopring.io/en/), or via [Hummingbot](https://docs.hummingbot.io/exchange-connectors/loopring/), which is connected to Loopring Exchange.
