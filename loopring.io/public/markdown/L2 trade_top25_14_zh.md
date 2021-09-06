@@ -7,7 +7,7 @@
 | :--- | ---: | ---: | ---: |
 Uniswap | UNI⇄ETH |  40,000 LRC |  10,000 LRC |
 Ethereum | ETH⇄DAI |  20,000 LRC |  5,000 LRC |
-Loopring | LRC⇄USDT |  20,000 LRC |  50,000 LRC |
+Loopring | LRC⇄USDT |  20,000 LRC |  5,000 LRC |
 Blocktanium | BKT⇄USDT |  8,600 LRC |  2,150 LRC |
 
 
