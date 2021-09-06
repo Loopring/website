@@ -9,7 +9,7 @@
     "@fortawesome/react-fontawesome": "^0.1.7",
     "@tryghost/content-api": "^1.3.7",
     "aos": "^2.3.4",
-    "axios": "^0.19.2",
+    "axios": "^0.21.3",
     "bulma": "^0.8.0",
     "core-js": "2.5.7",
     "detect-browser-language": "^0.0.2",
