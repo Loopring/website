@@ -8,6 +8,12 @@
 | USDC/USDT | 20,000 LRC| 5,000 LRC|
 | BKT/USDT | 250,000 BKT| 62,500 BKT|
 
+| **Orderbook** | **Monthly Reward** | **Weekly Reward** |
+| :--- | ---: | ---: |
+| USDC/USDT | 20,000 LRC| 5,000 LRC|
+| BKT/USDT | 250,000 BKT| 62,500 BKT|
+
+
 
 
 
