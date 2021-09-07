@@ -8,6 +8,10 @@
 | :--- | ---: | ---: | ---: |
 EvidenZ | BCDT⇄ETH | 30,000 BCDT | 7,500 BCDT |
 
+| **Project** | **Pool** | **Monthly Reward** | **Weekly Reward** |
+| :--- | ---: | ---: | ---: |
+EvidenZ | BCDT⇄ETH | 30,000 BCDT | 7,500 BCDT |
+
 ### 规则
 
 1）活动自2021年8月5日早上8点开始，为期**13天**。
