@@ -31,7 +31,7 @@
   }
 
   a.trade-with-api {
-    display:block;
+    display: block;
     padding-top: 12px;
     font-size: 12px;
   }
@@ -50,7 +50,7 @@
       transition-duration: 0.5s;
       content: "⟶";
       opacity: 0;
-      font-size:0;
+      font-size: 0;
       padding-left: 0px;
       color: $black;
     }
@@ -62,7 +62,7 @@
 
       &:after {
         opacity: 1;
-        font-size:inherit;
+        font-size: inherit;
         padding-left: 10px;
         color: $white;
       }

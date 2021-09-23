@@ -2,17 +2,17 @@
   "headingAdvisors": "顾问团队",
   "headingContributors": "社区贡献者",
   "advisors": [
-      {
+    {
       "name": "马超",
       "title": "路印前首席科学家（Chief Scientist）",
       "url": "mailto:hoss@loopring.org"
     },
-      {
+    {
       "name": "Matthew Finestone",
       "title": "路印前商务负责人",
       "url": "mailto:matthew@loopring.org"
     },
-      {
+    {
       "name": "周杰",
       "title": "路印联合创始人，路印前CMO、COO",
       "url": "mailto:jay@loopring.org"
@@ -73,7 +73,7 @@
     }
   ],
   "contributors": [
-      {
+    {
       "name": "张旭铭",
       "title": "运营经理"
     },

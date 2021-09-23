@@ -2,12 +2,12 @@
   "headingAdvisors": "Advisors",
   "headingContributors": "Contributors",
   "advisors": [
-      {
+    {
       "name": "Hoss MA",
       "title": "Former Chief Scientist",
       "url": "mailto:hoss@loopring.org"
     },
-      {
+    {
       "name": "Matthew Finestone",
       "title": "Former Head of Business",
       "url": "mailto:matthew@loopring.org"
@@ -73,7 +73,7 @@
     }
   ],
   "contributors": [
-      {
+    {
       "name": "Xuming ZHANG",
       "title": "Community Manager"
     },
