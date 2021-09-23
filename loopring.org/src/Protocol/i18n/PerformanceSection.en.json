@@ -5,7 +5,7 @@
   "links": {
     "contracts": "Loopring Smart Contracts·· ⟁",
     "circuits": "Loopring ZKP Circuits ········ ⧉",
-    "loopring35": "Loopring 3.6 Released"
+    "loopring35": "Loopring 3.8 Released"
   },
   "throughputDetail": "Loopring protocol can settle up to <b>2,025</b> trades per second while guaranteeing the same level of security as the underlying Ethereum blockchain. This is made possible by using a construction called <b>zkRollup</b>, which aggregates and executes transactions off-chain, in a provably correct manner. For context, prior versions of Loopring (and current versions of some other DEX protocols), can settle only 2 or 3 trades per second. With Loopring's layer 2 scaling, non-custodial exchanges can match the performance of custodial competitors.",
   "costDetail": "The settlement cost per trade is roughly <b>450 to 800 GAS</b> on layer-1, which is 0.15-0.30% of the cost of most layer-1 DEX protocols. From a user's POV, there are no gas fees, just 'normal style' fees of a few basis points or cents."

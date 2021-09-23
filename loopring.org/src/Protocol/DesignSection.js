@@ -106,7 +106,7 @@ class DesignSection extends I18nComponent {
                 ) : (
                   <div>
                     <p>
-                      We designed Loopring 3.6 with two major objectives in
+                      We designed Loopring 3.8 with two major objectives in
                       mind: Security and Performance. The protocol ensures that
                       users can withdraw their assets under all circumstances.
                       In the worst-case scenario, users can still withdraw their
@@ -116,7 +116,7 @@ class DesignSection extends I18nComponent {
                     </p>
                     <p>
                       To significantly improve throughput and lower settlement
-                      cost, Loopring 3.6 migrates most computations off-chain
+                      cost, Loopring 3.8 migrates most computations off-chain
                       and uses the underlying blockchain as a data and a ZKP
                       verification layer. User balances and order trading
                       histories are all organized in an off-chain Quad-Merkle

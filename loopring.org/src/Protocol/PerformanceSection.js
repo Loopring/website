@@ -158,7 +158,7 @@ class PerformanceSection extends I18nComponent {
 
                   <li>
                     <a
-                      href="https://loopring.org/#/post/loopring-3-6-is-code-complete-and-security-audit-has-begun-en"
+                      href="https://loopring.org/#/post/loopring-now-supports-nfts-on-l2"
                       className=" highlight_link whitebg "
                     >
                       <Translate id="links.loopring35" />

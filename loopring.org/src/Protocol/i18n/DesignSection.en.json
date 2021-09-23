@@ -9,9 +9,9 @@
 
   "deprecated": "(Deprecated)",
   "blocks": {
-    "designdoc": "Loopring 3.6 Design Doc··················★★★★★",
-    "contracts": "Loopring 3.6 Smart Contracts·········· ⟁",
-    "circuits": "Loopring 3.6 ZKP circuits·········· ⧉",
+    "designdoc": "Loopring 3.8 Design Doc··················★★★★★",
+    "contracts": "Loopring 3.8 Smart Contracts·········· ⟁",
+    "circuits": "Loopring 3.8 ZKP circuits·········· ⧉",
     "zkRollupPost": "Vitalik's post on zkRollup··································◎",
     "zkRollupTechTalk": "Vitalik's tech-talk on zkRollup······························◎",
     "zkp": "Zero Knowledge Proof / ZKP····························· ◎",

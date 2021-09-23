@@ -5,8 +5,8 @@
   "version10": {
     "title": "Loopring Protocol",
     "content": [
-      "Loopring protocol is an open source zkRollup protocol. It is a collection of Ethereum smart contracts and ZK circuits which describe how to build highly-secure, highly-scalable orderbook-based DEXes, AMMs, and payment apps. It was the first rollup protocol deployed on Ethereum, and has led the ecosystem into the era of Layer 2 scaling (L2). The current protocol version, v3.6, is our fifth deployed version (the first three were non-zkRollup). It provides a solution for the most outstanding challenge of all decentralized protocols - performance, or more precisely, <b>much higher performance without a tradeoff in security.</b>",
-      "<a className='underline ' href='/#/protocol'> Click here</a> to learn about the technical details of Loopring protocol 3.6."
+      "Loopring protocol is an open source zkRollup protocol. It is a collection of Ethereum smart contracts and ZK circuits which describe how to build highly-secure, highly-scalable orderbook-based DEXes, AMMs, and payment apps. It was the first rollup protocol deployed on Ethereum, and has led the ecosystem into the era of Layer 2 scaling (L2). The current protocol version, v3.8, is our fifth deployed version (the first three were non-zkRollup). It provides a solution for the most outstanding challenge of all decentralized protocols - performance, or more precisely, <b>much higher performance without a tradeoff in security.</b>",
+      "<a className='underline ' href='/#/protocol'> Click here</a> to learn about the technical details of Loopring protocol 3.8."
     ]
   },
   "version15": {
