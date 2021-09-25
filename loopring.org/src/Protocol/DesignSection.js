@@ -51,7 +51,7 @@ class DesignSection extends I18nComponent {
                     >
                       技术白皮书
                     </a>
-                    。但对最新的3.0版本，我们选择直接发布更具技术细节的
+                    。但对最新的3.x版本，我们选择直接发布更具技术细节的
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -100,7 +100,7 @@ class DesignSection extends I18nComponent {
                     </p>
 
                     <p>
-                      路印协议3.0的安全性、高吞吐量、和低成本证明了零知卷叠（zkRollup）思路是去中心化应用扩容的最佳方式之一。二层协议消极依靠底层公有链来扩容是不可取的。
+                      路印协议3.0的安全性、高吞吐量、和低成本证明了zkRollup（zkRollup）思路是去中心化应用扩容的最佳方式之一。二层协议消极依靠底层公有链来扩容是不可取的。
                     </p>
                   </div>
                 ) : (
