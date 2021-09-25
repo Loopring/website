@@ -1,8 +1,6 @@
 {
-  "heading": "Loopring Exchange",
-  "subtitle1": "Loopring Exchange (exchange.loopring.pro) is the leading non-custodial trading platform built on an Ethereum zkRollup (Loopring protocol).",
-  "subtitle2": "You can trade and provide liquidity - on AMM pools or orderbooks - gas-free, at high-speeds, completely securely. Just plug in your MetaMask or WalletConnect-compatible wallets.",
+  "heading": "Loopring Layer-2 App",
   "img": "loopringio_en.jpg",
-  "tradeNow": "Trade Now",
-  "tradeWithAPI": "or trade with API"
+  "tradeNow": "Transact on Layer-2",
+  "tradeWithAPI": "or integrate with Loopring using our APIs"
 }

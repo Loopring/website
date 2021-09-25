@@ -1,11 +1,11 @@
 {
   "heading": "Why Loopring?",
 
-  "subtitle": "Loopring is an Ethereum Layer-2 scaling protocol. It allows for building high-throughput, low-cost, non-custodial AMMs, orderbook exchanges, and payment applications on Ethereum by leveraging Zero-Knowledge Proofs.",
-  "learnMore": "Learn more about Loopring protocol",
+  "subtitle": "Loopring is a zkRollup layer-2. It allows for high-throughput, low-cost trading and payment on Ethereum.",
+  "learnMore": "Learn more about Loopring",
   "features": [
     {
-      "title": " Super Secure",
+      "title": " Secure",
       "explain": "Loopring is an open-sourced, audited, and non-custodial exchange and payment protocol. Nobody in the Loopring ecosystem needs to trust others. zkRollup assures assets are always under users' own control; 100% Ethereum-level security guarantees."
     },
     {

@@ -18,7 +18,7 @@ class HeroSection extends I18nComponent {
     const titleClass = this.isChinese() ? "chinese" : "";
     const subTitle = this.isChinese()
       ? "零知卷叠交易与支付协议"
-      : "zkRollup Exchange and Payment Protocol";
+      : "zkRollup Layer-2 for Trading and Payment";
 
     return (
       <section

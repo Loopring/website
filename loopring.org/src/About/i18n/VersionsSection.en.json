@@ -19,7 +19,7 @@
   "version20": {
     "title": "Loopring Exchange",
     "content": [
-      "Loopring Exchange (exchange.loopring.pro) is a high-performance, non-custodial exchange (AMM and orderbook) and payment platform that the Loopring team operates. It is built on the Loopring protocol, run by the Loopring relayer, and provides the most advanced and enjoyable trading experience on Ethereum. Gas-free, blazing fast, completely secure. Whether you are doing a single swap, 30 trades per minute, providing liquidity in the AMM pool or orderbook, or transferring tokens to 1 friend or 100 friends, Loopring Exchange is the L2 standard.",
+      "Loopring Exchange (app.loopring.pro) is a high-performance, non-custodial exchange (AMM and orderbook) and payment platform that the Loopring team operates. It is built on the Loopring protocol, run by the Loopring relayer, and provides the most advanced and enjoyable trading experience on Ethereum. Gas-free, blazing fast, completely secure. Whether you are doing a single swap, 30 trades per minute, providing liquidity in the AMM pool or orderbook, or transferring tokens to 1 friend or 100 friends, Loopring Exchange is the L2 standard.",
       "<a className='underline ' href='/#/trade'> Click here</a> to get on the Loopring Exchange. It requires only an Ethereum wallet."
     ]
   },

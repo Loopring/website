@@ -24,7 +24,7 @@ class JsonI18nComponent extends React.Component {
   }
 
   isChinese() {
-    return false;//this.state.lang === "zh";
+    return this.state.lang === "zh";
   }
 }
 
