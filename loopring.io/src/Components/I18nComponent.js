@@ -21,13 +21,14 @@ class I18nComponent extends React.Component {
     this.props.addTranslationForLanguage(chineseTranslation, 'zh');
 
     const lang = detectBrowserLanguage().toLowerCase();
-    // if (lang === 'zh' || lang === 'zh-cn') {
-    //   this.props.setActiveLanguage('zh');
-    //   this.state = {lang: 'zh'};
-    // } else {
-    this.props.setActiveLanguage('en');
-    this.state = {lang: 'en'};
-    // }
+    if (lang === 'zh' || lang === 'zh-cn') {
+      this.props.setActiveLanguage('zh');
+      this.state = {lang: 'zh'};
+    } else {
+      this.props.setActiveLanguage('en');
+      this.state = {lang: 'en'};
+    }
+
     AOS.init();
   }
 
@@ -36,7 +37,7 @@ class I18nComponent extends React.Component {
   }
 
   isChinese() {
-    return false; // this.state.lang === 'zh';
+    return this.state.lang === 'zh';
   }
 }
 
