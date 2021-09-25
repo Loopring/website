@@ -8,7 +8,6 @@ import Home from "./Home/Home";
 import About from "./About/About";
 import Protocol from "./Protocol/Protocol";
 import LRC from "./LRC/LRC";
-import Team from "./Team/Team";
 import Updates from "./Updates/Updates";
 import Article from "./Article/Article";
 import NotFound from "./NotFound/NotFound";
@@ -30,7 +29,6 @@ class App extends React.Component {
               <Route path="/about" exact component={About} />
               <Route path="/protocol" exact component={Protocol} />
               <Route path="/lrc" exact component={LRC} />
-              <Route path="/team" exact component={Team} />
               <Route path="/ceremony" exact component={Protocol} />
               <Route
                 path="/blog"
