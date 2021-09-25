@@ -10,11 +10,11 @@ class JsonI18nComponent extends React.Component {
     super(props);
 
     const lang = detectBrowserLanguage().toLowerCase();
-    // if (lang === "zh" || lang === "zh-cn") {
-    //   this.state = { lang: "zh", I: chineseTranslation };
-    // } else {
+    if (lang === "zh" || lang === "zh-cn") {
+      this.state = { lang: "zh", I: chineseTranslation };
+    } else {
       this.state = { lang: "en", I: englishTranslation };
-    // }
+    }
 
     AOS.init();
   }
