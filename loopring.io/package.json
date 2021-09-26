@@ -43,7 +43,7 @@
     "format": "prettier --write 'src/**/*.{js,jsx,css,scss,json}'",
     "start": "HOST=0.0.0.0 react-scripts start",
     "dev": "HOST=0.0.0.0 react-scripts start",
-    "build": "sh -ac '. .env.${REACT_APP_ENV}; react-scripts build'",
+    "build": "ls -al && sh -ac '. .env.${REACT_APP_ENV}; react-scripts build'",
     "build:local": "REACT_APP_ENV=local yarn build",
     "build:prod": "REACT_APP_ENV=prod yarn build",
     "test": "react-scripts test",
