@@ -41,7 +41,7 @@ const HeroSection = (props) => {
         style={{
           paddingBottom: '40px',
           backgroundImage:
-            'url(\'' + process.env.PUBLIC_URL + '/images/bg_color_top.png\')',
+            'url(\'' + './images/bg_color_top.png\')',
           backgroundSize: 'cover',
           borderBottom: '180px solid white',
         }}
@@ -78,7 +78,7 @@ const HeroSection = (props) => {
               width: '420px',
               filter: 'drop-shadow(0 0 1rem #1c42ff50)',
             }}
-            src={process.env.PUBLIC_URL + '/images/top_en.png'}
+            src={'./images/top_en.png'}
           />
         </CenterAlignContainer>
       </Section>
@@ -89,17 +89,17 @@ const HeroSection = (props) => {
             <DownloadButton
               url="https://play.google.com/store/apps/details?id=loopring.defi.wallet"
               imageUrl={
-                process.env.PUBLIC_URL + '/images/download_google_play.png'
+                './images/download_google_play.png'
               }
             />
             <DownloadButton
               url="http://52.82.125.33:8082/LoopringWallet.apk"
-              imageUrl={process.env.PUBLIC_URL + '/images/download_apk.png'}
+              imageUrl={'./images/download_apk.png'}
             />
             <DownloadButton
               url="https://apps.apple.com/us/app/loopring-smart-wallet/id1550921126"
               imageUrl={
-                process.env.PUBLIC_URL + '/images/download_apple_appstore.svg'
+                './images/download_apple_appstore.svg'
               }
             />
             <div

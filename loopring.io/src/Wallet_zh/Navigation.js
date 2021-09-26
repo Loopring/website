@@ -36,7 +36,7 @@ const Navigation = (props) => {
             <img
               className="logo"
               draggable="false"
-              src={process.env.PUBLIC_URL + '/images/logo.svg'}
+              src={'./images/logo.svg'}
             />
           </Navbar.Item>
           <a

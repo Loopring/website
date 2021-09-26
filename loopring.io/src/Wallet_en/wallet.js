@@ -31,7 +31,7 @@ const WalletPage = ({t}) => {
           'assets are secure. You can also set limits on daily transfers, and lock it down if ever needed.'
         }
         imageUrl={
-          process.env.PUBLIC_URL + '/images/feature_social_recover_en.png'
+          './images/feature_social_recover_en.png'
         }
       />
       <FeatureSection
@@ -45,7 +45,7 @@ const WalletPage = ({t}) => {
           'wallet are safe. Compared to an ordinary wallet where, if the private key is leaked, all ' +
           'your assets are no longer safe.'
         }
-        imageUrl={process.env.PUBLIC_URL + '/images/feature_identity_en.png'}
+        imageUrl={'./images/feature_identity_en.png'}
       />
       <FeatureSection
         even
@@ -59,7 +59,7 @@ const WalletPage = ({t}) => {
           'the power and permissionlessness of Ethereum. Best of both worlds: ' +
           'traditional speed and cost efficiency & Ethereum security, opportunity, and global reach.'
         }
-        imageUrl={process.env.PUBLIC_URL + '/images/feature_akhs_en.png'}
+        imageUrl={'./images/feature_akhs_en.png'}
       />
       <FeatureSection
         imageSize={'contain'}
@@ -73,7 +73,7 @@ const WalletPage = ({t}) => {
           'it may bring.'
         }
         imageUrl={
-          process.env.PUBLIC_URL + '/images/feature_future_looking_en.png'
+          './images/feature_future_looking_en.png'
         }
       />
 
@@ -87,7 +87,7 @@ const WalletPage = ({t}) => {
           'scaling solutions - not just Loopring. Earn, invest, trade, and more. The new financial system is at your fingertips, and you can put your money to work within your wallet. ' +
           'Always adhering to the principles of open source, no custody of user assets, and safety first. You are always in control.'
         }
-        imageUrl={process.env.PUBLIC_URL + '/images/feature_best_choice_en.png'}
+        imageUrl={'./images/feature_best_choice_en.png'}
       />
 
       {/* <WithdrawalMining />*/}

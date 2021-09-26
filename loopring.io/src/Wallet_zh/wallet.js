@@ -29,7 +29,7 @@ const WalletPage = (props) => {
           '过半数守护人可信，您的资产就安全。'
         }
         imageUrl={
-          process.env.PUBLIC_URL + '/images/feature_social_recover_zh.png'
+          './images/feature_social_recover_zh.png'
         }
       />
       <FeatureSection
@@ -40,7 +40,7 @@ const WalletPage = (props) => {
           '路印钱包将身份与安全解耦。即使发生最坏的安全事故，您也可以继续使用同一个钱包，且保证与其关联的任何长短期利益都安全如初。' +
           '而普通钱包一旦私钥泄露，相关利益一下子就都不再安全。'
         }
-        imageUrl={process.env.PUBLIC_URL + '/images/feature_identity_zh.png'}
+        imageUrl={'./images/feature_identity_zh.png'}
       />
       <FeatureSection
         even
@@ -51,7 +51,7 @@ const WalletPage = (props) => {
           '路印钱包集成路印的zkRollup二层扩容协议，保障与以太坊主网一致的安全性，' +
           '同时提供媲美支付宝和微信的支付体验，费用仅为以太坊主网费用的百分之一。'
         }
-        imageUrl={process.env.PUBLIC_URL + '/images/feature_akhs_zh.png'}
+        imageUrl={'./images/feature_akhs_zh.png'}
       />
       <FeatureSection
         imageSize={'contain'}
@@ -62,7 +62,7 @@ const WalletPage = (props) => {
           '基于区块链的新金融有着无限可能，普通钱包关注当下之时，路印已看见未来。'
         }
         imageUrl={
-          process.env.PUBLIC_URL + '/images/feature_future_looking_zh.png'
+          './images/feature_future_looking_zh.png'
         }
       />
 
@@ -75,7 +75,7 @@ const WalletPage = (props) => {
           '我们会集成更多去中心化金融应用和二层扩容方案。' +
           '我们将秉承开源，不托管用户资产，安全第一的原则，立志成为您区块链财富自由的领航员。'
         }
-        imageUrl={process.env.PUBLIC_URL + '/images/feature_best_choice_zh.png'}
+        imageUrl={'./images/feature_best_choice_zh.png'}
       />
 
       {/* <WithdrawalMining />*/}
