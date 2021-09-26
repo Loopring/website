@@ -35,7 +35,7 @@ class VersionsSection extends JsonI18nComponent {
             </div>
             <div data-aos="fade-up" className="column is-5 has-text-justify">
               <figure className="image covered is-3by2">
-                <img src="/images/inserts/ring.jpg" />
+                <img src="./images/inserts/ring.jpg" />
               </figure>
             </div>
             <div data-aos="fade-up" className="column is-5 has-text-justify">

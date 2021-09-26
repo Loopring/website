@@ -27,7 +27,7 @@ class TradeSection extends JsonI18nComponent {
                 <img
                   data-aos="zoom-in-up"
                   className="dexImg"
-                  src={"/images/inserts/" + this.state.I.img}
+                  src={"./images/inserts/" + this.state.I.img}
                 />
               </div>
             </div>

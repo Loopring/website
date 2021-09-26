@@ -17,7 +17,7 @@ class GroupPhotoSection extends React.Component {
         <figure data-aos="fade-up" className="image covered">
           <img
             className="team-picture is-unselectable"
-            src="/images/team.jpeg"
+            src="./images/team.jpeg"
           />
         </figure>
       </section>

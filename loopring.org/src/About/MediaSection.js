@@ -29,7 +29,7 @@ class MediaSection extends I18nComponent {
 
             <div className="column  is-narrow">
               <figure className="image">
-                <img draggable="false" src="/images/coinswitch.png" />
+                <img draggable="false" src="./images/coinswitch.png" />
               </figure>
             </div>
 

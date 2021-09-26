@@ -71,7 +71,7 @@ class Article extends React.Component {
 
     const featureImg = this.state.post.feature_image
       ? this.state.post.feature_image
-      : "/images/post_hero.png";
+      : "./images/post_hero.png";
     return (
       <div>
         <MetaTags>

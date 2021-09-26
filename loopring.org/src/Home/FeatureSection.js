@@ -51,7 +51,7 @@ class FeatureSection extends JsonI18nComponent {
                     <figure className="image">
                       <img
                         draggable="false"
-                        src={"/images/" + idx + ".svg"}
+                        src={"./images/" + idx + ".svg"}
                         className={idx === 2 ? "rotated" : ""}
                       />
                     </figure>

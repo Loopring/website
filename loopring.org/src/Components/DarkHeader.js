@@ -38,7 +38,7 @@ class DarkHeader extends I18nComponent {
               <img
                 className="logo"
                 draggable="false"
-                src="/images/logo_white.svg"
+                src="./images/logo_white.svg"
               />
             </a>
 

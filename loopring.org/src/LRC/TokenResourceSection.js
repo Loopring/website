@@ -30,7 +30,7 @@ class TokenResourceSection extends JsonI18nComponent {
                 className="download-button"
                 href="/resources/loopring_logo_icons.zip"
               >
-                <img draggable="false" src={"/images/icondownload.svg"} />
+                <img draggable="false" src={"./images/icondownload.svg"} />
               </a>
             </div>
 
