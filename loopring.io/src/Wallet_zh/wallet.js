@@ -48,7 +48,7 @@ const WalletPage = (props) => {
         h1={'安快好省'}
         h2={'二层扩容，做到安全、快速、好用、省钱'}
         h3={
-          '路印钱包集成路印的零知卷叠二层扩容协议，保障与以太坊主网一致的安全性，' +
+          '路印钱包集成路印的zkRollup二层扩容协议，保障与以太坊主网一致的安全性，' +
           '同时提供媲美支付宝和微信的支付体验，费用仅为以太坊主网费用的百分之一。'
         }
         imageUrl={process.env.PUBLIC_URL + '/images/feature_akhs_zh.png'}

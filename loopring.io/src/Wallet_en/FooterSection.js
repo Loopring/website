@@ -90,8 +90,8 @@ const FooterSection = () => {
                 Links
               </div>
               <div>
-                <a href={'https://exchange.' + window.location.hostname}>
-                  Loopring Exchange
+                <a href={'https://app.' + window.location.hostname}>
+                  Layer-2 App
                 </a>
               </div>
 
@@ -104,7 +104,7 @@ const FooterSection = () => {
                   href="https://duneanalytics.com/Brecht/loopring"
                   target="_blank"
                 >
-                  Dune Analytics Dashboard
+                  Dune Dashboard
                 </a>
               </div>
 

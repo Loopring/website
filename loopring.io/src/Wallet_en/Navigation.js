@@ -62,13 +62,13 @@ const Navigation = (props) => {
               className="disabled-button"
               onClick={onLinkClick}
             >
-              Loopring Wallet
+              Smart Wallet
             </NavbarItem>
             <NavbarItem
-              href={'https://exchange.' + window.location.hostname}
+              href={'https://app.' + window.location.hostname}
               onClick={onLinkClick}
             >
-              Loopring Exchange
+              Layer-2 App
             </NavbarItem>
           </div>
         </div>
