@@ -24,11 +24,6 @@ class TradeSection extends JsonI18nComponent {
                 className="column is-centered is-vcentered has-text-centered"
               >
                 <h1 className="trade-title">{this.state.I.heading}</h1>
-                <div class="subtitle">
-                  <p>{this.state.I.subtitle1}</p>
-                  <br />
-                  <p>{this.state.I.subtitle2}</p>
-                </div>
                 <img
                   data-aos="zoom-in-up"
                   className="dexImg"
@@ -40,7 +35,7 @@ class TradeSection extends JsonI18nComponent {
             <div className="columns is-centered is-vcentered">
               <div className="column is-centered is-vcentered has-text-centered is-12">
                 <a
-                  href="https://exchange.loopring.pro"
+                  href="https://app.loopring.pro"
                   target="_blank"
                   className="trade-now"
                 >

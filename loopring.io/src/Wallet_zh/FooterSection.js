@@ -94,9 +94,7 @@ const FooterSection = () => {
                 链接
               </div>
               <div>
-                <a href={'https://exchange.' + window.location.hostname}>
-                  路印交易所
-                </a>
+                <a href={'https://app.' + window.location.hostname}>二层应用</a>
               </div>
 
               <div>
@@ -133,7 +131,7 @@ const FooterSection = () => {
             paddingBottom: '10px',
           }}
         >
-          路印科技有限公司版权所有
+          Loopring Technology Limited 版权所有
         </CenterAlignContainer>
       </Container>
     </Footer>

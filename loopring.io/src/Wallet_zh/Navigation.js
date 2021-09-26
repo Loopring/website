@@ -62,13 +62,13 @@ const Navigation = (props) => {
               className="disabled-button"
               onClick={onLinkClick}
             >
-              路印钱包
+              智能钱包
             </NavbarItem>
             <NavbarItem
-              href={'https://exchange.' + window.location.hostname}
+              href={'https://app.' + window.location.hostname}
               onClick={onLinkClick}
             >
-              路印交易所
+              二层应用
             </NavbarItem>
           </div>
         </div>

@@ -1,8 +1,8 @@
 {
-  "home": "首页",
+  "home": "关于",
   "about": "项目",
-  "loopring30": "路印协议",
-  "lrc": "LRC代币",
+  "loopring30": "协议",
+  "lrc": "LRC",
   "updates": "博客",
-  "trade": "交易"
+  "trade": "应用"
 }

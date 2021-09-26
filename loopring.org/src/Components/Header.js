@@ -110,7 +110,7 @@ class Header extends I18nComponent {
               </NavLink>
               <a
                 className="navbar-item"
-                href="https://exchange.loopring.pro"
+                href="https://app.loopring.pro"
                 target="_blank"
               >
                 <div className="pageLinkExt">

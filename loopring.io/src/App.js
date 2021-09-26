@@ -18,7 +18,7 @@ import {
 class App extends React.Component {
   render() {
     const lang = detectBrowserLanguage().toLowerCase();
-    const isChinese = false; // lang === 'zh' || lang === 'zh-cn';
+    const isChinese = lang === 'zh' || lang === 'zh-cn';
     document.title = isChinese ? '路印科技 - 钱包' : 'Loopring - Wallet';
     return (
       <HttpsRedirect>
