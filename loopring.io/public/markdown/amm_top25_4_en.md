@@ -20,7 +20,7 @@ Rari Capital | RGT⇄ETH |   2,600 LRC |
 ![](/markdown/images/program_3.png "")
 
 
-3) Rewards will be directly distributed to your layer-2 accounts within three days of the end of the round.
+3) Rewards will be directly distributed to your layer2 accounts within three days of the end of the round.
 
 
 

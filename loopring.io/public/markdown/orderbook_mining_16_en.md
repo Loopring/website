@@ -16,7 +16,7 @@
 
 3) Other details follow [Loopring v1 orderbook liquidity mining rules](https://medium.com/loopring-protocol/loopring-exchange-liquidity-mining-competition-748917b277e6). Hourly snapshots, measured by order depth, tightness, and balance.
 
-4) Rewards will be directly distributed to your layer-2 accounts within three days of the end of the round.
+4) Rewards will be directly distributed to your layer2 accounts within three days of the end of the round.
 
 5) Note: Vesper will be incentivizing this VSP/ETH pair for 6 rounds (3 months), and VSP/DAI for 12 rounds (6 months). Each round having a 1,300 VSP reward pool, and 667 VSP reward pool, respectively per pair. So you can plan on adding liquidity for longer. The spread tightness may change per round.
 

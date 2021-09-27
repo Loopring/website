@@ -19,7 +19,7 @@ const handleDragStart = (e) => e.preventDefault();
 const SlidesSection = () => {
   const items = [
     <a
-      href="https://medium.com/loopring-protocol/loopring-to-launch-amm-liquidity-mining-on-layer-2-6cabbcf4801c?source=collection_home---4------0-----------------------"
+      href="https://medium.com/loopring-protocol/loopring-to-launch-amm-liquidity-mining-on-layer2-6cabbcf4801c?source=collection_home---4------0-----------------------"
       target="_blank"
       className="slide"
     >
@@ -29,7 +29,7 @@ const SlidesSection = () => {
       />
     </a>,
     <a
-      href="https://medium.com/loopring-protocol/loopring-to-launch-amm-liquidity-mining-on-layer-2-6cabbcf4801c?source=collection_home---4------0-----------------------"
+      href="https://medium.com/loopring-protocol/loopring-to-launch-amm-liquidity-mining-on-layer2-6cabbcf4801c?source=collection_home---4------0-----------------------"
       target="_blank"
       className="slide"
     >
@@ -39,7 +39,7 @@ const SlidesSection = () => {
       />
     </a>,
     <a
-      href="https://medium.com/loopring-protocol/loopring-to-launch-amm-liquidity-mining-on-layer-2-6cabbcf4801c?source=collection_home---4------0-----------------------"
+      href="https://medium.com/loopring-protocol/loopring-to-launch-amm-liquidity-mining-on-layer2-6cabbcf4801c?source=collection_home---4------0-----------------------"
       target="_blank"
       className="slide"
     >

@@ -16,5 +16,5 @@
 
 3) Other details follow [Loopring v1 orderbook liquidity mining rules](https://medium.com/loopring-protocol/loopring-exchange-liquidity-mining-competition-748917b277e6). Hourly snapshots, measured by order depth, tightness, and balance.
 
-4) Rewards will be directly distributed to your layer-2 accounts within three days of the end of the round.
+4) Rewards will be directly distributed to your layer2 accounts within three days of the end of the round.
 

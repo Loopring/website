@@ -18,11 +18,11 @@ EvidenZ | BCDT⇄ETH | 30,000 BCDT | 7,500 BCDT |
 
 4) We take random snapshots of the relevant AMM pools several times a day, and calculate the amount of rewards each LP earns based on the average of all snapshot balances in the round.
 
-5) The rewards of each cycle will be directly distributed to LP's layer-2 accounts after the seventh day of liquidation, but note that single-cycle rewards below $1 will not be distributed or accumulated.
+5) The rewards of each cycle will be directly distributed to LP's layer2 accounts after the seventh day of liquidation, but note that single-cycle rewards below $1 will not be distributed or accumulated.
 
 4) For pools with liquidity mining, providing liquidity is how you mine. You automatically start mining without any other user action.
 
-5) Mining does not involve locking up your funds, but the LP tokens must stay in your Loopring layer-2 account. If you withdraw LP tokens to the Ethereum mainnet, you cannot get mining rewards, because it will not be recorded in the snapshots. You can transfer part or all of your LP tokens to other accounts on layer-2, but the mining rewards will also follow.
+5) Mining does not involve locking up your funds, but the LP tokens must stay in your Loopring layer2 account. If you withdraw LP tokens to the Ethereum mainnet, you cannot get mining rewards, because it will not be recorded in the snapshots. You can transfer part or all of your LP tokens to other accounts on layer2, but the mining rewards will also follow.
 
 
 

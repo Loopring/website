@@ -86,7 +86,7 @@ const WithdrawalMining = (props) => {
                 LRC will earn a <b>double reward</b>.
               </li>
               <li>
-                Assets on Loopring 3.6's layer-2 account will earn a{' '}
+                Assets on Loopring 3.6's layer2 account will earn a{' '}
                 <b>double reward</b>.
               </li>
               <li>
@@ -105,7 +105,7 @@ const WithdrawalMining = (props) => {
                 amount.
               </li>
               <li>
-                We will distribute LRC rewards directly to your wallet's layer-2
+                We will distribute LRC rewards directly to your wallet's layer2
                 account the next day.
               </li>
               <li>

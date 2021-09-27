@@ -28,7 +28,7 @@ AMP | AMP⇄ETH |  2,500 LRC
 ![](/markdown/images/program_2.png "")
 
 
-3) Rewards will be directly distributed to your layer-2 accounts within three days of the end of the round.
+3) Rewards will be directly distributed to your layer2 accounts within three days of the end of the round.
 
 ### Reward Distribution
 

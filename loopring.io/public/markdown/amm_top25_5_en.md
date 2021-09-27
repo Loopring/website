@@ -23,6 +23,6 @@ BCdiploma | BCDT⇄ETH |  1,800 LRC |
 2) The swap tournament rewards the top 25 high volume swappers per pool. We will divide rewards into 200,000 units and distribute them to the top 25 AMM traders per pool based on their trading volumes according to the chart below:
 ![](/markdown/images/program_3.png "")
 
-3) Rewards will be directly distributed to your layer-2 accounts within three days of the end of the round.
+3) Rewards will be directly distributed to your layer2 accounts within three days of the end of the round.
 
 

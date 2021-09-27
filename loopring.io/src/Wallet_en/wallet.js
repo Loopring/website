@@ -51,9 +51,9 @@ const WalletPage = ({t}) => {
         even
         imageSize={'contain'}
         h1={'Fast, Cheap, & Easy to use'}
-        h2={'zkRollup layer-2 scaling brings high performance to Ethereum'}
+        h2={'zkRollup layer2 scaling brings high performance to Ethereum'}
         h3={
-          'Loopring Wallet integrates Loopring\'s zkRollup layer-2 scaling protocol to raise speeds and lower fees by 1000x, ' +
+          'Loopring Wallet integrates Loopring\'s zkRollup layer2 scaling protocol to raise speeds and lower fees by 1000x, ' +
           'while inheriting the absolute same security guarantees as Ethereum mainnet. ' +
           'Loopring provides a trading experience like Robinhood or Binance, a payment experience like Alipay or Venmo, but with ' +
           'the power and permissionlessness of Ethereum. Best of both worlds: ' +
@@ -83,7 +83,7 @@ const WalletPage = ({t}) => {
         h1={'Ethereum Unleashed'}
         h2={'Gateway to Decentralized Finance on Ethereum'}
         h3={
-          'We will continue to integrate more Ethereum-based DeFi applications and layer-2 ' +
+          'We will continue to integrate more Ethereum-based DeFi applications and layer2 ' +
           'scaling solutions - not just Loopring. Earn, invest, trade, and more. The new financial system is at your fingertips, and you can put your money to work within your wallet. ' +
           'Always adhering to the principles of open source, no custody of user assets, and safety first. You are always in control.'
         }

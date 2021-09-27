@@ -22,7 +22,7 @@
 
 5) Other details follow [Loopring v1 orderbook liquidity mining rules](https://medium.com/loopring-protocol/loopring-exchange-liquidity-mining-competition-748917b277e6). Hourly snapshots, measured by order depth, tightness, and balance.
 
-6) The rewards of each cycle will be directly distributed to LP's layer-2 accounts after the seventh day of liquidation, but note that single-cycle rewards below $1 will not be distributed or accumulated.
+6) The rewards of each cycle will be directly distributed to LP's layer2 accounts after the seventh day of liquidation, but note that single-cycle rewards below $1 will not be distributed or accumulated.
 
 7) Note: Blocktanium will also be incentivizing this BKT/USDT pair for 6 months. So you can plan on adding liquidity for longer. The spread tightness may change per round.
 

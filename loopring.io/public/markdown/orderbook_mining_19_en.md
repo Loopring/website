@@ -24,7 +24,7 @@
 
 4) FLX rewards will distributed by Reflexer on Layer-1 at app.reflexer.finance during their 3rd batch of incentives in mid-June.
 
-5) All other rewards will be directly distributed to LP's layer-2 accounts on the day after the campaigns end (Day 14).
+5) All other rewards will be directly distributed to LP's layer2 accounts on the day after the campaigns end (Day 14).
 
 6) Note: Vesper will be incentivizing this VSP/ETH pair for 6 rounds (3 months), and VSP/DAI for 12 rounds (6 months). Each round having a 1,300 VSP reward pool, and 667 VSP reward pool, respectively per pair. So you can plan on adding liquidity for longer. The spread tightness may change per round.
 
