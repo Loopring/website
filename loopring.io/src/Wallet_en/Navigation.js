@@ -68,7 +68,7 @@ const Navigation = (props) => {
               href={'https://app.' + window.location.hostname}
               onClick={onLinkClick}
             >
-              Layer-2 App
+              Layer2 App
             </NavbarItem>
           </div>
         </div>

@@ -91,7 +91,7 @@ const FooterSection = () => {
               </div>
               <div>
                 <a href={'https://app.' + window.location.hostname}>
-                  Layer-2 App
+                  Layer2 App
                 </a>
               </div>
 

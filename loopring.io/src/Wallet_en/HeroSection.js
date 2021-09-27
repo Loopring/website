@@ -139,7 +139,7 @@ const HeroSection = (props) => {
             </div>
             <div>
               Already have a different wallet and just want to use Loopring L2
-              on web? Head to Loopring Layer-2 and connect.
+              on web? Head to Loopring Layer2 and connect.
             </div>
           </div>
         </CenterAlignContainer>
