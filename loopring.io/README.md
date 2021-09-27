@@ -1,9 +1,3 @@
+## Publish
 
-```
-yarn start
-yarn build:prod
-yarn deploy:ipfs
-```
-
-https://pinata.cloud/pinexplorer
-https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website
+Whenever is PR is created for master or a new change is committed to master, the site will be published automatically by https://app.fleek.co/
