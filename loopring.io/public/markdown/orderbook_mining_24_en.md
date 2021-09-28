@@ -9,7 +9,6 @@
 | BKT/USDT | 250,000 BKT| 62,500 BKT|
 
 
-
 ### Rules
 
 1) This round starts at 00:00 UTC September 9, 2021, and lasts for **28 days**.
