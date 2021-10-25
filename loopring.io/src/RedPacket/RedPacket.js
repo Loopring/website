@@ -36,7 +36,7 @@ class RedPacket extends I18nComponent {
             />
             <DownloadButton
               small
-              url="http://52.82.125.33:8082/LoopringWallet.apk"
+              url="https://download.loopring.io/LoopringWallet.apk"
               imageUrl="%PUBLIC_URL%/images/download_apk.png"
             />
             <DownloadButton
