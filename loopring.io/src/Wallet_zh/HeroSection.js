@@ -90,7 +90,7 @@ const HeroSection = (props) => {
               }
             />
             <DownloadButton
-              url="http://52.82.125.33:8082/LoopringWallet.apk"
+              url="https://download.loopring.io/LoopringWallet.apk"
               imageUrl={process.env.PUBLIC_URL + '/images/download_apk.png'}
             />
             <DownloadButton

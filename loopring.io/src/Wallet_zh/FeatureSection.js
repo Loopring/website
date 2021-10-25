@@ -49,7 +49,7 @@ const FeatureSection = ({h1, h2, h3, imageUrl, even, imageSize}) => {
 
         {/*     <a
           className="download-link"
-          href="http://52.82.125.33:8082/LoopringWallet.apk"
+          href="https://download.loopring.io/LoopringWallet.apk"
         >
           下载钱包安卓App（beta）
         </a>*/}
