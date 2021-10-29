@@ -35,7 +35,7 @@ class TradeSection extends JsonI18nComponent {
             <div className="columns is-centered is-vcentered">
               <div className="column is-centered is-vcentered has-text-centered is-12">
                 <a
-                  href="https://app.loopring.io"
+                  href="https://loopring.io/#/layer2"
                   target="_blank"
                   className="trade-now"
                 >

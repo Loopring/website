@@ -124,7 +124,7 @@ class DarkHeader extends I18nComponent {
               </NavLink>
               <a
                 className="navbar-item"
-                href="https://app.loopring.io"
+                href="https://loopring.io/#/layer2"
                 target="_blank"
               >
                 <div className="pageLinkExt">

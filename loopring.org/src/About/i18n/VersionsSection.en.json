@@ -17,10 +17,10 @@
     ]
   },
   "version20": {
-    "title": "Loopring Exchange",
+    "title": "Loopring Layer2 App",
     "content": [
-      "Loopring Exchange (app.loopring.io) is a high-performance, non-custodial exchange (AMM and orderbook) and payment platform that the Loopring team operates. It is built on the Loopring protocol, run by the Loopring relayer, and provides the most advanced and enjoyable trading experience on Ethereum. Gas-free, blazing fast, completely secure. Whether you are doing a single swap, 30 trades per minute, providing liquidity in the AMM pool or orderbook, or transferring tokens to 1 friend or 100 friends, Loopring Exchange is the L2 standard.",
-      "<a className='underline ' href='https://app.loopring.io'> Click here</a> to get on the Loopring Exchange. It requires only an Ethereum wallet."
+      "Loopring Layer2 App (loopring.io/#/layer2) is a high-performance, non-custodial exchange (AMM and orderbook) and payment platform that the Loopring team operates. It is built on the Loopring protocol, run by the Loopring relayer, and provides the most advanced and enjoyable trading experience on Ethereum. Gas-free, blazing fast, completely secure. Whether you are doing a single swap, 30 trades per minute, providing liquidity in the AMM pool or orderbook, or transferring tokens to 1 friend or 100 friends, Loopring Layer2 is the L2 standard.",
+      "<a className='underline ' href='https://loopring.io/#/layer2'> Click here</a> to get on the Loopring Exchange. It requires only an Ethereum wallet."
     ]
   },
   "version30": {
@@ -28,7 +28,7 @@
     "content": [
       "Loopring Wallet is an Ethereum mobile smart contract wallet, with Loopring zkRollup baked in. It is the first smart wallet app with L2 scaling, and provides a secure, intuitive, powerful Ethereum experience in your pocket. Swap on the AMM, become an LP, trade on the books, invest & earn in DeFi, send payments to anyone, anywhere - all gas-free, and at the tap of a finger.",
       "Completely self-custodial, only smarter. You can say goodbye to seed phrases and paper backups, and say hello to social recovery. This means choosing people, institutions, and hardware that you trust as the guardians of your wallet. If ever you lose access to your mobile, they help you recover your assets. As long as more than half of your guardians are trustworthy, your assets are secure. You can also set limits on daily transfers, and whitelist trusted addresses.",
-      "<a className='underline ' href='https://app.loopring.io'> Click here</a> to visit the Loopring Smart Wallet page, where you can download the app."
+      "<a className='underline ' href='https://loopring.io/#/layer2'> Click here</a> to visit the Loopring Smart Wallet page, where you can download the app."
     ]
   }
 }
