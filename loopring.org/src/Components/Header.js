@@ -5,6 +5,7 @@ import { Translate } from "react-localize-redux";
 import englishTranslation from "./i18n/Header.en.json";
 import chineseTranslation from "./i18n/Header.zh.json";
 import I18nComponent from "./I18nComponent";
+import { LaunchAppSmallButtonStyled } from "./LaunchAppButton";
 
 import "./Header.scss";
 
@@ -108,15 +109,16 @@ class Header extends I18nComponent {
                   <Translate id="updates" />
                 </div>
               </NavLink>
-              <a
-                className="navbar-item"
-                href="https://loopring.io/#/layer2"
-                target="_blank"
+              <LaunchAppSmallButtonStyled
+                variant={"contained"}
+                fullWidth={true}
+                size={"large"}
+                onClick={() => {
+                  window.open("https://loopring.io/#/trade/lite/LRC-ETH");
+                }}
               >
-                <div className="pageLinkExt">
-                  <Translate id="trade" />
-                </div>
-              </a>
+                <div>Launch App</div>
+              </LaunchAppSmallButtonStyled>
             </div>
           </div>
         </div>
