@@ -1,6 +1,4 @@
 import React from "react";
-import { Button } from "@mui/material";
-import styled from "@emotion/styled/";
 
 import { withLocalize } from "react-localize-redux";
 import { Translate } from "react-localize-redux";
@@ -8,24 +6,9 @@ import englishTranslation from "./i18n/HeroSection.en.json";
 import chineseTranslation from "./i18n/HeroSection.zh.json";
 import I18nComponent from "../Components/I18nComponent";
 import { DropDownIcon } from "../Components/Icon";
+import { LaunchAppButtonButtonStyled } from "../Components/LaunchAppButton";
 
 import "./HeroSection.scss";
-
-const ButtonStyled = styled(Button)`
-  :hover {
-    color: #ffffff;
-  }
-
-  :hover:before {
-    background: rgba(255, 255, 255, 0.2);
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-`;
 
 class HeroSection extends I18nComponent {
   constructor(props) {
@@ -62,8 +45,7 @@ class HeroSection extends I18nComponent {
               <div className="title">{title}</div>
               <div className="subtitle1">{subTitle1}</div>
               <div className="subtitle2">{subTitle2}</div>
-              <ButtonStyled
-                className="button"
+              <LaunchAppButtonButtonStyled
                 variant={"contained"}
                 fullWidth={true}
                 size={"large"}
@@ -72,12 +54,12 @@ class HeroSection extends I18nComponent {
                 }}
               >
                 <div>LAUNCH APP</div>
-                <div style={{ display: "flex", alignItems: "center" }}>
+                <div>
                   <DropDownIcon
                     style={{ transform: "rotate(-90deg) scale(1.1)" }}
                   />
                 </div>
-              </ButtonStyled>
+              </LaunchAppButtonButtonStyled>
             </div>
           </div>
         </div>

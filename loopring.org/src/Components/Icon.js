@@ -1,5 +1,5 @@
 import React from "react";
-import { SvgIcon, SvgIconProps } from "@mui/material";
+import { SvgIcon } from "@mui/material";
 
 export const DropDownIcon = props => {
   return (

@@ -68,19 +68,4 @@ $color-base: rgb(255, 255, 255);
     }
   }
 
-  .button {
-    margin-top: 20px;
-    width: 260px;
-    height: 64px;
-    justify-content: space-around;
-    background: linear-gradient(94.92deg, #4169ff 0.91%, #a016c2 103.55%);
-    padding-left: 3rem;
-    font-size: 1.5rem;
-    color: #ffffff;
-
-    div {
-      height: 64px;
-      line-height: 64px;
-    }
-  }
 }
