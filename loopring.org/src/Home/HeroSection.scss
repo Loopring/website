@@ -22,8 +22,27 @@ $color-base: rgb(255, 255, 255);
     font-family: "Helvetica";
   }
 
-  .subtitle {
-    padding: 20px;
+  .subtitle3 {
+    padding-bottom: 24px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+
+    color: #4169FF;
+  }
+
+  .subtitle1 {
+    padding: 20px 20px 0px 20px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.8em;
+
+    @include mobile {
+      font-size: 1.5em;
+    }
+  }
+
+  .subtitle2 {
+    padding: 0px 20px 20px 20px;
     width: 100%;
     font-weight: 500;
     font-size: 1.8em;
@@ -34,12 +53,28 @@ $color-base: rgb(255, 255, 255);
   }
 
   .title {
-    font-size: 6em;
+    font-size: 4em;
     font-weight: 700;
-    text-transform: uppercase;
+    margin-bottom: 0px !important;
 
     @include mobile {
       font-size: 5em;
     }
   }
+
+  .button {
+    margin-top: 20px;
+    width: 260px;
+    height: 64px;
+    justify-content: space-around;
+    background: linear-gradient(94.92deg, #4169ff 0.91%, #a016c2 103.55%);
+    padding-left: 3rem;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+
+    div {
+      height: 64px;
+      line-height: 64px;
+    }
+  }  
 }
