@@ -27,7 +27,11 @@ $color-base: rgb(255, 255, 255);
     letter-spacing: 0.4em;
     text-transform: uppercase;
 
-    color: #4169FF;
+    color: #4169ff;
+
+    @include mobile {
+      padding-top: 24px;
+    }
   }
 
   .subtitle1 {
@@ -38,6 +42,7 @@ $color-base: rgb(255, 255, 255);
 
     @include mobile {
       font-size: 1.5em;
+      padding: 40px 20px 0px 20px;
     }
   }
 
@@ -49,6 +54,7 @@ $color-base: rgb(255, 255, 255);
 
     @include mobile {
       font-size: 1.5em;
+      padding: 0px 20px 40px 20px;
     }
   }
 
@@ -58,7 +64,7 @@ $color-base: rgb(255, 255, 255);
     margin-bottom: 0px !important;
 
     @include mobile {
-      font-size: 5em;
+      font-size: 2em;
     }
   }
 
@@ -70,11 +76,11 @@ $color-base: rgb(255, 255, 255);
     background: linear-gradient(94.92deg, #4169ff 0.91%, #a016c2 103.55%);
     padding-left: 3rem;
     font-size: 1.5rem;
-    color: #FFFFFF;
+    color: #ffffff;
 
     div {
       height: 64px;
       line-height: 64px;
     }
-  }  
+  }
 }
