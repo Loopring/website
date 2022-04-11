@@ -23,7 +23,7 @@ class HeroSection extends I18nComponent {
     const titleClass = this.isChinese() ? "chinese" : "";
     const subTitle1 = this.isChinese()
       ? "在以太坊 Layer 2 上交易，费用减少 100 倍"
-      : "Trade on Ethereum Layer 2 with 100X less fees";
+      : "Fast, secure and 100x lower fees, only on L2";
     const subTitle2 = this.isChinese()
       ? "- 更快、更安全"
       : "- faster and superb securer";
