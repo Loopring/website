@@ -24,9 +24,6 @@ class HeroSection extends I18nComponent {
     const subTitle1 = this.isChinese()
       ? "在以太坊 Layer 2 上交易，费用减少 100 倍"
       : "Fast, secure and 100x lower fees, only on L2";
-    const subTitle2 = this.isChinese()
-      ? "- 更快、更安全"
-      : "- faster and superb securer";
 
     return (
       <section
@@ -44,7 +41,6 @@ class HeroSection extends I18nComponent {
               <div className="subtitle3">{subTitle3}</div>
               <div className="title">{title}</div>
               <div className="subtitle1">{subTitle1}</div>
-              <div className="subtitle2">{subTitle2}</div>
               <LaunchAppButtonButtonStyled
                 variant={"contained"}
                 fullWidth={true}
