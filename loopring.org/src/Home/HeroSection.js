@@ -19,7 +19,7 @@ class HeroSection extends I18nComponent {
     const subTitle3 = this.isChinese() ? "路印提供" : "Loopring offers";
     const title = this.isChinese()
       ? "以太第一个zkRollup二层"
-      : "Ethereum's First zkRollup Layer2";
+      : "Ethereum's First zkRollup Layer 2";
     const titleClass = this.isChinese() ? "chinese" : "";
     const subTitle1 = this.isChinese()
       ? "在以太坊 Layer 2 上交易，费用减少 100 倍"
