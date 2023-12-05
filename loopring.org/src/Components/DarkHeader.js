@@ -102,19 +102,18 @@ class DarkHeader extends I18nComponent {
                   <Translate id="lrc" />
                 </div>
               </NavLink>
-              <NavLink
-                activeClassName="active"
+              <a
                 className="navbar-item"
-                to="/blog"
-                onClick={this.onLinkClick.bind(this)}
+                href="https://medium.com/loopring-protocol"
+                target="_blank"
               >
                 <div className="pageLink">
                   <Translate id="updates" />
                 </div>
-              </NavLink>
+              </a>
               <a
                 className="navbar-item"
-                href="https://loopring.io/#/layer2"
+                href="https://loopring.io"
                 target="_blank"
               >
                 <div className="pageLinkExt">
