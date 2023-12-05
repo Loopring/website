@@ -102,8 +102,8 @@ class Header extends I18nComponent {
               <NavLink
                 activeClassName="active"
                 className="navbar-item"
-                onClick={
-                   window.open("https://medium.com/loopring-protocol",'_blank');
+                onClick={() =>
+                  window.open("https://medium.com/loopring-protocol", "_blank")
                 }
               >
                 <div className="pageLink">
