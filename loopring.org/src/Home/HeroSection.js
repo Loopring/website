@@ -46,7 +46,7 @@ class HeroSection extends I18nComponent {
                 fullWidth={true}
                 size={"large"}
                 onClick={() => {
-                  window.open("https://loopring.io/#/trade/lite/LRC-ETH");
+                  window.open("https://loopring.io");
                 }}
               >
                 <div>LAUNCH APP</div>
