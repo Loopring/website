@@ -102,8 +102,9 @@ class Header extends I18nComponent {
               <NavLink
                 activeClassName="active"
                 className="navbar-item"
-                to="/blog"
-                onClick={this.onLinkClick.bind(this)}
+                onClick={
+                   window.open("https://medium.com/loopring-protocol",'_blank');
+                }
               >
                 <div className="pageLink">
                   <Translate id="updates" />
@@ -114,7 +115,7 @@ class Header extends I18nComponent {
                 fullWidth={true}
                 size={"large"}
                 onClick={() => {
-                  window.open("https://loopring.io/#/trade/lite/LRC-ETH");
+                  window.open("https://loopring.io");
                 }}
               >
                 <div>Launch App</div>
